@@ -1,595 +1,589 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Arabic
-https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8#a473fc40570f020281b0ebf7e7f7fde5a2ed72e1634655e72a1a023b17a6f030
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Arabic
-https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8#a234138a13720881507c47291b96fa81abbaae16d20c07298600175984d35ec8
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Arabic
-https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8#1f20bde3c6c30abc6157969bede82f71321a8d1840c842b51263c103b67f3f0a
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Arabic
-https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Arabic
-https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
-#EXTINF:-1 tvg-name="Belarusian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Belarusian
-http://media1.skifnet.by/sporttv/index.m3u8#dc215ff0af35afc4f9db07cf0310b23210bec8120d5ae289a30aa11a27bd6d8a
-#EXTINF:-1 tvg-name="Bhojpuri" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Bhojpuri
-https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
-#EXTINF:-1 tvg-name="Burmese" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Burmese
-https://mrtvott.com/fc68d04dea9543e13bdb4180b6ef6ced---/cache/MRTV-SPORT/master.m3u8#c32715d81a66ee6eeefcec89c5c4a743f88789974d0280379647e3de35fed2a9
-#EXTINF:-1 tvg-name="Catalan" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Catalan
-https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8#36fd372609123383682d6904f06b97624d4b164873537ccb0ff24c5c1c6951b6
-#EXTINF:-1 tvg-name="Catalan" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Catalan
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8#fcd895adb71372498faf6aed9ff2ac645bd31d87d94a75f0efb4d882bccfffc5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fbein-esp-xumo.amagi.tv%2Fplaylist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Flivetr.teleromagna.it%2Fmia%2Flive%2Fplaylist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Frmtv.akamaized.net%2Fhls%2Flive%2F2043153%2Frmtv-es-web%2Fmaster.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Famg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-sportitalia-rakuten%2FCDN%2Fmaster.m3u8#f050abef5692e011e873ceca65d2ec90291d9fe0a6fa6904f4cb3fe0d6fe39fd
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischnlintl-lggb%2Fplaylist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Famg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv%2Fts-us-e2-n2%2Fplaylist%2Famg26268-sportsstudio-tycsports-freelivesportsemea%2Fplaylist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Ftvr-sport.lg.mncdn.com%2Ftvrsport%2Fsmil%3Atvrsport.smil%2Fchunklist_b5160000.m3u8#91d70ef8067d13ae3c405f5984f7baca9d506a4d4c9e0599d42cae8ef7633eb4
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Flive-manifest.production-public.tubi.io%2Flive%2Fd906efca-1302-4e29-b0d9-9a1d7a305d69%2Fplaylist.m3u8#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fnautical_720p%2Fplaylist.m3u8#621ed3720d7086430aec69461358a1668132175b286359bca439b4a3834bc922
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmainstreammedia-worldoffreesportsintl-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten%2FCDN%2Fmaster.m3u8#8ab9ab9ddc1246ecc268ae539e0fb72299a5ec7e34dc0f78bbe6088425f7171a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-ue1-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischannelnl-samsungnl%2Fplaylist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmts1.iptv-playoutcenter.de%2Fmts%2Fmts-web%2Fplaylist.m3u8#5909051a30c37414993a70a613246d61a3ab8de162c7c9fce27d161b3a2c9755
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fsrvx1.selftv.video%2Fdmchannel%2Flive%2Fplaylist.m3u8#c1ad497576c8068675490eb521733c3e2a20daad5853d450ee78ccd1469d6056
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Freal-vk.proxy.nellaiiptv.com%2FSDMEDIA%2Findex.m3u8#9ffde26ce618c1f9c950d595452c8ce9598faffeca51ebe13a2a475b6798ffb0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F13%2Fmaster.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fsportsgrid-samsungus.amagi.tv%2Fplaylist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTennis2%2Findex.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2F1657061170.rsc.cdn77.org%2FHLS%2FFTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvssports%2Findex.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_TENNIS%2Findex.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fbein-beinxtrasports-firetv.amagi.tv%2Fplaylist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvswsn%2Findex.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fpac12-samsungus.amagi.tv%2Fplaylist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv%2Fplaylist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
-http://eja.tv/?http%3A%2F%2F41.205.93.154%2FESPNNEWS%2Findex.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fusa%2Findex.m3u8%3Ftoken%3Dtest#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_NBA%2Findex.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fd3d85c7qkywguj.cloudfront.net%2Fscheduler%2FscheduleMaster%2F263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fbein-xtra-xumo.amagi.tv%2Fplaylist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fna.linear.zype.com%2Fe0bd0e23-a958-4e43-8164-4f2fef8876a8%2Ffd3614bd-90bf-4530-a277-65ae3a1720c8-zype%2Flive.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv%2Fplaylist%2Famg00218-wptenterprisesi-worldpokertour-klowdtv%2Fplaylist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Frightsboosterltd-scl-2-eu.rakuten.wurl.tv%2Fplaylist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fsportsgrid-plex.amagi.tv%2Fplaylist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2FtalkSPORT%2Findex.m3u8#794a20b01e692fbd08d15d61cd5d11035ea77b7a91e00e0bdc03011ced2dc6c0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_3%2Findex.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Ffastly.live.brightcove.com%2F6374054671112%2Feu-west-1%2F6058004203001%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4%2Fplaylist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffntsy_720p%2Fplaylist.m3u8#bc0e5374a2acc7f4e3f0e6419dfacc3599a500b772dbe74f4da5c10e21df7ea3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffight_720p%2Fplaylist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2F636ffd31f0e12.streamlock.net%2FRacingStream1%2FRacingStream1%2Fplaylist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fscheduler%2FscheduleMaster%2F418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2F636ffd31f0e12.streamlock.net%2FRacingStream2%2FRacingStream2%2Fplaylist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fptnr-yupptv%2Ftitle-cricketgold%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb2048bb8-1686-4432-aa50-647245383e0c%2Fmanifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSports%2Findex.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSportsHD%2Findex.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreamtv.as3sport.online%3A3394%2Fhybrid%2Fplay.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa020%2Findex.m3u8#d115de1a6279787aeb21b3586c44d7bac9c88a8bd1e3f421269173297528a388
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa04i%2Findex.m3u8#6cce15adcdbae3405f8a4a9a5b5d241df3df67e3338ac7a277ffb6b4a18e3fbf
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fmaster.tucableip.com%2Fftvhd%2Findex.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Funlimited6-cl.dps.live%2Fsportinghd%2Fsportinghd.smil%2Fplaylist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FEurosport_1_HD%2Findex.m3u8#1d20cf47732f91299e85d3ed310bb7fd1bccb897b08cf01c027313a8f72a928b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F45.228.234.9%3A8000%2Fplay%2Fa06b%2Findex.m3u8#2db8cd1f692c2881978914d2bf2ada7964d3c4f231460028222549df13a04ff6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="news",Channel
-http://eja.tv/?https%3A%2F%2Fafrica24.vedge.infomaniak.com%2Flivecast%2Fik%3Aafrica24sport%2Fmanifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Famg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv%2Fplaylist%2Famg00378-mavtvfast-motorsportsnetwork-rakutenus%2Fplaylist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist.m3u8#a473fc40570f020281b0ebf7e7f7fde5a2ed72e1634655e72a1a023b17a6f030
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F235%2Findex.m3u8#38e3ff5229d43384e8b544161e8ede08b367b4afcdb6ff89a49aa40fd45e6101
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F234%2Findex.m3u8#cc9781d1b11b8153c747aff4baabbc582c8b850ec0dedacc50dacf223d921c37
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fkwtspta.cdn.mangomolo.com%2Fsp%2Fsmil%3Asp.stream.smil%2Fchunklist.m3u8#a234138a13720881507c47291b96fa81abbaae16d20c07298600175984d35ec8
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Abahrainsportstwo_all%2Fplaylist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ffighthls.persiana.live%2Fhls%2Fstream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fkanal75xto-llhls.akamaized.net%2Flive%2FData%2Fatg-kanal-15-02a-rr%2FHLS-Legacy-HL%2Fatg-kanal-15-02a-rr.m3u8#3e0efc2fa73a9727624da8d1b703017d334bd7c650376f39d96a61a952297ea6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-231198%2Findex.m3u8#eb8074c6b1d9d59cef728507dde4abc1f5fd3cc7952d04869cefc658c2460afd
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fkwtsplta.cdn.mangomolo.com%2Fspl%2Fsmil%3Aspl.stream.smil%2Fchunklist.m3u8#1f20bde3c6c30abc6157969bede82f71321a8d1840c842b51263c103b67f3f0a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fedge-001.streamup.eu%2Fsportitalia%2Fsisolocalcio_abr%2Fplaylist.m3u8#03080f01c7689f5ac429641a6e1e07bc03b392eec21fb0d2e74e13e724a29a65
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ftracesportstars-klowdtv.amagi.tv%2Fplaylist.m3u8#c5f4adab172b8b034e72a2baeadba0639e77858b21b7c6e7d7745046a9b82069
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv%2Fplaylist%2Famg01074-fueltv-fueltvau-samsungau%2Fplaylist.m3u8#2b30d5b1be35679e87489584c2e429565b349a0c7884e36606fcece82ab062e9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fhorsetv_720p%2Fplaylist.m3u8#1707be173e849dcd9e3adae8984436f168ac2c64e2e181f13208acf2dd89c6f9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fqazsporttv-stream.qazcdn.com%2Fqazsporttv%2Fqazsporttv%2Fplaylist.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Asportsone_all%2Fplaylist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fedge-001.streamup.eu%2Fsportitalia%2Fsihd_abr%2Fplaylist.m3u8#f06ebdacc7f829842ef70c3185d05197762f00139ba08885134b59e2d4731f72
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreaming.astrakhan.ru%2Fastrakhanrusporthd%2Fplaylist.m3u8#7be5faf38433a25ebb455aeaa4e0c6825771a9284cae4b257cb8a40427698cab
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fwebtvstream.bhtelecom.ba%2Ffightbox.m3u8#a9315891bbd400cc750dbc448035ca93544f8d4493b9f0cda7b2dd4dfe27bd4f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F185.121.1.163%3A8083%2FFootballHD%2Findex.m3u8#903e4a8e72a30b73fc6de1d5520bf61b47e4b98b16625ccb6e8527e32dd22883
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F416%2Findex.m3u8#317b6d833e23b70a294e1488998d364159bcebedef83dff3a794559b685bd6af
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F461%2Findex.m3u8#e554c4f057e9865318a0ae54fef138a1f1aa6c94a28ab85663ad38ded74485c6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FMNBSport%2FHLSv3-FTA%2FMNBSport.m3u8#454769a758ff3403579e34d14931412ecb33ae507f1d0eb38e9545d7e4a09747
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Flive.mnb.mn%2Fhls%2Fmnb_sport.stream.m3u8#8300b1a07956ae00f43d04ad897a24ac2a8f3a7eb59a3a38e07742c06391b05f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fmedia1.skifnet.by%2Fsporttv%2Findex.m3u8#dc215ff0af35afc4f9db07cf0310b23210bec8120d5ae289a30aa11a27bd6d8a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv%2Fplaylist%2Famg01074-fueltv-fueltvnz-samsungnz%2Fplaylist.m3u8#72a14a9eafb4c85935b4ff259b92eb58b7ad6557fbfc459ee2578d0529305fde
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frbmn-live.akamaized.net%2Fhls%2Flive%2F590964%2FBoRB-AT%2Fmaster.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-462904%2Fplaylist.m3u8#a96622b2a3ed12edd46c7842a72cba77372ebca95d146b20edcacb493ff98f33
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F444%2Findex.m3u8#e03629fd4f900ce94d8fd8439056a88db5926fb637bcb6aa967434bb2bf37f46
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F169%2Findex.m3u8#500177d9a6e65df87a2043b01b8d8f361ff0c5080749466ca95bcb0859824f7c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F392%2Findex.m3u8#e6d796136188316346f443ae9530f158c99e99c88d992f506d5ed04789c8b7de
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F393%2Findex.m3u8#e77ac9213e69fea6ad8062c0753a6829089cc3405299ce07f7ad2dafedc4d7b6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fngtrk.dc.beltelecom.by%2Fngtrk%2Fsmil%3Abelarus5.smil%2Fplaylist.m3u8#dc0a24f8725bcc88bd57673c898e20b5faeac1ed503d99daaa1b4bc2d5df2e08
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdirectes-tv-int.3catdirectes.cat%2Flive-content%2Fesport3-hls%2Fmaster.m3u8#36fd372609123383682d6904f06b97624d4b164873537ccb0ff24c5c1c6951b6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ffdd6f243-f971-4a1a-9510-97ac01d6b37f%2Fmanifest.m3u8#44e4b2823975eefd709c0579bb0a2a90be57016eb771471731dfce11036b70c7
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Fesp_4k_atk%2Fplaylist.m3u8#c0244e864c076af4d329ba3b91a010f3786b56403c21d99a69136fef6e393506
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ftjktv-live.tjk.org%2Ftjktv.m3u8#a546ba7abdbae0b9aea822e4ab2170850da1fd9b01d618bfa8dbf1c59682ddaa
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_ctsport_25p%2Fplaylist.m3u8#be49b7c703ee22c1c4057477fb141b1b379d48f3acebab175a7bb9847800a9e9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fnosignal1.antenaplay.ro%2Fhls%2Ffightbox-hd%2Findex.m3u8#9b7fb683ac25f07a8ad0a072c1a215fa846693ac9ebf83aeb5a4b746a7afa05b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frally-tv-live.akamaized.net%2Fhls%2Flive%2F2117704%2FRallyTV-Pri%2Fmaster.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F1hskrdto.rocketcdn.com%2Ffenerbahcetv.smil%2Fplaylist.m3u8#d972e6442fb0375e75945116df59e42811baa6696bcfd0e71690485d736360cc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2F2-fss-1.streamhoster.com%2Fpl_154%2Famlst%3A205448-2145652%2Frightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-469239%2Findex.m3u8#0782b58514576a448ae3ff6f91a9d6c0161e35d0d3be31015bc34e68226ddc48
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FEurosport_2_HD%2Findex.m3u8#0f122f5081c30bf81a2ef660a0c449d5e5346d40c287199f3dfcd1642e28c791
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_sport1_25p%2Fplaylist.m3u8#8df395d375ceb79d29939f3906a68bfe381f151caa22d4e047002c756d2017f3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvs%2Findex.m3u8#1c2cabab8bbd0979c62b19051ec6887d44e8880d8522fab1a2b7f20204511a6b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fd1hlbgn3fph0cz.cloudfront.net%2Fplaylist.m3u8#bf5d18581c2907c863cd0e1c2deb25f70ecb4674dc8c20c3ee9b3b4a29b53481
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F181.78.197.59%3A8000%2Fplay%2Fa081%2Findex.m3u8#6dc0bd805e76095a49fa84cb84fd51906767207a38a43faf06f36d6d50117412
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F181.78.197.59%3A8000%2Fplay%2Fa07n%2Findex.m3u8#adeff3e740e2cb519950c0787ce4f39bf76dbe854097681f44a7c27d09d6c97a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Frightnowtv_720p%2Fplaylist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_rtvs_sport_hevc%2Fplaylist.m3u8#6093db6655a1d328e20ef122d01a87d2287486569a8da6a1ca096409d70852b5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvssportsbureau%2Findex.m3u8#6e6f9a7bbc7043355794595232400c46d8173d737c097298c8d4f5be2c84a334
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-fueltvemeaen%2FCDN%2Fmaster.m3u8#857114f3f69e30bc8a1b25a080726d02957374bc1c5ac49990d157a112dc82a5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F212%2Findex.m3u8#1d25b11fa5b9a50d9fa82ef74aa4f00ea489e1c0757c58b8269a2bb180644c31
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00e%2Findex.m3u8#f660c6e71ecc5aff081ac573fce8d1ecc7b4d7c4302308ee4dda5c2334fc7ab9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Frezofoot.tv%2FNBATV%2Findex.m3u8#52269ca9c33a341958d0f0298528cac4338535b4059fdffd01bfae1389cb4279
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ftvturf4.janus.cl%2Fplaylist%2Fstream.m3u8%3Fd%3Dw%26id%3D#660479510c63d6a6299e0ee3b0d850631a0e453cd70b6a3f5db3244168154d65
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Ftv.streambox.fr%2Flive%2Ftestlivestream%2Ftestlivestream%2F31.m3u8#4c7138894083af509775f0cbd0cd881a7822b1e85a22b34f5302aadf900f79d4
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdokagents.site%2Flive%2Fdigisport1%2Fmono.m3u8#c71d9328543c97f2ce4615f36b4aa184e785d63aa2396d6333a99a1d159f11b3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fcdn2.ujjina.com%3A1935%2Fiptvovacion1%2Fliveovacion1tv%2Fplaylist.m3u8#2b622f52d595e01c787eb7864f907d5235b5ec86ce32d5354ba10084dcd7ee05
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Famg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv%2Fplaylist%2Famg00477-samsungelectron-worldpokertour-samsunguk%2Fplaylist.m3u8#d892893c3b590a0a4702c34e8a5fd616e3b686330d6e8870a362487431fdfdfc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2Fnfl%2Findex.m3u8#956abb40da052a817ff0219e1b3a38a7453e617a803587c81b532a12889bbde2
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffite247_720p%2Fplaylist.m3u8#0785236a34835de45c9cd7b75c7cc4401e2fb59ee0c7f8f2bae4595381d48c02
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Flive-04-11-tyc-app-web.vodgc.net%2Ftyc24%2Findex.m3u8#8c023797c291f42c50e1d224006bdcc11b93a36e10087174a09aec45ea7c9ad7
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsboxing%2Findex.m3u8#39b0e148930798efde5301085fc5cd3db5d68fa91230ad760ab3174636bc7335
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fcnn.livestreaminggroup.info%3A3132%2Flive%2Fcolimdotvlive.m3u8#380c55ec7bd968d14c2363e33cfd0ac00216ef147a7293ce742153711cf7ff9f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsbowling%2Findex.m3u8#2643580f023425ac7171413cc1d146914efb36943a3d49892928ec4d1a40d334
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fwurl120sports.global.transmit.live%2Fhls%2F679a907dce42a042c23ace37%2Fv1%2Fstadium_gracenote%2Fsamsung_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8#880b70ff9015275023583eb8239b88a6a80c6d58381207b5f0722126bee29d8d
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2F7f3Wv6f7QEKfQna22jHqLQ%2Fmaster.m3u8#28b86585a451421935575ca3b845c2c68d532a1d137e97e15f95cd9016853daa
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa04k%2Findex.m3u8%3Fhls#812aca487c44d97dbce6ebf8d5efff8607ffbfe47e69bd94578b8922e78f7e96
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_arenasport%2Fplaylist.m3u8#e9999dab9c7ec91b71cfc533d7acb8dcac190873b3be42b24a6d5965be201eba
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_arenasport_dva%2Fplaylist.m3u8#b1605f5f6baf5599a349ab0fde68fb6f54d0759c9f7e3dd89c5cada0fc704bc4
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdash4.antik.sk%2Flive%2Ftest_golf_channel%2Fplaylist.m3u8#278499947d0c82e7050c47c6c53eb3ba7bff2c0751500d03a6d3af024b7503c2
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fhls.tvabierta.net%2Fhls%2F036.m3u8#4863cf4c00f7e6408234691fe9cc2dabe43e7c2122955b6e41200bed25f94e7e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreaming.onnethn.com%2FDEPORTES_TVC%2Fplaylist.m3u8#44542eaac811040f29312a6a9bb393c6552b47cd01fb7b7626d3007a45250395
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsturbo%2Findex.m3u8#3c0e1fd6587525d9e1cdeae6b19c098f5b55dee1c33b5db7e17550002e31a43f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_sport_2%2Fplaylist.m3u8#983d186e3331b99ed76e285a27f44a9e61526a29e057f636660a2fda420a9906
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F45.132.87.69%3A8080%2Fmatch%2Findex.m3u8#1011cb116dfff4d90fa1d668feee29b73e94c72049617923559d8652c06151c0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2F30a-tv.com%2Ffeeds%2Fvidaa%2Fgolf.m3u8#d513cdcfc18f8e2aa9edd38016dbd57a4c0ea7abec2943a8ebd0623712df8766
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdirectes-tv-int.3catdirectes.cat%2Flive-origin%2Fesport3-hls%2Fmaster.m3u8#fcd895adb71372498faf6aed9ff2ac645bd31d87d94a75f0efb4d882bccfffc5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00f%2Findex.m3u8#19372a90b68f65fab8202e049f346dd9f86acefe553a9a81222d697900ff11e6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Ffreem3u.xyz%2Fapi%2Flive%2Fplay.m3u8%3Fvid%3D255#a6133a18361c8e623efc380e00b45928f0323e1220b723a87880202072b94e49
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fdokagents.site%2Flive%2Fdigisport2%2Fmono.m3u8#b7b58c4cbdbbe54afc00eb25d614c67e6b681d738d831c3ad722184ab876e063
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00h%2Findex.m3u8#3f66d0ec4a9f30361c7e0580cdee2e311899b6a4a0ede961dcb679526df3cc99
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Flive-us1.thaimomo.com%2Flive-as%2Fchtsport-1%2Fplaylist.m3u8#bfea4bec34fab6bfa3652ead47c90e979dd652340652d64bb8c24428ca48affc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fteam-tv.co%3A81%2Fmilan%2Findex.m3u8#8a513c811736f266a88d972269ad31aebeb304679503da309271078ca9b8d50f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fd2e00kr7m9coe4.cloudfront.net%2Fscheduler%2FscheduleMaster%2F406.m3u8#70f74ad0e09c436b4031b9c8eb7eff6f8a217922d032e62e31885630532caba3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fncdn.telewebion.ir%2Ftv3%2Flive%2Fplaylist.m3u8#0239fbdd8cb5eb8af01d0a88785e78c570757929966eeb913643925d7100234a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fmrtvott.com%2Fcache%2FMRTV-SPORT%2Fmaster.m3u8#c32715d81a66ee6eeefcec89c5c4a743f88789974d0280379647e3de35fed2a9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTraceSport%2Findex.m3u8#43305789a8824413a843c39584d6aa3bab537cdba5fd27648d169a52d2c3e632
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.rabta.stream%2FM-Sports%2Ftracks-v1a1%2Fmono.m3u8#79db53cdaad03c244088eb0f37f5d9211dd2b624e690005eaee85b7cc8ccd4ae
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Frtvelivestream.rtve.es%2Frtvesec%2Ftdp%2Ftdp_main.m3u8#774f00fc4a494034e4f06766c7d32b1d9446a57790884998695c9f31cdff96f4
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F178%2Findex.m3u8#6f3431cf712e8a9d0fd4e97ce016651919ea967e43329bacd7a623ce30f1ebf5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FTigo_Sports%2Ftracks-v1a1%2Fmono.m3u8#69b5aa6d0310b1053f2ad16a428854a035c9370a252f93324645b6b03c2269fb
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fvip-acasatv.online%3A25463%2FlrZuGxAuP3%2F6782859900%2F16677.m3u8#93ea28cafe890a0b15c8c0f0a3af8aadf68be963b0660acbdbb2fdaf9030ce13
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fd3rl6ns7c3ilda.cloudfront.net%2Fscheduler%2FscheduleMaster%2F438.m3u8#beabc88ae44f69ad2a0a928902c55526a6672181a25bad42bfbda9126a588afb
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00g%2Findex.m3u8#2363414a76b6591e5e0e1fd5b8014d3d1ae3745456535d419f72de0c467e2f6a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
-http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2FParadise-91%2FParaTV%2Fmain%2Fstreams%2Fequidia%2Flive2.m3u8#cbc223438b2d79d67b9109d9c4a10c800960d9b276d5d2cae3d937f9c7666fb2
-#EXTINF:-1 tvg-name="Czech" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Czech
-http://88.212.15.50/live/esp_4k_atk/playlist.m3u8#c0244e864c076af4d329ba3b91a010f3786b56403c21d99a69136fef6e393506
-#EXTINF:-1 tvg-name="Czech" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Czech
-http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8#be49b7c703ee22c1c4057477fb141b1b379d48f3acebab175a7bb9847800a9e9
-#EXTINF:-1 tvg-name="Czech" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Czech
-https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8#278499947d0c82e7050c47c6c53eb3ba7bff2c0751500d03a6d3af024b7503c2
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",English
-https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTUwOTk0NjIsImlzcyI6ImFlZ2lzIn0.MV_Ms2B5fh5vKEI_hfQIhAhwaPj9aqxMDaFvW9Pe6YyUSN584DG1a83t6QyC7SkQ5xwydM1SYXQfGnrcdlsK0A#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",English
-https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8#621ed3720d7086430aec69461358a1668132175b286359bca439b4a3834bc922
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Sports",English
-https://cdn.pishow.tv/ott/live/13/master.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://sportsgrid-samsungus.amagi.tv/playlist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://pac12-samsungus.amagi.tv/playlist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
-http://41.205.93.154/ESPNNEWS/index.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-http://4.30.180.36:8420/usa/index.m3u8?token=test#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-http://23.237.104.106:8080/USA_NBA/index.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://bein-xtra-xumo.amagi.tv/playlist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
-https://sportsgrid-plex.amagi.tv/playlist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-http://23.237.104.106:8080/DAZN_3/index.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-https://tvsen6.aynaott.com/talkSPORT/index.m3u8#794a20b01e692fbd08d15d61cd5d11035ea77b7a91e00e0bdc03011ced2dc6c0
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Sports",English
-https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8#bc0e5374a2acc7f4e3f0e6419dfacc3599a500b772dbe74f4da5c10e21df7ea3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Sports",English
-https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
-https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
-https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
-https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
-https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",English
-http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8#1d20cf47732f91299e85d3ed310bb7fd1bccb897b08cf01c027313a8f72a928b
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://stream.mcquack.net/235/index.m3u8#38e3ff5229d43384e8b544161e8ede08b367b4afcdb6ff89a49aa40fd45e6101
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://stream.mcquack.net/234/index.m3u8#cc9781d1b11b8153c747aff4baabbc582c8b850ec0dedacc50dacf223d921c37
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8#2b30d5b1be35679e87489584c2e429565b349a0c7884e36606fcece82ab062e9
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8#a96622b2a3ed12edd46c7842a72cba77372ebca95d146b20edcacb493ff98f33
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8#72a14a9eafb4c85935b4ff259b92eb58b7ad6557fbfc459ee2578d0529305fde
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8#44e4b2823975eefd709c0579bb0a2a90be57016eb771471731dfce11036b70c7
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://2-fss-1.streamhoster.com/pl_154/amlst:205448-2145652/rightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8#1c2cabab8bbd0979c62b19051ec6887d44e8880d8522fab1a2b7f20204511a6b
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8#d972e6442fb0375e75945116df59e42811baa6696bcfd0e71690485d736360cc
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/ts-us-e2-n1/playlist/rakutenAA-fueltvemeaen/playlist.m3u8#857114f3f69e30bc8a1b25a080726d02957374bc1c5ac49990d157a112dc82a5
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://cdn2.ayitistream.com:80/NBATV/index.m3u8#52269ca9c33a341958d0f0298528cac4338535b4059fdffd01bfae1389cb4279
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8#6e6f9a7bbc7043355794595232400c46d8173d737c097298c8d4f5be2c84a334
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://a-cdn.klowdtv.com/live2/fite247_720p/playlist.m3u8#0785236a34835de45c9cd7b75c7cc4401e2fb59ee0c7f8f2bae4595381d48c02
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://stream.mcquack.net/212/index.m3u8#1d25b11fa5b9a50d9fa82ef74aa4f00ea489e1c0757c58b8269a2bb180644c31
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8#880b70ff9015275023583eb8239b88a6a80c6d58381207b5f0722126bee29d8d
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8#39b0e148930798efde5301085fc5cd3db5d68fa91230ad760ab3174636bc7335
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8#2643580f023425ac7171413cc1d146914efb36943a3d49892928ec4d1a40d334
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://tvsen6.aynaott.com/nfl/index.m3u8#956abb40da052a817ff0219e1b3a38a7453e617a803587c81b532a12889bbde2
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://dai.google.com/linear/hls/pa/event/7f3Wv6f7QEKfQna22jHqLQ/stream/47229897-548a-4b22-be40-8538d04d948b:TUL/master.m3u8#28b86585a451421935575ca3b845c2c68d532a1d137e97e15f95cd9016853daa
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://92.114.85.87:8002/play/a00e/index.m3u8#f660c6e71ecc5aff081ac573fce8d1ecc7b4d7c4302308ee4dda5c2334fc7ab9
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8#3c0e1fd6587525d9e1cdeae6b19c098f5b55dee1c33b5db7e17550002e31a43f
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://92.114.85.87:8002/play/a00f/index.m3u8#19372a90b68f65fab8202e049f346dd9f86acefe553a9a81222d697900ff11e6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://92.114.85.87:8002/play/a00h/index.m3u8#3f66d0ec4a9f30361c7e0580cdee2e311899b6a4a0ede961dcb679526df3cc99
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://30a-tv.com/feeds/vidaa/golf.m3u8#d513cdcfc18f8e2aa9edd38016dbd57a4c0ea7abec2943a8ebd0623712df8766
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-https://d3rl6ns7c3ilda.cloudfront.net/scheduler/scheduleMaster/438.m3u8#beabc88ae44f69ad2a0a928902c55526a6672181a25bad42bfbda9126a588afb
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
-http://92.114.85.87:8002/play/a00g/index.m3u8#2363414a76b6591e5e0e1fd5b8014d3d1ae3745456535d419f72de0c467e2f6a
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="news",French
-https://edge11.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",French
-https://streams2.sofast.tv/vglive-sk-231198/index.m3u8#eb8074c6b1d9d59cef728507dde4abc1f5fd3cc7952d04869cefc658c2460afd
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",French
-https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8#c5f4adab172b8b034e72a2baeadba0639e77858b21b7c6e7d7745046a9b82069
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",French
-http://51.255.167.118/live/testlivestream/testlivestream/31.m3u8#4c7138894083af509775f0cbd0cd881a7822b1e85a22b34f5302aadf900f79d4
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",French
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8#cbc223438b2d79d67b9109d9c4a10c800960d9b276d5d2cae3d937f9c7666fb2
-#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",German
-https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8#8ab9ab9ddc1246ecc268ae539e0fb72299a5ec7e34dc0f78bbe6088425f7171a
-#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",German
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8#5909051a30c37414993a70a613246d61a3ab8de162c7c9fce27d161b3a2c9755
-#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Greek
-http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8#0f122f5081c30bf81a2ef660a0c449d5e5346d40c287199f3dfcd1642e28c791
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Italian
-https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/ts-us-e2-n1/playlist/rakutenAA-sportitalia-rakuten/playlist.m3u8#f050abef5692e011e873ceca65d2ec90291d9fe0a6fa6904f4cb3fe0d6fe39fd
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Italian
-https://livetr.teleromagna.it/mia/live/playlist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Italian
-https://srvx1.selftv.video/dmchannel/live/playlist.m3u8#c1ad497576c8068675490eb521733c3e2a20daad5853d450ee78ccd1469d6056
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Italian
-https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Italian
-https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8#1707be173e849dcd9e3adae8984436f168ac2c64e2e181f13208acf2dd89c6f9
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Italian
-https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8#03080f01c7689f5ac429641a6e1e07bc03b392eec21fb0d2e74e13e724a29a65
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Italian
-https://streams2.sofast.tv/vglive-sk-469239/index.m3u8#0782b58514576a448ae3ff6f91a9d6c0161e35d0d3be31015bc34e68226ddc48
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Italian
-http://team-tv.co:81/milan/index.m3u8#8a513c811736f266a88d972269ad31aebeb304679503da309271078ca9b8d50f
-#EXTINF:-1 tvg-name="Kannada" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Kannada
-https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
-#EXTINF:-1 tvg-name="Kazakh" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Kazakh
-https://block.qazcdn.com/block/geoblock.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
-#EXTINF:-1 tvg-name="Lithuanian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Lithuanian
-http://stream.mcquack.net/416/index.m3u8#317b6d833e23b70a294e1488998d364159bcebedef83dff3a794559b685bd6af
-#EXTINF:-1 tvg-name="Mongolian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Mongolian
-https://live.mnb.mn/hls/mnb_sport.stream.m3u8#8300b1a07956ae00f43d04ad897a24ac2a8f3a7eb59a3a38e07742c06391b05f
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Persian
-https://fighthls.persiana.live/hls/stream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Persian
-https://live-aburayhan1110.telewebion.ir/ek/tv3/live/playlist.m3u8?isp=NA&city=NA#0239fbdd8cb5eb8af01d0a88785e78c570757929966eeb913643925d7100234a
-#EXTINF:-1 tvg-name="Polish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Polish
-https://webtvstream.bhtelecom.ba/fightbox.m3u8#a9315891bbd400cc750dbc448035ca93544f8d4493b9f0cda7b2dd4dfe27bd4f
-#EXTINF:-1 tvg-name="Polish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Polish
-https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8#9b7fb683ac25f07a8ad0a072c1a215fa846693ac9ebf83aeb5a4b746a7afa05b
-#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Portuguese
-http://181.78.197.59:8000/play/a081/index.m3u8#6dc0bd805e76095a49fa84cb84fd51906767207a38a43faf06f36d6d50117412
-#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Portuguese
-https://d1hlbgn3fph0cz.cloudfront.net/playlist.m3u8#bf5d18581c2907c863cd0e1c2deb25f70ecb4674dc8c20c3ee9b3b4a29b53481
-#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Portuguese
-http://181.78.197.59:8000/play/a07n/index.m3u8#adeff3e740e2cb519950c0787ce4f39bf76dbe854097681f44a7c27d09d6c97a
-#EXTINF:-1 tvg-name="Romanian" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Romanian
-https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8#91d70ef8067d13ae3c405f5984f7baca9d506a4d4c9e0599d42cae8ef7633eb4
-#EXTINF:-1 tvg-name="Romanian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Romanian
-https://dokagents.site/live/digisport1/mono.m3u8#c71d9328543c97f2ce4615f36b4aa184e785d63aa2396d6333a99a1d159f11b3
-#EXTINF:-1 tvg-name="Romanian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Romanian
-https://dokagents.site/live/digisport2/mono.m3u8#b7b58c4cbdbbe54afc00eb25d614c67e6b681d738d831c3ad722184ab876e063
-#EXTINF:-1 tvg-name="Romanian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Romanian
-https://lb8.vip-acasatv.online:443/auth/RbXXjyFwENwPHyuYK30AkCr08PxnSqbanVgg-UWHckwUAje5QyOtX42mer0XMGV4vXp2o3L78OSTCXsf46H_3mLggeMKsT1NtU0TbNHJf0YUOz68gVsGoTfqL0u3e5DtKB24Cy7pCUlpqxJ_xajpsRfRmluKfeSD-JuKZq_Jg0C7xbAOl2yKhv_V9jVLdsh33svskufBrxDmfqX3g5mCIQmzSCz6_ODCaJl-M9DWTiUK8DkA1NnaSmUrOWyGqomoG5mzht6wonzCKdqkgecsXpDV4PIjkQ37QUKmgnwt-cjSKBgM3_mZYOIF0gNYVINxnC371QUmZk_3lI_Uha5ik_xa5j96wtPtFUR7xVSrUteGpctkvU2mHcfM2zGCbAHwf5CicuxCY9XSCdr-HdtlTzmU_1iNnDO36bx3d28hKERtzTaMSzLBu3k32VeE0HJ5oz1Fx28-qnqLrtCZVJM1UqVsqHna62rgq3qmA-OmveGs2fJoaiQ1HRc1XxncDFSvqthHk7O8NN6q_CqogA1pouLBHw3u4pqHTyCl1Qig0bdmG_Zg68D7F31lR6JXqkp4cxKoJHgRRk5f1r28sSBRX9IAtrruE0GV5_cxbJdRst7T2jhYQ2sES6Nj2dEv_Sgh#93ea28cafe890a0b15c8c0f0a3af8aadf68be963b0660acbdbb2fdaf9030ce13
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8#7be5faf38433a25ebb455aeaa4e0c6825771a9284cae4b257cb8a40427698cab
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-http://stream.mcquack.net/169/index.m3u8#500177d9a6e65df87a2043b01b8d8f361ff0c5080749466ca95bcb0859824f7c
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8#dc0a24f8725bcc88bd57673c898e20b5faeac1ed503d99daaa1b4bc2d5df2e08
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-http://45.132.87.69:8080/match/index.m3u8#1011cb116dfff4d90fa1d668feee29b73e94c72049617923559d8652c06151c0
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-http://stream.mcquack.net/178/index.m3u8#6f3431cf712e8a9d0fd4e97ce016651919ea967e43329bacd7a623ce30f1ebf5
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Russian
-https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8#43305789a8824413a843c39584d6aa3bab537cdba5fd27648d169a52d2c3e632
-#EXTINF:-1 tvg-name="Slovak" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Slovak
-http://88.212.15.50/live/test_sport1_25p/playlist.m3u8#8df395d375ceb79d29939f3906a68bfe381f151caa22d4e047002c756d2017f3
-#EXTINF:-1 tvg-name="Slovak" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Slovak
-http://88.212.15.50/live/test_rtvs_sport_hevc/playlist.m3u8#6093db6655a1d328e20ef122d01a87d2287486569a8da6a1ca096409d70852b5
-#EXTINF:-1 tvg-name="Slovak" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Slovak
-http://88.212.15.50/live/test_arenasport/playlist.m3u8#e9999dab9c7ec91b71cfc533d7acb8dcac190873b3be42b24a6d5965be201eba
-#EXTINF:-1 tvg-name="Slovak" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Slovak
-http://88.212.15.50/live/test_arenasport_dva/playlist.m3u8#b1605f5f6baf5599a349ab0fde68fb6f54d0759c9f7e3dd89c5cada0fc704bc4
-#EXTINF:-1 tvg-name="Slovak" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Slovak
-http://88.212.15.50/live/test_sport_2/playlist.m3u8#983d186e3331b99ed76e285a27f44a9e61526a29e057f636660a2fda420a9906
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Spanish
-https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Spanish
-https://amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-klowdtv/playlist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-http://45.170.130.224:8000/play/a020/index.m3u8#d115de1a6279787aeb21b3586c44d7bac9c88a8bd1e3f421269173297528a388
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
 http://45.170.130.224:8000/play/a04i/index.m3u8#6cce15adcdbae3405f8a4a9a5b5d241df3df67e3338ac7a277ffb6b4a18e3fbf
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-https://master.tucableip.com/ftvhd/index.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Spanish
-http://45.228.234.9:8000/play/a06b/index.m3u8#2db8cd1f692c2881978914d2bf2ada7964d3c4f231460028222549df13a04ff6
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8#d892893c3b590a0a4702c34e8a5fd616e3b686330d6e8870a362487431fdfdfc
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8#2b622f52d595e01c787eb7864f907d5235b5ec86ce32d5354ba10084dcd7ee05
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&amp;id=#660479510c63d6a6299e0ee3b0d850631a0e453cd70b6a3f5db3244168154d65
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://edge.livestreaminggroup.info/colimdotvlive/index.m3u8#380c55ec7bd968d14c2363e33cfd0ac00216ef147a7293ce742153711cf7ff9f
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-http://45.170.130.224:8000/play/a04k/index.m3u8?hls#812aca487c44d97dbce6ebf8d5efff8607ffbfe47e69bd94578b8922e78f7e96
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://hls.tvabierta.net/hls/036.m3u8#4863cf4c00f7e6408234691fe9cc2dabe43e7c2122955b6e41200bed25f94e7e
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8#70f74ad0e09c436b4031b9c8eb7eff6f8a217922d032e62e31885630532caba3
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="sports",/small>
+https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://d3rl6ns7c3ilda.cloudfront.net/scheduler/scheduleMaster/438.m3u8#beabc88ae44f69ad2a0a928902c55526a6672181a25bad42bfbda9126a588afb
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://stream.mcquack.net/212/index.m3u8#1d25b11fa5b9a50d9fa82ef74aa4f00ea489e1c0757c58b8269a2bb180644c31
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
 https://live-04-11-tyc-app-web.vodgc.net/tyc24/index.m3u8#8c023797c291f42c50e1d224006bdcc11b93a36e10087174a09aec45ea7c9ad7
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8#774f00fc4a494034e4f06766c7d32b1d9446a57790884998695c9f31cdff96f4
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Spanish
-https://streaming.onnethn.com/DEPORTES_TVC/playlist.m3u8#44542eaac811040f29312a6a9bb393c6552b47cd01fb7b7626d3007a45250395
-#EXTINF:-1 tvg-name="Swedish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Swedish
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8#2b30d5b1be35679e87489584c2e429565b349a0c7884e36606fcece82ab062e9
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8#880b70ff9015275023583eb8239b88a6a80c6d58381207b5f0722126bee29d8d
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://sportsgrid-plex.amagi.tv/playlist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://30a-tv.com/feeds/vidaa/golf.m3u8#d513cdcfc18f8e2aa9edd38016dbd57a4c0ea7abec2943a8ebd0623712df8766
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://92.114.85.87:8002/play/a00f/index.m3u8#19372a90b68f65fab8202e049f346dd9f86acefe553a9a81222d697900ff11e6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://stream.mcquack.net/166/index.m3u8#979555ccafc0e2cb632bc18e7bd4159563acb32d066508f1881fa314d6f4cc20
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+http://4.30.180.36:8420/usa/index.m3u8?token=test#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&amp;id=#660479510c63d6a6299e0ee3b0d850631a0e453cd70b6a3f5db3244168154d65
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+http://45.228.234.9:8000/play/a06b/index.m3u8#2db8cd1f692c2881978914d2bf2ada7964d3c4f231460028222549df13a04ff6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8#36fd372609123383682d6904f06b97624d4b164873537ccb0ff24c5c1c6951b6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://92.114.85.87:8002/play/a00e/index.m3u8#f660c6e71ecc5aff081ac573fce8d1ecc7b4d7c4302308ee4dda5c2334fc7ab9
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/ts-us-e2-n1/playlist/rakutenAA-fueltvemeaen/playlist.m3u8#857114f3f69e30bc8a1b25a080726d02957374bc1c5ac49990d157a112dc82a5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8#2643580f023425ac7171413cc1d146914efb36943a3d49892928ec4d1a40d334
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8#3c0e1fd6587525d9e1cdeae6b19c098f5b55dee1c33b5db7e17550002e31a43f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8#7be5faf38433a25ebb455aeaa4e0c6825771a9284cae4b257cb8a40427698cab
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="news",/small>
+http://41.205.93.154/ESPNNEWS/index.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="sports",/small>
+https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
 https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8#3e0efc2fa73a9727624da8d1b703017d334bd7c650376f39d96a61a952297ea6
-#EXTINF:-1 tvg-name="Tajik" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Tajik
-http://185.121.1.163:8083/FootballHD/index.m3u8#903e4a8e72a30b73fc6de1d5520bf61b47e4b98b16625ccb6e8527e32dd22883
-#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Sports",Telugu
-https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8#9ffde26ce618c1f9c950d595452c8ce9598faffeca51ebe13a2a475b6798ffb0
-#EXTINF:-1 tvg-name="Thai" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Thai
-https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8#bfea4bec34fab6bfa3652ead47c90e979dd652340652d64bb8c24428ca48affc
-#EXTINF:-1 tvg-name="Turkish" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Turkish
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://dai.google.com/linear/hls/pa/event/7f3Wv6f7QEKfQna22jHqLQ/stream/7b8c2b03-04df-4d7d-96da-d4526cd85049:TUL/master.m3u8#28b86585a451421935575ca3b845c2c68d532a1d137e97e15f95cd9016853daa
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8#774f00fc4a494034e4f06766c7d32b1d9446a57790884998695c9f31cdff96f4
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://live-aburayhan1113.telewebion.ir/ek/tv3/live/playlist.m3u8?isp=NA&city=NA#0239fbdd8cb5eb8af01d0a88785e78c570757929966eeb913643925d7100234a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8#dc0a24f8725bcc88bd57673c898e20b5faeac1ed503d99daaa1b4bc2d5df2e08
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://92.114.85.87:8002/play/a00h/index.m3u8#3f66d0ec4a9f30361c7e0580cdee2e311899b6a4a0ede961dcb679526df3cc99
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
+https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://srvx1.selftv.video/dmchannel/live/playlist.m3u8#c1ad497576c8068675490eb521733c3e2a20daad5853d450ee78ccd1469d6056
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
 https://tjktv-live.tjk.org/tjktv.m3u8#a546ba7abdbae0b9aea822e4ab2170850da1fd9b01d618bfa8dbf1c59682ddaa
-#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Ukrainian
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
+https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://mrtvott.com/e164c9e26bc89768871211054633d0b3---/cache/MRTV-SPORT/master.m3u8#c32715d81a66ee6eeefcec89c5c4a743f88789974d0280379647e3de35fed2a9
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://190.61.47.54:8000/play/a004/index.m3u8#4f2ddff98441b49d8bc4b80b1a85370eb1aa834f3d1716950db7a2640ef9e15e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://pac12-samsungus.amagi.tv/playlist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://45.132.87.69:8080/match/index.m3u8#1011cb116dfff4d90fa1d668feee29b73e94c72049617923559d8652c06151c0
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8#1c2cabab8bbd0979c62b19051ec6887d44e8880d8522fab1a2b7f20204511a6b
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8#fcd895adb71372498faf6aed9ff2ac645bd31d87d94a75f0efb4d882bccfffc5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+https://master.tucableip.com/ftvhd/index.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="sports",/small>
+https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
+https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+http://45.170.130.224:8000/play/a020/index.m3u8#d115de1a6279787aeb21b3586c44d7bac9c88a8bd1e3f421269173297528a388
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://edge.livestreaminggroup.info/colimdotvlive/index.m3u8#380c55ec7bd968d14c2363e33cfd0ac00216ef147a7293ce742153711cf7ff9f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8#39b0e148930798efde5301085fc5cd3db5d68fa91230ad760ab3174636bc7335
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://fighthls.persiana.live/hls/stream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://stream.mcquack.net/169/index.m3u8#500177d9a6e65df87a2043b01b8d8f361ff0c5080749466ca95bcb0859824f7c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://livetr.teleromagna.it/mia/live/playlist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://streaming.onnethn.com/DEPORTES_TVC/playlist.m3u8#44542eaac811040f29312a6a9bb393c6552b47cd01fb7b7626d3007a45250395
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://92.114.85.87:8002/play/a00g/index.m3u8#2363414a76b6591e5e0e1fd5b8014d3d1ae3745456535d419f72de0c467e2f6a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8#6e6f9a7bbc7043355794595232400c46d8173d737c097298c8d4f5be2c84a334
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://cdn2.ayitistream.com:80/NBATV/index.m3u8#52269ca9c33a341958d0f0298528cac4338535b4059fdffd01bfae1389cb4279
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8#03080f01c7689f5ac429641a6e1e07bc03b392eec21fb0d2e74e13e724a29a65
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8#2b622f52d595e01c787eb7864f907d5235b5ec86ce32d5354ba10084dcd7ee05
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://tvsen6.aynaott.com/nfl/index.m3u8#956abb40da052a817ff0219e1b3a38a7453e617a803587c81b532a12889bbde2
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://hls.tvabierta.net/hls/036.m3u8#4863cf4c00f7e6408234691fe9cc2dabe43e7c2122955b6e41200bed25f94e7e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://stream.mcquack.net/178/index.m3u8#6f3431cf712e8a9d0fd4e97ce016651919ea967e43329bacd7a623ce30f1ebf5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8#72a14a9eafb4c85935b4ff259b92eb58b7ad6557fbfc459ee2578d0529305fde
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://streams2.sofast.tv/vglive-sk-469239/index.m3u8#0782b58514576a448ae3ff6f91a9d6c0161e35d0d3be31015bc34e68226ddc48
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+http://23.237.104.106:8080/USA_NBA/index.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
+https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://45.170.130.224:8000/play/a04k/index.m3u8?hls#812aca487c44d97dbce6ebf8d5efff8607ffbfe47e69bd94578b8922e78f7e96
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+http://team-tv.co:81/milan/index.m3u8#8a513c811736f266a88d972269ad31aebeb304679503da309271078ca9b8d50f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",/small>
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://2-fss-1.streamhoster.com/pl_154/amlst:205448-2145652/rightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",/small>
+https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/ts-us-e2-n1/playlist/rakutenAA-sportitalia-rakuten/playlist.m3u8#f050abef5692e011e873ceca65d2ec90291d9fe0a6fa6904f4cb3fe0d6fe39fd
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",/small>
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
+#EXTINF:-1 tvg-id="30a.golf.kingdom" tvg-name="30A Golf Kingdom" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",30A Golf Kingdom
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Ffeeds%2Fvidaa%2Fgolf.m3u8#d513cdcfc18f8e2aa9edd38016dbd57a4c0ea7abec2943a8ebd0623712df8766
+#EXTINF:-1 tvg-id="port" tvg-name=":Šport" tvg-logo="" tvg-country="🇸🇰 Slovakia" tvg-language="Slovak" group-title="sports",:Šport
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_rtvs_sport_hevc%2Fplaylist.m3u8#6093db6655a1d328e20ef122d01a87d2287486569a8da6a1ca096409d70852b5
+#EXTINF:-1 tvg-id="" tvg-name="</" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",</
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8#c5f4adab172b8b034e72a2baeadba0639e77858b21b7c6e7d7745046a9b82069
+#EXTINF:-1 tvg-id="a.href.language.eng.english" tvg-name="a href="?language=eng">English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",a href="?language=eng">English
 http://stream.mcquack.net/461/index.m3u8#e554c4f057e9865318a0ae54fef138a1f1aa6c94a28ab85663ad38ded74485c6
-#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Ukrainian
-http://stream.mcquack.net/444/index.m3u8#e03629fd4f900ce94d8fd8439056a88db5926fb637bcb6aa967434bb2bf37f46
-#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Ukrainian
-http://stream.mcquack.net/393/index.m3u8#e77ac9213e69fea6ad8062c0753a6829089cc3405299ce07f7ad2dafedc4d7b6
-#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Ukrainian
-http://stream.mcquack.net/392/index.m3u8#e6d796136188316346f443ae9530f158c99e99c88d992f506d5ed04789c8b7de
-#EXTINF:-1 tvg-name="Urdu" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Urdu
+#EXTINF:-1 tvg-id="a" tvg-name="a>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",a>
 https://cdn.rabta.stream/M-Sports/tracks-v1a1/mono.m3u8#79db53cdaad03c244088eb0f37f5d9211dd2b624e690005eaee85b7cc8ccd4ae
-#EXTINF:-1 tvg-name="Vietnamese" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Vietnamese
-https://pop12-ec2-ateme.tv360.vn:443/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0ODY1NTIyIiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy8yODYvSExTX0NsZWFuX01ITF82cy8iLCJzZXNzaW9uX2Nkbl9pZCI6ImU2ZGM5YjUzNzNjY2M0MjUiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE3Mi4yNC4xNzMuMTk2Iiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiIzNyIsInNvdXJjZXMiOls0OTVdfQ==.2aNr5X-rl7i_elCbUUN6l7_kH04B2At-rQtQmmgFEhUCabgKVmqzkU_ANjuzAUsMZpDZtNcaA7adqzfFTJeCZQ==/live/eds/286/HLS_Clean_MHL_6s/index.m3u8?screen=MHL&uid=64230292#a6133a18361c8e623efc380e00b45928f0323e1220b723a87880202072b94e49
+#EXTINF:-1 tvg-id="adventure.sports.tv" tvg-name="Adventure Sports TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Adventure Sports TV
+http://eja.tv/?https%3A%2F%2Fd3rl6ns7c3ilda.cloudfront.net%2Fscheduler%2FscheduleMaster%2F438.m3u8#beabc88ae44f69ad2a0a928902c55526a6672181a25bad42bfbda9126a588afb
+#EXTINF:-1 tvg-id="africa.24.sport" tvg-name="Africa 24 Sport" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="news",Africa 24 Sport
+http://eja.tv/?https%3A%2F%2Fafrica24.vedge.infomaniak.com%2Flivecast%2Fik%3Aafrica24sport%2Fmanifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
+#EXTINF:-1 tvg-id="all" tvg-name="all>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",all>
+http://181.78.197.59:8000/play/a081/index.m3u8#6dc0bd805e76095a49fa84cb84fd51906767207a38a43faf06f36d6d50117412
+#EXTINF:-1 tvg-id="all" tvg-name="all>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",all>
+http://media1.skifnet.by/sporttv/index.m3u8#dc215ff0af35afc4f9db07cf0310b23210bec8120d5ae289a30aa11a27bd6d8a
+#EXTINF:-1 tvg-id="all" tvg-name="all>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",all>
+http://181.78.197.59:8000/play/a07n/index.m3u8#adeff3e740e2cb519950c0787ce4f39bf76dbe854097681f44a7c27d09d6c97a
+#EXTINF:-1 tvg-id="all" tvg-name="all>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",all>
+https://pop12-ec2-ateme.tv360.vn:443/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzk0ODY2ODgyIiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy8yODYvSExTX0NsZWFuX01ITF82cy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjhlYmMzZTlkMDczZTUzMjgiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzE3Mi4yNC4xNzMuMTk2Iiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiIzNyIsInNvdXJjZXMiOls0OTVdfQ==.5dg1c78JywcEP3Dijup-IVM_ywQ7LJOb3vU1hKEI5tju3UYwep2OGsLABxVE7RDEfi90l1lUCBW7fp1wqbn0Jg==/live/eds/286/HLS_Clean_MHL_6s/index.m3u8?screen=MHL&uid=64230292#a6133a18361c8e623efc380e00b45928f0323e1220b723a87880202072b94e49
+#EXTINF:-1 tvg-id="arena.sport.1" tvg-name="Arena Sport 1" tvg-logo="" tvg-country="🇸🇰 Slovakia" tvg-language="Czech, Slovak" group-title="sports",Arena Sport 1
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_arenasport%2Fplaylist.m3u8#e9999dab9c7ec91b71cfc533d7acb8dcac190873b3be42b24a6d5965be201eba
+#EXTINF:-1 tvg-id="arena.sport.2" tvg-name="Arena Sport 2" tvg-logo="" tvg-country="🇸🇰 Slovakia" tvg-language="Slovak" group-title="sports",Arena Sport 2
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_arenasport_dva%2Fplaylist.m3u8#b1605f5f6baf5599a349ab0fde68fb6f54d0759c9f7e3dd89c5cada0fc704bc4
+#EXTINF:-1 tvg-id="as3.sport.tv" tvg-name="AS3 Sport TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="sports",AS3 Sport TV
+http://eja.tv/?https%3A%2F%2Fstreamtv.as3sport.online%3A3394%2Fhybrid%2Fplay.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
+#EXTINF:-1 tvg-id="atg.live" tvg-name="ATG Live" tvg-logo="" tvg-country="🇸🇪 Sweden" tvg-language="Swedish" group-title="sports",ATG Live
+http://eja.tv/?https%3A%2F%2Fkanal75xto-llhls.akamaized.net%2Flive%2FData%2Fatg-kanal-15-02a-rr%2FHLS-Legacy-HL%2Fatg-kanal-15-02a-rr.m3u8#3e0efc2fa73a9727624da8d1b703017d334bd7c650376f39d96a61a952297ea6
+#EXTINF:-1 tvg-id="bahrain.sports.1" tvg-name="Bahrain Sports 1" tvg-logo="" tvg-country="🇧🇭 Bahrain" tvg-language="Arabic" group-title="sports",Bahrain Sports 1
+http://eja.tv/?https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Asportsone_all%2Fplaylist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
+#EXTINF:-1 tvg-id="bahrain.sports.2" tvg-name="Bahrain Sports 2" tvg-logo="" tvg-country="🇧🇭 Bahrain" tvg-language="Arabic" group-title="sports",Bahrain Sports 2
+http://eja.tv/?https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Abahrainsportstwo_all%2Fplaylist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
+#EXTINF:-1 tvg-id="bein.sports.xtra" tvg-name="BeIN Sports XTRA" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",BeIN Sports XTRA
+http://eja.tv/?https%3A%2F%2Fbein-beinxtrasports-firetv.amagi.tv%2Fplaylist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
+#EXTINF:-1 tvg-id="bein.sports.xtra" tvg-name="BeIN Sports XTRA" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",BeIN Sports XTRA
+http://eja.tv/?https%3A%2F%2Fbein-xtra-xumo.amagi.tv%2Fplaylist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
+#EXTINF:-1 tvg-id="bein.sports.xtra.en.espanol" tvg-name="BeIN Sports XTRA en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="sports",BeIN Sports XTRA en Espanol
+http://eja.tv/?https%3A%2F%2Fbein-esp-xumo.amagi.tv%2Fplaylist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 tvg-id="canal.sport" tvg-name="Canal+ Sport" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="sports",Canal+ Sport
+http://eja.tv/?http%3A%2F%2Ftv.streambox.fr%2Flive%2Ftestlivestream%2Ftestlivestream%2F31.m3u8#4c7138894083af509775f0cbd0cd881a7822b1e85a22b34f5302aadf900f79d4
+#EXTINF:-1 tvg-id="cbs.sports.golazo.network" tvg-name="CBS Sports Golazo Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",CBS Sports Golazo Network
+http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2F7f3Wv6f7QEKfQna22jHqLQ%2Fmaster.m3u8#28b86585a451421935575ca3b845c2c68d532a1d137e97e15f95cd9016853daa
+#EXTINF:-1 tvg-id="cdn.deportes" tvg-name="CDN Deportes" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="sports",CDN Deportes
+http://eja.tv/?https%3A%2F%2Fhls.tvabierta.net%2Fhls%2F036.m3u8#4863cf4c00f7e6408234691fe9cc2dabe43e7c2122955b6e41200bed25f94e7e
+#EXTINF:-1 tvg-id="chunklist" tvg-name="Chunklist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Chunklist
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8#a473fc40570f020281b0ebf7e7f7fde5a2ed72e1634655e72a1a023b17a6f030
+#EXTINF:-1 tvg-id="chunklist" tvg-name="Chunklist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Chunklist
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8#1f20bde3c6c30abc6157969bede82f71321a8d1840c842b51263c103b67f3f0a
+#EXTINF:-1 tvg-id="chunklist" tvg-name="Chunklist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Chunklist
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8#a234138a13720881507c47291b96fa81abbaae16d20c07298600175984d35ec8
+#EXTINF:-1 tvg-id="colimdot.tv" tvg-name="ColimdoT TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="sports",ColimdoT TV
+http://eja.tv/?https%3A%2F%2Fcnn.livestreaminggroup.info%3A3132%2Flive%2Fcolimdotvlive.m3u8#380c55ec7bd968d14c2363e33cfd0ac00216ef147a7293ce742153711cf7ff9f
+#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Cricket Gold
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fptnr-yupptv%2Ftitle-cricketgold%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb2048bb8-1686-4432-aa50-647245383e0c%2Fmanifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
+#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Cricket Gold
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fscheduler%2FscheduleMaster%2F418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
+#EXTINF:-1 tvg-id="dazn.3.portugal" tvg-name="DAZN 3 Portugal" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Dutch, French, Portuguese, English" group-title="sports",DAZN 3 Portugal
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_3%2Findex.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
+#EXTINF:-1 tvg-id="dd.sports" tvg-name="DD Sports" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Sign Languages, Telugu, Hindi, English, Tamil, Kannada, Bengali, Bhojpuri" group-title="sports",DD Sports
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSportsHD%2Findex.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
+#EXTINF:-1 tvg-id="dd.sports" tvg-name="DD Sports" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada, Bengali, Bhojpuri, Sign Languages, Telugu, Hindi, English" group-title="sports",DD Sports
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F13%2Fmaster.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
+#EXTINF:-1 tvg-id="dd.sports.sd" tvg-name="DD Sports SD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali, Bhojpuri, Sign Languages, Telugu, Hindi, English, Tamil, Kannada" group-title="sports",DD Sports SD
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSports%2Findex.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
+#EXTINF:-1 tvg-id="deportes.tvc" tvg-name="Deportes TVC" tvg-logo="" tvg-country="🇭🇳 Honduras" tvg-language="Spanish" group-title="sports",Deportes TVC
+http://eja.tv/?https%3A%2F%2Fstreaming.onnethn.com%2FDEPORTES_TVC%2Fplaylist.m3u8#44542eaac811040f29312a6a9bb393c6552b47cd01fb7b7626d3007a45250395
+#EXTINF:-1 tvg-id="digi.sport.1.hd" tvg-name="Digi Sport 1 HD" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="sports",Digi Sport 1 HD
+http://eja.tv/?https%3A%2F%2Fdokagents.site%2Flive%2Fdigisport1%2Fmono.m3u8#c71d9328543c97f2ce4615f36b4aa184e785d63aa2396d6333a99a1d159f11b3
+#EXTINF:-1 tvg-id="digi.sport.2.hd" tvg-name="Digi Sport 2 HD" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="sports",Digi Sport 2 HD
+http://eja.tv/?https%3A%2F%2Fdokagents.site%2Flive%2Fdigisport2%2Fmono.m3u8#b7b58c4cbdbbe54afc00eb25d614c67e6b681d738d831c3ad722184ab876e063
+#EXTINF:-1 tvg-id="dong.nai.tv.2" tvg-name="Dong Nai TV 2" tvg-logo="" tvg-country="🇻🇳 Vietnam" tvg-language="Vietnamese" group-title="sports",Dong Nai TV 2
+http://eja.tv/?https%3A%2F%2Ffreem3u.xyz%2Fapi%2Flive%2Fplay.m3u8%3Fvid%3D255#a6133a18361c8e623efc380e00b45928f0323e1220b723a87880202072b94e49
+#EXTINF:-1 tvg-id="draftkings.network" tvg-name="DraftKings Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",DraftKings Network
+http://eja.tv/?https%3A%2F%2Fna.linear.zype.com%2Fe0bd0e23-a958-4e43-8164-4f2fef8876a8%2Ffd3614bd-90bf-4530-a277-65ae3a1720c8-zype%2Flive.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
+#EXTINF:-1 tvg-id="eleven.sports.1" tvg-name="Eleven Sports 1" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="sports",Eleven Sports 1
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00e%2Findex.m3u8#f660c6e71ecc5aff081ac573fce8d1ecc7b4d7c4302308ee4dda5c2334fc7ab9
+#EXTINF:-1 tvg-id="eleven.sports.2" tvg-name="Eleven Sports 2" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="sports",Eleven Sports 2
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00f%2Findex.m3u8#19372a90b68f65fab8202e049f346dd9f86acefe553a9a81222d697900ff11e6
+#EXTINF:-1 tvg-id="eleven.sports.3" tvg-name="Eleven Sports 3" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="sports",Eleven Sports 3
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00g%2Findex.m3u8#2363414a76b6591e5e0e1fd5b8014d3d1ae3745456535d419f72de0c467e2f6a
+#EXTINF:-1 tvg-id="eleven.sports.4" tvg-name="Eleven Sports 4" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="sports",Eleven Sports 4
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8002%2Fplay%2Fa00h%2Findex.m3u8#3f66d0ec4a9f30361c7e0580cdee2e311899b6a4a0ede961dcb679526df3cc99
+#EXTINF:-1 tvg-id="equidia" tvg-name="Equidia" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="sports",Equidia
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2FParadise-91%2FParaTV%2Fmain%2Fstreams%2Fequidia%2Flive2.m3u8#cbc223438b2d79d67b9109d9c4a10c800960d9b276d5d2cae3d937f9c7666fb2
+#EXTINF:-1 tvg-id="espn.3" tvg-name="ESPN 3" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="sports",ESPN 3
+http://eja.tv/?http%3A%2F%2F181.78.197.59%3A8000%2Fplay%2Fa081%2Findex.m3u8#6dc0bd805e76095a49fa84cb84fd51906767207a38a43faf06f36d6d50117412
+#EXTINF:-1 tvg-id="espn.4" tvg-name="ESPN 4" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="sports",ESPN 4
+http://eja.tv/?http%3A%2F%2F181.78.197.59%3A8000%2Fplay%2Fa07n%2Findex.m3u8#adeff3e740e2cb519950c0787ce4f39bf76dbe854097681f44a7c27d09d6c97a
+#EXTINF:-1 tvg-id="espn.latin.america.colombia" tvg-name="ESPN Latin America Colombia" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="sports",ESPN Latin America Colombia
+http://eja.tv/?http%3A%2F%2F190.61.47.54%3A8000%2Fplay%2Fa004%2Findex.m3u8#4f2ddff98441b49d8bc4b80b1a85370eb1aa834f3d1716950db7a2640ef9e15e
+#EXTINF:-1 tvg-id="espnews" tvg-name="ESPNews" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="news",ESPNews
+http://eja.tv/?http%3A%2F%2F41.205.93.154%2FESPNNEWS%2Findex.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
+#EXTINF:-1 tvg-id="esport3" tvg-name="Esport3" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Catalan" group-title="sports",Esport3
+http://eja.tv/?https%3A%2F%2Fdirectes-tv-int.3catdirectes.cat%2Flive-content%2Fesport3-hls%2Fmaster.m3u8#36fd372609123383682d6904f06b97624d4b164873537ccb0ff24c5c1c6951b6
+#EXTINF:-1 tvg-id="esport3" tvg-name="Esport3" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Catalan" group-title="sports",Esport3
+http://eja.tv/?https%3A%2F%2Fdirectes-tv-int.3catdirectes.cat%2Flive-origin%2Fesport3-hls%2Fmaster.m3u8#fcd895adb71372498faf6aed9ff2ac645bd31d87d94a75f0efb4d882bccfffc5
+#EXTINF:-1 tvg-id="eurosport.1.spain" tvg-name="Eurosport 1 Spain" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Hungarian, Italian, Russian, Spanish, Turkish, French, Polish, Serbian, Slovenian, German, Greek, Dutch, Romany, Ukrainian, Danish, Finnish, English" group-title="sports",Eurosport 1 Spain
+http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FEurosport_1_HD%2Findex.m3u8#1d20cf47732f91299e85d3ed310bb7fd1bccb897b08cf01c027313a8f72a928b
+#EXTINF:-1 tvg-id="eurosport.2.spain" tvg-name="Eurosport 2 Spain" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Hungarian, English, Finnish, French, German, Dutch, Spanish, Danish, Italian, Polish, Russian, Turkish, Romany, Slovenian, Ukrainian, Greek" group-title="sports",Eurosport 2 Spain
+http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FEurosport_2_HD%2Findex.m3u8#0f122f5081c30bf81a2ef660a0c449d5e5346d40c287199f3dfcd1642e28c791
+#EXTINF:-1 tvg-id="eurosport.4k.czechia" tvg-name="Eurosport 4K Czechia" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="sports",Eurosport 4K Czechia
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Fesp_4k_atk%2Fplaylist.m3u8#c0244e864c076af4d329ba3b91a010f3786b56403c21d99a69136fef6e393506
+#EXTINF:-1 tvg-id="fb.tv" tvg-name="FB TV" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Turkish, English" group-title="sports",FB TV
+http://eja.tv/?http%3A%2F%2F1hskrdto.rocketcdn.com%2Ffenerbahcetv.smil%2Fplaylist.m3u8#d972e6442fb0375e75945116df59e42811baa6696bcfd0e71690485d736360cc
+#EXTINF:-1 tvg-id="fight.network" tvg-name="Fight Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="sports",Fight Network
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffight_720p%2Fplaylist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
+#EXTINF:-1 tvg-id="fightbox" tvg-name="FightBox" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="English, Polish" group-title="sports",FightBox
+http://eja.tv/?https%3A%2F%2Fwebtvstream.bhtelecom.ba%2Ffightbox.m3u8#a9315891bbd400cc750dbc448035ca93544f8d4493b9f0cda7b2dd4dfe27bd4f
+#EXTINF:-1 tvg-id="fightbox" tvg-name="Fightbox" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Fightbox
+https://webtvstream.bhtelecom.ba/fightbox.m3u8#a9315891bbd400cc750dbc448035ca93544f8d4493b9f0cda7b2dd4dfe27bd4f
+#EXTINF:-1 tvg-id="fightbox.hd" tvg-name="FightBox HD" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="English, Polish" group-title="sports",FightBox HD
+http://eja.tv/?https%3A%2F%2Fnosignal1.antenaplay.ro%2Fhls%2Ffightbox-hd%2Findex.m3u8#9b7fb683ac25f07a8ad0a072c1a215fa846693ac9ebf83aeb5a4b746a7afa05b
+#EXTINF:-1 tvg-id="fite.24.7" tvg-name="FITE 24/7" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",FITE 24/7
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffite247_720p%2Fplaylist.m3u8#0785236a34835de45c9cd7b75c7cc4401e2fb59ee0c7f8f2bae4595381d48c02
+#EXTINF:-1 tvg-id="fite.24.7" tvg-name="FITE 24/7" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",FITE 24/7
+http://eja.tv/?https%3A%2F%2Fd3d85c7qkywguj.cloudfront.net%2Fscheduler%2FscheduleMaster%2F263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
+#EXTINF:-1 tvg-id="fox.sports.en.espanol" tvg-name="Fox Sports en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="sports",Fox Sports en Espanol
+http://eja.tv/?https%3A%2F%2Flive-manifest.production-public.tubi.io%2Flive%2Fd906efca-1302-4e29-b0d9-9a1d7a305d69%2Fplaylist.m3u8#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+#EXTINF:-1 tvg-id="ftf.sports" tvg-name="FTF Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",FTF Sports
+http://eja.tv/?https%3A%2F%2F1657061170.rsc.cdn77.org%2FHLS%2FFTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
+#EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇧🇴 Bolivia" tvg-language="Spanish" group-title="sports",FTV
+http://eja.tv/?https%3A%2F%2Fmaster.tucableip.com%2Fftvhd%2Findex.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
+#EXTINF:-1 tvg-id="fuel.tv" tvg-name="Fuel TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="English" group-title="sports",Fuel TV
+http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv%2Fplaylist%2Famg01074-fueltv-fueltvau-samsungau%2Fplaylist.m3u8#2b30d5b1be35679e87489584c2e429565b349a0c7884e36606fcece82ab062e9
+#EXTINF:-1 tvg-id="fuel.tv" tvg-name="FUEL TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="English" group-title="sports",FUEL TV
+http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-fueltvemeaen%2FCDN%2Fmaster.m3u8#857114f3f69e30bc8a1b25a080726d02957374bc1c5ac49990d157a112dc82a5
+#EXTINF:-1 tvg-id="fuel.tv" tvg-name="Fuel TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="English" group-title="sports",Fuel TV
+http://eja.tv/?https%3A%2F%2Famg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv%2Fplaylist%2Famg01074-fueltv-fueltvnz-samsungnz%2Fplaylist.m3u8#72a14a9eafb4c85935b4ff259b92eb58b7ad6557fbfc459ee2578d0529305fde
+#EXTINF:-1 tvg-id="futbol" tvg-name="Futbol" tvg-logo="" tvg-country="🇹🇯 Tajikistan" tvg-language="Tajik" group-title="sports",Futbol
+http://eja.tv/?http%3A%2F%2F185.121.1.163%3A8083%2FFootballHD%2Findex.m3u8#903e4a8e72a30b73fc6de1d5520bf61b47e4b98b16625ccb6e8527e32dd22883
+#EXTINF:-1 tvg-id="game" tvg-name="Game+" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="sports",Game+
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Ffntsy_720p%2Fplaylist.m3u8#bc0e5374a2acc7f4e3f0e6419dfacc3599a500b772dbe74f4da5c10e21df7ea3
+#EXTINF:-1 tvg-id="geoblock" tvg-name="Geoblock" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Geoblock
+https://block.qazcdn.com/block/geoblock.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
+#EXTINF:-1 tvg-id="go3.sport.1" tvg-name="Go3 Sport 1" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="Estonian, Latvian, Lithuanian" group-title="sports",Go3 Sport 1
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F416%2Findex.m3u8#317b6d833e23b70a294e1488998d364159bcebedef83dff3a794559b685bd6af
+#EXTINF:-1 tvg-id="golf.channel" tvg-name="Golf Channel" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="sports",Golf Channel
+http://eja.tv/?https%3A%2F%2Fdash4.antik.sk%2Flive%2Ftest_golf_channel%2Fplaylist.m3u8#278499947d0c82e7050c47c6c53eb3ba7bff2c0751500d03a6d3af024b7503c2
+#EXTINF:-1 tvg-id="horse.tv" tvg-name="Horse TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Horse TV
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-469239%2Findex.m3u8#0782b58514576a448ae3ff6f91a9d6c0161e35d0d3be31015bc34e68226ddc48
+#EXTINF:-1 tvg-id="horse.tv" tvg-name="Horse TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Horse TV
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fhorsetv_720p%2Fplaylist.m3u8#1707be173e849dcd9e3adae8984436f168ac2c64e2e181f13208acf2dd89c6f9
+#EXTINF:-1 tvg-id="href.language.eng.english" tvg-name="href="?language=eng">English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",href="?language=eng">English
+https://d1hlbgn3fph0cz.cloudfront.net/playlist.m3u8#bf5d18581c2907c863cd0e1c2deb25f70ecb4674dc8c20c3ee9b3b4a29b53481
+#EXTINF:-1 tvg-id="href.language.lav.latvian" tvg-name="href="?language=lav">Latvian" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",href="?language=lav">Latvian
+http://stream.mcquack.net/416/index.m3u8#317b6d833e23b70a294e1488998d364159bcebedef83dff3a794559b685bd6af
+#EXTINF:-1 tvg-id="href.language.por.portuguese" tvg-name="href="?language=por">Portuguese" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="sports",href="?language=por">Portuguese
+http://23.237.104.106:8080/DAZN_3/index.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="sports",Index
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+https://streams2.sofast.tv/vglive-sk-231198/index.m3u8#eb8074c6b1d9d59cef728507dde4abc1f5fd3cc7952d04869cefc658c2460afd
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+http://stream.mcquack.net/234/index.m3u8#cc9781d1b11b8153c747aff4baabbc582c8b850ec0dedacc50dacf223d921c37
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8#43305789a8824413a843c39584d6aa3bab537cdba5fd27648d169a52d2c3e632
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+http://stream.mcquack.net/235/index.m3u8#38e3ff5229d43384e8b544161e8ede08b367b4afcdb6ff89a49aa40fd45e6101
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8#0f122f5081c30bf81a2ef660a0c449d5e5346d40c287199f3dfcd1642e28c791
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="sports",Index
+http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8#1d20cf47732f91299e85d3ed310bb7fd1bccb897b08cf01c027313a8f72a928b
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="sports",Index
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+http://185.121.1.163:8083/FootballHD/index.m3u8#903e4a8e72a30b73fc6de1d5520bf61b47e4b98b16625ccb6e8527e32dd22883
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="sports",Index
+https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8#9ffde26ce618c1f9c950d595452c8ce9598faffeca51ebe13a2a475b6798ffb0
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Index
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8#9b7fb683ac25f07a8ad0a072c1a215fa846693ac9ebf83aeb5a4b746a7afa05b
+#EXTINF:-1 tvg-id="irib3" tvg-name="IRIB3" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="sports",IRIB3
+http://eja.tv/?https%3A%2F%2Fncdn.telewebion.ir%2Ftv3%2Flive%2Fplaylist.m3u8#0239fbdd8cb5eb8af01d0a88785e78c570757929966eeb913643925d7100234a
+#EXTINF:-1 tvg-id="khl" tvg-name="KHL" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="sports",KHL
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F166%2Findex.m3u8#979555ccafc0e2cb632bc18e7bd4159563acb32d066508f1881fa314d6f4cc20
+#EXTINF:-1 tvg-id="khl.prime" tvg-name="KHL Prime" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="sports",KHL Prime
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F178%2Findex.m3u8#6f3431cf712e8a9d0fd4e97ce016651919ea967e43329bacd7a623ce30f1ebf5
+#EXTINF:-1 tvg-id="kozoom.tv" tvg-name="Kozoom TV" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French, English" group-title="sports",Kozoom TV
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Ffdd6f243-f971-4a1a-9510-97ac01d6b37f%2Fmanifest.m3u8#44e4b2823975eefd709c0579bb0a2a90be57016eb771471731dfce11036b70c7
+#EXTINF:-1 tvg-id="ktv.sport" tvg-name="KTV Sport" tvg-logo="" tvg-country="🇰🇼 Kuwait" tvg-language="English, Arabic" group-title="sports",KTV Sport
+http://eja.tv/?https%3A%2F%2Fkwtspta.cdn.mangomolo.com%2Fsp%2Fsmil%3Asp.stream.smil%2Fchunklist.m3u8#a234138a13720881507c47291b96fa81abbaae16d20c07298600175984d35ec8
+#EXTINF:-1 tvg-id="ktv.sport.plus" tvg-name="KTV Sport Plus" tvg-logo="" tvg-country="🇰🇼 Kuwait" tvg-language="Arabic" group-title="sports",KTV Sport Plus
+http://eja.tv/?https%3A%2F%2Fkwtsplta.cdn.mangomolo.com%2Fspl%2Fsmil%3Aspl.stream.smil%2Fchunklist.m3u8#1f20bde3c6c30abc6157969bede82f71321a8d1840c842b51263c103b67f3f0a
+#EXTINF:-1 tvg-id="live2" tvg-name="Live2" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Live2
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8#cbc223438b2d79d67b9109d9c4a10c800960d9b276d5d2cae3d937f9c7666fb2
+#EXTINF:-1 tvg-id="m.sports" tvg-name="M Sports" tvg-logo="" tvg-country="🇵🇰 Pakistan" tvg-language="Urdu" group-title="sports",M Sports
+http://eja.tv/?https%3A%2F%2Fcdn.rabta.stream%2FM-Sports%2Ftracks-v1a1%2Fmono.m3u8#79db53cdaad03c244088eb0f37f5d9211dd2b624e690005eaee85b7cc8ccd4ae
+#EXTINF:-1 tvg-id="madeinbo.tv" tvg-name="MadeinBO TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",MadeinBO TV
+http://eja.tv/?https%3A%2F%2Fsrvx1.selftv.video%2Fdmchannel%2Flive%2Fplaylist.m3u8#c1ad497576c8068675490eb521733c3e2a20daad5853d450ee78ccd1469d6056
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",mall>
+http://stream.mcquack.net/393/index.m3u8#e77ac9213e69fea6ad8062c0753a6829089cc3405299ce07f7ad2dafedc4d7b6
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",mall>
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8#8300b1a07956ae00f43d04ad897a24ac2a8f3a7eb59a3a38e07742c06391b05f
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",mall>
+http://stream.mcquack.net/444/index.m3u8#e03629fd4f900ce94d8fd8439056a88db5926fb637bcb6aa967434bb2bf37f46
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",mall>
+http://stream.mcquack.net/392/index.m3u8#e6d796136188316346f443ae9530f158c99e99c88d992f506d5ed04789c8b7de
+#EXTINF:-1 tvg-id="manifest" tvg-name="Manifest" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Manifest
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8#44e4b2823975eefd709c0579bb0a2a90be57016eb771471731dfce11036b70c7
+#EXTINF:-1 tvg-id="manifest" tvg-name="Manifest" tvg-logo="" tvg-country="" tvg-language="" group-title="news",Manifest
+https://edge18.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
+#EXTINF:-1 tvg-id="master" tvg-name="Master" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Master
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
+#EXTINF:-1 tvg-id="master" tvg-name="Master" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="sports",Master
+https://cdn.pishow.tv/ott/live/13/master.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
+#EXTINF:-1 tvg-id="match.ultra" tvg-name="Match! Ultra" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="sports",Match! Ultra
+http://eja.tv/?http%3A%2F%2F45.132.87.69%3A8080%2Fmatch%2Findex.m3u8#1011cb116dfff4d90fa1d668feee29b73e94c72049617923559d8652c06151c0
+#EXTINF:-1 tvg-id="match.ultra" tvg-name="Match! Ultra" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="sports",Match! Ultra
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F169%2Findex.m3u8#500177d9a6e65df87a2043b01b8d8f361ff0c5080749466ca95bcb0859824f7c
+#EXTINF:-1 tvg-id="milan.tv" tvg-name="Milan TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Milan TV
+http://eja.tv/?http%3A%2F%2Fteam-tv.co%3A81%2Fmilan%2Findex.m3u8#8a513c811736f266a88d972269ad31aebeb304679503da309271078ca9b8d50f
+#EXTINF:-1 tvg-id="mma.tv.com" tvg-name="MMA-TV.com" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian, English" group-title="sports",MMA-TV.com
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-462904%2Fplaylist.m3u8#a96622b2a3ed12edd46c7842a72cba77372ebca95d146b20edcacb493ff98f33
+#EXTINF:-1 tvg-id="mnb.sport" tvg-name="MNB Sport" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="sports",MNB Sport
+http://eja.tv/?https%3A%2F%2Flive.mnb.mn%2Fhls%2Fmnb_sport.stream.m3u8#8300b1a07956ae00f43d04ad897a24ac2a8f3a7eb59a3a38e07742c06391b05f
+#EXTINF:-1 tvg-id="mnb.sport" tvg-name="MNB Sport" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="sports",MNB Sport
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FMNBSport%2FHLSv3-FTA%2FMNBSport.m3u8#454769a758ff3403579e34d14931412ecb33ae507f1d0eb38e9545d7e4a09747
+#EXTINF:-1 tvg-id="more.than.sports.tv" tvg-name="More Than Sports TV" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="sports",More Than Sports TV
+http://eja.tv/?https%3A%2F%2Fmts1.iptv-playoutcenter.de%2Fmts%2Fmts-web%2Fplaylist.m3u8#5909051a30c37414993a70a613246d61a3ab8de162c7c9fce27d161b3a2c9755
+#EXTINF:-1 tvg-id="mrtv.sports" tvg-name="MRTV Sports" tvg-logo="" tvg-country="🇲🇲 Myanmar" tvg-language="Burmese" group-title="sports",MRTV Sports
+http://eja.tv/?https%3A%2F%2Fmrtvott.com%2Fcache%2FMRTV-SPORT%2Fmaster.m3u8#c32715d81a66ee6eeefcec89c5c4a743f88789974d0280379647e3de35fed2a9
+#EXTINF:-1 tvg-id="mutv" tvg-name="MUTV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="sports",MUTV
+http://eja.tv/?https%3A%2F%2Ffastly.live.brightcove.com%2F6374054671112%2Feu-west-1%2F6058004203001%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4%2Fplaylist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
+#EXTINF:-1 tvg-id="nautical.channel" tvg-name="Nautical Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian, French, English" group-title="sports",Nautical Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fnautical_720p%2Fplaylist.m3u8#621ed3720d7086430aec69461358a1668132175b286359bca439b4a3834bc922
+#EXTINF:-1 tvg-id="nautical.channel" tvg-name="Nautical Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="English, Italian, French" group-title="sports",Nautical Channel
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fvglive-sk-231198%2Findex.m3u8#eb8074c6b1d9d59cef728507dde4abc1f5fd3cc7952d04869cefc658c2460afd
+#EXTINF:-1 tvg-id="nba.tv" tvg-name="NBA TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",NBA TV
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_NBA%2Findex.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
+#EXTINF:-1 tvg-id="nba.tv" tvg-name="NBA TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",NBA TV
+http://eja.tv/?http%3A%2F%2Frezofoot.tv%2FNBATV%2Findex.m3u8#52269ca9c33a341958d0f0298528cac4338535b4059fdffd01bfae1389cb4279
+#EXTINF:-1 tvg-id="nfl.network" tvg-name="NFL Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",NFL Network
+http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2Fnfl%2Findex.m3u8#956abb40da052a817ff0219e1b3a38a7453e617a803587c81b532a12889bbde2
+#EXTINF:-1 tvg-id="oman.sports.tv" tvg-name="Oman Sports TV" tvg-logo="" tvg-country="🇴🇲 Oman" tvg-language="English, Arabic" group-title="sports",Oman Sports TV
+http://eja.tv/?https%3A%2F%2Fpartneta.cdn.mgmlcdn.com%2Fomsport%2Fsmil%3Aomsport.stream.smil%2Fchunklist.m3u8#a473fc40570f020281b0ebf7e7f7fde5a2ed72e1634655e72a1a023b17a6f030
+#EXTINF:-1 tvg-id="ovacion.tv" tvg-name="Ovacion TV" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="sports",Ovacion TV
+http://eja.tv/?http%3A%2F%2Fcdn2.ujjina.com%3A1935%2Fiptvovacion1%2Fliveovacion1tv%2Fplaylist.m3u8#2b622f52d595e01c787eb7864f907d5235b5ec86ce32d5354ba10084dcd7ee05
+#EXTINF:-1 tvg-id="pac.12.insider" tvg-name="Pac 12 Insider" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Pac 12 Insider
+http://eja.tv/?https%3A%2F%2Fpac12-samsungus.amagi.tv%2Fplaylist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
+#EXTINF:-1 tvg-id="persiana.fight" tvg-name="Persiana Fight" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian" group-title="sports",Persiana Fight
+http://eja.tv/?https%3A%2F%2Ffighthls.persiana.live%2Fhls%2Fstream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United States" tvg-language="" group-title="sports",Playlist
+https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8#621ed3720d7086430aec69461358a1668132175b286359bca439b4a3834bc922
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8#278499947d0c82e7050c47c6c53eb3ba7bff2c0751500d03a6d3af024b7503c2
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8#d892893c3b590a0a4702c34e8a5fd616e3b686330d6e8870a362487431fdfdfc
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_arenasport_dva/playlist.m3u8#b1605f5f6baf5599a349ab0fde68fb6f54d0759c9f7e3dd89c5cada0fc704bc4
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8#a96622b2a3ed12edd46c7842a72cba77372ebca95d146b20edcacb493ff98f33
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_sport1_25p/playlist.m3u8#8df395d375ceb79d29939f3906a68bfe381f151caa22d4e047002c756d2017f3
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_sport_2/playlist.m3u8#983d186e3331b99ed76e285a27f44a9e61526a29e057f636660a2fda420a9906
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8#8ab9ab9ddc1246ecc268ae539e0fb72299a5ec7e34dc0f78bbe6088425f7171a
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8#5909051a30c37414993a70a613246d61a3ab8de162c7c9fce27d161b3a2c9755
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="sports",Playlist
+https://aegis.production-public.tubi.io/cdn/db55104b-0a4b-4ef7-b787-f2dfb5c2ce34/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJkYjU1MTA0Yi0wYTRiLTRlZjctYjc4Ny1mMmRmYjVjMmNlMzQiLCJleHAiOjE3OTUxMDA4MzUsImlzcyI6ImFlZ2lzIn0.BgnSse0V4t9kkpHyMCAT2-IzO71aQCEFi3arIC_yQrtXY_FQMwq1FDGu1QQ6T_F0sY5_cUj1J9C0Gnu1jS3Naw#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/esp_4k_atk/playlist.m3u8#c0244e864c076af4d329ba3b91a010f3786b56403c21d99a69136fef6e393506
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8#be49b7c703ee22c1c4057477fb141b1b379d48f3acebab175a7bb9847800a9e9
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_rtvs_sport_hevc/playlist.m3u8#6093db6655a1d328e20ef122d01a87d2287486569a8da6a1ca096409d70852b5
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://88.212.15.50/live/test_arenasport/playlist.m3u8#e9999dab9c7ec91b71cfc533d7acb8dcac190873b3be42b24a6d5965be201eba
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Playlist
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8#d972e6442fb0375e75945116df59e42811baa6696bcfd0e71690485d736360cc
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="sports",Playlist
+https://amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-klowdtv/playlist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="sports",Playlist
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
+#EXTINF:-1 tvg-id="qazsport" tvg-name="QazSport" tvg-logo="" tvg-country="🇰🇿 Kazakhstan" tvg-language="Kazakh" group-title="sports",QazSport
+http://eja.tv/?https%3A%2F%2Fqazsporttv-stream.qazcdn.com%2Fqazsporttv%2Fqazsporttv%2Fplaylist.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
+#EXTINF:-1 tvg-id="racer.international" tvg-name="RACER International" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="sports",RACER International
+http://eja.tv/?https%3A%2F%2Famg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv%2Fplaylist%2Famg00378-mavtvfast-motorsportsnetwork-rakutenus%2Fplaylist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
+#EXTINF:-1 tvg-id="rally.tv" tvg-name="Rally TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Rally TV
+http://eja.tv/?https%3A%2F%2Frally-tv-live.akamaized.net%2Fhls%2Flive%2F2117704%2FRallyTV-Pri%2Fmaster.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
+#EXTINF:-1 tvg-id="real.madrid.tv" tvg-name="Real Madrid TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="sports",Real Madrid TV
+http://eja.tv/?https%3A%2F%2Frmtv.akamaized.net%2Fhls%2Flive%2F2043153%2Frmtv-es-web%2Fmaster.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
+#EXTINF:-1 tvg-id="red.bull.tv" tvg-name="Red Bull TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="German, Spanish, English, Portuguese" group-title="sports",Red Bull TV
+http://eja.tv/?https%3A%2F%2Fd1hlbgn3fph0cz.cloudfront.net%2Fplaylist.m3u8#bf5d18581c2907c863cd0e1c2deb25f70ecb4674dc8c20c3ee9b3b4a29b53481
+#EXTINF:-1 tvg-id="red.bull.tv" tvg-name="Red Bull TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="German, English" group-title="sports",Red Bull TV
+http://eja.tv/?https%3A%2F%2Frbmn-live.akamaized.net%2Fhls%2Flive%2F590964%2FBoRB-AT%2Fmaster.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
+#EXTINF:-1 tvg-id="rightnow.tv" tvg-name="RightNow TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",RightNow TV
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Frightnowtv_720p%2Fplaylist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
+#EXTINF:-1 tvg-id="rightnow.tv" tvg-name="RightNow TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",RightNow TV
+http://eja.tv/?https%3A%2F%2F2-fss-1.streamhoster.com%2Fpl_154%2Famlst%3A205448-2145652%2Frightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
+#EXTINF:-1 tvg-id="schedulemaster" tvg-name="Schedulemaster" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Schedulemaster
+https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8#70f74ad0e09c436b4031b9c8eb7eff6f8a217922d032e62e31885630532caba3
+#EXTINF:-1 tvg-id="setanta.sports.1.eurasia" tvg-name="Setanta Sports 1 Eurasia" tvg-logo="" tvg-country="🇮🇪 Ireland" tvg-language="Russian, English" group-title="sports",Setanta Sports 1 Eurasia
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F234%2Findex.m3u8#cc9781d1b11b8153c747aff4baabbc582c8b850ec0dedacc50dacf223d921c37
+#EXTINF:-1 tvg-id="setanta.sports.2.eurasia" tvg-name="Setanta Sports 2 Eurasia" tvg-logo="" tvg-country="🇮🇪 Ireland" tvg-language="Russian, English" group-title="sports",Setanta Sports 2 Eurasia
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F235%2Findex.m3u8#38e3ff5229d43384e8b544161e8ede08b367b4afcdb6ff89a49aa40fd45e6101
+#EXTINF:-1 tvg-id="sky.racing.1" tvg-name="Sky Racing 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Sky Racing 1
+http://eja.tv/?https%3A%2F%2F636ffd31f0e12.streamlock.net%2FRacingStream1%2FRacingStream1%2Fplaylist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
+#EXTINF:-1 tvg-id="sky.racing.2" tvg-name="Sky Racing 2" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Sky Racing 2
+http://eja.tv/?https%3A%2F%2F636ffd31f0e12.streamlock.net%2FRacingStream2%2FRacingStream2%2Fplaylist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
+#EXTINF:-1 tvg-id="sky.sports.1" tvg-name="Sky Sports 1" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="sports",Sky Sports 1
+http://eja.tv/?http%3A%2F%2F45.228.234.9%3A8000%2Fplay%2Fa06b%2Findex.m3u8#2db8cd1f692c2881978914d2bf2ada7964d3c4f231460028222549df13a04ff6
+#EXTINF:-1 tvg-id="small" tvg-name="small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",small>
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8#91d70ef8067d13ae3c405f5984f7baca9d506a4d4c9e0599d42cae8ef7633eb4
+#EXTINF:-1 tvg-id="small" tvg-name="small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",small>
+https://dokagents.site/live/digisport1/mono.m3u8#c71d9328543c97f2ce4615f36b4aa184e785d63aa2396d6333a99a1d159f11b3
+#EXTINF:-1 tvg-id="small" tvg-name="small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",small>
+https://dokagents.site/live/digisport2/mono.m3u8#b7b58c4cbdbbe54afc00eb25d614c67e6b681d738d831c3ad722184ab876e063
+#EXTINF:-1 tvg-id="small" tvg-name="small>" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",small>
+https://lb8.vip-acasatv.online:443/auth/RbXXjyFwENwPHyuYK30AkCr08PxnSqbanVgg-UWHckwUAje5QyOtX42mer0XMGV4vXp2o3L78OSTCXsf46H_3mLggeMKsT1NtU0TbNHJf0bF0ARYypbAhtBx6YJh2ykXOwoDzbrRKXRW8X1-oe4RC41Bf-6HxlUPNNLH48gYbcgjNNfDZGvc43CbJEysKFYlOtHH_9ucDHfdORkSUICGteVSdZJoiIgKV2EIBlMkwBpUJiVGKCAkyPjqQQTUnYRzchLmbTdxa761Ft4Evhp3-wbpzucNkgn5BjlyzH2T2mI_uvCaje4Eg1Yx9dU3kMzMEdAaE0Nb2sA-2t2qgF4yxfRg8ps9ZxFq7Nn1qLuZGjfCXMfCgZoAglATUJ2oytWIW9MyeULjNEF9BZ6Ehy36aXFrn9kCgHHDrCtDaHfzhjb3iesYntRawJl6RGETRdqK_0B_j8krWWvWFp2EFfUoSJ9DEQFfQSNipZzPmcZIPRxu1qY7TKCVv7je-voKmZuZ2njFZLY0KXqzXoGJwbwtQw1K9IJBhJvjS9LK21UA_G6Z68ugm6oyZ8INhUHI47Hlr-cHchyMJ8WKKo0bi-yWZacTs8PDuDRtDbuRGjwbgcrfwLdpiaT1m_PQFQ4WFzH9#93ea28cafe890a0b15c8c0f0a3af8aadf68be963b0660acbdbb2fdaf9030ce13
+#EXTINF:-1 tvg-id="sport.1.baltic" tvg-name="Sport 1 Baltic" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Russian, English, Ukrainian" group-title="sports",Sport 1 Baltic
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F461%2Findex.m3u8#e554c4f057e9865318a0ae54fef138a1f1aa6c94a28ab85663ad38ded74485c6
+#EXTINF:-1 tvg-id="sport.2" tvg-name="Sport 2" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="sports",Sport 2
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F392%2Findex.m3u8#e6d796136188316346f443ae9530f158c99e99c88d992f506d5ed04789c8b7de
+#EXTINF:-1 tvg-id="sport.3" tvg-name="Sport 3" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="sports",Sport 3
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F393%2Findex.m3u8#e77ac9213e69fea6ad8062c0753a6829089cc3405299ce07f7ad2dafedc4d7b6
+#EXTINF:-1 tvg-id="sport.5" tvg-name="Sport 5" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="English" group-title="sports",Sport 5
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F212%2Findex.m3u8#1d25b11fa5b9a50d9fa82ef74aa4f00ea489e1c0757c58b8269a2bb180644c31
+#EXTINF:-1 tvg-id="sport.italia" tvg-name="Sport Italia" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Sport Italia
+http://eja.tv/?https%3A%2F%2Famg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-sportitalia-rakuten%2FCDN%2Fmaster.m3u8#f050abef5692e011e873ceca65d2ec90291d9fe0a6fa6904f4cb3fe0d6fe39fd
+#EXTINF:-1 tvg-id="sport.tv" tvg-name="Sport TV" tvg-logo="" tvg-country="🇧🇾 Belarus" tvg-language="Belarusian" group-title="sports",Sport TV
+http://eja.tv/?http%3A%2F%2Fmedia1.skifnet.by%2Fsporttv%2Findex.m3u8#dc215ff0af35afc4f9db07cf0310b23210bec8120d5ae289a30aa11a27bd6d8a
+#EXTINF:-1 tvg-id="sport1" tvg-name="Sport1" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech, Slovak" group-title="sports",Sport1
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_sport1_25p%2Fplaylist.m3u8#8df395d375ceb79d29939f3906a68bfe381f151caa22d4e047002c756d2017f3
+#EXTINF:-1 tvg-id="sport2" tvg-name="Sport2" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech, Slovak" group-title="sports",Sport2
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_sport_2%2Fplaylist.m3u8#983d186e3331b99ed76e285a27f44a9e61526a29e057f636660a2fda420a9906
+#EXTINF:-1 tvg-id="sportitalia" tvg-name="Sportitalia" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Sportitalia
+http://eja.tv/?https%3A%2F%2Fedge-001.streamup.eu%2Fsportitalia%2Fsihd_abr%2Fplaylist.m3u8#f06ebdacc7f829842ef70c3185d05197762f00139ba08885134b59e2d4731f72
+#EXTINF:-1 tvg-id="sportitalia.solocalcio" tvg-name="Sportitalia Solocalcio" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",Sportitalia Solocalcio
+http://eja.tv/?https%3A%2F%2Fedge-001.streamup.eu%2Fsportitalia%2Fsisolocalcio_abr%2Fplaylist.m3u8#03080f01c7689f5ac429641a6e1e07bc03b392eec21fb0d2e74e13e724a29a65
+#EXTINF:-1 tvg-id="sportsgrid" tvg-name="SportsGrid" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",SportsGrid
+http://eja.tv/?https%3A%2F%2Fsportsgrid-plex.amagi.tv%2Fplaylist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
+#EXTINF:-1 tvg-id="sportsgrid" tvg-name="SportsGrid" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",SportsGrid
+http://eja.tv/?https%3A%2F%2Fsportsgrid-samsungus.amagi.tv%2Fplaylist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
+#EXTINF:-1 tvg-id="stadium" tvg-name="Stadium" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Stadium
+http://eja.tv/?https%3A%2F%2Fwurl120sports.global.transmit.live%2Fhls%2F679a907dce42a042c23ace37%2Fv1%2Fstadium_gracenote%2Fsamsung_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8#880b70ff9015275023583eb8239b88a6a80c6d58381207b5f0722126bee29d8d
+#EXTINF:-1 tvg-id="star.sports.2.telugu.hd" tvg-name="Star Sports 2 Telugu HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="sports",Star Sports 2 Telugu HD
+http://eja.tv/?https%3A%2F%2Freal-vk.proxy.nellaiiptv.com%2FSDMEDIA%2Findex.m3u8#9ffde26ce618c1f9c950d595452c8ce9598faffeca51ebe13a2a475b6798ffb0
+#EXTINF:-1 tvg-id="strongman.champions.league" tvg-name="Strongman Champions League" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="German, English" group-title="sports",Strongman Champions League
+http://eja.tv/?https%3A%2F%2Frightsboosterltd-scl-2-eu.rakuten.wurl.tv%2Fplaylist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
+#EXTINF:-1 tvg-id="suspilne.sport" tvg-name="Suspilne. Sport" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="sports",Suspilne. Sport
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F444%2Findex.m3u8#e03629fd4f900ce94d8fd8439056a88db5926fb637bcb6aa967434bb2bf37f46
+#EXTINF:-1 tvg-id="teledeporte" tvg-name="Teledeporte" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="sports",Teledeporte
+http://eja.tv/?https%3A%2F%2Frtvelivestream.rtve.es%2Frtvesec%2Ftdp%2Ftdp_main.m3u8#774f00fc4a494034e4f06766c7d32b1d9446a57790884998695c9f31cdff96f4
+#EXTINF:-1 tvg-id="teletrak" tvg-name="Teletrak" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="sports",Teletrak
+http://eja.tv/?https%3A%2F%2Funlimited6-cl.dps.live%2Fsportinghd%2Fsportinghd.smil%2Fplaylist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
+#EXTINF:-1 tvg-id="tennis.channel" tvg-name="Tennis Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Tennis Channel
+http://eja.tv/?https%3A%2F%2Fcdn-ue1-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischannelnl-samsungnl%2Fplaylist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
+#EXTINF:-1 tvg-id="tennis.channel" tvg-name="Tennis Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Tennis Channel
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_TENNIS%2Findex.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
+#EXTINF:-1 tvg-id="tennis.channel" tvg-name="Tennis Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Tennis Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischnlintl-lggb%2Fplaylist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+#EXTINF:-1 tvg-id="tennis.channel.2" tvg-name="Tennis Channel 2" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",Tennis Channel 2
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTennis2%2Findex.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
+#EXTINF:-1 tvg-id="testlivestream" tvg-name="Testlivestream" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Testlivestream
+http://51.255.167.118/live/testlivestream/testlivestream/31.m3u8#4c7138894083af509775f0cbd0cd881a7822b1e85a22b34f5302aadf900f79d4
+#EXTINF:-1 tvg-id="tigo.sports" tvg-name="Tigo Sports" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="sports",Tigo Sports
+http://eja.tv/?http%3A%2F%2F45.134.141.161%3A2200%2FARG%2FTigo_Sports%2Ftracks-v1a1%2Fmono.m3u8#69b5aa6d0310b1053f2ad16a428854a035c9370a252f93324645b6b03c2269fb
+#EXTINF:-1 tvg-id="tigo.sports" tvg-name="Tigo Sports" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="sports",Tigo Sports
+http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa04k%2Findex.m3u8%3Fhls#812aca487c44d97dbce6ebf8d5efff8607ffbfe47e69bd94578b8922e78f7e96
+#EXTINF:-1 tvg-id="tigo.sports" tvg-name="Tigo Sports+" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="sports",Tigo Sports+
+http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa04i%2Findex.m3u8#6cce15adcdbae3405f8a4a9a5b5d241df3df67e3338ac7a277ffb6b4a18e3fbf
+#EXTINF:-1 tvg-id="tjk.tv" tvg-name="TJK TV" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Turkish" group-title="sports",TJK TV
+http://eja.tv/?https%3A%2F%2Ftjktv-live.tjk.org%2Ftjktv.m3u8#a546ba7abdbae0b9aea822e4ab2170850da1fd9b01d618bfa8dbf1c59682ddaa
+#EXTINF:-1 tvg-id="tr.sport" tvg-name="TR Sport" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="sports",TR Sport
+http://eja.tv/?https%3A%2F%2Flivetr.teleromagna.it%2Fmia%2Flive%2Fplaylist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
+#EXTINF:-1 tvg-id="trace.sport.stars" tvg-name="Trace Sport Stars" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English, French, Russian" group-title="sports",Trace Sport Stars
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTraceSport%2Findex.m3u8#43305789a8824413a843c39584d6aa3bab537cdba5fd27648d169a52d2c3e632
+#EXTINF:-1 tvg-id="trace.sports.stars" tvg-name="Trace Sports Stars" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English, French" group-title="sports",Trace Sports Stars
+http://eja.tv/?https%3A%2F%2Ftracesportstars-klowdtv.amagi.tv%2Fplaylist.m3u8#c5f4adab172b8b034e72a2baeadba0639e77858b21b7c6e7d7745046a9b82069
+#EXTINF:-1 tvg-id="turf.movil" tvg-name="Turf Movil" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="sports",Turf Movil
+http://eja.tv/?https%3A%2F%2Ftvturf4.janus.cl%2Fplaylist%2Fstream.m3u8%3Fd%3Dw%26id%3D#660479510c63d6a6299e0ee3b0d850631a0e453cd70b6a3f5db3244168154d65
+#EXTINF:-1 tvg-id="tvr.sport" tvg-name="TVR Sport" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="sports",TVR Sport
+http://eja.tv/?https%3A%2F%2Ftvr-sport.lg.mncdn.com%2Ftvrsport%2Fsmil%3Atvrsport.smil%2Fchunklist_b5160000.m3u8#91d70ef8067d13ae3c405f5984f7baca9d506a4d4c9e0599d42cae8ef7633eb4
+#EXTINF:-1 tvg-id="tvs.bowling.network" tvg-name="TVS Bowling Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Bowling Network
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsbowling%2Findex.m3u8#2643580f023425ac7171413cc1d146914efb36943a3d49892928ec4d1a40d334
+#EXTINF:-1 tvg-id="tvs.boxing" tvg-name="TVS Boxing" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Boxing
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsboxing%2Findex.m3u8#39b0e148930798efde5301085fc5cd3db5d68fa91230ad760ab3174636bc7335
+#EXTINF:-1 tvg-id="tvs.classic.sports" tvg-name="TVS Classic Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Classic Sports
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvs%2Findex.m3u8#1c2cabab8bbd0979c62b19051ec6887d44e8880d8522fab1a2b7f20204511a6b
+#EXTINF:-1 tvg-id="tvs.sports" tvg-name="TVS Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Sports
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvssports%2Findex.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
+#EXTINF:-1 tvg-id="tvs.sports.bureau" tvg-name="TVS Sports Bureau" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Sports Bureau
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvssportsbureau%2Findex.m3u8#6e6f9a7bbc7043355794595232400c46d8173d737c097298c8d4f5be2c84a334
+#EXTINF:-1 tvg-id="tvs.turbo" tvg-name="TVS Turbo" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Turbo
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsturbo%2Findex.m3u8#3c0e1fd6587525d9e1cdeae6b19c098f5b55dee1c33b5db7e17550002e31a43f
+#EXTINF:-1 tvg-id="tvs.women.sports" tvg-name="TVS Women Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",TVS Women Sports
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvswsn%2Findex.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
+#EXTINF:-1 tvg-id="tyc.sports" tvg-name="TyC Sports" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="sports",TyC Sports
+http://eja.tv/?https%3A%2F%2Famg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv%2Fts-us-e2-n2%2Fplaylist%2Famg26268-sportsstudio-tycsports-freelivesportsemea%2Fplaylist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
+#EXTINF:-1 tvg-id="tyc.sports" tvg-name="TyC Sports" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="sports",TyC Sports
+http://eja.tv/?https%3A%2F%2Flive-04-11-tyc-app-web.vodgc.net%2Ftyc24%2Findex.m3u8#8c023797c291f42c50e1d224006bdcc11b93a36e10087174a09aec45ea7c9ad7
+#EXTINF:-1 tvg-id="tyc.sports.usa" tvg-name="TyC Sports USA" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="sports",TyC Sports USA
+http://eja.tv/?http%3A%2F%2F45.170.130.224%3A8000%2Fplay%2Fa020%2Findex.m3u8#d115de1a6279787aeb21b3586c44d7bac9c88a8bd1e3f421269173297528a388
+#EXTINF:-1 tvg-id="usa.network" tvg-name="USA Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="sports",USA Network
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fusa%2Findex.m3u8%3Ftoken%3Dtest#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
+#EXTINF:-1 tvg-id="voyo.sport.1" tvg-name="Voyo Sport 1" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="sports",Voyo Sport 1
+http://eja.tv/?https%3A%2F%2Fvip-acasatv.online%3A25463%2FlrZuGxAuP3%2F6782859900%2F16677.m3u8#93ea28cafe890a0b15c8c0f0a3af8aadf68be963b0660acbdbb2fdaf9030ce13
+#EXTINF:-1 tvg-id="world.of.freesports" tvg-name="World of Freesports" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="sports",World of Freesports
+http://eja.tv/?https%3A%2F%2Fmainstreammedia-worldoffreesportsintl-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten%2FCDN%2Fmaster.m3u8#8ab9ab9ddc1246ecc268ae539e0fb72299a5ec7e34dc0f78bbe6088425f7171a
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French, German, Italian, English, Spanish" group-title="sports",World Poker Tour
+http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv%2Fplaylist%2Famg00218-wptenterprisesi-worldpokertour-klowdtv%2Fplaylist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French, German, Italian, English, Spanish" group-title="sports",World Poker Tour
+http://eja.tv/?https%3A%2F%2Fd2e00kr7m9coe4.cloudfront.net%2Fscheduler%2FscheduleMaster%2F406.m3u8#70f74ad0e09c436b4031b9c8eb7eff6f8a217922d032e62e31885630532caba3
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish, French, German, Italian" group-title="sports",World Poker Tour
+http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv%2Fplaylist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French, German, Italian, English, Spanish" group-title="sports",World Poker Tour
+http://eja.tv/?https%3A%2F%2Famg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv%2Fplaylist%2Famg00477-samsungelectron-worldpokertour-samsunguk%2Fplaylist.m3u8#d892893c3b590a0a4702c34e8a5fd616e3b686330d6e8870a362487431fdfdfc
+#EXTINF:-1 tvg-id="t.sport" tvg-name="ČT Sport" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="sports",ČT Sport
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_ctsport_25p%2Fplaylist.m3u8#be49b7c703ee22c1c4057477fb141b1b379d48f3acebab175a7bb9847800a9e9
+#EXTINF:-1 tvg-id="ru.sport" tvg-name="Астрахань.Ru Sport" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="sports",Астрахань.Ru Sport
+http://eja.tv/?https%3A%2F%2Fstreaming.astrakhan.ru%2Fastrakhanrusporthd%2Fplaylist.m3u8#7be5faf38433a25ebb455aeaa4e0c6825771a9284cae4b257cb8a40427698cab
+#EXTINF:-1 tvg-id="5" tvg-name="Беларусь 5" tvg-logo="" tvg-country="🇧🇾 Belarus" tvg-language="Russian" group-title="sports",Беларусь 5
+http://eja.tv/?https%3A%2F%2Fngtrk.dc.beltelecom.by%2Fngtrk%2Fsmil%3Abelarus5.smil%2Fplaylist.m3u8#dc0a24f8725bcc88bd57673c898e20b5faeac1ed503d99daaa1b4bc2d5df2e08

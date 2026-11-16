@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fscheduler%2FscheduleMaster%2F418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fptnr-yupptv%2Ftitle-cricketgold%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb2048bb8-1686-4432-aa50-647245383e0c%2Fmanifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Channel
-http://eja.tv/?https%3A%2F%2Fd382r3rgbxdixq.cloudfront.net%2Fscheduler%2FscheduleMaster%2F418.m3u8#ca07d027725394bf4953bc33871c87778da2161ea8e1cb9e0730eb7d554e60d6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
 https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",English
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="sports",/small>
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
-#EXTINF:-1 tvg-name="Stream 2" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Stream 2
+#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Cricket Gold
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fptnr-yupptv%2Ftitle-cricketgold%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fb2048bb8-1686-4432-aa50-647245383e0c%2Fmanifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
+#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="sports",Cricket Gold
+http://eja.tv/?https%3A%2F%2Fstreams2.sofast.tv%2Fscheduler%2FscheduleMaster%2F418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
+#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Cricket Gold
+http://eja.tv/?https%3A%2F%2Fd382r3rgbxdixq.cloudfront.net%2Fscheduler%2FscheduleMaster%2F418.m3u8#ca07d027725394bf4953bc33871c87778da2161ea8e1cb9e0730eb7d554e60d6
+#EXTINF:-1 tvg-id="l" tvg-name="l>" tvg-logo="" tvg-country="" tvg-language="" group-title="General",l>
 https://d382r3rgbxdixq.cloudfront.net/scheduler/scheduleMaster/418.m3u8#ca07d027725394bf4953bc33871c87778da2161ea8e1cb9e0730eb7d554e60d6

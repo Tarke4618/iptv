@@ -1,465 +1,449 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Arabic
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/mobile_wifi_main_hd_abr_v2.m3u8#a069d4683bd6d58ba25e9351248838e347955a290fc4f34ced25cbed34b417e0
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Arabic
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8#7296a03945968914bf36dc72ad9c85ac7bce63737e2f4186770edc4d9e82e9ed
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Arabic
-https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8#35d527052fee684779ff9ebb89a0ae6cae8c760b484bdaadeb50e8676fc5b907
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Arabic
-https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#0535994b4ff1d005bc5b60c9aa739593b9c46f3bd38e1d0568273a948e105f81
-#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Arabic
-https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8#fb34b8cbafbb08206dc2ab656101a86281f5cc97d42246accc1c4430f7a97954
-#EXTINF:-1 tvg-name="Bengali" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Bengali
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8#5accdebafc2921022d81327793d9376c8a11061eb51503086104c3cec3bf21b5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-push-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_news_channel_hd%2Fmobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fdev-live.livetvstream.co.uk%2FLS-63503-4%2Findex.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-push-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_news_channel_hd%2Fmobile_wifi_main_sd_abr_v2.m3u8#edfaf2b65e207424b972317aa3415e8557f71c1974848fdefcecd6fca179584a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Flive.playstop.me%2FLS-63503-4%2Findex.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Documentary",Channel
-http://eja.tv/?https%3A%2F%2Famg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv%2FBBCStudios-BBCEarthA-hls%2Fplaylist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_persian_tv%2Fmobile_wifi_main_hd_abr_v2.m3u8#7b1c9579832b2d33c2bdb5f253a9cdc232c513f0df56db9f193d82e64c9ad880
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fdash2.antik.sk%2Flive%2Ftest_bbc_world%2Fplaylist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Flive.playstop.me%2F1816184091%2Findex.m3u8#fb5aa95d2026cd12c78f66611c7091eaf144edc0f55538f8808ae7d6645a1fbc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-greatmovies-samsunguk%2Fplaylist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Flive.livetvstream.co.uk%2FLS-63503-4%2Findex.m3u8#07879d7a0b3d5e553a0c772c6a5a23b69128103f833f91d67783dbfe59c4f133
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Flightning-now70s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now70s-rakuten%2FCDN%2Fplaylist.m3u8#609cf8fdc141a1f5698ade96a73b4f679122293b0f6c3a222d04b1db38a0b734
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv%2Fplaylist%2Famg00627-banijayfast-mrbeanpopupcc-rakutenuk%2Fplaylist.m3u8#b131fa0ae5251c0be19073c202ec98dca5e9b5559e8dfbfd8d500f3dcc345c99
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Entertainment",Channel
-http://eja.tv/?https%3A%2F%2Famg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv%2Fplaylist%2Famg17931-asiatvusaltdfast-zeeworld-samsungau%2Fplaylist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_persian_tv%2Fpc_hd_abr_v2.m3u8#36476898bb966c82e40a8eeef223129e0e0e203cdb5e3f1095820f2f67f52537
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_00s%2FSA_LIVE_hls_enc%2Fmaster.m3u8#6c7ce2005a4790b450f9d156b413845a4e92ff2eea0bf7dda346ce4a3e117761
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Channel%2FSA_LIVE_hls_enc%2Fmaster.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-greatchristmas-samsunguk%2Fplaylist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fdash2.antik.sk%2Flive%2Ftest_ectv_hd_1200%2Fplaylist.m3u8#ecd341275cec5537053e4f4075e683ee5f93b6e555ceb914642c6cbb78f1c50e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flo3.gemporia.com%2Fabrgemporiaukgfx%2Fsmil%3Alivestream.smil%2Fplaylist.m3u8#3cdda4a8cbe655df2e290388178447f15bbb77035b1e31637f9a9587d977e0a9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Flightning-now80s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now80s-rakuten%2FCDN%2Fplaylist.m3u8#6c02aa2ee6fb7f9f9b7c42846b36021ede7cff96b1095a20f0140560c5beaea3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_80s%2FSA_LIVE_hls_enc%2Fmaster.m3u8#0612df993f1778303031ad8422cf8a4a719ca7b3461da9d7e40642f3620fc69f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fsetarehhls.wns.live%2Fhls%2Fstream.m3u8#cd244e1b11ff865ea61b403ceb824592b713bdeaff1bb18858deb8a1ec62d679
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Fstream.ecable.tv%2Fafrobeats%2Findex.m3u8#b5588087845b3f6db254a0a34deb243af92374f20f1ad2fca73d8c295a909c2a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Family%2FSA_LIVE_hls_enc%2Fmaster.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Documentary",Channel
-http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_earth%2FHLSv3-FTA%2FBBC_earth.m3u8#4522ae92831774573841e915927f2b8e77c783ca3e0a72f57ff0df025bd8c472
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg01076-lightningintern-gbnewsnz-samsungnz%2Fplaylist.m3u8#71ba9bc1324c070925a85c000c214f7fcc7412eadfcd79f06c49d84b6766ad17
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fd111bsx9oooqoh.cloudfront.net%2Fplaylist.m3u8#46e7de352cca644c7b21f1da0da9bdbf9cb218b241c45adb78c781075c7114e8
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Channel
-http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_BBC_NEWS%2Findex.m3u8#e551df1fef0b3d04421f874e14755969c909347ce003658b6ce708c934072900
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?http%3A%2F%2Falbuk.dyndns.tv%3A1935%2Falbuk%2Falbuk.stream%2Fplaylist.m3u8#fdae0055fbe7f22318ce83b5aadafb63b69cc8e8868e6a4d97343ac278f289a3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Famg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv%2Fplaylist%2Famg01076-lightning-now90s00s-rakutengb%2Fplaylist.m3u8#155b84ced045705fe937e9450d9c24d45a384d9933f9385cb0378f6f496aa685
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Documentary",Channel
-http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2Fskynature%2Findex.m3u8#828e99e3e465b67442ede9b5e0fbfcb902750dcf68f02e2ac28ca2b63814d587
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2008145%2Fmta2%2Fplaylist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_Dance%2FSA_LIVE_hls_enc%2Fmaster.m3u8#ee80b09c7b649746f0d5fb6cf8bffcec13165560e80371545dd8366cb15252fd
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_arabic_tv%2Fmobile_wifi_main_hd_abr_v2.m3u8#a069d4683bd6d58ba25e9351248838e347955a290fc4f34ced25cbed34b417e0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01753-narrativeentert-popkids-lggb%2Fplaylist.m3u8#181ccf177fc8383feed57416111b3d8ea1af408cb2de0a20e3234d9c5865a335
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_Concerts%2FSA_LIVE_hls_enc%2Fmaster.m3u8#4344c00ff5f88c3dcab52fcdc9fa3147030cc0b3882ccfe911518307886db45c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fs2.tvdatta.com%3A3307%2Fhybrid%2Fplay.m3u8#685b1ae13e27e6d802626f4dc283fb5e937ffa73ad91e290b96f8a9d5344731c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI%2Fchsukoff.stream%2Fplaylist.m3u8#72ff63ed62c1de9a54489123eea2c05585e01d14a189b7a9e4fd04217f6c7794
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv%2Fplaylist%2Famg01753-narrativeuk-greatmovies-lggb%2Fplaylist.m3u8#a22b7bc8c3a27e0dae41ee8c50351984513b41b2df75311a0732082c2ded14af
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic%2FSA_LIVE_hls_enc%2Fmaster.m3u8#d530a3c7b9b0c0d48303a016be8c9114f58608bfc52ed5cf64014a75dab279bd
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv%2Fplaylist%2Famg01753-narrativeuk-greatchristmas-lggb%2Fplaylist.m3u8#14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flightning-now90s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now90s-rakuten%2FCDN%2Fplaylist.m3u8#9842a46d87f7327e06f575b49843371c3cf80f799eb19c9095dd2788e0d70cdc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-tinypop-samsunguk%2Fplaylist.m3u8#b7ea93066eb58b28f6e11e49cd9a3b3a5f03614f0b4f5cc3af295fba2e67095a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-popkids-samsunguk-yjjil.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-popkids-samsunguk%2Fplaylist.m3u8#38dbe225e40c038428dff749e0c40256c428ac32217df9676fb5aa3aaab45143
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_arabic_tv%2Fpc_hd_abr_v2.m3u8#7296a03945968914bf36dc72ad9c85ac7bce63737e2f4186770edc4d9e82e9ed
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fabr.de1se01.v2beat.live%2Fplaylist.m3u8#05c1d0532990bc322f52f4c1a63ac2cc8273570f79f7dc590423ceed0c3faf43
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fhnc-free-viewlift.amagi.tv%2FHNC_AUSTRALIA.m3u8#aee319d76d6c6d776ea6c7569bc0f5c51a8d2225f2f8fa4f346b0e4c0ad54c46
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_News%2FHLSv3-FTA%2FBBC_News.m3u8#9ac4fc6c313ec6dfade00c6c10dcdf68c831f3905697cd4b0f053ab5d944e6c4
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2FtalkSPORT%2Findex.m3u8#794a20b01e692fbd08d15d61cd5d11035ea77b7a91e00e0bdc03011ced2dc6c0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_3%2Findex.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_afghan_tv%2Ft%3D3840%2Fv%3Dpv14%2Fb%3D5070016%2Fmain.m3u8#25ab4288a358111eb4a6fbb5213fcb3113fde78930811c1036a5b8406c29b2d3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg01076-lightning-now90s00s-rakutengb%2Fcb513f19657460909bce2167d0d334dd844c3bdd0b61cb3071aa448f049f4b1bdae5a5d3ec4ae47821c04d873d5f66411f21c118dc7c1fc7c76adf046727486b9b9ab265d9896450f08d597562ac7b1c51e00e07c47100238ebb4e5dd670e7295243a5583f5063c0bf5fab704fc1d50bd8767dd8a9d963317c383ea57e657305d692dfd07777ae0eb3876a0ac47116b2a063f3e669dea0488f5371ac408451dfcdb0def92098b6937091938145c78e2062208d51b3b0e4ebc3a2a1ecfe51622a3b40f4ac83fb010c87554a4fc219aad541d21cd480298d6178ee4ec80fcc11846fb806aee50ef1fce09f6f4e3badc85e3a67b2f3fadba9657ded2fbb85ecde7873d6a7462809992dfe2b393d96f2d35bd59145d8e651e8de0e3c36c4834a9299c0e1bee1f705f642ffc9ff963255401972258353a78864d869fc76acdc1c28580d69a2985cc8839b321d6d4d8f8c5b942313b6d58e89bd566e2a01dfdb52cdbf8ef6cea6a54bcf99790ab8c7b3a23d0c%2F85%2F1920x1080_4716800%2Findex.m3u8#bc44ac4a5651b03d26f11c39279ebe9282854b68f252817a17bfe2e538b738e6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_lifestyle%2FHLSv3-FTA%2FBBC_lifestyle.m3u8#add1bd00ceaaa70d7e412e5e6a4a46d5c28f02210f562b090f693dc538db687f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FCbeebies%2FHLSv3-FTA%2FCbeebies.m3u8#3a0982c0a2bd091f2567870047357ad7b88b11338d2ad213fd8932a4cb5db79b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00426-littledotstudio-wondernz-samsungnz%2Fplaylist.m3u8#d3dbdd44bebbe818d512e17add495f81a34d3848bbe649c5a9a517182a9d10b8
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Ftvsen1.aynaott.com%2Fshn6jGTk%2Findex.m3u8#7dab14a955688af2cdf293b047d580691b2ba2e076b977f9d0868462f26589d0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Ffaithworldtv.abs.tv%2F1826926230%2Findex.m3u8#b7c2c99161bf4a702a105e6eb453f1bd7349c02ff43e7f122d3a1cabdfee8245
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fdy9gbyiaxw0rb.cloudfront.net%2Fmaster.m3u8#66fec254590748d6d86da77c9a3028586952b754541ab7fea183259942a5988e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fhls.afintl.com%2Fhls%2Fstream.m3u8#87f19b843f5c27a5a679018036a970fa4c5931c6bcb74606fcbccda631f4b3ba
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Frakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv%2Fplaylist%2FrakutenAA-lightning-gbnews-rakuten%2Fplaylist.m3u8#a87d36bc59a7fdaca5225ab541be1264d489163bd409dcda430d1a747e5fc78b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fhncfree-samsung-uk.amagi.tv%2Fplaylist.m3u8#733c2c99cddc4054ba633d2feea6955b335f4c6a2290441a83ef32fbc6e1e53c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fsamsunguk-lightning-now80s-samsunguk-n908q.amagi.tv%2Fplaylist%2Fsamsunguk-lightning-now80s-samsunguk%2Fplaylist.m3u8#5039ffb89ca9c654a7cbaa8d5840cf37649bb5d17cce3a44ffceb8e6a2b30156
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqst%2Fmaster.m3u8#978d2fb08bc1502ed0843224a5cdbf5a779d5dff440a15c7ad480ff308ff2fa1
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2F5caf24a595d94.streamlock.net%3A1937%2Fpvyugfkzkc%2Fpvyugfkzkc%2Fplaylist.m3u8#1552ab637339825635723b3a4ae55b6cd170a46f1461df5f41d0656387fec31d
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8001%2Fplay%2Fa00x%2Findex.m3u8#76960a1dc149f889add52dfab111bbd9f47e5c3a41cb2756ff88a730a6529475
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01076-lightningintern-gbnewsse-samsungse-q7qjc.amagi.tv%2Fplaylist%2Famg01076-lightningintern-gbnewsse-samsungse%2Fplaylist.m3u8#59b1ea40668a8acdad6100c54a5b9167094ad46c1ca7ef562acaab0c04e49698
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fkjhls.wns.live%2Fhls%2Fstream.m3u8#ad5f1a0db3290557689e5a2738092125ebfa40fda903b38d909c6867826b83a2
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",Channel
-http://eja.tv/?https%3A%2F%2Ffastly.live.brightcove.com%2F6374054671112%2Feu-west-1%2F6058004203001%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4%2Fplaylist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fd1rc86nwwc9fag.cloudfront.net%2F260723%2Fstarplusuk_2500%2Fchunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fxykt-fix.github.io%2Fiptv%2Fstreams%2FSP88%2Findex.m3u8#f984ac38782cfa032743b4f78a781157dfdaf6953f0b42557c381fc070bc8e8d
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-shop-lc-01.vos360.video%2FContent%2FHLS_HLS%2FLive%2Fchannel%28HDTJCcustomGFX%29%2Fmaster.m3u8#198b10a1d9c10d47243d1be743dea52d97e0abcf8111499bc646b6bf10a069ba
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?http%3A%2F%2F45.132.87.69%3A8080%2Fcartoon_network%2Findex.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fstream8.cinerama.uz%2F1442%2Ftracks-v1a1%2Fmono.m3u8#b45b0c2f38089e50c6b6f75f1b364b917a22fdab2ee0bc7168364876d0d51302
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg01753-narrativeentert-popkids-lggb%2Fplaylist.m3u8#1a6ee207f9a8d7f5b0b09397633b7744797946f97648932f0af27cd947766fdc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fklmhls.wns.live%2Fhls%2Fstream.m3u8#3955c7c63d105cf9762ab8313fa2ec7c01087ed1ec9d0bfe7a83fee9925ac202
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flo3.gemporia.com%2Fabrhobbymakerukgfx%2Fsmil%3AlivestreamFullHD.smil%2Fplaylist.m3u8#9917087daa58b9385d3034d67117893af539e74ae9cf1ede1ae339477648d9bc
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqvc%2Fmaster.m3u8#ae36bdaaead81b2709ae791eaf28081465246a75a54c84c656959be08054844a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fmn-nl.mncdn.com%2Falhiwar_live%2Fsmil%3Aalhiwar.smil%2Fplaylist.m3u8#35d527052fee684779ff9ebb89a0ae6cae8c760b484bdaadeb50e8676fc5b907
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2F211125%2Fgodtv%2Fchunks.m3u8#799c40c650c9a959dbafc9b6cdfaf2019792020bf38c2f64d7062e8b5c035df5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fhls.autopo.st%2Fhls%2Fbritasiatv%2Findex.m3u8#9077eef7721a7de98a31ab8ad55867d2091b4514c551a4836384fe50ff250e74
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2F5a0e89631aa14.streamlock.net%2Flive%2FLatestTelevision%2Fplaylist.m3u8#d9eb100f26b886be788710b287ace6b3c3624b3053f0f7c8f630ca67f4a1f56e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fwonder-samsung-uk.amagi.tv%2Fplaylist.m3u8#15f5c8b496a4887896db0e0992a6a5116da6d60e596e6e5baf8eb0856839fa29
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flive-anandtv.anandmedia.net%2Fanandtvapp%2Fanandtv%2Findex.m3u8#2cc361ab069bf17704096c47aa75d63ff805d8c77a554af3b10bc9b4d056f120
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F85%2Findex.m3u8#ae085ad475b1cf23798503e4a2630aff1d9ed33a1bc48cfbf2ead5e11378a055
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqex%2Fmaster.m3u8#a0da6a22971b393d07d30225850960f5726c526811e239051ab46b403762c5ab
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2008145%2Fmta1%2Fplaylist.m3u8#f2f5e888bd588c4cd1b9c02c42484b8fa2ef94803d1a16ca7413ccb6102a53e6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flivemtaasia.akamaized.net%2Fhls%2Flive%2F2039224%2Fmtaasia2%2Fplaylist.m3u8#df38b666f283418e5a2a50e0b590f73c548454e39fd950e1d46fe3ef753e82a0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fakaal_tv%2Fhls1_smart_akaal%2Fakaal_tv.m3u8#bee621fc6ee91fb8bf750735c64d07bf36e187024d05173f701132378f0a6b9d
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flive.kanshitv.co.uk%2Fmobile%2Fkanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2010555%2Fmtaafrica1%2Fplaylist.m3u8#18e791ea98db6e1a93311ea16b6c051ff2e5cc58197a830474a9c9d147828213
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2010556%2Fmta3alarabia%2Fplaylist.m3u8#0535994b4ff1d005bc5b60c9aa739593b9c46f3bd38e1d0568273a948e105f81
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqby%2Fmaster.m3u8#486c81913d63e05f8ede339a5fb1d18f22e3ee96bc6866f1babb07a48212afd5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FUtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn-shop-lc-01.akamaized.net%2FContent%2FHLS_HLS%2FLive%2Fchannel%28TJCOTT%29%2Findex.m3u8#14bec10ce13232f09c9dc3f90e0867b540d46c82f552e1189268a0c1f50c2bc5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fviewmedia7219.bozztv.com%2Fwmedia%2Fviewmedia100%2Fweb_030%2FStream%2Fplaylist.m3u8#8ef4562255b72d0dddabf9267ae5dd07a8c6e430d44bb118a2d68012e7c297a6
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fatnbanglauk-off.stream%2Fplaylist.m3u8#5accdebafc2921022d81327793d9376c8a11061eb51503086104c3cec3bf21b5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?http%3A%2F%2F181.78.12.119%3A16123%2Fplay%2Fch01%2Findex.m3u8#25c9d9c265a3487fabca9c4087c7b08ca1815b6cb8c6bf6029fda6837c8c7360
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FMoonbug%2Findex.m3u8#0776da9f3b3cab02bc42bb6026d9e96f5effdc477450c11c01aaec0186448047
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2010555%2Fmtaafrica2%2Fplaylist.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2016718%2Fmta8%2Fplaylist.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fsscsott.com%2Fsrt%2Fnoortvuk%2Findex.m3u8#82f7c5530125f3a60f780e79cde9df275756ec9a4c200237663904a87f0b48c3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fdv8lsrd8fecw9.cloudfront.net%2Fmaster.m3u8#1b02358ea0d6b32e8f3559ab40ab7d3b8b2a4c9f60b5cc85caa7bef5b2e9787a
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FBBCNews%2Findex.m3u8#91181ce414ecab39157c829ec39f2cc5a5c763e6a99e0cb6bf7869906540986c
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Ffaithnow-hls.secdn.net%2Ffaithnow-c-channel%2Fplay%2FFaithUK.smil%2Fplaylist.m3u8#e37ffc1f56202f272e5d8c76aecac029f8380de72630347dac3269e7d49e93c3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fhlspackager.akamaized.net%2Flive%2FDB%2FGB_NEWS%2FHLS%2FGB_NEWS.m3u8#fd2311fa4a60b7358568184964b9a640012fef1bad1f5e2fef9dc2a735115a92
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Ffl-dvr.iptvcdn.tv%2Fchid_1%2Fplaylist.m3u8#20818cbf0d6d2a675fb76ddbb122b4d10dc4f7ebbd5c4e0a23a850a9accbce96
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fmanatv.akamaized.net%2F120723%2Fsmil%3Amagnavision.smil%2Fplaylist.m3u8#d2b46fb22099a6858be099105d4c4d5cd6faaca61c4ca6e646349160ececade3
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flivemtaasia.akamaized.net%2Fhls%2Flive%2F2039224%2Fmta6asia%2Fplaylist.m3u8#8174163c0ecc3a65c078f746bf69f205139cbec88d9289ba775dd3bf128db7fb
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Frakutenaa-narrative-popkids-rakuten-uwrx0.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2FrakutenAA-narrative-popkids-rakuten%2Fcb553d1e726c648b9dd43e6fd4ef41a8dd2406fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9512a7d127f8adaf471d89c1617b2c11f5d7fe021414efc0e14d025522288a93c019738b3761d5cb95c3a1862cff90bfc7000c7800bda62218ba4dd7c387c0c5e820c5feda643a6fde90e43d038a4e21e1bc72560ddbc139d9773efd59202cd16e92aac50bfa1cabad21aadbcb032fd14dd370656367897944694cc53a4dfe80353f472204f1251f4a69da43f56e146474fc7fac5a9179979aa99378e646de16ae84e8023b578be1ba2e043a9a3bce04b454be2ae1f3575a4e1f9d9f9617ee437fda0a489212d9fbb4d2814cb20dc202a6e94adca40d2931095ec51efde68192bff9c448996b7979dd4e728892e90879ee03c465d5c16169062a19563cf2cd36c97c2122f5b5845aa9f27a0ecbb5b3e3836ecef5fd00024bdde9d8adc0b04d3651a489a06b33f54359b6436078f5cf89e2f53992a0b9c302fc450308945f4ac5e93cdbfb45663e584bf28906eeba635d6f314a06e396616aae2292d20261ec7eb64574513aa44e0c0f5f3631f09e885a594a6016f5661420a56d9888f719f9dff390d1fc521600a30431390078e39885904022b994b9ef85e25d44b7928b7f272595c35959ae58584d39a14ec25afa592382b286667b8250c256becbb8c52f84a22141d5b891d6145b21f000a80e7c8e18abf69cf915ba937700666c9f1034e1b2001097acac13a8f06b3ca48efca9a0498bdd4431ff856d300148defd869eee482c270029fae521515feb940e25603e225fd08d2ae1aaab15115232e545efd8d5bf14bbcd18ef8229e5ecb25672ab220ebc6a6d9b86752f4ae4b232336570271567a297ecbb0a4670f76a2ae26ed48f2ee5bbd541a243a4584c26a2887ec64239f3a7074a0aedfb4aecb1715cd61e67ccc7371c03d6907c0ee69b0f9d883fb837c6b10d5b7b249a99e9f88c8c2c25418610861c2930f0f0db24bf18814deb80e79fdb69ffcca6be51c8852ad8da527f033b2912e6cc4e09cfae848105a4a45c3c2f8f407deb21e370619b1f74f3bad84dda775fcebb23e2bfa5ac186264c8c1b507ec78dfc25e90a99c7180bc6a64a50e45513e0d6a7213fe905f301157cd3faa04d2dc8e22eb26cbadbce2e6dad293fc5667f408d5db4ae926a7cd3a4305552d93c218772b0e2886d75618b975f14125c1f340ed64b7d0dc51f498433bbc5c0924c01ab28a83e1eef608ae37e86912dccd2e5d08fc711448ed52e34d33ec6009a02c9fcaedd198572488b49b23b40a9f6fddde9fbe596e6f63f7839b766be2be957b8e78ab0540f2b5bff2e1a6b0bd53cc42a3f72b5e174c1866c49a7f8d626e2237564233511ec30b5bd12696402a8c75cbcfc4b43404d12c9e22f86329d642aa27656ba1368333e367360a5b6ec3aff08fd5690c65e29c0a4bc8307c68d1effbfa7d79b680fe373076f79bc96aeb0f16014fbb5a8b01449a2ca44b232541c0aa3fb837632e3e40502d987ac55989d42a639172b4ef3ad8f13ec5ea313cb7e7efb1af2de6c4c97c976583a812ca9df7c459949ff0a01e56684406dd91d6753563d867ac7580b602df17283f8fc1a4e748501c96a683cbbe3fe8da83f57220d440f54051271ce412dc5192c4bea132f9b368dc28fec6585ee428d299dfdb38d1521d8c5f0c5922e892fe19290d28ce7b0ae685d481cc8b3c606a42905c4fd69b10cf3fe3406ec17a28b7387405e60c7060763cb9661176182a37d8deb4fb16b8b1ebafa88e1cd6fc8dbb5022bbe5407f552c22990723e574fcd60ad882b27e3aee91ba46d4ef0e5a9bbc4fe41e5f3c126db4da0c79ab0a805aad763294685386e1b742329ec749c3f0e907ef142f95da37d23fb268f455e31e5a99e61f1e35b38447e03d75a92772652d22229293040d7c538a6de867c4771221a55e6da1bd1114dbb225451968722e9d6f7619553d59eb5f650295a7b34fd71385575d06b6f5d16bca7f5c7033bc63aca1e0ab39093e9790a218b9b58bb910461c1f1c626f73dd57de405a670124f089d5d571cbd176d3e631d7e739c4b27ef8ca396a52e2c6364b0cb38015abbf0a149bf386d7a45138130513026%2F17%2F1920x1080_5903040%2Findex.m3u8#af06054afc3de42a8bb95d1779ff40e06a2852c6bc5a560e3c4c99913fece962
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FUtsavPlus.m3u8#e46751e79d5df984e87d549583f20fc3244b393245c5dd13b4dd490fbf66f49b
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Flds-wonder-plex.amagi.tv%2Fplaylist.m3u8#137743f685a0d098405a776b7569e99c270eea1c2f25dbf7a58549fd19815bb0
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Foj7lnxonyg82-hls-live.5centscdn.com%2Fuks%2F24263a839810d2041a349baaeef36a79.sdp%2Fplaylist.m3u8#ab40fd9625adfc336079ad0e518825c56983e907dfa91faa76d46985c4f0ed01
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Famg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv%2Fplaylist%2Famg01076-lightning-gbnews-lggb%2Fplaylist.m3u8#a44d5b7810bfced62cffc9a8b0a23c5db69eec5febf5a2371ca19c184ed5931f
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F1391%2Fmaster.m3u8#4e4b7d3281a19d04704238304136a05f5c28a8acbe4ab65312de8d1252b1cc0e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fpanjabtv.akamaized.net%2Fpanjabtv%2Fpanjabtvhlsout%2Fplaylist.m3u8#af63ec92cfbff8f836b9f0a99eb02567b7b32b4b8183bd10e4f2573f0af1bd3e
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2F211125%2Fgodtv%2Fplaylist.m3u8#7c2360d528e8ba545545d82a97524cb6e5ddddee2bb58ebadfd03af39629385d
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fmumt06.tangotv.in%2FqYyB8fXVSANGATTV%2Findex.m3u8#7588367013cce0e78a9b367c317cb0ee7e90ef71f96c92238ca80ffde9a7ff24
-#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Channel
-http://eja.tv/?https%3A%2F%2Fcd198.anystream.uk%3A9092%2Fiqapp%2Ft5kb86tv%2Fplaylist.m3u8#fb34b8cbafbb08206dc2ab656101a86281f5cc97d42246accc1c4430f7a97954
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Documentary",English
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",English
-https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8#b131fa0ae5251c0be19073c202ec98dca5e9b5559e8dfbfd8d500f3dcc345c99
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",English
-https://rakutenaa-lightning-now70s-rakuten-t8535.amagi.tv/playlist/rakutenAA-lightning-now70s-rakuten/playlist.m3u8#609cf8fdc141a1f5698ade96a73b4f679122293b0f6c3a222d04b1db38a0b734
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Entertainment",English
-https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",English
-https://amg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv/playlist/amg01753-narrativeentert-greatchristmas-samsunguk/playlist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",English
-https://rakutenaa-lightning-now80s-rakuten-mkrxt.amagi.tv/playlist/rakutenAA-lightning-now80s-rakuten/playlist.m3u8#6c02aa2ee6fb7f9f9b7c42846b36021ede7cff96b1095a20f0140560c5beaea3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8#ecd341275cec5537053e4f4075e683ee5f93b6e555ceb914642c6cbb78f1c50e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8#3cdda4a8cbe655df2e290388178447f15bbb77035b1e31637f9a9587d977e0a9
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8#46e7de352cca644c7b21f1da0da9bdbf9cb218b241c45adb78c781075c7114e8
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",English
-https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-rakutengb/playlist.m3u8#155b84ced045705fe937e9450d9c24d45a384d9933f9385cb0378f6f496aa685
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",English
-https://stream.ecable.tv/afrobeats/index.m3u8#b5588087845b3f6db254a0a34deb243af92374f20f1ad2fca73d8c295a909c2a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8#fdae0055fbe7f22318ce83b5aadafb63b69cc8e8868e6a4d97343ac278f289a3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",English
-https://amg01076-lightningintern-gbnewsnz-samsungnz-rlcsd.amagi.tv/playlist/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8#71ba9bc1324c070925a85c000c214f7fcc7412eadfcd79f06c49d84b6766ad17
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",English
-https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8#a22b7bc8c3a27e0dae41ee8c50351984513b41b2df75311a0732082c2ded14af
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8#181ccf177fc8383feed57416111b3d8ea1af408cb2de0a20e3234d9c5865a335
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",English
-https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8#14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8#72ff63ed62c1de9a54489123eea2c05585e01d14a189b7a9e4fd04217f6c7794
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Documentary",English
-https://tvsen6.aynaott.com/skynature/index.m3u8#828e99e3e465b67442ede9b5e0fbfcb902750dcf68f02e2ac28ca2b63814d587
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8#b7ea93066eb58b28f6e11e49cd9a3b3a5f03614f0b4f5cc3af295fba2e67095a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://rakutenaa-lightning-now90s-rakuten-2968n.amagi.tv/playlist/rakutenAA-lightning-now90s-rakuten/playlist.m3u8#9842a46d87f7327e06f575b49843371c3cf80f799eb19c9095dd2788e0d70cdc
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01753-narrativeentert-popkids-samsunguk-yjjil.amagi.tv/playlist/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8#38dbe225e40c038428dff749e0c40256c428ac32217df9676fb5aa3aaab45143
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8#aee319d76d6c6d776ea6c7569bc0f5c51a8d2225f2f8fa4f346b0e4c0ad54c46
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-http://23.237.104.106:8080/DAZN_3/index.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightning-now90s00s-rakutengb/cb513f19657460909bce2167d0d334dd844c3bdd0b61cb3071aa448f049f4b1bdae5a5d3ec4ae47821c04d873d5f66411f21c118dc7c1fc7c76adf046727486b9b9ab265d9896450f08d597562ac7b1c51e00e07c47100238ebb4e5dd670e7295243a5583f5063c0bf5fab704fc1d50bd8767dd8a9d963317c383ea57e657305d692dfd07777ae0eb3876a0ac47116b2a063f3e669dea0488f5371ac408451dfcdb0def92098b6937091938145c78e2062208d51b3b0e4ebc3a2a1ecfe51622a3b40f4ac83fb010c87554a4fc219aad541d21cd480298d6178ee4ec80fcc11846fb806aee50ef1fce09f6f4e3badc85e3a67b2f3fadba9657ded2fbb85ecde7873d6a7462809992dfe2b393d96f2d35bd59145d8e651e8de0e3c36c4834a9299c0e1bee1f705f642ffc9ff963255401972258353a78864d869fc76acdc1c28580d69a2985cc8839b321d6d4d8f8c5b942313b6d58e89bd566e2a01dfdb52cdbf8ef6cea6a54bcf99790ab8c7b3a23d0c/85/1920x1080_4716800/index.m3u8#bc44ac4a5651b03d26f11c39279ebe9282854b68f252817a17bfe2e538b738e6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://dy9gbyiaxw0rb.cloudfront.net/master.m3u8#66fec254590748d6d86da77c9a3028586952b754541ab7fea183259942a5988e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://faithworldtv.abs.tv/1826926230/index.m3u8#b7c2c99161bf4a702a105e6eb453f1bd7349c02ff43e7f122d3a1cabdfee8245
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-https://tvsen6.aynaott.com/talkSPORT/index.m3u8#794a20b01e692fbd08d15d61cd5d11035ea77b7a91e00e0bdc03011ced2dc6c0
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8#a87d36bc59a7fdaca5225ab541be1264d489163bd409dcda430d1a747e5fc78b
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8#978d2fb08bc1502ed0843224a5cdbf5a779d5dff440a15c7ad480ff308ff2fa1
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv/playlist/samsunguk-lightning-now80s-samsunguk/playlist.m3u8#5039ffb89ca9c654a7cbaa8d5840cf37649bb5d17cce3a44ffceb8e6a2b30156
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://hncfree-samsung-uk.amagi.tv/playlist.m3u8#733c2c99cddc4054ba633d2feea6955b335f4c6a2290441a83ef32fbc6e1e53c
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://hls.afintl.com/hls/stream.m3u8#87f19b843f5c27a5a679018036a970fa4c5931c6bcb74606fcbccda631f4b3ba
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Sports",English
-https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel%28HDTJCcustomGFX%29/master.m3u8#198b10a1d9c10d47243d1be743dea52d97e0abcf8111499bc646b6bf10a069ba
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01076-lightningintern-gbnewsse-samsungse-q7qjc.amagi.tv/playlist/amg01076-lightningintern-gbnewsse-samsungse/playlist.m3u8#59b1ea40668a8acdad6100c54a5b9167094ad46c1ca7ef562acaab0c04e49698
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://abr.de1se01.v2beat.live/playlist.m3u8#05c1d0532990bc322f52f4c1a63ac2cc8273570f79f7dc590423ceed0c3faf43
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg00426-littledotstudio-wondernz-samsungnz-k10dq.amagi.tv/ts-ap-s1-n1/playlist/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8#d3dbdd44bebbe818d512e17add495f81a34d3848bbe649c5a9a517182a9d10b8
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8#1a6ee207f9a8d7f5b0b09397633b7744797946f97648932f0af27cd947766fdc
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8#9917087daa58b9385d3034d67117893af539e74ae9cf1ede1ae339477648d9bc
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8#799c40c650c9a959dbafc9b6cdfaf2019792020bf38c2f64d7062e8b5c035df5
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8#ae36bdaaead81b2709ae791eaf28081465246a75a54c84c656959be08054844a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://wonder-samsung-uk.amagi.tv/playlist.m3u8#15f5c8b496a4887896db0e0992a6a5116da6d60e596e6e5baf8eb0856839fa29
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://hls.autopo.st/hls/britasiatv/index.m3u8#9077eef7721a7de98a31ab8ad55867d2091b4514c551a4836384fe50ff250e74
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-http://stream.mcquack.net/85/index.m3u8#ae085ad475b1cf23798503e4a2630aff1d9ed33a1bc48cfbf2ead5e11378a055
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8#b45b0c2f38089e50c6b6f75f1b364b917a22fdab2ee0bc7168364876d0d51302
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel%28TJCOTT%29/index.m3u8#14bec10ce13232f09c9dc3f90e0867b540d46c82f552e1189268a0c1f50c2bc5
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8#a0da6a22971b393d07d30225850960f5726c526811e239051ab46b403762c5ab
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8#486c81913d63e05f8ede339a5fb1d18f22e3ee96bc6866f1babb07a48212afd5
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8#d9eb100f26b886be788710b287ace6b3c3624b3053f0f7c8f630ca67f4a1f56e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://dv8lsrd8fecw9.cloudfront.net/master.m3u8#1b02358ea0d6b32e8f3559ab40ab7d3b8b2a4c9f60b5cc85caa7bef5b2e9787a
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8#fd2311fa4a60b7358568184964b9a640012fef1bad1f5e2fef9dc2a735115a92
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://sscsott.com/srt/noortvuk/index.m3u8#82f7c5530125f3a60f780e79cde9df275756ec9a4c200237663904a87f0b48c3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8#8ef4562255b72d0dddabf9267ae5dd07a8c6e430d44bb118a2d68012e7c297a6
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://rakutenaa-narrative-popkids-rakuten-uwrx0.amagi.tv/ts-eu-w1-n2/playlist/rakutenAA-narrative-popkids-rakuten/cb553d1e726c648b9dd43e6fd4ef41a8dd2406fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9512a7d127f8adaf471d89c1617b2c11f5d7fe021414efc0e14d025522288a93c019738b3761d5cb95c3a1862cff90bfc7000c7800bda62218ba4dd7c387c0c5e820c5feda643a6fde90e43d038a4e21e1bc72560ddbc139d9773efd59202cd16e92aac50bfa1cabad21aadbcb032fd14dd370656367897944694cc53a4dfe80353f472204f1251f4a69da43f56e146474fc7fac5a9179979aa99378e646de16ae84e8023b578be1ba2e043a9a3bce04b454be2ae1f3575a4e1f9d9f9617ee437fda0a489212d9fbb4d2814cb20dc202a6e94adca40d2931095ec51efde68192bff9c448996b7979dd4e728892e90879ee03c465d5c16169062a19563cf2cd36c97c2122f5b5845aa9f27a0ecbb5b3e3836ecef5fd00024bdde9d8adc0b04d3651a489a06b33f54359b6436078f5cf89e2f53992a0b9c302fc450308945f4ac5e93cdbfb45663e584bf28906eeba635d6f314a06e396616aae2292d20261ec7eb64574513aa44e0c0f5f3631f09e885a594a6016f5661420a56d9888f719f9dff390d1fc521600a30431390078e39885904022b994b9ef85e25d44b7928b7f272595c35959ae58584d39a14ec25afa592382b286667b8250c256becbb8c52f84a22141d5b891d6145b21f000a80e7c8e18abf69cf915ba937700666c9f1034e1b2001097acac13a8f06b3ca48efca9a0498bdd4431ff856d300148defd869eee482c270029fae521515feb940e25603e225fd08d2ae1aaab15115232e545efd8d5bf14bbcd18ef8229e5ecb25672ab220ebc6a6d9b86752f4ae4b232336570271567a297ecbb0a4670f76a2ae26ed48f2ee5bbd541a243a4584c26a2887ec64239f3a7074a0aedfb4aecb1715cd61e67ccc7371c03d6907c0ee69b0f9d883fb837c6b10d5b7b249a99e9f88c8c2c25418610861c2930f0f0db24bf18814deb80e79fdb69ffcca6be51c8852ad8da527f033b2912e6cc4e09cfae848105a4a45c3c2f8f407deb21e370619b1f74f3bad84dda775fcebb23e2bfa5ac186264c8c1b507ec78dfc25e90a99c7180bc6a64a50e45513e0d6a7213fe905f301157cd3faa04d2dc8e22eb26cbadbce2e6dad293fc5667f408d5db4ae926a7cd3a4305552d93c218772b0e2886d75618b975f14125c1f340ed64b7d0dc51f498433bbc5c0924c01ab28a83e1eef608ae37e86912dccd2e5d08fc711448ed52e34d33ec6009a02c9fcaedd198572488b49b23b40a9f6fddde9fbe596e6f63f7839b766be2be957b8e78ab0540f2b5bff2e1a6b0bd53cc42a3f72b5e174c1866c49a7f8d626e2237564233511ec30b5bd12696402a8c75cbcfc4b43404d12c9e22f86329d642aa27656ba1368333e367360a5b6ec3aff08fd5690c65e29c0a4bc8307c68d1effbfa7d79b680fe373076f79bc96aeb0f16014fbb5a8b01449a2ca44b232541c0aa3fb837632e3e40502d987ac55989d42a639172b4ef3ad8f13ec5ea313cb7e7efb1af2de6c4c97c976583a812ca9df7c459949ff0a01e56684406dd91d6753563d867ac7580b602df17283f8fc1a4e748501c96a683cbbe3fe8da83f57220d440f54051271ce412dc5192c4bea132f9b368dc28fec6585ee428d299dfdb38d1521d8c5f0c5922e892fe19290d28ce7b0ae685d481cc8b3c606a42905c4fd69b10cf3fe3406ec17a28b7387405e60c7060763cb9661176182a37d8deb4fb16b8b1ebafa88e1cd6fc8dbb5022bbe5407f552c22990723e574fcd60ad882b27e3aee91ba46d4ef0e5a9bbc4fe41e5f3c126db4da0c79ab0a805aad763294685386e1b742329ec749c3f0e907ef142f95da37d23fb268f455e31e5a99e61f1e35b38447e03d75a92772652d22229293040d7c538a6de867c4771221a55e6da1bd1114dbb225451968722e9d6f7619553d59eb5f650295a7b34fd71385575d06b6f5d16bca7f5c7033bc63aca1e0ab39093e9790a218b9b58bb910461c1f1c626f73dd57de405a670124f089d5d571cbd176d3e631d7e739c4b27ef8ca396a52e2c6364b0cb38015abbf0a149bf386d7a45138130513026/17/1920x1080_5903040/index.m3u8#af06054afc3de42a8bb95d1779ff40e06a2852c6bc5a560e3c4c99913fece962
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://lds-wonder-plex.amagi.tv/playlist.m3u8#137743f685a0d098405a776b7569e99c270eea1c2f25dbf7a58549fd19815bb0
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://amg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-lggb/playlist.m3u8#a44d5b7810bfced62cffc9a8b0a23c5db69eec5febf5a2371ca19c184ed5931f
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8#0776da9f3b3cab02bc42bb6026d9e96f5effdc477450c11c01aaec0186448047
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8#7c2360d528e8ba545545d82a97524cb6e5ddddee2bb58ebadfd03af39629385d
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8#20818cbf0d6d2a675fb76ddbb122b4d10dc4f7ebbd5c4e0a23a850a9accbce96
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://VSE2-NA-US-SW65.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8#e37ffc1f56202f272e5d8c76aecac029f8380de72630347dac3269e7d49e93c3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://cdn.pishow.tv/ott/live/1391/master.m3u8#4e4b7d3281a19d04704238304136a05f5c28a8acbe4ab65312de8d1252b1cc0e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8#af63ec92cfbff8f836b9f0a99eb02567b7b32b4b8183bd10e4f2573f0af1bd3e
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",English
-https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8#7588367013cce0e78a9b367c317cb0ee7e90ef71f96c92238ca80ffde9a7ff24
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",French
-https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8#1552ab637339825635723b3a4ae55b6cd170a46f1461df5f41d0656387fec31d
-#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",German
-http://45.132.87.69:8080/cartoon_network/index.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
-#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",German
-https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8#f2f5e888bd588c4cd1b9c02c42484b8fa2ef94803d1a16ca7413ccb6102a53e6
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
-https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
-https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
-https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Hindi
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavPlus.m3u8#e46751e79d5df984e87d549583f20fc3244b393245c5dd13b4dd490fbf66f49b
-#EXTINF:-1 tvg-name="Indonesian" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",Indonesian
-https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8#8174163c0ecc3a65c078f746bf69f205139cbec88d9289ba775dd3bf128db7fb
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Italian
-https://xykt-fix.github.io/iptv/streams/SP88/index.m3u8#f984ac38782cfa032743b4f78a781157dfdaf6953f0b42557c381fc070bc8e8d
-#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Italian
-http://181.78.12.119:16123/play/ch01/index.m3u8#25c9d9c265a3487fabca9c4087c7b08ca1815b6cb8c6bf6029fda6837c8c7360
-#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Malayalam
-https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8#2cc361ab069bf17704096c47aa75d63ff805d8c77a554af3b10bc9b4d056f120
-#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Malayalam
-https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8#d2b46fb22099a6858be099105d4c4d5cd6faaca61c4ca6e646349160ececade3
-#EXTINF:-1 tvg-name="Panjabi" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Panjabi
-https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8#bee621fc6ee91fb8bf750735c64d07bf36e187024d05173f701132378f0a6b9d
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://live.playstop.me/LS-63503-4/index.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8#7b1c9579832b2d33c2bdb5f253a9cdc232c513f0df56db9f193d82e64c9ad880
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://live.playstop.me/1816184091/index.m3u8#fb5aa95d2026cd12c78f66611c7091eaf144edc0f55538f8808ae7d6645a1fbc
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://live.livetvstream.co.uk/LS-63503-4/index.m3u8#07879d7a0b3d5e553a0c772c6a5a23b69128103f833f91d67783dbfe59c4f133
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Persian
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8#36476898bb966c82e40a8eeef223129e0e0e203cdb5e3f1095820f2f67f52537
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Persian
-https://setarehhls.wns.live/hls/stream.m3u8#cd244e1b11ff865ea61b403ceb824592b713bdeaff1bb18858deb8a1ec62d679
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Persian
-https://kjhls.wns.live/hls/stream.m3u8#ad5f1a0db3290557689e5a2738092125ebfa40fda903b38d909c6867826b83a2
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Persian
-https://klmhls.wns.live/hls/stream.m3u8#3955c7c63d105cf9762ab8313fa2ec7c01087ed1ec9d0bfe7a83fee9925ac202
-#EXTINF:-1 tvg-name="Pushto" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Pushto
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/t=3840/v=pv14/b=5070016/main.m3u8#25ab4288a358111eb4a6fbb5213fcb3113fde78930811c1036a5b8406c29b2d3
-#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Russian
-http://92.114.85.87:8001/play/a00x/index.m3u8#76960a1dc149f889add52dfab111bbd9f47e5c3a41cb2756ff88a730a6529475
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Spanish
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Spanish
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8#edfaf2b65e207424b972317aa3415e8557f71c1974848fdefcecd6fca179584a
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Spanish
-https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Music",Spanish
-https://cdn.40mediagroup.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8#6c7ce2005a4790b450f9d156b413845a4e92ff2eea0bf7dda346ce4a3e117761
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Spanish
-https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Music",Spanish
-https://cdn.40mediagroup.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8#0612df993f1778303031ad8422cf8a4a719ca7b3461da9d7e40642f3620fc69f
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Spanish
-http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8#e551df1fef0b3d04421f874e14755969c909347ce003658b6ce708c934072900
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Spanish
-https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Music",Spanish
-https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8#ee80b09c7b649746f0d5fb6cf8bffcec13165560e80371545dd8366cb15252fd
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Spanish
-https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8#4344c00ff5f88c3dcab52fcdc9fa3147030cc0b3882ccfe911518307886db45c
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Spanish
-https://cdn.40mediagroup.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8#d530a3c7b9b0c0d48303a016be8c9114f58608bfc52ed5cf64014a75dab279bd
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Spanish
-https://s2.tvdatta.com:3307/hybrid/play.m3u8#685b1ae13e27e6d802626f4dc283fb5e937ffa73ad91e290b96f8a9d5344731c
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Spanish
-https://tvsen1.aynaott.com/shn6jGTk/index.m3u8#7dab14a955688af2cdf293b047d580691b2ba2e076b977f9d0868462f26589d0
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Spanish
-https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8#91181ce414ecab39157c829ec39f2cc5a5c763e6a99e0cb6bf7869906540986c
-#EXTINF:-1 tvg-name="Swahili" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Swahili
-https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
-#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",Tamil
-https://oj7lnxonyg82-hls-live.5centscdn.com/uks/24263a839810d2041a349baaeef36a79.sdp/playlist.m3u8#ab40fd9625adfc336079ad0e518825c56983e907dfa91faa76d46985c4f0ed01
-#EXTINF:-1 tvg-name="Urdu" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Urdu
+#EXTINF:-1 tvg-id="a" tvg-name="/a>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/a>
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#18e791ea98db6e1a93311ea16b6c051ff2e5cc58197a830474a9c9d147828213
-#EXTINF:-1 tvg-name="Urdu" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Urdu
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://setarehhls.wns.live/hls/stream.m3u8#cd244e1b11ff865ea61b403ceb824592b713bdeaff1bb18858deb8a1ec62d679
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="music",/small>
+https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-rakutengb/playlist.m3u8#155b84ced045705fe937e9450d9c24d45a384d9933f9385cb0378f6f496aa685
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8#7c2360d528e8ba545545d82a97524cb6e5ddddee2bb58ebadfd03af39629385d
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="entertainment",/small>
+https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://abr.de1se01.v2beat.live/playlist.m3u8#05c1d0532990bc322f52f4c1a63ac2cc8273570f79f7dc590423ceed0c3faf43
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8#7588367013cce0e78a9b367c317cb0ee7e90ef71f96c92238ca80ffde9a7ff24
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://hls.autopo.st/hls/britasiatv/index.m3u8#9077eef7721a7de98a31ab8ad55867d2091b4514c551a4836384fe50ff250e74
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv/playlist/samsunguk-lightning-now80s-samsunguk/playlist.m3u8#5039ffb89ca9c654a7cbaa8d5840cf37649bb5d17cce3a44ffceb8e6a2b30156
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="documentary",/small>
+https://tvsen6.aynaott.com/skynature/index.m3u8#828e99e3e465b67442ede9b5e0fbfcb902750dcf68f02e2ac28ca2b63814d587
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://hncfree-samsung-uk.amagi.tv/playlist.m3u8#733c2c99cddc4054ba633d2feea6955b335f4c6a2290441a83ef32fbc6e1e53c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8#aee319d76d6c6d776ea6c7569bc0f5c51a8d2225f2f8fa4f346b0e4c0ad54c46
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://cdn.pishow.tv/ott/live/1391/master.m3u8#4e4b7d3281a19d04704238304136a05f5c28a8acbe4ab65312de8d1252b1cc0e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-lggb/playlist.m3u8#a44d5b7810bfced62cffc9a8b0a23c5db69eec5febf5a2371ca19c184ed5931f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="music",/small>
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8#ee80b09c7b649746f0d5fb6cf8bffcec13165560e80371545dd8366cb15252fd
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="music",/small>
+https://rakutenaa-lightning-now80s-rakuten-mkrxt.amagi.tv/playlist/rakutenAA-lightning-now80s-rakuten/playlist.m3u8#6c02aa2ee6fb7f9f9b7c42846b36021ede7cff96b1095a20f0140560c5beaea3
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8#d9eb100f26b886be788710b287ace6b3c3624b3053f0f7c8f630ca67f4a1f56e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8#9917087daa58b9385d3034d67117893af539e74ae9cf1ede1ae339477648d9bc
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8#20818cbf0d6d2a675fb76ddbb122b4d10dc4f7ebbd5c4e0a23a850a9accbce96
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8#486c81913d63e05f8ede339a5fb1d18f22e3ee96bc6866f1babb07a48212afd5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="sports",/small>
+https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",/small>
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8#a22b7bc8c3a27e0dae41ee8c50351984513b41b2df75311a0732082c2ded14af
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://dy9gbyiaxw0rb.cloudfront.net/master.m3u8#66fec254590748d6d86da77c9a3028586952b754541ab7fea183259942a5988e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8#7b1c9579832b2d33c2bdb5f253a9cdc232c513f0df56db9f193d82e64c9ad880
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://amg01076-lightningintern-gbnewsnz-samsungnz-rlcsd.amagi.tv/playlist/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8#71ba9bc1324c070925a85c000c214f7fcc7412eadfcd79f06c49d84b6766ad17
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg00426-littledotstudio-wondernz-samsungnz-k10dq.amagi.tv/ts-ap-s1-n1/playlist/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8#d3dbdd44bebbe818d512e17add495f81a34d3848bbe649c5a9a517182a9d10b8
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://kjhls.wns.live/hls/stream.m3u8#ad5f1a0db3290557689e5a2738092125ebfa40fda903b38d909c6867826b83a2
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://rakutenaa-lightning-now90s-rakuten-2968n.amagi.tv/playlist/rakutenAA-lightning-now90s-rakuten/playlist.m3u8#9842a46d87f7327e06f575b49843371c3cf80f799eb19c9095dd2788e0d70cdc
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8#36476898bb966c82e40a8eeef223129e0e0e203cdb5e3f1095820f2f67f52537
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://dv8lsrd8fecw9.cloudfront.net/master.m3u8#1b02358ea0d6b32e8f3559ab40ab7d3b8b2a4c9f60b5cc85caa7bef5b2e9787a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://wonder-samsung-uk.amagi.tv/playlist.m3u8#15f5c8b496a4887896db0e0992a6a5116da6d60e596e6e5baf8eb0856839fa29
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://live.playstop.me/LS-63503-4/index.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8#978d2fb08bc1502ed0843224a5cdbf5a779d5dff440a15c7ad480ff308ff2fa1
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://live.livetvstream.co.uk/LS-63503-4/index.m3u8#07879d7a0b3d5e553a0c772c6a5a23b69128103f833f91d67783dbfe59c4f133
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightning-now90s00s-rakutengb/cb513f19657460909bce2167d0d334dd844c3bdd0b61cb3071aa448f049f4b1bdae5a5d3ec4ae47821c04d873d5f66411f21c118dc7c1fc7c76adf046727486b9b9ab265d9896450f08d597562ac7b1c51e00e07c47100238ebb4e5dd670e7295243a5583f5063c0bf5fab704fc1d50bd8767dd8a9d963317c383ea57e657305d692dfd07777ae0eb3876a0ac47116b2a063f3e669dea0488f5371ac408451dfcdb0def92098b6937091938145c78e2062208d51b3b0e4ebc3a2a1ecfe51622a3b40f4ac83fb010c87554a4fc219aad541d21cd480298d6178ee4ec80fcc11846fb806aee50ef1fce09f6f4e3badc85e3a67b2f3fadba9657ded2fbb85ecde7873d6a7462809992dfe2b393d96f2d35bd59145d8e651e8de0e3c36c4834a9299c0e1bee1f705f642ffc9ff963255401972258353a78864d869fc76acdc1c28580d69a2985cc8839b321d6d4d8f8c5b942313b6d58e89bd566e2a01dfdb52cdbf8ef6cea6a54bcf99790ab8c7b3a23d0c/85/1920x1080_4716800/index.m3u8#bc44ac4a5651b03d26f11c39279ebe9282854b68f252817a17bfe2e538b738e6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://VSE2-NA-ALL1.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8#e37ffc1f56202f272e5d8c76aecac029f8380de72630347dac3269e7d49e93c3
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="entertainment",/small>
+https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8#af63ec92cfbff8f836b9f0a99eb02567b7b32b4b8183bd10e4f2573f0af1bd3e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8#799c40c650c9a959dbafc9b6cdfaf2019792020bf38c2f64d7062e8b5c035df5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8#5accdebafc2921022d81327793d9376c8a11061eb51503086104c3cec3bf21b5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01076-lightningintern-gbnewsse-samsungse-q7qjc.amagi.tv/playlist/amg01076-lightningintern-gbnewsse-samsungse/playlist.m3u8#59b1ea40668a8acdad6100c54a5b9167094ad46c1ca7ef562acaab0c04e49698
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8#a87d36bc59a7fdaca5225ab541be1264d489163bd409dcda430d1a747e5fc78b
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8#a0da6a22971b393d07d30225850960f5726c526811e239051ab46b403762c5ab
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="music",/small>
+https://stream.ecable.tv/afrobeats/index.m3u8#b5588087845b3f6db254a0a34deb243af92374f20f1ad2fca73d8c295a909c2a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="music",/small>
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8#6c7ce2005a4790b450f9d156b413845a4e92ff2eea0bf7dda346ce4a3e117761
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01753-narrativeentert-popkids-samsunguk-yjjil.amagi.tv/playlist/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8#38dbe225e40c038428dff749e0c40256c428ac32217df9676fb5aa3aaab45143
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",/small>
+https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="music",/small>
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8#0612df993f1778303031ad8422cf8a4a719ca7b3461da9d7e40642f3620fc69f
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://lds-wonder-plex.amagi.tv/playlist.m3u8#137743f685a0d098405a776b7569e99c270eea1c2f25dbf7a58549fd19815bb0
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",/small>
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8#14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8#ae36bdaaead81b2709ae791eaf28081465246a75a54c84c656959be08054844a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8#181ccf177fc8383feed57416111b3d8ea1af408cb2de0a20e3234d9c5865a335
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8#8ef4562255b72d0dddabf9267ae5dd07a8c6e430d44bb118a2d68012e7c297a6
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8#b131fa0ae5251c0be19073c202ec98dca5e9b5559e8dfbfd8d500f3dcc345c99
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://faithworldtv.abs.tv/1826926230/index.m3u8#b7c2c99161bf4a702a105e6eb453f1bd7349c02ff43e7f122d3a1cabdfee8245
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8#d530a3c7b9b0c0d48303a016be8c9114f58608bfc52ed5cf64014a75dab279bd
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Movie",/small>
+https://amg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv/playlist/amg01753-narrativeentert-greatchristmas-samsunguk/playlist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="music",/small>
+https://rakutenaa-lightning-now70s-rakuten-t8535.amagi.tv/playlist/rakutenAA-lightning-now70s-rakuten/playlist.m3u8#609cf8fdc141a1f5698ade96a73b4f679122293b0f6c3a222d04b1db38a0b734
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://live.playstop.me/1816184091/index.m3u8#fb5aa95d2026cd12c78f66611c7091eaf144edc0f55538f8808ae7d6645a1fbc
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8#b7ea93066eb58b28f6e11e49cd9a3b3a5f03614f0b4f5cc3af295fba2e67095a
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8#46e7de352cca644c7b21f1da0da9bdbf9cb218b241c45adb78c781075c7114e8
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://s2.tvdatta.com:3307/hybrid/play.m3u8#685b1ae13e27e6d802626f4dc283fb5e937ffa73ad91e290b96f8a9d5344731c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8#3cdda4a8cbe655df2e290388178447f15bbb77035b1e31637f9a9587d977e0a9
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="news",/small>
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel%28HDTJCcustomGFX%29/master.m3u8#198b10a1d9c10d47243d1be743dea52d97e0abcf8111499bc646b6bf10a069ba
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://mumbai-edge.smartplaytv.in/Moonbug/index.m3u8#0776da9f3b3cab02bc42bb6026d9e96f5effdc477450c11c01aaec0186448047
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8#1a6ee207f9a8d7f5b0b09397633b7744797946f97648932f0af27cd947766fdc
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8#ecd341275cec5537053e4f4075e683ee5f93b6e555ceb914642c6cbb78f1c50e
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8#4344c00ff5f88c3dcab52fcdc9fa3147030cc0b3882ccfe911518307886db45c
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8#b45b0c2f38089e50c6b6f75f1b364b917a22fdab2ee0bc7168364876d0d51302
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://klmhls.wns.live/hls/stream.m3u8#3955c7c63d105cf9762ab8313fa2ec7c01087ed1ec9d0bfe7a83fee9925ac202
+#EXTINF:-1 tvg-id="small" tvg-name="/small>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",/small>
+https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel%28TJCOTT%29/index.m3u8#14bec10ce13232f09c9dc3f90e0867b540d46c82f552e1189268a0c1f50c2bc5
+#EXTINF:-1 tvg-id="" tvg-name="</" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="news",</
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8#e551df1fef0b3d04421f874e14755969c909347ce003658b6ce708c934072900
+#EXTINF:-1 tvg-id="" tvg-name="</" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",</
+https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
+#EXTINF:-1 tvg-id="" tvg-name="</" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",</
+https://tvsen1.aynaott.com/shn6jGTk/index.m3u8#7dab14a955688af2cdf293b047d580691b2ba2e076b977f9d0868462f26589d0
+#EXTINF:-1 tvg-id="" tvg-name="</" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",</
+https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8#91181ce414ecab39157c829ec39f2cc5a5c763e6a99e0cb6bf7869906540986c
+#EXTINF:-1 tvg-id="a" tvg-name="a>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",a>
+https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
+#EXTINF:-1 tvg-id="aathavan.tv" tvg-name="Aathavan TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Tamil" group-title="🇬🇧 United Kingdom",Aathavan TV
+http://eja.tv/?https%3A%2F%2Foj7lnxonyg82-hls-live.5centscdn.com%2Fuks%2F24263a839810d2041a349baaeef36a79.sdp%2Fplaylist.m3u8#ab40fd9625adfc336079ad0e518825c56983e907dfa91faa76d46985c4f0ed01
+#EXTINF:-1 tvg-id="afghanistan.international" tvg-name="Afghanistan International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Pushto, Arabic, English" group-title="🇬🇧 United Kingdom",Afghanistan International
+http://eja.tv/?https%3A%2F%2Fhls.afintl.com%2Fhls%2Fstream.m3u8#87f19b843f5c27a5a679018036a970fa4c5931c6bcb74606fcbccda631f4b3ba
+#EXTINF:-1 tvg-id="afintl" tvg-name="Afintl" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Afintl
+https://hls.afintl.com/hls/stream.m3u8#87f19b843f5c27a5a679018036a970fa4c5931c6bcb74606fcbccda631f4b3ba
+#EXTINF:-1 tvg-id="afrobeats" tvg-name="Afrobeats" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="music",Afrobeats
+http://eja.tv/?https%3A%2F%2Fstream.ecable.tv%2Fafrobeats%2Findex.m3u8#b5588087845b3f6db254a0a34deb243af92374f20f1ad2fca73d8c295a909c2a
+#EXTINF:-1 tvg-id="akaal.channel" tvg-name="Akaal Channel" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Panjabi" group-title="🇬🇧 United Kingdom",Akaal Channel
+http://eja.tv/?https%3A%2F%2Fcdn-globecast.akamaized.net%2Flive%2Feds%2Fakaal_tv%2Fhls1_smart_akaal%2Fakaal_tv.m3u8#bee621fc6ee91fb8bf750735c64d07bf36e187024d05173f701132378f0a6b9d
+#EXTINF:-1 tvg-id="akaal.tv" tvg-name="Akaal Tv" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Akaal Tv
+https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8#bee621fc6ee91fb8bf750735c64d07bf36e187024d05173f701132378f0a6b9d
+#EXTINF:-1 tvg-id="albuk.tv" tvg-name="AlbUK TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Albanian, English" group-title="🇬🇧 United Kingdom",AlbUK TV
+http://eja.tv/?http%3A%2F%2Falbuk.dyndns.tv%3A1935%2Falbuk%2Falbuk.stream%2Fplaylist.m3u8#fdae0055fbe7f22318ce83b5aadafb63b69cc8e8868e6a4d97343ac278f289a3
+#EXTINF:-1 tvg-id="alhiwar.tv" tvg-name="Alhiwar TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Arabic" group-title="🇬🇧 United Kingdom",Alhiwar TV
+http://eja.tv/?https%3A%2F%2Fmn-nl.mncdn.com%2Falhiwar_live%2Fsmil%3Aalhiwar.smil%2Fplaylist.m3u8#35d527052fee684779ff9ebb89a0ae6cae8c760b484bdaadeb50e8676fc5b907
+#EXTINF:-1 tvg-id="anand.tv" tvg-name="Anand TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Malayalam" group-title="🇬🇧 United Kingdom",Anand TV
+http://eja.tv/?https%3A%2F%2Flive-anandtv.anandmedia.net%2Fanandtvapp%2Fanandtv%2Findex.m3u8#2cc361ab069bf17704096c47aa75d63ff805d8c77a554af3b10bc9b4d056f120
+#EXTINF:-1 tvg-id="atn.bangla.uk" tvg-name="ATN Bangla UK" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Bengali" group-title="🇬🇧 United Kingdom",ATN Bangla UK
+http://eja.tv/?https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2%2Fatnbanglauk-off.stream%2Fplaylist.m3u8#5accdebafc2921022d81327793d9376c8a11061eb51503086104c3cec3bf21b5
+#EXTINF:-1 tvg-id="babytv.latin.america" tvg-name="BabyTV Latin America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish, English, Turkish, Portuguese, French, Hebrew, Italian" group-title="🇬🇧 United Kingdom",BabyTV Latin America
+http://eja.tv/?http%3A%2F%2F181.78.12.119%3A16123%2Fplay%2Fch01%2Findex.m3u8#25c9d9c265a3487fabca9c4087c7b08ca1815b6cb8c6bf6029fda6837c8c7360
+#EXTINF:-1 tvg-id="babytv.spain" tvg-name="BabyTV Spain" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Spanish, Turkish, Portuguese, French, Hebrew, Italian" group-title="🇬🇧 United Kingdom",BabyTV Spain
+http://eja.tv/?https%3A%2F%2Fxykt-fix.github.io%2Fiptv%2Fstreams%2FSP88%2Findex.m3u8#f984ac38782cfa032743b4f78a781157dfdaf6953f0b42557c381fc070bc8e8d
+#EXTINF:-1 tvg-id="bbc.arabic" tvg-name="BBC Arabic" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Arabic" group-title="🇬🇧 United Kingdom",BBC Arabic
+http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_arabic_tv%2Fmobile_wifi_main_hd_abr_v2.m3u8#a069d4683bd6d58ba25e9351248838e347955a290fc4f34ced25cbed34b417e0
+#EXTINF:-1 tvg-id="bbc.arabic" tvg-name="BBC Arabic" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Arabic" group-title="🇬🇧 United Kingdom",BBC Arabic
+http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_arabic_tv%2Fpc_hd_abr_v2.m3u8#7296a03945968914bf36dc72ad9c85ac7bce63737e2f4186770edc4d9e82e9ed
+#EXTINF:-1 tvg-id="bbc.earth" tvg-name="BBC Earth" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Greek, Hungarian, Slovenian, Vietnamese, English" group-title="documentary",BBC Earth
+http://eja.tv/?https%3A%2F%2Famg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv%2FBBCStudios-BBCEarthA-hls%2Fplaylist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-id="bbc.earth.asia" tvg-name="BBC Earth Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Vietnamese, English, Greek, Hungarian, Slovenian" group-title="documentary",BBC Earth Asia
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_earth%2FHLSv3-FTA%2FBBC_earth.m3u8#4522ae92831774573841e915927f2b8e77c783ca3e0a72f57ff0df025bd8c472
+#EXTINF:-1 tvg-id="bbc.lifestyle.asia" tvg-name="BBC Lifestyle Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Thai, Indonesian" group-title="🇬🇧 United Kingdom",BBC Lifestyle Asia
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_lifestyle%2FHLSv3-FTA%2FBBC_lifestyle.m3u8#add1bd00ceaaa70d7e412e5e6a4a46d5c28f02210f562b090f693dc538db687f
+#EXTINF:-1 tvg-id="bbc.news" tvg-name="BBC News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="news",BBC News
+http://eja.tv/?https%3A%2F%2Fvs-hls-push-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_news_channel_hd%2Fmobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+#EXTINF:-1 tvg-id="bbc.news" tvg-name="BBC News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="news",BBC News
+http://eja.tv/?https%3A%2F%2Fvs-hls-push-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_news_channel_hd%2Fmobile_wifi_main_sd_abr_v2.m3u8#edfaf2b65e207424b972317aa3415e8557f71c1974848fdefcecd6fca179584a
+#EXTINF:-1 tvg-id="bbc.news.asia.pacific" tvg-name="BBC News Asia Pacific" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="🇬🇧 United Kingdom",BBC News Asia Pacific
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FBBC_News%2FHLSv3-FTA%2FBBC_News.m3u8#9ac4fc6c313ec6dfade00c6c10dcdf68c831f3905697cd4b0f053ab5d944e6c4
+#EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="news",BBC News Europe
+http://eja.tv/?https%3A%2F%2Fdash2.antik.sk%2Flive%2Ftest_bbc_world%2Fplaylist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
+#EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Japanese, Spanish, English" group-title="🇬🇧 United Kingdom",BBC News Europe
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F85%2Findex.m3u8#ae085ad475b1cf23798503e4a2630aff1d9ed33a1bc48cfbf2ead5e11378a055
+#EXTINF:-1 tvg-id="bbc.news.north.america" tvg-name="BBC News North America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="🇬🇧 United Kingdom",BBC News North America
+http://eja.tv/?https%3A%2F%2Ftvsen1.aynaott.com%2Fshn6jGTk%2Findex.m3u8#7dab14a955688af2cdf293b047d580691b2ba2e076b977f9d0868462f26589d0
+#EXTINF:-1 tvg-id="bbc.news.north.america" tvg-name="BBC News North America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="news",BBC News North America
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_BBC_NEWS%2Findex.m3u8#e551df1fef0b3d04421f874e14755969c909347ce003658b6ce708c934072900
+#EXTINF:-1 tvg-id="bbc.news.pashto" tvg-name="BBC News Pashto" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Dari (Parsi), Turkmen, Pushto" group-title="🇬🇧 United Kingdom",BBC News Pashto
+http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_afghan_tv%2Ft%3D3840%2Fv%3Dpv14%2Fb%3D5070016%2Fmain.m3u8#25ab4288a358111eb4a6fbb5213fcb3113fde78930811c1036a5b8406c29b2d3
+#EXTINF:-1 tvg-id="bbc.news.south.asia" tvg-name="BBC News South Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="🇬🇧 United Kingdom",BBC News South Asia
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FBBCNews%2Findex.m3u8#91181ce414ecab39157c829ec39f2cc5a5c763e6a99e0cb6bf7869906540986c
+#EXTINF:-1 tvg-id="bbc.persian" tvg-name="BBC Persian" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",BBC Persian
+http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_persian_tv%2Fmobile_wifi_main_hd_abr_v2.m3u8#7b1c9579832b2d33c2bdb5f253a9cdc232c513f0df56db9f193d82e64c9ad880
+#EXTINF:-1 tvg-id="bbc.persian" tvg-name="BBC Persian" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",BBC Persian
+http://eja.tv/?https%3A%2F%2Fvs-hls-pushb-ww-live.akamaized.net%2Fx%3D4%2Fi%3Durn%3Abbc%3Apips%3Aservice%3Abbc_persian_tv%2Fpc_hd_abr_v2.m3u8#36476898bb966c82e40a8eeef223129e0e0e203cdb5e3f1095820f2f67f52537
+#EXTINF:-1 tvg-id="brit.asia.tv" tvg-name="Brit Asia TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Brit Asia TV
+http://eja.tv/?https%3A%2F%2Fhls.autopo.st%2Fhls%2Fbritasiatv%2Findex.m3u8#9077eef7721a7de98a31ab8ad55867d2091b4514c551a4836384fe50ff250e74
+#EXTINF:-1 tvg-id="canaf54.tv" tvg-name="Canaf54 TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, French" group-title="🇬🇧 United Kingdom",Canaf54 TV
+http://eja.tv/?https%3A%2F%2F5caf24a595d94.streamlock.net%3A1937%2Fpvyugfkzkc%2Fpvyugfkzkc%2Fplaylist.m3u8#1552ab637339825635723b3a4ae55b6cd170a46f1461df5f41d0656387fec31d
+#EXTINF:-1 tvg-id="cartoon.network.cee.ukraine" tvg-name="Cartoon Network CEE Ukraine" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Romanian, Ukrainian, Bulgarian, Czech, English, Hungarian, Polish, Russian, French, Danish, German" group-title="🇬🇧 United Kingdom",Cartoon Network CEE Ukraine
+http://eja.tv/?http%3A%2F%2F45.132.87.69%3A8080%2Fcartoon_network%2Findex.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
+#EXTINF:-1 tvg-id="cbeebies.asia" tvg-name="CBeebies Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Vietnamese" group-title="🇬🇧 United Kingdom",CBeebies Asia
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FCbeebies%2FHLSv3-FTA%2FCbeebies.m3u8#3a0982c0a2bd091f2567870047357ad7b88b11338d2ad213fd8932a4cb5db79b
+#EXTINF:-1 tvg-id="channel.s" tvg-name="Channel S" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Bengali, English" group-title="🇬🇧 United Kingdom",Channel S
+http://eja.tv/?https%3A%2F%2Fapp.ncare.live%2Fc3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI%2Fchsukoff.stream%2Fplaylist.m3u8#72ff63ed62c1de9a54489123eea2c05585e01d14a189b7a9e4fd04217f6c7794
+#EXTINF:-1 tvg-id="chunks" tvg-name="Chunks" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Chunks
+https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
+#EXTINF:-1 tvg-id="dazn.3.portugal" tvg-name="DAZN 3 Portugal" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Dutch, French, Portuguese, English" group-title="sports",DAZN 3 Portugal
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FDAZN_3%2Findex.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
+#EXTINF:-1 tvg-id="english.club.tv" tvg-name="English Club TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",English Club TV
+http://eja.tv/?https%3A%2F%2Fstream8.cinerama.uz%2F1442%2Ftracks-v1a1%2Fmono.m3u8#b45b0c2f38089e50c6b6f75f1b364b917a22fdab2ee0bc7168364876d0d51302
+#EXTINF:-1 tvg-id="english.club.tv" tvg-name="English Club TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",English Club TV
+http://eja.tv/?https%3A%2F%2Fdash2.antik.sk%2Flive%2Ftest_ectv_hd_1200%2Fplaylist.m3u8#ecd341275cec5537053e4f4075e683ee5f93b6e555ceb914642c6cbb78f1c50e
+#EXTINF:-1 tvg-id="ent.channel" tvg-name="ENT Channel" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="entertainment",ENT Channel
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Channel%2FSA_LIVE_hls_enc%2Fmaster.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
+#EXTINF:-1 tvg-id="ent.family" tvg-name="ENT Family" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="entertainment",ENT Family
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Family%2FSA_LIVE_hls_enc%2Fmaster.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
+#EXTINF:-1 tvg-id="faith.uk" tvg-name="Faith UK" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Faith UK
+http://eja.tv/?https%3A%2F%2Ffaithnow-hls.secdn.net%2Ffaithnow-c-channel%2Fplay%2FFaithUK.smil%2Fplaylist.m3u8#e37ffc1f56202f272e5d8c76aecac029f8380de72630347dac3269e7d49e93c3
+#EXTINF:-1 tvg-id="faith.world.tv" tvg-name="Faith World TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Faith World TV
+http://eja.tv/?https%3A%2F%2Ffaithworldtv.abs.tv%2F1826926230%2Findex.m3u8#b7c2c99161bf4a702a105e6eb453f1bd7349c02ff43e7f122d3a1cabdfee8245
+#EXTINF:-1 tvg-id="frecuencia.musical.tv" tvg-name="Frecuencia Musical TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",Frecuencia Musical TV
+http://eja.tv/?https%3A%2F%2Fs2.tvdatta.com%3A3307%2Fhybrid%2Fplay.m3u8#685b1ae13e27e6d802626f4dc283fb5e937ffa73ad91e290b96f8a9d5344731c
+#EXTINF:-1 tvg-id="gb.news" tvg-name="GB News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GB News
+http://eja.tv/?https%3A%2F%2Famg01076-lightningintern-gbnewsse-samsungse-q7qjc.amagi.tv%2Fplaylist%2Famg01076-lightningintern-gbnewsse-samsungse%2Fplaylist.m3u8#59b1ea40668a8acdad6100c54a5b9167094ad46c1ca7ef562acaab0c04e49698
+#EXTINF:-1 tvg-id="gb.news" tvg-name="GB News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GB News
+http://eja.tv/?https%3A%2F%2Frakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv%2Fplaylist%2FrakutenAA-lightning-gbnews-rakuten%2Fplaylist.m3u8#a87d36bc59a7fdaca5225ab541be1264d489163bd409dcda430d1a747e5fc78b
+#EXTINF:-1 tvg-id="gb.news" tvg-name="GB News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GB News
+http://eja.tv/?https%3A%2F%2Famg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv%2Fplaylist%2Famg01076-lightning-gbnews-lggb%2Fplaylist.m3u8#a44d5b7810bfced62cffc9a8b0a23c5db69eec5febf5a2371ca19c184ed5931f
+#EXTINF:-1 tvg-id="gb.news" tvg-name="GB News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="news",GB News
+http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg01076-lightningintern-gbnewsnz-samsungnz%2Fplaylist.m3u8#71ba9bc1324c070925a85c000c214f7fcc7412eadfcd79f06c49d84b6766ad17
+#EXTINF:-1 tvg-id="gems.tv" tvg-name="Gems TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Gems TV
+http://eja.tv/?https%3A%2F%2Flo3.gemporia.com%2Fabrgemporiaukgfx%2Fsmil%3Alivestream.smil%2Fplaylist.m3u8#3cdda4a8cbe655df2e290388178447f15bbb77035b1e31637f9a9587d977e0a9
+#EXTINF:-1 tvg-id="god.tv" tvg-name="GOD TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GOD TV
+http://eja.tv/?https%3A%2F%2Ffl-dvr.iptvcdn.tv%2Fchid_1%2Fplaylist.m3u8#20818cbf0d6d2a675fb76ddbb122b4d10dc4f7ebbd5c4e0a23a850a9accbce96
+#EXTINF:-1 tvg-id="god.tv" tvg-name="GOD TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GOD TV
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2F211125%2Fgodtv%2Fchunks.m3u8#799c40c650c9a959dbafc9b6cdfaf2019792020bf38c2f64d7062e8b5c035df5
+#EXTINF:-1 tvg-id="god.tv" tvg-name="GOD TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GOD TV
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F1391%2Fmaster.m3u8#4e4b7d3281a19d04704238304136a05f5c28a8acbe4ab65312de8d1252b1cc0e
+#EXTINF:-1 tvg-id="god.tv.asia" tvg-name="GOD TV Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GOD TV Asia
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2F211125%2Fgodtv%2Fplaylist.m3u8#7c2360d528e8ba545545d82a97524cb6e5ddddee2bb58ebadfd03af39629385d
+#EXTINF:-1 tvg-id="great.movies" tvg-name="GREAT! movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",GREAT! movies
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv%2Fplaylist%2Famg01753-narrativeuk-greatmovies-lggb%2Fplaylist.m3u8#a22b7bc8c3a27e0dae41ee8c50351984513b41b2df75311a0732082c2ded14af
+#EXTINF:-1 tvg-id="great.movies" tvg-name="Great! Movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Movies
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-greatmovies-samsunguk%2Fplaylist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
+#EXTINF:-1 tvg-id="great.romance" tvg-name="GREAT! romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",GREAT! romance
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv%2Fplaylist%2Famg01753-narrativeuk-greatchristmas-lggb%2Fplaylist.m3u8#14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31
+#EXTINF:-1 tvg-id="great.romance" tvg-name="Great! Romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Romance
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-greatchristmas-samsunguk%2Fplaylist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
+#EXTINF:-1 tvg-id="hobby.maker" tvg-name="Hobby Maker" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Hobby Maker
+http://eja.tv/?https%3A%2F%2Flo3.gemporia.com%2Fabrhobbymakerukgfx%2Fsmil%3AlivestreamFullHD.smil%2Fplaylist.m3u8#9917087daa58b9385d3034d67117893af539e74ae9cf1ede1ae339477648d9bc
+#EXTINF:-1 tvg-id="horse.country.tv" tvg-name="Horse & Country TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Horse & Country TV
+http://eja.tv/?https%3A%2F%2Fhnc-free-viewlift.amagi.tv%2FHNC_AUSTRALIA.m3u8#aee319d76d6c6d776ea6c7569bc0f5c51a8d2225f2f8fa4f346b0e4c0ad54c46
+#EXTINF:-1 tvg-id="horse.and.country" tvg-name="Horse and Country" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Horse and Country
+http://eja.tv/?https%3A%2F%2Fhncfree-samsung-uk.amagi.tv%2Fplaylist.m3u8#733c2c99cddc4054ba633d2feea6955b335f4c6a2290441a83ef32fbc6e1e53c
+#EXTINF:-1 tvg-id="href.language.eng.english" tvg-name="href="?language=eng">English" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",href="?language=eng">English
+https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8#8174163c0ecc3a65c078f746bf69f205139cbec88d9289ba775dd3bf128db7fb
+#EXTINF:-1 tvg-id="href.language.por.portuguese" tvg-name="href="?language=por">Portuguese" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="sports",href="?language=por">Portuguese
+http://23.237.104.106:8080/DAZN_3/index.m3u8#0c8667adfd173e74c166607160649c0450922fdf918e3b7c125707d604e422e6
+#EXTINF:-1 tvg-id="href.language.vie.vietnamese" tvg-name="href="?language=vie">Vietnamese" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="documentary",href="?language=vie">Vietnamese
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+http://92.114.85.87:8001/play/a00x/index.m3u8#76960a1dc149f889add52dfab111bbd9f47e5c3a41cb2756ff88a730a6529475
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+http://181.78.12.119:16123/play/ch01/index.m3u8#25c9d9c265a3487fabca9c4087c7b08ca1815b6cb8c6bf6029fda6837c8c7360
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+https://sscsott.com/srt/noortvuk/index.m3u8#82f7c5530125f3a60f780e79cde9df275756ec9a4c200237663904a87f0b48c3
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+https://xykt-fix.github.io/iptv/streams/SP88/index.m3u8#f984ac38782cfa032743b4f78a781157dfdaf6953f0b42557c381fc070bc8e8d
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+http://45.132.87.69:8080/cartoon_network/index.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
+#EXTINF:-1 tvg-id="index" tvg-name="Index" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index
+http://stream.mcquack.net/85/index.m3u8#ae085ad475b1cf23798503e4a2630aff1d9ed33a1bc48cfbf2ead5e11378a055
+#EXTINF:-1 tvg-id="index.hls" tvg-name="Index Hls" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Index Hls
+https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#0535994b4ff1d005bc5b60c9aa739593b9c46f3bd38e1d0568273a948e105f81
+#EXTINF:-1 tvg-id="iran.international" tvg-name="Iran International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",Iran International
+http://eja.tv/?https%3A%2F%2Fdev-live.livetvstream.co.uk%2FLS-63503-4%2Findex.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
+#EXTINF:-1 tvg-id="iran.international" tvg-name="Iran International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",Iran International
+http://eja.tv/?https%3A%2F%2Flive.livetvstream.co.uk%2FLS-63503-4%2Findex.m3u8#07879d7a0b3d5e553a0c772c6a5a23b69128103f833f91d67783dbfe59c4f133
+#EXTINF:-1 tvg-id="iran.international" tvg-name="Iran International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",Iran International
+http://eja.tv/?https%3A%2F%2Flive.playstop.me%2FLS-63503-4%2Findex.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
+#EXTINF:-1 tvg-id="iran.international" tvg-name="Iran International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="news",Iran International
+http://eja.tv/?https%3A%2F%2Flive.playstop.me%2F1816184091%2Findex.m3u8#fb5aa95d2026cd12c78f66611c7091eaf144edc0f55538f8808ae7d6645a1fbc
+#EXTINF:-1 tvg-id="kalemeh.tv" tvg-name="Kalemeh TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="🇬🇧 United Kingdom",Kalemeh TV
+http://eja.tv/?https%3A%2F%2Fklmhls.wns.live%2Fhls%2Fstream.m3u8#3955c7c63d105cf9762ab8313fa2ec7c01087ed1ec9d0bfe7a83fee9925ac202
+#EXTINF:-1 tvg-id="kanal.jadid" tvg-name="Kanal Jadid" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="🇬🇧 United Kingdom",Kanal Jadid
+http://eja.tv/?https%3A%2F%2Fkjhls.wns.live%2Fhls%2Fstream.m3u8#ad5f1a0db3290557689e5a2738092125ebfa40fda903b38d909c6867826b83a2
+#EXTINF:-1 tvg-id="kanshi.tv" tvg-name="Kanshi TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",Kanshi TV
+http://eja.tv/?https%3A%2F%2Flive.kanshitv.co.uk%2Fmobile%2Fkanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
+#EXTINF:-1 tvg-id="latest.tv" tvg-name="Latest TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Latest TV
+http://eja.tv/?https%3A%2F%2F5a0e89631aa14.streamlock.net%2Flive%2FLatestTelevision%2Fplaylist.m3u8#d9eb100f26b886be788710b287ace6b3c3624b3053f0f7c8f630ca67f4a1f56e
+#EXTINF:-1 tvg-id="magnavision.tv" tvg-name="Magnavision TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Malayalam" group-title="🇬🇧 United Kingdom",Magnavision TV
+http://eja.tv/?https%3A%2F%2Fmanatv.akamaized.net%2F120723%2Fsmil%3Amagnavision.smil%2Fplaylist.m3u8#d2b46fb22099a6858be099105d4c4d5cd6faaca61c4ca6e646349160ececade3
+#EXTINF:-1 tvg-id="main" tvg-name="MAIN" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",MAIN
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/t=3840/v=pv14/b=5070016/main.m3u8#25ab4288a358111eb4a6fbb5213fcb3113fde78930811c1036a5b8406c29b2d3
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",mall>
+https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8#d2b46fb22099a6858be099105d4c4d5cd6faaca61c4ca6e646349160ececade3
+#EXTINF:-1 tvg-id="mall" tvg-name="mall>" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",mall>
+https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8#2cc361ab069bf17704096c47aa75d63ff805d8c77a554af3b10bc9b4d056f120
+#EXTINF:-1 tvg-id="miracle.tv" tvg-name="Miracle TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Miracle TV
+http://eja.tv/?https%3A%2F%2Fviewmedia7219.bozztv.com%2Fwmedia%2Fviewmedia100%2Fweb_030%2FStream%2Fplaylist.m3u8#8ef4562255b72d0dddabf9267ae5dd07a8c6e430d44bb118a2d68012e7c297a6
+#EXTINF:-1 tvg-id="mobile.wifi.main.hd.abr.v2" tvg-name="Mobile Wifi Main Hd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="news",Mobile Wifi Main Hd Abr V2
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+#EXTINF:-1 tvg-id="mobile.wifi.main.hd.abr.v2" tvg-name="Mobile Wifi Main Hd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Mobile Wifi Main Hd Abr V2
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/mobile_wifi_main_hd_abr_v2.m3u8#a069d4683bd6d58ba25e9351248838e347955a290fc4f34ced25cbed34b417e0
+#EXTINF:-1 tvg-id="mobile.wifi.main.sd.abr.v2" tvg-name="Mobile Wifi Main Sd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="news",Mobile Wifi Main Sd Abr V2
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8#edfaf2b65e207424b972317aa3415e8557f71c1974848fdefcecd6fca179584a
+#EXTINF:-1 tvg-id="moonbug.kids" tvg-name="Moonbug Kids" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Moonbug Kids
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FMoonbug%2Findex.m3u8#0776da9f3b3cab02bc42bb6026d9e96f5effdc477450c11c01aaec0186448047
+#EXTINF:-1 tvg-id="mr.bean.live.action" tvg-name="Mr Bean Live Action" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Mr Bean Live Action
+http://eja.tv/?https%3A%2F%2Famg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv%2Fplaylist%2Famg00627-banijayfast-mrbeanpopupcc-rakutenuk%2Fplaylist.m3u8#b131fa0ae5251c0be19073c202ec98dca5e9b5559e8dfbfd8d500f3dcc345c99
+#EXTINF:-1 tvg-id="mta1.world" tvg-name="MTA1 World" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Arabic, Bengali, Urdu, English, French, German" group-title="🇬🇧 United Kingdom",MTA1 World
+http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2008145%2Fmta1%2Fplaylist.m3u8#f2f5e888bd588c4cd1b9c02c42484b8fa2ef94803d1a16ca7413ccb6102a53e6
+#EXTINF:-1 tvg-id="mta2.europe" tvg-name="MTA2 Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Urdu, English, French, German, Arabic, Bengali, Hindi" group-title="🇬🇧 United Kingdom",MTA2 Europe
+http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2008145%2Fmta2%2Fplaylist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
+#EXTINF:-1 tvg-id="mta3.al.arabia" tvg-name="MTA3 Al-Arabia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Arabic" group-title="🇬🇧 United Kingdom",MTA3 Al-Arabia
+http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2010556%2Fmta3alarabia%2Fplaylist.m3u8#0535994b4ff1d005bc5b60c9aa739593b9c46f3bd38e1d0568273a948e105f81
+#EXTINF:-1 tvg-id="mta4.africa" tvg-name="MTA4 Africa" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Swahili, English, French, Urdu" group-title="🇬🇧 United Kingdom",MTA4 Africa
+http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2010555%2Fmtaafrica1%2Fplaylist.m3u8#18e791ea98db6e1a93311ea16b6c051ff2e5cc58197a830474a9c9d147828213
+#EXTINF:-1 tvg-id="mta5.africa" tvg-name="MTA5 Africa" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, French, Urdu, Swahili" group-title="🇬🇧 United Kingdom",MTA5 Africa
+http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2010555%2Fmtaafrica2%2Fplaylist.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
+#EXTINF:-1 tvg-id="mta6.asia" tvg-name="MTA6 Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Tamil, Arabic, Bengali, Urdu, English, Indonesian" group-title="🇬🇧 United Kingdom",MTA6 Asia
+http://eja.tv/?https%3A%2F%2Flivemtaasia.akamaized.net%2Fhls%2Flive%2F2039224%2Fmta6asia%2Fplaylist.m3u8#8174163c0ecc3a65c078f746bf69f205139cbec88d9289ba775dd3bf128db7fb
+#EXTINF:-1 tvg-id="mta7.asia" tvg-name="MTA7 Asia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Tamil, Malayalam, Arabic, Bengali, Hindi, Urdu" group-title="🇬🇧 United Kingdom",MTA7 Asia
+http://eja.tv/?https%3A%2F%2Flivemtaasia.akamaized.net%2Fhls%2Flive%2F2039224%2Fmtaasia2%2Fplaylist.m3u8#df38b666f283418e5a2a50e0b590f73c548454e39fd950e1d46fe3ef753e82a0
+#EXTINF:-1 tvg-id="mta8.america" tvg-name="MTA8 America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",MTA8 America
+http://eja.tv/?https%3A%2F%2Fchlivemta.akamaized.net%2Fhls%2Flive%2F2016718%2Fmta8%2Fplaylist.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
+#EXTINF:-1 tvg-id="mutv" tvg-name="MUTV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="sports",MUTV
+http://eja.tv/?https%3A%2F%2Ffastly.live.brightcove.com%2F6374054671112%2Feu-west-1%2F6058004203001%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4%2Fplaylist-hls.m3u8#dcedcd6b057335461966473b0f9b7f23f63e5740c0adc65d751c34bc794e10c3
+#EXTINF:-1 tvg-id="noor.tv" tvg-name="Noor TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Urdu, English" group-title="🇬🇧 United Kingdom",Noor TV
+http://eja.tv/?https%3A%2F%2Fsscsott.com%2Fsrt%2Fnoortvuk%2Findex.m3u8#82f7c5530125f3a60f780e79cde9df275756ec9a4c200237663904a87f0b48c3
+#EXTINF:-1 tvg-id="now.70s" tvg-name="NOW 70s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="music",NOW 70s
+http://eja.tv/?https%3A%2F%2Flightning-now70s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now70s-rakuten%2FCDN%2Fplaylist.m3u8#609cf8fdc141a1f5698ade96a73b4f679122293b0f6c3a222d04b1db38a0b734
+#EXTINF:-1 tvg-id="now.80s" tvg-name="NOW 80s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="music",NOW 80s
+http://eja.tv/?https%3A%2F%2Flightning-now80s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now80s-rakuten%2FCDN%2Fplaylist.m3u8#6c02aa2ee6fb7f9f9b7c42846b36021ede7cff96b1095a20f0140560c5beaea3
+#EXTINF:-1 tvg-id="now.80s" tvg-name="Now 80s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Now 80s
+http://eja.tv/?https%3A%2F%2Fsamsunguk-lightning-now80s-samsunguk-n908q.amagi.tv%2Fplaylist%2Fsamsunguk-lightning-now80s-samsunguk%2Fplaylist.m3u8#5039ffb89ca9c654a7cbaa8d5840cf37649bb5d17cce3a44ffceb8e6a2b30156
+#EXTINF:-1 tvg-id="now.90s00s" tvg-name="NOW 90s00s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="music",NOW 90s00s
+http://eja.tv/?https%3A%2F%2Famg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv%2Fplaylist%2Famg01076-lightning-now90s00s-rakutengb%2Fplaylist.m3u8#155b84ced045705fe937e9450d9c24d45a384d9933f9385cb0378f6f496aa685
+#EXTINF:-1 tvg-id="now.90s00s" tvg-name="Now 90s00s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Now 90s00s
+http://eja.tv/?https%3A%2F%2Famg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg01076-lightning-now90s00s-rakutengb%2Fcb513f19657460909bce2167d0d334dd844c3bdd0b61cb3071aa448f049f4b1bdae5a5d3ec4ae47821c04d873d5f66411f21c118dc7c1fc7c76adf046727486b9b9ab265d9896450f08d597562ac7b1c51e00e07c47100238ebb4e5dd670e7295243a5583f5063c0bf5fab704fc1d50bd8767dd8a9d963317c383ea57e657305d692dfd07777ae0eb3876a0ac47116b2a063f3e669dea0488f5371ac408451dfcdb0def92098b6937091938145c78e2062208d51b3b0e4ebc3a2a1ecfe51622a3b40f4ac83fb010c87554a4fc219aad541d21cd480298d6178ee4ec80fcc11846fb806aee50ef1fce09f6f4e3badc85e3a67b2f3fadba9657ded2fbb85ecde7873d6a7462809992dfe2b393d96f2d35bd59145d8e651e8de0e3c36c4834a9299c0e1bee1f705f642ffc9ff963255401972258353a78864d869fc76acdc1c28580d69a2985cc8839b321d6d4d8f8c5b942313b6d58e89bd566e2a01dfdb52cdbf8ef6cea6a54bcf99790ab8c7b3a23d0c%2F85%2F1920x1080_4716800%2Findex.m3u8#bc44ac4a5651b03d26f11c39279ebe9282854b68f252817a17bfe2e538b738e6
+#EXTINF:-1 tvg-id="now.rock" tvg-name="NOW Rock" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",NOW Rock
+http://eja.tv/?https%3A%2F%2Flightning-now90s-rakuten.amagi.tv%2Fhls%2Famagi_hls_data_rakutenAA-lightning-now90s-rakuten%2FCDN%2Fplaylist.m3u8#9842a46d87f7327e06f575b49843371c3cf80f799eb19c9095dd2788e0d70cdc
+#EXTINF:-1 tvg-id="panjab.tv" tvg-name="Panjab TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Panjab TV
+http://eja.tv/?https%3A%2F%2Fpanjabtv.akamaized.net%2Fpanjabtv%2Fpanjabtvhlsout%2Fplaylist.m3u8#af63ec92cfbff8f836b9f0a99eb02567b7b32b4b8183bd10e4f2573f0af1bd3e
+#EXTINF:-1 tvg-id="pc.hd.abr.v2" tvg-name="Pc Hd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Pc Hd Abr V2
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8#7296a03945968914bf36dc72ad9c85ac7bce63737e2f4186770edc4d9e82e9ed
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Playlist
+http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8#fdae0055fbe7f22318ce83b5aadafb63b69cc8e8868e6a4d97343ac278f289a3
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="Tamil" group-title="United Kingdom",Playlist
+https://oj7lnxonyg82-hls-live.5centscdn.com/uks/24263a839810d2041a349baaeef36a79.sdp/playlist.m3u8#ab40fd9625adfc336079ad0e518825c56983e907dfa91faa76d46985c4f0ed01
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="news",Playlist
+https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Playlist
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8#72ff63ed62c1de9a54489123eea2c05585e01d14a189b7a9e4fd04217f6c7794
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Playlist
+https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8#35d527052fee684779ff9ebb89a0ae6cae8c760b484bdaadeb50e8676fc5b907
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Playlist
+https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Playlist
 https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8#df38b666f283418e5a2a50e0b590f73c548454e39fd950e1d46fe3ef753e82a0
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Playlist
+https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8#f2f5e888bd588c4cd1b9c02c42484b8fa2ef94803d1a16ca7413ccb6102a53e6
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="entertainment",Playlist
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
+#EXTINF:-1 tvg-id="playlist" tvg-name="Playlist" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Playlist
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8#1552ab637339825635723b3a4ae55b6cd170a46f1461df5f41d0656387fec31d
+#EXTINF:-1 tvg-id="pop" tvg-name="Pop" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Pop
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg01753-narrativeentert-popkids-lggb%2Fplaylist.m3u8#1a6ee207f9a8d7f5b0b09397633b7744797946f97648932f0af27cd947766fdc
+#EXTINF:-1 tvg-id="pop" tvg-name="Pop" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Pop
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01753-narrativeentert-popkids-lggb%2Fplaylist.m3u8#181ccf177fc8383feed57416111b3d8ea1af408cb2de0a20e3234d9c5865a335
+#EXTINF:-1 tvg-id="pop" tvg-name="Pop" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Pop
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-popkids-samsunguk-yjjil.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-popkids-samsunguk%2Fplaylist.m3u8#38dbe225e40c038428dff749e0c40256c428ac32217df9676fb5aa3aaab45143
+#EXTINF:-1 tvg-id="qvc.uk" tvg-name="QVC UK" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",QVC UK
+http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqvc%2Fmaster.m3u8#ae36bdaaead81b2709ae791eaf28081465246a75a54c84c656959be08054844a
+#EXTINF:-1 tvg-id="qvc.uk.beauty" tvg-name="QVC UK Beauty" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",QVC UK Beauty
+http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqby%2Fmaster.m3u8#486c81913d63e05f8ede339a5fb1d18f22e3ee96bc6866f1babb07a48212afd5
+#EXTINF:-1 tvg-id="qvc.uk.extra" tvg-name="QVC UK Extra" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",QVC UK Extra
+http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqex%2Fmaster.m3u8#a0da6a22971b393d07d30225850960f5726c526811e239051ab46b403762c5ab
+#EXTINF:-1 tvg-id="qvc.uk.style" tvg-name="QVC UK Style" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",QVC UK Style
+http://eja.tv/?https%3A%2F%2Fqvcuk-live.akamaized.net%2Fhls%2Flive%2F2097112%2Fqst%2Fmaster.m3u8#978d2fb08bc1502ed0843224a5cdbf5a779d5dff440a15c7ad480ff308ff2fa1
+#EXTINF:-1 tvg-id="sangat.tv" tvg-name="Sangat TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Sangat TV
+http://eja.tv/?https%3A%2F%2Fmumt06.tangotv.in%2FqYyB8fXVSANGATTV%2Findex.m3u8#7588367013cce0e78a9b367c317cb0ee7e90ef71f96c92238ca80ffde9a7ff24
+#EXTINF:-1 tvg-id="setareh.tv" tvg-name="Setareh TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="🇬🇧 United Kingdom",Setareh TV
+http://eja.tv/?https%3A%2F%2Fsetarehhls.wns.live%2Fhls%2Fstream.m3u8#cd244e1b11ff865ea61b403ceb824592b713bdeaff1bb18858deb8a1ec62d679
+#EXTINF:-1 tvg-id="sky.nature" tvg-name="Sky Nature" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="documentary",Sky Nature
+http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2Fskynature%2Findex.m3u8#828e99e3e465b67442ede9b5e0fbfcb902750dcf68f02e2ac28ca2b63814d587
+#EXTINF:-1 tvg-id="space.live" tvg-name="Space Live" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Space Live
+http://eja.tv/?https%3A%2F%2Fd111bsx9oooqoh.cloudfront.net%2Fplaylist.m3u8#46e7de352cca644c7b21f1da0da9bdbf9cb218b241c45adb78c781075c7114e8
+#EXTINF:-1 tvg-id="star.bharat" tvg-name="Star Bharat" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",Star Bharat
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FUtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
+#EXTINF:-1 tvg-id="starplus" tvg-name="StarPlus" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",StarPlus
+http://eja.tv/?https%3A%2F%2Fd1rc86nwwc9fag.cloudfront.net%2F260723%2Fstarplusuk_2500%2Fchunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
+#EXTINF:-1 tvg-id="teletubbies" tvg-name="Teletubbies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Teletubbies
+http://eja.tv/?https%3A%2F%2Fdy9gbyiaxw0rb.cloudfront.net%2Fmaster.m3u8#66fec254590748d6d86da77c9a3028586952b754541ab7fea183259942a5988e
+#EXTINF:-1 tvg-id="teletubbies" tvg-name="Teletubbies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Teletubbies
+http://eja.tv/?https%3A%2F%2Fdv8lsrd8fecw9.cloudfront.net%2Fmaster.m3u8#1b02358ea0d6b32e8f3559ab40ab7d3b8b2a4c9f60b5cc85caa7bef5b2e9787a
+#EXTINF:-1 tvg-id="tiny.pop" tvg-name="Tiny POP" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Tiny POP
+http://eja.tv/?https%3A%2F%2Famg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv%2Fplaylist%2Famg01753-narrativeentert-tinypop-samsunguk%2Fplaylist.m3u8#b7ea93066eb58b28f6e11e49cd9a3b3a5f03614f0b4f5cc3af295fba2e67095a
+#EXTINF:-1 tvg-id="tjc" tvg-name="TJC" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",TJC
+http://eja.tv/?https%3A%2F%2Fcdn-shop-lc-01.vos360.video%2FContent%2FHLS_HLS%2FLive%2Fchannel%28HDTJCcustomGFX%29%2Fmaster.m3u8#198b10a1d9c10d47243d1be743dea52d97e0abcf8111499bc646b6bf10a069ba
+#EXTINF:-1 tvg-id="tjc" tvg-name="TJC" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",TJC
+http://eja.tv/?https%3A%2F%2Fcdn-shop-lc-01.akamaized.net%2FContent%2FHLS_HLS%2FLive%2Fchannel%28TJCOTT%29%2Findex.m3u8#14bec10ce13232f09c9dc3f90e0867b540d46c82f552e1189268a0c1f50c2bc5
+#EXTINF:-1 tvg-id="totalmusic" tvg-name="Totalmusic" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",Totalmusic
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic%2FSA_LIVE_hls_enc%2Fmaster.m3u8#d530a3c7b9b0c0d48303a016be8c9114f58608bfc52ed5cf64014a75dab279bd
+#EXTINF:-1 tvg-id="totalmusic.2000s" tvg-name="Totalmusic 2000s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="music",Totalmusic 2000s
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_00s%2FSA_LIVE_hls_enc%2Fmaster.m3u8#6c7ce2005a4790b450f9d156b413845a4e92ff2eea0bf7dda346ce4a3e117761
+#EXTINF:-1 tvg-id="totalmusic.80s" tvg-name="Totalmusic 80s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="music",Totalmusic 80s
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_80s%2FSA_LIVE_hls_enc%2Fmaster.m3u8#0612df993f1778303031ad8422cf8a4a719ca7b3461da9d7e40642f3620fc69f
+#EXTINF:-1 tvg-id="totalmusic.concerts" tvg-name="Totalmusic Concerts" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",Totalmusic Concerts
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_Concerts%2FSA_LIVE_hls_enc%2Fmaster.m3u8#4344c00ff5f88c3dcab52fcdc9fa3147030cc0b3882ccfe911518307886db45c
+#EXTINF:-1 tvg-id="totalmusic.dance" tvg-name="Totalmusic Dance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="music",Totalmusic Dance
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FTotalmusic_Dance%2FSA_LIVE_hls_enc%2Fmaster.m3u8#ee80b09c7b649746f0d5fb6cf8bffcec13165560e80371545dd8366cb15252fd
+#EXTINF:-1 tvg-id="utsav.plus" tvg-name="Utsav Plus" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",Utsav Plus
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FUtsavPlus.m3u8#e46751e79d5df984e87d549583f20fc3244b393245c5dd13b4dd490fbf66f49b
+#EXTINF:-1 tvg-id="utsavbharat" tvg-name="Utsavbharat" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Utsavbharat
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
+#EXTINF:-1 tvg-id="utsavplus" tvg-name="Utsavplus" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="United Kingdom",Utsavplus
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavPlus.m3u8#e46751e79d5df984e87d549583f20fc3244b393245c5dd13b4dd490fbf66f49b
+#EXTINF:-1 tvg-id="v2beat" tvg-name="V2BEAT" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",V2BEAT
+http://eja.tv/?https%3A%2F%2Fabr.de1se01.v2beat.live%2Fplaylist.m3u8#05c1d0532990bc322f52f4c1a63ac2cc8273570f79f7dc590423ceed0c3faf43
+#EXTINF:-1 tvg-id="viasat.epic.drama.poland" tvg-name="Viasat Epic Drama Poland" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Czech, English, Polish, Romanian, Turkish, Russian" group-title="🇬🇧 United Kingdom",Viasat Epic Drama Poland
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8001%2Fplay%2Fa00x%2Findex.m3u8#76960a1dc149f889add52dfab111bbd9f47e5c3a41cb2756ff88a730a6529475
+#EXTINF:-1 tvg-id="wonder" tvg-name="Wonder" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Wonder
+http://eja.tv/?https%3A%2F%2Fwonder-samsung-uk.amagi.tv%2Fplaylist.m3u8#15f5c8b496a4887896db0e0992a6a5116da6d60e596e6e5baf8eb0856839fa29
+#EXTINF:-1 tvg-id="wonder" tvg-name="Wonder" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Wonder
+http://eja.tv/?https%3A%2F%2Flds-wonder-plex.amagi.tv%2Fplaylist.m3u8#137743f685a0d098405a776b7569e99c270eea1c2f25dbf7a58549fd19815bb0
+#EXTINF:-1 tvg-id="wonder" tvg-name="Wonder" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Wonder
+http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00426-littledotstudio-wondernz-samsungnz%2Fplaylist.m3u8#d3dbdd44bebbe818d512e17add495f81a34d3848bbe649c5a9a517182a9d10b8
+#EXTINF:-1 tvg-id="zee.one" tvg-name="Zee One" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="French, German, English" group-title="entertainment",Zee One
+http://eja.tv/?https%3A%2F%2Famg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv%2Fplaylist%2Famg17931-asiatvusaltdfast-zeeworld-samsungau%2Fplaylist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
