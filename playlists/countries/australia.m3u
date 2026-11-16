@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Macedonian" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Macedonian
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a8df1eca018108f02cacdae5056626cec38

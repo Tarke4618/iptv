@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Arabic
+https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8#90a7e7ac4b2115668d54ddbdcf0d528c79803897325a83ab8745584f8a8c0bfb
+#EXTINF:-1 tvg-name="Czech" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Czech
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Italian
+https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8#eab23adf11c33040ffb0498472ee3eb42bcd30a7c640d831bc16961f2f929bd8
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="Music",Portuguese
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8#573dafedd0c7eeb8e0855acafc012e4788bd376f18e9de2e6d6489856d9e9ec1
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c

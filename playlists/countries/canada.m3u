@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Bulgarian" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Bulgarian
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="Canada" tvg-language="Tamil" group-title="Canada",Chinese
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8#1ef1a9402f5b3ed863fd79cea0e92584cb265d09f7809af03d2fbd46f2fe89ef
+#EXTINF:-1 tvg-name="Czech" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Czech
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Hungarian" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Documentary",Hungarian
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="Canada" tvg-language="Tamil" group-title="Canada",Russian
+https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8#fd0a1add7927d9f7f0bce5f3a25794f146c0a100b19096ecda7a9e755a2856ea
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+#EXTINF:-1 tvg-name="Turkish" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Turkish
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8

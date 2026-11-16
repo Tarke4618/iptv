@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Bengali" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Bengali
+https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8#fc77d836abf2b9208546a83643fbac1d5b35f3bb554988be8c1c651b174ada27
+#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Italian
+https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8#eab23adf11c33040ffb0498472ee3eb42bcd30a7c640d831bc16961f2f929bd8
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="Music",Portuguese
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8#573dafedd0c7eeb8e0855acafc012e4788bd376f18e9de2e6d6489856d9e9ec1
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c

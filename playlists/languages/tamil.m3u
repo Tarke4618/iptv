@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Bengali" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Bengali
+https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8#fc77d836abf2b9208546a83643fbac1d5b35f3bb554988be8c1c651b174ada27
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="Canada" tvg-language="Tamil" group-title="Canada",Chinese
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8#1ef1a9402f5b3ed863fd79cea0e92584cb265d09f7809af03d2fbd46f2fe89ef
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Hebrew" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Hebrew
+https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8#3c9cf315206c497e4a08cfc3dad541a240990fc9008654cb809134ede7c76800
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="India",Hindi
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
+#EXTINF:-1 tvg-name="Indonesian" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Indonesian
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8#a54bb5e4f00d538dee98c38ad1b7817d99a7a673778867ea34b2da53b2a7ad88
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="Music",Portuguese
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8#573dafedd0c7eeb8e0855acafc012e4788bd376f18e9de2e6d6489856d9e9ec1
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="Canada" tvg-language="Tamil" group-title="Canada",Russian
+https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8#fd0a1add7927d9f7f0bce5f3a25794f146c0a100b19096ecda7a9e755a2856ea
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Tamil
+https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d

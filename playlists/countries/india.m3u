@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="India",Hindi
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
+#EXTINF:-1 tvg-name="Marathi" tvg-logo="" tvg-country="India" tvg-language="" group-title="India",Marathi
+https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8#2acfc4e2fa07afb1a28dca2ab145b21acb1350ec44119524db45b29e96b3193d
+#EXTINF:-1 tvg-name="Panjabi" tvg-logo="" tvg-country="India" tvg-language="" group-title="India",Panjabi
+https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8#1d24a3efbcbb06f49da36c6db15f9980c9490c6b67316d416d21144a44a5d23e
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="India",Telugu
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a

@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Italian
+https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8#eab23adf11c33040ffb0498472ee3eb42bcd30a7c640d831bc16961f2f929bd8
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c

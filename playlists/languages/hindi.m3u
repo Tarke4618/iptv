@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Chhattisgarhi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Chhattisgarhi
+https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="India",Hindi
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Tamil
+https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d

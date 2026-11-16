@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Arabic" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Arabic
+https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8#90a7e7ac4b2115668d54ddbdcf0d528c79803897325a83ab8745584f8a8c0bfb
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Japanese" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Japanese
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c

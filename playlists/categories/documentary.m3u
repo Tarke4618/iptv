@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",German
+https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8#c2d1fd101c38f0fab1b7a1681677fcc3ba6293b98ec6aa4aab07020c58857cfe
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Greek
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-name="Hungarian" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Documentary",Hungarian
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
+#EXTINF:-1 tvg-name="Polish" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Polish
+https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8#b7c8b0c59acfd3273aaccc7249314fedb4c98fe99c18f38846d9dc40205aaaae
+#EXTINF:-1 tvg-name="Slovenian" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Slovenian
+https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8#eab23adf11c33040ffb0498472ee3eb42bcd30a7c640d831bc16961f2f929bd8
+#EXTINF:-1 tvg-name="Vietnamese" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Vietnamese
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
