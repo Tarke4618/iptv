@@ -1,3 +1,4 @@
+import base64
 import json
 import os
 import re
@@ -9,12 +10,13 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://eja.tv/"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-    "Referer": "https://eja.tv/"
+    "Referer": "https://eja.tv/",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
 }
 
-CHANNEL_ID_RE = re.compile(r"^([a-f0-9]{32})(?:\.m3u8)?$", re.IGNORECASE)
+FILTER_ONLY_KEYS = {"country", "language", "category", "search", "offset", "limit", "page", "sort", "order"}
+STATIC_SLUGS = {"about", "help", "privacy", "terms", "contact", "faq", "login", "register", "dmca"}
 
-# Common aliases so friendly names in config.json always map to eja.tv's exact query codes
 ALIASES = {
     "country": {
         "gb": "uk",
@@ -47,8 +49,7 @@ ALIASES = {
         "punjabi": "pan",
         "malayalam": "mal",
         "kannada": "kan",
-        "urdu": "urd",
-        "bhojpuri": "bho"
+        "urdu": "urd"
     },
     "category": {
         "movies": "Movie",
@@ -67,18 +68,26 @@ def safe_filename(name):
     return cleaned or "general"
 
 
+def clean_text(text):
+    return re.sub(r"\s+", " ", (text or "")).replace(",", " ").strip()
+
+
 def discover_site_filters():
-    """Scrapes all country, language, and category filter links directly from eja.tv."""
+    """Scrapes live country, language, and category filter values from eja.tv."""
     options = {"country": {}, "language": {}, "category": {}}
     try:
         resp = requests.get(BASE_URL, headers=HEADERS, timeout=20)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        for a_tag in soup.find_all("a", href=True):
+        all_links = soup.find_all("a", href=True)
+        m3u8_in_home = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', resp.text)
+        print(f"[DIAG] Homepage loaded ({len(resp.text)} bytes, {len(all_links)} links, {len(m3u8_in_home)} inline .m3u8 URLs)")
+
+        for a_tag in all_links:
             parsed = urlparse(urljoin(BASE_URL, a_tag["href"]))
             qs = parse_qs(parsed.query)
-            label = a_tag.get_text(" ", strip=True)
+            label = clean_text(a_tag.get_text(" ", strip=True))
             if not label:
                 continue
             for field in ("country", "language", "category"):
@@ -88,18 +97,17 @@ def discover_site_filters():
                         options[field][val.lower()] = (val, label)
                         options[field][label.lower()] = (val, label)
 
-        # Also check <select> elements if present
         for field in ("country", "language", "category"):
             select = soup.find("select", {"name": field})
             if select:
                 for opt in select.find_all("option"):
                     val = (opt.get("value") or "").strip()
-                    label = opt.get_text(strip=True)
+                    label = clean_text(opt.get_text(strip=True))
                     if val and label:
                         options[field][val.lower()] = (val, label)
                         options[field][label.lower()] = (val, label)
     except Exception as e:
-        print(f"[WARN] Could not auto-discover filters from homepage: {e}")
+        print(f"[WARN] Filter discovery error: {e}")
 
     return options
 
@@ -116,185 +124,321 @@ def resolve_filter_param(field, raw_input, discovered):
     return (raw_input.strip(), raw_input.strip())
 
 
-def extract_card_metadata(a_tag, default_name):
-    """Extracts channel name, logo, country, and language list from the channel's listing card."""
-    img = a_tag.find("img")
-    logo = urljoin(BASE_URL, img["src"]) if img and img.get("src") else ""
+def extract_m3u8_urls(html_text, base_url=BASE_URL):
+    """Finds direct, protocol-relative, or base64-encoded .m3u8 URLs in HTML/JS."""
+    urls = []
+    seen = set()
 
-    name = (
-        a_tag.get_text(" ", strip=True)
-        or a_tag.get("title")
-        or (img.get("alt") if img else "")
-        or default_name
-    ).strip()
+    # 1. Standard http(s)://...m3u8... URLs
+    for m in re.findall(r'https?://[^\s"\'<>\\()]+?\.m3u8[^\s"\'<>\\()]*', html_text, re.IGNORECASE):
+        u = m.replace("\\/", "/").strip()
+        if u not in seen:
+            seen.add(u)
+            urls.append(u)
 
-    country = ""
-    langs = []
+    # 2. Protocol-relative //...m3u8... URLs
+    for m in re.findall(r'(?<![a-zA-Z0-9:])//[a-zA-Z0-9.-]+/[^\s"\'<>\\()]+?\.m3u8[^\s"\'<>\\()]*', html_text, re.IGNORECASE):
+        u = "https:" + m.replace("\\/", "/").strip()
+        if u not in seen:
+            seen.add(u)
+            urls.append(u)
 
-    # Inspect immediate card container for embedded country/language tags
-    container = a_tag.find_parent(["div", "li", "article", "tr", "p"])
-    if container:
-        # Ensure container only wraps this single channel link
-        ch_links_in_box = [
-            link for link in container.find_all("a", href=True)
-            if CHANNEL_ID_RE.match(urlparse(urljoin(BASE_URL, link["href"])).query)
-        ]
-        if len(ch_links_in_box) == 1:
-            for link in container.find_all("a", href=True):
-                q = parse_qs(urlparse(urljoin(BASE_URL, link["href"])).query)
-                txt = link.get_text(" ", strip=True)
-                if "country" in q and txt:
-                    country = txt
-                elif "language" in q and txt and txt not in langs:
-                    langs.append(txt)
+    # 3. Base64-encoded stream URLs inside atob("...")
+    for b64 in re.findall(r'atob\(\s*["\']([A-Za-z0-9+/=]{16,})["\']\s*\)', html_text):
+        try:
+            decoded = base64.b64decode(b64).decode("utf-8", errors="ignore").strip()
+            if ".m3u8" in decoded.lower() and decoded.startswith("http") and decoded not in seen:
+                seen.add(decoded)
+                urls.append(decoded)
+        except Exception:
+            pass
 
-    return name.replace(",", " "), logo, country, ", ".join(langs)
+    return urls
+
+
+def is_filter_or_nav_url(parsed_url):
+    """Returns True if an eja.tv link is just a filter button, pagination link, or static page."""
+    path = parsed_url.path.strip("/").lower()
+    if path in STATIC_SLUGS:
+        return True
+    if path.endswith((".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".ico", ".webp")):
+        return True
+
+    qs = parse_qs(parsed_url.query, keep_blank_values=True)
+    if not path and not qs:
+        return True
+
+    # If the URL has a non-empty path (e.g. /watch/123 or /tv/abc), it's a channel page, not a filter
+    if path:
+        return False
+
+    # Root path `/` with query parameters:
+    # Filter links ONLY use keys from FILTER_ONLY_KEYS (e.g., ?country=in, ?language=hin, ?offset=18)
+    non_filter_keys = [k for k in qs.keys() if k.lower() not in FILTER_ONLY_KEYS]
+    return len(non_filter_keys) == 0
+
+
+def parse_listing_page(html_text, page_url, default_category=""):
+    """Extracts both direct .m3u8 streams and channel watch links from a listing page."""
+    soup = BeautifulSoup(html_text, "html.parser")
+    entries = []
+    seen_keys = set()
+
+    # Pass A: Inspect all <a> tags for either direct .m3u8 links or channel watch pages
+    for a_tag in soup.find_all("a", href=True):
+        raw_href = a_tag["href"].strip()
+        if not raw_href or raw_href.startswith(("#", "javascript:", "mailto:")):
+            continue
+
+        full_url = urljoin(page_url, raw_href)
+        parsed = urlparse(full_url)
+        img = a_tag.find("img")
+        logo = urljoin(page_url, img["src"]) if img and img.get("src") else ""
+
+        # Extract channel name from text, title, alt, or parent heading
+        name = clean_text(
+            a_tag.get_text(" ", strip=True)
+            or a_tag.get("title")
+            or (img.get("alt") if img else "")
+        )
+
+        # Case A1: Anchor links directly to an .m3u8 stream
+        if ".m3u8" in full_url.lower() and "eja.tv" not in parsed.netloc.lower():
+            if full_url not in seen_keys:
+                seen_keys.add(full_url)
+                entries.append({
+                    "key": full_url,
+                    "name": name or "Live Stream",
+                    "stream_url": full_url,
+                    "watch_url": "",
+                    "logo": logo,
+                    "country": "",
+                    "language": "",
+                    "category": default_category
+                })
+            continue
+
+        # Case A2: Internal eja.tv link that is a channel player page (not a filter button)
+        if "eja.tv" in parsed.netloc.lower() and not is_filter_or_nav_url(parsed):
+            if full_url not in seen_keys:
+                seen_keys.add(full_url)
+                entries.append({
+                    "key": full_url,
+                    "name": name or "Channel",
+                    "stream_url": "",
+                    "watch_url": full_url,
+                    "logo": logo,
+                    "country": "",
+                    "language": "",
+                    "category": default_category
+                })
+
+    # Pass B: Extract any inline .m3u8 URLs embedded in cards/scripts on the listing page
+    inline_streams = extract_m3u8_urls(html_text, page_url)
+    for idx, s_url in enumerate(inline_streams):
+        if s_url in seen_keys:
+            continue
+        seen_keys.add(s_url)
+
+        # Attempt to find a nearby title/name in the surrounding HTML/JS snippet
+        pos = html_text.find(s_url)
+        guessed_name = ""
+        if pos != -1:
+            window = html_text[max(0, pos - 350):min(len(html_text), pos + 350)]
+            title_match = re.search(
+                r'(?:title|name|channel|tvg-name)\s*[:=]\s*["\']([^"\'<>]{2,60})["\']',
+                window,
+                re.IGNORECASE
+            )
+            if title_match:
+                guessed_name = clean_text(title_match.group(1))
+            else:
+                tag_text = re.findall(r'>([^<>]{2,50})<', window)
+                for t in reversed(tag_text):
+                    cleaned = clean_text(t)
+                    if cleaned and not cleaned.startswith("http") and len(cleaned) > 1:
+                        guessed_name = cleaned
+                        break
+
+        entries.append({
+            "key": s_url,
+            "name": guessed_name or f"Stream {idx + 1}",
+            "stream_url": s_url,
+            "watch_url": "",
+            "logo": "",
+            "country": "",
+            "language": "",
+            "category": default_category
+        })
+
+    # Detect next pagination offset/page from links on the page
+    next_offsets = []
+    next_pages = []
+    for a_tag in soup.find_all("a", href=True):
+        q = parse_qs(urljoin(page_url, a_tag["href"]))
+        # Parse query string safely
+        q = parse_qs(urlparse(urljoin(page_url, a_tag["href"])).query)
+        if "offset" in q:
+            try:
+                next_offsets.append(int(q["offset"][0]))
+            except ValueError:
+                pass
+        if "page" in q:
+            try:
+                next_pages.append(int(q["page"][0]))
+            except ValueError:
+                pass
+
+    return entries, sorted(set(next_offsets)), sorted(set(next_pages))
 
 
 def crawl_query_pages(max_pages=25, country="", language="", category="", search=""):
-    """Crawls all paginated pages (offset=0, 18, 36...) for a given filter/search on eja.tv."""
-    found_channels = {}
+    """Crawls all paginated pages for a filter or search query on eja.tv."""
+    collected = {}
     offset = 0
+    page = 1
+    use_page_param = False
     page_num = 0
 
     while True:
         if max_pages > 0 and page_num >= max_pages:
             break
 
-        params = {
-            "offset": offset,
-            "country": country,
-            "language": language,
-            "category": category,
-            "search": search
-        }
+        params = {}
+        if country:
+            params["country"] = country
+        if language:
+            params["language"] = language
+        if category:
+            params["category"] = category
+        if search:
+            params["search"] = search
+
+        if use_page_param:
+            if page > 1:
+                params["page"] = page
+        else:
+            if offset > 0:
+                params["offset"] = offset
+
         try:
             resp = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=20)
             resp.raise_for_status()
         except Exception as e:
-            print(f"[WARN] Request failed at offset={offset} ({params}): {e}")
+            print(f"[WARN] Failed page {page_num + 1} ({params}): {e}")
             break
 
-        soup = BeautifulSoup(resp.text, "html.parser")
-        new_in_page = 0
+        entries, next_offsets, next_pages = parse_listing_page(resp.text, resp.url, default_category=category)
+        new_count = 0
+        for item in entries:
+            if item["key"] not in collected:
+                collected[item["key"]] = item
+                new_count += 1
 
-        for a_tag in soup.find_all("a", href=True):
-            full_url = urljoin(BASE_URL, a_tag["href"].strip())
-            parsed = urlparse(full_url)
-            if "eja.tv" not in parsed.netloc.lower():
-                continue
-
-            match = CHANNEL_ID_RE.match(parsed.query)
-            if not match:
-                continue
-
-            ch_id = match.group(1).lower()
-            if ch_id not in found_channels:
-                name, logo, card_country, card_langs = extract_card_metadata(a_tag, f"Channel {ch_id[:6]}")
-                found_channels[ch_id] = {
-                    "id": ch_id,
-                    "name": name,
-                    "watch_url": f"{BASE_URL}?{ch_id}",
-                    "direct_m3u8_hint": f"{BASE_URL}?{ch_id}.m3u8",
-                    "logo": logo,
-                    "country": card_country,
-                    "language": card_langs,
-                    "category": category
-                }
-                new_in_page += 1
-            else:
-                # Enrich name if a later anchor for the same ID has cleaner text
-                candidate_text = a_tag.get_text(" ", strip=True).replace(",", " ")
-                if candidate_text and found_channels[ch_id]["name"].startswith("Channel "):
-                    found_channels[ch_id]["name"] = candidate_text
-
-        if new_in_page == 0:
+        if new_count == 0:
             break
 
-        # Detect next offset from pagination links if present, otherwise advance by items found (typically 18)
-        next_offsets = []
-        for a_tag in soup.find_all("a", href=True):
-            q = parse_qs(urlparse(urljoin(BASE_URL, a_tag["href"])).query)
-            if "offset" in q:
-                try:
-                    val = int(q["offset"][0])
-                    if val > offset:
-                        next_offsets.append(val)
-                except ValueError:
-                    pass
-
-        offset = min(next_offsets) if next_offsets else (offset + max(new_in_page, 18))
         page_num += 1
 
-    return list(found_channels.values())
+        # Advance pagination using the site's actual offset or page parameter
+        higher_offsets = [o for o in next_offsets if o > offset]
+        higher_pages = [p for p in next_pages if p > page]
+
+        if higher_offsets:
+            offset = higher_offsets[0]
+        elif higher_pages:
+            use_page_param = True
+            page = higher_pages[0]
+        else:
+            # Fallback step increment if links use JS/relative offsets
+            offset += max(new_count, 18)
+
+    return list(collected.values())
 
 
-def resolve_stream(channel, verify=True):
-    """Resolves a 32-hex eja.tv channel ID into a direct, verified .m3u8 stream URL."""
-    ch_id = channel["id"]
-    m3u8_endpoint = f"{BASE_URL}?{ch_id}.m3u8"
-    watch_url = f"{BASE_URL}?{ch_id}"
-
-    # 1. Try eja.tv's direct .m3u8 redirect endpoint first
+def verify_m3u8_url(stream_url):
+    """Checks that a stream URL responds with valid HLS playlist content."""
     try:
-        resp = requests.get(m3u8_endpoint, headers=HEADERS, timeout=10, allow_redirects=True, stream=True)
-        final_url = resp.url
-        content_type = (resp.headers.get("Content-Type") or "").lower()
-        first_chunk = next(resp.iter_content(chunk_size=512), b"").decode("utf-8", errors="ignore")
+        resp = requests.get(stream_url, headers=HEADERS, timeout=8, allow_redirects=True, stream=True)
+        chunk = next(resp.iter_content(chunk_size=1024), b"").decode("utf-8", errors="ignore")
         resp.close()
-
-        if resp.status_code == 200 and ("#EXTM3U" in first_chunk or (not verify and (".m3u8" in final_url.lower() or "mpegurl" in content_type))):
-            return final_url, channel["name"]
+        if resp.status_code == 200 and ("#EXTM3U" in chunk or "#EXT-X-" in chunk):
+            return resp.url
     except Exception:
         pass
+    return None
 
-    # 2. Fallback: parse the channel player HTML page for embedded .m3u8 URL & <title>
+
+def resolve_entry(entry, verify=True):
+    """Resolves and verifies an entry into a working .m3u8 URL and clean channel name."""
+    name = entry["name"]
+
+    # Case 1: Direct .m3u8 URL already extracted from listing page
+    if entry.get("stream_url"):
+        s_url = entry["stream_url"]
+        if not verify:
+            return s_url, name
+        verified = verify_m3u8_url(s_url)
+        return verified, name
+
+    # Case 2: Watch page URL on eja.tv
+    watch_url = entry.get("watch_url")
+    if not watch_url:
+        return None, name
+
     try:
-        page = requests.get(watch_url, headers=HEADERS, timeout=10)
-        if page.status_code == 200:
-            soup = BeautifulSoup(page.text, "html.parser")
-            title_tag = soup.find("title")
-            clean_name = channel["name"]
-            if title_tag and title_tag.get_text(strip=True):
-                t_text = title_tag.get_text(strip=True).replace(",", " ")
-                if t_text.lower() not in ("eja.tv", "home"):
-                    clean_name = t_text
+        resp = requests.get(watch_url, headers=HEADERS, timeout=10, allow_redirects=True)
+        if resp.status_code != 200:
+            return None, name
 
-            matches = re.findall(r'https?://[^\s"\'<>\\]+\.m3u8[^\s"\'<>\\]*', page.text)
-            if matches:
-                stream_url = matches[0]
-                if not verify:
-                    return stream_url, clean_name
-                chk = requests.get(stream_url, headers=HEADERS, timeout=8, stream=True)
-                chunk = next(chk.iter_content(chunk_size=512), b"").decode("utf-8", errors="ignore")
-                chk.close()
-                if chk.status_code == 200 and "#EXTM3U" in chunk:
-                    return stream_url, clean_name
+        content_type = (resp.headers.get("Content-Type") or "").lower()
+        if ".m3u8" in resp.url.lower() or "mpegurl" in content_type or "#EXTM3U" in resp.text[:200]:
+            return resp.url, name
+
+        soup = BeautifulSoup(resp.text, "html.parser")
+        for tag_name in ("h1", "h2", "title"):
+            tag = soup.find(tag_name)
+            if tag:
+                t_clean = clean_text(tag.get_text(" ", strip=True))
+                if t_clean and t_clean.lower() not in ("eja.tv", "home", "tv"):
+                    name = t_clean
+                    break
+
+        candidates = extract_m3u8_urls(resp.text, resp.url)
+        for s_url in candidates:
+            if not verify:
+                return s_url, name
+            verified = verify_m3u8_url(s_url)
+            if verified:
+                return verified, name
     except Exception:
         pass
 
-    return None, channel["name"]
+    return None, name
 
 
 def write_m3u(filepath, channels):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     lines = ["#EXTM3U"]
-    seen_ids = set()
+    seen_streams = set()
     for ch in sorted(channels, key=lambda x: x["name"].lower()):
-        if ch["id"] in seen_ids:
+        s_url = ch["stream_url"]
+        if s_url in seen_streams:
             continue
-        seen_ids.add(ch["id"])
+        seen_streams.add(s_url)
+
         group = ch.get("category") or ch.get("country") or "General"
         lang = ch.get("language") or ""
         country = ch.get("country") or ""
         logo = ch.get("logo") or ""
         name = ch["name"]
+
         extinf = (
-            f'#EXTINF:-1 tvg-id="{ch["id"]}" tvg-name="{name}" tvg-logo="{logo}" '
+            f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" '
             f'tvg-country="{country}" tvg-language="{lang}" group-title="{group}",{name}'
         )
         lines.append(extinf)
-        lines.append(ch["stream_url"])
+        lines.append(s_url)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
@@ -332,10 +476,10 @@ def main():
     verify = config.get("verify_streams", True)
     scrape_all = config.get("scrape_all_filters", False)
 
-    print("Discovering available countries, languages, and categories from eja.tv...")
+    print("Discovering filters from eja.tv...")
     discovered = discover_site_filters()
 
-    tasks = [("general", "Global Top", {"max_pages": max_pages})]
+    tasks = [("general", "Global Feed", {"max_pages": max_pages})]
 
     if scrape_all:
         for val, label in sorted(set(discovered["country"].values()), key=lambda x: x[1]):
@@ -360,47 +504,41 @@ def main():
 
     registry = {}
     for bucket, label, q_kwargs in tasks:
-        print(f"Crawling [{bucket}] -> {label} ({q_kwargs})...")
+        print(f"Crawling [{bucket}] -> {label}...")
         items = crawl_query_pages(**q_kwargs)
-        print(f"  Found {len(items)} channel entries for {label}.")
+        print(f"  Found {len(items)} candidate items.")
         for item in items:
-            ch_id = item["id"]
-            if ch_id not in registry:
-                registry[ch_id] = item
-                registry[ch_id]["buckets"] = []
-            else:
-                if not registry[ch_id]["country"] and item["country"]:
-                    registry[ch_id]["country"] = item["country"]
-                if not registry[ch_id]["language"] and item["language"]:
-                    registry[ch_id]["language"] = item["language"]
-                if not registry[ch_id]["category"] and item["category"]:
-                    registry[ch_id]["category"] = item["category"]
-                if not registry[ch_id]["logo"] and item["logo"]:
-                    registry[ch_id]["logo"] = item["logo"]
+            k = item["key"]
+            if k not in registry:
+                registry[k] = item
+                registry[k]["buckets"] = []
+            registry[k]["buckets"].append((bucket, label))
+            if bucket == "countries" and not registry[k]["country"]:
+                registry[k]["country"] = label
+            elif bucket == "languages" and not registry[k]["language"]:
+                registry[k]["language"] = label
+            elif bucket == "categories" and not registry[k]["category"]:
+                registry[k]["category"] = label
 
-            registry[ch_id]["buckets"].append((bucket, label))
-            if bucket == "countries" and not registry[ch_id]["country"]:
-                registry[ch_id]["country"] = label
-            elif bucket == "languages" and not registry[ch_id]["language"]:
-                registry[ch_id]["language"] = label
-            elif bucket == "categories" and not registry[ch_id]["category"]:
-                registry[ch_id]["category"] = label
-
-    print(f"Resolving & verifying {len(registry)} unique candidate channels...")
-    working_channels = []
+    print(f"Resolving & verifying {len(registry)} unique candidates...")
+    working_by_stream = {}
     with ThreadPoolExecutor(max_workers=16) as pool:
         future_map = {
-            pool.submit(resolve_stream, data, verify): data
+            pool.submit(resolve_entry, data, verify): data
             for data in registry.values()
         }
         for future in as_completed(future_map):
             data = future_map[future]
             stream_url, resolved_name = future.result()
             if stream_url:
-                data["stream_url"] = stream_url
-                data["name"] = resolved_name
-                working_channels.append(data)
+                if stream_url not in working_by_stream:
+                    data["stream_url"] = stream_url
+                    data["name"] = resolved_name
+                    working_by_stream[stream_url] = data
+                else:
+                    working_by_stream[stream_url]["buckets"].extend(data["buckets"])
 
+    working_channels = list(working_by_stream.values())
     print(f"Verified {len(working_channels)} working live streams.")
 
     write_m3u("playlists/all.m3u", working_channels)
@@ -426,7 +564,7 @@ def main():
             generated_summary[label_map[bucket]].append((label, fname, len(ch_list)))
 
     build_readme(generated_summary, len(working_channels))
-    print("All playlists and README dashboard updated successfully.")
+    print("Done!")
 
 
 if __name__ == "__main__":
