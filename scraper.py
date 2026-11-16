@@ -730,4 +730,14 @@ def main():
                 if k in resolved_by_key
             ]
             fname = f"playlists/{bucket}/{safe_filename(label)}.m3u"
-            write_m3u(
+            write_m3u(fname, ch_list)
+            generated_summary[label_map[bucket]].append(
+                (label, fname, len(ch_list))
+            )
+
+    build_readme(generated_summary, len(all_working))
+    print("Playlists and README updated cleanly!")
+
+
+if __name__ == "__main__":
+    main()
