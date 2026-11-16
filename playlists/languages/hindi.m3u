@@ -1,9 +1,597 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Chhattisgarhi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Chhattisgarhi
+#EXTINF:-1 tvg-name="Bengali" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Bengali
+https://cdn.pishow.tv/ott/live/1161/master.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
+#EXTINF:-1 tvg-name="Bhojpuri" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Bhojpuri
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fpl-indiatvnews.akamaized.net%2Fout%2Fv1%2Fdb79179b608641ceaa5a4d0dd0dca8da%2Findex.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fd2gvyg6lvauoko.cloudfront.net%2F230226%2Fndtvgoodtimes%2Fchunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcc-czbq30x55knit.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-czbq30x55knit%2FDIYC%2FPMSL%2FIN10%2FEpic_TV_IN_B%2FEpic_TV_IN_B.m3u8#bf78e6066729beb383dad350e542a7ebbf663bcb2070c82d6962738d2adb3971
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Finh24x7%2Fplaylist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-3.pishow.tv%2Flive%2F220%2Fmaster.m3u8#30166407133b7541d8876fa8082576016c5656f2df6e1ff84b3365e2790e5936
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fkhabreinabhitak%2Fplaylist.m3u8#22a5cec85e415b97257554c7b31618d5abcf50cebec3138fefbdfa11cf196c3b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Ftravelxp-travelxp-1-au.samsung.wurl.tv%2Fplaylist.m3u8#fc77d836abf2b9208546a83643fbac1d5b35f3bb554988be8c1c651b174ada27
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fhindikhabar%2Fplaylist.m3u8#9e8755ac489135513471d83c384399df395ef1980305c397c0213b1e87532b42
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fvg-zeefta.akamaized.net%2Fptnr-yupptv%2Ftitle-zeehindustan%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F96bbab12-582e-4540-af70-510ab6824581%2Fmain.m3u8#c39356f8b2d8437628e9d7a8dea826135dd9117f54c7ad51eec283cf5f8d6c91
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F38.96.178.205%2FSONYHD%2Findex.m3u8#43f387941892083ea649fbb0ca7f38417f71250620b412d7d7af4a354102ec3b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fnews1india%2Fplaylist.m3u8#07de4ba7697cb0d08a16ce2f8dc9d64303db591438f04e387f78e3f191e2bc8d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?http%3A%2F%2Fstream.mcquack.net%2F451%2Findex.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fnews11bharat%2Fplaylist.m3u8#ae973a28ed44fda59b91f1bbba0774c1d8386a6a62bf37bb10c6e6f379d3d5ef
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1rc86nwwc9fag.cloudfront.net%2Fvglive-sk-472500%2Fabpnews%2Fmaster.m3u8#d097653bffc1eeafc28d4c32bf05451cce01aaf34307cc8445b736f9d86947d9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1rc86nwwc9fag.cloudfront.net%2Fvglive-sk-791258%2Fmaster.m3u8#07e7b346e5476fabe6b6aee123ae377db7b628f8ab3f563431a7d1d52e3a221f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fbharatsamachar%2Fplaylist.m3u8#674900e71307980e580f3f4ac888be1f73ad5d655460afda0d2a33f6142bc793
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Acolorsme.smil%2Fplaylist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fn18syndication.akamaized.net%2Fbpk-tv%2FCNBC_Awaaz_NW18_MOB%2Foutput01%2Fmaster.m3u8#fb6ba0c07dd727567142caa67f8eb10edee23e23d5ea115b1e180c805142fddd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Fsudarshan%2Fplaylist.m3u8#ab6a4a06b45f367b7f0c8ea95dd8256ec98845a3b44c61dc5ebc293fd9f89fe0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fserver.livelegitpro.in%3A9899%2Fanbnews%2Fanbnews%2Findex.m3u8#50940d188eff401a783e1d35dc6b189ea176a4a281c8441941ea6778891ad2ec
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fd393sxaxig6bax.cloudfront.net%2Fout%2Fv1%2F589cf2cf44bf42bb941e817a2240d62e%2Findex.m3u8#97e9bebee2893d3828ae041c20d00c16d7fcf96e34a2fd45521072b224b07b2b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fvg-zeefta.akamaized.net%2Fptnr-yupptv%2Ftitle-zeenews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8744f9fb-d696-4204-9795-5215ad930c39%2Fmain.m3u8#8b3b0fe6dd07729c297dc198eedfa9a38c228bc888d3d99aff702e12856e2f05
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FJCAm25qkRXiKcK1AJMlvKQ%2Fmaster.m3u8#53f27352e9fc41b967d1e5e34b4c4d2bb08e985bc8c0ed3bda93b01cb21c6341
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fepiconvh.akamaized.net%2Flive%2Fepic%2Fmaster.m3u8#96235fc303f37b6d138ae56829ef736e9d7c63907e628db03d5690e11a1628e4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcc-p1izg43bk7sj5.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-p1izg43bk7sj5%2FDIYC%2FPMSL%2FIN10%2FNazara_IN_B%2FNazara_IN_B.m3u8#a2b72b33550a4013226bd31336daa0847e2f2eb0c779bac7672bbd4872663540
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive-dangal2.akamaized.net%2Fliveabr%2Fplaylist.m3u8#8b2da1283deae37c7ed44549441009ce4417179e8a1617b0aa4f8f4a00a73911
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fmcncdndigital.com%2Fballeballetv%2Findex.m3u8#e9d11be1af38b45244d704dd32cffdff627fcf7495ce14f336d19368393ab60f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Ftravelxp-travelxp-1-nz.samsung.wurl.tv%2Fplaylist.m3u8#c2dcf6e876bf57bef8b94476c1ecf712c9b115aa191b363b94943350c475112e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fd1msejlow1t3l4.cloudfront.net%2Ffta%2Ftotaltv%2Fplaylist.m3u8#02648b69e10d279ae8c0fbf09ea59a227cf68067c60dc29aa68dbd16db8fb5ca
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Flivehub-voidnet.onrender.com%2Fcluster%2Fstreamcore%2Fin%2FAAJTAK_REDIS.m3u8#b6fdd9f4ad2ba09853196befc2f15515a1fd6585550af0a1404adc3bf748c131
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fdwby15d04agvq.cloudfront.net%2Findex_5.m3u8#83d2887d075c69ba091dc98074d0467122a0dae0fa52c399358bbd4ca0289650
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Movie",Channel
+http://eja.tv/?http%3A%2F%2F107.167.16.138%2Fstargold2%2Findex.m3u8%3Ftoken%3Dtest#501d43dd7a1050c0d9a5e312fca026640d1bebff3126a2aae06f3621a2bf1b3c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fyuppparoriglin.akamaized.net%2F181224%2Fsmil%3Awowkidztelgu.smil%2Fplaylist.m3u8%3Fhdnts%3Dst%3D1735898689~exp%3D1835898688~acl%3D%2A~hmac%3Df5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Ftravelxp-travelxp-1-eu.rakuten.wurl.tv%2Fplaylist.m3u8#1ffb7b16579628a7c942d0d212e441768e076e45088f59ff0511fdba9704ccf6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fin%2FYuppTV%2FTimesNowNavbharat.m3u8#efcee9f178e2c5d6bd7224d9ae73025d2acaf5da2fee14cfbc77bd47d48d8694
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01412-xiaomiasia-yrfmusic-xiaomi%2Fplaylist.m3u8#18baa91a24a31542e8028dc55eed076a42d7b46106ea979c3718919b4e359272
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Flive-dangal.akamaized.net%2Fliveabr%2Fplaylist.m3u8#ba2be3eeda56d0ba6ed34ee987bb7f493cfc5f6399fe3791b81b64aa4e92e6c0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fserver.thelegitpro.in%2Frongeentv%2Frongeentv%2Findex.m3u8#a41997db5f55bf166963f224da568c001957501fd5211362a8c9c1255203262a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fcc-lyf4c0hwzg5dd.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-lyf4c0hwzg5dd%2Fv1%2Fvglive-sk-479089%2Fmain.m3u8#4b703c17639e4582257627370896ec34b7a333fbcd1ec15f3abed53ca2356019
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fanjan.vstream.online%2Fanjanorg%2Fngrp%3Aanjan_hdall%2Fplaylist.m3u8#5f3a47740a13a3ad39f0043aa4ccb40e0555a8df6895f81d01d90fb35cd45a88
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fyuppnimrestreammum.akamaized.net%2F181224%2Fsmil%3Asongdewtv.smil%2Fplaylist.m3u8%3Fhdnts%3Dst%3D1735898689~exp%3D1835898688~acl%3D%2A~hmac%3Df5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#324f4730ce8c2085452fc5fd3b712035415667f1219424c1ac8a5d4d24e1efbc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fdt3lrqnyx3dks.cloudfront.net%2Findex.m3u8#30003ac6744701a604d9523ccbc42d1524dab8d2f4e3d0bd4ee5e66bda723ff8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Faajtaklive-amd.akamaized.net%2Fhls%2Flive%2F2014416%2Faajtak%2Faajtaklive%2Flive_404p%2Fchunks.m3u8#bac4003109ebadc7334840b31bc0df195a677d1561875fc35e2b5cb46eca56dc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aaasthatv.smil%2Findex.m3u8#1604f105f4b8afa22b75b9a165ceffac0d656ca306564416a5143e9afa86ef36
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2F6n3yow8pl9ok-hls-live.5centscdn.com%2Fsadhananewstv%2Flive.stream%2Fplaylist.m3u8#ed5b1f3170ba88480b5a3b42dac6d2268579abf102064700b67afc05762ee20d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Ffeeds.intoday.in%2Faajtak%2Fapi%2Faajtakhd%2Fmaster.m3u8#693a10cf76b71313175e0b77eb1d553ad5427fd9dd5b9ec0eb2dddc4b4ba78b9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F13%2Fmaster.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fxlbor37ydvaj-hls-live.wmncdn.net%2Ffirstindianewstv1%2Flive.stream%2Findex.m3u8#0a42c1de0ccc3fc362d99094b1ee252da05b68f189875f683dac3e1a24be2890
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fcc-yw7ztecy8do3q.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-yw7ztecy8do3q%2FSS_IN.m3u8#9be97852e19a76380fe422263b8b235f0dda2868c961ca515e14afeff9e52d3b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fairtelapp.shemaroo.com%2FshemarooChumbakTV%2Fsmil%3AshemarooChumbakTVadp.smil%2Fplaylist.m3u8#c04f44da34f154fabdb8d3e2582a5a3aeadc1157c88e34487db8c1cdb3c93636
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Avedic.smil%2Fplaylist.m3u8#f5a611bbe75d1996742073c1323333b0734110ff61b5fc0e6ea2334dd03a48c1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fdwby15d04agvq.cloudfront.net%2Findex_1.m3u8#301d76ae0c3d96fe524ccb8f04859d0fec6e4c42bbd0f94b4d27bbe20ece8988
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Ffeeds.intoday.in%2Faajtak%2Fapi%2Fmaster.m3u8#a66e42e69765da1878cc7a21082e08597514613990ff047929aa795caa775243
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Abhajan.smil%2Fplaylist.m3u8#067ea797c4bc744340b186211a09dd95ecba8157260da4a4cf97f381e343be4e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aaasthaprime1.smil%2Fmaster.m3u8#f189295bf815c7aa3089f01ad858994270acc98d652886b684148d5490865f01
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2F6n3yow8pl9ok-hls-live.5centscdn.com%2Fishwartvlive%2Ftv.stream%2Fplaylist.m3u8#5bc284fa1fb0c53d1320f0bfe85706b7428fed9368be4147b13a4f944b3e3270
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fcc-lyf4c0hwzg5dd.akamaized.net%2Fv1%2Fvglive-sk-479089%2Fmain.m3u8#129898062293d77d6bde8e00932394f180b56cbf416d62a57d178056291057bc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Foqgdrkxby4rm-hls-live.5centscdn.com%2Fkaumudytv%2Flive.stream%2Fplaylist.m3u8#fe50bcd4f195a3eeb2588287385bc1094bd1a35c7307906af81dc58212d56665
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fn18syndication.akamaized.net%2Fbpk-tv%2FNews18_Bangla_NW18_MOB%2Foutput01%2Fmaster.m3u8#263f91b7d13fd8ee2aecce4c487de52856282f3d57ad36c37f454f9228837307
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2F6n3yow8pl9ok-hls-live.5centscdn.com%2Fsadhanalivetv%2Flive.stream%2Fplaylist.m3u8#9919e2570f2cc49e423af005b54400cbee53df825140f4717bd124184a139008
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Flive.legitpro.co.in%2Fanandtv%2Findex.m3u8#5dee904c6bac96e9dc9ff58a6fa3c327974b13cd623dec45fb90dfe1add40c19
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fdknttpxmr0dwf.cloudfront.net%2Findex_57.m3u8#02f8573c38f5634a6991833e9ae51d15402e92ab2db5c7e558b21a33ef5678d0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Channel
+http://eja.tv/?https%3A%2F%2Fvg-pitaaratvlive.akamaized.net%2Fv1%2Fvglive-sk-906482%2Fplaylist.m3u8#9ddc85a9226e56e5b5dcd1b650ca09567f9e57de4ac2abdbb0463ce8c823be5b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Documentary",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fin%2FHistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
+http://eja.tv/?https%3A%2F%2Fchlivemta1.akamaized.net%2Fhls%2Flive%2F2008145%2Fmta2%2Fplaylist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
+http://eja.tv/?https%3A%2F%2Fd1rc86nwwc9fag.cloudfront.net%2F260723%2Fstarplusuk_2500%2Fchunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
+http://eja.tv/?https%3A%2F%2Flivemtaasia.akamaized.net%2Fhls%2Flive%2F2039224%2Fmtaasia2%2Fplaylist.m3u8#df38b666f283418e5a2a50e0b590f73c548454e39fd950e1d46fe3ef753e82a0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
+http://eja.tv/?https%3A%2F%2Flive.kanshitv.co.uk%2Fmobile%2Fkanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FUtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Channel
+http://eja.tv/?http%3A%2F%2Fcdn11.live247stream.com%2Ftag%2Ftv%2Fplaylist.m3u8#a8f6d92511a1b5101b0962d3b0b78da03586dfbacc4bf88a092639d5cd0e06c0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Channel
+http://eja.tv/?http%3A%2F%2Fcdn19.live247stream.com%2Fchannely%2Ftv%2Fplaylist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Channel
+http://eja.tv/?http%3A%2F%2Fcdn12.henico.net%3A8080%2Flive%2Fgsctv%2Findex.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.live247stream.com%2Fhyder%2Ftv%2Fplaylist.m3u8#4098c39a5f541cd86565e03fead0428ad152d07ccba7c3763db0cc82ac3d1532
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Documentary",Channel
+http://eja.tv/?https%3A%2F%2Frt-doc.rttv.com%2Fdvr%2Frtdru%2Fplaylist.m3u8#6fc70c1a7472b913670eef43a7f477049f48cb58e7f25026e1cdae9f9959d8a8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Documentary",Channel
+http://eja.tv/?https%3A%2F%2Fstreaming.thestream.cyou%2Flive%2F554.m3u8#c4f73e674200b71372a9517d134207b127831733fb2f1a2035a0ca521c8d8719
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fxykt-fix.github.io%2Fcinerama_edge01%2Fhls%2FBOLLYWOOD_RU%2FMovie009.m3u8#8d55bba503a79e7a8d970629c9eb7526bdf855b65e53b5740decc873ffdb2985
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fwurlsonypicturestv.global.transmit.live%2Fhls%2F68deeb1c0238cda82df543dd%2Fv1%2Fspt_sonykal_1%2Flg_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8#7b45d1540e0695891a1eec7f2f50dc22556bd1d5b5de054d4219656883fe34fc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Flive.suricloud.com%2Fhls%2Ftbntv%2Findex.m3u8#5832ef5c5e7009a9eba09c9bd3096e79f3b1cb03f00d77ce14c4f1779d426ab1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fott.livelegitpro.in%2Ffatehtv%2Ffatehtv%2Findex.m3u8#f98e7970a2b3ee288b649cc23c80edef2e13dce2a97932d854656f3adc904ef1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSports%2Findex.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fdeatfcv3xdvi3.cloudfront.net%2Fout%2Fv1%2F7a43dd2f64e34ec28da1b4bd6923251a%2Findex.m3u8#d1ea6df1c9d31a5b3591d5540b7b2a609cce6e12f7124e659a11ed98eb7f83b1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FDDSportsHD%2Findex.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fd34z4embz0hjf6.cloudfront.net%2Fout%2Fv1%2Fd55b3323a9f142638f897378f0b526fe%2Findex.m3u8#8ee2298f97a593a2f588c064fb317684334393d6d194ff4ce4ffa4229cb43a36
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fin%2FYuppTV%2FRepublicBharat.m3u8#dbbe29820b5e9719d87fab14b8c8bbbbc2799c33974f96949676ae6c7a27dcec
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fwiselp.wiseplayout.com%2F9XM%2Fmaster.m3u8#d0fe652259faae3665179e362958ecdc5a39f505b3ee84a58c8b208706c6635a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fyuppparoriglin.akamaized.net%2F181224%2Fsmil%3Awowkidztam.smil%2Fplaylist.m3u8%3Fhdnts%3Dst%3D1735898689~exp%3D1835898688~acl%3D%2A~hmac%3Df5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?http%3A%2F%2F41.205.93.154%2FZEE-TV%2Findex.m3u8#6a8be2419d19610d093ed99ad7ab89f716a61bfaa87ba5caabd727926febc05c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fduw35ict5q7th.cloudfront.net%2Findex_3.m3u8#a0a614bc9336df8bde30c8915159a6b53c827b1e8c599c0fdec03edd8589c05c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2FB4UMOVIES%2FORIGIN%2Findex.m3u8#2f96bf0012223150016bdd19b398aae91b7b2a2ee3cff52d263b4b2a1a5affff
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fsg%2FYuppTV%2FColorsAPAC.m3u8#93750b042aee5426120ffd1a0499bb82fed37ad421ee68453c5c7049a633c4a6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F267%2Fmaster.m3u8#91ca01557fa3f0cdb9ce5470f8d862e4f785fd8a47f839308ad3f381cf63fa6a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fvg-zeefta.akamaized.net%2Fptnr-yupptv%2Ftitle-zeedelhincr%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fcc483a15-1b39-4642-872d-5d08d362ed01%2Fmain.m3u8#0c8a1ce5782cb5730b7719ce3b7dd33fa833292b86f6ebd1a006548d9eac296e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fvg-zeefta.akamaized.net%2Fptnr-yupptv%2Ftitle-zeemadhyachhattisgarh%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F2ab17056-6187-4f0e-a34d-f436ac479d6c%2Fmain.m3u8#efed2929493811a5d6e47381241192799a23aba268131f7a9676a3c082b06ce0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstmv6.voxtvhd.com.br%2Fcinehindi%2Fcinehindi%2Fplaylist.m3u8#957d0a3406bbcf5dd2d5faab6b5286e81c2c0fcc18ecae27e2b268e2df4fa483
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fndtvindiaelemarchana.akamaized.net%2Fhls%2Flive%2F2003679%2Fndtvindia%2Fmaster.m3u8#5014f99feafd37a232c55c92ef45c36ac310d54020f31dad69e7f48e86271ca5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?http%3A%2F%2F107.167.16.138%2Fsonymax2%2Findex.m3u8%3Ftoken%3Dtest#f747e4d78f899b87051d918b03fec98d7fd3a3771909a1540535f4e46434eab2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fvg-zeefta.akamaized.net%2Fptnr-yupptv%2Ftitle-zeerajashthannews%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2F8e864b9a-1681-41a0-99a6-387490bc5b24%2Fmain.m3u8#d9eb91d48d35da25973ffd840d46fe9bc390cabe723cf7429be7f1728d7f1b48
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmumt05.tangotv.in%2F87NeALx2UNIQUETV%2Findex.m3u8#72a60e64b01d1571e9a13ed3b8784cfbc8eaf0cb52f8e6d1c4ef4be1e88887ad
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F1161%2Fmaster.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2F7epd6o8edk9b-hls-live.wmncdn.net%2Finh24%2Flive.stream%2Fplaylist.m3u8#457ec5ec47f952a5668f3102947143d7419a81e4935416406db0ca668d3a090a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fd26idhjf0y1p2g.cloudfront.net%2Fout%2Fv1%2Fcd66dd25b9774cb29943bab54bbf3e2f%2Findex.m3u8#8eed805ac6d4dfb47846234f97a6f9c16c28cfb8d7f8f1fb60145ab67a649f19
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?http%3A%2F%2F41.205.93.154%2FSTAR-GOLD%2Findex.m3u8#c83429091b55f5e9d1cc8f3780194c2aa2559cd1d35664295a40840ac9372329
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcc-4bhi5osabejc9.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-4bhi5osabejc9%2Fjunglebook.m3u8#6388f8ca7c58b172e7ed23d6343502861b37a4b5c05212105e9eb1afdcfc96b3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fsg%2FYuppTV%2FZeeCinemaAPAC.m3u8#8fb3fcbfa28ab082b522ab712072cd6418e4eca7691df746b9c601a178ac288e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fthelegitpro.in%2FHDlive%2F22scope%2Findex.fmp4.m3u8#5a3e863f974e8b35f99f646837ef1c274576d31e14752015c4ad6ecb10f0f538
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fjukin-weatherspy-2-in.samsung.wurl.tv%2Fplaylist.m3u8#dd239e1d95f6b03c0e34bf3ae8c39fc9b63a52d977c9253230b03416fe25914a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2F9XM%2FORIGIN%2Findex.m3u8#0cef052b951cf5a0e9563941babcc12c733efd61d4cf6bfd70beda14fdb01356
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2F8yzmq2gbdvax-hls-live.wmncdn.net%2Fbansalnewstv1%2Flive1.stream%2Fplaylist.m3u8#714e1f3e807926bb999a7bb026d89a825774ab49c244488b74e847e82cc852d5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmanatv.akamaized.net%2F090823%2Fsmil%3Aristheyamerica.smil%2Fplaylist.m3u8#1426431b6f9ea6522c684504715330c2c55d666df04f0f6f72866b8f9a2dd174
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fserver.thelegitpro.in%2Fkashishnews%2Fkashishnews%2Findex.m3u8#7ca73ef774289d589487e3fd2aac562e58a08e28ec89ccc560ae51818db6ba65
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fnetwork10.livebox.co.in%2Fnetwork10hls%2Flive.m3u8#8508fe07353883f0fda08ae6e1d3f4bde080b91d297e4b749aa5732f16fae15b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fn18syndication.akamaized.net%2Fbpk-tv%2FNews18_India_NW18_MOB%2Foutput01%2Fmaster.m3u8#d37384ef7bab4dcc71e9110111cf6bba4ee3caac8b6ed123a79d72e3a0dc35a9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fserver.thelegitpro.in%2Fnortheastlive%2Fnortheastlive%2Findex.fmp4.m3u8#a2fe81fddf77e8b8902f9e0c0bd154e2bb898c0905c3b2fdb83b0f58db39e911
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fd1ji7e9jbzm5g8.cloudfront.net%2Fout%2Fv1%2F769f22f64d80442889306b9c4abea63c%2Findex.m3u8#35a3ef501f1293cc6d2cb43fef6df93399c10e6c28cf3f688b175900e53aa06f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fd2g1vdc6ozl2o8.cloudfront.net%2Fout%2Fv1%2F0a0dc7d7911b4fddbb4dfc963fdd4b9e%2Findex.m3u8#1a32db026b1327bb91eb076109f3fab9e05fdf5bc209cf7170cbc6cfdf3f7c93
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fott.livelegitpro.in%2Fsudarshannews%2Fsudarshannews%2Ftracks-v1%2Findex.fmp4.m3u8#7f6ac694fe9f8fa4957ed0c7da36e99afe2c5e191ce48f2ece205f0746f8b281
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcc-t8lqe1o99pszu.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-t8lqe1o99pszu%2Fplaylist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fwiselp.wiseplayout.com%2F9X_Jalwa%2Fmaster.m3u8#619370077adbf3e87005acd3591534154c7adac5faa34149425c52c79c115422
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcc-89m9zu7a2upfe.akamaized.net%2Fhls%2Flive%2F2016145%2Fgnt%2Fgntlive%2Fplaylist.m3u8#bfcc4c9ebb6afdc4a5451a1de751345a4c408c95a13aae2124a9a1b6725e6691
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Flifetv.livebox.co.in%2Flifetvhls%2Flifetv.m3u8#5dd16786cbe5e489a9b8a1f160a57d6f73fac95a4c452471969439512ff713f9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fott.livelegitpro.in%3A9899%2Fhnnnews%2Fhnnnews%2Ftracks-v1%2Findex.fmp4.m3u8#b3dc4822d9331ed54d1cabb7a74f2ccdc1e2fb8a14685b1571f5cdf3e97382dd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fbrightstar-southasia-pull-secure.akamaized.net%2Fbrightstarsouthasia%2Fstream.m3u8#55ab467604873d00aa92fb98cde32c97f858803386bc284eab7725faa90577da
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2FMUSICINDIA%2FORIGIN%2Findex.m3u8#0c8026431e1f9935451d77f27461a6054a5ea911e01b49e92f4a8af192d1cc15
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmumt05.tangotv.in%2F87NeALx2MUSICINDIA%2Findex.m3u8#f4f21b24db1e1ad79933a7714434bdf52a9e21fe07a20fb83e1d32812a3bcdae
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fndtvregional.akamaized.net%2Fhls%2Flive%2F2102726-b%2Fndtvmpcg%2Fmaster_1.m3u8#b573c75e8c0b079294be77bd7e23d970bc75e31d6ddbce85912c233e50392b55
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2F6n3yorwpy9ok-hls-live.5centscdn.com%2Fraftaarmedia%2F243bd1ce0387f18005abfc43b001646a.sdp%2Fplaylist.m3u8#d2ca3a3a7b427f2c2287f18eceabdfd7e620e39e5c3cba569d6219f490192625
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fn18syndication.akamaized.net%2Fbpk-tv%2FNews18_UP_Uttarakhand_NW18_MOB%2Foutput01%2Fmaster.m3u8#64069b6be14f7344d749e0d004b8e14899ad489bc9b699d3ef147db6b8a15501
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Flive.we2live.in%2Ftaazatv%2Flive%2Fplaylist.m3u8#f1cf77d24f71b7cda6fc74e02292a2df095d1118d7fa64d95656fb9d2ab7e2d5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTheMovieClub%2Findex.m3u8#e48fd1d56e61d429e65f4b0be03cef3b75f6fdccd4abd273b137bd3fdce2f42c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?http%3A%2F%2F107.167.16.138%2Fzeeclassic%2Findex.m3u8%3Ftoken%3Dtest#b06f8a3108b6e89a81abaceb0f18fbe5fc1ac2488ebabebd3f30b9a7f019b8a1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fserver.thelegitpro.in%2Ftnpnews%2Ftnpnews%2Findex.m3u8#b5ef56d17cd93d5b2726feb61d527ffefdaeaa9f971d6f10195699640c6f5d86
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2FB4UKADAK%2FORIGIN%2Findex.m3u8#d80747b1cadf024178183ad5e3f27758511f218a45ca09ae67f1b4b068f947eb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2FB4UMUSIC%2FORIGIN%2Findex.m3u8#1f058f51abb8be659e5a8661ec81da513458737b15792659556423403dc6c835
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Flegitpro.co.in%2Fcnews%2Fcnews%2Findex.fmp4.m3u8#2b5be13739b550d5baf08f1a3d2b856a49f8dee7a111c9942abb01149612f7ea
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F415%2Fmaster.m3u8#f929890f15a6dac3442cc1301b4fab51820eb49d9018b2bc207b0aad538d4e2e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fhls02ns.antenaplay.ro%2Fhls%2Fbollywood-sd%2Findex.m3u8#6873df5da26888c2556b501aad7cccf94df6319e661f686322fdf8fc765c534f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fgb%2FYuppTV%2FColorsCineplexUK.m3u8#dd29f00d6076dce6029881808a2a261f8e17b368c436fa335cb0527e2be41a4a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fstreams.tangotv.in%2FDDNATIONALHD%2FORIGIN%2Findex.m3u8#1e56a459ebf1b73613310c65d3d94ecc7d369d0875e245dd42c337e479b9146d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmumt07.tangotv.in%2FzHjX9OFlDDSPORTS%2Findex.m3u8#4074d47da65b13dde0e585731545a74230a6edbfc01f8136f496a7b1b78cd673
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fserver.livelegitpro.in%2Fglobalpunjab%2Fglobalpunjab%2Findex.m3u8#c14301509ff09f36cd81d6a943cb720f0a35bcd78f24b8cfaf65ac5cb62fa4f0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FMastiMusic%2Findex.m3u8#1dd73d381b1bd09b3399c0ddc8e08b3a41814a7462a916067782938a21028925
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Flive.we2live.in%2Fdheerantv%2Fdheerantv%2Fplaylist.m3u8#cd204338ca966287fef09ee6ea5250007f4d0171d5a237dfbdbe77c6180d464a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.pishow.tv%2Fott%2Flive%2F226%2Fmaster.m3u8#4e601839518cc1a0f334392cb3c32d6eff845f48384f83365ac42f16880ae856
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fndtvregional.akamaized.net%2Fhls%2Flive%2F2102726-b%2Fndtvraj%2Fmaster_1.m3u8#c2f15f6d9169aeea9d46c8200cbade5e273d82b260f7662c539e489e3b07fa70
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fn18syndication.akamaized.net%2Fbpk-tv%2FNews18_MP_Chhattisgarh_NW18_MOB%2Foutput01%2Fmaster.m3u8#7eb730d1d7fa8700872abb69f687668176a3f1b58a3ee476e89f50d50e6638b2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fvg-republictvlive.akamaized.net%2Fv1%2Fmaster%2F611d79b11b77e2f571934fd80ca1413453772ac7%2Fvglive-sk-275673%2Fmain.m3u8#16c433ae318c3e28b87f76265939b8be517bcbdb3cdd1a1f5a7136ccafc01e33
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fvidaa.kableone.com%2Fhls%2Flive%2F2111218%2FYrfMusic%2F1.m3u8#df946cdda21f8f5200bc1c5f279827b7af77548b59f1f8942010ba0e474f4631
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2F6284rn2xr7xv-hls-live.wmncdn.net%2Fshubhsandeshtv1%2Flive123.stream%2Findex.m3u8#0dad60d796120ca9de2af9362ece7ae10f34170a241cec58cf9edde3109a45ef
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?http%3A%2F%2F107.167.16.138%2Fzeezesthd%2Findex.m3u8%3Ftoken%3Dtest#59ccbfde23cae603639f7fab904bdb7bb5f6b734303b8c1891bb2f7a0bc3d4ac
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Channel
+http://eja.tv/?https%3A%2F%2Fyupplivegcp2.yuppcdn.net%2F28072023%2Fsmil%3A9xmusic4.smil%2Fplaylist.m3u8%3Fhdnts%3Dst%3D1735898689~exp%3D1835898688~acl%3D%2A~hmac%3Df5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#0bf79e20e9528c49c23caf2d3c669dcf25dcf06a0e6e9e642c7badce2a5ab824
+#EXTINF:-1 tvg-name="Chhattisgarhi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Chhattisgarhi
 https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
-https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
-#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="India",Hindi
+#EXTINF:-1 tvg-name="Chhattisgarhi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Chhattisgarhi
+https://7epd6o8edk9b-hls-live.wmncdn.net/inh24/live.stream/playlist.m3u8#457ec5ec47f952a5668f3102947143d7419a81e4935416406db0ca668d3a090a
+#EXTINF:-1 tvg-name="Dutch" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Dutch
+https://live.suricloud.com/hls/tbntv/index.m3u8#5832ef5c5e7009a9eba09c9bd3096e79f3b1cb03f00d77ce14c4f1779d426ab1
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",English
+https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8#bf78e6066729beb383dad350e542a7ebbf663bcb2070c82d6962738d2adb3971
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",English
+http://38.96.178.205/SONYHD/index.m3u8#43f387941892083ea649fbb0ca7f38417f71250620b412d7d7af4a354102ec3b
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",English
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8#d097653bffc1eeafc28d4c32bf05451cce01aaf34307cc8445b736f9d86947d9
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",English
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8#1ffb7b16579628a7c942d0d212e441768e076e45088f59ff0511fdba9704ccf6
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Sports",English
+https://cdn.pishow.tv/ott/live/13/master.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",English
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8#a2fe81fddf77e8b8902f9e0c0bd154e2bb898c0905c3b2fdb83b0f58db39e911
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",English
+https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8#5dd16786cbe5e489a9b8a1f160a57d6f73fac95a4c452471969439512ff713f9
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
 https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
-#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="" tvg-language="Tamil" group-title="General",Tamil
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
 https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8#22a5cec85e415b97257554c7b31618d5abcf50cebec3138fefbdfa11cf196c3b
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8#9e8755ac489135513471d83c384399df395ef1980305c397c0213b1e87532b42
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8#c39356f8b2d8437628e9d7a8dea826135dd9117f54c7ad51eec283cf5f8d6c91
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://cdn-3.pishow.tv/live/220/master.m3u8#30166407133b7541d8876fa8082576016c5656f2df6e1ff84b3365e2790e5936
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8#07de4ba7697cb0d08a16ce2f8dc9d64303db591438f04e387f78e3f191e2bc8d
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8#ae973a28ed44fda59b91f1bbba0774c1d8386a6a62bf37bb10c6e6f379d3d5ef
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8#07e7b346e5476fabe6b6aee123ae377db7b628f8ab3f563431a7d1d52e3a221f
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8#674900e71307980e580f3f4ac888be1f73ad5d655460afda0d2a33f6142bc793
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8#fb6ba0c07dd727567142caa67f8eb10edee23e23d5ea115b1e180c805142fddd
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8#ab6a4a06b45f367b7f0c8ea95dd8256ec98845a3b44c61dc5ebc293fd9f89fe0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeenews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8744f9fb-d696-4204-9795-5215ad930c39/main.m3u8#8b3b0fe6dd07729c297dc198eedfa9a38c228bc888d3d99aff702e12856e2f05
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Movie",Hindi
+https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8#97e9bebee2893d3828ae041c20d00c16d7fcf96e34a2fd45521072b224b07b2b
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8#50940d188eff401a783e1d35dc6b189ea176a4a281c8441941ea6778891ad2ec
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://epiconvh.akamaized.net/live/epic/master.m3u8#96235fc303f37b6d138ae56829ef736e9d7c63907e628db03d5690e11a1628e4
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://dai.google.com/linear/hls/pa/event/JCAm25qkRXiKcK1AJMlvKQ/stream/22f4af62-c3ae-40fe-b522-e2ea4e963cd5:CHS/master.m3u8#53f27352e9fc41b967d1e5e34b4c4d2bb08e985bc8c0ed3bda93b01cb21c6341
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8#a2b72b33550a4013226bd31336daa0847e2f2eb0c779bac7672bbd4872663540
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://mcncdndigital.com/balleballetv/index.m3u8#e9d11be1af38b45244d704dd32cffdff627fcf7495ce14f336d19368393ab60f
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://live-dangal2.akamaized.net/liveabr/playlist.m3u8#8b2da1283deae37c7ed44549441009ce4417179e8a1617b0aa4f8f4a00a73911
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8#b6fdd9f4ad2ba09853196befc2f15515a1fd6585550af0a1404adc3bf748c131
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8#02648b69e10d279ae8c0fbf09ea59a227cf68067c60dc29aa68dbd16db8fb5ca
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Movie",Hindi
+http://107.167.16.138/stargold2/index.m3u8?token=test#501d43dd7a1050c0d9a5e312fca026640d1bebff3126a2aae06f3621a2bf1b3c
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8#efcee9f178e2c5d6bd7224d9ae73025d2acaf5da2fee14cfbc77bd47d48d8694
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8#18baa91a24a31542e8028dc55eed076a42d7b46106ea979c3718919b4e359272
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://dwby15d04agvq.cloudfront.net/index_5.m3u8#83d2887d075c69ba091dc98074d0467122a0dae0fa52c399358bbd4ca0289650
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://live-dangal.akamaized.net/liveabr/playlist.m3u8#ba2be3eeda56d0ba6ed34ee987bb7f493cfc5f6399fe3791b81b64aa4e92e6c0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#324f4730ce8c2085452fc5fd3b712035415667f1219424c1ac8a5d4d24e1efbc
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8#a41997db5f55bf166963f224da568c001957501fd5211362a8c9c1255203262a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8#4b703c17639e4582257627370896ec34b7a333fbcd1ec15f3abed53ca2356019
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8#1604f105f4b8afa22b75b9a165ceffac0d656ca306564416a5143e9afa86ef36
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8#5f3a47740a13a3ad39f0043aa4ccb40e0555a8df6895f81d01d90fb35cd45a88
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8#bac4003109ebadc7334840b31bc0df195a677d1561875fc35e2b5cb46eca56dc
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://dt3lrqnyx3dks.cloudfront.net/index.m3u8#30003ac6744701a604d9523ccbc42d1524dab8d2f4e3d0bd4ee5e66bda723ff8
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8#ed5b1f3170ba88480b5a3b42dac6d2268579abf102064700b67afc05762ee20d
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8#f5a611bbe75d1996742073c1323333b0734110ff61b5fc0e6ea2334dd03a48c1
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8#693a10cf76b71313175e0b77eb1d553ad5427fd9dd5b9ec0eb2dddc4b4ba78b9
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://xlbor37ydvaj-hls-live.wmncdn.net/firstindianewstv1/live.stream/index.m3u8#0a42c1de0ccc3fc362d99094b1ee252da05b68f189875f683dac3e1a24be2890
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://feeds.intoday.in/aajtak/api/master.m3u8#a66e42e69765da1878cc7a21082e08597514613990ff047929aa795caa775243
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8#067ea797c4bc744340b186211a09dd95ecba8157260da4a4cf97f381e343be4e
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8#f189295bf815c7aa3089f01ad858994270acc98d652886b684148d5490865f01
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8#c04f44da34f154fabdb8d3e2582a5a3aeadc1157c88e34487db8c1cdb3c93636
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://dwby15d04agvq.cloudfront.net/index_1.m3u8#301d76ae0c3d96fe524ccb8f04859d0fec6e4c42bbd0f94b4d27bbe20ece8988
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8#9be97852e19a76380fe422263b8b235f0dda2868c961ca515e14afeff9e52d3b
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8#263f91b7d13fd8ee2aecce4c487de52856282f3d57ad36c37f454f9228837307
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8#02f8573c38f5634a6991833e9ae51d15402e92ab2db5c7e558b21a33ef5678d0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8#5bc284fa1fb0c53d1320f0bfe85706b7428fed9368be4147b13a4f944b3e3270
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8#fe50bcd4f195a3eeb2588287385bc1094bd1a35c7307906af81dc58212d56665
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8#129898062293d77d6bde8e00932394f180b56cbf416d62a57d178056291057bc
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8#9919e2570f2cc49e423af005b54400cbee53df825140f4717bd124184a139008
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8#9ddc85a9226e56e5b5dcd1b650ca09567f9e57de4ac2abdbb0463ce8c823be5b
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Hindi
+https://live.legitpro.co.in/anandtv/index.m3u8#5dee904c6bac96e9dc9ff58a6fa3c327974b13cd623dec45fb90dfe1add40c19
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
+https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8#7b6b6ac84011f2287a9be396c4cdec4fcc2ba1d0e8c47405ef82912bb734ea5a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavBharat.m3u8#9b3ed9c548e893b4a0d6aa3b78b19ef6c9374bebe191c565cdb93a605851609e
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
+https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Hindi
+https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Hindi
+http://cdn11.live247stream.com/tag/tv/playlist.m3u8#a8f6d92511a1b5101b0962d3b0b78da03586dfbacc4bf88a092639d5cd0e06c0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Hindi
+http://cdn19.live247stream.com/channely/tv/playlist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Hindi
+http://cdn12.henico.net:8080/live/gsctv/index.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Hindi
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8#4098c39a5f541cd86565e03fead0428ad152d07ccba7c3763db0cc82ac3d1532
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8#7b45d1540e0695891a1eec7f2f50dc22556bd1d5b5de054d4219656883fe34fc
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicBharat.m3u8#dbbe29820b5e9719d87fab14b8c8bbbbc2799c33974f96949676ae6c7a27dcec
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://wiselp.wiseplayout.com/9XM/master.m3u8#d0fe652259faae3665179e362958ecdc5a39f505b3ee84a58c8b208706c6635a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://duw35ict5q7th.cloudfront.net/index_3.m3u8#a0a614bc9336df8bde30c8915159a6b53c827b1e8c599c0fdec03edd8589c05c
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8#93750b042aee5426120ffd1a0499bb82fed37ad421ee68453c5c7049a633c4a6
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8#d1ea6df1c9d31a5b3591d5540b7b2a609cce6e12f7124e659a11ed98eb7f83b1
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+http://41.205.93.154/ZEE-TV/index.m3u8#6a8be2419d19610d093ed99ad7ab89f716a61bfaa87ba5caabd727926febc05c
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8#8ee2298f97a593a2f588c064fb317684334393d6d194ff4ce4ffa4229cb43a36
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://ott.livelegitpro.in/fatehtv/fatehtv/index.m3u8#f98e7970a2b3ee288b649cc23c80edef2e13dce2a97932d854656f3adc904ef1
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8#efed2929493811a5d6e47381241192799a23aba268131f7a9676a3c082b06ce0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8#5014f99feafd37a232c55c92ef45c36ac310d54020f31dad69e7f48e86271ca5
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://stmv6.voxtvhd.com.br/cinehindi/cinehindi/playlist.m3u8#957d0a3406bbcf5dd2d5faab6b5286e81c2c0fcc18ecae27e2b268e2df4fa483
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://cdn.pishow.tv/ott/live/267/master.m3u8#91ca01557fa3f0cdb9ce5470f8d862e4f785fd8a47f839308ad3f381cf63fa6a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+http://107.167.16.138/sonymax2/index.m3u8?token=test#f747e4d78f899b87051d918b03fec98d7fd3a3771909a1540535f4e46434eab2
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8#0c8a1ce5782cb5730b7719ce3b7dd33fa833292b86f6ebd1a006548d9eac296e
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8#2f96bf0012223150016bdd19b398aae91b7b2a2ee3cff52d263b4b2a1a5affff
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8#8fb3fcbfa28ab082b522ab712072cd6418e4eca7691df746b9c601a178ac288e
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8#dd239e1d95f6b03c0e34bf3ae8c39fc9b63a52d977c9253230b03416fe25914a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8#1426431b6f9ea6522c684504715330c2c55d666df04f0f6f72866b8f9a2dd174
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8#d9eb91d48d35da25973ffd840d46fe9bc390cabe723cf7429be7f1728d7f1b48
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+http://41.205.93.154/STAR-GOLD/index.m3u8#c83429091b55f5e9d1cc8f3780194c2aa2559cd1d35664295a40840ac9372329
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8#72a60e64b01d1571e9a13ed3b8784cfbc8eaf0cb52f8e6d1c4ef4be1e88887ad
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8#8eed805ac6d4dfb47846234f97a6f9c16c28cfb8d7f8f1fb60145ab67a649f19
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8#6388f8ca7c58b172e7ed23d6343502861b37a4b5c05212105e9eb1afdcfc96b3
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8#7ca73ef774289d589487e3fd2aac562e58a08e28ec89ccc560ae51818db6ba65
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8#1a32db026b1327bb91eb076109f3fab9e05fdf5bc209cf7170cbc6cfdf3f7c93
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8#d37384ef7bab4dcc71e9110111cf6bba4ee3caac8b6ed123a79d72e3a0dc35a9
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8#5a3e863f974e8b35f99f646837ef1c274576d31e14752015c4ad6ecb10f0f538
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8#619370077adbf3e87005acd3591534154c7adac5faa34149425c52c79c115422
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/9XM/ORIGIN/index.m3u8#0cef052b951cf5a0e9563941babcc12c733efd61d4cf6bfd70beda14fdb01356
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://cc-89m9zu7a2upfe.akamaized.net/hls/live/2016145/gnt/gntlive/playlist.m3u8#bfcc4c9ebb6afdc4a5451a1de751345a4c408c95a13aae2124a9a1b6725e6691
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8#55ab467604873d00aa92fb98cde32c97f858803386bc284eab7725faa90577da
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8#b573c75e8c0b079294be77bd7e23d970bc75e31d6ddbce85912c233e50392b55
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://network10.livebox.co.in/network10hls/live.m3u8#8508fe07353883f0fda08ae6e1d3f4bde080b91d297e4b749aa5732f16fae15b
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8#35a3ef501f1293cc6d2cb43fef6df93399c10e6c28cf3f688b175900e53aa06f
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8#7f6ac694fe9f8fa4957ed0c7da36e99afe2c5e191ce48f2ece205f0746f8b281
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+http://107.167.16.138/zeeclassic/index.m3u8?token=test#b06f8a3108b6e89a81abaceb0f18fbe5fc1ac2488ebabebd3f30b9a7f019b8a1
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://live.we2live.in/taazatv/live/playlist.m3u8#f1cf77d24f71b7cda6fc74e02292a2df095d1118d7fa64d95656fb9d2ab7e2d5
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8#d2ca3a3a7b427f2c2287f18eceabdfd7e620e39e5c3cba569d6219f490192625
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/ColorsCineplexUK.m3u8#dd29f00d6076dce6029881808a2a261f8e17b368c436fa335cb0527e2be41a4a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8#b5ef56d17cd93d5b2726feb61d527ffefdaeaa9f971d6f10195699640c6f5d86
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8#64069b6be14f7344d749e0d004b8e14899ad489bc9b699d3ef147db6b8a15501
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://mumt05.tangotv.in/87NeALx2MUSICINDIA/index.m3u8#f4f21b24db1e1ad79933a7714434bdf52a9e21fe07a20fb83e1d32812a3bcdae
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8#0c8026431e1f9935451d77f27461a6054a5ea911e01b49e92f4a8af192d1cc15
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://mumbai-edge.smartplaytv.in/TheMovieClub/index.m3u8#e48fd1d56e61d429e65f4b0be03cef3b75f6fdccd4abd273b137bd3fdce2f42c
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8#c2f15f6d9169aeea9d46c8200cbade5e273d82b260f7662c539e489e3b07fa70
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://cdn.pishow.tv/ott/live/415/master.m3u8#f929890f15a6dac3442cc1301b4fab51820eb49d9018b2bc207b0aad538d4e2e
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8#d80747b1cadf024178183ad5e3f27758511f218a45ca09ae67f1b4b068f947eb
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8#cd204338ca966287fef09ee6ea5250007f4d0171d5a237dfbdbe77c6180d464a
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8#2b5be13739b550d5baf08f1a3d2b856a49f8dee7a111c9942abb01149612f7ea
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8#1f058f51abb8be659e5a8661ec81da513458737b15792659556423403dc6c835
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://streams.tangotv.in/DDNATIONALHD/ORIGIN/index.m3u8#1e56a459ebf1b73613310c65d3d94ecc7d369d0875e245dd42c337e479b9146d
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://cdn.pishow.tv/ott/live/226/master.m3u8#4e601839518cc1a0f334392cb3c32d6eff845f48384f83365ac42f16880ae856
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://yupplivegcp2.yuppcdn.net/28072023/smil:9xmusic4.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#0bf79e20e9528c49c23caf2d3c669dcf25dcf06a0e6e9e642c7badce2a5ab824
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8#c14301509ff09f36cd81d6a943cb720f0a35bcd78f24b8cfaf65ac5cb62fa4f0
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8#16c433ae318c3e28b87f76265939b8be517bcbdb3cdd1a1f5a7136ccafc01e33
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://mumbai-edge.smartplaytv.in/MastiMusic/index.m3u8#1dd73d381b1bd09b3399c0ddc8e08b3a41814a7462a916067782938a21028925
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8#7eb730d1d7fa8700872abb69f687668176a3f1b58a3ee476e89f50d50e6638b2
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8#0dad60d796120ca9de2af9362ece7ae10f34170a241cec58cf9edde3109a45ef
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Hindi
+https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8#df946cdda21f8f5200bc1c5f279827b7af77548b59f1f8942010ba0e474f4631
+#EXTINF:-1 tvg-name="Kannada" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Sports",Kannada
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
+#EXTINF:-1 tvg-name="Marathi" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Marathi
+http://107.167.16.138/zeezesthd/index.m3u8?token=test#59ccbfde23cae603639f7fab904bdb7bb5f6b734303b8c1891bb2f7a0bc3d4ac
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Movie",Russian
+https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8#8d55bba503a79e7a8d970629c9eb7526bdf855b65e53b5740decc873ffdb2985
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Documentary",Russian
+https://streaming.thestream.cyou/live/554.m3u8#c4f73e674200b71372a9517d134207b127831733fb2f1a2035a0ca521c8d8719
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="Documentary",Russian
+https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8#6fc70c1a7472b913670eef43a7f477049f48cb58e7f25026e1cdae9f9959d8a8
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Russian
+https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8#6873df5da26888c2556b501aad7cccf94df6319e661f686322fdf8fc765c534f
+#EXTINF:-1 tvg-name="Sign Languages" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Sign Languages
+https://mumt07.tangotv.in/zHjX9OFlDDSPORTS/index.m3u8#4074d47da65b13dde0e585731545a74230a6edbfc01f8136f496a7b1b78cd673
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Tamil
+https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8#fc77d836abf2b9208546a83643fbac1d5b35f3bb554988be8c1c651b174ada27
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Tamil
+http://stream.mcquack.net/451/index.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Tamil
+https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8#c2dcf6e876bf57bef8b94476c1ecf712c9b115aa191b363b94943350c475112e
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="India",Telugu
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Documentary",Telugu
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Telugu
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="" tvg-language="Hindi" group-title="General",Telugu
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
+#EXTINF:-1 tvg-name="Urdu" tvg-logo="" tvg-country="United Kingdom" tvg-language="Hindi" group-title="United Kingdom",Urdu
+https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8#df38b666f283418e5a2a50e0b590f73c548454e39fd950e1d46fe3ef753e82a0

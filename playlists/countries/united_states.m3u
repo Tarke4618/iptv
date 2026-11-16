@@ -1,7 +1,601 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
-https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
+#EXTINF:-1 tvg-name="Amharic" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Amharic
+https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8#98f7c577d8cbe0e93055d85c2e20eac3134bc0b2b94b0c4451f007cda95f7ebd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fbein-esp-xumo.amagi.tv%2Fplaylist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?http%3A%2F%2F247preview.foxnews.com%2Fhls%2Flive%2F2020027%2Ffncv3preview%2Fprimary.m3u8#aff4910625f3c37754a9458e994288ca573bb273b1887c2eb489644337d9e7a3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fd1j2u714xk898n.cloudfront.net%2Fscheduler%2FscheduleMaster%2F145.m3u8#759a3dd403bac6eb0f917d6fb1aeb1daf3ebc2e7259a6d82d86dd10ecd30614a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fvoa-ingest.akamaized.net%2Fhls%2Flive%2F2033876%2Ftvmc07%2Fplaylist.m3u8#929f1a7d7781da937ec8e123658f5cfdbc007c08542e891015c421e25bc91ea2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Channel
+http://eja.tv/?https%3A%2F%2Fhls.avang.live%2Fhls%2Fstream.m3u8#edf426412ff83c4860f6bc133c681812a010e1b2cb581edb474c043b688a57cd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcbsn-us.cbsnstream.cbsnews.com%2Fout%2Fv1%2F55a8648e8f134e82a470f83d562deeca%2Fmaster.m3u8#bfe849021f7aa0fe1a39ad0fb856df5ed786d5c707c403774acf0cfc4a80820e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg00488-foxdigital-livenowbyfox-lgus%2Fplaylist.m3u8#a1315feaaea593f6499ac717137d096c20e70075e75e2d601c44875982824ec0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Famg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv%2Fplaylist.m3u8#d6a7a84f19480a7145eb4621ca4ef5650bacf0ce1e1839644c607e1d3c33742e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fradiovid.foxnews.com%2Fhls%2Flive%2F661547%2FRADIOVID%2Findex.m3u8#ea4565e124e07cc2b5bc1a2f038c68903ecd18d48d050b8c157ebb26032dbdd7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FTBD%2Findex.m3u8#f053390704063dce3ff5fb5c2a3658132de3b9c28fd5187485c93dde5f68d505
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fmoviesphereuk-samsunguk.amagi.tv%2Fplaylist.m3u8#625d6d7466fcfe1f3fa1d14062f148f3f9526406219c19ee3143c277257d82e7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-us-east-prod-ingest-infra-dacast-com.akamaized.net%2F624ff8f9-db18-da92-4d42-896fa2ff3eb3%2Fsource%2Findex.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischnlintl-lggb%2Fplaylist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Flivehub-voidnet.onrender.com%2Fcluster%2Fstreamcore%2Fus%2FNBC_REDIS.m3u8#2d6bce73a45fa38fb096c3ec99e3ef6bbc1e6cbc2259b600ec1de42a2a9a2b59
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Channel
+http://eja.tv/?https%3A%2F%2Frjtvhls.wns.live%2Fhls%2Fstream.m3u8#5ea5f5b28477857a3f89de93d827d5c85707d488aea240ccee97deee63746985
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fnmx1ota.akamaized.net%2Fhls%2Flive%2F2107010%2FLive_1%2Findex.m3u8#088d520b022255dc0fcc1c7c27f8700802f8cff2e810fbda1b6f397255af5368
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbrightstar-chinese-pull-secure.akamaized.net%2Fbrightstarchinese%2Fstream.m3u8#eeb84777e694758569607ca1520f67deebff35a90370570d71637250e79c2d8f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fpubgfc.teleosmedia.com%2Flinear%2Fglobalfashionchannel%2Fglobalfashionchannel%2Fplaylist.m3u8#27ec051e5c40bb88c00a2aeff194128528c1af82ba60376600d7b0681e73abd9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Flive-manifest.production-public.tubi.io%2Flive%2Fd906efca-1302-4e29-b0d9-9a1d7a305d69%2Fplaylist.m3u8#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?http%3A%2F%2F185.227.34.179%3A8080%2Faxn-black%2Findex.m3u8#a8c0da0f6966eba2e993986d8d8dceb2533c8f4bf37d3991a0303ac3ea32d972
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-ue1-prod.tsv2.amagi.tv%2Flinear%2Famg01444-tennischannelth-tennischannelnl-samsungnl%2Fplaylist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Ffeeds%2Fpzaz%2F30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7ab81c013a1d839e74ae12ba8db5151b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F2-fss-1.themediacdn.com%2Fpl_122%2F206280-3059514-1%2Fplaylist.m3u8#2823b153f517492b8aa9b8b2bdb84e97c71cce02f5e6d87626b799ad3b3f3f0d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive1%2Fcine_720p%2Fplaylist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F185.227.34.179%3A8080%2Faxn-white%2Findex.m3u8#d37e9a3d04c57cf4c97be73a2e6bf653ace72521e6d90208a186ae5ab1ee2bfb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive3%2Ftbn_720p%2Fplaylist.m3u8#97266b4c27f9fbb7c681e9df915fa3cd08d6a8ecda7c7d724904b545f66d0123
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fclouditize.piksel.tech%2Fhls%2Flive%2F2043070%2FClouditizeStream1%2Fplaylist.m3u8#78796fc4cf0d2c9feb34f100e4ab6e098d0357fc90214c064558206b24ef91f1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flive-mcl.cdn01.net%2Fsmarttv%2F48vy43564%2Fplaylist.m3u8#7dc62aa51ed7a4963d9c3a9e3ea71970f4eeedda88f31200c935f72921caee28
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Fgh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fdvu7aia8rjlfm.cloudfront.net%2Fmaster.m3u8#cc004a938fb5a9c2e1ac49ddbdb9684f43bb79119e572dcda50ae56d1fc09996
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Ffeeds%2Fvidaa%2Fcars.m3u8#6aa7a202803104ffa072ea98aa5e87ec90f9bcf8d3b50570b12cba7204df9a80
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcdnapi.kaltura.com%2Fp%2F2503451%2Fsp%2F250345100%2FplayManifest%2FentryId%2F1_gb6tjmle%2Fprotocol%2Fhttps%2Fformat%2Fapplehttp%2Fa.m3u8#76d8ed8f7cb03df9581ffda8770e5f63b8559bfe40d2681f8201a0ec7bece24b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flinear-899.frequency.stream%2Fdist%2Fcineverse%2F899%2Fhls%2Fmaster%2Fplaylist.m3u8#06d751151afacda5d628a3f33d51a6a0b0c75c2d5462396b34a206007f7544d1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fqvc-amd-live.akamaized.net%2Fhls%2Flive%2F2034113%2Flsqvc5us%2Fmaster.m3u8#3f5342ec47ca914a5ebbeff78ff0773c7a15fbc547cf927f371909e8925e1e99
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flivestream.pbskids.org%2Fout%2Fv1%2F14507d931bbe48a69287e4850e53443c%2Fest.m3u8#db02f2efc63d5ac0c58941e8d7d9ecc11c4d7c9b1e7346078f6c6745baf6b543
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fmediaserver.abnvideos.com%2Fstreams%2Fabnchina.m3u8#f357b53ef48324ff3fd127f73eb1dc91e56a7899058f0127db8dc1b06ba3ad97
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2Fb6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F2-fss-2.streamhoster.com%2Fpl_138%2F205510-3094608-1%2Fplaylist.m3u8#27b8a194d499d88c8cf9afb4ec68eabbd5eb9254cf850ddfb53a087b28fe0cff
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbloomberg.com%2Fmedia-manifest%2Fstreams%2Feu.m3u8#3a9e6f8954fb89d54dee351751f769949921f588ca1b5ffb40bb6d4f453b90b0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F39919d3f7a074eefa8bf579214e952f9.m3u8#235094e277b5ebf932bb0ba268b55db313d0fcd6d651ce68463a9ea55d84bf1a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fmediaserver.abnvideos.com%2Fstreams%2Fabnbiblemovies.m3u8#c7571e93071d3da123de0b681425226a3ba6eaeb6cf2f04de1f20bf74b40a75c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fsportsgrid-samsungus.amagi.tv%2Fplaylist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FCHARGE%2Findex.m3u8#97229f79ba2162fa342fd339d72ce813b2428171d1ee44b526ac2a6326fcdaea
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Famogonetworx-artflix-1-se.samsung.wurl.tv%2Fplaylist.m3u8#c627897c73ad5469b09e54740f64797477733d062567cd5f136721bb23bc11de
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fmumbai-edge.smartplaytv.in%2FTennis2%2Findex.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fgsn_720p%2Fplaylist.m3u8#d93ff3c586e9bccdfced8663cee3a76d2ef08418f36103ac0018e820482faed1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2Fc66d1d2d9e2c46cea1cf22a33f6ca488.m3u8#d008684190a88f5aee9b0bf7e934c3316e92994f3efa43d5a226d4e441a6c06d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2F1657061170.rsc.cdn77.org%2FHLS%2FFTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fmetv%2Findex.m3u8%3Ftoken%3Dtest#940c0f679edaa640fe98bb962b275593db3f100851d977361e793ed35c454fac
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Famg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv%2Fplaylist%2Famg01918-cnnus-cnnoriginals-vizious%2Fplaylist.m3u8#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.herringnetwork.com%2Faffiliate%2Foane%2Fplaylist.m3u8#6bd429ce748ac8d86d697c170e9d238baff88debb7ff7f08b193f19512e9b626
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fmaverick-maverick-black-cinema-3-us.roku.wurl.tv%2Fplaylist.m3u8#9c1f5712d3a6f552b9d2c34c8e84303643016699618e81e3a95d56d4e1f8d6a8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Famg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv%2Fplaylist%2Famg00453-reuters-reuters-rakutenuk%2Fplaylist.m3u8#c08cdde3c497556b8ee2f21b8efc4b447f8f6d64c8971f2f65408bad448ac14f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Movie",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fhbo2%2Findex.m3u8%3Ftoken%3Dtest#b4ef37aa5f6440cafa789b382f0239659f0863eda05b93b3802f4ed657d08cb1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2Fapi.toonamiaftermath.com%3A3000%2Fest%2Fplaylist.m3u8#6bfd18a70a04726b728844dc61a14e31704fec47b2e071fefa29aa8532ac2b54
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvssports%2Findex.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fcomedycentral%2Findex.m3u8%3Ftoken%3Dtest#55605a5a2531afa7c111451e48b1306c9120af2c455ead728b529132525abfca
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F9deaf22aaa33461f9cac22e030ed00ec.m3u8#35fb5301738c7220d81fa9eaf400cab1ce946fd2e8f3b8699e910b0681f1fc6a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_TENNIS%2Findex.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famc-absolutereality-1-us.plex.wurl.tv%2Fplaylist.m3u8#b169f91a854e3c24419f7b7dd8770ffa459ca4a81fc6bb5c32aa6cfa666b9c3f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fitiswrittentv.akamaized.net%2FxR8gyATuHMVx69u9G79DXnpNRL%2Fplaylist.m3u8#42436bfd9faa0c4c9c678b51b6a31c3a9112818251f642a2b27048bc41188cb4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg01076-lightningintern-kartoonchannel-samsungnz%2Fplaylist.m3u8#408adb38a538cc4c74fb14cfaa33021a51300457502a8e68f4a6024d57802b3c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fbein-beinxtrasports-firetv.amagi.tv%2Fplaylist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famc-amcpresents-1-us.xumo.wurl.tv%2Fplaylist.m3u8#92b6cb006952b56e52a197206d38e605ae2ca3594b7af4715c919beaef67de3f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvswsn%2Findex.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F247wlive.foxweather.com%2Fstream%2Findex.m3u8#97fc8d916773b3b51a57e4a44f588f494dda93e26a439bebefb964a933c17a3a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fna.linear.zype.com%2Fbf94f9f4-383c-40e0-9d49-279a4f33ab8d%2Ff29b8836-d990-4c8d-b421-192a8f43edc4-zype%2Fmanifest.m3u8#de64387753677cf2db21ae3639142661f632f5eac767fedb6d5b0496e20c9819
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00718-outdoorchannela-outdoortvnz-samsungnz%2Fplaylist.m3u8#ba8b0092a68e61364233fcd10a1ffadf981597aa6b4636a1c24e497cefbf4144
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fnickjr%2Findex.m3u8%3Ftoken%3Dtest#606a488d48947719299cfa7366d109332256e5aac5abc6c4a0f10edc52639ff4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fnbculocallive.akamaized.net%2Fhls%2Flive%2F2037096%2Flx%2Fuse1.m3u8#cb4c562e325d1d8f5229b3f5481ad1a84fd4ffd3bf96ddf978853f021c60529c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F26bd482ffe364a1282bc3df28bd3c21f.m3u8#262542fbac1a892bef47cb6297a92f5c7c7e8ff71ed685e3bdc6e274352ef08d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fpac12-samsungus.amagi.tv%2Fplaylist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flive-mcl.cdn01.net%2Fsmarttv%2F48vy43564%2Fplaylist.m3u8%3Fads.vf%3D2gqxhLHfUR0#7a141c36349fc2cc3bb0e325f8164877dad62dfbb8b0ee5b7737417ceee0e8eb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbroadcaster-1.cclouds.in%2Fsrt-2%2Fchannel2_abr%2Fplaylist.m3u8#7e99d8a5877ff188b8ce8d2ae04b3a721f584cdaf9ac874dc2fd503612792f37
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Famg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv%2Fplaylist%2Famg01796-fastmediafast-yugioh2en-rakutengb%2Fplaylist.m3u8#b628c28f7b9f7d5ef309c4f2b65255d353b63e15de42b09023dc5196b0f83c04
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Channel
+http://eja.tv/?https%3A%2F%2Fstreamer1.connectto.com%2FHIGHVISION_WEB_1205%2Findex.m3u8#ef51c02fcdff8db1f99c2f52bc05732980860f29852a16f3a2d657dea621eb8f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbrat-samsung-us.amagi.tv%2Fplaylist.m3u8#d2f4d43211d6610dcdf6517e857169ee583968238dddcc1e01b8ebf634046a79
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.whiplash.cc%2Fwhiplash-cinema%2Findex.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv%2Fplaylist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fmtchls.wns.live%2Fhls%2Fstream.m3u8#d425150ef861ea5757a50076905dbd5f1d608f386e60bc649b7d04f34e8b864b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FxrVrJYTmTfitfXBQfeZByQ%2Fmaster.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Famogonetworx-artflix-1-nl.samsung.wurl.tv%2Fplaylist.m3u8#b3433ce817aa13324d70bb00003bcc8ee51816d332ac4723508da18d796cb70d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fdil9xdvretp0f.cloudfront.net%2Findex.m3u8#9f84a5afa389fd4254fdddd60cc2d7d81994ac02d0def1b9b4e04a3273cb2997
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?http%3A%2F%2F41.205.93.154%2FESPNNEWS%2Findex.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fdz05z8iljgvbe.cloudfront.net%2Fmaster.m3u8#de2f1f8f2bdbcfe7fb089c4758d44ce180ee43a1cd2a72e9d6fb5cd5d21838bd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Famg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv%2Fplaylist%2Famg01329-otterainc-toongoggles-samsungau%2Fplaylist.m3u8#173dc37c9972e4cd7c29c5711823a229b482af4a22f00dc01726d2bb8f0f8bdc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fedge-f.swagit.com%2Flive%2Fmiamibeachfl%2Flive-1-a%2Fplaylist.m3u8#4099364e858f7d7e7ac89fe50609c63d9288cec5b48120cfce489891ee8c396a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fstreamer1.connectto.com%2FAABC_WEB_1201%2Findex.m3u8#f5e059283f989fa36011054d7830a24efd9d94cae477dc30199e30999e83301e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fusa%2Findex.m3u8%3Ftoken%3Dtest#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Foitnhls.wns.live%2Fhls%2Fstream.m3u8#b9bb8add6971fb568f61b4fc9486c4f9e577a7d107fd448620529b9785999a6f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Ffailarmy-international-it.samsung.wurl.tv%2Fplaylist.m3u8#07b966734817651ebe914498a0a62f9fef1381bb095ea2f39e6c605c08419230
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F41.205.93.154%2FNICKTOONS%2Findex.m3u8#7fb00ef7a73396a40aa469b074c8737a0afaf750111054a93fa47b18c252f099
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fvoa-ingest.akamaized.net%2Fhls%2Flive%2F2033874%2Ftvmc06%2Fplaylist.m3u8#c1132aba279f99f10eee406256db4614be73b60ef521f9e2da407b526f81ca2e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="News",Channel
+http://eja.tv/?http%3A%2F%2F88.212.15.50%2Flive%2Ftest_cnn_1200_atk%2Fplaylist.m3u8#3914804b4e3a9e448e205466eddc24d166e48576b6eec39a32935162bf18523d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fd1e354daam8g5r.cloudfront.net%2Fplaylist.m3u8#63301ee9162dd324d8faa242a64fec17c91b69299490fd77e28b9bbb043c6abe
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Ffailarmy-international-dk.samsung.wurl.tv%2Fplaylist.m3u8#352c6ac8682954e7dd137dd6ca6e8cc10fc59a60a32de45061476bd95831f356
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fgsn-cinevault-80s-2-us.roku.wurl.tv%2Fplaylist.m3u8#f887707b9a0e5ebef4eb286b9256073e602785495a6ac5f24ff84bbcf3f130b5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F328d1434fb51476cb6567c74d5b2cc70.m3u8#f7e064760ef2d0c7a9def985976ae2143b894c8fe343a1cd26122f7e7762cded
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbrightstar-korean-pull-secure.akamaized.net%2Fbrightstarkorean%2Fstream.m3u8#25446d14564d2e966b4b0404b313cc6e38d2a09526df1f0a1f373a9851990b6c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_NBA%2Findex.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flivestream.telvue.com%2Faccvision1%2Ff7b44cfafd5c52223d5498196c8a2e7b.sdp%2Fplaylist.m3u8#39e17dd82732cfc71347c969b76fac9b5beb7bc0940f5f273412ec6943248ddc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01438-ewscrippscompan-bouncexl-tablo%2Fplaylist.m3u8#85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Ffastly.live.brightcove.com%2F6380396819112%2Fus-east-1%2F734546207001%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I%2Fplaylist-hls.m3u8#24fd83b8f92c186ed15407c577df79a5c493b4fc2a36ac747350a52c1b9c1075
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FjKwfd4apQcuxQtyRI9Q6-Q%2Fmaster.m3u8#058eef50a4ecfe07b1553f00bce25eab332a0eb995518599fe51a6869ff10aa5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F177.234.218.66%3A8084%2Fplay%2Fa001%2Findex.m3u8#cea3a2e5fa6466a74600872dad23869075d76c502d65173e348f7665e74ece56
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fdistributionsjustepourrire-justforlaughsgags-1-fi.samsung.wurl.tv%2Fplaylist.m3u8#b8af441a9ca6165314c0c5d1736e6c6ce2077d2f0c401e25ed9c151358048417
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fd3d85c7qkywguj.cloudfront.net%2Fscheduler%2FscheduleMaster%2F263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fbein-xtra-xumo.amagi.tv%2Fplaylist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FCOMET%2Findex.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fnbculocallive.akamaized.net%2Fhls%2Flive%2F2037084%2Flosangeles%2Fstream1%2Fmaster.m3u8#24df0d3b75f8caee3b1384e0afe4b890b2fddecedcc7a433fa8d5c95385fc765
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Documentary",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F6c0bd0f94b1d4526a98676e9699a10ef.m3u8#e0368efba7ed75e1f3591a8731119df3c204c24c1833a9f819aa6c2dc0c6e7df
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Ftvsen6.aynaott.com%2Fcnn%2Findex.m3u8#14a420b93de74cd15200182ca4adbfe43f9de88c225c5c23ec24deac3d615397
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Ffeeds%2Fvidaa%2Fluxelife.m3u8#1a0564792e1208aa762ca5df1fbc2940d2fc90fa0aaddc44b81586ffb62f61d4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fnewidco-babysharktv-1-eu.rakuten.wurl.tv%2Fplaylist.m3u8#926d56cb84f8833d1dadab3ccff5ccae014ca1b4d8c33ab39d3062cd5bd57226
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fna.linear.zype.com%2Fe0bd0e23-a958-4e43-8164-4f2fef8876a8%2Ffd3614bd-90bf-4530-a277-65ae3a1720c8-zype%2Flive.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fjk3lzkn4lw79-hls-live.5centscdn.com%2FVTN2%2Fbcaafe9ad8d42834b08e762ac58596b8.sdp%2Fplaylist.m3u8#62d4c72dc0c83c6e3d93b5157ba3c04df082baa86a368a9c56165942a759d0c8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F3abn.bozztv.com%2F3abn2%2FKids_live%2Fsmil%3AKids_live.smil%2Fplaylist.m3u8#3e6d656b299f34b95a7cdb9651b41edcd780fdcd4bc0ed1305d31b3edd738f16
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Febstv%2Febscinema%2Findex.m3u8#98f7c577d8cbe0e93055d85c2e20eac3134bc0b2b94b0c4451f007cda95f7ebd
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbroadcaster-1.cclouds.in%2Fsrt%2Fchannel1_abr%2Fplaylist.m3u8#c5bbd4a1b488121a24a21c9efafa6207f5da0a27b2359816dbcd795a3ff8d300
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F104.143.4.5%3A2080%2Ffunroads.m3u8#a385208d896a3db14852ff328c63c11e78488f2097df65ca470afd01baed9838
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Frakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv%2Fplaylist%2FrakutenAA-tm-intl-aus-rakuten-eu%2Fplaylist.m3u8#dda3bf79344ca9bda74bbaba441e3f4fb0aa8fa86aecf42eedf5d59d3818dfa9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-classiccinema%2Findex.m3u8#9061b37a347e0e55bb8c6483aca5e86d4571bbfb1f12990f6759dcdfacc1bcce
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Famg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv%2Fplaylist%2Famg00218-wptenterprisesi-worldpokertour-klowdtv%2Fplaylist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flinear-903.frequency.stream%2Fdist%2Fxumo%2F903%2Fhls%2Fmaster%2Fplaylist.m3u8#6f6720473ef1ffd91fa7907c269e50bb2a40f67bdf8b44aa80609a0c3b88c4a8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Ftricoast-tv-dark-matter-01-us.ono.wurl.tv%2Fplaylist.m3u8#8ec920659e5ff45e771f5689ba4ca2554f139b10907e20e2778ffb4856b8530d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fgsn-cinevault-westerns-2-us.roku.wurl.tv%2Fplaylist.m3u8#c42474ae87391ee2e12046b13a76abcaed530dd4cd203b5dabae2553f2208537
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcbsn-sf.cbsnstream.cbsnews.com%2Fout%2Fv1%2Fdac63c1abb3f4a2dac9f508f44bb072a%2Fmaster.m3u8#71e9fbc4bc0272b8b03e3a7241202bcc90e200718a65fddebc0bd84b57725e3e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flivestream.telvue.com%2Fsantamariactv2%2Ff7b44cfafd5c52223d5498196c8a2e7b.sdp%2Fplaylist.m3u8#6c9bef09ac6524863862a68fdb0f2161413f57c1f22a0a8c4f2729edff93aef6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Documentary",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01438-ewscrippscompan-courttv-tablo%2Fplaylist.m3u8#584ffbd739b6af78ddab88014bddffce79db821b3f74a62fcd6964a6bbebb405
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Fdarcizzle.m3u8#13f1e8e20335dfdd018d9a7aab7276ea75e06e3f6783befca92ea21d8835696d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fdisneychannel%2Findex.m3u8%3Ftoken%3Dtest#03bdc24613e423d1c94ec77fc6d760d9d3c2219726c9455909f505a6eab100d2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fdistributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv%2Fplaylist.m3u8#4d97a7a2f1f88f0cc62d82994ff35da2b465c2b8182d2a73207094e4c5f0c671
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F65.36.6.216%3A1935%2Flive%2Fkcwx.smil%2Fplaylist.m3u8#8a2752ddd084f821e9691027390babba1e611a7ff259ec455963e13953c95689
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcloudflare.tv%2Fhls%2Flive.m3u8#64c5c10c37917e7cb0fc7ae6d8b1c037e92278f65ee91b5f3b5cca5943b92883
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flivestream.pbskids.org%2Fout%2Fv1%2F94b88ad58fc14f84a9382341f1c00b82%2Fakst.m3u8#85306d472b87bacca8ba86049fa5e3bb2b845e7dfc856af6b6f60cc94b5c6649
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fwescottcc.piksel.tech%2FManifest%2FUTB-NetworkStream.m3u8#63435d0b3b892480bd1a2e85fa15576d3f85aceded59a61071b3dc647c7c3008
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F2-fss-1.streamhoster.com%2Fpl_122%2Famlst%3A200914-2942150%2Fplaylist.m3u8#fbb0ddf5b180e95803cb33a885a71bc427977357aa9743436ec47484d13cf5cf
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Ffailarmy-international-mx.samsung.wurl.tv%2Fplaylist.m3u8#2aa5fafd61f8ec25e3a344a7f4bf4de31e1a279a46cc993b8c42c51308f66f2d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Flivestream.pbskids.org%2Fout%2Fv1%2Faa31792fee094b24b09045483f04d150%2Fhast.m3u8#80f904a97c855cdac12b552a2744b0af9fa40f69e077fe8db08cf879ee6165a6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Frpn.bozztv.com%2Fgusa%2Fgusa-tvsdriveinmovie%2Findex.m3u8#faffed514128c899ffdec3fa4a6338e54bd9a98ca28a21a54c88bb4864c1b3db
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F33c48f602cfd4474b957eb4ad999caf8.m3u8#ca0b9e1fe2f1d0567534982bab05677a402447552429d75d84d4e7e68b3aeb9c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fbbc-antiquesroadshowuk-1-us.xumo.wurl.tv%2Fplaylist.m3u8#074523fff2d795cbe715d3e28235751dbb4e3c9ea1ff121814577121f1e12275
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",Channel
+http://eja.tv/?https%3A%2F%2Fconnection3-ent-nz.samsung.wurl.tv%2Fplaylist.m3u8#4f36bd9ba4c9ec7be04a90e615ad64d5af8deabcf5b88f090bebfabc6a61c6be
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Frightsboosterltd-scl-2-eu.rakuten.wurl.tv%2Fplaylist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2F3abn.bozztv.com%2F3abn2%2FInt_live%2Fsmil%3AInt_live.smil%2Fplaylist.m3u8#ea4ade4795df138141ec07d665a857322abfa3f3e353533fc0501232f28e0b78
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Channel
+http://eja.tv/?https%3A%2F%2Fsportsgrid-plex.amagi.tv%2Fplaylist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fnbculocallive.akamaized.net%2Fhls%2Flive%2F2037098%2Fsandiego%2Fstream1%2Fmaster.m3u8#f28910283d1f958da1acc4b06fd3f00a4c33cad7b237a597e2bdcb76ea6b3b60
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2F1fbfb28ae5044f619f75ae0adb011989.m3u8#08518902880fb7effe871abc52c6bd4597c613c62d411e182df8afdac20f991a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-ue1-prod.tsv2.amagi.tv%2Flinear%2Famg00684-accuweather-accuweather-plex%2Fplaylist.m3u8#d912daa4232146f5f8be7f38038ea9342e0f6ff5918576fe7f666a1e87293f8a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv%2Fplaylist%2Famg00627-banijaygroup-wipeoutxtranz-samsungnz%2Fplaylist.m3u8#a88a2f91d6af0b155dcd4851922efbe4106efdf5eb624e1f99faad8cf0c73f9e
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Chinese
+https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8#eeb84777e694758569607ca1520f67deebff35a90370570d71637250e79c2d8f
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Chinese
+https://mediaserver.abnvideos.com/streams/abnchina.m3u8#f357b53ef48324ff3fd127f73eb1dc91e56a7899058f0127db8dc1b06ba3ad97
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8#aff4910625f3c37754a9458e994288ca573bb273b1887c2eb489644337d9e7a3
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8#759a3dd403bac6eb0f917d6fb1aeb1daf3ebc2e7259a6d82d86dd10ecd30614a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8#d6a7a84f19480a7145eb4621ca4ef5650bacf0ce1e1839644c607e1d3c33742e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8#bfe849021f7aa0fe1a39ad0fb856df5ed786d5c707c403774acf0cfc4a80820e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8#a1315feaaea593f6499ac717137d096c20e70075e75e2d601c44875982824ec0
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8#ea4565e124e07cc2b5bc1a2f038c68903ecd18d48d050b8c157ebb26032dbdd7
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8#625d6d7466fcfe1f3fa1d14062f148f3f9526406219c19ee3143c277257d82e7
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://fast-channels.sinclairstoryline.com/TBD/index.m3u8#f053390704063dce3ff5fb5c2a3658132de3b9c28fd5187485c93dde5f68d505
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8#2d6bce73a45fa38fb096c3ec99e3ef6bbc1e6cbc2259b600ec1de42a2a9a2b59
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8#088d520b022255dc0fcc1c7c27f8700802f8cff2e810fbda1b6f397255af5368
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8#27ec051e5c40bb88c00a2aeff194128528c1af82ba60376600d7b0681e73abd9
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",English
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTUwOTk0NjIsImlzcyI6ImFlZ2lzIn0.MV_Ms2B5fh5vKEI_hfQIhAhwaPj9aqxMDaFvW9Pe6YyUSN584DG1a83t6QyC7SkQ5xwydM1SYXQfGnrcdlsK0A#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+http://185.227.34.179:8080/axn-black/index.m3u8#a8c0da0f6966eba2e993986d8d8dceb2533c8f4bf37d3991a0303ac3ea32d972
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7ab81c013a1d839e74ae12ba8db5151b
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Movie",English
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8#2823b153f517492b8aa9b8b2bdb84e97c71cce02f5e6d87626b799ad3b3f3f0d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://a-cdn.klowdtv.com/live3/tbn_720p/playlist.m3u8#97266b4c27f9fbb7c681e9df915fa3cd08d6a8ecda7c7d724904b545f66d0123
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://dvu7aia8rjlfm.cloudfront.net/master.m3u8#cc004a938fb5a9c2e1ac49ddbdb9684f43bb79119e572dcda50ae56d1fc09996
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://185.227.34.179:8080/axn-white/index.m3u8#d37e9a3d04c57cf4c97be73a2e6bf653ace72521e6d90208a186ae5ab1ee2bfb
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8#06d751151afacda5d628a3f33d51a6a0b0c75c2d5462396b34a206007f7544d1
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8#3f5342ec47ca914a5ebbeff78ff0773c7a15fbc547cf927f371909e8925e1e99
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8#76d8ed8f7cb03df9581ffda8770e5f63b8559bfe40d2681f8201a0ec7bece24b
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8#78796fc4cf0d2c9feb34f100e4ab6e098d0357fc90214c064558206b24ef91f1
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8#db02f2efc63d5ac0c58941e8d7d9ecc11c4d7c9b1e7346078f6c6745baf6b543
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8#235094e277b5ebf932bb0ba268b55db313d0fcd6d651ce68463a9ea55d84bf1a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://hls-live-media-gc.cdn01.net/mpegts/232076_2222904/GB-ApKbI2o-MHCm9rf8VUA/1798675200/master_mpegts.m3u8?via=direct&source=smarttv#7dc62aa51ed7a4963d9c3a9e3ea71970f4eeedda88f31200c935f72921caee28
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8#27b8a194d499d88c8cf9afb4ec68eabbd5eb9254cf850ddfb53a087b28fe0cff
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8#c7571e93071d3da123de0b681425226a3ba6eaeb6cf2f04de1f20bf74b40a75c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8#d93ff3c586e9bccdfced8663cee3a76d2ef08418f36103ac0018e820482faed1
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://www.bloomberg.com/media-manifest/streams/eu.m3u8#3a9e6f8954fb89d54dee351751f769949921f588ca1b5ffb40bb6d4f453b90b0
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://30a-tv.com/feeds/vidaa/cars.m3u8#6aa7a202803104ffa072ea98aa5e87ec90f9bcf8d3b50570b12cba7204df9a80
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://30a-tv.com/gh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://content.uplynk.com/channel/c66d1d2d9e2c46cea1cf22a33f6ca488.m3u8#d008684190a88f5aee9b0bf7e934c3316e92994f3efa43d5a226d4e441a6c06d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8#e444f09142f1b026b16a26cf97c86a23fe20f88f53d7d5c8df41914a408bf398
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8#97229f79ba2162fa342fd339d72ce813b2428171d1ee44b526ac2a6326fcdaea
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8#c627897c73ad5469b09e54740f64797477733d062567cd5f136721bb23bc11de
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8#9c1f5712d3a6f552b9d2c34c8e84303643016699618e81e3a95d56d4e1f8d6a8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8#6bd429ce748ac8d86d697c170e9d238baff88debb7ff7f08b193f19512e9b626
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8#c08cdde3c497556b8ee2f21b8efc4b447f8f6d64c8971f2f65408bad448ac14f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://4.30.180.36:8420/metv/index.m3u8?token=test#940c0f679edaa640fe98bb962b275593db3f100851d977361e793ed35c454fac
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8#b169f91a854e3c24419f7b7dd8770ffa459ca4a81fc6bb5c32aa6cfa666b9c3f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://content.uplynk.com/channel/9deaf22aaa33461f9cac22e030ed00ec.m3u8#35fb5301738c7220d81fa9eaf400cab1ce946fd2e8f3b8699e910b0681f1fc6a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+http://23.237.104.106:8080/USA_TENNIS/index.m3u8#1270a2ad564d9494f77c317ae7d6065544cb6c4b2cf0e77069bfe0b44f87cb4b
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+http://api.toonamiaftermath.com:3000/est/playlist.m3u8#6bfd18a70a04726b728844dc61a14e31704fec47b2e071fefa29aa8532ac2b54
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+http://4.30.180.36:8420/comedycentral/index.m3u8?token=test#55605a5a2531afa7c111451e48b1306c9120af2c455ead728b529132525abfca
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8#42436bfd9faa0c4c9c678b51b6a31c3a9112818251f642a2b27048bc41188cb4
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8#92b6cb006952b56e52a197206d38e605ae2ca3594b7af4715c919beaef67de3f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8#de64387753677cf2db21ae3639142661f632f5eac767fedb6d5b0496e20c9819
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8#cb4c562e325d1d8f5229b3f5481ad1a84fd4ffd3bf96ddf978853f021c60529c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8#44d8843a78187045e86ef44bb0aadb2d807387cf8a111ee66446b7eb674b5275
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8#262542fbac1a892bef47cb6297a92f5c7c7e8ff71ed685e3bdc6e274352ef08d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://amg01076-lightningintern-kartoonchannel-samsungnz-t8blu.amagi.tv/playlist/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8#408adb38a538cc4c74fb14cfaa33021a51300457502a8e68f4a6024d57802b3c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://247wlive.foxweather.com/stream/index.m3u8#97fc8d916773b3b51a57e4a44f588f494dda93e26a439bebefb964a933c17a3a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+http://4.30.180.36:8420/nickjr/index.m3u8?token=test#606a488d48947719299cfa7366d109332256e5aac5abc6c4a0f10edc52639ff4
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://pac12-samsungus.amagi.tv/playlist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://cdn.whiplash.cc/whiplash-cinema/index.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://brat-samsung-us.amagi.tv/playlist.m3u8#d2f4d43211d6610dcdf6517e857169ee583968238dddcc1e01b8ebf634046a79
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8#b628c28f7b9f7d5ef309c4f2b65255d353b63e15de42b09023dc5196b0f83c04
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://broadcaster-1.cclouds.in/srt-2/channel2_abr/playlist.m3u8#7e99d8a5877ff188b8ce8d2ae04b3a721f584cdaf9ac874dc2fd503612792f37
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8#b3433ce817aa13324d70bb00003bcc8ee51816d332ac4723508da18d796cb70d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://dz05z8iljgvbe.cloudfront.net/master.m3u8#de2f1f8f2bdbcfe7fb089c4758d44ce180ee43a1cd2a72e9d6fb5cd5d21838bd
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://dil9xdvretp0f.cloudfront.net/index.m3u8#9f84a5afa389fd4254fdddd60cc2d7d81994ac02d0def1b9b4e04a3273cb2997
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://hls-live-media-gc.cdn01.net/mpegts/232076_2222904/GB-ApKbI2o-MHCm9rf8VUA/1798675200/master_mpegts.m3u8?via=direct&source=smarttv#7a141c36349fc2cc3bb0e325f8164877dad62dfbb8b0ee5b7737417ceee0e8eb
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8#173dc37c9972e4cd7c29c5711823a229b482af4a22f00dc01726d2bb8f0f8bdc
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8#f5e059283f989fa36011054d7830a24efd9d94cae477dc30199e30999e83301e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8#4099364e858f7d7e7ac89fe50609c63d9288cec5b48120cfce489891ee8c396a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+http://41.205.93.154/ESPNNEWS/index.m3u8#f8fdf694395c626397bb26eaa3acc424270095024adf5ac9a4af481784684749
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://d1e354daam8g5r.cloudfront.net/playlist.m3u8#63301ee9162dd324d8faa242a64fec17c91b69299490fd77e28b9bbb043c6abe
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+http://4.30.180.36:8420/usa/index.m3u8?token=test#6cf3bcb8791e91ff776005e2a831125b2060fbf8a63e3d466eaee7e5a937a1ac
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8#f887707b9a0e5ebef4eb286b9256073e602785495a6ac5f24ff84bbcf3f130b5
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://oitnhls.wns.live/hls/stream.m3u8#b9bb8add6971fb568f61b4fc9486c4f9e577a7d107fd448620529b9785999a6f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://content.uplynk.com/channel/328d1434fb51476cb6567c74d5b2cc70.m3u8#f7e064760ef2d0c7a9def985976ae2143b894c8fe343a1cd26122f7e7762cded
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+http://41.205.93.154/NICKTOONS/index.m3u8#7fb00ef7a73396a40aa469b074c8737a0afaf750111054a93fa47b18c252f099
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+http://23.237.104.106:8080/USA_NBA/index.m3u8#4e66e76e59e2893267488b3e05e37ccdf484a271782b2b4dbb78d1dd4cb5e735
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amg01438-ewscrippscompan-bouncexl-tablo-6s9me.amagi.tv/playlist/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8#85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://distributionsjustepourrire-justforlaughsgags-1-fi.samsung.wurl.tv/playlist.m3u8#b8af441a9ca6165314c0c5d1736e6c6ce2077d2f0c401e25ed9c151358048417
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://fastly.live.brightcove.com/6380396819112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk2ODE5MTEyIn0.GDYp4IWtzwPkupEWeeOavnioVknO-Ev3UGlHvM1rE6I/playlist-hls.m3u8#24fd83b8f92c186ed15407c577df79a5c493b4fc2a36ac747350a52c1b9c1075
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8#c1132aba279f99f10eee406256db4614be73b60ef521f9e2da407b526f81ca2e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8#39e17dd82732cfc71347c969b76fac9b5beb7bc0940f5f273412ec6943248ddc
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://nbculocallive.akamaized.net/hls/live/2037084/losangeles/stream1/master.m3u8#24df0d3b75f8caee3b1384e0afe4b890b2fddecedcc7a433fa8d5c95385fc765
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Documentary",English
+https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8#e0368efba7ed75e1f3591a8731119df3c204c24c1833a9f819aa6c2dc0c6e7df
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/f90c42a3-bea5-4791-8fdd-daceb8096129:MRN2/master.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8#2731fa89e99d6662521400c9d18ea4c56cb294182b7feb08b5490be1fd97be1f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://fast-channels.sinclairstoryline.com/COMET/index.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8#926d56cb84f8833d1dadab3ccff5ccae014ca1b4d8c33ab39d3062cd5bd57226
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+http://104.143.4.5:2080/funroads.m3u8#a385208d896a3db14852ff328c63c11e78488f2097df65ca470afd01baed9838
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8#62d4c72dc0c83c6e3d93b5157ba3c04df082baa86a368a9c56165942a759d0c8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://linear-903.frequency.stream/dist/xumo/903/hls/master/playlist.m3u8#6f6720473ef1ffd91fa7907c269e50bb2a40f67bdf8b44aa80609a0c3b88c4a8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8#c42474ae87391ee2e12046b13a76abcaed530dd4cd203b5dabae2553f2208537
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://tvsen6.aynaott.com/cnn/index.m3u8#14a420b93de74cd15200182ca4adbfe43f9de88c225c5c23ec24deac3d615397
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://broadcaster-1.cclouds.in/srt/channel1_abr/playlist.m3u8#c5bbd4a1b488121a24a21c9efafa6207f5da0a27b2359816dbcd795a3ff8d300
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://tricoast-tv-dark-matter-01-us.ono.wurl.tv/playlist.m3u8#8ec920659e5ff45e771f5689ba4ca2554f139b10907e20e2778ffb4856b8530d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8#3e6d656b299f34b95a7cdb9651b41edcd780fdcd4bc0ed1305d31b3edd738f16
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8#6c9bef09ac6524863862a68fdb0f2161413f57c1f22a0a8c4f2729edff93aef6
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://dai.google.com/linear/hls/pa/event/jKwfd4apQcuxQtyRI9Q6-Q/stream/486a6757-e945-43f7-9b17-d265e9049d39:ATL/master.m3u8#058eef50a4ecfe07b1553f00bce25eab332a0eb995518599fe51a6869ff10aa5
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8#71e9fbc4bc0272b8b03e3a7241202bcc90e200718a65fddebc0bd84b57725e3e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8#4d97a7a2f1f88f0cc62d82994ff35da2b465c2b8182d2a73207094e4c5f0c671
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8#9061b37a347e0e55bb8c6483aca5e86d4571bbfb1f12990f6759dcdfacc1bcce
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://30a-tv.com/feeds/vidaa/luxelife.m3u8#1a0564792e1208aa762ca5df1fbc2940d2fc90fa0aaddc44b81586ffb62f61d4
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Documentary",English
+https://amg01438-ewscrippscompan-courttv-tablo-nbcc7.amagi.tv/ts-us-e2-n2/playlist/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8?route_version=v2#584ffbd739b6af78ddab88014bddffce79db821b3f74a62fcd6964a6bbebb405
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://wescottcc.piksel.tech/Manifest/UTB-NetworkStream.m3u8#63435d0b3b892480bd1a2e85fa15576d3f85aceded59a61071b3dc647c7c3008
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8#85306d472b87bacca8ba86049fa5e3bb2b845e7dfc856af6b6f60cc94b5c6649
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8#8a2752ddd084f821e9691027390babba1e611a7ff259ec455963e13953c95689
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://cloudflare.tv/hls/live.m3u8#64c5c10c37917e7cb0fc7ae6d8b1c037e92278f65ee91b5f3b5cca5943b92883
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://2-fss-1.streamhoster.com/pl_122/amlst:200914-2942150/playlist.m3u8#fbb0ddf5b180e95803cb33a885a71bc427977357aa9743436ec47484d13cf5cf
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://content.uplynk.com/channel/33c48f602cfd4474b957eb4ad999caf8.m3u8#ca0b9e1fe2f1d0567534982bab05677a402447552429d75d84d4e7e68b3aeb9c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8#80f904a97c855cdac12b552a2744b0af9fa40f69e077fe8db08cf879ee6165a6
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8#4f36bd9ba4c9ec7be04a90e615ad64d5af8deabcf5b88f090bebfabc6a61c6be
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://bbc-antiquesroadshowuk-1-us.xumo.wurl.tv/playlist.m3u8#074523fff2d795cbe715d3e28235751dbb4e3c9ea1ff121814577121f1e12275
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8#c2640e7396e305531ff7f1b7aad97e08a19339dd803037caa7ec876e67a151be
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8#f28910283d1f958da1acc4b06fd3f00a4c33cad7b237a597e2bdcb76ea6b3b60
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8#08518902880fb7effe871abc52c6bd4597c613c62d411e182df8afdac20f991a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://30a-tv.com/darcizzle.m3u8#13f1e8e20335dfdd018d9a7aab7276ea75e06e3f6783befca92ea21d8835696d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Movie",English
+https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8#faffed514128c899ffdec3fa4a6338e54bd9a98ca28a21a54c88bb4864c1b3db
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8#d912daa4232146f5f8be7f38038ea9342e0f6ff5918576fe7f666a1e87293f8a
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",English
+https://sportsgrid-plex.amagi.tv/playlist.m3u8#5729460f30925db51618f6d5e1b417e66fec4d888e6921e2d7273e8f547aee71
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8#a88a2f91d6af0b155dcd4851922efbe4106efdf5eb624e1f99faad8cf0c73f9e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",English
+https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8#ea4ade4795df138141ec07d665a857322abfa3f3e353533fc0501232f28e0b78
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",French
+https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8#07b966734817651ebe914498a0a62f9fef1381bb095ea2f39e6c605c08419230
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",German
+https://failarmy-international-dk.samsung.wurl.tv/playlist.m3u8#352c6ac8682954e7dd137dd6ca6e8cc10fc59a60a32de45061476bd95831f356
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",German
+https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8#dda3bf79344ca9bda74bbaba441e3f4fb0aa8fa86aecf42eedf5d59d3818dfa9
+#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Italian
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
+#EXTINF:-1 tvg-name="Korean" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Korean
+https://brightstar-korean-pull-secure.akamaized.net/brightstarkorean/stream.m3u8#25446d14564d2e966b4b0404b313cc6e38d2a09526df1f0a1f373a9851990b6c
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Persian
+https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8#929f1a7d7781da937ec8e123658f5cfdbc007c08542e891015c421e25bc91ea2
 #EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
-#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="Canada" tvg-language="Spanish" group-title="Sports",Spanish
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
+https://hls.avang.live/hls/stream.m3u8#edf426412ff83c4860f6bc133c681812a010e1b2cb581edb474c043b688a57cd
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
+https://rjtvhls.wns.live/hls/stream.m3u8#5ea5f5b28477857a3f89de93d827d5c85707d488aea240ccee97deee63746985
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8#ef51c02fcdff8db1f99c2f52bc05732980860f29852a16f3a2d657dea621eb8f
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Persian
+https://mtchls.wns.live/hls/stream.m3u8#d425150ef861ea5757a50076905dbd5f1d608f386e60bc649b7d04f34e8b864b
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Spanish
+https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Movie",Spanish
+http://4.30.180.36:8420/hbo2/index.m3u8?token=test#b4ef37aa5f6440cafa789b382f0239659f0863eda05b93b3802f4ed657d08cb1
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="News",Spanish
+http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8#3914804b4e3a9e448e205466eddc24d166e48576b6eec39a32935162bf18523d
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Spanish
+http://177.234.218.66:8084/play/a001/index.m3u8#cea3a2e5fa6466a74600872dad23869075d76c502d65173e348f7665e74ece56
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",Spanish
+https://amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-klowdtv/playlist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Spanish
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test#03bdc24613e423d1c94ec77fc6d760d9d3c2219726c9455909f505a6eab100d2
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="United States",Spanish
+https://failarmy-international-mx.samsung.wurl.tv/playlist.m3u8#2aa5fafd61f8ec25e3a344a7f4bf4de31e1a279a46cc993b8c42c51308f66f2d
+#EXTINF:-1 tvg-name="Vietnamese" tvg-logo="" tvg-country="United States" tvg-language="" group-title="United States",Vietnamese
+https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8#ba8b0092a68e61364233fcd10a1ffadf981597aa6b4636a1c24e497cefbf4144

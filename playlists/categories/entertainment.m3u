@@ -1,11 +1,573 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Australia" tvg-language="Spanish" group-title="Music",English
-https://english-livebkali.cgtn.com/live/doccgtn.m3u8#00c102f0e971aeebc1fbe64e847858fce394c54ce78c0351358b149cddb44e61
-#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",French
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8#573dafedd0c7eeb8e0855acafc012e4788bd376f18e9de2e6d6489856d9e9ec1
-#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Greek
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8#0a70f508006a2738cf7d678e620c1074b9d27de41826af53ab7e8774a25f0534
+#EXTINF:-1 tvg-name="Bulgarian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Bulgarian
+https://streamer103.neterra.tv/thisisbulgaria/live.m3u8#6862ae209aa7398e9a0e1697a9fcaa9314fce699f95d9195f7f1571a614b1acc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcgentertainment-cgtv-1-it.samsung.wurl.tv%2Fplaylist.m3u8#3189ce034bfadc722833f6e7cc29693eba19d818fcbf5b853c5525d257203f02
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fedge13.vedge.infomaniak.com%2Flivecast%2Fik%3Aevent%2Fmanifest.m3u8#1c291fc856e8b46b18b206b5760146947194f89d4b226fc6e4ef788b1a3885bc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flivestar.siliconweb.com%2Fstarvod%2Fstar_int%2Fstar_int.m3u8#b1297f8c0749aee7fb78ca50a575ccdc3663654e5e7b64c81bd6f323a19f691f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FTBD%2Findex.m3u8#f053390704063dce3ff5fb5c2a3658132de3b9c28fd5187485c93dde5f68d505
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffxtvhls.wns.live%2Fhls%2Fstream.m3u8#9dd1e89a06b31230ddceaf2f040b61692b12b61852bed2ee9f6e1c73c0c3d802
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2F59d7d6f47d7fc.streamlock.net%2Fitalia2%2Fitalia2%2Fplaylist.m3u8#8f37048a7892ea7da5b498bccdfceacb97e45e1dc3d2b95bebbb69e8829d6da4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-us-east-prod-ingest-infra-dacast-com.akamaized.net%2F624ff8f9-db18-da92-4d42-896fa2ff3eb3%2Fsource%2Findex.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F38.64.72.148%2Fhls%2Fmodn%2Flist%2F4005%2Fplaylist.m3u8#187bd475eb50771056b345ad9e5b313f8f839e5dbfd296a60194eee49607c581
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fhls.mbcpersia.live%2Fhls%2Fstream.m3u8#05fb070a9a3eefb969d888408f97f4bc07e632c364b5be2feb421a92535c3b2a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftoonixhls.wns.live%2Fhls%2Fstream.m3u8#56afa399417f2d92fdde32d4c3c7bdfe684b5460959e3fa38edcd3672307105f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fin%2FYuppTV%2FZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fdash4.antik.sk%2Flive%2Ftest_arte_avc_25p%2Fplaylist.m3u8#c4911372dd0ec28729c6427dcc4df468420c623a70ff172823d0626792f8857e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flivegeorouus.akamaized.net%2F100823%2Fetvhd_2500%2Fplaylist.m3u8%3Fhdnts%3Dst%3D1735898689~exp%3D1835898688~acl%3D%2A~hmac%3Df5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fgtc-yupp.vgcdn.net%2Fvglive-sk-254807%2Findex.m3u8#1d24a3efbcbb06f49da36c6db15f9980c9490c6b67316d416d21144a44a5d23e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcc-czbq30x55knit.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-czbq30x55knit%2FDIYC%2FPMSL%2FIN10%2FEpic_TV_IN_B%2FEpic_TV_IN_B.m3u8#bf78e6066729beb383dad350e542a7ebbf663bcb2070c82d6962738d2adb3971
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Astarmaa1.smil%2Fchunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F38.96.178.205%2FSONYHD%2Findex.m3u8#43f387941892083ea649fbb0ca7f38417f71250620b412d7d7af4a354102ec3b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Azeetamil1.smil%2Fplaylist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fyuppmedtaorire.akamaized.net%2Fv1%2Fmaster%2Fa0d007312bfd99c47f76b77ae26b1ccdaae76cb1%2Fmazhavilmanorama_nim_https%2F050522%2Fmazhavilmanorama%2Fplaylist.m3u8#2b59f0762c414b2577f0e32335b40b2d30712f8593443f54496ff26d045449a6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Acolorsme.smil%2Fplaylist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Astarvijayuk.smil%2Fplaylist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fepiconvh.akamaized.net%2Flive%2Fepic%2Fmaster.m3u8#96235fc303f37b6d138ae56829ef736e9d7c63907e628db03d5690e11a1628e4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcc-p1izg43bk7sj5.akamaized.net%2Fv1%2Fmaster%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fcc-p1izg43bk7sj5%2FDIYC%2FPMSL%2FIN10%2FNazara_IN_B%2FNazara_IN_B.m3u8#a2b72b33550a4013226bd31336daa0847e2f2eb0c779bac7672bbd4872663540
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Astarasianet.smil%2Fchunklist_b1928000.m3u8#020ec398585387669ab5d6e67f466649f6f51bffaa27f7e5ad98a355317a35d2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fddash74r36xqp.cloudfront.net%2Fmaster.m3u8#4e24d4f807009a82b0aeac6ca171bc98f0e65f493571d1b506e68df987f2ba08
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive-dangal2.akamaized.net%2Fliveabr%2Fplaylist.m3u8#8b2da1283deae37c7ed44549441009ce4417179e8a1617b0aa4f8f4a00a73911
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcc-uyh1ow5zouoio.akamaized.net%2FWWBI%2FAmagi%2FETV_Josh_IN%2Fplaylist.m3u8#bf0f320ad99f1accba0dc347dd21aaf417d23d93c20c41919a49875d59fe8502
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fraw.githubusercontent.com%2Famazeyourself%2Fadaptive-streams%2Frefs%2Fheads%2Fmain%2Fstreams%2Fin%2FYuppTV%2FAsianetHD.m3u8#d5373f2c45732660580b91a473fc0062419c20c986d356db263f1643ce7a5b73
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fda86m1sqpm3o0.cloudfront.net%2F28072023%2Fsmil%3Acolorstamilhd11.smil%2Fplaylist.m3u8#ccca3d0dab7838bde0dce515d0597ffa19e1d78984d6b76a2433797fd8d9f77d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F185.227.34.179%3A8080%2Faxn-white%2Findex.m3u8#d37e9a3d04c57cf4c97be73a2e6bf653ace72521e6d90208a186ae5ab1ee2bfb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2F30a-tv.com%2Fgh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcontent.uplynk.com%2Fchannel%2Fb6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fgsn_720p%2Fplaylist.m3u8#d93ff3c586e9bccdfced8663cee3a76d2ef08418f36103ac0018e820482faed1
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Fmetv%2Findex.m3u8%3Ftoken%3Dtest#940c0f679edaa640fe98bb962b275593db3f100851d977361e793ed35c454fac
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famc-absolutereality-1-us.plex.wurl.tv%2Fplaylist.m3u8#b169f91a854e3c24419f7b7dd8770ffa459ca4a81fc6bb5c32aa6cfa666b9c3f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famc-amcpresents-1-us.xumo.wurl.tv%2Fplaylist.m3u8#92b6cb006952b56e52a197206d38e605ae2ca3594b7af4715c919beaef67de3f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fnbculocallive.akamaized.net%2Fhls%2Flive%2F2037096%2Flx%2Fuse1.m3u8#cb4c562e325d1d8f5229b3f5481ad1a84fd4ffd3bf96ddf978853f021c60529c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Channel
+http://eja.tv/?https%3A%2F%2Fdai.google.com%2Flinear%2Fhls%2Fevent%2FxrVrJYTmTfitfXBQfeZByQ%2Fmaster.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Foitnhls.wns.live%2Fhls%2Fstream.m3u8#b9bb8add6971fb568f61b4fc9486c4f9e577a7d107fd448620529b9785999a6f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01438-ewscrippscompan-bouncexl-tablo%2Fplaylist.m3u8#85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FCOMET%2Findex.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?http%3A%2F%2F65.36.6.216%3A1935%2Flive%2Fkcwx.smil%2Fplaylist.m3u8#8a2752ddd084f821e9691027390babba1e611a7ff259ec455963e13953c95689
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv%2Fplaylist%2Famg00627-banijaygroup-wipeoutxtranz-samsungnz%2Fplaylist.m3u8#a88a2f91d6af0b155dcd4851922efbe4106efdf5eb624e1f99faad8cf0c73f9e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Famg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv%2Fplaylist%2Famg17931-asiatvusaltdfast-zeeworld-samsungau%2Fplaylist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Channel%2FSA_LIVE_hls_enc%2Fmaster.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.global.elektamedia.com%2Flive%2Fc7eds%2FENT_Family%2FSA_LIVE_hls_enc%2Fmaster.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fmhz-samsung-linear-ca.samsung.wurl.tv%2Fplaylist.m3u8#b63b88709000bcefd144801acae041bc70540ecc0e3eafe4b0dd73ed06cae5b6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fd3c1w351ahk83d.cloudfront.net%2Fscheduler%2FscheduleMaster%2F416.m3u8#f34dcb20d06ec5c903739f29bafeb36ce0360957e93debe0b31841ab9ffde4e9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn.skygo.mn%2Flive%2Fdisk1%2FNHK_World_Premium%2FHLSv3-FTA%2FNHK_World_Premium.m3u8#491c9daa7f9f5537617201603f94585f46ad638f76decd3ab7a668a68e253dcb
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01602-themahqfrance-vivekanald-samsungspain%2Fplaylist.m3u8#8d7c0c6d5ece57b5298eae5285b95f63e34ff84cccd0b62ef082e1ef5b5a9fb3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Frcntv-rcnmas-1-us.roku.wurl.tv%2Fplaylist.m3u8#a5dfe7cd3b2b63bf7b4e470f6de6e9fee440ada4bcf6eabad5b479fd1cffd85a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FNHK_World_Premium%2FHLSv3-FTA%2FNHK_World_Premium.m3u8#3356ec8286be4fe4578c6cb5ccc39263fa295f046ab89e67d80d150064389115
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstreamtv.intervenhosting.net%3A3439%2Fhybrid%2Fplay.m3u8#888fd0fbf8d57e5b38510e14111971323e6cb57a1f31b2d381413e2dffe20ce6
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Frcntv-rcnmas-1-us.plex.wurl.tv%2Fplaylist.m3u8#f0f9d8e89c2106a768986d5ab28a51b1940e4c6be1f6b446bbe661acac57543c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fvideo03.logicahost.com.br%2Fmaxivisiontv%2Fmaxivisiontv%2Fplaylist.m3u8#157a7614cefce5ea245b701b1b8738df6f4bae5e07dbfa1295eacadfce30de1d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive.gideo.video%2Famericateve2%2Fmaster.m3u8#9eb02bec4757797a63dab992ff6fafc98951a8eb1cc8d52a7aadd87e55d70a5d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fvod2live.univtec.com%2Fmanifest%2F89290956-94ab-4950-accb-a54bbd7e176f.m3u8#d57728e0ce15572ba6a4ea5ce61f210cde6f5390260ad3bb577cf63e57b56c04
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcloudvideo.servers10.com%3A8081%2Fimpactotv%2Findex.m3u8#c9934af4a5d4674b3fe9a680d853c783cce939cb2de998eff9e3053dadf5bf24
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstreamunoapp.com%3A3149%2Flive%2Falegretvlive.m3u8#d8193c56bf7f992f6d87786cfe148fb8a3d46f0a101c7d2a6e0f0577d55a62ac
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstream.solmediaeg.com%2Fsoltv%2Fsoltv.m3u8#9aec539f0e35cdc21ba9a5c937faf1744cf3a9d093cf94ceac0293c3e1e0e655
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcloud2.streaminglivehd.com%3A1936%2Funiversfaller%2Funiversfaller%2Fplaylist.m3u8#f23e13888104575ce9f27137c20f2929344d99722bf1335e5fbd0e9dcfdf6428
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2Feu1.servers10.com%3A8081%2F8116%2Findex.m3u8#a66a7a3ccb4dbb205181aaf5ef94cfb3f44e801e80e77e2b1033ab373c3d8cb0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Channel
+http://eja.tv/?https%3A%2F%2F5790d294af2dc.streamlock.net%2Flatinostv%2Flatinostv%2Fplaylist.m3u8#4ed7fe99579abef209fd70b16a22e40d0ec2affacca021b9a3d58f2db0df71b5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="news",Channel
+http://eja.tv/?https%3A%2F%2Fverginanews.gr%3A8443%2Fhls_live%2Fstream1.m3u8#705bcfa3ab968b4f441db735542a878676b554dd7aad2807815761685ed5b71a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
+http://eja.tv/?https%3A%2F%2F2-fss-1.streamhoster.com%2Fpl_154%2Famlst%3A205448-2145652%2Frightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",Channel
+http://eja.tv/?https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Frightnowtv_720p%2Fplaylist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2Flivestar.siliconweb.com%2Fstarvod%2Fstar4%2Fstar4.m3u8#1a43a1d92fd46113765e8b13b226ccc69b42e93b5ff77ce38489fea203bea9de
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fedge17.vedge.infomaniak.com%2Flivecast%2Fik%3Acompack_media_1%2Fplaylist.m3u8#61d8a8862dfac13dc03b9035b498f6102b6779aff0451c449b9c1e2640c35e99
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fhls.oxir.live%2Fhls%2Fstream.m3u8#c49bb0a93661e40cb625826c77388e6f0343392871d95db32f7f7f829dce916b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg01076-lightningintern-petclub-samsungnz%2Fplaylist.m3u8#97e7a6395e7ef383d8fb074e9d5e8498b38a312e8e6587d25532aea7171f6e40
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fonefmhd.vedge.infomaniak.com%2Flivecast%2Fik%3Aonefmhd%2Fmanifest.m3u8#f8603afd8170b030a3bab6b19aad9cb9417762116e2dd432dda6df391f99256a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fwdrfs247.akamaized.net%2Fhls%2Flive%2F681509%2Fwdr_msl4_fs247%2Findex.m3u8#db874a9ee46831c89af2d763280a8c502dc9cbde9dce9c6858c828f0f09aa5aa
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fc9851ec-rbm-hilv-fsly.cdn.redbee.live%2FL22%2F6d35e26e%2F1bffdaaf.isml%2F.m3u8#e6930d8b143482aba69a2e23d309e29ba0ff821ff253b833b6b47de89d276cc9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fitnhls.wns.live%2Fhls%2Fstream.m3u8#e5d548c9816b79205e6624a8d5d13f0241cdd5bd330a39f7575f27a4ff886a80
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fdash4.antik.sk%2Flive%2Ftest_kabel_eins_tizen%2Fplaylist.m3u8#62dd9e649ba382aafd4119f268690a5063ea113ae474a26025429d02ebead78f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flfmhd.vedge.infomaniak.com%2Flivecast%2Flfmhd%2Fplaylist.m3u8#8d851ebba60e3f7abdff57afcededa7fabc3eaafc1b60eae6b949e63787d62d9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flfmmd.vedge.infomaniak.com%2Flivecast%2Fik%3Acarac5%2Fmanifest.m3u8#6bfbc2b5146b9fe19ef235e6a52cbbbab387189605b09b6cf47687c7c3e247e9
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive.yourtime.tv%2Fhls%2Fstream.m3u8#179c2e407aa62a64a1c3ff00ae7190a489be568123949cb707553f9b63b2a363
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstream.agatin.hr%3A3727%2Flive%2Ftvnovalive.m3u8#3dea0caaaf960dcfd2f2265fbbdb8a120fdf5d01249c8dcd48c4e4260a0312a5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fbsmbialogard.pl%2Flive%2Findex.m3u8#e84fe15ca24762803cd10001a3c72f796546e420a13e299f6385fe213bdd5b31
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fturkhls.persiana.live%2Fhls%2Fstream.m3u8#a607efbc3d033688bf01475a0e313d7f080ffe517aaa83f2f2d6f2efb39fc45e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flfmmd.vedge.infomaniak.com%2Flivecast%2Fsmil%3Alfmmd.smil%2Fmanifest.m3u8#f016c54832e4873dc37c89046d1d7668f0285900199c412ae50f59c7c359d8f2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstream14.polskieradio.pl%2Fpr4_video%2Fvideo_pr4.stream%2Fplaylist.m3u8#30f47b0c481f3c123e1791b8b64a91e2682aa365ec7b7c11e06aaf7c5aad8a74
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fonefmmd.vedge.infomaniak.com%2Flivecast%2Fik%3Aonefmmd%2Fmanifest.m3u8#006c7b3f5b85e739205c30f38b873595732aebd1d6f764a2ee8639a3c7fd808e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstreamer103.neterra.tv%2Fthisisbulgaria%2Flive.m3u8#6862ae209aa7398e9a0e1697a9fcaa9314fce699f95d9195f7f1571a614b1acc
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstmv1.srvif.com%2Floadingtv%2Floadingtv%2Fplaylist.m3u8#8928f13f6e491817683ddd05e7485da10b7cb150cec4d177699641269d579ece
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fhls.247box.live%2Fhls%2Fstream.m3u8#4e889d31cdfcfbb59c01d7b4ee9479e7fa4abb47347bb103ee994eed4da098ea
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FEducation%2FHLSv3-FTA%2FEducation.m3u8#b35c959e89b6747515710a13c75ebb09e360b5f7d7e49996e86774cbb823df2b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fdash2.antik.sk%2Flive%2Fkvartal_tv%2Fplaylist.m3u8#2799cce6bedca57ed6f5fc6b0ff14de6bf2d3ae45d6d48eb49f3d1a8a034f441
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fes1.crystalweb.net%3A1936%2Fnetmaxtv%2Fnetmaxtv%2Fplaylist.m3u8#bb6f737ffe04f77e4bf75fa588062619d9db241e59f40639414a3873520329ca
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2Ftvoetv.space%3A8080%2Ftvoetv%2Findex.m3u8#e0eccad424c07294d5e57485493e79c11ce5435de21bd19a4f3c1df44cd21b71
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FAsianBOX%2FHLSv3-FTA%2FAsianBOX.m3u8#0f2a65e3e1513626b45cbdf88ae5cd2df726018a9ef162ea08c390a821a9115b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fwdrfsww247.akamaized.net%2Fhls%2Flive%2F2009628%2Fwdr_msl4_fs247ww%2Fmaster.m3u8#df8bb3af95a77212e6cb4a15aa0a9aaecac97b8a73f02437198c7b4b44e538de
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Frotv.romediavalencia.com%3A3839%2Flive%2Frotvlive.m3u8#e1ef76018c9b0005bd7c2a5f04c88f4fc26258d5da9cff37a475248ffbe36398
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffreem3u.xyz%2Fapi%2Flive%2Fplay.m3u8%3Fvid%3D9901#b9f72d6ba674074c93cd135f1024da17b960618dfa655653740e818206c9d013
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftv.hiruhost.com%3A1936%2F8012%2F8012%2Fplaylist.m3u8#477c95cd7d8608d692cca52f76d503c2ff71b15496e804336910599e97e609ee
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcircle-xumo.amagi.tv%2Fplaylist.m3u8#3675dc45d521c2fbcd7b0a8cb1daf3df678b2405d70b7433a8a44337670ace5c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftvstreamcast.com%2Findonesiana.m3u8#7ac8846fda19c94f97cace96ab5ee61135cd3fb958850282308d730a6b918456
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcloudvideo.servers10.com%3A8081%2F8130%2Findex.m3u8#e5c93a0d56fbfe1213192f650c21d1bc1de47023f856199824e479f11748b92c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fplayer.tvstream.mx%2Flivestream%2Fteleplay%2Flivehd%2Fplaylist.m3u8#79cfc3f5ff7edbdf3ef6f28498bb27ba84bb66f3f7adb8d4b637c06e61db21ee
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fjanus.xpbroadcasting.com%3A8443%2Fhls%2Fxptv2.m3u8#fe2f01b23be11c15eb3a524758d5904eee1f8b9ad24c1f44d4a3c5eac811033f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fhls.4utv.live%2Fhls%2Fstream.m3u8#17de203d858346c7672ec39d72a68edeec9d10e24daaed81bd0e51b05e5f6d18
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcloudvideo.servers10.com%3A8081%2F8024%2Findex.m3u8#db9536d34e42745929ed5c0e06a59c4ed45dca912a02580662e5c53e21cfa58a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fkiev1-cdn.lanet.tv%2Flive%2F1008.m3u8#2d0765e08582406c65153abeb9edf6a4121462104a9fe8721f77372f74c7b6ad
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fmakrodigitaltv.makrodigital.com%2Fmakrodigitaltelevision%2Fiptv%2Fplaylist.m3u8#1ca619c9e69ea6bbb8b63dc7de0be6d9ca879344c410322d58c44b38c5b82206
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2Fnonghyup.flive.skcdn.com%2Fnonghyup%2F_definst_%2Fnhlive%2Fplaylist.m3u8#26eb0be013d5bca2ece742c71fd72f9b72c450b10f140ec251057b62af354e8f
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Finforedvos.lcdn.claro.net.co%2FContent%2FHLS_HLS_DIR%2FLive%2Fchannel%28REDMASHDWEB%29%2Fmaster.m3u8#de4c6706daff5d3ae41784ba105acded94839e05244dcc588d4c96b226ac9245
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2F5c483b9d1019c.streamlock.net%2F8054%2F8054%2Fplaylist.m3u8#ff6f64e379cc9d1c50099bf0053f1ac887f4d1b11cb5f753b8c94f47bfe36c14
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg00567-estrellamedia-estrellagames-distrotv%2Fplaylist.m3u8#3ad574b248469d7b2aed192f20edaeeeb9283c151ad9940bf28f86210cd9894c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftgn2.bozztv.com%2Famericateve%2Famericateve1%2Famericateve--1%2Fplaylist.m3u8#cedad58d41ac15e439d15f6dd5b4dfeba1bc530896d63b4423d3d97928da10af
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstreaming.televizor-24-tochka.ru%2Flive%2F38.m3u8#579c3ed219f3d9d54fa1e875704f9914f380ec15c04aff7a88270082e88c1449
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcircle-samsung.amagi.tv%2Fplaylist.m3u8#5780a6ae906247860c016e9420d436be9368f41f84c0eb23241f1173431d9cad
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn4.skygo.mn%2Flive%2Fdisk1%2FDreambox%2FHLSv3-FTA%2FDreambox.m3u8#ea5a45a6e797c912a529be47d655b304e2cc4554ff49e48494b954e93c58de50
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive-fi.tvkaista.net%2Fliv%2Flive.m3u8%3Fhd%3Dtrue#757412507b4d7ecfa613caa8778264d23a4be73731a28d025283957ae33c8b5e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2Fconnectiktv.ddns.net%3A5000%2Fplextv%2F%40plextv%2Fplaylist.m3u8#0ed6a0cc16abd6cc93ebc511e25db7ff5059cd8413deecdf7e51dc6748cfb5e4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2F62.1.176.18%3A8888%2Fextra%2Findex.m3u8#5478002c82d12ca5b884b2422d3447af72e98157a008bf9b1a1657a3717038cf
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fvs20.live.opencaster.com%2Fcanalpulpotv_bdeee6e2%2Findex.m3u8#6bfa446c4d8189e79c1d7a400fa2c6ef552c34ae266467fe2b6c8dab8770e67a
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2F92.114.85.87%3A8015%2Fplay%2Fa00a%2Findex.m3u8#9c65bd9d32c70ac15273975151279832f7263569e312a22f7ed80f8f0bf3d53e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fvs20.live.opencaster.com%2Fnortena933fm_00010364%2Findex.m3u8#227879c7f44e20e4eebb2a0b467d5cf4364462833bc9d0b034784338434294d4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive.lietuvosryto.tv%2Flive%2Fhls%2Feteris.m3u8#af94e19b36265bd4f33f60bb0845f649806f97bc6b42486d72b45aa139e7be79
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2F4.30.180.36%3A8420%2Ffx%2Findex.m3u8%3Ftoken%3Dtest#e251f8cfa12c2a0a0fe83dfc4c25eb096950165c657a579bb8567b5b1708bfd0
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fbozztv.com%2Fhwotta%2Fplaylist%2Fplaylist.m3u8#32f0879be5c0e8bd65de629a55490ae0b749df347756babda352ad89155270f3
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flive-fi.tvkaista.net%2Fjim%2Flive.m3u8%3Fhd%3Dtrue#5c60fda6f230ba9705d085412856477975e88c99ba7ad862f6d44f3e58a45269
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Frrr.sz.xlcdn.com%2F%3Faccount%3Dmceutv%26file%3Dmc2%26output%3Dplaylist.m3u8%26protocol%3Dhttps%26service%3Dwowza%26type%3Dlive#f50313e6800d0e86b52297de33b7419013f27316132baa2dc84e3e80bf478f4d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftv.beatfm.nl%2Flive.m3u8#01f4c4c0366477c0edb485d1cd1eda38c9bdfb9f46608abb1ab4a49349495b1d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fenterbcef94b.airspace-cdn.cbsivideo.com%2Fmaster.m3u8#425fbac567050bd0c4569e363c34d5271fcedd41d393b48d8d95d0e89c1f7783
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Facceso.mediosdecostarica.com%3A3192%2Fhybrid%2Fplay.m3u8#807a5e980c91976f183c249b6658794cdf5fefd2360edec6baa97c6bf817b7f2
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fseswa.bonce.tv%2Fhls%2Fbonceswa.m3u8#809d7e78d6cd575beaf094159a2b961fa8e8463503bab5c71dd78b298a0305c5
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fs.emisoras.tv%3A8081%2Fgirasoltv%2Findex.m3u8#d56e3bf77a157ae8b9cbd7d11e6a712c266b7f3ba104c8c6cca0c031dcb66712
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2F185.228.163.146%3A8000%2Fplay%2Fa01y%2Findex.m3u8#25267d3877af305fa6b30698a9e63414d4c633e7b6594cb4b4f40d79e666e46c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstream.eldo.lu%2Fdata%2Flive%2Ftele%2Feldotv%2F1080p.m3u8#cfcc26d7dc609781841dd326edda28367fed42c657d44beba33f2b19b2bc503e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcanal.gitelevisionserver.com%2Flive%2FDIEEFIh506fL8huspvl0f0c2PZF3%2Findex.m3u8#5d5434e93d806d5a26bf911abc1c4d484799cca2de0d9417441b2f212204f677
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstream8.cinerama.uz%2F1217%2Ftracks-v1a1%2Fplaylist.m3u8#b1cc11049f6bf2601471f7749965edf7e61134e22375935621c405ff0265c466
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2F59825a54e4454.streamlock.net%3A8443%2Fpapo351%2Fpapo351%2Fplaylist.m3u8#156a4255b77568483bb5e0d811112b20d0a3e59bad3907a7856ed20d54ed95e8
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Festrellatv-oando.amagi.tv%2Fplaylist.m3u8#aa1cc8459ce307aff676b91791b39de55e688238d8573e07b16e0f119c281d35
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fisaocorp.cloudecast.com%2Fngt%2Findex.m3u8#fad26124a5e5d4bd514cc098c64102d60353840acb89f27be081e0abc84f09f4
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ftimeline-samsung-uk.amagi.tv%2Fplaylist.m3u8#7f089c9fd8c45f903dabd8ca475d04637938b1d44f640b36b2053319f4d99136
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Feu1.servers10.com%3A8081%2F8072%2Findex.m3u8#5a530008c4cb85024a6ec6c19fae938086df734b8df798fb5a361528b0f946ea
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01438-ewscrippscompan-gritxtra-tablo%2Fplaylist.m3u8#58b2ae135f7bac7dc366d57a2e6c654243cfb02c7f2027ae1bf7c35608b9457e
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Flivetv.radyotvonline.net%2Fkanal7live%2Fkanal7avr%2Fplaylist.m3u8#dc35895a11fd92fd7e8642d9fa017cf460ee527ae53aea521c1a828beb33e318
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?http%3A%2F%2F23.237.104.106%3A8080%2FUSA_MTV%2Findex.m3u8#844153d26ee87faa6ee865f8a1fd4e237185ab071d8057dc6134fce001d82f03
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstreamtv12.ddns.net%3A5443%2FLiveApp%2Fstreams%2F193945633734205616732920.m3u8#ffdff264784d29a3af10c807144391368e6f7c70386344c1686b5a518a51d2ba
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fcopacogen.desdeparaguay.net%2Funiversotv%2Funiversotv_py_alta%2Fplaylist.m3u8%3Fadmin%3Dnacion#b4bcf85691943886f0a29794588df24ef19d830cc35f6e170b2eff191a6e1b55
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fstmv1.srvif.com%2Ftvcurucasp%2Ftvcurucasp%2Fplaylist.m3u8#6c042c9797a962fcd1e44fc464bac8328b510bf691246a921ce0925c7b544c5b
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Festrellatv-plex.amagi.tv%2Fplaylist.m3u8#61d4bb8f54f698c02c28f352f06b4042b497c1a33008913700cf77fc72cfdc8c
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Ffast-channels.sinclairstoryline.com%2FTHENEST%2Findex.m3u8#e7aa467bc21e13c844ecb140a63f39cc4553b39b1aaaff78e8e9cc834363d8ee
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fyta.unitedteleports.tv%2Fhls%2FYTA.m3u8#e8917337a270d56bf8a1b4b44bc6b9cf3b49030097364194c75cae227af6d2ec
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Forigin.dpsgo.com%2Fssai%2Fevent%2Fg7_JOM0ORki9SR5RKHe-Kw%2Fmaster.m3u8#82b28cebfb98e38bdbe1be96242cc6d51eaea79fe625d9857f66c702c6572e5d
+#EXTINF:-1 tvg-name="Channel" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Channel
+http://eja.tv/?https%3A%2F%2Fzabava-htlive.cdn.ngenix.net%2Fhls%2FCH_2X2%2Fvariant.m3u8#44a1530d96012e022c9ed7a1f05e1dc28cdddc44499a62305cfe7997b5772788
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Chinese
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8#187bd475eb50771056b345ad9e5b313f8f839e5dbfd296a60194eee49607c581
+#EXTINF:-1 tvg-name="Chinese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Chinese
+https://ec04-pop1-hlc.tv360.vn:443/bpk-token/g33igagxwcnabbnm2nttp5udaa3pnaya/bpk-tv/166/output/index.m3u8?bkm-query&auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJleHAiOjE3OTQ4NjIwNTAsCiAgImlzcyI6ImJrbSIsCiAgInZlciI6IjEuMCIsCiAgImlhdCI6MTc5NDg0MDMzMSwKICAic3IiOnsKICAgICAidmVyIjoiMi4wIiwKICAgICAic25hIjoiMTY2X0hMUyIsCiAgICAgInBuYSI6IlZpZXR0ZWwiLAogICAgICJybmEiOiIiLAogICAgICJwbiI6IlBPUC1ITi1QT1AxIiwKICAgICAiZW4iOiJFREdFLUhOLVBPUDEiLAogICAgICJjYyI6IlVTIiwKICAgICAicmMiOiJDQSIsCiAgICAgImFjbiI6IkNPUkUtSE4tUE9QMSIsCiAgICAgImlzcCI6Ik1pY3Jvc29mdCBBenVyZSIsCiAgICAgImFzbiI6IjgwNzUiLAogICAgICJ2cyI6IkJLUzQwMC1QT1AxLTA0XzE3Mi4yNC4xNy43OjIwMDAwIiwKICAgICAibnQiOiJPVFQiLAogICAgICJ0dHAiOjAsCiAgICAgInBsaWQiOiIiLAogICAgICJwdWlkIjoiIiwKICAgICAidGVpZCI6IiIKICB9LAogICJvdCI6ewogICAgICJ0cyI6MTc5NDg0MDMzMSwKICAgICAidXJsIjoiL2Jway10di8xNjYvb3V0cHV0L2luZGV4Lm0zdTg_bWlucmF0ZT0wJm1heHJhdGU9MTIwMDAwMDAiLAogICAgICJ0b2siOiJnMzNpZ2FneHdjbmFiYm5tMm50dHA1dWRhYTNwbmF5YSIsCiAgICAgImV4dCI6IiIsCiAgICAgImNpcCI6IjUyLjIyNS4zNS4xMTkiLAogICAgICJjaGsiOiBmYWxzZSwKICAgICAic3R0IjoiTk8iLAogICAgICJkc2NwIjowLAogICAgICJzdiI6ewogICAgICAgICJpZCI6IjE2Nl9ITFMiLAogICAgICAgICJ0eXAiOiJMSVZFIgogICAgIH0sCiAgICAgInRvIjp7CiAgICAgICAgCiAgICAgICAgIAogICAgICAgICJzdSI6MCwKICAgICAgICAicmMiOjE1MAogICAgIH0sCiAgICAgImxheSI6IHsKICAgICAgImxzdCI6W10sCiAgICAgICJtYXgiOjEyMDAwMDAwLAogICAgICAibWluIjowCiAgICAgfSwKICAgICAicnNoIjowLAogICAgICJyc2hwIjoxMDAsCiAgICAgIm9iZiI6ZmFsc2UsCiAgICAgInRhZ3MiOnt9CiAgfQp9.jUyaT0OQBjuLLhI5Q3ZK0b08mzyDC_KN5PGw4uFMYrY#b9f72d6ba674074c93cd135f1024da17b960618dfa655653740e818206c9d013
+#EXTINF:-1 tvg-name="Croatian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Croatian
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8#3dea0caaaf960dcfd2f2265fbbdb8a120fdf5d01249c8dcd48c4e4260a0312a5
+#EXTINF:-1 tvg-name="Dutch" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Dutch
+https://tv.beatfm.nl/live.m3u8#01f4c4c0366477c0edb485d1cd1eda38c9bdfb9f46608abb1ab4a49349495b1d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://fast-channels.sinclairstoryline.com/TBD/index.m3u8#f053390704063dce3ff5fb5c2a3658132de3b9c28fd5187485c93dde5f68d505
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",English
+https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8#bf78e6066729beb383dad350e542a7ebbf663bcb2070c82d6962738d2adb3971
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",English
+http://38.96.178.205/SONYHD/index.m3u8#43f387941892083ea649fbb0ca7f38417f71250620b412d7d7af4a354102ec3b
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",English
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://185.227.34.179:8080/axn-white/index.m3u8#d37e9a3d04c57cf4c97be73a2e6bf653ace72521e6d90208a186ae5ab1ee2bfb
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8#d93ff3c586e9bccdfced8663cee3a76d2ef08418f36103ac0018e820482faed1
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://30a-tv.com/gh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://4.30.180.36:8420/metv/index.m3u8?token=test#940c0f679edaa640fe98bb962b275593db3f100851d977361e793ed35c454fac
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8#b169f91a854e3c24419f7b7dd8770ffa459ca4a81fc6bb5c32aa6cfa666b9c3f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8#92b6cb006952b56e52a197206d38e605ae2ca3594b7af4715c919beaef67de3f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8#cb4c562e325d1d8f5229b3f5481ad1a84fd4ffd3bf96ddf978853f021c60529c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://oitnhls.wns.live/hls/stream.m3u8#b9bb8add6971fb568f61b4fc9486c4f9e577a7d107fd448620529b9785999a6f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amg01438-ewscrippscompan-bouncexl-tablo-6s9me.amagi.tv/playlist/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8#85dca0c1af9f89b53ff92c08927ccd1ca29bb8ec73e162c3ff3b49ae7e1b2fef
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",English
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/f90c42a3-bea5-4791-8fdd-daceb8096129:MRN2/master.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://fast-channels.sinclairstoryline.com/COMET/index.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+http://65.36.6.216:1935/live/kcwx.smil/playlist.m3u8#8a2752ddd084f821e9691027390babba1e611a7ff259ec455963e13953c95689
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",English
+https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8#a88a2f91d6af0b155dcd4851922efbe4106efdf5eb624e1f99faad8cf0c73f9e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Entertainment",English
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Entertainment",English
+https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8#b63b88709000bcefd144801acae041bc70540ecc0e3eafe4b0dd73ed06cae5b6
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Entertainment",English
+https://d3c1w351ahk83d.cloudfront.net/scheduler/scheduleMaster/416.m3u8#f34dcb20d06ec5c903739f29bafeb36ce0360957e93debe0b31841ab9ffde4e9
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
+https://2-fss-1.streamhoster.com/pl_154/amlst:205448-2145652/rightnowtv.m3u8#5000e6f7d8e724b69e0dd16736ddfb312142f229cb24e96f03881a9a63bcb58e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="sports",English
+https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8#bb3ddceae44381a58a0acb257267aa4f78b4f3260f5bb6ce8ae74861ac0adb1c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://circle-xumo.amagi.tv/playlist.m3u8#3675dc45d521c2fbcd7b0a8cb1daf3df678b2405d70b7433a8a44337670ace5c
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8#fe2f01b23be11c15eb3a524758d5904eee1f8b9ad24c1f44d4a3c5eac811033f
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://circle-samsung.amagi.tv/playlist.m3u8#5780a6ae906247860c016e9420d436be9368f41f84c0eb23241f1173431d9cad
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+http://92.114.85.87:8015/play/a00a/index.m3u8#9c65bd9d32c70ac15273975151279832f7263569e312a22f7ed80f8f0bf3d53e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://bozztv.com/hwotta/playlist/playlist.m3u8#32f0879be5c0e8bd65de629a55490ae0b749df347756babda352ad89155270f3
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+http://4.30.180.36:8420/fx/index.m3u8?token=test#e251f8cfa12c2a0a0fe83dfc4c25eb096950165c657a579bb8567b5b1708bfd0
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8#425fbac567050bd0c4569e363c34d5271fcedd41d393b48d8d95d0e89c1f7783
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://timeline-samsung-uk.amagi.tv/playlist.m3u8#7f089c9fd8c45f903dabd8ca475d04637938b1d44f640b36b2053319f4d99136
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://amg01438-ewscrippscompan-gritxtra-tablo-3nzsr.amagi.tv/playlist/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8#58b2ae135f7bac7dc366d57a2e6c654243cfb02c7f2027ae1bf7c35608b9457e
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+http://23.237.104.106:8080/USA_MTV/index.m3u8#844153d26ee87faa6ee865f8a1fd4e237185ab071d8057dc6134fce001d82f03
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8#e7aa467bc21e13c844ecb140a63f39cc4553b39b1aaaff78e8e9cc834363d8ee
+#EXTINF:-1 tvg-name="English" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",English
+https://yta.unitedteleports.tv/hls/YTA.m3u8#e8917337a270d56bf8a1b4b44bc6b9cf3b49030097364194c75cae227af6d2ec
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",French
+https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8#1c291fc856e8b46b18b206b5760146947194f89d4b226fc6e4ef788b1a3885bc
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8#e6930d8b143482aba69a2e23d309e29ba0ff821ff253b833b6b47de89d276cc9
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8#61d8a8862dfac13dc03b9035b498f6102b6779aff0451c449b9c1e2640c35e99
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge13.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8#f8603afd8170b030a3bab6b19aad9cb9417762116e2dd432dda6df391f99256a
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge16.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8#6bfbc2b5146b9fe19ef235e6a52cbbbab387189605b09b6cf47687c7c3e247e9
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge14.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8#8d851ebba60e3f7abdff57afcededa7fabc3eaafc1b60eae6b949e63787d62d9
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge12.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8#f016c54832e4873dc37c89046d1d7668f0285900199c412ae50f59c7c359d8f2
+#EXTINF:-1 tvg-name="French" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",French
+https://edge17.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8#006c7b3f5b85e739205c30f38b873595732aebd1d6f764a2ee8639a3c7fd808e
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",German
+https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8#c4911372dd0ec28729c6427dcc4df468420c623a70ff172823d0626792f8857e
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",German
+https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8#62dd9e649ba382aafd4119f268690a5063ea113ae474a26025429d02ebead78f
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",German
+https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8#db874a9ee46831c89af2d763280a8c502dc9cbde9dce9c6858c828f0f09aa5aa
+#EXTINF:-1 tvg-name="German" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",German
+https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8#df8bb3af95a77212e6cb4a15aa0a9aaecac97b8a73f02437198c7b4b44e538de
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Greek
+https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8#b1297f8c0749aee7fb78ca50a575ccdc3663654e5e7b64c81bd6f323a19f691f
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="news",Greek
+https://verginanews.gr:8443/hls_live/stream1.m3u8#705bcfa3ab968b4f441db735542a878676b554dd7aad2807815761685ed5b71a
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Greek
+http://livestar.siliconweb.com/starvod/star4/star4.m3u8#1a43a1d92fd46113765e8b13b226ccc69b42e93b5ff77ce38489fea203bea9de
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Greek
+https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8#bb6f737ffe04f77e4bf75fa588062619d9db241e59f40639414a3873520329ca
+#EXTINF:-1 tvg-name="Greek" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Greek
+http://62.1.176.18:8888/extra/index.m3u8#5478002c82d12ca5b884b2422d3447af72e98157a008bf9b1a1657a3717038cf
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://epiconvh.akamaized.net/live/epic/master.m3u8#96235fc303f37b6d138ae56829ef736e9d7c63907e628db03d5690e11a1628e4
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8#a2b72b33550a4013226bd31336daa0847e2f2eb0c779bac7672bbd4872663540
+#EXTINF:-1 tvg-name="Hindi" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Hindi
+https://live-dangal2.akamaized.net/liveabr/playlist.m3u8#8b2da1283deae37c7ed44549441009ce4417179e8a1617b0aa4f8f4a00a73911
+#EXTINF:-1 tvg-name="Indonesian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Indonesian
+https://tvstreamcast.com/indonesiana.m3u8#7ac8846fda19c94f97cace96ab5ee61135cd3fb958850282308d730a6b918456
 #EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Italian
-https://dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8#eab23adf11c33040ffb0498472ee3eb42bcd30a7c640d831bc16961f2f929bd8
-#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Music",Persian
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
+https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8#3189ce034bfadc722833f6e7cc29693eba19d818fcbf5b853c5525d257203f02
+#EXTINF:-1 tvg-name="Italian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Italian
+https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8#8f37048a7892ea7da5b498bccdfceacb97e45e1dc3d2b95bebbb69e8829d6da4
+#EXTINF:-1 tvg-name="Korean" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Korean
+http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8#26eb0be013d5bca2ece742c71fd72f9b72c450b10f140ec251057b62af354e8f
+#EXTINF:-1 tvg-name="Lithuanian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Lithuanian
+https://live.lietuvosryto.tv/live/hls/eteris.m3u8#af94e19b36265bd4f33f60bb0845f649806f97bc6b42486d72b45aa139e7be79
+#EXTINF:-1 tvg-name="Luxembourgish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Luxembourgish
+https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8#cfcc26d7dc609781841dd326edda28367fed42c657d44beba33f2b19b2bc503e
+#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Malayalam
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8#2b59f0762c414b2577f0e32335b40b2d30712f8593443f54496ff26d045449a6
+#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Malayalam
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8#020ec398585387669ab5d6e67f466649f6f51bffaa27f7e5ad98a355317a35d2
+#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Malayalam
+https://ddash74r36xqp.cloudfront.net/master.m3u8#4e24d4f807009a82b0aeac6ca171bc98f0e65f493571d1b506e68df987f2ba08
+#EXTINF:-1 tvg-name="Malayalam" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Malayalam
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8#d5373f2c45732660580b91a473fc0062419c20c986d356db263f1643ce7a5b73
+#EXTINF:-1 tvg-name="Panjabi" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Panjabi
+https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8#1d24a3efbcbb06f49da36c6db15f9980c9490c6b67316d416d21144a44a5d23e
+#EXTINF:-1 tvg-name="Papiamento" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Papiamento
+https://seswa.bonce.tv/hls/bonceswa.m3u8#809d7e78d6cd575beaf094159a2b961fa8e8463503bab5c71dd78b298a0305c5
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Persian
+https://fxtvhls.wns.live/hls/stream.m3u8#9dd1e89a06b31230ddceaf2f040b61692b12b61852bed2ee9f6e1c73c0c3d802
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Persian
+https://hls.mbcpersia.live/hls/stream.m3u8#05fb070a9a3eefb969d888408f97f4bc07e632c364b5be2feb421a92535c3b2a
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Persian
+https://toonixhls.wns.live/hls/stream.m3u8#56afa399417f2d92fdde32d4c3c7bdfe684b5460959e3fa38edcd3672307105f
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Persian
+https://hls.oxir.live/hls/stream.m3u8#c49bb0a93661e40cb625826c77388e6f0343392871d95db32f7f7f829dce916b
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Persian
+https://itnhls.wns.live/hls/stream.m3u8#e5d548c9816b79205e6624a8d5d13f0241cdd5bd330a39f7575f27a4ff886a80
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Persian
+https://live.yourtime.tv/hls/stream.m3u8#179c2e407aa62a64a1c3ff00ae7190a489be568123949cb707553f9b63b2a363
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Persian
+https://hls.247box.live/hls/stream.m3u8#4e889d31cdfcfbb59c01d7b4ee9479e7fa4abb47347bb103ee994eed4da098ea
+#EXTINF:-1 tvg-name="Persian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Persian
+https://hls.4utv.live/hls/stream.m3u8#17de203d858346c7672ec39d72a68edeec9d10e24daaed81bd0e51b05e5f6d18
+#EXTINF:-1 tvg-name="Polish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Polish
+https://bsmbialogard.pl/live/index.m3u8#e84fe15ca24762803cd10001a3c72f796546e420a13e299f6385fe213bdd5b31
+#EXTINF:-1 tvg-name="Polish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Polish
+https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8#30f47b0c481f3c123e1791b8b64a91e2682aa365ec7b7c11e06aaf7c5aad8a74
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Portuguese
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8#8928f13f6e491817683ddd05e7485da10b7cb150cec4d177699641269d579ece
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Portuguese
+https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8#ff6f64e379cc9d1c50099bf0053f1ac887f4d1b11cb5f753b8c94f47bfe36c14
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Portuguese
+https://isaocorp.cloudecast.com/ngt/index.m3u8#fad26124a5e5d4bd514cc098c64102d60353840acb89f27be081e0abc84f09f4
+#EXTINF:-1 tvg-name="Portuguese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Portuguese
+https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8#6c042c9797a962fcd1e44fc464bac8328b510bf691246a921ce0925c7b544c5b
+#EXTINF:-1 tvg-name="Romanian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Romanian
+https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8#e1ef76018c9b0005bd7c2a5f04c88f4fc26258d5da9cff37a475248ffbe36398
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Russian
+http://tvoetv.space:8080/tvoetv/index.m3u8#e0eccad424c07294d5e57485493e79c11ce5435de21bd19a4f3c1df44cd21b71
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Russian
+https://streaming.televizor24.cc/live/38.m3u8#579c3ed219f3d9d54fa1e875704f9914f380ec15c04aff7a88270082e88c1449
+#EXTINF:-1 tvg-name="Russian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Russian
+https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8#44a1530d96012e022c9ed7a1f05e1dc28cdddc44499a62305cfe7997b5772788
+#EXTINF:-1 tvg-name="Sinhala" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Sinhala
+https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8#477c95cd7d8608d692cca52f76d503c2ff71b15496e804336910599e97e609ee
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8#8d7c0c6d5ece57b5298eae5285b95f63e34ff84cccd0b62ef082e1ef5b5a9fb3
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8#a5dfe7cd3b2b63bf7b4e470f6de6e9fee440ada4bcf6eabad5b479fd1cffd85a
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8#888fd0fbf8d57e5b38510e14111971323e6cb57a1f31b2d381413e2dffe20ce6
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8#f0f9d8e89c2106a768986d5ab28a51b1940e4c6be1f6b446bbe661acac57543c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8#157a7614cefce5ea245b701b1b8738df6f4bae5e07dbfa1295eacadfce30de1d
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://live.gideo.video/americateve2/master.m3u8#9eb02bec4757797a63dab992ff6fafc98951a8eb1cc8d52a7aadd87e55d70a5d
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8#d57728e0ce15572ba6a4ea5ce61f210cde6f5390260ad3bb577cf63e57b56c04
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://cloudvideo.servers10.com:8081/impactotv/index.m3u8#c9934af4a5d4674b3fe9a680d853c783cce939cb2de998eff9e3053dadf5bf24
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://stream.solmediaeg.com/soltv/soltv.m3u8#9aec539f0e35cdc21ba9a5c937faf1744cf3a9d093cf94ceac0293c3e1e0e655
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://streamunoapp.com:3149/live/alegretvlive.m3u8#d8193c56bf7f992f6d87786cfe148fb8a3d46f0a101c7d2a6e0f0577d55a62ac
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8#f23e13888104575ce9f27137c20f2929344d99722bf1335e5fbd0e9dcfdf6428
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8#4ed7fe99579abef209fd70b16a22e40d0ec2affacca021b9a3d58f2db0df71b5
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Spanish
+https://eu1.servers10.com:8081/8116/index.m3u8#a66a7a3ccb4dbb205181aaf5ef94cfb3f44e801e80e77e2b1033ab373c3d8cb0
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://player.tvstream.mx/livestream/teleplay/livehd/playlist.m3u8#79cfc3f5ff7edbdf3ef6f28498bb27ba84bb66f3f7adb8d4b637c06e61db21ee
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://cloudvideo.servers10.com:8081/8130/index.m3u8#e5c93a0d56fbfe1213192f650c21d1bc1de47023f856199824e479f11748b92c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://amg00567-estrellamedia-estrellagames-distrotv-6okbz.amagi.tv/playlist/amg00567-estrellamedia-estrellagames-distrotv/playlist.m3u8#3ad574b248469d7b2aed192f20edaeeeb9283c151ad9940bf28f86210cd9894c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8#1ca619c9e69ea6bbb8b63dc7de0be6d9ca879344c410322d58c44b38c5b82206
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://cloudvideo.servers10.com:8081/8024/index.m3u8#db9536d34e42745929ed5c0e06a59c4ed45dca912a02580662e5c53e21cfa58a
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel%28REDMASHDWEB%29/master.m3u8#de4c6706daff5d3ae41784ba105acded94839e05244dcc588d4c96b226ac9245
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://tgn2.bozztv.com/americateve/americateve1/americateve--1/playlist.m3u8#cedad58d41ac15e439d15f6dd5b4dfeba1bc530896d63b4423d3d97928da10af
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8?token=STFbf%2FYRnXvr3JyWVpigh3dn4SFM09dy3jDiFvyCjjg%3D#6bfa446c4d8189e79c1d7a400fa2c6ef552c34ae266467fe2b6c8dab8770e67a
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://s.emisoras.tv:8081/girasoltv/index.m3u8#d56e3bf77a157ae8b9cbd7d11e6a712c266b7f3ba104c8c6cca0c031dcb66712
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8#5d5434e93d806d5a26bf911abc1c4d484799cca2de0d9417441b2f212204f677
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8#807a5e980c91976f183c249b6658794cdf5fefd2360edec6baa97c6bf817b7f2
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://estrellatv-oando.amagi.tv/playlist.m3u8#aa1cc8459ce307aff676b91791b39de55e688238d8573e07b16e0f119c281d35
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://eu1.servers10.com:8081/8072/index.m3u8#5a530008c4cb85024a6ec6c19fae938086df734b8df798fb5a361528b0f946ea
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://estrellatv-plex.amagi.tv/playlist.m3u8#61d4bb8f54f698c02c28f352f06b4042b497c1a33008913700cf77fc72cfdc8c
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://sesion.desdeparaguay.net/hls/playlist.m3u8#b4bcf85691943886f0a29794588df24ef19d830cc35f6e170b2eff191a6e1b55
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://dai.google.com/linear/hls/pa/event/g7_JOM0ORki9SR5RKHe-Kw/stream/663c1ee7-418a-4463-8c62-65a1c1b202ad:TUL/master.m3u8#82b28cebfb98e38bdbe1be96242cc6d51eaea79fe625d9857f66c702c6572e5d
+#EXTINF:-1 tvg-name="Spanish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Spanish
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8#ffdff264784d29a3af10c807144391368e6f7c70386344c1686b5a518a51d2ba
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Tamil
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
+#EXTINF:-1 tvg-name="Tamil" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Tamil
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8#ccca3d0dab7838bde0dce515d0597ffa19e1d78984d6b76a2433797fd8d9f77d
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Telugu
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Telugu
+https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Telugu
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
+#EXTINF:-1 tvg-name="Telugu" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Telugu
+https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8#bf0f320ad99f1accba0dc347dd21aaf417d23d93c20c41919a49875d59fe8502
+#EXTINF:-1 tvg-name="Turkish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Turkish
+https://turkhls.persiana.live/hls/stream.m3u8#a607efbc3d033688bf01475a0e313d7f080ffe517aaa83f2f2d6f2efb39fc45e
+#EXTINF:-1 tvg-name="Turkish" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Turkish
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8#dc35895a11fd92fd7e8642d9fa017cf460ee527ae53aea521c1a828beb33e318
+#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Ukrainian
+https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8#2799cce6bedca57ed6f5fc6b0ff14de6bf2d3ae45d6d48eb49f3d1a8a034f441
+#EXTINF:-1 tvg-name="Ukrainian" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Ukrainian
+https://kiev1-cdn.lanet.tv/live/1008.m3u8#2d0765e08582406c65153abeb9edf6a4121462104a9fe8721f77372f74c7b6ad
+#EXTINF:-1 tvg-name="Uzbek" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Uzbek
+https://stream8.cinerama.uz/1217/tracks-v1a1/playlist.m3u8#b1cc11049f6bf2601471f7749965edf7e61134e22375935621c405ff0265c466
+#EXTINF:-1 tvg-name="Yue Chinese" tvg-logo="" tvg-country="" tvg-language="" group-title="entertainment",Yue Chinese
+https://amg01076-lightningintern-petclub-samsungnz-g6424.amagi.tv/playlist/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8#97e7a6395e7ef383d8fb074e9d5e8498b38a312e8e6587d25532aea7171f6e40
