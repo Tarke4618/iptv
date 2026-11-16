@@ -1,0 +1,9 @@
+{
+  "max_channels_per_query": 250,
+  "verify_streams": true,
+  "scrape_all_filters": false,
+  "countries": ["in", "us", "gb", "ca", "au"],
+  "languages": ["English", "Hindi", "Telugu", "Tamil", "Spanish"],
+  "categories": ["News", "Sports", "Movies", "Entertainment", "Documentary", "Music"],
+  "custom_searches": ["cricket", "discovery", "national geographic", "cartoon"]
+}
