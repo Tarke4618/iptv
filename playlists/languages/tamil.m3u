@@ -1,1 +1,161 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="7s.music" tvg-name="7S Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",7S Music
+https://cdn.pishow.tv/ott/live/1257/master.m3u8#6416cd97745b07993428a06226fbd96d4de2177420165af853ef7fdcd4cbb0b8
+#EXTINF:-1 tvg-id="aaryaa.tv" tvg-name="Aaryaa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aaryaa TV
+https://stream.ottlive.co.in/aryatvtamil/index.m3u8#1b75e22045ea4754d0221845d3bede26caf7fc9f45c786b4a5f97465c2844700
+#EXTINF:-1 tvg-id="aaseervatham.tv" tvg-name="Aaseervatham TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aaseervatham TV
+https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8#95173e698a86ad435ac0dbbc8320048430a8adef0f541623a1307e582ce2cb7f
+#EXTINF:-1 tvg-id="aastha.tamil" tvg-name="Aastha Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aastha Tamil
+https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8#36c74a1afa9e139d81b279ea9404558eee914aad5e4447c531a2c5d2c729ad28
+#EXTINF:-1 tvg-id="aathavan.tv" tvg-name="Aathavan TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Tamil" group-title="🇬🇧 United Kingdom",Aathavan TV
+https://oj7lnxonyg82-hls-live.5centscdn.com/uks/24263a839810d2041a349baaeef36a79.sdp/playlist.m3u8#ab40fd9625adfc336079ad0e518825c56983e907dfa91faa76d46985c4f0ed01
+#EXTINF:-1 tvg-id="angel.tv" tvg-name="Angel TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Portuguese, Russian, Spanish, English, Tamil, Chinese, Hebrew, Indonesian" group-title="🇮🇳 India",Angel TV
+https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8#661ee5cf9fdfd26afa822d7522e55e7aa7344d4f44fcb23da23d0f1a248bcefd
+#EXTINF:-1 tvg-id="angel.tv.africa" tvg-name="Angel TV Africa" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Russian, Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese" group-title="🇮🇳 India",Angel TV Africa
+https://janya-digimix.akamaized.net/vglive-sk-904559/africa/ngrp:angelafrica_all/playlist.m3u8#b546b88c03a94f7f586c091864d72ed8a001d121f249d1fe271f9efcb97f3a0e
+#EXTINF:-1 tvg-id="angel.tv.america" tvg-name="Angel TV America" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV America
+https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8#7a99b1110598149e67ac4057c2dd51719e121c107ce1d02e39ebd7a57ccea9f3
+#EXTINF:-1 tvg-id="angel.tv.arabia" tvg-name="Angel TV Arabia" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish" group-title="🇮🇳 India",Angel TV Arabia
+https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8#01f35e6210fe00c510209ffdf8fbad8b854869012438bf3bfce750d1d23df532
+#EXTINF:-1 tvg-id="angel.tv.australia" tvg-name="Angel TV Australia" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English" group-title="🇮🇳 India",Angel TV Australia
+https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8#202d9742c84ce4a5c891829b8e4353d2dad88f5efc6222803ac09e569fe4c0b4
+#EXTINF:-1 tvg-id="angel.tv.chinese" tvg-name="Angel TV Chinese" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV Chinese
+https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8#154830c81b0d3e2b97e4ff16d86b2b1b045f6d645319cb2c0f520ce7e79dab69
+#EXTINF:-1 tvg-id="angel.tv.europe" tvg-name="Angel TV Europe" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV Europe
+https://janya-digimix.akamaized.net/vglive-sk-512011/europe/ngrp:angeleurope_all/playlist.m3u8#9f4fe5d93f3ab2555c0434f4cf605dcbf6ee8b219b4598b138493530e42996c7
+#EXTINF:-1 tvg-id="angel.tv.fareast" tvg-name="Angel TV FarEast" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Russian, Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese" group-title="🇮🇳 India",Angel TV FarEast
+https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8#c35fb1d6f068db1710e955e48274df78956d640497a6a636d656e7026bb26ef7
+#EXTINF:-1 tvg-id="angel.tv.hebrew" tvg-name="Angel TV Hebrew" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English" group-title="🇮🇳 India",Angel TV Hebrew
+https://janya-digimix.akamaized.net/vglive-sk-150533/hebrew/ngrp:angelhebrew_all/playlist.m3u8#1733f23db4dc5b012ba7f6102efe6f1fa6aa63f32dffd3bf4e6a72fff1277c5b
+#EXTINF:-1 tvg-id="angel.tv.indo.china" tvg-name="Angel TV Indo-China" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian" group-title="🇮🇳 India",Angel TV Indo-China
+https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8#9693fd2f194a57a48490edb89a7354cdfb0b8c294619fd718a33de7fdfda1235
+#EXTINF:-1 tvg-id="angel.tv.nepal" tvg-name="Angel TV Nepal" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Chinese, Indonesian, Russian, Hebrew, Nepali, Portuguese, Spanish, English" group-title="🇮🇳 India",Angel TV Nepal
+https://janya-digimix.akamaized.net/vglive-sk-109639/nepali/ngrp:angelnepali_all/playlist.m3u8#a8510c44bce4d2ba282a893a6ae86a10b28a0264323632e3f239553c61ee71e6
+#EXTINF:-1 tvg-id="arputhar.yesu.tv" tvg-name="Arputhar Yesu TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Arputhar Yesu TV
+https://account33.livebox.co.in/jesushelpshls/live.m3u8#35c4c869af1ea7abc748cd0895f6056983be22542136f582eb91da5c91fbaf90
+#EXTINF:-1 tvg-id="chithiram" tvg-name="Chithiram" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Chithiram
+https://cdn.pishow.tv/ott/live/1243/master.m3u8#f78382c20391ce9eadb35c2550bc4cdbb9a5e0561b0221d7ac547bc7b2ac777d
+#EXTINF:-1 tvg-id="colors.tamil.hd" tvg-name="Colors Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Entertainment",Colors Tamil HD
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8#ccca3d0dab7838bde0dce515d0597ffa19e1d78984d6b76a2433797fd8d9f77d
+#EXTINF:-1 tvg-id="dd.sports" tvg-name="DD Sports" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Sign Languages, Telugu, Hindi, English, Tamil, Kannada, Bengali, Bhojpuri" group-title="Sports",DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8#4cef34067f5efd1ce369f684af3bde2d0cd97013a3a6f791f49f7bc17f5c347b
+#EXTINF:-1 tvg-id="dd.tamil.hd" tvg-name="DD Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",DD Tamil HD
+https://cdn.pishow.tv/ott/live/1737/master.m3u8#5bf3caeac45b69cbdbd5832b79c2c28cb4f0dcc32eb07fb20215f894765dcb1a
+#EXTINF:-1 tvg-id="dharsan.tv" tvg-name="Dharsan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Dharsan TV
+https://galaxyott.live/live/dharshantv/index.m3u8#26a030c334e22177fa5ecedffa368ec1b43fad5194581b08ad74b636f8760955
+#EXTINF:-1 tvg-id="dhool.tv" tvg-name="Dhool TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Dhool TV
+https://d1msejlow1t3l4.cloudfront.net/fta/subhartitv/playlist.m3u8#e354a6a50a604338a326a73a33571a75b240707bc6e2d806554f4ac7fadd8bdc
+#EXTINF:-1 tvg-id="epic.kids.digital" tvg-name="Epic Kids Digital" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English, Tamil, Telugu" group-title="🇮🇳 India",Epic Kids Digital
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
+#EXTINF:-1 tvg-id="hebron.tv" tvg-name="Hebron TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Hebron TV
+https://account20.livebox.co.in/charleshls/live.m3u8#16a74cd25bfe21f2a4eb1ab69172ce970934869648d33e9410ecb7829ad7c5bd
+#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Telugu" group-title="Documentary",History TV18 HD
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
+#EXTINF:-1 tvg-id="hosanna.tv" tvg-name="Hosanna TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil" group-title="🇮🇳 India",Hosanna TV
+https://yuppnimresmum.akamaized.net/28072023/smil:hosanna.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#e59ed114a8aba744f6d61230119339edd4c52ada045bc719aca47af5b2de5d00
+#EXTINF:-1 tvg-id="hosanna.tv.global" tvg-name="Hosanna TV Global" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, English" group-title="🇮🇳 India",Hosanna TV Global
+https://ktismaservers.in:3349/live/hosannatvlive.m3u8#42dde4df3a4a50bffdac601d201768b1bb49b9a2a37b91280f7918d549de1b3a
+#EXTINF:-1 tvg-id="joy.tv" tvg-name="Joy TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Joy TV
+https://ktismaservers.in:3412/live/joytvlive.m3u8#e50c6c9c0c7c18d3b0cda78e83d698ae315a3869366742bdbdcc13fab48ed660
+#EXTINF:-1 tvg-id="kalaignar.murasu" tvg-name="Kalaignar Murasu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Kalaignar Murasu
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8#1d263505b3e2ee628e18aa7b826711822be4f9d037782132cf76a6b5d9c0661f
+#EXTINF:-1 tvg-id="kalaignar.seithigal" tvg-name="Kalaignar Seithigal" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Kalaignar Seithigal
+https://yuppnimresmum.akamaized.net/120723/smil:seithagal.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#410a0a8527722435d84362609b93086cfaa819f5ee18eedc098144bdc8222816
+#EXTINF:-1 tvg-id="m.nadu.tv" tvg-name="M Nadu TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",M Nadu TV
+https://cloudcdnplayer.mslivestream.net/mslivecdn/mnadu/index.m3u8#eba7daf90d36d74ec006e4f0e245122d4712a356a6818af8e7a4955e0e3cccaf
+#EXTINF:-1 tvg-id="madha.tv" tvg-name="Madha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Madha TV
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/MadhaTV.m3u8#c59f478ee39132cf6ece666e91fb60b29f288a1eddad26e169a231207dfc568d
+#EXTINF:-1 tvg-id="makkal.tv" tvg-name="Makkal TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Makkal TV
+https://mumt01.tangotv.in/O5aw8Zn3MAKKALTV/index.m3u8#231bf4cf6bfa6488d689ce5493df7baf22c1c94ade09395ff037a6a2199608bc
+#EXTINF:-1 tvg-id="malai.murasu.tv" tvg-name="Malai Murasu TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Malai Murasu TV
+https://mumt04.tangotv.in/m18aqlK4MALAIMURASUSEITHIGAL/index.m3u8#2e1e1f50633982ff7d53ca47a91cc67ba16e0851574e76b8baec2b838accf68b
+#EXTINF:-1 tvg-id="mk.six" tvg-name="MK Six" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",MK Six
+https://cdn.pishow.tv/ott/live/1253/master.m3u8#31afacfaf73753662213e0daa608ceafc38b32b968b9ff25842197532cad901a
+#EXTINF:-1 tvg-id="mntv" tvg-name="MNTV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",MNTV
+https://mntv.livebox.co.in/mntvhls/live.m3u8#f4fe09b765d96ebaa8adf4475f3363e2947c9b8379c832651a9d89e1e10d6aae
+#EXTINF:-1 tvg-id="moon.tv" tvg-name="Moon TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Moon TV
+https://cdn.pishow.tv/ott/live/1121/master.m3u8#3f1438385fafd6f923e82c740fb5a690af6e0ab4e44cfa8700cbe7420d1b56ef
+#EXTINF:-1 tvg-id="nambikkai.tv" tvg-name="Nambikkai TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Nambikkai TV
+https://cdn.pishow.tv/ott/live/1389/master.m3u8#9fae0a5a1fe2f54ab97df8229cf29df72cb6a1186b35df558d5ec097a83ca9be
+#EXTINF:-1 tvg-id="ndtv.good.times" tvg-name="NDTV Good Times" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil" group-title="🇮🇳 India",NDTV Good Times
+https://cdn.pishow.tv/ott/live/1285/master.m3u8#7b7acd2d958af3415353e6110e86785a6d5085f4e58aaa7443ca6692fb37a416
+#EXTINF:-1 tvg-id="news.7.tamil" tvg-name="News 7 Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News 7 Tamil
+https://mumt07.tangotv.in/zHjX9OFlNEWS7TAMIL/index.m3u8#2a3c4426d322479e38d2cbb3c12250695389fbfa0f7a87e572aadbc65ecbd821
+#EXTINF:-1 tvg-id="news.j" tvg-name="News J" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News J
+https://cdn.pishow.tv/ott/live/1279/master.m3u8#9ccfba31e8560404b2a8ac1ffff4d572956adcaad9fe7f918cbe68d733af70ff
+#EXTINF:-1 tvg-id="news.tamil.24x7" tvg-name="News Tamil 24x7" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News Tamil 24x7
+https://streams.tangotv.in/NEWSTAMIL24X7/ORIGIN/index.m3u8#fc39f1a209511702c851f0614369124cf6e6b49dbc1d15d4b225b317697765b5
+#EXTINF:-1 tvg-id="news18.tamil.nadu" tvg-name="News18 Tamil Nadu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News18 Tamil Nadu
+https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8#ba94c7060e7bd3690d9f13b6b8f4b8be2d7201fe64af508bf03bb226e7ae6afb
+#EXTINF:-1 tvg-id="ntc.tv" tvg-name="NTC TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",NTC TV
+https://galaxyott.live/live/ntv/index.m3u8#7c29862b3d5d319dfe15ad43afddc80f2dd1da594e4326baf95034a1d23600fc
+#EXTINF:-1 tvg-id="oli.tv" tvg-name="Oli TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Oli TV
+https://live.olidigital.in/olitv/olitv/index.m3u8#b5bb4d832a018d2a4dacacff4cbaf7f0e2c4e054e7d1b8bf0ffcce1e62cf0fae
+#EXTINF:-1 tvg-id="om.tv" tvg-name="OM TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",OM TV
+https://samitaorigin.tangotv.in/OMTV/SAMITAORIGIN/index.m3u8#3f6e2895ff34a8de9ee5420c2acd0d7a5fe33e2a200708b84a30eeb513586707
+#EXTINF:-1 tvg-id="peppers.tv" tvg-name="Peppers TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Peppers TV
+https://d1msejlow1t3l4.cloudfront.net/fta/peppers/playlist.m3u8#ce2bb2c6150c1e0bb19197834b30991e63c6068817ad8bbd161067ec8f88064f
+#EXTINF:-1 tvg-id="polimer.news" tvg-name="Polimer News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer News
+https://mumt05.tangotv.in/87NeALx2POLIMERNEWS/index.m3u8#7b523586acf7d1934b320831730a7efafad1ca4e629130159d6292da5984c802
+#EXTINF:-1 tvg-id="polimer.tv" tvg-name="Polimer TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer TV
+https://cdn.pishow.tv/ott/live/1241/master.m3u8#af9ecccb0db81e931ad140f3ed13d6fdf4b8444ccf9ab86dfda3105de9c6e1b4
+#EXTINF:-1 tvg-id="puthiya.thalaimurai" tvg-name="Puthiya Thalaimurai" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Puthiya Thalaimurai
+https://cdn.pishow.tv/ott/live/1261/master.m3u8#c6892f9a1cd7164ccfd8c5610b6afc28419d6f589ca02e6305f34227af823e51
+#EXTINF:-1 tvg-id="puthiya.thalaimurai.express" tvg-name="Puthiya Thalaimurai Express" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Puthiya Thalaimurai Express
+https://samitaorigin.tangotv.in/PUTHIYAEXPRESS/SAMITAORIGIN/index.m3u8#0e7932c8fc5319260c7e49fa21733275224ae7eddd0609010c294ee21b41b46e
+#EXTINF:-1 tvg-id="roja.movies" tvg-name="Roja Movies" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Movie",Roja Movies
+https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8#47edb55dbaec7a0d9eab8c70bcf41b1e71f32a07b51b0cdb911a01b6b7947477
+#EXTINF:-1 tvg-id="sai.tv" tvg-name="Sai TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sai TV
+https://cdn.pishow.tv/ott/live/1235/master.m3u8#129b493a825044fb8266d1eee2a6d3522c0c0faf34f9ab2b991dbc24b58a7b67
+#EXTINF:-1 tvg-id="sairam.tv" tvg-name="Sairam TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sairam TV
+https://mumt04.tangotv.in/m18aqlK4SAIRAMTV/index.m3u8#7cc6c9b38aedd422d4975a13ff281e26c38d97c060ce27f808171d5b4195ae47
+#EXTINF:-1 tvg-id="sana.plus" tvg-name="Sana Plus" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sana Plus
+https://galaxyott.live/live/sanaplus/index.m3u8#9400c88574fba0a20fbe389aebdfc5c12a1cb6fca968b416bc35469dd1eb6d71
+#EXTINF:-1 tvg-id="sana.tv" tvg-name="Sana TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sana TV
+https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8#bb61fffc00feba1757a322ffc21531f48d22081e239d8d733f801c18826f6fef
+#EXTINF:-1 tvg-id="sankara.tv" tvg-name="Sankara TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Kannada, Tamil" group-title="🇮🇳 India",Sankara TV
+https://mumbai-edge.smartplaytv.in/SriSankara/index.m3u8#60159d5505eed608eb609109b41d252605b180e81e5982bcddfc2f7433e440ea
+#EXTINF:-1 tvg-id="sathiyam.tv" tvg-name="Sathiyam TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sathiyam TV
+https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8#42b21de4cf21f95fbb0c6ed5cee109870051b7a304521696a100e2a1eea0d268
+#EXTINF:-1 tvg-id="shakthi.tv" tvg-name="Shakthi TV" tvg-logo="" tvg-country="🇱🇰 Sri Lanka" tvg-language="Tamil" group-title="🇱🇰 Sri Lanka",Shakthi TV
+https://mumbai-edge.smartplaytv.in/ShakthiTV/index.m3u8#749a445bd3a71fd1a01ad00ae3f6295ee5a5376b2e8b1bc79679dd369e793656
+#EXTINF:-1 tvg-id="sivan.tv" tvg-name="Sivan TV" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="Tamil" group-title="🇨🇭 Switzerland",Sivan TV
+http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8#dbae7e62d5789af69658f2724ad39a0be5ab32f0b9459cb81e3a15a56378e994
+#EXTINF:-1 tvg-id="star.vijay" tvg-name="Star Vijay" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English" group-title="Entertainment",Star Vijay
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
+#EXTINF:-1 tvg-id="suriya.tv" tvg-name="Suriya TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Suriya TV
+https://stream.ottlive.co.in/suryatvtamil/index.m3u8#7d988b3f8a5965878df0d04c0e23e26af80e7b8df2af1a1cb671644d931f2e22
+#EXTINF:-1 tvg-id="suriyan.tv" tvg-name="Suriyan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Suriyan TV
+https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8#2fb390999f8e5b0bf08ef3bdccdcd4b4f98e9d7c42166f009e0dab48fec58702
+#EXTINF:-1 tvg-id="svbc.2" tvg-name="SVBC 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada" group-title="🇮🇳 India",SVBC 2
+https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8#ca9e47bcaa66c8446053be500b773fb151ed156eae77ccb0de5e925672b46f24
+#EXTINF:-1 tvg-id="tamilan.tv" tvg-name="Tamilan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Tamilan TV
+https://mumt04.tangotv.in/m18aqlK4TAMILANTELEVISION/index.m3u8#44c585c4e553524a5129bc122e838126d05eb5233af2f7289226d3c794aaa52a
+#EXTINF:-1 tvg-id="tamilvision.tv" tvg-name="TamilVision-TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Tamil" group-title="🇨🇦 Canada",TamilVision-TV
+https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a794569447360ac39b5515bf40
+#EXTINF:-1 tvg-id="thalaa.tv" tvg-name="Thalaa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Thalaa TV
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8#9f7f19bf212ca90b36af0d6aa32d7e6acbb8ab8e278ecaf16f40f6c819f4743d
+#EXTINF:-1 tvg-id="thanthi.tv" tvg-name="Thanthi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Thanthi TV
+https://cdn.pishow.tv/ott/live/1612/master.m3u8#010d670a29c96ef85d10e7776764f1f99a9b096be97941d9c5bef89f9983f506
+#EXTINF:-1 tvg-id="thendral.tv" tvg-name="Thendral TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Thendral TV
+https://hls.thendraltv.in/thendraltv_1210b43d/index.m3u8#5d86fb9954bf935b9a8b37614e093f28f7a3bfbf3ed14ee49c8d5a7626258130
+#EXTINF:-1 tvg-id="travelxp.hd" tvg-name="Travelxp HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Bengali, Tamil" group-title="🇮🇳 India",Travelxp HD
+http://stream.mcquack.net/451/index.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
+#EXTINF:-1 tvg-id="ultimate.tv" tvg-name="Ultimate TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Ultimate TV
+https://mumbai-edge.smartplaytv.in/utv/index.m3u8#f6aa68ccc5e2ae93fb372a97d783139caf7836fcb8f419b61e3e22088fd3d74e
+#EXTINF:-1 tvg-id="vaanavil.tv" tvg-name="Vaanavil TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Music",Vaanavil TV
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8#8ac811d1ca1d7a4bdbe51ba08b90340c5c3ebf678d2f35f42624b2485fcc7d26
+#EXTINF:-1 tvg-id="vasanth.tv" tvg-name="Vasanth TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Vasanth TV
+https://mumt04.tangotv.in/m18aqlK4VASANTHTV/index.m3u8#9d08d26d49a7f7530841398860677bfc0c0a408049dfc3737455bdf2abb5f28e
+#EXTINF:-1 tvg-id="velicham.tv" tvg-name="Velicham TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Velicham TV
+https://mumbai-edge.smartplaytv.in/Velichamtv/index.m3u8#0e2e905b2d5d0a0b19cf06d93b011efa677ed681d09bd16feebc6365afd7a6b6
+#EXTINF:-1 tvg-id="vendhar.tv" tvg-name="Vendhar TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Vendhar TV
+https://cdn.pishow.tv/ott/live/1271/master.m3u8#196f7c4ff709acfac0549df7a9b9401140eabcee7f7973e48b06873c4f7dc79e
+#EXTINF:-1 tvg-id="verbum.tv" tvg-name="Verbum TV" tvg-logo="" tvg-country="🇱🇰 Sri Lanka" tvg-language="Tamil" group-title="🇱🇰 Sri Lanka",Verbum TV
+https://video-eu1.streamerr.co/hls/scb80244b91/live.m3u8#f36805c0dbba6875cad1684aabe11513ddc0ff982e917a4c6b0791b9971f6203
+#EXTINF:-1 tvg-id="village.tv" tvg-name="Village TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Village TV
+https://villagetv.applelive.in/villagetv/villagetv/index.m3u8#c4279bde511b9245069df32ecc622f93e228ce75db328ec3c20dbd8c2f1efeba
+#EXTINF:-1 tvg-id="zee.tamil.hd" tvg-name="Zee Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Entertainment",Zee Tamil HD
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
+#EXTINF:-1 tvg-id="zee.zest.hd" tvg-name="Zee Zest HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Marathi" group-title="🇮🇳 India",Zee Zest HD
+http://107.167.16.138/zeezesthd/index.m3u8?token=test#59ccbfde23cae603639f7fab904bdb7bb5f6b734303b8c1891bb2f7a0bc3d4ac

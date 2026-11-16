@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="national.geographic" tvg-name="National Geographic" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Documentary",National Geographic
+http://88.212.15.50/live/test_ngc/playlist.m3u8#1e38de97fa20f8d5ef0df44840658a2f1a8c6814ea2467976057078d85a59472
+#EXTINF:-1 tvg-id="national.geographic.latin.america" tvg-name="National Geographic Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Documentary",National Geographic Latin America
+http://45.173.231.22:8000/play/a05z/index.m3u8#e731274c5af406ef77169d6f2c2fd8ab866ab6b95a82ef3bd2b2f7b119646a16
+#EXTINF:-1 tvg-id="national.geographic.wild" tvg-name="National Geographic Wild" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Documentary",National Geographic Wild
+http://88.212.15.50/live/test_ngw/playlist.m3u8#b121893f6af08310a1f1c199fc1db960a2e33411b6b94927b1fb05a5cc0df040

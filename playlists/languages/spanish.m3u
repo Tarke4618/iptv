@@ -1,1 +1,265 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="360.rftv" tvg-name="360 RFTV" tvg-logo="" tvg-country="🇨🇷 Costa Rica" tvg-language="Spanish" group-title="🇨🇷 Costa Rica",360 RFTV
+https://acceso.mediosdecostarica.com:3638/live/360rftvcrlive.m3u8#8c4887fe59a83edacb2b2dbf782f6d6944c5f75995308198dffd9bce0d271ce8
+#EXTINF:-1 tvg-id="7.televalencia" tvg-name="7 TeleValencia" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish, Catalan" group-title="🇪🇸 Spain",7 TeleValencia
+https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8#61f8fc32c635b972b0a311da5bfd7541c5399b1abe45525adc90b524d16b601d
+#EXTINF:-1 tvg-id="activa.tv" tvg-name="Activa TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Music",Activa TV
+https://streamtv.mediasector.es/hls/activatv/index.m3u8#6e1537edd398e8a13c8caea62ca5bf52398b47331bd109f1a7a93f9a001d4a84
+#EXTINF:-1 tvg-id="alegre.tv.rd" tvg-name="Alegre TV RD" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Entertainment",Alegre TV RD
+https://streamunoapp.com:3149/live/alegretvlive.m3u8#d8193c56bf7f992f6d87786cfe148fb8a3d46f0a101c7d2a6e0f0577d55a62ac
+#EXTINF:-1 tvg-id="amx.noticias" tvg-name="AMX Noticias" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="News",AMX Noticias
+https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8#b65435df6c89b3d1cc26f99e71d5fd586ca833955896d27e83ac26b20682f33d
+#EXTINF:-1 tvg-id="am.rica.tev" tvg-name="América TeVé" tvg-logo="" tvg-country="🇵🇷 Puerto Rico" tvg-language="Spanish" group-title="Entertainment",América TeVé
+https://live.gideo.video/americateve2/master.m3u8#9eb02bec4757797a63dab992ff6fafc98951a8eb1cc8d52a7aadd87e55d70a5d
+#EXTINF:-1 tvg-id="angel.tv.chinese" tvg-name="Angel TV Chinese" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV Chinese
+https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8#154830c81b0d3e2b97e4ff16d86b2b1b045f6d645319cb2c0f520ce7e79dab69
+#EXTINF:-1 tvg-id="angel.tv.indo.china" tvg-name="Angel TV Indo-China" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian" group-title="🇮🇳 India",Angel TV Indo-China
+https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8#9693fd2f194a57a48490edb89a7354cdfb0b8c294619fd718a33de7fdfda1235
+#EXTINF:-1 tvg-id="as3.sport.tv" tvg-name="AS3 Sport TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Sports",AS3 Sport TV
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
+#EXTINF:-1 tvg-id="aurora.media.films" tvg-name="Aurora Media Films" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="Movie",Aurora Media Films
+https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8#1c2124b29ccafb0b78efb33e9576d0202431eff7ea674b29ca86cbb746d6680b
+#EXTINF:-1 tvg-id="azteca.7" tvg-name="Azteca 7" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="🇲🇽 Mexico",Azteca 7
+http://187.245.231.226:8000/play/a0uz/index.m3u8#cf91d6a0a7082cc763fb233e08491c6c993bc1d37eb92b4c0352ba9e2e351fbc
+#EXTINF:-1 tvg-id="bbc.news" tvg-name="BBC News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8#edfaf2b65e207424b972317aa3415e8557f71c1974848fdefcecd6fca179584a
+#EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News Europe
+https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
+#EXTINF:-1 tvg-id="bbc.news.north.america" tvg-name="BBC News North America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News North America
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8#e551df1fef0b3d04421f874e14755969c909347ce003658b6ce708c934072900
+#EXTINF:-1 tvg-id="bein.sports.xtra.en.espanol" tvg-name="BeIN Sports XTRA en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Sports",BeIN Sports XTRA en Espanol
+https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
+#EXTINF:-1 tvg-id="bonches.latinos.tv" tvg-name="Bonches Latinos TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Entertainment",Bonches Latinos TV
+https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8#4ed7fe99579abef209fd70b16a22e40d0ec2affacca021b9a3d58f2db0df71b5
+#EXTINF:-1 tvg-id="boreal" tvg-name="Boreal" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Boreal
+https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8#772f76c25668c5b73cd3b55599fd3a10a35eae54d493a81f4c5de77b44e0f40c
+#EXTINF:-1 tvg-id="bta.tv" tvg-name="BTA TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Music",BTA TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8#a366af521d32c75c7a50b4bdbb864a714f5e6868b74e0186b7c010cebdb0c155
+#EXTINF:-1 tvg-id="bum.televisi.n" tvg-name="BUM Televisión" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="🇨🇴 Colombia",BUM Televisión
+https://movil.ejeserver.com/live/visiondorada.m3u8#1437fa94a1e90cebb61865c2721131233b0664abb4d1110af63630cbe3161dd0
+#EXTINF:-1 tvg-id="cadena.elite" tvg-name="Cadena Elite" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Music",Cadena Elite
+https://cloudvideo.servers10.com:8081/8004/index.m3u8#95766e96bc6014d285110bf973b929a7f8b678e86a8aca5c7d262408b6cdc827
+#EXTINF:-1 tvg-id="canal.11" tvg-name="Canal 11" tvg-logo="" tvg-country="🇨🇷 Costa Rica" tvg-language="Spanish" group-title="🇨🇷 Costa Rica",Canal 11
+http://45.5.117.188:8000/play/a02w/index.m3u8#ff658f2e2cc43242c276cc444c87efb292b31f114d70d7cfb48756ba3a9621c9
+#EXTINF:-1 tvg-id="canal.11.de.la.costa" tvg-name="Canal 11 de la Costa" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Canal 11 de la Costa
+https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8#d294d70697d3747a3ba7b090f9b82d1ec7202a6e645757bc658bf57bce49b353
+#EXTINF:-1 tvg-id="canal.11.tutv" tvg-name="Canal 11 TuTV" tvg-logo="" tvg-country="🇸🇻 El Salvador" tvg-language="Spanish" group-title="🇸🇻 El Salvador",Canal 11 TuTV
+https://stream.giostreaming.app/canal11/canal11.m3u8#553895535421bf15740171fc9997f6b471833d01f8eea345d824136bd9937e44
+#EXTINF:-1 tvg-id="canal.24.horas" tvg-name="Canal 24 Horas" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="News",Canal 24 Horas
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8?idasset=1694255#09fd798b80b7ed4f74d65cfd3ee125a9ab54ce64f6eb99bbc43782cdc45c10c7
+#EXTINF:-1 tvg-id="canal.3.impresionante" tvg-name="Canal 3 Impresionante" tvg-logo="" tvg-country="🇸🇻 El Salvador" tvg-language="Spanish" group-title="🇸🇻 El Salvador",Canal 3 Impresionante
+https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8#2aec4d833027f1e07c90e5925d5379c9c2f5564b744e27bfab55888022bbee47
+#EXTINF:-1 tvg-id="canal.33.madrid" tvg-name="Canal 33 Madrid" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",Canal 33 Madrid
+https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8#9f108f3814b88b47f0d52cf5c24cdf5ee8115dc7215198c81bf014846af0e4fd
+#EXTINF:-1 tvg-id="canal.33.tijuana" tvg-name="Canal 33 Tijuana" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="News",Canal 33 Tijuana
+https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8#6e15026be91d2f1c8bb42d446485cb52f92401de328996fc21b3354b01993fc3
+#EXTINF:-1 tvg-id="canal.4.san.juan" tvg-name="Canal 4 San Juan" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Canal 4 San Juan
+https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8#7ec909048ee8e3890967fc897b0c679c68f2d5677d370a76a04defaa3e1e5f2d
+#EXTINF:-1 tvg-id="canal.5.tv.cozumel" tvg-name="Canal 5 TV Cozumel" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="🇲🇽 Mexico",Canal 5 TV Cozumel
+https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8#fa1e5883b7f0842d3374dbcf01a20f58a391bd7c082cdb8d5dc77ffc89e9b39b
+#EXTINF:-1 tvg-id="canal.9.barbe.tv" tvg-name="Canal 9 Barbe TV" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="🇬🇹 Guatemala",Canal 9 Barbe TV
+https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8#2b9b679b25a764ea8d39cdcf43827b0429032ade7587b1352d326695b27a3572
+#EXTINF:-1 tvg-id="canal.9.resistencia" tvg-name="Canal 9 Resistencia" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Canal 9 Resistencia
+http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8#eb72210b1e137d3bd4a1dbc2ac6df285fe9dbd6f22986aa07775b4c5a385e530
+#EXTINF:-1 tvg-id="canal.e" tvg-name="Canal E" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="News",Canal E
+https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8#2c5b744f0588a4e7141aa99b4c1780a7afa5f99c35b37b24a43b707920385496
+#EXTINF:-1 tvg-id="canal.m.laga.rtv" tvg-name="Canal Málaga RTV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",Canal Málaga RTV
+https://canalmalaga-tv-live.flumotion.com/playlist.m3u8#bd2a25a29374e6dd1479c0d1faacae5f007ad29f1d809b56f28fdc818f279c6a
+#EXTINF:-1 tvg-id="cgtn.spanish" tvg-name="CGTN Spanish" tvg-logo="" tvg-country="🇨🇳 China" tvg-language="Spanish" group-title="News",CGTN Spanish
+https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8#f54c4af2c2298645f08135e1e831adf26ffcb82538b50521b11a0299847eaf61
+#EXTINF:-1 tvg-id="chinola.tv" tvg-name="Chinola TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="🇩🇴 Dominican Republic",Chinola TV
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8#bd4642bc37eb335f007b9cb082c9f312bd1b5e380eb8d736d8039944b56b3807
+#EXTINF:-1 tvg-id="cindie.tv" tvg-name="CINDIE TV" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="English, Portuguese, Spanish" group-title="Movie",CINDIE TV
+https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8#d42157c2d954f7013433dc00a655e55cd2367ac9aff506643d8127bac9cce6b5
+#EXTINF:-1 tvg-id="cine.sony" tvg-name="Cine Sony" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Movie",Cine Sony
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
+#EXTINF:-1 tvg-id="cnn.international" tvg-name="CNN International" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Korean, Spanish" group-title="News",CNN International
+http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8#3914804b4e3a9e448e205466eddc24d166e48576b6eec39a32935162bf18523d
+#EXTINF:-1 tvg-id="costa.rica.channel" tvg-name="Costa Rica Channel" tvg-logo="" tvg-country="🇨🇷 Costa Rica" tvg-language="Spanish" group-title="🇨🇷 Costa Rica",Costa Rica Channel
+https://video0.rogohosting.com:19360/8006/8006.m3u8#2301dad78d7695b44195bb7b6d4202362f41c3254f1cdfb851cb56a59f92746c
+#EXTINF:-1 tvg-id="de.ultimo.minuto.tv" tvg-name="De Ultimo Minuto TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="News",De Ultimo Minuto TV
+https://soportedvb.click:3620/live/deultimominutomedialive.m3u8#439f12fcf70fca431fee6c2f52eaead5faafdd46f7869bcc055db580cd376687
+#EXTINF:-1 tvg-id="disney.channel.hd.east" tvg-name="Disney Channel HD East" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish" group-title="🇺🇸 United States",Disney Channel HD East
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test#03bdc24613e423d1c94ec77fc6d760d9d3c2219726c9455909f505a6eab100d2
+#EXTINF:-1 tvg-id="distrito.tv" tvg-name="Distrito TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",Distrito TV
+https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8#feac8b96b968eadd4195f8b28ed2459024a7de747881f3ec5a821a9ea5f2fc7d
+#EXTINF:-1 tvg-id="dw.arabic" tvg-name="DW Arabic" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Russian, Arabic, German, English, Spanish" group-title="News",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8#26f26dd7d09596729d1c08257983e7009c027ca2acb1cae4171396295f8ce411
+#EXTINF:-1 tvg-id="dw.espanol" tvg-name="DW Espanol" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Arabic, German, English, Spanish, Russian" group-title="News",DW Espanol
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8#f7ce8c2eb97c9dc4845439d515ec793efb94fe69658f0146660331566f6b7839
+#EXTINF:-1 tvg-id="dw.russian" tvg-name="DW Russian" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Spanish, Russian, Arabic, German, English" group-title="News",DW Russian
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8#be42fb472a5afede209c8c06e14b6b1967cd31ec84c610bd1bd71d4753057456
+#EXTINF:-1 tvg-id="ecuavisa.guayaquil" tvg-name="Ecuavisa Guayaquil" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Ecuavisa Guayaquil
+https://dai.google.com/linear/hls/pa/event/GyPkTVDZSXGhpOvxPK7m2g/stream/83eab959-2597-47c0-86b1-1ec4c56a10e7:TUL/master.m3u8#5732be090d8a8db4427ed25d36567be51afb3fe8bfd8babb4927f072bccea48c
+#EXTINF:-1 tvg-id="ecuavisa.quito" tvg-name="Ecuavisa Quito" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Ecuavisa Quito
+https://jireh-5-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8?dpssid=e452ca1b3c11971638734683&sid=fc2805128f116e17622a86d2&ndvc=1#d08930c8b8fb3786343d6be5cbd5aabe07697d4b6282d3e7fa2689245f847243
+#EXTINF:-1 tvg-id="ent.channel" tvg-name="ENT Channel" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Channel
+https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
+#EXTINF:-1 tvg-id="ent.family" tvg-name="ENT Family" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Family
+https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
+#EXTINF:-1 tvg-id="eurosport.1.spain" tvg-name="Eurosport 1 Spain" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Hungarian, Italian, Russian, Spanish, Turkish, French, Polish, Serbian, Slovenian, German, Greek, Dutch, Romany, Ukrainian, Danish, Finnish, English" group-title="Sports",Eurosport 1 Spain
+http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8#1d20cf47732f91299e85d3ed310bb7fd1bccb897b08cf01c027313a8f72a928b
+#EXTINF:-1 tvg-id="extrema.kids.tv" tvg-name="Extrema Kids TV" tvg-logo="" tvg-country="🇨🇷 Costa Rica" tvg-language="Spanish" group-title="🇨🇷 Costa Rica",Extrema Kids TV
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8#7eceed8173d88a5cfdb7a2d48a9353b11d23b481bb9edfd36cfe24f1cf6c3e12
+#EXTINF:-1 tvg-id="f10.hd" tvg-name="F10 HD" tvg-logo="" tvg-country="🇧🇴 Bolivia" tvg-language="Spanish" group-title="🇧🇴 Bolivia",F10 HD
+https://tv2.bitstreaming.net:3235/multi_live/play.m3u8#83f9f90ca359de8941d356fa2e09498aec49dda80d954e125e30acfc524a36f8
+#EXTINF:-1 tvg-id="failarmy" tvg-name="Failarmy" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="German, Italian, English, Spanish, Portuguese, French" group-title="🇺🇸 United States",Failarmy
+https://failarmy-international-it.samsung.wurl.tv/playlist.m3u8#07b966734817651ebe914498a0a62f9fef1381bb095ea2f39e6c605c08419230
+#EXTINF:-1 tvg-id="failarmy.international" tvg-name="Failarmy International" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Italian, English, Spanish, Portuguese, French, German" group-title="🇺🇸 United States",Failarmy International
+https://failarmy-international-dk.samsung.wurl.tv/playlist.m3u8#352c6ac8682954e7dd137dd6ca6e8cc10fc59a60a32de45061476bd95831f356
+#EXTINF:-1 tvg-id="fox.sports.en.espanol" tvg-name="Fox Sports en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Sports",Fox Sports en Espanol
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTUxMDI0MTAsImlzcyI6ImFlZ2lzIn0.QQcYS64B8VFJh2Y_ztoGMtWQeuxql81nx5JnRzcdYBfvVnplABKPwEYRostghlZztE14XzuHXOWVo5LLxPsexw#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+#EXTINF:-1 tvg-id="france.24" tvg-name="France 24" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Spanish, Arabic, English, French" group-title="News",France 24
+https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8#1e0492f4cecefef8d05770b8dd934f129e52f9ee5abdbb7d273047f0d7256fb8
+#EXTINF:-1 tvg-id="france.24.arabic" tvg-name="France 24 Arabic" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Spanish, Arabic, English, French" group-title="News",France 24 Arabic
+https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8#8816b8cf0d6306ba9452e40eaf8f025455ac4b20cbaea480b23636bd1291521c
+#EXTINF:-1 tvg-id="france.24.english" tvg-name="France 24 English" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Spanish, Arabic, English, French" group-title="News",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_900.m3u8#79021fdb5f8ad4beac27f45325957302bcd934f33506d01a19ad21cec820625e
+#EXTINF:-1 tvg-id="france.24.espa.ol" tvg-name="France 24 Español" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Arabic, English, French, Spanish" group-title="News",France 24 Español
+https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_900.m3u8#6f152b95450b7d0148b17cef5521fb9846e3d3adf399ad029c5399798c477021
+#EXTINF:-1 tvg-id="france.24.french" tvg-name="France 24 French" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Arabic, English, French, Spanish" group-title="News",France 24 French
+https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_2300.m3u8#0f05f7cd25311db2fd38b0c8096ba0292deed80d03a376d263745d8a20a7fb20
+#EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇧🇴 Bolivia" tvg-language="Spanish" group-title="Sports",FTV
+https://master.tucableip.com/ftvhd/index.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
+#EXTINF:-1 tvg-id="garage.tv.latin.america" tvg-name="Garage TV Latin America" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Garage TV Latin America
+https://stream1.sersat.com/hls/garagetv.m3u8#b06f1ffac96a94ef4604f24c9f9b020702d219ac07a2532bd99a9b9b73b3c1f4
+#EXTINF:-1 tvg-id="golden.tv" tvg-name="Golden TV" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="🇲🇽 Mexico",Golden TV
+https://rpn.bozztv.com/gusa/gusa-goldentv/index.m3u8#c7448b95e06e5141bac4d175bccca5e8ffba27826cbe4d590a19f21b442d7fce
+#EXTINF:-1 tvg-id="hbo.hits.east.hd" tvg-name="HBO Hits East HD" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish" group-title="Movie",HBO Hits East HD
+http://4.30.180.36:8420/hbo2/index.m3u8?token=test#b4ef37aa5f6440cafa789b382f0239659f0863eda05b93b3802f4ed657d08cb1
+#EXTINF:-1 tvg-id="impacto.televisi.n" tvg-name="Impacto Televisión" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="Entertainment",Impacto Televisión
+https://cloudvideo.servers10.com:8081/impactotv/index.m3u8#c9934af4a5d4674b3fe9a680d853c783cce939cb2de998eff9e3053dadf5bf24
+#EXTINF:-1 tvg-id="intertv" tvg-name="interTV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Entertainment",interTV
+https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8#888fd0fbf8d57e5b38510e14111971323e6cb57a1f31b2d381413e2dffe20ce6
+#EXTINF:-1 tvg-id="isla.tv" tvg-name="Isla TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",Isla TV
+https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8#05b1dc520f321a9e9907412af2d797cbc7f11783cd07d07d21998beb27167fd1
+#EXTINF:-1 tvg-id="kanal.d.drama" tvg-name="Kanal D Drama" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Albanian, Turkish, Spanish" group-title="Entertainment",Kanal D Drama
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8#8d7c0c6d5ece57b5298eae5285b95f63e34ff84cccd0b62ef082e1ef5b5a9fb3
+#EXTINF:-1 tvg-id="kpop.mix" tvg-name="Kpop Mix" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish, English" group-title="🇦🇷 Argentina",Kpop Mix
+https://cloud.tvomix.com/KPOPMIX/index.m3u8#dce1454903beed4f2e131304e8f65388c5fabd0be270745fc6b38b5966d25da4
+#EXTINF:-1 tvg-id="latele" tvg-name="Latele" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="🇵🇾 Paraguay",Latele
+https://sesion.desdeparaguay.net/hls/playlist.m3u8#d023e9d329e3d1481a347f193c7d50ea767b576e88200b52677f6bb5cd74abe8
+#EXTINF:-1 tvg-id="latina.clasicos" tvg-name="Latina Clasicos" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="🇵🇪 Peru",Latina Clasicos
+https://jireh-7-hls-video-us-isp.dps.live/hls-video/plus226/latina2/latina2.smil/playlist.m3u8?dpssid=7e3425860a630a723442f662&sid=7bff5b2378874129b8dfce65&ndvc=1#2face2613d1f59b1ea7c2877d89ccb1913e7553f00c6cad4d084132f6255c7df
+#EXTINF:-1 tvg-id="latina.tv" tvg-name="Latina TV" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="🇵🇪 Peru",Latina TV
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8#336f4a8a38f6523a1e033ca16615f6014398062b789128f741b8a860c6c4f520
+#EXTINF:-1 tvg-id="lgd.television" tvg-name="LGD Television" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",LGD Television
+https://streamtv.intervenhosting.net:3403/hybrid/play.m3u8#46b06df80bc7d88058129b1e0ddb3bf3ce7726fb041409e211ab3925b4cc2c03
+#EXTINF:-1 tvg-id="logos.tv.kids" tvg-name="Logos TV Kids" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",Logos TV Kids
+https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8#2706f82814f7e70c3e8c6c021d9b705431d1f29a8aa425d4b4b75afe3a74beac
+#EXTINF:-1 tvg-id="love.nature.4k" tvg-name="Love Nature 4K" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Chinese, Turkish, Bulgarian, Czech, Russian, Spanish, Hungarian" group-title="🇨🇦 Canada",Love Nature 4K
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-id="max.anime" tvg-name="MAX Anime" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",MAX Anime
+https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8#c398bb93f287b8438d272cd17dc624632ba673e6aceb855552e90fcf901d16b5
+#EXTINF:-1 tvg-id="maxivisi.n.tv" tvg-name="Maxivisión TV" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="Entertainment",Maxivisión TV
+https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8#157a7614cefce5ea245b701b1b8738df6f4bae5e07dbfa1295eacadfce30de1d
+#EXTINF:-1 tvg-id="mci.televisi.n" tvg-name="MCI Televisión" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish, English" group-title="Movie",MCI Televisión
+https://video.ejeserver.com/live/mcitelevision.m3u8#f66c4bdc0eaf2b29725aef39e346bd85dd9523305b03246e8fbc0fe13dedcff9
+#EXTINF:-1 tvg-id="mega.cine.tv" tvg-name="Mega Cine TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Mega Cine TV
+https://cnn.hostlagarto.com/megacinetv/playlist.m3u8#8caf8885be83cbf7ff9a2077d0a8fdbcf4408f3956b72f498a18dd4afda36286
+#EXTINF:-1 tvg-id="megavisi.n.canal.19" tvg-name="Megavisión Canal 19" tvg-logo="" tvg-country="🇸🇻 El Salvador" tvg-language="Spanish" group-title="🇸🇻 El Salvador",Megavisión Canal 19
+https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8#c81a3fe4cf753a321ce02ccc9fcc4388b8d417f1f7ececd70cbd5ac3b1894bce
+#EXTINF:-1 tvg-id="megavisi.n.canal.21" tvg-name="Megavisión Canal 21" tvg-logo="" tvg-country="🇸🇻 El Salvador" tvg-language="Spanish" group-title="🇸🇻 El Salvador",Megavisión Canal 21
+https://mgvchannel21-ioriver-cdn.encoders.immergo.tv/master.m3u8#27ae2641d9b7b8595dca642ab94b4031098c41dc1191f6370d651e1a68adae0f
+#EXTINF:-1 tvg-id="mijas.3.40tv" tvg-name="Mijas 3.40TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",Mijas 3.40TV
+https://streaming004.gestec-video.com/hls/MIJAS.m3u8#8783c871588ba1fe1101660df5ec47b762eac96f920a52352158f45224af3d13
+#EXTINF:-1 tvg-id="moremax" tvg-name="MoreMax" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish" group-title="Movie",MoreMax
+http://23.237.104.106:8080/USA_MOREMAX/index.m3u8#a7fed6bf5d7da5109ba96cb5cbacddc8f7f8f83bfbca7a6ecf404a43c3521a2f
+#EXTINF:-1 tvg-id="music.tv.granada" tvg-name="Music TV Granada" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Music",Music TV Granada
+https://cloudvideo.servers10.com:8081/8032/index.m3u8#58e1db87ced8bac3130ba4a5b41ba058f461802b27a8fecf3594947e1eb036aa
+#EXTINF:-1 tvg-id="mytime.movie.network.spain" tvg-name="MyTime movie network Spain" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Movie",MyTime movie network Spain
+https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8#45406ab13d156746fbb8b1450b28b011257cc4cc68aef6e1c42abadc69eb0272
+#EXTINF:-1 tvg-id="m.s.talk" tvg-name="Más Talk" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Entertainment",Más Talk
+https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8#d57728e0ce15572ba6a4ea5ce61f210cde6f5390260ad3bb577cf63e57b56c04
+#EXTINF:-1 tvg-id="naturetime" tvg-name="NatureTime" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="French, Spanish" group-title="Documentary",NatureTime
+https://amg00090-blueantmedia-naturetime-samsungse-axgcn.amagi.tv/playlist/amg00090-blueantmedia-naturetime-samsungse/playlist.m3u8#524d556fd62b0e237165ed31d6c10277a3c6ee8b39a6f89dc13b1a18894fd9d9
+#EXTINF:-1 tvg-id="next.hd" tvg-name="Next HD" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="Movie",Next HD
+https://edge.enhdtv.com/nexthd/index.m3u8#d4d99894d328f8bb44a5daf5daa926e215089ae3502936e6a36964a1c1204b94
+#EXTINF:-1 tvg-id="nim.tv" tvg-name="Nim TV" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="🇬🇹 Guatemala",Nim TV
+https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8#e65c72b9c127fe60b456807fa3f5d1fc4ced71c3f31c4544000e91dc175c44ba
+#EXTINF:-1 tvg-id="nstv" tvg-name="NSTV" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="🇨🇴 Colombia",NSTV
+http://138.186.23.7:22281/nstv/nstv/playlist.m3u8#130d77d392f841d2d7a60be12de41c6ec35a9e385bbdc6a787c9165078a3fa66
+#EXTINF:-1 tvg-id="onda.valencia" tvg-name="Onda Valencia" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="News",Onda Valencia
+https://cloudvideo.servers10.com:8081/8116/index.m3u8#7cd01c0c02b27b396ca7c0a7e3612758ab3a189962c818cbd1d2cd8076d8e714
+#EXTINF:-1 tvg-id="plous.tv" tvg-name="Plous TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="English, Spanish" group-title="🇻🇪 Venezuela",Plous TV
+https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8#988cfe6821c2503297728debaec5ed036c8aa5f6938896a315deed41311a812c
+#EXTINF:-1 tvg-id="prensa.latina.tv" tvg-name="Prensa Latina TV" tvg-logo="" tvg-country="🇨🇺 Cuba" tvg-language="Spanish" group-title="News",Prensa Latina TV
+https://eu1.servers10.com:8081/8192/index.m3u8#f5c4a320ecb516b86a413a0589b381158084e4c60fda9256c04481d48fc111e6
+#EXTINF:-1 tvg-id="promartv" tvg-name="PromarTV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",PromarTV
+https://vcp.myplaytv.com/promar/promar/playlist.m3u8#9f40bb74905f070a6e606bc8803267e3f7ccc997030476f515cf7b262c5479dc
+#EXTINF:-1 tvg-id="rcn.mas" tvg-name="RCN Mas" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Entertainment",RCN Mas
+https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8#a5dfe7cd3b2b63bf7b4e470f6de6e9fee440ada4bcf6eabad5b479fd1cffd85a
+#EXTINF:-1 tvg-id="rcn.m.s" tvg-name="RCN Más" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Entertainment",RCN Más
+https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8#f0f9d8e89c2106a768986d5ab28a51b1940e4c6be1f6b446bbe661acac57543c
+#EXTINF:-1 tvg-id="real.madrid.tv" tvg-name="Real Madrid TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Sports",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
+#EXTINF:-1 tvg-id="sextavision" tvg-name="Sextavision" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="🇨🇱 Chile",Sextavision
+https://5ff3d9babae13.streamlock.net/fzkqsdfray/fzkqsdfray/playlist.m3u8#abd0444ed6930a911ef58d5b903ee238794292183dfa11388ab16eeff6d34702
+#EXTINF:-1 tvg-id="sky.sports.1" tvg-name="Sky Sports 1" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="Sports",Sky Sports 1
+http://45.228.234.9:8000/play/a06b/index.m3u8#2db8cd1f692c2881978914d2bf2ada7964d3c4f231460028222549df13a04ff6
+#EXTINF:-1 tvg-id="soltv" tvg-name="SolTV" tvg-logo="" tvg-country="🇬🇶 Equatorial Guinea" tvg-language="Spanish" group-title="Entertainment",SolTV
+https://stream.solmediaeg.com/soltv/soltv.m3u8#9aec539f0e35cdc21ba9a5c937faf1744cf3a9d093cf94ceac0293c3e1e0e655
+#EXTINF:-1 tvg-id="stingray.classica" tvg-name="Stingray Classica" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="German, Spanish, French, English" group-title="Music",Stingray Classica
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8#d18f3219b63000a432b12c45015667d136694130a12e4a402c862e067fec41e6
+#EXTINF:-1 tvg-id="superm.sica.tv" tvg-name="Supermúsica TV" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Music",Supermúsica TV
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8#99e263aa2dcfa473a478e855587c2e0f90a5141c04c0fb12b2e795db4b4cd110
+#EXTINF:-1 tvg-id="teleamazonas" tvg-name="Teleamazonas" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Teleamazonas
+http://157.100.248.242:8080/TeleamazonasHD/index.m3u8#0c2ee16ac2cb23e36e59fe10a7840b26ddb83873d29b9621960331e7378662d2
+#EXTINF:-1 tvg-id="telearagua" tvg-name="TeleAragua" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",TeleAragua
+http://45.173.198.59:8080/hls/nginx3.m3u8?tla=#f3be2b790038183e1a681ea1de7ace74f80414f6560dea9819043a202ebd1812
+#EXTINF:-1 tvg-id="telemar" tvg-name="Telemar" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Telemar
+https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8#fd1bd2ee2860658beaec54a1eaeaa2ce6fdb4033e162170b0c78308421a53bbf
+#EXTINF:-1 tvg-id="telemundo.corpus.christi" tvg-name="Telemundo Corpus Christi" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Entertainment",Telemundo Corpus Christi
+https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
+#EXTINF:-1 tvg-id="telesur.english" tvg-name="Telesur English" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="English, Spanish" group-title="News",Telesur English
+https://mblenmain01.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8#7ebdfea9599c2c173effe84e4eeb90752fa2a40a03f7f5df2f475f4794238994
+#EXTINF:-1 tvg-id="telesur.hd" tvg-name="Telesur HD" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="English, Spanish" group-title="News",Telesur HD
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8#b5bcf91552bf31a965558079e3ce2a143a34791bee9a440f5285ceb4d0762962
+#EXTINF:-1 tvg-id="teletrak" tvg-name="Teletrak" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="Sports",Teletrak
+https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
+#EXTINF:-1 tvg-id="televisora.de.oriente" tvg-name="Televisora de Oriente" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",Televisora de Oriente
+https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8#b1aee725678c48fbe6fc4f555e52cfb21afcbca971c00cacc092860c6fa6aa13
+#EXTINF:-1 tvg-id="tigo.sports" tvg-name="Tigo Sports+" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="Sports",Tigo Sports+
+http://45.170.130.224:8000/play/a04i/index.m3u8#6cce15adcdbae3405f8a4a9a5b5d241df3df67e3338ac7a277ffb6b4a18e3fbf
+#EXTINF:-1 tvg-id="totalmusic.80s" tvg-name="Totalmusic 80s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Music",Totalmusic 80s
+https://cdn.40mediagroup.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8#0612df993f1778303031ad8422cf8a4a719ca7b3461da9d7e40642f3620fc69f
+#EXTINF:-1 tvg-id="trt" tvg-name="TRT" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",TRT
+https://vcp12.myplaytv.com/trt/trt/playlist.m3u8#402c627f268b1170fceb7cb6f0b6a14195345d187ec9f4c56db43f1a3730bc31
+#EXTINF:-1 tvg-id="tv.florencia" tvg-name="TV Florencia" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="🇬🇹 Guatemala",TV Florencia
+https://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8#493d786300204d8804f130da428eb18d30bd4e13999520e4b8bbdacbf22d4fd2
+#EXTINF:-1 tvg-id="tv.universal.ecuador" tvg-name="TV Universal Ecuador" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",TV Universal Ecuador
+https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8#87c210d570b9c84a719a073f73a08a34824893d1ae8c762f22bbf38fddb87454
+#EXTINF:-1 tvg-id="tve.star.hd" tvg-name="TVE Star HD" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="🇪🇸 Spain",TVE Star HD
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8#f6e1a501da68dbf5a134c6c2808a4072131aa64d379f78c766ff725cf99e7cfc
+#EXTINF:-1 tvg-id="tvn3" tvg-name="TVN3" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="🇨🇱 Chile",TVN3
+https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8#c5dc94a165450bfdab3fc0ed33d9bcf1bf6a822d7b75c914dea2aaea8a2a5263
+#EXTINF:-1 tvg-id="tvomix" tvg-name="TVOMIX" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Music",TVOMIX
+https://cloud.tvomix.com/TVOMIX/index.m3u8#bb0780b4f3a04403642c5b74e8214749698b0b4ef53aae30dd9b1ed477d46cf1
+#EXTINF:-1 tvg-id="tvs.retro" tvg-name="TVS Retro" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="🇬🇹 Guatemala",TVS Retro
+https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8#d6b511091273f78866fb16670139ee12fff2d3c10563c223b9478aa253ab2560
+#EXTINF:-1 tvg-id="tvuno" tvg-name="TVUNO" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="Music",TVUNO
+https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8#e31a52a61db83f735c764f1ab188c7c65dad773f20405f7d30585ad6c11fa892
+#EXTINF:-1 tvg-id="tyc.sports" tvg-name="TyC Sports" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Sports",TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
+#EXTINF:-1 tvg-id="tyc.sports.usa" tvg-name="TyC Sports USA" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Sports",TyC Sports USA
+http://45.170.130.224:8000/play/a020/index.m3u8#d115de1a6279787aeb21b3586c44d7bac9c88a8bd1e3f421269173297528a388
+#EXTINF:-1 tvg-id="unitv" tvg-name="UniTV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",UniTV
+https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8#2eee64b809d76668f289585576a423c62d59a2971e1e778cbba3bd9498a525cf
+#EXTINF:-1 tvg-id="univers.tv" tvg-name="Univers TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Entertainment",Univers TV
+https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8#f23e13888104575ce9f27137c20f2929344d99722bf1335e5fbd0e9dcfdf6428
+#EXTINF:-1 tvg-id="vale.tv" tvg-name="Vale TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",Vale TV
+https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8#d616b60f90b4cc00913a754b7c89e1dd2c6ed1d01502583eacdd0a72c05506fd
+#EXTINF:-1 tvg-id="venevisi.n.internacional" tvg-name="Venevisión Internacional" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",Venevisión Internacional
+https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8#723ded00a59ef182451013e97a33cf9b1618ab0b08b7d80a845505b6eebe1761
+#EXTINF:-1 tvg-id="vepaco.tv" tvg-name="Vepaco TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="🇻🇪 Venezuela",Vepaco TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8#c19d96fdb13837415edf78a75ffa4f826c377a387263493c91d9f17995d46fc7
+#EXTINF:-1 tvg-id="visi.n.televisi.n" tvg-name="Visión Televisión" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="Music",Visión Televisión
+https://cloudvideo.servers10.com:8081/8016/index.m3u8#69daa19e466e5a7d0286bf567e393c524f7246ef260e7fa0d739200c61ffc904
+#EXTINF:-1 tvg-id="weatherspy" tvg-name="WeatherSpy" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="🇲🇽 Mexico",WeatherSpy
+https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8#1e5c69533885c35f271d3d90239d7c8a81be2e6ef551f83c84efbed361bc6dc1
+#EXTINF:-1 tvg-id="wkaq.dt1.telemundo.pr" tvg-name="WKAQ-DT1 (Telemundo PR)" tvg-logo="" tvg-country="🇵🇷 Puerto Rico" tvg-language="Spanish" group-title="🇵🇷 Puerto Rico",WKAQ-DT1 (Telemundo PR)
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8#7e760bac1d01e9fb96874716b6872b2479f7a92e19637dfab1981f765d1d11cb
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French, German, Italian, English, Spanish" group-title="Sports",World Poker Tour
+https://amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-klowdtv/playlist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
+#EXTINF:-1 tvg-id="xtrema.accion" tvg-name="Xtrema Accion" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Movie",Xtrema Accion
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8#0049e1c3dded1f07df48603c659c7936134dfc459cafba0fa97b675dbcfcc700
