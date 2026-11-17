@@ -23,20 +23,18 @@ https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8#dc4c
 https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8#2acfc4e2fa07afb1a28dca2ab145b21acb1350ec44119524db45b29e96b3193d
 #EXTINF:-1 tvg-id="abp.news" tvg-name="ABP News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English" group-title="News",ABP News
 https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8#d097653bffc1eeafc28d4c32bf05451cce01aaf34307cc8445b736f9d86947d9
-#EXTINF:-1 tvg-id="alankar.tv" tvg-name="Alankar TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Oriya" group-title="Movie",Alankar TV
+#EXTINF:-1 tvg-id="alankar.tv" tvg-name="Alankar TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Oriya" group-title="🇮🇳 India",Alankar TV
 https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8#15589eb6717594885e2815734fd7d11ad95babc79c04aec99391f6f584854ff5
 #EXTINF:-1 tvg-id="amrita.tv" tvg-name="Amrita TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="Entertainment",Amrita TV
 https://ddash74r36xqp.cloudfront.net/master.m3u8#4e24d4f807009a82b0aeac6ca171bc98f0e65f493571d1b506e68df987f2ba08
-#EXTINF:-1 tvg-id="angel.tv.america" tvg-name="Angel TV America" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV America
-https://janya-digimix.akamaized.net/vglive-sk-374850/america/ngrp:angelamerica_all/playlist.m3u8#7a99b1110598149e67ac4057c2dd51719e121c107ce1d02e39ebd7a57ccea9f3
 #EXTINF:-1 tvg-id="angel.tv.arabia" tvg-name="Angel TV Arabia" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish" group-title="🇮🇳 India",Angel TV Arabia
 https://janya-digimix.akamaized.net/vglive-sk-213167/arabia/ngrp:angelarabia_all/playlist.m3u8#01f35e6210fe00c510209ffdf8fbad8b854869012438bf3bfce750d1d23df532
-#EXTINF:-1 tvg-id="angel.tv.chinese" tvg-name="Angel TV Chinese" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish, English, Tamil" group-title="🇮🇳 India",Angel TV Chinese
-https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8#154830c81b0d3e2b97e4ff16d86b2b1b045f6d645319cb2c0f520ce7e79dab69
 #EXTINF:-1 tvg-id="angel.tv.fareast" tvg-name="Angel TV FarEast" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Russian, Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese" group-title="🇮🇳 India",Angel TV FarEast
 https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8#c35fb1d6f068db1710e955e48274df78956d640497a6a636d656e7026bb26ef7
 #EXTINF:-1 tvg-id="angel.tv.indo.china" tvg-name="Angel TV Indo-China" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Spanish, English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian" group-title="🇮🇳 India",Angel TV Indo-China
 https://janya-digimix.akamaized.net/vglive-sk-703035/indochina/ngrp:angelindochina_all/playlist.m3u8#9693fd2f194a57a48490edb89a7354cdfb0b8c294619fd718a33de7fdfda1235
+#EXTINF:-1 tvg-id="angel.tv.russian" tvg-name="Angel TV Russian" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Tamil, Chinese, Hebrew, Indonesian, Portuguese, Russian, Spanish" group-title="🇮🇳 India",Angel TV Russian
+https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8#e9c47f63b1c83206a3e63ee02a986937427560d9caf10e3845d13fd5f16d4f6f
 #EXTINF:-1 tvg-id="anjan.tv" tvg-name="Anjan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Anjan TV
 https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8#5f3a47740a13a3ad39f0043aa4ccb40e0555a8df6895f81d01d90fb35cd45a88
 #EXTINF:-1 tvg-id="asianet.hd" tvg-name="Asianet HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="Entertainment",Asianet HD
@@ -55,7 +53,7 @@ https://mcncdndigital.com/balleballetv/index.m3u8#e9d11be1af38b45244d704dd32cffd
 https://stream1.livebox.co.in/VCAREhls/live.m3u8#7a817eafcef7e105c7fbb5196a074c3952006d3fb8eebeb3928f0b1e80b5ae75
 #EXTINF:-1 tvg-id="bharat.samachar" tvg-name="Bharat Samachar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Bharat Samachar
 https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8#674900e71307980e580f3f4ac888be1f73ad5d655460afda0d2a33f6142bc793
-#EXTINF:-1 tvg-id="bhojpuri.cinema" tvg-name="Bhojpuri Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bhojpuri" group-title="Movie",Bhojpuri Cinema
+#EXTINF:-1 tvg-id="bhojpuri.cinema" tvg-name="Bhojpuri Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bhojpuri" group-title="🇮🇳 India",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8#3e52bbc0366a8f2eefd8ac7334a690257ef046f3280953056e5339e53bff71fb
 #EXTINF:-1 tvg-id="ccv" tvg-name="CCV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="🇮🇳 India",CCV
 https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8#90589d394136aafa9a7a07da325d9e32a879fc97e60be52731cbbff60d0fcdcc
@@ -83,10 +81,12 @@ https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8#8b2da1283deae37c7ed44549441009ce4417179e8a1617b0aa4f8f4a00a73911
 #EXTINF:-1 tvg-id="dangal.tv" tvg-name="Dangal TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Dangal TV
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8#ba2be3eeda56d0ba6ed34ee987bb7f493cfc5f6399fe3791b81b64aa4e92e6c0
-#EXTINF:-1 tvg-id="dd.sports" tvg-name="DD Sports" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada, Bengali, Bhojpuri, Sign Languages, Telugu, Hindi, English" group-title="Sports",DD Sports
-https://cdn.pishow.tv/ott/live/13/master.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
+#EXTINF:-1 tvg-id="dd.sports.sd" tvg-name="DD Sports SD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali, Bhojpuri, Sign Languages, Telugu, Hindi, English, Tamil, Kannada" group-title="Sports",DD Sports SD
+https://mumbai-edge.smartplaytv.in/DDSports/index.m3u8#b7489fb640c6b85d0c350b6c6bdf4aca25d6b3a6c1fca7830e8da6f80eede8a7
 #EXTINF:-1 tvg-id="enterr.10.bangla" tvg-name="Enterr 10 Bangla" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="Entertainment",Enterr 10 Bangla
 https://live-bangla.akamaized.net/liveabr/playlist.m3u8#19c826c2b22a9185495e7c052ae4a2a1b66f28810cc262e116e1f147fe7db770
+#EXTINF:-1 tvg-id="etv.cinema" tvg-name="ETV Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Cinema
+https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#5c904659d9b6bc789a5e0bee926b5f3ee222047bc95f091e456279f170797f4a
 #EXTINF:-1 tvg-id="etv.comedy" tvg-name="ETV Comedy" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Comedy
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8#ab3ba0578ac4bdb00f85d6e9aa66e2e9a31775513a803ceac21ed83c168408aa
 #EXTINF:-1 tvg-id="etv.josh" tvg-name="ETV Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Josh
@@ -105,22 +105,26 @@ https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453
 https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8#1d24a3efbcbb06f49da36c6db15f9980c9490c6b67316d416d21144a44a5d23e
 #EXTINF:-1 tvg-id="guarantee.news" tvg-name="Guarantee News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Kannada" group-title="🇮🇳 India",Guarantee News
 https://guaranteenews.in:8443/live/gnews/index.m3u8#819e33a47c9fe3767cbb9d02c3f1fd7ba4b9084a9ba574ab0dc3ccd403a93de3
+#EXTINF:-1 tvg-id="high.news" tvg-name="High News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",High News
+https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8#4bf1686c9b6991ad852750f3baf3c5c8ef981d4f9d618f4a1437f8e86c060a59
 #EXTINF:-1 tvg-id="hindi.khabar" tvg-name="Hindi Khabar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Hindi Khabar
 https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8#9e8755ac489135513471d83c384399df395ef1980305c397c0213b1e87532b42
 #EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Telugu" group-title="Documentary",History TV18 HD
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
 #EXTINF:-1 tvg-id="hornbill.tv" tvg-name="Hornbill TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="News",Hornbill TV
 https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8#5b20232530ec7aed7024663de16b9d194105c983abab48193637f91ab4e7748f
-#EXTINF:-1 tvg-id="india.today" tvg-name="India Today" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="🇮🇳 India",India Today
+#EXTINF:-1 tvg-id="india.today" tvg-name="India Today" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="News",India Today
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8#9cebdc6e5ac04fa42db60dbd355f0a11f92314e810411a0284577fcb8ac4569b
 #EXTINF:-1 tvg-id="india.tv" tvg-name="India TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",India TV
 https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8#ec20ae048c4fd4b2ef22b86debcfa84b8a305229d46fdb1f3c1ee7b4e043b10b
 #EXTINF:-1 tvg-id="india.tv.speed.news" tvg-name="India TV Speed News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",India TV Speed News
-https://cc-lyf4c0hwzg5dd.akamaized.net/v1/vglive-sk-479089/main.m3u8#129898062293d77d6bde8e00932394f180b56cbf416d62a57d178056291057bc
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8#4b703c17639e4582257627370896ec34b7a333fbcd1ec15f3abed53ca2356019
 #EXTINF:-1 tvg-id="inh.24x7" tvg-name="INH 24x7" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Chhattisgarhi" group-title="News",INH 24x7
 https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
 #EXTINF:-1 tvg-id="ishwar.bhakti.tv" tvg-name="Ishwar Bhakti TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Ishwar Bhakti TV
 https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8#5bc284fa1fb0c53d1320f0bfe85706b7428fed9368be4147b13a4f944b3e3270
+#EXTINF:-1 tvg-id="jaihind.tv" tvg-name="Jaihind TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="🇮🇳 India",Jaihind TV
+https://yuppnimrestreammum.akamaized.net/260723/smil:jaihind1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#f5a383424107490db8767b638b4a54c2f75ce11fee43f7e32447b68c6af51e60
 #EXTINF:-1 tvg-id="kalaignar.murasu" tvg-name="Kalaignar Murasu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Kalaignar Murasu
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8#1d263505b3e2ee628e18aa7b826711822be4f9d037782132cf76a6b5d9c0661f
 #EXTINF:-1 tvg-id="kannur.vision" tvg-name="Kannur Vision" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="🇮🇳 India",Kannur Vision
@@ -129,6 +133,8 @@ https://stream.logichost.in/kannurvision/live/playlist.m3u8#2a517cc9a2c9a3a4826b
 https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8#fe50bcd4f195a3eeb2588287385bc1094bd1a35c7307906af81dc58212d56665
 #EXTINF:-1 tvg-id="khabrain.abhi.tak" tvg-name="Khabrain Abhi Tak" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Khabrain Abhi Tak
 https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8#22a5cec85e415b97257554c7b31618d5abcf50cebec3138fefbdfa11cf196c3b
+#EXTINF:-1 tvg-id="living.india.news" tvg-name="Living India News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Panjabi" group-title="🇮🇳 India",Living India News
+https://stream.ottlive.co.in/livingindia/index.m3u8#e6b48fd1a568ce62bfcd31476b7feb57917acd88b59b39b2cf3399803990da7f
 #EXTINF:-1 tvg-id="makkal.tv" tvg-name="Makkal TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Makkal TV
 https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8#37a551d2e883eccb2639a2bab4f16ea12a37640a162f32f14c9bb83be368a261
 #EXTINF:-1 tvg-id="mathrubhumi.news" tvg-name="Mathrubhumi News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="News",Mathrubhumi News
@@ -139,18 +145,12 @@ https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccda
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8#cf359f9d4cce7e5b8aa7c9006adc2ceff68b1f6f29bd231bfceca829dd5d0d87
 #EXTINF:-1 tvg-id="ndtv.good.times" tvg-name="NDTV Good Times" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English, Hindi" group-title="🇮🇳 India",NDTV Good Times
 https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d
-#EXTINF:-1 tvg-id="ndtv.marathi" tvg-name="NDTV Marathi" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="News",NDTV Marathi
-https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8#a7518e3df08e515ee25378988707f197b885b62adb3e20240b1af46a1d49b618
-#EXTINF:-1 tvg-id="nepal.1" tvg-name="Nepal 1" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Nepali" group-title="🇮🇳 India",Nepal 1
+#EXTINF:-1 tvg-id="nepal.1" tvg-name="Nepal 1" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Nepali" group-title="Entertainment",Nepal 1
 https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8#909ba7cf244d16da90ca04ca6fce29709071306d52dbf2829aca641003effdcb
 #EXTINF:-1 tvg-id="news.1.india" tvg-name="News 1 India" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",News 1 India
 https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8#07de4ba7697cb0d08a16ce2f8dc9d64303db591438f04e387f78e3f191e2bc8d
 #EXTINF:-1 tvg-id="news.11" tvg-name="News 11" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News 11
 https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8#ae973a28ed44fda59b91f1bbba0774c1d8386a6a62bf37bb10c6e6f379d3d5ef
-#EXTINF:-1 tvg-id="news18.bangla" tvg-name="News18 Bangla" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News18 Bangla
-https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8#263f91b7d13fd8ee2aecce4c487de52856282f3d57ad36c37f454f9228837307
-#EXTINF:-1 tvg-id="news18.lokmat" tvg-name="News18 Lokmat" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="News",News18 Lokmat
-https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8#79a59ee87a0a103142a79e2cc69b0a57a0e222a01f0d38235d741a5ebcbc8824
 #EXTINF:-1 tvg-id="news9live" tvg-name="News9Live" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="News",News9Live
 https://vg-tv9yupp.vgcdn.net/vglive-sk-526536/v1/019e01ace8511ea540a871e333268/019e01ad3da31ea55784752988551/main.m3u8#6da7a14d44de13debcceb5ae9c05c280b608c7fc4f4a47be62525eae44276d99
 #EXTINF:-1 tvg-id="nkr.tv.kannada" tvg-name="NKR TV Kannada" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Kannada" group-title="🇮🇳 India",NKR TV Kannada
@@ -169,20 +169,18 @@ https://stream.ottlive.co.in/punjabihits/index.m3u8#1ddc760329ab70d9e508a49ea5da
 https://d1msejlow1t3l4.cloudfront.net/fta/rengonitv/playlist.m3u8#66e0af688587c02db5a09fe3617a74f877479ee5a2f86be7ec3c9466b51ef506
 #EXTINF:-1 tvg-id="republic.tv" tvg-name="Republic TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="🇮🇳 India",Republic TV
 https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8#81b280e8195349e929a52b0e33fac9c0297900a781627d3a4c4da2e5377822d0
-#EXTINF:-1 tvg-id="roja.movies" tvg-name="Roja Movies" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Movie",Roja Movies
-https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8#47edb55dbaec7a0d9eab8c70bcf41b1e71f32a07b51b0cdb911a01b6b7947477
 #EXTINF:-1 tvg-id="rongeen.tv" tvg-name="Rongeen TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Rongeen TV
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8#a41997db5f55bf166963f224da568c001957501fd5211362a8c9c1255203262a
 #EXTINF:-1 tvg-id="rt.india" tvg-name="RT India" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English" group-title="🇮🇳 India",RT India
 https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8#9c2f93671c09244b4aeb15e30ea3b69bc1e40250e3d6959c770d2e088f1106a2
-#EXTINF:-1 tvg-id="sadhna" tvg-name="Sadhna" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Sadhna
-https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8#9919e2570f2cc49e423af005b54400cbee53df825140f4717bd124184a139008
 #EXTINF:-1 tvg-id="sadhna.plus.news" tvg-name="Sadhna Plus News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Sadhna Plus News
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8#ed5b1f3170ba88480b5a3b42dac6d2268579abf102064700b67afc05762ee20d
 #EXTINF:-1 tvg-id="safari.tv" tvg-name="Safari TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="Documentary",Safari TV
 https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8#58ed2c2d00e376cbf61f86c1a4dcc30d39381392a3eabebcbb51c6293f313cd6
+#EXTINF:-1 tvg-id="sakshi.tv" tvg-name="Sakshi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Sakshi TV
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/sakshi_nim_https/240122/sakshi/playlist.m3u8#e022f00072764329f1ce0fc66a6869ac5dcde7218fa9a7f773e829574689a15b
 #EXTINF:-1 tvg-id="salaam.tv" tvg-name="Salaam TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Urdu" group-title="🇮🇳 India",Salaam TV
-https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8#d8df98a73be2f0f143549d721df6702db708b6133b41b21aa3c645511ebc30cf
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/426c6db7-595e-4aa8-859c-7e86ed2811d0/af896be5-4743-41fc-8b6a-eb05e44f3a6e/3.m3u8#ccde859a86eabfa319265ba258d97b67bb90f8ae7e3b087348c20c9d7ee278a0
 #EXTINF:-1 tvg-id="shemaroo.josh" tvg-name="Shemaroo Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Shemaroo Josh
 https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8#c04f44da34f154fabdb8d3e2582a5a3aeadc1157c88e34487db8c1cdb3c93636
 #EXTINF:-1 tvg-id="shemaroo.marathi.bana" tvg-name="Shemaroo Marathi Bana" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="🇮🇳 India",Shemaroo Marathi Bana
@@ -195,43 +193,43 @@ https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u
 http://38.96.178.205/SONYHD/index.m3u8#43f387941892083ea649fbb0ca7f38417f71250620b412d7d7af4a354102ec3b
 #EXTINF:-1 tvg-id="south.station" tvg-name="South Station" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",South Station
 https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8#9be97852e19a76380fe422263b8b235f0dda2868c961ca515e14afeff9e52d3b
-#EXTINF:-1 tvg-id="star.gold.2" tvg-name="Star Gold 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="Movie",Star Gold 2
+#EXTINF:-1 tvg-id="star.gold.2" tvg-name="Star Gold 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Star Gold 2
 http://107.167.16.138/stargold2/index.m3u8?token=test#501d43dd7a1050c0d9a5e312fca026640d1bebff3126a2aae06f3621a2bf1b3c
 #EXTINF:-1 tvg-id="star.maa.hd" tvg-name="Star Maa HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Star Maa HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
 #EXTINF:-1 tvg-id="star.maa.movies.hd" tvg-name="Star Maa Movies HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Movie",Star Maa Movies HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8#e7a68f826f3af20f519f50fa77fc57dcaa833bb2ba73f9e37a6cb585c3aaaa71
-#EXTINF:-1 tvg-id="star.vijay" tvg-name="Star Vijay" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English" group-title="Entertainment",Star Vijay
+#EXTINF:-1 tvg-id="star.vijay.hd" tvg-name="Star Vijay HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Entertainment",Star Vijay HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
+#EXTINF:-1 tvg-id="steelbird.music" tvg-name="Steelbird Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Steelbird Music
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8#660694eead9baaa2005038aa9afd45ad22a3bd34b164f490e865818ad3c7f56c
 #EXTINF:-1 tvg-id="sudarshan.news" tvg-name="Sudarshan News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Sudarshan News
 https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8#ab6a4a06b45f367b7f0c8ea95dd8256ec98845a3b44c61dc5ebc293fd9f89fe0
 #EXTINF:-1 tvg-id="swatantra.tv" tvg-name="Swatantra TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="News",Swatantra TV
 https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8#8d53127365d405817646143d68efba8522d63a98e5056792bfc1a375f9df3e27
 #EXTINF:-1 tvg-id="tabbar.hits" tvg-name="Tabbar Hits" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Panjabi" group-title="Music",Tabbar Hits
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e11b0319-52e8-4190-ab03-3931cc68eac9/index.m3u8#f3f6cc9638d52b0c2ff5f656395ddb81e1266a2a4fe75ffce6976f4f5e7d4b3f
-#EXTINF:-1 tvg-id="tarang.music" tvg-name="Tarang Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Oriya" group-title="🇮🇳 India",Tarang Music
-https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8#43b2690b2096ceba41c440b2f757ac7571c34257baa2c259463ffe507b75130e
-#EXTINF:-1 tvg-id="tarang.tv" tvg-name="Tarang TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Oriya" group-title="🇮🇳 India",Tarang TV
-https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8#eb5b8dde2a95b8c079e993134b8fd969eefd419e0e8cbc53f6d01afaf6ec2e49
 #EXTINF:-1 tvg-id="times.now.navbharat" tvg-name="Times Now Navbharat" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Times Now Navbharat
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TimesNowNavbharat.m3u8#efcee9f178e2c5d6bd7224d9ae73025d2acaf5da2fee14cfbc77bd47d48d8694
 #EXTINF:-1 tvg-id="total.tv.haryana" tvg-name="Total TV Haryana" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Total TV Haryana
 https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8#02648b69e10d279ae8c0fbf09ea59a227cf68067c60dc29aa68dbd16db8fb5ca
 #EXTINF:-1 tvg-id="travelxp.hd" tvg-name="Travelxp HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Bengali, Tamil" group-title="🇮🇳 India",Travelxp HD
-http://stream.mcquack.net/451/index.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
-#EXTINF:-1 tvg-id="tv9.marathi" tvg-name="TV9 Marathi" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="News",TV9 Marathi
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8#f6d3784f7f2a9e69b55414f278b78d10a0fc9d726aac028a5c1b1e6ed6697721
+https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8#c2dcf6e876bf57bef8b94476c1ecf712c9b115aa191b363b94943350c475112e
+#EXTINF:-1 tvg-id="tunes.6" tvg-name="Tunes 6" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Music",Tunes 6
+https://stream.d6-pro.com/tunes6music/live/video.m3u8#9959aea679ede99bee6292c1a9353ee3d7e6941325def33f46f3d496ef336b47
 #EXTINF:-1 tvg-id="ultimate.tv" tvg-name="Ultimate TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Ultimate TV
 https://mumbai-edge.smartplaytv.in/utv/index.m3u8#f6aa68ccc5e2ae93fb372a97d783139caf7836fcb8f419b61e3e22088fd3d74e
 #EXTINF:-1 tvg-id="vaanavil.tv" tvg-name="Vaanavil TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Music",Vaanavil TV
 https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8#8ac811d1ca1d7a4bdbe51ba08b90340c5c3ebf678d2f35f42624b2485fcc7d26
 #EXTINF:-1 tvg-id="vedic" tvg-name="Vedic" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Vedic
 https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8#f5a611bbe75d1996742073c1323333b0734110ff61b5fc0e6ea2334dd03a48c1
+#EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
 #EXTINF:-1 tvg-id="yrf.music" tvg-name="YRF Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",YRF Music
 https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8#18baa91a24a31542e8028dc55eed076a42d7b46106ea979c3718919b4e359272
 #EXTINF:-1 tvg-id="zb.cartoon" tvg-name="ZB Cartoon" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8#e18fdbe8b27d8294fedc3233fa92d01ab6bc03940a0730fa90eb34eade998829
-#EXTINF:-1 tvg-id="zb.cinema" tvg-name="ZB Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="Movie",ZB Cinema
+#EXTINF:-1 tvg-id="zb.cinema" tvg-name="ZB Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",ZB Cinema
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8#4d8aeb60236c2adc4fdd8a952ff2266fc4e7c9df495d368bf0cedf5a0f6d269c
 #EXTINF:-1 tvg-id="zee.24.taas" tvg-name="Zee 24 Taas" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="News",Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8#b00626d442b1b16e802ea83a3abbfa51cb22b0c6d83adcff53cf54882d3e873a
@@ -250,4 +248,4 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="zee.telugu.news" tvg-name="Zee Telugu News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Zee Telugu News
 https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8#06716ccadc5eefde40c5664d54748c313e716a2a5af1669142db42204671810c
 #EXTINF:-1 tvg-id="zoom" tvg-name="Zoom" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Zoom
-https://dai.google.com/linear/hls/pa/event/JCAm25qkRXiKcK1AJMlvKQ/stream/36866a4e-5ddc-4431-8129-919dc65aa590:CHS/master.m3u8#53f27352e9fc41b967d1e5e34b4c4d2bb08e985bc8c0ed3bda93b01cb21c6341
+https://dai.google.com/linear/hls/pa/event/JCAm25qkRXiKcK1AJMlvKQ/stream/02aa953e-7a93-4eba-a0e1-aa46a18e411a:CHS/master.m3u8#53f27352e9fc41b967d1e5e34b4c4d2bb08e985bc8c0ed3bda93b01cb21c6341
