@@ -507,7 +507,6 @@ def is_telugu_channel(name, lang, group, telugu_keywords):
 
 
 def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_langs, noise):
-    """Fetches and parses an external .m3u/.m3u8 playlist with #EXTINF and #EXTVLCOPT support."""
     src_name = src_cfg.get("name", "External")
     src_url = src_cfg.get("url", "").strip()
     telugu_only = src_cfg.get("telugu_only", False)
@@ -541,7 +540,6 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_la
             grp_m = re.search(r'group-title="([^"]*)"', line, re.I)
 
             title_part = line.rsplit(",", 1)[-1] if "," in line else ""
-            # Strip trailing quality/geo notes in parentheses like "(720p) [Not 24/7]"
             clean_title = re.sub(r"\s*[\[(][^\])]*[\])]", "", title_part).strip()
             clean_title = clean_text(clean_title)
 
@@ -927,7 +925,6 @@ def main():
             if bucket in membership:
                 membership[bucket].setdefault(lbl, set()).add(k)
 
-    # Import external M3U playlists (iptv-org Telugu, YuppTV FAST, DistroTV, JTV, SLIV)
     for src in cfg.get("external_m3u_sources", []):
         src_name = src.get("name", "External")
         print(f"Importing external M3U -> {src_name}...")
@@ -967,10 +964,112 @@ def main():
 
     all_working = list(resolved.values())
 
-    # 1. Master & Backup Playlists
     total_all = write_m3u(
         "playlists/all.m3u", all_working,
         epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
     )
     total_backups = write_m3u(
-        "playlists/special/with_backups
+        "playlists/special/with_backups.m3u", all_working,
+        epg_urls=epg_urls, deduplicate=True, max_mirrors=3, tag_info=tag_info,
+    )
+
+    telugu_keys = set(membership["languages"].get("Telugu", set()))
+    for sub_keys in membership["telugu_hub"].values():
+        telugu_keys.update(sub_keys)
+    for k, ch in resolved.items():
+        if ch.get("is_telugu") or is_telugu_channel(
+            ch["name"], ch.get("language", ""), ch.get("category", ""), telugu_keywords
+        ):
+            telugu_keys.add(k)
+
+    telugu_channels = [resolved[k] for k in telugu_keys if k in resolved]
+    total_telugu_hub = write_m3u(
+        "playlists/special/telugu_hub.m3u", telugu_channels,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+    )
+    total_telugu_backups = write_m3u(
+        "playlists/special/telugu_hub_backups.m3u", telugu_channels,
+        epg_urls=epg_urls, deduplicate=True, max_mirrors=3, tag_info=tag_info,
+    )
+
+    ext_channels = [c for c in all_working if c.get("is_external")]
+    total_external = write_m3u(
+        "playlists/special/external_verified.m3u", ext_channels,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+    )
+
+    multi_audio_channels = [c for c in all_working if len(c.get("audio_langs", [])) > 1]
+    total_multi_audio = write_m3u(
+        "playlists/special/multi_audio.m3u", multi_audio_channels,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+    )
+
+    hd_channels = [c for c in all_working if c.get("height", 0) >= 720]
+    total_hd = write_m3u(
+        "playlists/special/hd_1080p.m3u", hd_channels,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+    )
+
+    summary = {"Country": [], "Language": [], "Category": [], "Custom Search": []}
+    lmap = {
+        "countries": "Country",
+        "languages": "Language",
+        "categories": "Category",
+        "searches": "Custom Search",
+    }
+    for bucket, ldict in membership.items():
+        if bucket not in lmap:
+            continue
+        for lbl, keys in ldict.items():
+            if bucket == "languages" and lbl == "Telugu":
+                clist = telugu_channels
+            else:
+                clist = [resolved[k] for k in keys if k in resolved]
+            fname = f"playlists/{bucket}/{safe_filename(lbl)}.m3u"
+            written_count = write_m3u(
+                fname, clist,
+                epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+            )
+            summary[lmap[bucket]].append((lbl, fname, written_count))
+
+    ist = timezone(timedelta(hours=5, minutes=30))
+    now_ist = datetime.now(ist).strftime("%d %b %Y, %I:%M %p IST")
+    repo = os.environ.get("GITHUB_REPOSITORY", "Tarke4618/iptv")
+    raw_base = f"https://raw.githubusercontent.com/{repo}/main"
+
+    md = [
+        "# Auto-Updating Multi-Source IPTV Playlists (.m3u)",
+        "",
+        f"**Last Synced:** `{now_ist}` (Auto-refreshes every **12 hours** from `eja.tv`, `iptv-org`, `YuppTV FAST`, `DistroTV`, `JTV`, and `SLIV`)",
+        "",
+        "### Featured & Smart Playlists (IPTVnator Ready)",
+        "| Playlist | Channels | Raw M3U URL |",
+        "| :--- | :---: | :--- |",
+        f"| **Telugu Hub (Best Mirror per Channel)** | {total_telugu_hub} | `{raw_base}/playlists/special/telugu_hub.m3u` |",
+        f"| **Telugu Hub + Backup Mirrors (Up to 3x)** | {total_telugu_backups} | `{raw_base}/playlists/special/telugu_hub_backups.m3u` |",
+        f"| **All Verified Channels (Best Mirror)** | {total_all} | `{raw_base}/playlists/all.m3u` |",
+        f"| **All Channels + Backup Mirrors** | {total_backups} | `{raw_base}/playlists/special/with_backups.m3u` |",
+        f"| **External South Asian / FAST Verified** | {total_external} | `{raw_base}/playlists/special/external_verified.m3u` |",
+        f"| **Verified Multi-Audio Channels** | {total_multi_audio} | `{raw_base}/playlists/special/multi_audio.m3u` |",
+        f"| **HD 720p / 1080p Streams** | {total_hd} | `{raw_base}/playlists/special/hd_1080p.m3u` |",
+        "",
+    ]
+
+    for sec, rows in summary.items():
+        if rows:
+            md.append(f"### By {sec}")
+            md.append("| Filter | Channels | Raw M3U URL |")
+            md.append("| :--- | :---: | :--- |")
+            for lbl, rel, cnt in sorted(rows, key=lambda x: x[0].lower()):
+                md.append(f"| **{lbl}** | {cnt} | `{raw_base}/{rel}` |")
+            md.append("")
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write("\n".join(md))
+    print(f"Done! TeluguHub={total_telugu_hub}, TeluguBackups={total_telugu_backups}, All={total_all}, External={total_external}")
+
+
+if __name__ == "__main__":
+    main()
+
+# === END OF FILE ===
