@@ -1,133 +1,165 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="3abn.canada" tvg-name="3ABN Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",3ABN Canada
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTINF:-1 tvg-id="3abn.canada" tvg-name="3ABN Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",3ABN Canada [720p]
 https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8#bd47bbe7bac52f2e944640e771949f0f02b9537674f27276d8b4fb51b1c2874d
-#EXTINF:-1 tvg-id="5aab.tv" tvg-name="5AAB TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",5AAB TV
+#EXTINF:-1 tvg-id="5aab.tv" tvg-name="5AAB TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",5AAB TV [720p]
 http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8#62d64031964bcca1f356a611d87943400935f68dd6778c73e53665392dce782f
-#EXTINF:-1 tvg-id="amazing.discoveries.tv" tvg-name="Amazing Discoveries TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Amazing Discoveries TV
-https://rpn.bozztv.com/gfaith/gfaith-amazing/index.m3u8#8085ef1e4982f39e7ccd1afb0428d8a475e6fa3bf709c15df33f30ec086ff0e1
-#EXTINF:-1 tvg-id="az.star.tv" tvg-name="Az Star TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Azerbaijani" group-title="🇨🇦 Canada",Az Star TV
+#EXTINF:-1 tvg-id="az.star.tv" tvg-name="Az Star TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Azerbaijani" group-title="🇨🇦 Canada",Az Star TV [1080p]
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8#4d1a8e7b0e5677051d06affe6c5d42a3837c188c68079cb1fd362268814e29a6
 #EXTINF:-1 tvg-id="azan.tv" tvg-name="Azan TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",Azan TV
 https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8#8514684c8264b756d6580665575f415661ed07c8a9eef44490d0ad6424b6c59d
-#EXTINF:-1 tvg-id="canada.one" tvg-name="Canada One" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Canada One
+#EXTINF:-1 tvg-id="c.malayalam.tv" tvg-name="C Malayalam TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Malayalam" group-title="🇨🇦 Canada",C Malayalam TV [720p]
+https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8#12100ff3a447dfc7356b20371d0a03cc668be64018e992ea9ea8e6168dba9643
+#EXTINF:-1 tvg-id="canada.one" tvg-name="Canada One" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Canada One [720p]
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8#889b3c4ab08e7f1f8cef33a00b85bdf8ef1a43fd5951d0c544959974245d84a5
 #EXTINF:-1 tvg-id="canal.savoir" tvg-name="Canal Savoir" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="French" group-title="🇨🇦 Canada",Canal Savoir
 https://hls.savoir.media/live/stream.m3u8#757bf8a2f75447cd05b17561c1e6d3836b65c74b9d716b80c20d60a03c09c6e4
-#EXTINF:-1 tvg-id="channel.y" tvg-name="Channel Y" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Channel Y
+#EXTINF:-1 tvg-id="channel.y" tvg-name="Channel Y" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Channel Y [1080p]
 http://cdn19.live247stream.com/channely/tv/playlist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
-#EXTINF:-1 tvg-id="citynews.calgary" tvg-name="CityNews Calgary" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Calgary
+#EXTINF:-1 tvg-id="citynews.calgary" tvg-name="CityNews Calgary" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Calgary [720p]
 https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8#93526593644adfd43c0050d560342f8be546791505e075cb88148c9674610e43
 #EXTINF:-1 tvg-id="citynews.edmonton" tvg-name="CityNews Edmonton" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Edmonton
 https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8#8fd90dd772f4b4ed98c2abd66d6c7bb48d62c8f2722d06784bf4c8b861fca0e0
-#EXTINF:-1 tvg-id="citynews.toronto" tvg-name="CityNews Toronto" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="News",CityNews Toronto
+#EXTINF:-1 tvg-id="citynews.toronto" tvg-name="CityNews Toronto" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="News",CityNews Toronto [720p]
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8#2fb074d7300ed2b9402b00f5906eb765ff965561081dda69a7d9339da74978a2
-#EXTINF:-1 tvg-id="citynews.vancouver" tvg-name="CityNews Vancouver" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Vancouver
+#EXTINF:-1 tvg-id="citynews.vancouver" tvg-name="CityNews Vancouver" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Vancouver [720p]
 https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8#f5d0a2d6d8ab2e99a9223360b427a73d6d572c0995ab6a4b6dfffb220e8fc9ed
-#EXTINF:-1 tvg-id="cowboy.channel" tvg-name="Cowboy Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Cowboy Channel
-https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8?ads.vf=6g9ilXeXVD8#80c5a866f1aab227a7774871d6090725f8e873b9ca14b7669bc628ff253daf50
-#EXTINF:-1 tvg-id="cp24" tvg-name="CP24" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CP24
-https://tvsen6.aynaott.com/cp24/index.m3u8#68ffc26d8380a3ca82405c2926c452b94a03f490174b576180d6166292ee6f6c
+#EXTINF:-1 tvg-id="cowboy.channel" tvg-name="Cowboy Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Cowboy Channel [1080p]
+https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8#0efdc41be09de4f7d879943c42ec64fc6f2f71ff3b098f344496ed5326aa71ad
+#EXTINF:-1 tvg-id="cp24" tvg-name="CP24" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CP24 [720p]
+http://107.167.16.138/cp24/index.m3u8?token=test#f018afcf153f91ebb6419d1d65a2bef36c01a467120a0b106e1ff21816489edd
 #EXTINF:-1 tvg-id="deshebideshe.tv" tvg-name="DesheBideshe TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",DesheBideshe TV
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8#5e1a3e949d1b665c89ce52265aefe4e54f5e4fa13e9014f389faeadeeb097402
+#EXTINF:-1 tvg-id="deshi.tv" tvg-name="Deshi TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",Deshi TV
+https://deshitv.deshitv24.net/live/myStream/playlist.m3u8#90e6735a4f9d1bc13a69639b926ee4d1306d9c0bdea2d4e7e5af66f5024a8b52
 #EXTINF:-1 tvg-id="dukh.nivaran" tvg-name="Dukh Nivaran" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",Dukh Nivaran
 http://cdn12.henico.net:8080/live/dncal/index.m3u8#5df7abb3bb67928ad9e47d37ed1eab52e5709a819e778174e045de9ec6d61c7b
-#EXTINF:-1 tvg-id="eawaz.tv" tvg-name="Eawaz TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Urdu" group-title="🇨🇦 Canada",Eawaz TV
+#EXTINF:-1 tvg-id="eawaz.tv" tvg-name="Eawaz TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Urdu" group-title="🇨🇦 Canada",Eawaz TV [720p]
 https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/playlist.m3u8#837b64de3399ceac995aabd0a6e50492f06e0698296e9b32725d481c0f0eead7
 #EXTINF:-1 tvg-id="erfan.halgheh.tv" tvg-name="Erfan Halgheh TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Persian" group-title="🇨🇦 Canada",Erfan Halgheh TV
 https://hls.erfanhalgheh.live/hls/stream.m3u8#80ea707e7cf5dd2ccac0c68bf56a0e37e3ae879c48a09d87cfac28ee68b9202c
-#EXTINF:-1 tvg-id="feva.tv" tvg-name="Feva TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Entertainment",Feva TV
+#EXTINF:-1 tvg-id="feva.tv" tvg-name="Feva TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Entertainment",Feva TV [1080p]
 https://d3c1w351ahk83d.cloudfront.net/scheduler/scheduleMaster/416.m3u8#f34dcb20d06ec5c903739f29bafeb36ce0360957e93debe0b31841ab9ffde4e9
-#EXTINF:-1 tvg-id="fight.network" tvg-name="Fight Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Sports",Fight Network
+#EXTINF:-1 tvg-id="fight.network" tvg-name="Fight Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Sports",Fight Network [720p]
 https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
-#EXTINF:-1 tvg-id="game" tvg-name="Game+" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Sports",Game+
+#EXTINF:-1 tvg-id="game" tvg-name="Game+" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Sports",Game+ [720p]
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8#bc0e5374a2acc7f4e3f0e6419dfacc3599a500b772dbe74f4da5c10e21df7ea3
+#EXTINF:-1 tvg-id="gaunda.punjab.tv" tvg-name="Gaunda Punjab TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",Gaunda Punjab TV [720p]
+http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8#16ea2239ee233aa2e9427790b9e01de0bd04ccc564aff069dd7b857fe3fbb581
 #EXTINF:-1 tvg-id="gtn.canada" tvg-name="GTN Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",GTN Canada
 https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8#c67b7de6c79375780a0a635a7578e39e420537501b1748645f7d8d7d1731f032
-#EXTINF:-1 tvg-id="gusto.tv" tvg-name="Gusto TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Gusto TV
+#EXTINF:-1 tvg-id="gursikh.sabha.tv" tvg-name="GurSikh Sabha TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",GurSikh Sabha TV
+http://cdn12.henico.net:8080/live/gsctv/index.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
+#EXTINF:-1 tvg-id="gusto.tv" tvg-name="Gusto TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Gusto TV [1080p]
 https://amg01077-gustoworldwidem-gustotvnz-samsungnz-3fu5q.amagi.tv/playlist/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8#ea20d829426c4f3c63e2691421da5e400678659194736fa374872b40ccb9f21b
-#EXTINF:-1 tvg-id="ici.montreal" tvg-name="ICI Montreal" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",ICI Montreal
+#EXTINF:-1 tvg-id="hyder.tv" tvg-name="Hyder TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Hyder TV [720p]
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8#4098c39a5f541cd86565e03fead0428ad152d07ccba7c3763db0cc82ac3d1532
+#EXTINF:-1 tvg-id="ici.montreal" tvg-name="ICI Montreal" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="AAC-128KBPS" group-title="🇨🇦 Canada",ICI Montreal [720p]
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8#439753193c1fa67e6f6222423d047b1e626c3f0d758a336f4480d815ca7ceec9
-#EXTINF:-1 tvg-id="iipc.tv" tvg-name="IIPC TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",IIPC TV
-https://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8#3dcf83e8c8ce24b486faa69debbee3d9ce0243c54fd1f2bfbe0debc388f238f6
-#EXTINF:-1 tvg-id="knowledge.network" tvg-name="Knowledge Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Knowledge Network
+#EXTINF:-1 tvg-id="icnet.1" tvg-name="icnet 1" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Persian" group-title="🇨🇦 Canada",icnet 1
+https://icnet1hls.wns.live/hls/stream.m3u8#025ba958f9455751f4c4d9d7b20f38e93badeca210ba79f4b3846680bcdfa59c
+#EXTINF:-1 tvg-id="icnet.2" tvg-name="icnet 2" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Persian" group-title="🇨🇦 Canada",icnet 2
+https://icnet2hls.wns.live/hls/stream.m3u8#c78ac4640b3d20c1b76c2e374c716f2bceb82d477e1d880d6fdb6f303c2b8f14
+#EXTINF:-1 tvg-id="icnet.3" tvg-name="icnet 3" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Persian" group-title="🇨🇦 Canada",icnet 3
+https://ic3hls.wns.live/hls/stream.m3u8#8780daea364cf2c6e6bd00f4f24d03b3f928e032e849620589ab3583816afb93
+#EXTINF:-1 tvg-id="iipc.tv" tvg-name="IIPC TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",IIPC TV [720p]
+https://rpn.bozztv.com/dvrfl03/iipctv/index.m3u8#4e0d5b21ea47428a9730bf6f2172426013b1b4518093e2758cb678ff7432ddb3
+#EXTINF:-1 tvg-id="knowledge.network" tvg-name="Knowledge Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Knowledge Network [720p]
 https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8#b3086bdb6d6f4d81140df2b6126ff96099f87a3dfd4edabaa59c0ae0f74aa28e
-#EXTINF:-1 tvg-id="love.nature.hd" tvg-name="Love Nature HD" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Chinese, Turkish, Bulgarian, Czech, Russian, Spanish, Hungarian" group-title="🇨🇦 Canada",Love Nature HD
-https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8#7845108477e143b3e3fd7ebb89ec7cc9c612f31c2722b50603e46dcb8973979c
-#EXTINF:-1 tvg-id="love.pets" tvg-name="Love Pets" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Documentary",Love Pets
-https://amg01576-blueskyeenterta-lovepetsemea-samsunguk-32fso.amagi.tv/playlist/amg01576-blueskyeenterta-lovepetsemea-samsunguk/playlist.m3u8#8ed267a10c7da71dabd7a1eefa4133d33e03bca508f3f7a998f14c4c86dd206b
-#EXTINF:-1 tvg-id="mhz" tvg-name="MHZ" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Entertainment",MHZ
+#EXTINF:-1 tvg-id="love.nature.hd" tvg-name="Love Nature HD" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Chinese, Turkish, Bulgarian, Czech, Russian, Spanish, Hungarian" group-title="🇨🇦 Canada",Love Nature HD [2160p | HEVC-MPV]
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-id="mhz" tvg-name="MHZ" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Entertainment",MHZ [720p]
 https://mhz-samsung-linear-ca.samsung.wurl.tv/playlist.m3u8#b63b88709000bcefd144801acae041bc70540ecc0e3eafe4b0dd73ed06cae5b6
-#EXTINF:-1 tvg-id="newfoundland.television" tvg-name="Newfoundland Television" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Newfoundland Television
+#EXTINF:-1 tvg-id="newfoundland.television" tvg-name="Newfoundland Television" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Newfoundland Television [480p]
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8#685507481a3e64f4d7a560918262f80565e727f7600b2f8f8de24a7939d4fd7e
 #EXTINF:-1 tvg-id="ntv" tvg-name="NTV+" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",NTV+
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8#2f478e4b876a0266e054f862d8f9adabccbe1c5aeb5123d3c001b177d99424ff
-#EXTINF:-1 tvg-id="ontario.parliamentary.network" tvg-name="Ontario Parliamentary Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Ontario Parliamentary Network
-https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8#1c3c9f6329796cf4eb1027b11f7c1ff0ea4e6bdd94cb8cf66c84e9e62b631cd9
-#EXTINF:-1 tvg-id="pardesi.tv" tvg-name="Pardesi TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Pardesi TV
+#EXTINF:-1 tvg-id="ontario.parliamentary.network" tvg-name="Ontario Parliamentary Network" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Ontario Parliamentary Network [720p]
+https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8#333441806e183b3cd1550031627b72a29aa42a6f65a24f2d96bd8bc2fb73850c
+#EXTINF:-1 tvg-id="pardesi.tv" tvg-name="Pardesi TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Pardesi TV [720p]
 http://stream.pardesitv.online/pardesi/index.m3u8#e59de6e8d7d9618473c4c1eb28801fdbb4e53c72bd9e7e1bd9b34c42e28bfbbe
-#EXTINF:-1 tvg-id="prime.asia.tv" tvg-name="Prime Asia TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Prime Asia TV
+#EXTINF:-1 tvg-id="prime.asia.tv" tvg-name="Prime Asia TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Prime Asia TV [1080p]
 http://primeasia.selfip.net/Samsung/index.m3u8#1f07ebe8b64c83c0470b5293b635e2a07865e845197f1538153467e0948a1850
-#EXTINF:-1 tvg-id="probashi.tv.news" tvg-name="Probashi TV News" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",Probashi TV News
+#EXTINF:-1 tvg-id="probashi.tv.news" tvg-name="Probashi TV News" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",Probashi TV News [720p]
 http://158.69.24.53:8080/probashi_tv/index.m3u8#3ef619839da387ae362a53c543a06d6f55d3caf9504a0992c35c9d8c4c177f76
-#EXTINF:-1 tvg-id="ptc.punjabi.canada" tvg-name="PTC Punjabi Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",PTC Punjabi Canada
+#EXTINF:-1 tvg-id="ptc.punjabi.canada" tvg-name="PTC Punjabi Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",PTC Punjabi Canada [1080p]
 https://stream.ottlive.co.in/ptccanada/index.m3u8#0177191ae34ef1ba9fe80e4de4c05be2b7b113ef4ab178ac7d244ca33147553e
-#EXTINF:-1 tvg-id="qello.concerts.by.stingray" tvg-name="Qello Concerts by Stingray" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Qello Concerts by Stingray
+#EXTINF:-1 tvg-id="qello.concerts.by.stingray" tvg-name="Qello Concerts by Stingray" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Qello Concerts by Stingray [1080p]
 https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8#caa67e9c8f2a34112cdb879058342662626c3ffde48c38e149b28fd8ddc56531
-#EXTINF:-1 tvg-id="quo.vadis.tv" tvg-name="Quo Vadis TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Quo Vadis TV
+#EXTINF:-1 tvg-id="quo.vadis.tv" tvg-name="Quo Vadis TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Quo Vadis TV [720p]
 https://tgn.bozztv.com/qvtv/qvtv-web/playlist.m3u8#f1a334e0ba6f572fa34dc3c52e3543154c1748e0bf63d3893640318f191a0031
-#EXTINF:-1 tvg-id="radio.tele.evangile.sans.limite" tvg-name="Radio Tele Evangile Sans Limite" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="French" group-title="🇨🇦 Canada",Radio Tele Evangile Sans Limite
+#EXTINF:-1 tvg-id="radio.tele.evangile.sans.limite" tvg-name="Radio Tele Evangile Sans Limite" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="French" group-title="🇨🇦 Canada",Radio Tele Evangile Sans Limite [1080p]
 https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8#9b60c79afb1c282091a6276984ec2ea95fab2b93b5521e98e830ee033f09c21e
-#EXTINF:-1 tvg-id="sardari.tv" tvg-name="Sardari TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Sardari TV
+#EXTINF:-1 tvg-id="sardari.tv" tvg-name="Sardari TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Sardari TV [1080p]
 http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8#26983319ea4f57c4fd229c66482205b29836cf8d20635a22acdbe0cd2e38f98d
-#EXTINF:-1 tvg-id="sohail.tv" tvg-name="Sohail TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Sohail TV
+#EXTINF:-1 tvg-id="sohail.tv" tvg-name="Sohail TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Sohail TV [1080p]
 https://iptv.sohailtv.com/sohailtv/playlist.m3u8#f464e5bbe243260f78eb0ee6281c3d13c1dafe2878356686a7d9af0ad612498a
-#EXTINF:-1 tvg-id="stingray.cityscapes" tvg-name="Stingray Cityscapes" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Cityscapes
+#EXTINF:-1 tvg-id="stingray.cityscapes" tvg-name="Stingray Cityscapes" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Cityscapes [1080p]
 https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-origin/out/v1/live.m3u8#befc7598856ca06948da8c7d59bb3d0d7d75139e986326e1f06bce77f5e511db
-#EXTINF:-1 tvg-id="stingray.classic.rock" tvg-name="Stingray Classic Rock" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray Classic Rock
+#EXTINF:-1 tvg-id="stingray.classic.rock" tvg-name="Stingray Classic Rock" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Classic Rock [1080p]
 https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8#9eb6e988877836b5ec7d337b9a3d9c2c7bb04c875b821c1b57705704b160eb6a
-#EXTINF:-1 tvg-id="stingray.classica" tvg-name="Stingray Classica" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="German, Spanish, French, English" group-title="Music",Stingray Classica
+#EXTINF:-1 tvg-id="stingray.classica" tvg-name="Stingray Classica" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="German, Spanish, French, English" group-title="Music",Stingray Classica [1080p]
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8#d18f3219b63000a432b12c45015667d136694130a12e4a402c862e067fec41e6
-#EXTINF:-1 tvg-id="stingray.cmusic" tvg-name="Stingray CMusic" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray CMusic
+#EXTINF:-1 tvg-id="stingray.cmusic" tvg-name="Stingray CMusic" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray CMusic [1080p]
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8#feaa5c6bf512d9e460c8cdf558b227e82f38ed9da5333ac7a79b064edc9aea44
-#EXTINF:-1 tvg-id="stingray.cozy.cafe" tvg-name="Stingray Cozy Cafe" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Cozy Cafe
+#EXTINF:-1 tvg-id="stingray.cozy.cafe" tvg-name="Stingray Cozy Cafe" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Cozy Cafe [1080p]
 https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8#60c4b2165fd10d8298e1d21f7abd0e145fc9e67a6f9cdfc36459eedf8f0a343a
-#EXTINF:-1 tvg-id="stingray.djazz" tvg-name="Stingray DJAZZ" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray DJAZZ
+#EXTINF:-1 tvg-id="stingray.djazz" tvg-name="Stingray DJAZZ" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray DJAZZ [1080p]
 https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8#658b595ae0d814aea4e6d77021a88d49b9f87811fef63fc6a9599fb518d32901
-#EXTINF:-1 tvg-id="stingray.easy.listening" tvg-name="Stingray Easy Listening" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Easy Listening
+#EXTINF:-1 tvg-id="stingray.easy.listening" tvg-name="Stingray Easy Listening" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Easy Listening [1080p]
 https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8#a9c0194a775b87afe84e34ec1863948b319cf9438a7a20de5f7ed6e368049d93
-#EXTINF:-1 tvg-id="stingray.euro.hits" tvg-name="Stingray Euro Hits" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Euro Hits
-https://lotus.stingray.com/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8#7cfa3630b4e61ae504fbc21a6c3cdbd193cf5f87481e66492b3bf77a2fdb8c58
-#EXTINF:-1 tvg-id="stingray.flashback.70s" tvg-name="Stingray Flashback 70s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Flashback 70s
+#EXTINF:-1 tvg-id="stingray.flashback.70s" tvg-name="Stingray Flashback 70s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Flashback 70s [1080p]
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8#df1abf25886407219f966e90a9be9f05c8c44ec248faa46caca84aac252ea5e4
-#EXTINF:-1 tvg-id="stingray.holidayscapes" tvg-name="Stingray Holidayscapes" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Holidayscapes
+#EXTINF:-1 tvg-id="stingray.hit.list" tvg-name="Stingray Hit List" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Hit List [1080p]
+https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8#bdc305afefcc4563e7ab066f9c3f1dacaf58654159d642bd23a6374c0f4c2fa3
+#EXTINF:-1 tvg-id="stingray.holiday.hits" tvg-name="Stingray Holiday Hits" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Holiday Hits [1080p]
+https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8#5e87da05dbd978aa362a48e72a9c14ead7047f53dce4c0205dac2ae92ce10547
+#EXTINF:-1 tvg-id="stingray.holidayscapes" tvg-name="Stingray Holidayscapes" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Holidayscapes [1080p]
 https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8#cfafc81e6ffb84e0108a7cd430005658ea36188b2a3a3335ecd31d8d947c5cbf
-#EXTINF:-1 tvg-id="stingray.hot.country" tvg-name="Stingray Hot Country" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray Hot Country
+#EXTINF:-1 tvg-id="stingray.hot.country" tvg-name="Stingray Hot Country" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray Hot Country [1080p]
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8#5f62900fa4cb6a36908ac8a55c974257a80adf06e82ce62d9cbfc21296652b1b
 #EXTINF:-1 tvg-id="stingray.iconcerts.hd" tvg-name="Stingray iConcerts HD" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Spanish" group-title="🇨🇦 Canada",Stingray iConcerts HD
 https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8#69278588c7ca7b17701d833da7be238d78c1058113140237d15d41316ccc9b13
-#EXTINF:-1 tvg-id="stingray.jukebox.oldies" tvg-name="Stingray Jukebox Oldies" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Jukebox Oldies
+#EXTINF:-1 tvg-id="stingray.jukebox.oldies" tvg-name="Stingray Jukebox Oldies" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Jukebox Oldies [1080p]
 https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8#e4e9b3390d79712c3037f448f5675771fa03094017e1feba6ef8b5a122674f29
-#EXTINF:-1 tvg-id="stingray.naturescape" tvg-name="Stingray Naturescape" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Turkish" group-title="Music",Stingray Naturescape
+#EXTINF:-1 tvg-id="stingray.karaoke" tvg-name="Stingray Karaoke" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Karaoke [720p]
+https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8#9d7208ae342a9ec957ab94668318ae486cb2d87635908aec7f350fa90031f65f
+#EXTINF:-1 tvg-id="stingray.naturescape" tvg-name="Stingray Naturescape" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Turkish" group-title="Music",Stingray Naturescape [1080p]
 https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8#4904525bca9c30b1d8f2b64d952b223676decab4118625c03049dfca6adb30f2
-#EXTINF:-1 tvg-id="stingray.nothin.but.90s" tvg-name="Stingray Nothin' But 90s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Nothin' But 90s
+#EXTINF:-1 tvg-id="stingray.nothin.but.90s" tvg-name="Stingray Nothin' But 90s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Nothin' But 90s [1080p]
 https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8#c407897963264a8185019071b48be9e16006ac47f9c2835cf0bb679dde9d75f7
-#EXTINF:-1 tvg-id="stingray.pop.adult" tvg-name="Stingray Pop Adult" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray Pop Adult
+#EXTINF:-1 tvg-id="stingray.pop.adult" tvg-name="Stingray Pop Adult" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray Pop Adult [1080p]
 https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8#1b7ebb5d85482c006ae06a114c1c1c20a948d7b4b0c50f9e61d6fefa3539e3e5
-#EXTINF:-1 tvg-id="stingray.soul.storm" tvg-name="Stingray Soul Storm" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Soul Storm
+#EXTINF:-1 tvg-id="stingray.remember.the.80s" tvg-name="Stingray Remember the 80s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Remember the 80s [1080p]
+https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8#223b5048fc077037002a79f1f764862287b354461bcf4c0c272e66b77535d130
+#EXTINF:-1 tvg-id="stingray.rock.alternative" tvg-name="Stingray Rock Alternative" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Rock Alternative [1080p]
+https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8#a210540b5ec0d590069773ef5495d39eba9acf6e0d21ee1f2f2e7f6897235b47
+#EXTINF:-1 tvg-id="stingray.romance.latino" tvg-name="Stingray Romance Latino" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Romance Latino [1080p]
+https://lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8#d0431796b52ceb75afd792c56551dd1e0229ecb88b8779e50e19f19af6f42d29
+#EXTINF:-1 tvg-id="stingray.smooth.jazz" tvg-name="Stingray Smooth Jazz" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Smooth Jazz [1080p]
+https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8#8ed0b8f9a87aecf5d008a8a5bdfca5779f65d15f2ea0e9b1fa75f44d17beafd4
+#EXTINF:-1 tvg-id="stingray.soul.storm" tvg-name="Stingray Soul Storm" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Soul Storm [1080p]
 https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8#259ab885813fe29b3784a4964aac7475cac00eccce6b657457b7fa3f0f7a91a6
-#EXTINF:-1 tvg-id="tag.tv" tvg-name="TAG TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",TAG TV
+#EXTINF:-1 tvg-id="stingray.the.spa" tvg-name="Stingray The Spa" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray The Spa [1080p]
+https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8#57ff5f2b6dd19ff9edef8d9a603e2c050c9f2d70ce98da766f819af36c88f9d4
+#EXTINF:-1 tvg-id="stingray.today.s.kpop" tvg-name="Stingray Today's KPOP" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Today's KPOP [1080p]
+https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8#9c62c711d14d71d7941c85f5e440e480d839351bfbf5b6054bdacd5390c4816f
+#EXTINF:-1 tvg-id="stingray.today.s.latin.pop" tvg-name="Stingray Today's Latin Pop" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Today's Latin Pop [1080p]
+https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8#8c5bc1734457b0b845085eb28bd378694dbd4e61874cc0052c9266aa2f466ee3
+#EXTINF:-1 tvg-id="stingray.urban.beat" tvg-name="Stingray Urban Beat" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Urban Beat [1080p]
+https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8#980e919e2bae302169bda8fcea0f7cd363098e52f14ed5e3d63d95069d00aff1
+#EXTINF:-1 tvg-id="tag.tv" tvg-name="TAG TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",TAG TV [720p]
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8#a8f6d92511a1b5101b0962d3b0b78da03586dfbacc4bf88a092639d5cd0e06c0
-#EXTINF:-1 tvg-id="tamilvision.tv" tvg-name="TamilVision-TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Tamil" group-title="🇨🇦 Canada",TamilVision-TV
+#EXTINF:-1 tvg-id="tamilvision.tv" tvg-name="TamilVision-TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Tamil" group-title="🇨🇦 Canada",TamilVision-TV [1080p]
 https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a794569447360ac39b5515bf40
-#EXTINF:-1 tvg-id="the.shopping.channel" tvg-name="The Shopping Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",The Shopping Channel
+#EXTINF:-1 tvg-id="the.shopping.channel" tvg-name="The Shopping Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="ENG" group-title="🇨🇦 Canada",The Shopping Channel [720p]
 https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8#26335b76fb07de5a7500866f6fc41e3f6b3b1dd1b6a68e1d5f0b4f0d8854281c
-#EXTINF:-1 tvg-id="today.s.shopping.choice.tsc" tvg-name="Today's Shopping Choice (TSC)" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Today's Shopping Choice (TSC)
+#EXTINF:-1 tvg-id="today.s.shopping.choice.tsc" tvg-name="Today's Shopping Choice (TSC)" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="ENG" group-title="🇨🇦 Canada",Today's Shopping Choice (TSC) [720p]
 https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8#90adfbb917007c512d03f0b9265498b89e8e5e32cb4322c39acd7da01441167e
-#EXTINF:-1 tvg-id="toronto.360.tv" tvg-name="Toronto 360 TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Toronto 360 TV
+#EXTINF:-1 tvg-id="toronto.360.tv" tvg-name="Toronto 360 TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Toronto 360 TV [720p]
 http://cdn3.toronto360.tv:8081/toronto360/hd/playlist.m3u8#9b791ef95be96e5450bca9c6e254b3ee3a5b31849f17736013ea2cf5b6bdf590
-#EXTINF:-1 tvg-id="tvokids" tvg-name="TVOKids" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",TVOKids
+#EXTINF:-1 tvg-id="tvokids" tvg-name="TVOKids" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",TVOKids [720p]
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8#bc9489b7c61a24c143c656598da2f9e375f581be7a71a77e3d0e8e8b61469991
-#EXTINF:-1 tvg-id="watan.e.maa.tv" tvg-name="Watan-e-Maa TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Watan-e-Maa TV
+#EXTINF:-1 tvg-id="watan.e.maa.tv" tvg-name="Watan-e-Maa TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Watan-e-Maa TV [720p]
 https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8#c62845bfbfb1389722d56dfdc5903d9c11bebeb9a4ea8887c5928389205c1591
-#EXTINF:-1 tvg-id="wild.tv" tvg-name="Wild TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Wild TV
+#EXTINF:-1 tvg-id="wild.tv" tvg-name="Wild TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Wild TV [1080p]
 https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8#bfe223f646afdbb717a38c229a2ca216803885b0607496b9bff687ce218d1ff2

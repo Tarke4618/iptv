@@ -1,119 +1,119 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="10.tv" tvg-name="10 TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",10 TV
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTINF:-1 tvg-id="10.tv" tvg-name="10 TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",10 TV [576p]
 https://cdn.pishow.tv/ott/live/391/master.m3u8#db0cd59930c971b0b11c012a9d737b963810a8dc2b0367d7af89f05b8798ed01
-#EXTINF:-1 tvg-id="4.sides.tv" tvg-name="4 SiDES TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",4 SiDES TV
+#EXTINF:-1 tvg-id="4.sides.tv" tvg-name="4 SiDES TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",4 SiDES TV [1080p]
 https://stream.ottlive.co.in/4sidestv/index.m3u8#218a51bf84db467fec6befc02544b5ab3c077bb5f37ae97296a7c04ba65aaee7
-#EXTINF:-1 tvg-id="6.tv.telugu" tvg-name="6 TV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",6 TV Telugu
-https://yuppparoriglin.akamaized.net/181224/smil:6tv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#dc400fc67814869ae0c0ae93b777acf959f2f7aa496697daae33ae48210d6b0d
-#EXTINF:-1 tvg-id="9.plus.news" tvg-name="9 Plus News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",9 Plus News
-https://stream.ottlive.co.in/9plusnews/index.m3u8#03cbe46be002754b12c8891963f7fd36fc7303159d12d24765cc80494997bcde
-#EXTINF:-1 tvg-id="99tv" tvg-name="99TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",99TV
+#EXTINF:-1 tvg-id="6.tv.telugu" tvg-name="6 TV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",6 TV Telugu [1080p]
+https://mumbai-edge.smartplaytv.in/6TVTelugu/index.m3u8#aeff7c6923e448cebd5e66e74adb97e3e1bbc33a9b1dbd0b75d9611d761e4db1
+#EXTINF:-1 tvg-id="99tv" tvg-name="99TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",99TV [576p]
 https://cdn.pishow.tv/ott/live/1211/master.m3u8#8dd1d2b6360d15f6defd6bb4152b12b177524017910b2ffb3e8a5df6fb6fab6c
-#EXTINF:-1 tvg-id="aastha.telugu" tvg-name="Aastha Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Aastha Telugu
+#EXTINF:-1 tvg-id="aastha.telugu" tvg-name="Aastha Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Aastha Telugu [576p]
 https://cdn.pishow.tv/ott/live/262/master.m3u8#426bc43e1dcea0870b295085e92d86c867b88af56fc0628078bac9e8d33cbc94
-#EXTINF:-1 tvg-id="abn.andhra.jyoti" tvg-name="ABN Andhra Jyoti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ABN Andhra Jyoti
+#EXTINF:-1 tvg-id="abn.andhra.jyoti" tvg-name="ABN Andhra Jyoti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",ABN Andhra Jyoti [576p]
 https://cdn.pishow.tv/ott/live/407/master.m3u8#1887b04bc5c301d1c2333f1cf874bd24c23d50752681d8eaeebf315a8dc33d60
-#EXTINF:-1 tvg-id="bhakthi.tv" tvg-name="Bhakthi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Bhakthi TV
-https://yuppnimresmum.akamaized.net/240122/bhakti/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#67fb661f1285d4be9e476acb1f347434632eaee94b529c5f7c4718e7ff58ca8f
-#EXTINF:-1 tvg-id="big.tv" tvg-name="BIG TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",BIG TV
-https://stream.ottlive.co.in/bigtv/index.m3u8#23b71d6b8ceba40fb08c75a1092b75084292d9f739a28796ee9bb68afc573555
-#EXTINF:-1 tvg-id="brk.news" tvg-name="BRK News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",BRK News
-https://d2gvyg6lvauoko.cloudfront.net/230226/brknews/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#4af0ffca5ec893d7ba7f63fb4cff0ef30618aee4646783b41dff9459f5bf7076
-#EXTINF:-1 tvg-id="calvary.tv" tvg-name="Calvary TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Calvary TV
+#EXTINF:-1 tvg-id="bhakthi.tv" tvg-name="Bhakthi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Bhakthi TV [576p]
+https://cdn.pishow.tv/ott/live/397/master.m3u8#47363713de25c000c9f8770627604a9993f1b703086b5f487a48653b37b25fe6
+#EXTINF:-1 tvg-id="big.tv" tvg-name="BIG TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",BIG TV [576p]
+https://cdn.pishow.tv/ott/live/1059/master.m3u8#5d9f84c5b1296e1be0c0771359fc7852f8896e14c0e193767613432321d4f71f
+#EXTINF:-1 tvg-id="brk.news" tvg-name="BRK News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",BRK News [576p]
+https://cdn.pishow.tv/ott/live/1037/master.m3u8#a02ed7542de3d0fb6178e1b6b576c6e65bfa497358c330ea6c92be9ae111030b
+#EXTINF:-1 tvg-id="calvary.tv" tvg-name="Calvary TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Calvary TV [576p]
 https://cdn.pishow.tv/ott/live/963/master.m3u8#6060215ba873f9070982acb07c11e3123a2fd27c7f95adda678fc6552de06bea
-#EXTINF:-1 tvg-id="chhaya.chitram.telugu" tvg-name="Chhaya Chitram Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Chhaya Chitram Telugu
+#EXTINF:-1 tvg-id="chhaya.chitram.telugu" tvg-name="Chhaya Chitram Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Chhaya Chitram Telugu [720p]
 https://samitaorigin.tangotv.in/CHHAYACHITRAMTELUGU/SAMITAORIGIN/index.m3u8#70e6fc1e25f5bbd3359bf8e84a6af68fce7394174453e7554be09503ac0b2670
-#EXTINF:-1 tvg-id="cvr.health" tvg-name="CVR Health" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",CVR Health
-https://mumt04.tangotv.in/m18aqlK4CVRHEALTH/index.m3u8#75f21f20ff79f3c5147a8590fbc3a3023267ef97c5d1f225f4242ab49282d96a
+#EXTINF:-1 tvg-id="cvr.health" tvg-name="CVR Health" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",CVR Health [576p]
+https://cdn.pishow.tv/ott/live/395/master.m3u8#1f2375f515bd2d95f9fea0c96d9dcca7b9b3b4ad452243107266f4b380908c2d
 #EXTINF:-1 tvg-id="cvr.news" tvg-name="CVR News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",CVR News
-https://mumt04.tangotv.in/m18aqlK4CVRNEWS/index.m3u8#649c6c42b85ecde9c1b40d394f78c2f4d567db535014e1eccf03689aeee2f79c
-#EXTINF:-1 tvg-id="cvr.om.spiritual" tvg-name="CVR OM Spiritual" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",CVR OM Spiritual
-https://mumbai-edge.smartplaytv.in/CVROM/index.m3u8#a0eaca6198e9a7b06e520ad3e8e6e134b955c6e4e9a3f9bf5157db0af6a8c775
-#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Bhojpuri, Sign Languages, Telugu, Hindi, English, Kannada, Bengali" group-title="Sports",DD Sports HD
+https://mumbai-edge.smartplaytv.in/CVRNews/index.m3u8#a8b6e72b919b176c634d59191e72bd46e17fe81b33c83feb230916503fb1e63d
+#EXTINF:-1 tvg-id="cvr.om.spiritual" tvg-name="CVR OM Spiritual" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",CVR OM Spiritual [576p]
+https://cdn.pishow.tv/ott/live/957/master.m3u8#3ef406cced51b37297f2fe04b9bd07b221b0bb4239be3ea548caa39dc1ee15b6
+#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="Sports",DD Sports HD [1080p]
 https://cdn.pishow.tv/ott/live/1161/master.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
-#EXTINF:-1 tvg-id="dd.yadagiri" tvg-name="DD Yadagiri" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",DD Yadagiri
-https://cdn.pishow.tv/ott/live/21/master.m3u8#b0119889d159ad1d42644d43efe674550d13e306e367460e2e8e75b203697727
-#EXTINF:-1 tvg-id="epic.kids.digital" tvg-name="Epic Kids Digital" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English, Tamil, Telugu" group-title="🇮🇳 India",Epic Kids Digital
+#EXTINF:-1 tvg-id="divyavani.tv" tvg-name="Divyavani TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Divyavani TV [720p]
+https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8#44f4fba467ca1ad34eaa80c0be06e33f05b1212e4cf3760ba125c1b1e9b44054
+#EXTINF:-1 tvg-id="epic.kids.digital" tvg-name="Epic Kids Digital" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English, Tamil, Telugu" group-title="🇮🇳 India",Epic Kids Digital [1080p]
 https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
 #EXTINF:-1 tvg-id="etv.cinema" tvg-name="ETV Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Cinema
 https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#5c904659d9b6bc789a5e0bee926b5f3ee222047bc95f091e456279f170797f4a
-#EXTINF:-1 tvg-id="etv.comedy" tvg-name="ETV Comedy" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Comedy
+#EXTINF:-1 tvg-id="etv.comedy" tvg-name="ETV Comedy" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Comedy [1080p]
 https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8#ab3ba0578ac4bdb00f85d6e9aa66e2e9a31775513a803ceac21ed83c168408aa
-#EXTINF:-1 tvg-id="etv.josh" tvg-name="ETV Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Josh
+#EXTINF:-1 tvg-id="etv.josh" tvg-name="ETV Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Josh [1080p]
 https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8#bf0f320ad99f1accba0dc347dd21aaf417d23d93c20c41919a49875d59fe8502
-#EXTINF:-1 tvg-id="etv.music" tvg-name="ETV Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Music",ETV Music
+#EXTINF:-1 tvg-id="etv.music" tvg-name="ETV Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Music",ETV Music [1080p]
 https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8#97c429e7da414a7e6ccae2bb3d4cc7ea8a4d3446831b81c292370102c771ff5f
-#EXTINF:-1 tvg-id="etv.news" tvg-name="ETV News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV News
+#EXTINF:-1 tvg-id="etv.news" tvg-name="ETV News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV News [1080p]
 https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8#f37208c853fe1fd160934fd12e18f10732fe1e1e39eead702d640fcd8d6576d6
 #EXTINF:-1 tvg-id="etv.plus" tvg-name="ETV Plus" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Plus
 https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#196574d954b8b5f5507e917662aa6ea3f268cc31dddc256a6c1f49654c12660e
-#EXTINF:-1 tvg-id="etv.telugu.usa" tvg-name="ETV Telugu USA" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Telugu USA
+#EXTINF:-1 tvg-id="etv.telugu.usa" tvg-name="ETV Telugu USA" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Telugu USA [720p]
 https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
-#EXTINF:-1 tvg-id="hindu.dharmam" tvg-name="Hindu Dharmam" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Hindu Dharmam
-https://mumt01.tangotv.in/O5aw8Zn3HINDUDHARMAM/index.m3u8#5d61f5dc3fa1076e47a08a80ab0f0feebf0b510a18dd1bb4d58d1e7e83412e56
-#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Telugu" group-title="Documentary",History TV18 HD
+#EXTINF:-1 tvg-id="hindu.dharmam" tvg-name="Hindu Dharmam" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Hindu Dharmam [576p]
+https://cdn.pishow.tv/ott/live/959/master.m3u8#751f0edb17cd0413e37f4319415fe540359ed8b78fbf87845b5fc06bddb19ad2
+#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG, HIN" group-title="Documentary",History TV18 HD [1080p | Audio: ENG/HIN]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
-#EXTINF:-1 tvg-id="hmtv" tvg-name="HMTV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",HMTV
-https://mumbai-edge.smartplaytv.in/HMTV/index.m3u8#c44f01f160722e5f6750c8952ac5ef9f5b34fde3567b57934b2d0eb6cc4d2201
-#EXTINF:-1 tvg-id="inews" tvg-name="INews" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",INews
+#EXTINF:-1 tvg-id="hmtv" tvg-name="HMTV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",HMTV [576p]
+https://cdn.pishow.tv/ott/live/280/master.m3u8#390d8e6eaf05f01c30e98a48164d9f6a0a94867e8eded441c1230e3ccfbb982b
+#EXTINF:-1 tvg-id="inews" tvg-name="INews" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",INews [576p]
 https://cdn.pishow.tv/ott/live/411/master.m3u8#e1073c06e9d606514c66df67de7b38ae03d9f4c567f21a671d1150a50a37880a
 #EXTINF:-1 tvg-id="mahaa.bhakti" tvg-name="Mahaa Bhakti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mahaa Bhakti
-https://mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8#3c5516e05ec14fc8df2d28c5aa9a6f46083d834ef3b89fac92251832f356034d
-#EXTINF:-1 tvg-id="mahaa.max" tvg-name="Mahaa Max" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mahaa Max
-https://d1msejlow1t3l4.cloudfront.net/fta/mahaamax/playlist.m3u8#ae31d9602d99372278ee308c13a195c329b0bca42bf58d2ee0068f29bd481a76
-#EXTINF:-1 tvg-id="mahaa.news" tvg-name="Mahaa News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mahaa News
+https://d1msejlow1t3l4.cloudfront.net/fta/mahaabhakti/playlist.m3u8#57732b13320578f685237e7861aeda198a19fe650e73312c8d91ee1b2af420df
+#EXTINF:-1 tvg-id="mahaa.max" tvg-name="Mahaa Max" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Mahaa Max [576p]
+https://cdn.pishow.tv/ott/live/1147/master.m3u8#2c7274514b3dcd4675d6ca737ec968e986a352bcdbc75f7b10d129636e0d58fa
+#EXTINF:-1 tvg-id="mahaa.news" tvg-name="Mahaa News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Mahaa News [576p]
 https://cdn.pishow.tv/ott/live/401/master.m3u8#8d124dde008bfd4c76de7a63204decedafeee4e677048c9a4a8fa3b31485229a
-#EXTINF:-1 tvg-id="mojo.tv" tvg-name="Mojo TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mojo TV
+#EXTINF:-1 tvg-id="metro.tv" tvg-name="Metro TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Metro TV [1080p]
+https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8#75b6771de3c67fe82f9b8d8a85366529ffbcb179df014e38de9a357290693f0c
+#EXTINF:-1 tvg-id="mojo.tv" tvg-name="Mojo TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mojo TV [720p]
 https://mumt07.tangotv.in/zHjX9OFlMOJOTV/index.m3u8#4228828bcb8be1a97af18c0965d2e1d2f0077039f9b95f7ded36185273144df4
-#EXTINF:-1 tvg-id="nireekshana.tv" tvg-name="Nireekshana TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Nireekshana TV
+#EXTINF:-1 tvg-id="nireekshana.tv" tvg-name="Nireekshana TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Nireekshana TV [576p]
 https://cdn.pishow.tv/ott/live/965/master.m3u8#027790553f013e11526f21eb36890048b4a4d1e2ea52c906440059253103a824
-#EXTINF:-1 tvg-id="ntv.telugu" tvg-name="NTV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",NTV Telugu
-https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8#97086cb9aaf042b0a518418c5fdd158a32e7800bdedb32b39d69e5896ff1b27f
-#EXTINF:-1 tvg-id="pmc.telugu" tvg-name="PMC Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",PMC Telugu
+#EXTINF:-1 tvg-id="ntv.telugu" tvg-name="NTV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",NTV Telugu [576p]
+https://cdn.pishow.tv/ott/live/383/master.m3u8#e485f46a710395c5bc1c7b71c13fc913cd7157f9aa4ba844034f08db882f23ac
+#EXTINF:-1 tvg-id="pmc.telugu" tvg-name="PMC Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",PMC Telugu [720p]
 https://mumbai-edge.smartplaytv.in/PMC/index.m3u8#ecc83cf0b91589a8d72d07f65a23682e72849e0cc23aeed8f1e3e8eb726a2975
-#EXTINF:-1 tvg-id="prime9.news" tvg-name="Prime9 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Prime9 News
+#EXTINF:-1 tvg-id="prime9.news" tvg-name="Prime9 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Prime9 News [1080p]
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8#9cab4e780f50b2eb03a168afd3e96b45500a502f55e707e084337ff542908099
-#EXTINF:-1 tvg-id="raj.musix.telugu" tvg-name="Raj Musix Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Raj Musix Telugu
+#EXTINF:-1 tvg-id="raj.musix.telugu" tvg-name="Raj Musix Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Raj Musix Telugu [576p]
 https://cdn.pishow.tv/ott/live/1213/master.m3u8#9afd6da1b41ff696b87c3e05f879a44cf664997a4b6a4de7d716310d4ddbbba5
-#EXTINF:-1 tvg-id="raj.news.telugu" tvg-name="Raj News Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Raj News Telugu
-https://mumt04.tangotv.in/m18aqlK4RAJNEWSTELUGU/index.m3u8#a646395dbc715630e04a1fe1f9a85d1d697336f2a9a083789f88fb604305cce8
-#EXTINF:-1 tvg-id="sakshi.tv" tvg-name="Sakshi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Sakshi TV
-https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/sakshi_nim_https/240122/sakshi/playlist.m3u8#e022f00072764329f1ce0fc66a6869ac5dcde7218fa9a7f773e829574689a15b
+#EXTINF:-1 tvg-id="raj.news.telugu" tvg-name="Raj News Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Raj News Telugu [576p]
+https://cdn.pishow.tv/ott/live/279/master.m3u8#73b0631cf50136f05d77ea3ec114fe76d319b43eb05eb6d0b5be6a8b033efbe2
+#EXTINF:-1 tvg-id="sakshi.tv" tvg-name="Sakshi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Sakshi TV [576p]
+https://cdn.pishow.tv/ott/live/409/master.m3u8#cc73eefa46ea22a4caa1746fac0c2f8eab0d1c9bf6560920f8db085bcb619ade
 #EXTINF:-1 tvg-id="star.maa.hd" tvg-name="Star Maa HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Star Maa HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
 #EXTINF:-1 tvg-id="star.maa.movies.hd" tvg-name="Star Maa Movies HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Movie",Star Maa Movies HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8#e7a68f826f3af20f519f50fa77fc57dcaa833bb2ba73f9e37a6cb585c3aaaa71
-#EXTINF:-1 tvg-id="studio.one" tvg-name="Studio One +" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Studio One +
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/StudioOnePlus.m3u8#14ebc4a3de4b88e6d18381bbc68d101d68c79a75883f0cba68360b6e3ba462ce
-#EXTINF:-1 tvg-id="studio.yuva" tvg-name="Studio Yuva" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Studio Yuva
+#EXTINF:-1 tvg-id="studio.one" tvg-name="Studio One +" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Studio One + [576p]
+https://cdn.pishow.tv/ott/live/276/master.m3u8#e41bc9c5f26fa6f0806e20170a548886d28a3b0fadc5790ec9349a902f280ec8
+#EXTINF:-1 tvg-id="studio.yuva" tvg-name="Studio Yuva" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Studio Yuva [720p]
 https://mumt01.tangotv.in/O5aw8Zn3STUDIOYUVA/index.m3u8#e4b6bcdab429040ba9f59dbd61177087d6c9c1cc585d1fbedc991325b390d586
-#EXTINF:-1 tvg-id="subhavaartha.tv" tvg-name="Subhavaartha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Subhavaartha TV
-https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8#555fda3833c373f34b537f60b111a70748730d70cb487e56dbad02846e1de018
-#EXTINF:-1 tvg-id="svbc" tvg-name="SVBC" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",SVBC
-https://mumbai-edge.smartplaytv.in/SVBC/index.m3u8#4ab93473391e8e33f77c13a96e5f10e3014cb2bbb6e4acb2989aac1d7aa15e8a
-#EXTINF:-1 tvg-id="svbc.sri.venkateswara.bhakti.channel" tvg-name="SVBC Sri Venkateswara Bhakti Channel" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",SVBC Sri Venkateswara Bhakti Channel
+#EXTINF:-1 tvg-id="subhavaartha.tv" tvg-name="Subhavaartha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Subhavaartha TV [576p]
+https://cdn.pishow.tv/ott/live/278/master.m3u8#315d766f529c5d65dc113bdf87a3ca185afe8dac74d75d4743ed099ae62797ba
+#EXTINF:-1 tvg-id="svbc" tvg-name="SVBC" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",SVBC [720p]
+https://mumt04.tangotv.in/m18aqlK4SVBCTELUGU/index.m3u8#f3542bdd1e9473810a560e9bd6daeae03c80862657c0efdce7805b49bbeeaff8
+#EXTINF:-1 tvg-id="svbc.sri.venkateswara.bhakti.channel" tvg-name="SVBC Sri Venkateswara Bhakti Channel" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",SVBC Sri Venkateswara Bhakti Channel [1080p]
 https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8#fd572542ec60d6d750ac42e0c793458d8dd1cf7e4aa815318ad16a2744295ad5
-#EXTINF:-1 tvg-id="swatantra.tv" tvg-name="Swatantra TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="News",Swatantra TV
+#EXTINF:-1 tvg-id="swatantra.tv" tvg-name="Swatantra TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="News",Swatantra TV [720p]
 https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8#8d53127365d405817646143d68efba8522d63a98e5056792bfc1a375f9df3e27
-#EXTINF:-1 tvg-id="t.news" tvg-name="T News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",T News
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/TNews.m3u8#2e4e875304d28648641eee21d786a3663aee007f4059e93829dd5c0d95c3dec8
-#EXTINF:-1 tvg-id="tolly.tv" tvg-name="Tolly TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Tolly TV
+#EXTINF:-1 tvg-id="t.news" tvg-name="T News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",T News [576p]
+https://cdn.pishow.tv/ott/live/385/master.m3u8#930159ca238e2d4c5b3be3c4a1fc9cadbb265798ab0f4689087a1635532f4041
+#EXTINF:-1 tvg-id="tolly.tv" tvg-name="Tolly TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Tolly TV [1080p]
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8#3124fb758c75362c89bf9e904b9937dfcd19adf33ef34ca24dabbca6a4513a27
-#EXTINF:-1 tvg-id="tv5.news" tvg-name="TV5 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",TV5 News
-https://yuppnimresmum.akamaized.net/110322/tv5/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bf5da6973494b2468a614e0c6cd97900bad9cfcc085bc0c19376abe8cd99fc8b
-#EXTINF:-1 tvg-id="tv9.telugu" tvg-name="TV9 Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",TV9 Telugu
-https://streams.tangotv.in/TV9TELUGU/ORIGIN/index.m3u8#9a66772eab884ddd21818096ecb59c58fea0042e401a07407bff1d4d75b4e929
-#EXTINF:-1 tvg-id="v6.news" tvg-name="V6 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",V6 News
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/V6News.m3u8#78ecf9d9325d03051eef805034dafde8489eca34621dad6a23c811d72433c5db
-#EXTINF:-1 tvg-id="vanitha.tv" tvg-name="Vanitha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Vanitha TV
+#EXTINF:-1 tvg-id="tv5.news" tvg-name="TV5 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",TV5 News [576p]
+https://cdn.pishow.tv/ott/live/387/master.m3u8#f2437038ace65fd7071c83837ce2c2196f6c1375f3b3733d48a3e7bd298e5ea2
+#EXTINF:-1 tvg-id="tv9.telugu" tvg-name="TV9 Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",TV9 Telugu [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8#235d352117e95b982fa7fa5efeb823d4f7edf90d4e835091e2ba913454f4b214
+#EXTINF:-1 tvg-id="v6.news" tvg-name="V6 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",V6 News [576p]
+https://cdn.pishow.tv/ott/live/389/master.m3u8#6487f392a94c3b5777142960796a13fe4f5ab0e6fe51ebbe4754341eff581bec
+#EXTINF:-1 tvg-id="vanitha.tv" tvg-name="Vanitha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Vanitha TV [576p]
 https://cdn.pishow.tv/ott/live/393/master.m3u8#3401c14a979a182062b5bfac77ceadb1134240672334b9f60b3e22af270ba428
-#EXTINF:-1 tvg-id="vissa.tv" tvg-name="Vissa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Vissa TV
+#EXTINF:-1 tvg-id="vissa.tv" tvg-name="Vissa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Vissa TV [720p]
 https://mumt07.tangotv.in/zHjX9OFlVISSATV/index.m3u8#d392d1dfc682de9e412c4a8a0f0ee8041cb49f573170a5c0b20c361bf30af753
-#EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz
-https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
-#EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil
+#EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz [720p]
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#a8c0e5004a2b7669331cd22d90f9cccb70f898d6a4fc35f23263a3ea777f2ac9
+#EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil [720p]
 https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
-#EXTINF:-1 tvg-id="zee.telugu.hd" tvg-name="Zee Telugu HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD
+#EXTINF:-1 tvg-id="zee.telugu.hd" tvg-name="Zee Telugu HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD [720p]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
-#EXTINF:-1 tvg-id="zee.telugu.news" tvg-name="Zee Telugu News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Zee Telugu News
+#EXTINF:-1 tvg-id="zee.telugu.news" tvg-name="Zee Telugu News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Zee Telugu News [1080p]
 https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8#06716ccadc5eefde40c5664d54748c313e716a2a5af1669142db42204671810c

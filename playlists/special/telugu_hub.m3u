@@ -1,0 +1,283 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTINF:-1 tvg-id="10.tv" tvg-name="10 TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",10 TV [576p]
+https://cdn.pishow.tv/ott/live/391/master.m3u8#db0cd59930c971b0b11c012a9d737b963810a8dc2b0367d7af89f05b8798ed01
+#EXTINF:-1 tvg-id="3abn.canada" tvg-name="3ABN Canada" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",3ABN Canada [720p]
+https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8#bd47bbe7bac52f2e944640e771949f0f02b9537674f27276d8b4fb51b1c2874d
+#EXTINF:-1 tvg-id="3abn.dare.to.dream.network" tvg-name="3ABN Dare To Dream Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN Dare To Dream Network [720p]
+https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8#b08a9ad846a45defb1cfb6b808479739c52ba48b1539103c03dec7af148603d1
+#EXTINF:-1 tvg-id="3abn.english" tvg-name="3ABN English" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN English [720p]
+https://3abn.bozztv.com/3abn2/3abn_live/smil:3abn_live.smil/playlist.m3u8#04976af53b6d38c47b97729aedb88a4590b710bad695300dc4711abd97e0889d
+#EXTINF:-1 tvg-id="3abn.french" tvg-name="3ABN French" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French" group-title="🇺🇸 United States",3ABN French [720p]
+https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8#c7512537f71cab3a48132b740c9ea4122259450a8d1c932f740488f3c111b8fa
+#EXTINF:-1 tvg-id="3abn.international.network" tvg-name="3ABN International Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN International Network [720p]
+https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8#ea4ade4795df138141ec07d665a857322abfa3f3e353533fc0501232f28e0b78
+#EXTINF:-1 tvg-id="3abn.kids.network" tvg-name="3ABN Kids Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN Kids Network [720p]
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8#3e6d656b299f34b95a7cdb9651b41edcd780fdcd4bc0ed1305d31b3edd738f16
+#EXTINF:-1 tvg-id="3abn.latino" tvg-name="3ABN Latino" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="🇺🇸 United States",3ABN Latino [720p]
+https://3abn.bozztv.com/3abn2/Lat_live/smil:Lat_live.smil/playlist.m3u8#7045655db3ef66534a671b5bdd10faa9409aee20dcdea5439e5e89eb44367319
+#EXTINF:-1 tvg-id="3abn.praise.him.music.network" tvg-name="3ABN Praise Him Music Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN Praise Him Music Network [720p]
+https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8#cccffa0ddcd273b52213b2921db3f4ff80612eec4cfc9063240e4de337775796
+#EXTINF:-1 tvg-id="3abn.proclaim.network" tvg-name="3ABN Proclaim! Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",3ABN Proclaim! Network [720p]
+https://3abn.bozztv.com/3abn2/Pro_live/smil:Pro_live.smil/playlist.m3u8#ddc9ae2b0c32e3d0d975919467a8051e346c3a3bd1e5a89b49ce99928d0489c9
+#EXTINF:-1 tvg-id="4.sides.tv" tvg-name="4 SiDES TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",4 SiDES TV [1080p]
+https://stream.ottlive.co.in/4sidestv/index.m3u8#218a51bf84db467fec6befc02544b5ab3c077bb5f37ae97296a7c04ba65aaee7
+#EXTINF:-1 tvg-id="6.tv.telugu" tvg-name="6 TV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",6 TV Telugu [1080p]
+https://mumbai-edge.smartplaytv.in/6TVTelugu/index.m3u8#aeff7c6923e448cebd5e66e74adb97e3e1bbc33a9b1dbd0b75d9611d761e4db1
+#EXTINF:-1 tvg-id="8ntv" tvg-name="8NTV" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="🇲🇽 Mexico",8NTV [720p]
+https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8#8aa928a0702820bcc37db893ac82d75209dd171d0018c65a5d12a2de5f0e7241
+#EXTINF:-1 tvg-id="99tv" tvg-name="99TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",99TV [576p]
+https://cdn.pishow.tv/ott/live/1211/master.m3u8#8dd1d2b6360d15f6defd6bb4152b12b177524017910b2ffb3e8a5df6fb6fab6c
+#EXTINF:-1 tvg-id="aastha.telugu" tvg-name="Aastha Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Aastha Telugu [576p]
+https://cdn.pishow.tv/ott/live/262/master.m3u8#426bc43e1dcea0870b295085e92d86c867b88af56fc0628078bac9e8d33cbc94
+#EXTINF:-1 tvg-id="abn.afghanistan" tvg-name="ABN Afghanistan" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Pushto, Dari (Parsi)" group-title="🇺🇸 United States",ABN Afghanistan
+https://mediaserver.abnvideos.com/streams/abnafghanistan.m3u8#6b480740d8d8c7016b95140fcad5dae27cfbe606f05e9ee16c3656be7aac37b5
+#EXTINF:-1 tvg-id="abn.africa" tvg-name="ABN Africa" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",ABN Africa
+https://mediaserver.abnvideos.com/streams/abnafrica.m3u8#3cf0b947e716638459997ed781c88c36ebc3fa32a04a3b1dd767c17f5ea9fbee
+#EXTINF:-1 tvg-id="abn.andhra.jyoti" tvg-name="ABN Andhra Jyoti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",ABN Andhra Jyoti [576p]
+https://cdn.pishow.tv/ott/live/407/master.m3u8#1887b04bc5c301d1c2333f1cf874bd24c23d50752681d8eaeebf315a8dc33d60
+#EXTINF:-1 tvg-id="abn.bible.movies" tvg-name="ABN Bible Movies" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",ABN Bible Movies
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8#c7571e93071d3da123de0b681425226a3ba6eaeb6cf2f04de1f20bf74b40a75c
+#EXTINF:-1 tvg-id="abn.china" tvg-name="ABN China" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Chinese" group-title="🇺🇸 United States",ABN China
+https://mediaserver.abnvideos.com/streams/abnchina.m3u8#f357b53ef48324ff3fd127f73eb1dc91e56a7899058f0127db8dc1b06ba3ad97
+#EXTINF:-1 tvg-id="abn.freedom.of.speech" tvg-name="ABN Freedom of Speech" tvg-logo="" tvg-country="" tvg-language="Telugu" group-title="General",ABN Freedom of Speech
+https://mediaserver.abnvideos.com/streams/freedom_of_speech.m3u8#42b18db22004a70b58d3f8f21130e557cf8ea32a52c9b478f2fd6d9c4a58774c
+#EXTINF:-1 tvg-id="abn.i.am" tvg-name="ABN I AM" tvg-logo="" tvg-country="" tvg-language="Telugu" group-title="General",ABN I AM
+https://mediaserver.abnvideos.com/streams/i_am_.m3u8#45579662ec2e159b3e25cc7cd1cd0bfaec659d54ba815e6fdb6005a81ed410e7
+#EXTINF:-1 tvg-id="abn.news" tvg-name="ABN News" tvg-logo="" tvg-country="🇵🇰 Pakistan" tvg-language="Urdu" group-title="🇵🇰 Pakistan",ABN News
+https://vodzong.mjunoon.tv:8087/streamtest/ABN-161/playlist.m3u8#30d4cc21c807900cde4f738d7a19a61ad245d5326ac471a038386f0ef8a22367
+#EXTINF:-1 tvg-id="abn.son.of.god" tvg-name="ABN Son of God" tvg-logo="" tvg-country="" tvg-language="Telugu" group-title="General",ABN Son of God
+https://mediaserver.abnvideos.com/streams/son_of_god_.m3u8#a839a72f01aac7394bfee981265f72c3e841956584bf19f2802f32fb54ff6497
+#EXTINF:-1 tvg-id="abn.tv.india" tvg-name="ABN TV India" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Hindi" group-title="🇺🇸 United States",ABN TV India
+https://mediaserver.abnvideos.com/streams/abntvindia.m3u8#4e73b64e368228d0d0453f574c71df2f31059601e3ff63f69519c8848d8bbec5
+#EXTINF:-1 tvg-id="abn.urdu" tvg-name="ABN Urdu" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Urdu" group-title="🇺🇸 United States",ABN Urdu
+https://mediaserver.abnvideos.com/streams/abnurdu.m3u8#ec28177ca271574db4b33dedbfff1de374ba38fa8cbece14986f3639cad45a26
+#EXTINF:-1 tvg-id="abnsat" tvg-name="ABNsat" tvg-logo="" tvg-country="🇮🇶 Iraq" tvg-language="Arabic" group-title="🇮🇶 Iraq",ABNsat
+https://mediaserver.abnvideos.com/streams/abnsat.m3u8#78b9de434a465a3703e6ff716f2996f910e1640f5fdcdfa9ee32adea042dd291
+#EXTINF:-1 tvg-id="al.maaref.tv" tvg-name="Al Maaref TV" tvg-logo="" tvg-country="🇶🇦 Qatar" tvg-language="Arabic" group-title="🇶🇦 Qatar",Al Maaref TV [1080p]
+https://newyork.zeuscdn724.com:443/CH-AL-MA/index.m3u8#7cf8cc8b3b9b2bb3226c7b1f9d837b8a6b1800eb2db443d09082d4c30aa27a0d
+#EXTINF:-1 tvg-id="asianet.news" tvg-name="Asianet News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="News",Asianet News [576p]
+https://cdn.pishow.tv/ott/live/1297/master.m3u8#4d59b7dd8f5d477391bd6dda3cba8c56736f7ddf962c393cf7fca01767c2e784
+#EXTINF:-1 tvg-id="bhakthi.tv" tvg-name="Bhakthi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Bhakthi TV [576p]
+https://cdn.pishow.tv/ott/live/397/master.m3u8#47363713de25c000c9f8770627604a9993f1b703086b5f487a48653b37b25fe6
+#EXTINF:-1 tvg-id="bhakti.dhara" tvg-name="Bhakti Dhara" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Bhakti Dhara [1080p]
+https://newsliveindia.com:4433/bhaktidhara/index.m3u8#45cfa146cecf4d16e23f5edbe45f3e6df1e42ead8029674e36c5e6e0e3773198
+#EXTINF:-1 tvg-id="bhakti.sagar" tvg-name="Bhakti Sagar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Bhakti Sagar [720p]
+https://mumt05.tangotv.in/87NeALx2BHAKTISAGAR/index.m3u8#0f9548c94193d3b13c05401e9d9f0bb3d45d81fd320901f395cc5f3b1223ce92
+#EXTINF:-1 tvg-id="big.tv" tvg-name="BIG TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",BIG TV [576p]
+https://cdn.pishow.tv/ott/live/1059/master.m3u8#5d9f84c5b1296e1be0c0771359fc7852f8896e14c0e193767613432321d4f71f
+#EXTINF:-1 tvg-id="brk.news" tvg-name="BRK News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",BRK News [576p]
+https://cdn.pishow.tv/ott/live/1037/master.m3u8#a02ed7542de3d0fb6178e1b6b576c6e65bfa497358c330ea6c92be9ae111030b
+#EXTINF:-1 tvg-id="cafetv24" tvg-name="CafeTV24" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="🇮🇹 Italy",CafeTV24 [1080p]
+https://srvx1.selftv.video/cafe/live/playlist.m3u8#e69237c2a74031f3f9fa4ed3957b3ee18342388ed18b93b9c030debfe0573329
+#EXTINF:-1 tvg-id="calvary.tv" tvg-name="Calvary TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Calvary TV [576p]
+https://cdn.pishow.tv/ott/live/963/master.m3u8#6060215ba873f9070982acb07c11e3123a2fd27c7f95adda678fc6552de06bea
+#EXTINF:-1 tvg-id="cgntv.chinese" tvg-name="CGNTV Chinese" tvg-logo="" tvg-country="🇹🇼 Taiwan" tvg-language="Chinese" group-title="🇹🇼 Taiwan",CGNTV Chinese [1080p]
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8#96b833ca34b303b765a44966e2263d764a36bff3edc70d7d35e54c912d9dc20f
+#EXTINF:-1 tvg-id="cgntv.japan" tvg-name="CGNTV Japan" tvg-logo="" tvg-country="🇯🇵 Japan" tvg-language="Japanese" group-title="🇯🇵 Japan",CGNTV Japan [1080p]
+https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8#62787921f2dea79abea0b0f82559a2fc401a46a149b5ee296161516ab7c35104
+#EXTINF:-1 tvg-id="chhaya.chitram.telugu" tvg-name="Chhaya Chitram Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Chhaya Chitram Telugu [720p]
+https://samitaorigin.tangotv.in/CHHAYACHITRAMTELUGU/SAMITAORIGIN/index.m3u8#70e6fc1e25f5bbd3359bf8e84a6af68fce7394174453e7554be09503ac0b2670
+#EXTINF:-1 tvg-id="cvr.health" tvg-name="CVR Health" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",CVR Health [576p]
+https://cdn.pishow.tv/ott/live/395/master.m3u8#1f2375f515bd2d95f9fea0c96d9dcca7b9b3b4ad452243107266f4b380908c2d
+#EXTINF:-1 tvg-id="cvr.news" tvg-name="CVR News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",CVR News
+https://mumbai-edge.smartplaytv.in/CVRNews/index.m3u8#a8b6e72b919b176c634d59191e72bd46e17fe81b33c83feb230916503fb1e63d
+#EXTINF:-1 tvg-id="cvr.om.spiritual" tvg-name="CVR OM Spiritual" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",CVR OM Spiritual [576p]
+https://cdn.pishow.tv/ott/live/957/master.m3u8#3ef406cced51b37297f2fe04b9bd07b221b0bb4239be3ea548caa39dc1ee15b6
+#EXTINF:-1 tvg-id="dancetv.deep.house.district" tvg-name="DanceTV Deep House District" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="English" group-title="🇪🇪 Estonia",DanceTV Deep House District [1080p]
+https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8#2e112ff352098c12af781fd0ea82e4b444e7fcc1dd3894cb81b6d1727f94489c
+#EXTINF:-1 tvg-id="dancetv.house.floor" tvg-name="DanceTV House Floor" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="English" group-title="🇪🇪 Estonia",DanceTV House Floor [1080p]
+https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8#275a0e727271ee622b8c7f3a1f7eb29229739a241a1cbd0556ef950f84940f6e
+#EXTINF:-1 tvg-id="dancetv.techno.warehouse" tvg-name="DanceTV Techno Warehouse" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="English" group-title="🇪🇪 Estonia",DanceTV Techno Warehouse [1080p]
+https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8#f610d20d50c1bda68717d3dd6703b52e04e53a60cbbf0649e2ee4c55c44abe53
+#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="Sports",DD Sports HD [1080p]
+https://cdn.pishow.tv/ott/live/1161/master.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
+#EXTINF:-1 tvg-id="dhamaal" tvg-name="Dhamaal" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Dhamaal [576p]
+http://107.167.16.138/dhamaal/index.m3u8?token=test#10e22967a44d01319b7229c03319c6d9d1f727df7a6f1c06b0763fb34cb5e7f5
+#EXTINF:-1 tvg-id="divyavani.tv" tvg-name="Divyavani TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Divyavani TV [720p]
+https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8#44f4fba467ca1ad34eaa80c0be06e33f05b1212e4cf3760ba125c1b1e9b44054
+#EXTINF:-1 tvg-id="dtv.maashorst" tvg-name="DTV Maashorst" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="🇳🇱 Netherlands",DTV Maashorst [1080p]
+https://w1.cdn.jetstre.am/session/de49bc0e3dae8cda68cdde1c0ce3dfcb/vod/_definst_/sz/VDO-X-404.mp4/playlist.m3u8?token=O4aijnRb0qvTZaYoU66K9A&time=1794918161#3cadaab43be337f4fc9fd3a36ad78b9286230ae794c24c41cd7cc9bd887310e8
+#EXTINF:-1 tvg-id="epic.kids.digital" tvg-name="Epic Kids Digital" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English, Tamil, Telugu" group-title="🇮🇳 India",Epic Kids Digital [1080p]
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
+#EXTINF:-1 tvg-id="ert.news.hd" tvg-name="ERT News HD" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="EL" group-title="News",ERT News HD [1080p]
+https://702e2e484b144c71ba38bca0d41f37cd.msvdn.net/bpk-tv/ERTNews/default/index.m3u8#78f679c95d30803d1ea9483b03a898460f4d1589c41e86b7a3c13a0cf543a493
+#EXTINF:-1 tvg-id="etv" tvg-name="ETV" tvg-logo="" tvg-country="🇬🇵 Guadeloupe" tvg-language="French, Guadeloupean Creole French" group-title="🇬🇵 Guadeloupe",ETV [1080p]
+https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8#4e4c937c4da767072e8bff0fcf04ea5f7df89bdbe2af49a2ba105ae48c9491b2
+#EXTINF:-1 tvg-id="etv.cinema" tvg-name="ETV Cinema" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Cinema
+https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#5c904659d9b6bc789a5e0bee926b5f3ee222047bc95f091e456279f170797f4a
+#EXTINF:-1 tvg-id="etv.comedy" tvg-name="ETV Comedy" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Comedy [1080p]
+https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8#ab3ba0578ac4bdb00f85d6e9aa66e2e9a31775513a803ceac21ed83c168408aa
+#EXTINF:-1 tvg-id="etv.josh" tvg-name="ETV Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Josh [1080p]
+https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8#bf0f320ad99f1accba0dc347dd21aaf417d23d93c20c41919a49875d59fe8502
+#EXTINF:-1 tvg-id="etv.kayseri" tvg-name="ETV Kayseri" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Turkish" group-title="🇹🇷 Turkiye",ETV Kayseri [720p]
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8#6fc80e8e8c93cf6ab16fa0ac855e67c8825cc01d86cbb30eac21e1dc67a798f7
+#EXTINF:-1 tvg-id="etv.music" tvg-name="ETV Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Music",ETV Music [1080p]
+https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8#97c429e7da414a7e6ccae2bb3d4cc7ea8a4d3446831b81c292370102c771ff5f
+#EXTINF:-1 tvg-id="etv.news" tvg-name="ETV News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV News [1080p]
+https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8#f37208c853fe1fd160934fd12e18f10732fe1e1e39eead702d640fcd8d6576d6
+#EXTINF:-1 tvg-id="etv.plus" tvg-name="ETV Plus" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",ETV Plus
+https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#196574d954b8b5f5507e917662aa6ea3f268cc31dddc256a6c1f49654c12660e
+#EXTINF:-1 tvg-id="etv.telugu.usa" tvg-name="ETV Telugu USA" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Telugu USA [720p]
+https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
+#EXTINF:-1 tvg-id="etv2" tvg-name="ETV2" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="Estonian" group-title="🇪🇪 Estonia",ETV2
+https://sb.err.ee/live/etv2.m3u8#c8cba9a3a0d69563ab28f79848f21aaec7adbd86950bcf8b33fe45a7de75b95f
+#EXTINF:-1 tvg-id="fashiontv.paris.l.original" tvg-name="FashionTV Paris L'Original" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="🇫🇷 France",FashionTV Paris L'Original [1080p]
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8#7546ae03ad3d8b6b1c3072d076e089c813760977247a3f60cd223fdfa6d3b800
+#EXTINF:-1 tvg-id="fashiontv.secrets" tvg-name="FashionTV Secrets" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English" group-title="🇫🇷 France",FashionTV Secrets [1080p]
+https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=%5BADS.APP_NAME%5D&AV_APPPKGNAME=%5BADS.APP_BUNDLE%5D&AV_APPSTOREURL=%5BADS.APP_STORE_URL%5D&AV_CCPA=%5BADS.US_PRIVACY%5D&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=%5BADS.GDPR_CONSENT%5D&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=%5BADS.VIDAA_ADS_CONTENTID%5D&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=%5BADS.DNT%5D&AV_GDPR=%5BADS.GDPR%5D&AV_HEIGHT=%5BADS.H%5D&AV_IDFA=%5BADS.IFA%5D&AV_IFA_TYPE=%5BADS.IFA_TYPE%5D&AV_LANGUAGE=%5BADS.DEVICE_LANGUAGE%5D&AV_OSVERS=%5BADS.DEVICE_OSV%5D&AV_RTB_DEVICE_TYPE=%5BADS.DEVICE_TYPE%5D&AV_VAUTH=%5BADS.VAUTH%5D&AV_WIDTH=%5BADS.W%5D&Content_Id=%5BADS.ADS_CONTENTID%5D&ads.vidaa_ads_param=1191723366&cb=%5BCACHEBUSTER%5D&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1#0b8b7b20e859d6347e9242e271f63a0c2180371ca2aab1c78f88077f15f2ca9d
+#EXTINF:-1 tvg-id="hindu.dharmam" tvg-name="Hindu Dharmam" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Hindu Dharmam [576p]
+https://cdn.pishow.tv/ott/live/959/master.m3u8#751f0edb17cd0413e37f4319415fe540359ed8b78fbf87845b5fc06bddb19ad2
+#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG, HIN" group-title="Documentary",History TV18 HD [1080p | Audio: ENG/HIN]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
+#EXTINF:-1 tvg-id="hmtv" tvg-name="HMTV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",HMTV [576p]
+https://cdn.pishow.tv/ott/live/280/master.m3u8#390d8e6eaf05f01c30e98a48164d9f6a0a94867e8eded441c1230e3ccfbb982b
+#EXTINF:-1 tvg-id="inews" tvg-name="INews" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",INews [576p]
+https://cdn.pishow.tv/ott/live/411/master.m3u8#e1073c06e9d606514c66df67de7b38ae03d9f4c567f21a671d1150a50a37880a
+#EXTINF:-1 tvg-id="intv.australia" tvg-name="INTV Australia" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="Macedonian" group-title="🇦🇺 Australia",INTV Australia [720p]
+http://tv1.intv.mk:1935/live/intv/index.m3u8#bf07cdd27fff7389bf405ac82e4afeca477b2dbf7a060cecbccc9eca3107ae8d
+#EXTINF:-1 tvg-id="ishwar.bhakti.tv" tvg-name="Ishwar Bhakti TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Ishwar Bhakti TV [720p]
+https://mumt05.tangotv.in/87NeALx2ISHWARBHAKTI/index.m3u8#89b5b96e03eff4369043c033059b119bd91150da75234ec7764de4ef4364c8d4
+#EXTINF:-1 tvg-id="kempentv" tvg-name="KempenTV" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="🇳🇱 Netherlands",KempenTV [720p]
+https://ms2.mx-cd.net/tv/242-2079866/Omroep_de_Kempen.smil/playlist.m3u8#78139cbded92beb506576beb2ac6176b2e38ccaa9457aba7e51fe4c9afa334ff
+#EXTINF:-1 tvg-id="kurdsat.news" tvg-name="Kurdsat News" tvg-logo="" tvg-country="🇮🇶 Iraq" tvg-language="EN" group-title="🇮🇶 Iraq",Kurdsat News [1080p]
+https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8#58db5bb33f4703e17df0eb0c395af9364a4b3a9c52687d9d3d504188c16ef11e
+#EXTINF:-1 tvg-id="lifetv" tvg-name="LifeTv" tvg-logo="" tvg-country="🇸🇰 Slovakia" tvg-language="Slovak" group-title="🇸🇰 Slovakia",LifeTv
+https://lifetv.mpks.sk/s.m3u8#e6624a0d96993d33403675b916b586260dd5fa2451f7e1a67829fa776b069b9e
+#EXTINF:-1 tvg-id="lifevisiontv" tvg-name="LifevisionTV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",LifevisionTV [720p]
+https://tgn.bozztv.com/lifevision/lifevision/index.m3u8#114142cbae623a891a1f892d55b2ac4edd3877b86f2c234b895049c354355c6e
+#EXTINF:-1 tvg-id="lotte.onetv" tvg-name="Lotte OneTV" tvg-logo="" tvg-country="🇰🇷 South Korea" tvg-language="Korean" group-title="🇰🇷 South Korea",Lotte OneTV [720p]
+https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8#99b3c71d89282f7e7cf8b578f15f7d585635fbb9458a8e6da35c8ffae58fafcc
+#EXTINF:-1 tvg-id="maah.tv" tvg-name="Maah TV" tvg-logo="" tvg-country="🇲🇾 Malaysia" tvg-language="Persian" group-title="Movie",Maah TV
+https://hls.maahtv.live/hls/stream.m3u8#2f957430a211ea85b7ccaf5798127924391ad5654b2310c9bdb835124b0f5695
+#EXTINF:-1 tvg-id="maasranga.tv" tvg-name="Maasranga TV" tvg-logo="" tvg-country="🇧🇩 Bangladesh" tvg-language="Bengali" group-title="🇧🇩 Bangladesh",Maasranga TV [720p]
+https://tvsen5.aynaott.com/maasrangatv/index.m3u8#fbd79b063d4f893f37ac4be7c1eb92fc1cea79192e7a6929d9d0194a137a6bf3
+#EXTINF:-1 tvg-id="mahaa.bhakti" tvg-name="Mahaa Bhakti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mahaa Bhakti
+https://d1msejlow1t3l4.cloudfront.net/fta/mahaabhakti/playlist.m3u8#57732b13320578f685237e7861aeda198a19fe650e73312c8d91ee1b2af420df
+#EXTINF:-1 tvg-id="mahaa.max" tvg-name="Mahaa Max" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Mahaa Max [576p]
+https://cdn.pishow.tv/ott/live/1147/master.m3u8#2c7274514b3dcd4675d6ca737ec968e986a352bcdbc75f7b10d129636e0d58fa
+#EXTINF:-1 tvg-id="mahaa.news" tvg-name="Mahaa News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Mahaa News [576p]
+https://cdn.pishow.tv/ott/live/401/master.m3u8#8d124dde008bfd4c76de7a63204decedafeee4e677048c9a4a8fa3b31485229a
+#EXTINF:-1 tvg-id="mahaasin.tv" tvg-name="Mahaasin TV" tvg-logo="" tvg-country="🇹🇿 Tanzania" tvg-language="English, Swahili" group-title="🇹🇿 Tanzania",Mahaasin TV
+https://mahaasintv.livebox.co.in/mahaasintvhls/mahaasintv.m3u8#1cc7806de79bd995ea5c66c877c07e7f5a3eccbf5430d6d17b9960637b9c3303
+#EXTINF:-1 tvg-id="metro.tv" tvg-name="Metro TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Metro TV [1080p]
+https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8#75b6771de3c67fe82f9b8d8a85366529ffbcb179df014e38de9a357290693f0c
+#EXTINF:-1 tvg-id="metv" tvg-name="MeTV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",MeTV [1080p]
+http://4.30.180.36:8420/metv/index.m3u8?token=test#940c0f679edaa640fe98bb962b275593db3f100851d977361e793ed35c454fac
+#EXTINF:-1 tvg-id="mntv" tvg-name="MNTV" tvg-logo="" tvg-country="🇲🇿 Mozambique" tvg-language="Portuguese" group-title="🇲🇿 Mozambique",MNTV
+https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8#e13d6a13d1b98f1bed7f48e2cb12e3a56902ce3ad82fcbeb7763c36b9dfa1e4e
+#EXTINF:-1 tvg-id="mojo.tv" tvg-name="Mojo TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Mojo TV [720p]
+https://mumt07.tangotv.in/zHjX9OFlMOJOTV/index.m3u8#4228828bcb8be1a97af18c0965d2e1d2f0077039f9b95f7ded36185273144df4
+#EXTINF:-1 tvg-id="nashua.etv.channel.22.nashua.nh" tvg-name="Nashua ETV Channel 22 Nashua NH" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Nashua ETV Channel 22 Nashua NH [720p]
+https://livestream.telvue.com/nashuanh2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8#b2a3f218adcd0f5c99af268a1f2d0cf68c51d333dd6f43a8d94c60552e48de88
+#EXTINF:-1 tvg-id="nireekshana.tv" tvg-name="Nireekshana TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Nireekshana TV [576p]
+https://cdn.pishow.tv/ott/live/965/master.m3u8#027790553f013e11526f21eb36890048b4a4d1e2ea52c906440059253103a824
+#EXTINF:-1 tvg-id="ntv" tvg-name="NTV" tvg-logo="" tvg-country="🇧🇩 Bangladesh" tvg-language="Bengali" group-title="🇧🇩 Bangladesh",NTV [720p]
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8#eacbfc3158d5b9bbcb5f7f6045bbd0e87a5342cfb62db4e9a3dba834f5232fd9
+#EXTINF:-1 tvg-id="ntv.series" tvg-name="NTV Series" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="🇷🇺 Russia",NTV Series [576p]
+http://stream.mcquack.net/301/index.m3u8#e3f279e119d97430b6d82ba12d8f6e137ad8e2457f275a65bcb89a7604a8a0b8
+#EXTINF:-1 tvg-id="ntv.telugu" tvg-name="NTV Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",NTV Telugu [576p]
+https://cdn.pishow.tv/ott/live/383/master.m3u8#e485f46a710395c5bc1c7b71c13fc913cd7157f9aa4ba844034f08db882f23ac
+#EXTINF:-1 tvg-id="ntv.hit" tvg-name="NTV-Hit" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="🇷🇺 Russia",NTV-Hit [576p]
+http://178.134.1.158:8081/ntvhit/index.m3u8#9310e4f9b17981a300dc076c3bc2cea83cbd12ff1ded636a43470cdffe7e36d4
+#EXTINF:-1 tvg-id="ontv" tvg-name="ONTV" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="🇲🇳 Mongolia",ONTV [720p]
+https://cdn4.skygo.mn/live/disk1/ONTV/HLSv3-FTA/ONTV.m3u8#4240b437b437bc6009520f491d1d8b3c2f677027259e6e8498a6a99b6c9fdcbf
+#EXTINF:-1 tvg-id="pmc.telugu" tvg-name="PMC Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",PMC Telugu [720p]
+https://mumbai-edge.smartplaytv.in/PMC/index.m3u8#ecc83cf0b91589a8d72d07f65a23682e72849e0cc23aeed8f1e3e8eb726a2975
+#EXTINF:-1 tvg-id="pontv" tvg-name="PONTV" tvg-logo="" tvg-country="🇮🇩 Indonesia" tvg-language="Indonesian" group-title="🇮🇩 Indonesia",PONTV [720p]
+http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8#667cbdf0ab10d8c4cb086f8fb00b029b88e1b7e873bd85860f4de403cbfbf740
+#EXTINF:-1 tvg-id="prime9.news" tvg-name="Prime9 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Prime9 News [1080p]
+https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8#9cab4e780f50b2eb03a168afd3e96b45500a502f55e707e084337ff542908099
+#EXTINF:-1 tvg-id="raj.musix.telugu" tvg-name="Raj Musix Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Raj Musix Telugu [576p]
+https://cdn.pishow.tv/ott/live/1213/master.m3u8#9afd6da1b41ff696b87c3e05f879a44cf664997a4b6a4de7d716310d4ddbbba5
+#EXTINF:-1 tvg-id="raj.news.telugu" tvg-name="Raj News Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Raj News Telugu [576p]
+https://cdn.pishow.tv/ott/live/279/master.m3u8#73b0631cf50136f05d77ea3ec114fe76d319b43eb05eb6d0b5be6a8b033efbe2
+#EXTINF:-1 tvg-id="redetv.parana" tvg-name="RedeTV! Parana" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="🇧🇷 Brazil",RedeTV! Parana [1080p]
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8#de8339b635cf0bf2b37db3e0f041d569a05195fdc8d117c53670bb1350261915
+#EXTINF:-1 tvg-id="rt.news" tvg-name="RT News" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="English" group-title="🇷🇺 Russia",RT News [1080p]
+https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8#e8b2b45070c9e02a1e53d4ac4fb4ce061e7b1af000a7d41a9084943fb873cf9b
+#EXTINF:-1 tvg-id="rtv.maastricht" tvg-name="RTV Maastricht" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="🇳🇱 Netherlands",RTV Maastricht [720p]
+http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8#8f2dfaa1692e781e16f8a3fe69522de2ad2f903fdd4f6405e1467f4e94a9e502
+#EXTINF:-1 tvg-id="sakshi.tv" tvg-name="Sakshi TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Sakshi TV [576p]
+https://cdn.pishow.tv/ott/live/409/master.m3u8#cc73eefa46ea22a4caa1746fac0c2f8eab0d1c9bf6560920f8db085bcb619ade
+#EXTINF:-1 tvg-id="santvani.channel" tvg-name="Santvani Channel" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Santvani Channel [576p]
+https://cdn.pishow.tv/ott/live/475/master.m3u8#eb70131ee183f6daa691e8f52853c70e715ad3ec30e138088e343d748be3072f
+#EXTINF:-1 tvg-id="sbt.news" tvg-name="SBT News" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="🇧🇷 Brazil",SBT News [720p]
+https://dai.google.com/linear/hls/pa/event/1XSOdtQ0SH2G8OEmEfGgjQ/stream/5f476737-2758-4407-807b-9e1888eda410:DLS/master.m3u8#7a7a6d5684e6cdbac9142a616bf4b8c904ee9d8e38d593de991f9e4f8880d244
+#EXTINF:-1 tvg-id="sctv6" tvg-name="SCTV6" tvg-logo="" tvg-country="🇻🇳 Vietnam" tvg-language="Vietnamese" group-title="🇻🇳 Vietnam",SCTV6 [720p]
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv6/master.m3u8#69bbaf693a3292fbb639e690efab20d881c4cff4294404af0dfbc3e35f63c70f
+#EXTINF:-1 tvg-id="sctv9" tvg-name="SCTV9" tvg-logo="" tvg-country="🇻🇳 Vietnam" tvg-language="Vietnamese" group-title="🇻🇳 Vietnam",SCTV9 [720p]
+https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8#2e4f7624bb0c95b16400728e9b9d54c05f26cf923ecbd8e152056eda277d00fa
+#EXTINF:-1 tvg-id="star.maa.hd" tvg-name="Star Maa HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Star Maa HD
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
+#EXTINF:-1 tvg-id="star.maa.movies.hd" tvg-name="Star Maa Movies HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Movie",Star Maa Movies HD
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8#e7a68f826f3af20f519f50fa77fc57dcaa833bb2ba73f9e37a6cb585c3aaaa71
+#EXTINF:-1 tvg-id="studio.one" tvg-name="Studio One +" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Studio One + [576p]
+https://cdn.pishow.tv/ott/live/276/master.m3u8#e41bc9c5f26fa6f0806e20170a548886d28a3b0fadc5790ec9349a902f280ec8
+#EXTINF:-1 tvg-id="studio.yuva" tvg-name="Studio Yuva" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Studio Yuva [720p]
+https://mumt01.tangotv.in/O5aw8Zn3STUDIOYUVA/index.m3u8#e4b6bcdab429040ba9f59dbd61177087d6c9c1cc585d1fbedc991325b390d586
+#EXTINF:-1 tvg-id="subhavaartha.tv" tvg-name="Subhavaartha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Subhavaartha TV [576p]
+https://cdn.pishow.tv/ott/live/278/master.m3u8#315d766f529c5d65dc113bdf87a3ca185afe8dac74d75d4743ed099ae62797ba
+#EXTINF:-1 tvg-id="svbc" tvg-name="SVBC" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",SVBC [720p]
+https://mumt04.tangotv.in/m18aqlK4SVBCTELUGU/index.m3u8#f3542bdd1e9473810a560e9bd6daeae03c80862657c0efdce7805b49bbeeaff8
+#EXTINF:-1 tvg-id="svbc.2" tvg-name="SVBC 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada" group-title="🇮🇳 India",SVBC 2 [1080p]
+https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8#ca9e47bcaa66c8446053be500b773fb151ed156eae77ccb0de5e925672b46f24
+#EXTINF:-1 tvg-id="svbc.3" tvg-name="SVBC 3" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",SVBC 3 [720p]
+https://mumt01.tangotv.in/O5aw8Zn3SVBC3KANNADA/index.m3u8#c17dd872d975d7a7a8a0db506ae91625e74e0f1a60155c9d99c8ac822a1bee37
+#EXTINF:-1 tvg-id="svbc.4" tvg-name="SVBC 4" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",SVBC 4 [720p]
+https://mumt05.tangotv.in/87NeALx2SVBC4HINDI/index.m3u8#c5636f287557d04704496d08efaccad2b7e7c53b523dbedda5cab603c5d57b6f
+#EXTINF:-1 tvg-id="svbc.sri.venkateswara.bhakti.channel" tvg-name="SVBC Sri Venkateswara Bhakti Channel" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",SVBC Sri Venkateswara Bhakti Channel [1080p]
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8#fd572542ec60d6d750ac42e0c793458d8dd1cf7e4aa815318ad16a2744295ad5
+#EXTINF:-1 tvg-id="swatantra.tv" tvg-name="Swatantra TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="News",Swatantra TV [720p]
+https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8#8d53127365d405817646143d68efba8522d63a98e5056792bfc1a375f9df3e27
+#EXTINF:-1 tvg-id="t.news" tvg-name="T News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",T News [576p]
+https://cdn.pishow.tv/ott/live/385/master.m3u8#930159ca238e2d4c5b3be3c4a1fc9cadbb265798ab0f4689087a1635532f4041
+#EXTINF:-1 tvg-id="tolly.tv" tvg-name="Tolly TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Tolly TV [1080p]
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8#3124fb758c75362c89bf9e904b9937dfcd19adf33ef34ca24dabbca6a4513a27
+#EXTINF:-1 tvg-id="total.bhakti" tvg-name="Total Bhakti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Total Bhakti [720p]
+https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8#8ee2298f97a593a2f588c064fb317684334393d6d194ff4ce4ffa4229cb43a36
+#EXTINF:-1 tvg-id="tv5.news" tvg-name="TV5 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",TV5 News [576p]
+https://cdn.pishow.tv/ott/live/387/master.m3u8#f2437038ace65fd7071c83837ce2c2196f6c1375f3b3733d48a3e7bd298e5ea2
+#EXTINF:-1 tvg-id="tv9" tvg-name="TV9" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="🇲🇳 Mongolia",TV9 [720p]
+https://cdn4.skygo.mn/live/disk1/TV9HD/HLSv3-FTA/TV9HD.m3u8#a750eebe24fd13575d4390591b3e615e3a0f856d848324de4686dceb9910f3fe
+#EXTINF:-1 tvg-id="tv9.bangla" tvg-name="TV9 Bangla" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",TV9 Bangla [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8#bf4531710785ca2d1d305aed3a78e58a14897c476075a57550885cc21e35e572
+#EXTINF:-1 tvg-id="tv9.bharatvarsh" tvg-name="TV9 Bharatvarsh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",TV9 Bharatvarsh [720p]
+https://vg-tv9yupp.vgcdn.net/vglive-sk-468570/v1/019dfce4b3371ea55784752988544/019dfce515ea1ea540a871e333259/main.m3u8#f9d3fb8200ea8576922cf1ae65fb1e0fcea371f6d4f9e0c371ff48da24f314e6
+#EXTINF:-1 tvg-id="tv9.gujarati" tvg-name="TV9 Gujarati" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Gujarati" group-title="🇮🇳 India",TV9 Gujarati [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8#9d0a5ab784d6c77f3acd99efeb1c26bec29329bf511e812797a2c59c2aa6f06b
+#EXTINF:-1 tvg-id="tv9.kannada" tvg-name="TV9 Kannada" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Kannada" group-title="🇮🇳 India",TV9 Kannada [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8#9c4379c65aa2dfc9ef434120c6946f23c1530cccc5f22a2eeffb2c9c2188106a
+#EXTINF:-1 tvg-id="tv9.marathi" tvg-name="TV9 Marathi" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="News",TV9 Marathi [576p]
+https://cdn.pishow.tv/ott/live/2/master.m3u8#48d673438d9e5b5f720506ac2e0b53c167091b7ca3049a1fe81d282fde2d5fd1
+#EXTINF:-1 tvg-id="tv9.nusantara" tvg-name="TV9 Nusantara" tvg-logo="" tvg-country="🇮🇩 Indonesia" tvg-language="Indonesian" group-title="🇮🇩 Indonesia",TV9 Nusantara [720p]
+https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8#e739266f93f32dcb46efed7f4fd1ae875547e1e4d9b35f3c7a231172409ce7f8
+#EXTINF:-1 tvg-id="tv9.telemaremma" tvg-name="tv9 Telemaremma" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="🇮🇹 Italy",tv9 Telemaremma
+https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/2095a288-1384-ed2e-5da0-278ccbb72295.m3u8#4639bfb3e90799148c9e209c65e59bca4bd2c5d17e521322da8da0f8fb6fcad1
+#EXTINF:-1 tvg-id="tv9.telugu" tvg-name="TV9 Telugu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",TV9 Telugu [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8#235d352117e95b982fa7fa5efeb823d4f7edf90d4e835091e2ba913454f4b214
+#EXTINF:-1 tvg-id="uniontv" tvg-name="UnionTV" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="🇵🇾 Paraguay",UnionTV [1080p]
+https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8#e2683c19dbccace11474dc3ead911c7f2f4fbba632e0e4492bea19265f75044d
+#EXTINF:-1 tvg-id="v6.news" tvg-name="V6 News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",V6 News [576p]
+https://cdn.pishow.tv/ott/live/389/master.m3u8#6487f392a94c3b5777142960796a13fe4f5ab0e6fe51ebbe4754341eff581bec
+#EXTINF:-1 tvg-id="vanitha.tv" tvg-name="Vanitha TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",Vanitha TV [576p]
+https://cdn.pishow.tv/ott/live/393/master.m3u8#3401c14a979a182062b5bfac77ceadb1134240672334b9f60b3e22af270ba428
+#EXTINF:-1 tvg-id="vissa.tv" tvg-name="Vissa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Vissa TV [720p]
+https://mumt07.tangotv.in/zHjX9OFlVISSATV/index.m3u8#d392d1dfc682de9e412c4a8a0f0ee8041cb49f573170a5c0b20c361bf30af753
+#EXTINF:-1 tvg-id="voyentv" tvg-name="VoyenTV" tvg-logo="" tvg-country="🇧🇾 Belarus" tvg-language="Belarusian" group-title="🇧🇾 Belarus",VoyenTV [1080p]
+http://media1.skifnet.by/voentv/index.m3u8#acf366aba107382c0912079857074c910768b91f520a8b041ff97d2afa660593
+#EXTINF:-1 tvg-id="watan.e.maa.tv" tvg-name="Watan-e-Maa TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Watan-e-Maa TV [720p]
+https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8#c62845bfbfb1389722d56dfdc5903d9c11bebeb9a4ea8887c5928389205c1591
+#EXTINF:-1 tvg-id="wcetv.digital.channel.31.8" tvg-name="WCETV Digital Channel 31.8" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Chinese" group-title="🇺🇸 United States",WCETV Digital Channel 31.8
+https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8#e87c45d4ab61b3adebdcfe0ad5da8c0d449e4c07644abe68a9efb398ad854d52
+#EXTINF:-1 tvg-id="wjxt.news4jax.jacksonville.fl" tvg-name="WJXT News4JAX (Jacksonville FL)" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",WJXT News4JAX (Jacksonville FL) [720p]
+https://dai.google.com/linear/hls/pa/event/RDmbn03GRCOLNG1eetEKhg/stream/d76bf4d5-f390-4c06-9e9e-13fcbd08a661:DLS/master.m3u8#73dff6159011d63eedfd5cdb1253901528fc24efa92602e6229e13d29abe91dd
+#EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz [720p]
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#a8c0e5004a2b7669331cd22d90f9cccb70f898d6a4fc35f23263a3ea777f2ac9
+#EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil [720p]
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
+#EXTINF:-1 tvg-id="zb.bhakti" tvg-name="ZB Bhakti" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",ZB Bhakti [1080p]
+https://server.zillarbarta.com/zbbhakti/index.m3u8#0c309ce5e768dda451a327fe7c238d6cf52e13b346c2489379e3b48a7bf6d485
+#EXTINF:-1 tvg-id="zee.telugu.hd" tvg-name="Zee Telugu HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD [720p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
+#EXTINF:-1 tvg-id="zee.telugu.news" tvg-name="Zee Telugu News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="🇮🇳 India",Zee Telugu News [1080p]
+https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8#06716ccadc5eefde40c5664d54748c313e716a2a5af1669142db42204671810c
