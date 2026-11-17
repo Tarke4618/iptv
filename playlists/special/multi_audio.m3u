@@ -9,10 +9,8 @@ http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8#298217dc35924eab17982019f1
 https://streaming.onnethn.com/CINEMAX/playlist.m3u8#7ca0784aef472172a3a2669d4c5fd7edf65e0d680d4be8c97c199fa2908addff
 #EXTINF:-1 tvg-id="discovery.world.brazil" tvg-name="Discovery World Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="🇺🇸 United States",Discovery World Brazil [1080p | Audio: SPA/ENG]
 http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8#f25fb7ce96dc7b80f18c68393d7792a66a4e462e32a217f482a76bfafd53d4aa
-#EXTINF:-1 tvg-id="ebs.plus" tvg-name="EBS Plus" tvg-logo="" tvg-country="🇧🇪 Belgium" tvg-language="QAA, EN, DE, IT, ES, EL, PT, NL, DA, FI, SV, CS, ET, LV, LT, HU, MT, PL, SK, SL, BG, RO, GA, HR, UK, SR, AR, RU, CA" group-title="🇧🇪 Belgium",EBS Plus [1080p | Audio: QAA/EN/DE/IT]
+#EXTINF:-1 tvg-id="ebs.plus" tvg-name="EBS Plus" tvg-logo="" tvg-country="🇧🇪 Belgium" tvg-language="QAA, EN, FR, DE, IT, ES, EL, PT, NL, DA, FI, SV, CS, ET, LV, LT, HU, MT, PL, SK, SL, BG, RO, GA, HR, UK, SR, AR, RU, CA" group-title="🇧🇪 Belgium",EBS Plus [1080p | Audio: QAA/EN/FR/DE]
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8#10dcebaef67b08bc827f0159e2b4af3f33ee3b427d01a34a50aaf90ddb330b38
-#EXTINF:-1 tvg-id="esport3" tvg-name="Esport3" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="CA, QAA, QAD" group-title="Sports",Esport3 [1080p | Audio: CA/QAA/QAD]
-https://directes-tv-int.3catdirectes.cat/live-origin/esport3-hls/master.m3u8#fcd895adb71372498faf6aed9ff2ac645bd31d87d94a75f0efb4d882bccfffc5
 #EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇺🇿 Uzbekistan" tvg-language="UZB, RUS" group-title="Music",FTV [1080p | Audio: UZB/RUS]
 https://stream8.cinerama.uz/1018/playlist.m3u8#a1cad0c403cee01c2139d31eec9f61dbfca6df5300f8c74683648790a62090ed
 #EXTINF:-1 tvg-id="hbo.2.latin.america.hd" tvg-name="HBO 2 Latin America HD" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Movie",HBO 2 Latin America HD [1080p | Audio: SPA/ENG]

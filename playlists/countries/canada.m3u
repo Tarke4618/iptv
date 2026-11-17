@@ -149,8 +149,6 @@ https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8#980e919e2bae302169bda8fcea0f7cd363098e52f14ed5e3d63d95069d00aff1
 #EXTINF:-1 tvg-id="tag.tv" tvg-name="TAG TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",TAG TV [720p]
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8#a8f6d92511a1b5101b0962d3b0b78da03586dfbacc4bf88a092639d5cd0e06c0
-#EXTINF:-1 tvg-id="tamilvision.tv" tvg-name="TamilVision-TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Tamil" group-title="🇨🇦 Canada",TamilVision-TV [1080p]
-https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a794569447360ac39b5515bf40
 #EXTINF:-1 tvg-id="the.shopping.channel" tvg-name="The Shopping Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="ENG" group-title="🇨🇦 Canada",The Shopping Channel [720p]
 https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8#26335b76fb07de5a7500866f6fc41e3f6b3b1dd1b6a68e1d5f0b4f0d8854281c
 #EXTINF:-1 tvg-id="today.s.shopping.choice.tsc" tvg-name="Today's Shopping Choice (TSC)" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="ENG" group-title="🇨🇦 Canada",Today's Shopping Choice (TSC) [720p]

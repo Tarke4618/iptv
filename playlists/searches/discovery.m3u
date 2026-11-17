@@ -19,6 +19,8 @@ http://38.65.175.84:8000/play/a0an/index.m3u8#2cbb4b13c9bab495466d81bd96b6d28ac2
 http://45.171.64.30:6060/play/a007/index.m3u8#78f3fbbe9b71088216f72abd2a897ab970ff71516f413a6360eeca5f54ee6dcf
 #EXTINF:-1 tvg-id="discovery.theater.latin.america" tvg-name="Discovery Theater Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="🇺🇸 United States",Discovery Theater Latin America
 http://181.224.200.5:2277/play/a0bj/index.m3u8#42ee07b38c8131c40c942ed2bf63cfdee280915eda1f27f809a53e25a4c9d860
+#EXTINF:-1 tvg-id="discovery.turbo" tvg-name="Discovery Turbo" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="🇮🇹 Italy",Discovery Turbo [1080p]
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8#e6077b7e2518e710b8593fd6eb64785bb8555c1a5872baba28b84550ecd6c1b6
 #EXTINF:-1 tvg-id="discovery.turbo.latin.america" tvg-name="Discovery Turbo Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, Portuguese" group-title="🇺🇸 United States",Discovery Turbo Latin America
 http://38.134.250.110:8000/play/a01y/index.m3u8#ca517610074d1e27d8232724aa8bb7e658304b3e05532df718eba9df0e2a05da
 #EXTINF:-1 tvg-id="discovery.world.brazil" tvg-name="Discovery World Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="🇺🇸 United States",Discovery World Brazil [1080p | Audio: SPA/ENG]
