@@ -3,8 +3,6 @@
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8#15881c894d3d307e9ef16f9ad837a9c7b97d84216796a2ba9f64be77bcad7928
 #EXTINF:-1 tvg-id="cartoon.network" tvg-name="Cartoon Network" tvg-logo="" tvg-country="🇵🇰 Pakistan" tvg-language="English, Urdu" group-title="🇵🇰 Pakistan",Cartoon Network [720p]
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8#e421df3569b412ad7b5b62bb8c87487c05510c51246a74f3ea82450d61ca52ac
-#EXTINF:-1 tvg-id="cartoon.network.arabic" tvg-name="Cartoon Network Arabic" tvg-logo="" tvg-country="🇦🇪 United Arab Emirates" tvg-language="Arabic" group-title="🇦🇪 United Arab Emirates",Cartoon Network Arabic
-http://149.100.11.252:8000/play/a056/index.m3u8#8b4ebdb9728310664c2f624d9c07e7cfadb44ce69b785c85184fa270b7a2f77f
 #EXTINF:-1 tvg-id="cartoon.network.cee.ukraine" tvg-name="Cartoon Network CEE Ukraine" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Romanian, Ukrainian, Bulgarian, Czech, English, Hungarian, Polish, Russian, French, Danish, German" group-title="🇬🇧 United Kingdom",Cartoon Network CEE Ukraine [576p]
 http://45.132.87.69:8080/cartoon_network/index.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
 #EXTINF:-1 tvg-id="cartoon.network.latin.america.brazil" tvg-name="Cartoon Network Latin America Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="UND A1, UND A2" group-title="🇺🇸 United States",Cartoon Network Latin America Brazil [1080p | Audio: UND A1/UND A2]

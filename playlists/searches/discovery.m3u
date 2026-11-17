@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTINF:-1 tvg-id="asharq.discovery" tvg-name="Asharq Discovery" tvg-logo="" tvg-country="🇸🇦 Saudi Arabia" tvg-language="Arabic" group-title="Documentary",Asharq Discovery [1080p]
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8#b634c0121dc47e899f81d32a8ba4ce7bbb8c9bed7250e5ad0af919cab026cf3e
 #EXTINF:-1 tvg-id="discovery.channel" tvg-name="Discovery Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="🇮🇹 Italy",Discovery Channel [1080p]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8#41f1732829e187969d81b43faabeb4122cbfcc91ada0b183ddf028c85f473397
 #EXTINF:-1 tvg-id="discovery.channel.latin.america" tvg-name="Discovery Channel Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish, English" group-title="🇺🇸 United States",Discovery Channel Latin America

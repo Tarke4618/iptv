@@ -15,12 +15,6 @@ https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8#10dcebaef67b08bc82
 https://stream8.cinerama.uz/1018/playlist.m3u8#a1cad0c403cee01c2139d31eec9f61dbfca6df5300f8c74683648790a62090ed
 #EXTINF:-1 tvg-id="hbo.2.latin.america.hd" tvg-name="HBO 2 Latin America HD" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Movie",HBO 2 Latin America HD [1080p | Audio: SPA/ENG]
 http://15.204.246.24:8080/HBO2HD/index.m3u8#a7fa3c82ec6b8128ba8b88feee1ee42cd62748e3818fd3d1a8eb44c225bdcd8e
-#EXTINF:-1 tvg-id="history.latin.america" tvg-name="History Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Documentary",History Latin America [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/HistoryHD/index.m3u8#ddefb40b68529e6a35c7dbb5c089d8288352ec2ec56016df3264ffe495a7af43
-#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG, HIN" group-title="Documentary",History TV18 HD [1080p | Audio: ENG/HIN]
-https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
-#EXTINF:-1 tvg-id="ifc" tvg-name="IFC" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="ENG, SPA" group-title="Movie",IFC [1080p | Audio: ENG/SPA]
-http://23.237.104.106:8080/USA_IFC/index.m3u8#89c6e8677d34ec2074aabe1b1d526a9f923c6b65cc910f4858df7bf58d04b643
 #EXTINF:-1 tvg-id="la.une" tvg-name="La Une" tvg-logo="" tvg-country="🇧🇪 Belgium" tvg-language="FR, QAA, QAD" group-title="Entertainment",La Une [720p | Audio: FR/QAA/QAD]
 https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8#e6930d8b143482aba69a2e23d309e29ba0ff821ff253b833b6b47de89d276cc9
 #EXTINF:-1 tvg-id="mta3.al.arabia" tvg-name="MTA3 Al-Arabia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="MUL, URD, ENG, FRA, GER, ARA, BEN" group-title="🇬🇧 United Kingdom",MTA3 Al-Arabia [1080p | Audio: MUL/URD/ENG/FRA | HEVC-MPV]
@@ -31,10 +25,6 @@ https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_worl
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
 #EXTINF:-1 tvg-id="mta8.america" tvg-name="MTA8 America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="MUL, URD, ENG, FRA, GER, ARA, BEN" group-title="🇬🇧 United Kingdom",MTA8 America [1080p | Audio: MUL/URD/ENG/FRA | HEVC-MPV]
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
-#EXTINF:-1 tvg-id="national.geographic" tvg-name="National Geographic" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="SPA, ENG" group-title="Documentary",National Geographic [1080p | Audio: SPA/ENG]
-http://138.121.15.230:9002/NAT-GEO/index.m3u8#79885f5a09c6f01b0b08d896e036bbb3df25baf2fa126272753634f81aa3037b
-#EXTINF:-1 tvg-id="national.geographic.latin.america" tvg-name="National Geographic Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Documentary",National Geographic Latin America [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/NatGeoHD/index.m3u8#e6b2cb2cba4bf1c6b79533464a7ed2f718a71e197582e2224098249ea0a76159
 #EXTINF:-1 tvg-id="nick.jr" tvg-name="Nick Jr." tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="UNDEFINED A1, UNDEFINED A2, UNDEFINED A3" group-title="🇮🇹 Italy",Nick Jr. [720p | Audio: UNDEFINED A1/UNDEFINED A2/UNDEFINED A3]
 http://102.129.186.182:81/nick/index.m3u8#bdde1b424d604193ba26b083e8e79df8da18f3d8c4707aeaf1093ac466fa8d16
 #EXTINF:-1 tvg-id="rally.tv" tvg-name="Rally TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="EN, JA, DE, ES, ZXX" group-title="Sports",Rally TV [1080p | Audio: EN/JA/DE/ES]

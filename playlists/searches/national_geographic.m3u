@@ -1,5 +1,7 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="national.geographic" tvg-name="National Geographic" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="SPA, ENG" group-title="Documentary",National Geographic [1080p | Audio: SPA/ENG]
-http://138.121.15.230:9002/NAT-GEO/index.m3u8#79885f5a09c6f01b0b08d896e036bbb3df25baf2fa126272753634f81aa3037b
-#EXTINF:-1 tvg-id="national.geographic.latin.america" tvg-name="National Geographic Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Documentary",National Geographic Latin America [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/NatGeoHD/index.m3u8#e6b2cb2cba4bf1c6b79533464a7ed2f718a71e197582e2224098249ea0a76159
+#EXTINF:-1 tvg-id="national.geographic" tvg-name="National Geographic" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Documentary",National Geographic
+http://88.212.15.50/live/test_ngc/playlist.m3u8#1e38de97fa20f8d5ef0df44840658a2f1a8c6814ea2467976057078d85a59472
+#EXTINF:-1 tvg-id="national.geographic.latin.america" tvg-name="National Geographic Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Documentary",National Geographic Latin America
+http://45.173.231.22:8000/play/a05z/index.m3u8#e731274c5af406ef77169d6f2c2fd8ab866ab6b95a82ef3bd2b2f7b119646a16
+#EXTINF:-1 tvg-id="national.geographic.wild" tvg-name="National Geographic Wild" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Documentary",National Geographic Wild
+http://88.212.15.50/live/test_ngw/playlist.m3u8#b121893f6af08310a1f1c199fc1db960a2e33411b6b94927b1fb05a5cc0df040
