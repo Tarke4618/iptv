@@ -1,9 +1,23 @@
 {
   "max_pages_per_query": 25,
   "verify_streams": true,
+  "deduplicate_channels": true,
   "scrape_all_filters": false,
+  "tag_stream_info": true,
+  "epg_urls": [
+    "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+  ],
   "countries": ["in", "us", "uk", "ca", "au"],
   "languages": ["English", "Hindi", "Telugu", "Tamil", "Spanish"],
   "categories": ["News", "Sports", "Movie", "Entertainment", "Documentary", "Music"],
-  "custom_searches": ["cricket", "discovery", "national geographic", "cartoon"]
+  "telugu_hub_searches": [
+    "telugu", "etv", "gemini", "maa", "zee telugu", "tv9", "ntv",
+    "sakshi", "abn", "v6", "10tv", "hmtv", "t news", "mahaa",
+    "svbc", "bhakti", "kushi", "bal bharat"
+  ],
+  "custom_searches": [
+    "cricket", "discovery", "national geographic", "history", "cartoon"
+  ]
 }
