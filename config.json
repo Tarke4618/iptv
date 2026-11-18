@@ -1,5 +1,6 @@
 {
-  "max_pages_per_query": 25,
+  "max_pages_per_query": 15,
+  "max_verify_seconds": 300,
   "verify_streams": true,
   "deduplicate_channels": true,
   "scrape_all_filters": false,
@@ -29,36 +30,12 @@
       "default_language": ""
     },
     {
-      "name": "APSATTV Fire TV",
-      "url": "https://www.apsattv.com/firetv.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "",
-      "default_language": ""
-    },
-    {
       "name": "Samsung TV Plus India",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_in.m3u",
       "telugu_only": false,
       "always_keep": true,
       "default_country": "India",
       "default_language": ""
-    },
-    {
-      "name": "Plex TV All",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "",
-      "default_language": "English"
-    },
-    {
-      "name": "Pluto TV All",
-      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_all.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "",
-      "default_language": "English"
     },
     {
       "name": "YT2M3U Regional Live",
@@ -157,14 +134,6 @@
       "default_language": ""
     },
     {
-      "name": "JTV South Asia",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
-      "telugu_only": false,
-      "always_keep": true,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
       "name": "sportlive18 SonyLIV Auto-Update",
       "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/main/sony.m3u",
       "telugu_only": false,
@@ -181,14 +150,6 @@
       "default_language": ""
     },
     {
-      "name": "Public IPTV Hourly Merged",
-      "url": "https://raw.githubusercontent.com/azamstv00-cpu/Public_Iptv_Channels/main/playlist.m3u8",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
       "name": "Free-TV Verified Global HD",
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "telugu_only": false,
@@ -197,23 +158,7 @@
       "default_language": ""
     }
   ],
-  "youtube_live_channels": [
-    {"name": "TV9 Telugu Live", "url": "https://www.youtube.com/@TV9TeluguLive/live", "language": "Telugu", "category": "News"},
-    {"name": "NTV Telugu Live", "url": "https://www.youtube.com/@NTVTelugu/live", "language": "Telugu", "category": "News"},
-    {"name": "V6 News Telugu", "url": "https://www.youtube.com/@V6NewsTelugu/live", "language": "Telugu", "category": "News"},
-    {"name": "TV5 News Telugu", "url": "https://www.youtube.com/@TV5NEWSTELUGU/live", "language": "Telugu", "category": "News"},
-    {"name": "Sakshi TV Live", "url": "https://www.youtube.com/@SakshiTV/live", "language": "Telugu", "category": "News"},
-    {"name": "ABN Andhra Jyothi", "url": "https://www.youtube.com/@abntelugutv/live", "language": "Telugu", "category": "News"},
-    {"name": "10TV News Telugu", "url": "https://www.youtube.com/@10TVNewsTelugu/live", "language": "Telugu", "category": "News"},
-    {"name": "T News Telugu", "url": "https://www.youtube.com/@TNewsTelugu/live", "language": "Telugu", "category": "News"},
-    {"name": "HMTV News Live", "url": "https://www.youtube.com/@hmtvnewslive/live", "language": "Telugu", "category": "News"},
-    {"name": "Mahaa News", "url": "https://www.youtube.com/@mahaanews/live", "language": "Telugu", "category": "News"},
-    {"name": "Prime9 News", "url": "https://www.youtube.com/@Prime9News/live", "language": "Telugu", "category": "News"},
-    {"name": "BRK News Telugu", "url": "https://www.youtube.com/@BRKNews/live", "language": "Telugu", "category": "News"},
-    {"name": "Q News HD Telugu", "url": "https://www.youtube.com/@QNewsHD/live", "language": "Telugu", "category": "News"},
-    {"name": "SVBC TTD Live", "url": "https://www.youtube.com/@svbcttd/live", "language": "Telugu", "category": "Devotional"},
-    {"name": "Bhakti TV Live", "url": "https://www.youtube.com/@BhaktiTV/live", "language": "Telugu", "category": "Devotional"}
-  ],
+  "youtube_live_channels": [],
   "countries": ["in", "us", "uk", "ca", "au"],
   "languages": ["English", "Hindi", "Telugu", "Tamil", "Spanish"],
   "categories": ["News", "Sports", "Movie", "Entertainment", "Documentary", "Music"],
