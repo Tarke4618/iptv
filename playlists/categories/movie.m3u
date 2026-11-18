@@ -3,26 +3,32 @@
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8#759a3dd403bac6eb0f917d6fb1aeb1daf3ebc2e7259a6d82d86dd10ecd30614a
 #EXTINF:-1 tvg-id="30a.tv.classic.movies" tvg-name="30A TV Classic Movies" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",30A TV Classic Movies [720p]
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7ab81c013a1d839e74ae12ba8db5151b
-#EXTINF:-1 tvg-id="4ever.cinema" tvg-name="4ever Cinema" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="Movie",4ever Cinema [1080p]
-http://stream.mcquack.net/258/index.m3u8#a80db43c64652a7af5ddbfb3f351ac51af551bb50806da4b4c6a2b4139290c62
+#EXTINF:-1 tvg-id="abn.bible.movies" tvg-name="ABN Bible Movies" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",ABN Bible Movies
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8#c7571e93071d3da123de0b681425226a3ba6eaeb6cf2f04de1f20bf74b40a75c
 #EXTINF:-1 tvg-id="action.24" tvg-name="Action 24" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Movie",Action 24 [1080p]
 http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8#d51239b5f0bffa2bf15662561d082a85bbc69282b1345e4db66aaa70cca69f82
 #EXTINF:-1 tvg-id="afra.film" tvg-name="Afra Film" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",Afra Film
 https://afrafhls.wns.live/hls/stream.m3u8#7a14bd3281a71731590a521b8a8cbd8a77be908826cc91ed0fd7e66aeb48fdc6
 #EXTINF:-1 tvg-id="artflix.movie.classics" tvg-name="Artflix Movie Classics" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Artflix Movie Classics [720p]
 https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8#c627897c73ad5469b09e54740f64797477733d062567cd5f136721bb23bc11de
+#EXTINF:-1 tvg-id="aurora.media.films" tvg-name="Aurora Media Films" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="Movie",Aurora Media Films
+https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8#1c2124b29ccafb0b78efb33e9576d0202431eff7ea674b29ca86cbb746d6680b
+#EXTINF:-1 tvg-id="b4u.bhojpuri" tvg-name="B4U Bhojpuri" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bhojpuri" group-title="Movie",B4U Bhojpuri [1080p]
+https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8#9b2b715b8cbe9e4aab9fdfe52bfa5e79d9668c9ffb1292f7555633ae9029b1a4
 #EXTINF:-1 tvg-id="boreal" tvg-name="Boreal" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Boreal
 https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8#772f76c25668c5b73cd3b55599fd3a10a35eae54d493a81f4c5de77b44e0f40c
+#EXTINF:-1 tvg-id="cafe.film" tvg-name="Cafe Film" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",Cafe Film
+https://cafefhls.wns.live/hls/stream.m3u8#75e119fe0ad1a56ee148500c16b8ee7a11d1cbc406249ca762f3a1f6faf3101c
+#EXTINF:-1 tvg-id="charge" tvg-name="Charge!" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Charge! [1080p]
+https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8#97229f79ba2162fa342fd339d72ce813b2428171d1ee44b526ac2a6326fcdaea
+#EXTINF:-1 tvg-id="cindie.tv" tvg-name="CINDIE TV" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="English, Portuguese, Spanish" group-title="Movie",CINDIE TV [1080p]
+https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8#d42157c2d954f7013433dc00a655e55cd2367ac9aff506643d8127bac9cce6b5
+#EXTINF:-1 tvg-id="cine.sony" tvg-name="Cine Sony" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Movie",Cine Sony [720p]
+https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
 #EXTINF:-1 tvg-id="cinema" tvg-name="Cinema" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Movie",Cinema [720p]
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8#d193726e6627fdb4799393d2dcc3bd0def4d54de98c7f7bd69c9a91f79efdec8
 #EXTINF:-1 tvg-id="cinevault.80s" tvg-name="Cinevault 80s" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Cinevault 80s [540p]
 https://gsn-cinevault-80s-2-us.roku.wurl.tv/playlist.m3u8#f887707b9a0e5ebef4eb286b9256073e602785495a6ac5f24ff84bbcf3f130b5
-#EXTINF:-1 tvg-id="classic.cinema" tvg-name="Classic Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Classic Cinema
-https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8#9061b37a347e0e55bb8c6483aca5e86d4571bbfb1f12990f6759dcdfacc1bcce
-#EXTINF:-1 tvg-id="ebs.cinema" tvg-name="EBS Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Amharic" group-title="Movie",EBS Cinema [720p]
-https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8#98f7c577d8cbe0e93055d85c2e20eac3134bc0b2b94b0c4451f007cda95f7ebd
-#EXTINF:-1 tvg-id="fan" tvg-name="FAN" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",FAN [1080p]
-http://stream.mcquack.net/420/index.m3u8#2ee27e9674d5d84e770cc78ff03b2cb7093655d8cf224b4e1626653277bf126e
 #EXTINF:-1 tvg-id="filmbox.comedy.romania" tvg-name="FILMBOX+ Comedy Romania" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Polish, English, Czech, Hungarian" group-title="Movie",FILMBOX+ Comedy Romania
 https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8#90d94ca2434b544abefd6e23dd9cd41f6e9cd4589624130313b4e2c21dc53ea7
 #EXTINF:-1 tvg-id="filmbox.emotion.adria" tvg-name="FILMBOX+ Emotion Adria" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Hungarian, Polish, Romanian, English, Bulgarian, Czech" group-title="Movie",FILMBOX+ Emotion Adria [720p]
@@ -39,30 +45,28 @@ https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8#fd444e5f976f99422bb9269defad
 https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8#d795f6b08ed3a13387c6f64db671a50ff9dc741639575288e1cfe2f7982d4865
 #EXTINF:-1 tvg-id="filmbox.one.romania" tvg-name="FILMBOX+ One Romania" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Polish, Romanian, English, Russian, Bulgarian, Czech, Hungarian" group-title="Movie",FILMBOX+ One Romania
 https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8#b1ce5b07089689bc7180a85a1a4417850c129bf6914edaf37927726957781685
-#EXTINF:-1 tvg-id="filmbox.one.ukraine.baltics" tvg-name="FILMBOX+ One Ukraine & Baltics" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Bulgarian, Czech, Hungarian, Dutch, Polish, Romanian, English, Russian" group-title="Movie",FILMBOX+ One Ukraine & Baltics [576p]
-https://iptv.prosto.tv/ch064/index.m3u8#fd9f5192da43780855f4bfba6bc598b6112f75446f06593d532020fda041678e
-#EXTINF:-1 tvg-id="filmrise.westerns" tvg-name="FilmRise Westerns" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",FilmRise Westerns [720p]
-https://dz05z8iljgvbe.cloudfront.net/master.m3u8#de2f1f8f2bdbcfe7fb089c4758d44ce180ee43a1cd2a72e9d6fb5cd5d21838bd
-#EXTINF:-1 tvg-id="great.movies" tvg-name="Great! Movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Movies [1080p]
-https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
-#EXTINF:-1 tvg-id="great.romance" tvg-name="Great! Romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Romance [1080p]
-https://amg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv/playlist/amg01753-narrativeentert-greatchristmas-samsunguk/playlist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
-#EXTINF:-1 tvg-id="groovy.tv" tvg-name="Groovy TV" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Movie",Groovy TV [544p]
+#EXTINF:-1 tvg-id="gold.star" tvg-name="Gold Star" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",Gold Star
+https://moviethls.wns.live/hls/stream.m3u8#c992c65af21469bb7369371b9ee5f0e01b584177952a3e2a129db7c7ae05991b
+#EXTINF:-1 tvg-id="grand.cinema" tvg-name="Grand Cinema" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Persian" group-title="Movie",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8#1f807216f86660c98d11b7bc483d9054beb0d00d495c29b29de5583938345ed2
+#EXTINF:-1 tvg-id="grjngo.western.movies" tvg-name="Grjngo Western Movies" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="English, German" group-title="Movie",Grjngo Western Movies [720p]
+https://amogonetworx-grjngo-3-no.samsung.wurl.tv/playlist.m3u8#91baf8bd0623f15b7f784511135222a758137f2b5c4d2d9d30f917eda0fcdbc9
+#EXTINF:-1 tvg-id="groovy.tv" tvg-name="Groovy TV" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Movie",Groovy TV
 http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8#2b26717999dd712b95b3217c2c7e1d978877becd044ca3afb7373789ae37d354
-#EXTINF:-1 tvg-id="kinohit" tvg-name="KinoHit" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",KinoHit
-https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8#2701f35f2fad9a1cf8721b8afccb930ba16bc16948d6c7006ad771039f886e58
-#EXTINF:-1 tvg-id="kinomix" tvg-name="Kinomix" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Kinomix [1080p]
-http://stream.mcquack.net/133/index.m3u8#bdfc6b5a5a0b54bacfd63a0a0d19279e8769495130cd16cffe0381e93a86669c
 #EXTINF:-1 tvg-id="kinopremyera" tvg-name="Kinopremyera" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Kinopremyera
 https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8#9f2425ef3f4799c99912f7dbe7dd31572256f812ad77c3a671b594b9e700c431
 #EXTINF:-1 tvg-id="kinosemja" tvg-name="Kinosemja" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Kinosemja [1080p]
 http://stream.mcquack.net/170/index.m3u8#1fc0562bc51f8dc031f16d34f02744d190cbcef1e878ab888122e8a8f35ae44b
-#EXTINF:-1 tvg-id="kinosvidanie" tvg-name="Kinosvidanie" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Kinosvidanie
-https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8#a20de26728c714392c500bed41096a114c16e78a9c9e083bfcd2ca4b43f0acce
 #EXTINF:-1 tvg-id="kinoteatr" tvg-name="Kinoteatr" tvg-logo="" tvg-country="🇺🇿 Uzbekistan" tvg-language="Uzbek" group-title="Movie",Kinoteatr
 https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8#ef375c04807d299d0c79f2132fc69a52ce16b78e2dde3ffb0fedc3a645e5a21d
+#EXTINF:-1 tvg-id="kuriakos.cine" tvg-name="Kuriakos Cine" tvg-logo="" tvg-country="🇵🇹 Portugal" tvg-language="Portuguese" group-title="Movie",Kuriakos Cine [1080p]
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8#6e89f32da3365050bf0423e6f34986a89e3603eb22e0975a21ff9d7ef04c0ece
 #EXTINF:-1 tvg-id="maah.tv" tvg-name="Maah TV" tvg-logo="" tvg-country="🇲🇾 Malaysia" tvg-language="Persian" group-title="Movie",Maah TV
 https://hls.maahtv.live/hls/stream.m3u8#2f957430a211ea85b7ccaf5798127924391ad5654b2310c9bdb835124b0f5695
+#EXTINF:-1 tvg-id="maverick.black.cinema" tvg-name="Maverick Black Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Maverick Black Cinema [1080p]
+https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8#9c1f5712d3a6f552b9d2c34c8e84303643016699618e81e3a95d56d4e1f8d6a8
+#EXTINF:-1 tvg-id="mci.televisi.n" tvg-name="MCI Televisión" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish, English" group-title="Movie",MCI Televisión
+https://video.ejeserver.com/live/mcitelevision.m3u8#f66c4bdc0eaf2b29725aef39e346bd85dd9523305b03246e8fbc0fe13dedcff9
 #EXTINF:-1 tvg-id="mega.cine.tv" tvg-name="Mega Cine TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Mega Cine TV [1080p]
 https://cnn.hostlagarto.com/megacinetv/playlist.m3u8#8caf8885be83cbf7ff9a2077d0a8fdbcf4408f3956b72f498a18dd4afda36286
 #EXTINF:-1 tvg-id="meta.film.tv" tvg-name="Meta Film TV" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",Meta Film TV
@@ -72,13 +76,17 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8#22ed3bcf160c2f386757d0a8d4ca5ce
 #EXTINF:-1 tvg-id="moviebox" tvg-name="MovieBox" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Movie",MovieBox [720p]
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8#3c1a58f1b57065985c510ee217fe52ae2c76518313b889c3be4e4dbb7e9fe707
 #EXTINF:-1 tvg-id="moviesphere" tvg-name="MovieSphere" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",MovieSphere [1080p]
-https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8#d6a7a84f19480a7145eb4621ca4ef5650bacf0ce1e1839644c607e1d3c33742e
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8#625d6d7466fcfe1f3fa1d14062f148f3f9526406219c19ee3143c277257d82e7
+#EXTINF:-1 tvg-id="mytime.movie.network.brazil" tvg-name="MyTime Movie Network Brazil" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="Movie",MyTime Movie Network Brazil [720p]
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8#6f009b88ae70f618aeb8d94606ef25499559302135d60c4a547db72e6fd3383f
 #EXTINF:-1 tvg-id="mytime.movie.network.spain" tvg-name="MyTime movie network Spain" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Movie",MyTime movie network Spain [1080p]
 https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8#45406ab13d156746fbb8b1450b28b011257cc4cc68aef6e1c42abadc69eb0272
-#EXTINF:-1 tvg-id="nashe.lubimoe.kino.ukraine" tvg-name="Nashe Lubimoe Kino Ukraine" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian, Russian" group-title="Movie",Nashe Lubimoe Kino Ukraine [1080p]
-http://stream.mcquack.net/456/index.m3u8#8811839d5a5be297713d873d821843de71c766f8be33b0b6d6878acfc666b38e
+#EXTINF:-1 tvg-id="next.hd" tvg-name="Next HD" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="Movie",Next HD [1080p]
+https://edge.enhdtv.com/nexthd/index.m3u8#d4d99894d328f8bb44a5daf5daa926e215089ae3502936e6a36964a1c1204b94
 #EXTINF:-1 tvg-id="persiana.cinema" tvg-name="Persiana Cinema" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian" group-title="Movie",Persiana Cinema
 https://cinehls.persiana.live/hls/stream.m3u8#9b02a1c5e573eb8eeda6be5b7bd33fdf16fd6d00275edc0b973be7e978759aa6
+#EXTINF:-1 tvg-id="persiana.family" tvg-name="Persiana Family" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian" group-title="Movie",Persiana Family
+https://familyhls.persiana.live/hls/stream.m3u8#9ac16b56af9620f8a3b9d0de41d5c6b708bbaaee3609cabc9715d95a16b75d85
 #EXTINF:-1 tvg-id="persiana.iranian" tvg-name="Persiana Iranian" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian" group-title="Movie",Persiana Iranian
 https://irhls.persiana.live/hls/stream.m3u8#b2fc09dd4613a04b38d4ddfdb0801f85761f68511aa597a4a7e858b31c37e956
 #EXTINF:-1 tvg-id="persiana.korea" tvg-name="Persiana Korea" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian, Korean" group-title="Movie",Persiana Korea
@@ -89,23 +97,27 @@ https://euhls.persiana.live/hls/stream.m3u8#e27a774057cfc1460a5e8625466d3dd47713
 http://team-tv.co:81/raimovie/index.m3u8#9696c4957bfcc6c3a0aafd1002a762cdf7409e050382192d73e49703326b3add
 #EXTINF:-1 tvg-id="sl.1" tvg-name="SL 1" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",SL 1
 https://slonehls.wns.live/hls/stream.m3u8#923d26f786102f3b82c8bf9f169530a598dfe7eafcdd7f3abc596b7d0cfcfd08
+#EXTINF:-1 tvg-id="sony.one.favoris" tvg-name="Sony One Favoris" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Sony One Favoris [1080p]
+https://d21fkiqbljd83t.cloudfront.net/playlist.m3u8#d6e5e5c19152fc23cc6dbf9945f99ad2fbff49afc27c972ddab8cb93c706d815
 #EXTINF:-1 tvg-id="sony.one.hits.action" tvg-name="Sony One Hits Action" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Sony One Hits Action [1080p]
 https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8#c4fdf3947d5286532fbf15c8acb1b66f7245879d35b55a3ffd59256b4888c250
-#EXTINF:-1 tvg-id="tvs.drive.in.movie" tvg-name="TVS Drive In Movie" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",TVS Drive In Movie [480p]
-https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8#faffed514128c899ffdec3fa4a6338e54bd9a98ca28a21a54c88bb4864c1b3db
-#EXTINF:-1 tvg-id="usa.network" tvg-name="USA Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",USA Network
-https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081ccbe953515cd7986b2d3c1dc0d5c416
-#EXTINF:-1 tvg-id="viju.megahit.hd" tvg-name="viju+ Megahit HD" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",viju+ Megahit HD [1080p]
-http://stream.mcquack.net/200/index.m3u8#0c43bfe18b87efb66a61ceb0fd0564709f0610a7a319d5c0a659c248e1aa1039
+#EXTINF:-1 tvg-id="sony.one.hits.comedie" tvg-name="Sony One Hits Comedie" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Sony One Hits Comedie [1080p]
+https://d3nvxupr08boay.cloudfront.net/playlist.m3u8#97b5949405a8f161fb1619b037a7b71cb3f270c581ff1056c429bd7c3083c82b
+#EXTINF:-1 tvg-id="tvcarib.cinema" tvg-name="TVCARiB Cinema" tvg-logo="" tvg-country="🇸🇽 Sint Maarten" tvg-language="Dutch, English" group-title="Movie",TVCARiB Cinema [720p]
+https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8#f1aa0b57bfe1c452f019cba8ee9606430d9523632789058bd61c663b8b87cd39
 #EXTINF:-1 tvg-id="viju.premiere.hd" tvg-name="viju+ Premiere HD" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",viju+ Premiere HD [1080p]
 http://stream.mcquack.net/202/index.m3u8#d62422c908ef24f879efebad3ada86aeba09bd04565203696b0a0f570c6070e7
-#EXTINF:-1 tvg-id="xtrema.accion" tvg-name="Xtrema Accion" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Movie",Xtrema Accion
-https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8#0049e1c3dded1f07df48603c659c7936134dfc459cafba0fa97b675dbcfcc700
+#EXTINF:-1 tvg-id="whiplash.cinema" tvg-name="Whiplash Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Whiplash Cinema [720p]
+https://cdn.whiplash.cc/whiplash-cinema/index.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
 #EXTINF:-1 tvg-id="yes.movies.action" tvg-name="Yes Movies Action" tvg-logo="" tvg-country="🇮🇱 Israel" tvg-language="Hebrew" group-title="Movie",Yes Movies Action [1080p]
 http://stream.mcquack.net/380/index.m3u8#df3181ee99d7929c616dafb63a5ce03f31d683a73414b03302ca03b705da71b3
 #EXTINF:-1 tvg-id="zylo.cin.western" tvg-name="Zylo Ciné Western" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Zylo Ciné Western [1080p]
 https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8#ad1708b07e1cfde4f21ea07b41e17b4f28d60ddbdcc03d1501b0afadea025949
 #EXTINF:-1 tvg-id="zylo.emotion.l" tvg-name="Zylo Emotion' L" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Zylo Emotion' L [1080p]
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8#6ea4e0ac592c18aefd3de2692350b67122a77bd7af18c36c1c6e6c2fe52bda8d
+#EXTINF:-1 tvg-id="zylo.screamin" tvg-name="Zylo ScreamIN" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Zylo ScreamIN [1080p]
+https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8#930b860f78dde16383de43af25ebb4358ef899417d9289b4936fe2d4bdd9bf1b
+#EXTINF:-1 tvg-id="" tvg-name="Дом Кино" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Дом Кино [576p]
+https://streaming.thestream.cyou/live/44.m3u8#573ccc7c97ca1446c72a566077ca457139245774622019abd6b89e7097c99824
 #EXTINF:-1 tvg-id="1.international" tvg-name="Кино 1 International" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Кино 1 International
-http://kino-1.catcast.tv/content/38617/index.m3u8#86d960420a116474c6194a5707d7ecc5f25db5f817b4901a1ed5b6a45b2d862d
+https://kino-1.catcast.tv/content/38617/index.m3u8#3eca8bb683b58640e8f7495a53109843a6196622119954128e87d5a9ebf2b3b8
