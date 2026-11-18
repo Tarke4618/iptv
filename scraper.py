@@ -1,5 +1,5 @@
 import base64
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
 from datetime import datetime, timedelta, timezone
 import json
 import os
@@ -110,7 +110,7 @@ TELUGU_LANG_CODES = {"tel", "te", "telugu", "తెలుగు"}
 RAW_IP_PORT_RE = re.compile(r"^https?://\d{1,3}(?:\.\d{1,3}){3}(?::\d+)?/", re.I)
 
 
-def build_session(pool_size=96):
+def build_session(pool_size=128):
     sess = requests.Session()
     adapter = HTTPAdapter(pool_connections=pool_size, pool_maxsize=pool_size)
     sess.mount("http://", adapter)
@@ -284,7 +284,7 @@ def discover_filters():
                     opts[f][lbl.lower()] = (val, lbl)
                     noise.update([val.lower(), lbl.lower()])
     except Exception as e:
-        print(f"[WARN] Filter discovery: {e}")
+        print(f"[WARN] Filter discovery: {e}", flush=True)
 
     for group in ALIASES.values():
         for k, (code, label) in group.items():
@@ -653,7 +653,7 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, multi_audio_keyw
         resp = SESSION.get(src_url, headers=STREAM_HEADERS, timeout=(5, 12))
         resp.raise_for_status()
     except Exception as e:
-        print(f"[WARN] Failed external M3U '{src_name}': {e}")
+        print(f"[WARN] Failed external M3U '{src_name}': {e}", flush=True)
         return []
 
     results = []
@@ -774,7 +774,7 @@ def probe_audio_tracks(master_text, base_url, req_headers):
         if uri_m:
             aud_url = urljoin(base_url, uri_m.group(1))
             try:
-                ar = SESSION.get(aud_url, headers=req_headers, timeout=(2.5, 4), allow_redirects=True)
+                ar = SESSION.get(aud_url, headers=req_headers, timeout=(2.0, 3.0), allow_redirects=True)
                 if ar.status_code != 200 or "#EXTM3U" not in ar.text[:200]:
                     continue
             except Exception:
@@ -809,7 +809,7 @@ def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
         for hop in range(3):
             if not is_usable_hls_url(current_url, skip_raw_ip=skip_raw_ip):
                 return None
-            r = SESSION.get(current_url, headers=req_headers, timeout=(2.5, 4.5), allow_redirects=True)
+            r = SESSION.get(current_url, headers=req_headers, timeout=(2.0, 3.5), allow_redirects=True)
             if r.status_code != 200 or "#EXTM3U" not in r.text[:300]:
                 return None
 
@@ -860,7 +860,7 @@ def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
             return None
 
         seg_url = urljoin(playlist_base, seg_rel)
-        sr = SESSION.get(seg_url, headers=req_headers, timeout=(2.5, 4), allow_redirects=True, stream=True)
+        sr = SESSION.get(seg_url, headers=req_headers, timeout=(2.0, 3.0), allow_redirects=True, stream=True)
         chunk = next(sr.iter_content(chunk_size=256), b"")
         sr.close()
 
@@ -909,7 +909,7 @@ def resolve_item(item, noise, verify=True, skip_raw_ip=True):
         return info
 
     try:
-        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(3, 6), allow_redirects=True)
+        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(2.5, 5.0), allow_redirects=True)
         if r.status_code != 200:
             return None
         soup = BeautifulSoup(r.text, "html.parser")
@@ -1051,8 +1051,7 @@ def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, ta
     return len(seen_urls)
 
 
-def cap_candidate_mirrors(registry, max_per_channel=6):
-    """Limits pre-verification candidate mirrors per channel name so dead mirrors don't stall CI."""
+def cap_candidate_mirrors(registry, max_per_channel=5):
     buckets = {}
     for k, item in registry.items():
         norm = normalize_channel_key(item["name"]) or k
@@ -1072,6 +1071,7 @@ def main():
         cfg = json.load(f)
 
     max_pages = min(cfg.get("max_pages_per_query", 15), 15)
+    max_verify_sec = cfg.get("max_verify_seconds", 300)
     verify = cfg.get("verify_streams", True)
     dedup = cfg.get("deduplicate_channels", True)
     tag_info = cfg.get("tag_stream_info", True)
@@ -1118,7 +1118,7 @@ def main():
     }
 
     print(f"Step 2/4: Crawling {len(tasks)} eja.tv queries in parallel...", flush=True)
-    with ThreadPoolExecutor(max_workers=10) as pool:
+    with ThreadPoolExecutor(max_workers=12) as pool:
         fmap = {
             pool.submit(crawl_pages, noise, **kwargs): (bucket, lbl)
             for bucket, lbl, kwargs in tasks
@@ -1148,10 +1148,10 @@ def main():
 
     print(f"  eja.tv crawl finished ({len(registry)} unique items in {int(time.monotonic() - start_time)}s).", flush=True)
 
-    print("Step 3/4: Importing external M3U playlists & YouTube Live...", flush=True)
+    print("Step 3/4: Importing external M3U playlists...", flush=True)
     source_candidate_counts = {}
     ext_sources = cfg.get("external_m3u_sources", [])
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=10) as pool:
         fmap = {
             pool.submit(
                 parse_external_m3u,
@@ -1202,27 +1202,35 @@ def main():
                 membership["telugu_hub"].setdefault("YouTube Live", set()).add(k)
             membership["countries"].setdefault("India", set()).add(k)
 
-    trimmed_registry = cap_candidate_mirrors(registry, max_per_channel=6)
+    trimmed_registry = cap_candidate_mirrors(registry, max_per_channel=5)
     total_to_check = len(trimmed_registry)
-    print(f"Step 4/4: Deep-verifying {total_to_check} streams (trimmed from {len(registry)}) across 80 threads...", flush=True)
+    print(f"Step 4/4: Deep-verifying {total_to_check} streams across 100 threads (max {max_verify_sec}s)...", flush=True)
 
     resolved = {}
     checked = 0
-    with ThreadPoolExecutor(max_workers=80) as pool:
-        fmap = {
-            pool.submit(resolve_item, data, noise, verify, skip_raw_ip): k
-            for k, data in trimmed_registry.items()
-        }
-        for fut in as_completed(fmap):
+    pool = ThreadPoolExecutor(max_workers=100)
+    fmap = {
+        pool.submit(resolve_item, data, noise, verify, skip_raw_ip): k
+        for k, data in trimmed_registry.items()
+    }
+    try:
+        for fut in as_completed(fmap, timeout=max_verify_sec):
             checked += 1
             k = fmap[fut]
-            info = fut.result()
+            try:
+                info = fut.result(timeout=1)
+            except Exception:
+                info = None
             if info:
                 entry = dict(trimmed_registry[k])
                 entry.update(info)
                 resolved[k] = entry
             if checked % 150 == 0 or checked == total_to_check:
                 print(f"  Progress: {checked}/{total_to_check} checked ({len(resolved)} live)...", flush=True)
+    except TimeoutError:
+        print(f"  [INFO] Reached {max_verify_sec}s time budget at {checked}/{total_to_check} — saving {len(resolved)} verified live streams!", flush=True)
+    finally:
+        pool.shutdown(wait=False, cancel_futures=True)
 
     all_working = list(resolved.values())
 
