@@ -110,7 +110,7 @@ TELUGU_LANG_CODES = {"tel", "te", "telugu", "తెలుగు"}
 RAW_IP_PORT_RE = re.compile(r"^https?://\d{1,3}(?:\.\d{1,3}){3}(?::\d+)?/", re.I)
 
 
-def build_session(pool_size=64):
+def build_session(pool_size=96):
     sess = requests.Session()
     adapter = HTTPAdapter(pool_connections=pool_size, pool_maxsize=pool_size)
     sess.mount("http://", adapter)
@@ -270,7 +270,7 @@ def discover_filters():
     opts = {"country": {}, "language": {}, "category": {}}
     noise = set(NOISE)
     try:
-        resp = SESSION.get(BASE_URL, headers=PAGE_HEADERS, timeout=15)
+        resp = SESSION.get(BASE_URL, headers=PAGE_HEADERS, timeout=(5, 10))
         soup = BeautifulSoup(resp.text, "html.parser")
         for a in soup.find_all("a", href=True):
             qs = parse_qs(urlparse(urljoin(BASE_URL, a["href"])).query)
@@ -508,7 +508,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
     return list(items.values()), offsets, pages
 
 
-def crawl_pages(noise, max_pages=25, country="", language="", category="", search=""):
+def crawl_pages(noise, max_pages=15, country="", language="", category="", search=""):
     items = {}
     offset, page, use_page, count = 0, 1, False, 0
 
@@ -529,7 +529,7 @@ def crawl_pages(noise, max_pages=25, country="", language="", category="", searc
             params["offset"] = offset
 
         try:
-            resp = SESSION.get(BASE_URL, params=params, headers=PAGE_HEADERS, timeout=15)
+            resp = SESSION.get(BASE_URL, params=params, headers=PAGE_HEADERS, timeout=(4, 8))
             resp.raise_for_status()
         except Exception:
             break
@@ -575,62 +575,66 @@ def is_telugu_channel(name, lang, group, stream_url, telugu_keywords):
     return matches_keywords(blob, telugu_keywords)
 
 
-def resolve_youtube_live_channels(yt_list):
-    """
-    Resolves official 24/7 YouTube live channels into direct HLS .m3u8 URLs
-    using yt-dlp (if installed) or direct HTML manifest extraction.
-    """
-    resolved_yt = []
-    for item in yt_list:
-        name = item.get("name", "YouTube Live")
-        yt_url = item.get("url", "").strip()
-        lang = item.get("language", "Telugu")
-        cat = item.get("category", "News")
-        if not yt_url:
-            continue
+def resolve_single_youtube(item):
+    name = item.get("name", "YouTube Live")
+    yt_url = item.get("url", "").strip()
+    lang = item.get("language", "Telugu")
+    cat = item.get("category", "News")
+    if not yt_url:
+        return None
 
-        m3u8_url = ""
-        # Method 1: Try yt-dlp CLI if available in environment
+    m3u8_url = ""
+    try:
+        proc = subprocess.run(
+            ["yt-dlp", "-g", "-f", "best", "--no-warnings", yt_url],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        if proc.returncode == 0 and proc.stdout.strip():
+            first_line = proc.stdout.strip().splitlines()[0].strip()
+            if ".m3u8" in first_line:
+                m3u8_url = first_line
+    except Exception:
+        pass
+
+    if not m3u8_url:
         try:
-            proc = subprocess.run(
-                ["yt-dlp", "-g", "-f", "best", "--no-warnings", yt_url],
-                capture_output=True,
-                text=True,
-                timeout=12,
-            )
-            if proc.returncode == 0 and proc.stdout.strip():
-                first_line = proc.stdout.strip().splitlines()[0].strip()
-                if ".m3u8" in first_line:
-                    m3u8_url = first_line
+            r = SESSION.get(yt_url, headers=PAGE_HEADERS, timeout=(4, 8))
+            m = re.search(r'"hlsManifestUrl"\s*:\s*"([^"]+\.m3u8[^"]*)"', r.text)
+            if m:
+                m3u8_url = m.group(1).replace("\\/", "/").encode("utf-8").decode("unicode_escape")
         except Exception:
             pass
 
-        # Method 2: Fallback direct page scrape for hlsManifestUrl
-        if not m3u8_url:
-            try:
-                r = SESSION.get(yt_url, headers=PAGE_HEADERS, timeout=10)
-                m = re.search(r'"hlsManifestUrl"\s*:\s*"([^"]+\.m3u8[^"]*)"', r.text)
-                if m:
-                    m3u8_url = m.group(1).replace("\\/", "/").encode("utf-8").decode("unicode_escape")
-            except Exception:
-                pass
+    if not m3u8_url:
+        return None
 
-        if m3u8_url:
-            resolved_yt.append({
-                "key": m3u8_url,
-                "name": name,
-                "stream_url": m3u8_url,
-                "watch_url": "",
-                "logo": "",
-                "country": "India",
-                "language": lang,
-                "category": cat,
-                "extra_headers": {},
-                "source_name": "YouTube Live",
-                "is_external": True,
-                "is_telugu": lang.lower() == "telugu",
-                "is_multi_audio_candidate": False,
-            })
+    return {
+        "key": m3u8_url,
+        "name": name,
+        "stream_url": m3u8_url,
+        "watch_url": "",
+        "logo": "",
+        "country": "India",
+        "language": lang,
+        "category": cat,
+        "extra_headers": {},
+        "source_name": "YouTube Live",
+        "is_external": True,
+        "is_telugu": lang.lower() == "telugu",
+        "is_multi_audio_candidate": False,
+    }
+
+
+def resolve_youtube_live_channels(yt_list):
+    resolved_yt = []
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futs = [pool.submit(resolve_single_youtube, it) for it in yt_list]
+        for fut in as_completed(futs):
+            res = fut.result()
+            if res:
+                resolved_yt.append(res)
     return resolved_yt
 
 
@@ -646,7 +650,7 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, multi_audio_keyw
         return []
 
     try:
-        resp = SESSION.get(src_url, headers=STREAM_HEADERS, timeout=20)
+        resp = SESSION.get(src_url, headers=STREAM_HEADERS, timeout=(5, 12))
         resp.raise_for_status()
     except Exception as e:
         print(f"[WARN] Failed external M3U '{src_name}': {e}")
@@ -770,7 +774,7 @@ def probe_audio_tracks(master_text, base_url, req_headers):
         if uri_m:
             aud_url = urljoin(base_url, uri_m.group(1))
             try:
-                ar = SESSION.get(aud_url, headers=req_headers, timeout=(3, 5), allow_redirects=True)
+                ar = SESSION.get(aud_url, headers=req_headers, timeout=(2.5, 4), allow_redirects=True)
                 if ar.status_code != 200 or "#EXTM3U" not in ar.text[:200]:
                     continue
             except Exception:
@@ -805,7 +809,7 @@ def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
         for hop in range(3):
             if not is_usable_hls_url(current_url, skip_raw_ip=skip_raw_ip):
                 return None
-            r = SESSION.get(current_url, headers=req_headers, timeout=(4, 6), allow_redirects=True)
+            r = SESSION.get(current_url, headers=req_headers, timeout=(2.5, 4.5), allow_redirects=True)
             if r.status_code != 200 or "#EXTM3U" not in r.text[:300]:
                 return None
 
@@ -856,7 +860,7 @@ def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
             return None
 
         seg_url = urljoin(playlist_base, seg_rel)
-        sr = SESSION.get(seg_url, headers=req_headers, timeout=(4, 5), allow_redirects=True, stream=True)
+        sr = SESSION.get(seg_url, headers=req_headers, timeout=(2.5, 4), allow_redirects=True, stream=True)
         chunk = next(sr.iter_content(chunk_size=256), b"")
         sr.close()
 
@@ -905,7 +909,7 @@ def resolve_item(item, noise, verify=True, skip_raw_ip=True):
         return info
 
     try:
-        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(4, 8), allow_redirects=True)
+        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(3, 6), allow_redirects=True)
         if r.status_code != 200:
             return None
         soup = BeautifulSoup(r.text, "html.parser")
@@ -1047,11 +1051,27 @@ def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, ta
     return len(seen_urls)
 
 
+def cap_candidate_mirrors(registry, max_per_channel=6):
+    """Limits pre-verification candidate mirrors per channel name so dead mirrors don't stall CI."""
+    buckets = {}
+    for k, item in registry.items():
+        norm = normalize_channel_key(item["name"]) or k
+        buckets.setdefault(norm, []).append(k)
+
+    kept_keys = set()
+    for norm, keys in buckets.items():
+        keys.sort(key=lambda x: (0 if not registry[x]["is_external"] else 1, -name_quality_score(registry[x]["name"])))
+        kept_keys.update(keys[:max_per_channel])
+
+    return {k: registry[k] for k in kept_keys}
+
+
 def main():
+    start_time = time.monotonic()
     with open("config.json", "r", encoding="utf-8") as f:
         cfg = json.load(f)
 
-    max_pages = cfg.get("max_pages_per_query", 25)
+    max_pages = min(cfg.get("max_pages_per_query", 15), 15)
     verify = cfg.get("verify_streams", True)
     dedup = cfg.get("deduplicate_channels", True)
     tag_info = cfg.get("tag_stream_info", True)
@@ -1063,6 +1083,7 @@ def main():
     allowed_langs = {lg.strip().lower() for lg in cfg.get("languages", [])}
     allowed_langs.update(["telugu", "hindi", "tamil", "english"])
 
+    print("Step 1/4: Discovering eja.tv filters...", flush=True)
     discovered, noise = discover_filters()
 
     tasks = [("general", "Global Feed", {"max_pages": max_pages})]
@@ -1085,10 +1106,10 @@ def main():
             tasks.append(("categories", lbl, {"max_pages": max_pages, "category": val}))
 
     for term in telugu_keywords:
-        tasks.append(("telugu_hub", term.title(), {"max_pages": max_pages, "search": term}))
+        tasks.append(("telugu_hub", term.title(), {"max_pages": 6, "search": term}))
 
     for term in cfg.get("custom_searches", []):
-        tasks.append(("searches", term.title(), {"max_pages": max_pages, "search": term}))
+        tasks.append(("searches", term.title(), {"max_pages": 8, "search": term}))
 
     registry = {}
     membership = {
@@ -1096,67 +1117,82 @@ def main():
         "searches": {}, "telugu_hub": {}, "external": {},
     }
 
-    for bucket, lbl, kwargs in tasks:
-        print(f"Crawling eja.tv [{bucket}] -> {lbl}...")
-        found = crawl_pages(noise, **kwargs)
-        for item in found:
-            k = item["key"]
-            if k not in registry:
-                registry[k] = item
-            else:
-                for fld in ("name", "logo", "country", "language", "category"):
-                    if not registry[k][fld] and item[fld]:
-                        registry[k][fld] = item[fld]
-            if bucket in ("countries", "languages", "categories"):
-                singular = {"countries": "country", "languages": "language", "categories": "category"}[bucket]
-                if not registry[k][singular]:
-                    registry[k][singular] = lbl
-            elif bucket == "telugu_hub":
-                registry[k]["is_telugu"] = True
-                if not registry[k]["language"]:
-                    registry[k]["language"] = "Telugu"
-
-            if bucket in membership:
-                membership[bucket].setdefault(lbl, set()).add(k)
-
-    source_candidate_counts = {}
-    for src in cfg.get("external_m3u_sources", []):
-        src_name = src.get("name", "External")
-        print(f"Importing external M3U -> {src_name}...")
-        ext_items = parse_external_m3u(
-            src, allowed_langs, telugu_keywords, multi_audio_keywords,
-            only_match_ext, skip_raw_ip, noise,
-        )
-        source_candidate_counts[src_name] = len(ext_items)
-        print(f"  Loaded {len(ext_items)} usable HLS candidates from {src_name}.")
-        for item in ext_items:
-            k = item["key"]
-            if k not in registry:
-                registry[k] = item
-            else:
-                for fld in ("name", "logo", "country", "language", "category"):
-                    if not registry[k][fld] and item[fld]:
-                        registry[k][fld] = item[fld]
-                if item.get("extra_headers") and not registry[k].get("extra_headers"):
-                    registry[k]["extra_headers"] = item["extra_headers"]
-                if item.get("is_telugu"):
+    print(f"Step 2/4: Crawling {len(tasks)} eja.tv queries in parallel...", flush=True)
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        fmap = {
+            pool.submit(crawl_pages, noise, **kwargs): (bucket, lbl)
+            for bucket, lbl, kwargs in tasks
+        }
+        for fut in as_completed(fmap):
+            bucket, lbl = fmap[fut]
+            found = fut.result()
+            for item in found:
+                k = item["key"]
+                if k not in registry:
+                    registry[k] = item
+                else:
+                    for fld in ("name", "logo", "country", "language", "category"):
+                        if not registry[k][fld] and item[fld]:
+                            registry[k][fld] = item[fld]
+                if bucket in ("countries", "languages", "categories"):
+                    singular = {"countries": "country", "languages": "language", "categories": "category"}[bucket]
+                    if not registry[k][singular]:
+                        registry[k][singular] = lbl
+                elif bucket == "telugu_hub":
                     registry[k]["is_telugu"] = True
-                if item.get("is_multi_audio_candidate"):
-                    registry[k]["is_multi_audio_candidate"] = True
+                    if not registry[k]["language"]:
+                        registry[k]["language"] = "Telugu"
 
-            membership["external"].setdefault(src_name, set()).add(k)
-            if item.get("is_telugu"):
-                membership["languages"].setdefault("Telugu", set()).add(k)
-                membership["telugu_hub"].setdefault(src_name, set()).add(k)
-            if item.get("country") == "India":
-                membership["countries"].setdefault("India", set()).add(k)
+                if bucket in membership:
+                    membership[bucket].setdefault(lbl, set()).add(k)
+
+    print(f"  eja.tv crawl finished ({len(registry)} unique items in {int(time.monotonic() - start_time)}s).", flush=True)
+
+    print("Step 3/4: Importing external M3U playlists & YouTube Live...", flush=True)
+    source_candidate_counts = {}
+    ext_sources = cfg.get("external_m3u_sources", [])
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        fmap = {
+            pool.submit(
+                parse_external_m3u,
+                src, allowed_langs, telugu_keywords, multi_audio_keywords,
+                only_match_ext, skip_raw_ip, noise,
+            ): src.get("name", "External")
+            for src in ext_sources
+        }
+        for fut in as_completed(fmap):
+            src_name = fmap[fut]
+            ext_items = fut.result()
+            source_candidate_counts[src_name] = len(ext_items)
+            print(f"  [{src_name}] -> {len(ext_items)} candidates", flush=True)
+            for item in ext_items:
+                k = item["key"]
+                if k not in registry:
+                    registry[k] = item
+                else:
+                    for fld in ("name", "logo", "country", "language", "category"):
+                        if not registry[k][fld] and item[fld]:
+                            registry[k][fld] = item[fld]
+                    if item.get("extra_headers") and not registry[k].get("extra_headers"):
+                        registry[k]["extra_headers"] = item["extra_headers"]
+                    if item.get("is_telugu"):
+                        registry[k]["is_telugu"] = True
+                    if item.get("is_multi_audio_candidate"):
+                        registry[k]["is_multi_audio_candidate"] = True
+
+                membership["external"].setdefault(src_name, set()).add(k)
+                if item.get("is_telugu"):
+                    membership["languages"].setdefault("Telugu", set()).add(k)
+                    membership["telugu_hub"].setdefault(src_name, set()).add(k)
+                if item.get("country") == "India":
+                    membership["countries"].setdefault("India", set()).add(k)
 
     yt_channels = cfg.get("youtube_live_channels", [])
     if yt_channels:
-        print(f"Resolving {len(yt_channels)} official YouTube Live channels...")
+        print(f"  Resolving {len(yt_channels)} official YouTube Live channels...", flush=True)
         yt_items = resolve_youtube_live_channels(yt_channels)
         source_candidate_counts["YouTube Live"] = len(yt_items)
-        print(f"  Extracted {len(yt_items)} live YouTube HLS manifests.")
+        print(f"  [YouTube Live] -> {len(yt_items)} live streams", flush=True)
         for item in yt_items:
             k = item["key"]
             registry[k] = item
@@ -1166,29 +1202,36 @@ def main():
                 membership["telugu_hub"].setdefault("YouTube Live", set()).add(k)
             membership["countries"].setdefault("India", set()).add(k)
 
-    print(f"Deep-inspecting & verifying {len(registry)} unique streams across 48 threads...")
+    trimmed_registry = cap_candidate_mirrors(registry, max_per_channel=6)
+    total_to_check = len(trimmed_registry)
+    print(f"Step 4/4: Deep-verifying {total_to_check} streams (trimmed from {len(registry)}) across 80 threads...", flush=True)
+
     resolved = {}
-    with ThreadPoolExecutor(max_workers=48) as pool:
+    checked = 0
+    with ThreadPoolExecutor(max_workers=80) as pool:
         fmap = {
             pool.submit(resolve_item, data, noise, verify, skip_raw_ip): k
-            for k, data in registry.items()
+            for k, data in trimmed_registry.items()
         }
         for fut in as_completed(fmap):
+            checked += 1
             k = fmap[fut]
             info = fut.result()
             if info:
-                entry = dict(registry[k])
+                entry = dict(trimmed_registry[k])
                 entry.update(info)
                 resolved[k] = entry
+            if checked % 150 == 0 or checked == total_to_check:
+                print(f"  Progress: {checked}/{total_to_check} checked ({len(resolved)} live)...", flush=True)
 
     all_working = list(resolved.values())
 
-    print("\n--- Per-Source Live Verification Report ---")
+    print("\n--- Per-Source Live Verification Report ---", flush=True)
     for src_name, keys in membership["external"].items():
         alive = sum(1 for k in keys if k in resolved)
         total_cand = source_candidate_counts.get(src_name, len(keys))
-        print(f"  {src_name}: {alive} working / {total_cand} tested")
-    print("-------------------------------------------\n")
+        print(f"  {src_name}: {alive} working / {total_cand} imported", flush=True)
+    print("-------------------------------------------\n", flush=True)
 
     total_all = write_m3u(
         "playlists/all.m3u", all_working,
@@ -1313,10 +1356,9 @@ def main():
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(md))
-    print(f"Done! TeluguHub={total_telugu_hub}, TeluguBackups={total_telugu_backups}, TeluguMulti={total_telugu_multi}, All={total_all}")
+    elapsed = int(time.monotonic() - start_time)
+    print(f"Done in {elapsed}s! TeluguHub={total_telugu_hub}, TeluguBackups={total_telugu_backups}, TeluguMulti={total_telugu_multi}, All={total_all}", flush=True)
 
 
 if __name__ == "__main__":
     main()
-
-# === END OF FILE ===
