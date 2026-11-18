@@ -1,22 +1,14 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="3catinfo" tvg-name="3CatInfo" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="CA, QAA, QAD" group-title="News",3CatInfo [1080p | Audio: CA/QAA/QAD]
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8#5a75dc06710d7ae155bd1011f486ad7426a5aec2143bb9d8348db2bb491f9981
+#EXTINF:-1 tvg-id="ayush.tv" tvg-name="Ayush TV" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/AYTV_transparent.png" tvg-country="IN" tvg-language="UNDEFINED A1, UNDEFINED A2" group-title="Lifestyle",Ayush TV [720p | Audio: UNDEFINED A1/UNDEFINED A2]
+https://mumt07.tangotv.in/zHjX9OFlAYUSHTV/index.m3u8
 #EXTINF:-1 tvg-id="canal.24.horas" tvg-name="Canal 24 Horas" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="SPA, QAA" group-title="News",Canal 24 Horas [720p | Audio: SPA/QAA]
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8?idasset=1694255#09fd798b80b7ed4f74d65cfd3ee125a9ab54ce64f6eb99bbc43782cdc45c10c7
-#EXTINF:-1 tvg-id="cartoon.network.latin.america.brazil" tvg-name="Cartoon Network Latin America Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="UND A1, UND A2" group-title="🇺🇸 United States",Cartoon Network Latin America Brazil [1080p | Audio: UND A1/UND A2]
-http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8#298217dc35924eab17982019f1cbdce17f6fe59d92ca72e54a59be55e2cbade8
-#EXTINF:-1 tvg-id="cinemax.latin.america" tvg-name="Cinemax Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="ENG, SPA" group-title="Movie",Cinemax Latin America [720p | Audio: ENG/SPA]
-https://streaming.onnethn.com/CINEMAX/playlist.m3u8#7ca0784aef472172a3a2669d4c5fd7edf65e0d680d4be8c97c199fa2908addff
-#EXTINF:-1 tvg-id="discovery.world.brazil" tvg-name="Discovery World Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="🇺🇸 United States",Discovery World Brazil [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8#f25fb7ce96dc7b80f18c68393d7792a66a4e462e32a217f482a76bfafd53d4aa
 #EXTINF:-1 tvg-id="ebs.plus" tvg-name="EBS Plus" tvg-logo="" tvg-country="🇧🇪 Belgium" tvg-language="QAA, EN, FR, DE, IT, ES, EL, PT, NL, DA, FI, SV, CS, ET, LV, LT, HU, MT, PL, SK, SL, BG, RO, GA, HR, UK, SR, AR, RU, CA" group-title="🇧🇪 Belgium",EBS Plus [1080p | Audio: QAA/EN/FR/DE]
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8#10dcebaef67b08bc827f0159e2b4af3f33ee3b427d01a34a50aaf90ddb330b38
 #EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇺🇿 Uzbekistan" tvg-language="UZB, RUS" group-title="Music",FTV [1080p | Audio: UZB/RUS]
 https://stream8.cinerama.uz/1018/playlist.m3u8#a1cad0c403cee01c2139d31eec9f61dbfca6df5300f8c74683648790a62090ed
-#EXTINF:-1 tvg-id="hbo.2.latin.america.hd" tvg-name="HBO 2 Latin America HD" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="Movie",HBO 2 Latin America HD [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/HBO2HD/index.m3u8#a7fa3c82ec6b8128ba8b88feee1ee42cd62748e3818fd3d1a8eb44c225bdcd8e
-#EXTINF:-1 tvg-id="la.une" tvg-name="La Une" tvg-logo="" tvg-country="🇧🇪 Belgium" tvg-language="FR, QAA, QAD" group-title="Entertainment",La Une [720p | Audio: FR/QAA/QAD]
-https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8#e6930d8b143482aba69a2e23d309e29ba0ff821ff253b833b6b47de89d276cc9
+#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG, HIN" group-title="Documentary",History TV18 HD [1080p | Audio: ENG/HIN]
+https://n18syndication.akamaized.net/bpk-tv/History_HD_NW18_MOB/output01/History_HD_NW18_MOB-video=2293600.m3u8
 #EXTINF:-1 tvg-id="mta3.al.arabia" tvg-name="MTA3 Al-Arabia" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="MUL, URD, ENG, FRA, GER, ARA, BEN" group-title="🇬🇧 United Kingdom",MTA3 Al-Arabia [1080p | Audio: MUL/URD/ENG/FRA | HEVC-MPV]
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#0535994b4ff1d005bc5b60c9aa739593b9c46f3bd38e1d0568273a948e105f81
 #EXTINF:-1 tvg-id="mta4.africa" tvg-name="MTA4 Africa" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="MUL, URD, ENG, FRA, GER, ARA, BEN" group-title="🇬🇧 United Kingdom",MTA4 Africa [1080p | Audio: MUL/URD/ENG/FRA | HEVC-MPV]
@@ -25,7 +17,7 @@ https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_worl
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#e826a463da3da4bc65a6dbb0da4d846cdfa7ed34ff26cad7b773659fddcf8da5
 #EXTINF:-1 tvg-id="mta8.america" tvg-name="MTA8 America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="MUL, URD, ENG, FRA, GER, ARA, BEN" group-title="🇬🇧 United Kingdom",MTA8 America [1080p | Audio: MUL/URD/ENG/FRA | HEVC-MPV]
 https://dq1c55erlhlb2.cloudfront.net/out/v1/prod-mtai-live-shared/prod_mta1_world_main/prod_mta1_world_main-origin-v1/index-hls.m3u8#44ac05050c5a084444d44f1a3663531ae43e22855d1485e50062c06fda3bf766
-#EXTINF:-1 tvg-id="nick.jr" tvg-name="Nick Jr." tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="UNDEFINED A1, UNDEFINED A2, UNDEFINED A3" group-title="🇮🇹 Italy",Nick Jr. [720p | Audio: UNDEFINED A1/UNDEFINED A2/UNDEFINED A3]
-http://102.129.186.182:81/nick/index.m3u8#bdde1b424d604193ba26b083e8e79df8da18f3d8c4707aeaf1093ac466fa8d16
 #EXTINF:-1 tvg-id="rally.tv" tvg-name="Rally TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="EN, JA, DE, ES, ZXX" group-title="Sports",Rally TV [1080p | Audio: EN/JA/DE/ES]
 https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
+#EXTINF:-1 tvg-id="sharnam.tv" tvg-name="Sharnam TV" tvg-logo="https://papaji.freetvindia.com/media/channels/SarnamTV.png" tvg-country="IN" tvg-language="UNDEFINED A1, UNDEFINED A2" group-title="Undefined",Sharnam TV [720p | Audio: UNDEFINED A1/UNDEFINED A2]
+https://mumt06.tangotv.in/qYyB8fXVSHARNAMTV/index.m3u8

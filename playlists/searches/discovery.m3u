@@ -1,33 +1,7 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 #EXTINF:-1 tvg-id="asharq.discovery" tvg-name="Asharq Discovery" tvg-logo="" tvg-country="🇸🇦 Saudi Arabia" tvg-language="Arabic" group-title="Documentary",Asharq Discovery [1080p]
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8#b634c0121dc47e899f81d32a8ba4ce7bbb8c9bed7250e5ad0af919cab026cf3e
-#EXTINF:-1 tvg-id="discovery.channel" tvg-name="Discovery Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="🇮🇹 Italy",Discovery Channel [1080p]
+#EXTINF:-1 tvg-id="discovery.channel" tvg-name="Discovery Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="Entertainment",Discovery Channel [1080p]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8#41f1732829e187969d81b43faabeb4122cbfcc91ada0b183ddf028c85f473397
-#EXTINF:-1 tvg-id="discovery.channel.latin.america" tvg-name="Discovery Channel Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish, English" group-title="🇺🇸 United States",Discovery Channel Latin America
-http://45.171.64.30:6060/play/a032/index.m3u8#8cb943d4c782593002b5a72c6842ccd5ca991e108f886a7a08c7328f50cf6a86
-#EXTINF:-1 tvg-id="discovery.family" tvg-name="Discovery Family" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Discovery Family
-https://tvsen5.aynaott.com/discoveryfamily/index.m3u8#3c84d1843f89992172c2151b6c903a14e06d817c5e7077d9ab4d9fa5de70b77d
-#EXTINF:-1 tvg-id="discovery.kids.latin.america" tvg-name="Discovery Kids Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Kids Latin America
-http://181.224.200.5:2277/play/a00o/index.m3u8#82614b0ae474c967300b55713d54bf5c290109ee865e13f3b9c20667c8e413a0
-#EXTINF:-1 tvg-id="discovery.kids.latin.america.brazil" tvg-name="Discovery Kids Latin America Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Kids Latin America Brazil [1080p]
-http://15.204.246.24:8080/DiscoveryKidsHD/index.m3u8#06b1f84f818e952e8616766de255fb96e1f67e00185c7fe601cfa3e72d8dfc0a
-#EXTINF:-1 tvg-id="discovery.kids.latin.america.chile" tvg-name="Discovery Kids Latin America Chile" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Kids Latin America Chile
-http://38.224.231.176:8000/play/a01j/index.m3u8#01a817ed7a515598f1a312872ae771bd6e72af9708b6b25b6e551099af294a96
-#EXTINF:-1 tvg-id="discovery.kids.latin.america.colombia" tvg-name="Discovery Kids Latin America Colombia" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Kids Latin America Colombia
-http://38.134.250.110:8000/play/a003/index.m3u8#f5b324a5b003183b0770cfae78ce864f7ffb132c02cc599654f267e8de5fb431
-#EXTINF:-1 tvg-id="discovery.kids.latin.america.mexico" tvg-name="Discovery Kids Latin America Mexico" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Kids Latin America Mexico
-http://38.65.175.84:8000/play/a0an/index.m3u8#2cbb4b13c9bab495466d81bd96b6d28ac2d1e5872597bf38d21bd13a1fae5dc4
-#EXTINF:-1 tvg-id="discovery.science.latin.america" tvg-name="Discovery Science Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Discovery Science Latin America
-http://45.171.64.30:6060/play/a007/index.m3u8#78f3fbbe9b71088216f72abd2a897ab970ff71516f413a6360eeca5f54ee6dcf
-#EXTINF:-1 tvg-id="discovery.theater.latin.america" tvg-name="Discovery Theater Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="🇺🇸 United States",Discovery Theater Latin America
-http://181.224.200.5:2277/play/a0bj/index.m3u8#42ee07b38c8131c40c942ed2bf63cfdee280915eda1f27f809a53e25a4c9d860
 #EXTINF:-1 tvg-id="discovery.turbo" tvg-name="Discovery Turbo" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="🇮🇹 Italy",Discovery Turbo [1080p]
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8#e6077b7e2518e710b8593fd6eb64785bb8555c1a5872baba28b84550ecd6c1b6
-#EXTINF:-1 tvg-id="discovery.turbo.latin.america" tvg-name="Discovery Turbo Latin America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, Portuguese" group-title="🇺🇸 United States",Discovery Turbo Latin America
-http://38.134.250.110:8000/play/a01y/index.m3u8#ca517610074d1e27d8232724aa8bb7e658304b3e05532df718eba9df0e2a05da
-#EXTINF:-1 tvg-id="discovery.world.brazil" tvg-name="Discovery World Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="SPA, ENG" group-title="🇺🇸 United States",Discovery World Brazil [1080p | Audio: SPA/ENG]
-http://15.204.246.24:8080/DiscoveryWorldHD/index.m3u8#f25fb7ce96dc7b80f18c68393d7792a66a4e462e32a217f482a76bfafd53d4aa
-#EXTINF:-1 tvg-id="investigation.discovery" tvg-name="Investigation Discovery" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Documentary",Investigation Discovery [1080p]
-http://stream.mcquack.net/205/index.m3u8#63a12cab934d267ab255971e6ae84d550b10b4a5eb676909b13e090b5e16da83
-#EXTINF:-1 tvg-id="investigation.discovery.latin.america.south" tvg-name="Investigation Discovery Latin America South" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Documentary",Investigation Discovery Latin America South
-http://38.65.175.84:8000/play/a0ch/index.m3u8#701105fba407e2265ca790a1373416c2c3bdf8848d92e04bc47d3dfaa6d9aaf0

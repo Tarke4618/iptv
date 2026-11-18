@@ -3,12 +3,6 @@
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8#15881c894d3d307e9ef16f9ad837a9c7b97d84216796a2ba9f64be77bcad7928
 #EXTINF:-1 tvg-id="cartoon.network" tvg-name="Cartoon Network" tvg-logo="" tvg-country="🇵🇰 Pakistan" tvg-language="English, Urdu" group-title="🇵🇰 Pakistan",Cartoon Network [720p]
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8#e421df3569b412ad7b5b62bb8c87487c05510c51246a74f3ea82450d61ca52ac
-#EXTINF:-1 tvg-id="cartoon.network.cee.ukraine" tvg-name="Cartoon Network CEE Ukraine" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Romanian, Ukrainian, Bulgarian, Czech, English, Hungarian, Polish, Russian, French, Danish, German" group-title="🇬🇧 United Kingdom",Cartoon Network CEE Ukraine [576p]
-http://45.132.87.69:8080/cartoon_network/index.m3u8#52cc3648301139e6cd0f5d76ba17f80e36d86e32fce22bada239e69db0b67898
-#EXTINF:-1 tvg-id="cartoon.network.latin.america.brazil" tvg-name="Cartoon Network Latin America Brazil" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="UND A1, UND A2" group-title="🇺🇸 United States",Cartoon Network Latin America Brazil [1080p | Audio: UND A1/UND A2]
-http://15.204.246.24:8080/CartoonNetworkHD/index.m3u8#298217dc35924eab17982019f1cbdce17f6fe59d92ca72e54a59be55e2cbade8
-#EXTINF:-1 tvg-id="cartoon.network.latin.america.south.atlantic" tvg-name="Cartoon Network Latin America South Atlantic" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Portuguese, Spanish" group-title="🇺🇸 United States",Cartoon Network Latin America South Atlantic
-http://158.172.217.18:8000/play/a03a/index.m3u8#9f49d7457f9866f304136f25cc049c08bf514eba9c69550788b92026b14c98d8
 #EXTINF:-1 tvg-id="cartoonito.720p" tvg-name="Cartoonito 720p" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Cartoonito 720p [720p]
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8#28364aaa001a26c9da30b5228164331b75a7a19ac9faa35a9249a3081be70ddd
 #EXTINF:-1 tvg-id="cartoonito.hd" tvg-name="Cartoonito HD" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ENG" group-title="🇮🇹 Italy",Cartoonito HD [720p]
@@ -19,5 +13,3 @@ https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8#12817064bb9bd5
 https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8#6945c28f8a5b5a7a564f1be73b6a327537471cf871bdd058d0c2937eba83ffcc
 #EXTINF:-1 tvg-id="xtrema.cartoons" tvg-name="Xtrema Cartoons" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8#a77637b3ea8c26653f494c24728ceadbb95a8deb0e75abc56b0ad71361052f33
-#EXTINF:-1 tvg-id="zb.cartoon" tvg-name="ZB Cartoon" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",ZB Cartoon [1080p]
-https://server.zillarbarta.com/zbcatun/video.m3u8#e18fdbe8b27d8294fedc3233fa92d01ab6bc03940a0730fa90eb34eade998829
