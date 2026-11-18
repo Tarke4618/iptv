@@ -1,61 +1,98 @@
-{
-  "max_pages_per_query": 25,
-  "verify_streams": true,
-  "deduplicate_channels": true,
-  "scrape_all_filters": false,
-  "tag_stream_info": true,
-  "only_matching_external_languages": true,
-  "epg_urls": [
-    "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-  ],
-  "external_m3u_sources": [
+"external_m3u_sources": [
+    {
+      "name": "APSATTV LG Channels India",
+      "url": "https://www.apsattv.com/inlg.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "APSATTV DistroTV",
+      "url": "https://www.apsattv.com/distro.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "APSATTV Fire TV",
+      "url": "https://www.apsattv.com/firetv.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "default_country": "",
+      "default_language": ""
+    },
+    {
+      "name": "Samsung TV Plus India",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_in.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "Plex TV All",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "default_country": "",
+      "default_language": "English"
+    },
+    {
+      "name": "Pluto TV All",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_all.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "default_country": "",
+      "default_language": "English"
+    },
+    {
+      "name": "YT2M3U Regional Live",
+      "url": "https://raw.githubusercontent.com/vijay6672/YT2M3U/main/youtube.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "dearbulut Verified Telugu",
+      "url": "https://dearbulut.github.io/iptv/playlists/language/tel.m3u",
+      "telugu_only": true,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": "Telugu"
+    },
     {
       "name": "iptv-org Telugu",
       "url": "https://iptv-org.github.io/iptv/languages/tel.m3u",
       "telugu_only": true,
+      "always_keep": true,
       "default_country": "India",
       "default_language": "Telugu"
+    },
+    {
+      "name": "RunnTV India",
+      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/runntv.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
     },
     {
       "name": "YuppTV FAST",
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/yupptvfast.m3u",
       "telugu_only": false,
+      "always_keep": true,
       "default_country": "India",
       "default_language": ""
     },
     {
-      "name": "DistroTV",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/distrotv.m3u",
+      "name": "PiShow South India",
+      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/pishow.m3u",
       "telugu_only": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "JTV South Asia",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
-      "telugu_only": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "SLIV South Asia",
-      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/sliv.m3u",
-      "telugu_only": false,
+      "always_keep": true,
       "default_country": "India",
       "default_language": ""
     }
-  ],
-  "countries": ["in", "us", "uk", "ca", "au"],
-  "languages": ["English", "Hindi", "Telugu", "Tamil", "Spanish"],
-  "categories": ["News", "Sports", "Movie", "Entertainment", "Documentary", "Music"],
-  "telugu_hub_searches": [
-    "telugu", "etv", "gemini", "maa", "zee telugu", "tv9", "ntv",
-    "sakshi", "abn", "v6", "10tv", "hmtv", "t news", "mahaa",
-    "svbc", "bhakti", "kushi", "bal bharat", "dd yadagiri", "dd saptagiri"
-  ],
-  "custom_searches": [
-    "cricket", "discovery", "national geographic", "history", "cartoon"
   ]
-}
