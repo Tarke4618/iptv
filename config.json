@@ -1,6 +1,6 @@
 {
-  "max_pages_per_query": 15,
-  "max_verify_seconds": 300,
+  "max_pages_per_query": 12,
+  "max_verify_seconds": 240,
   "verify_streams": true,
   "deduplicate_channels": true,
   "scrape_all_filters": false,
@@ -8,11 +8,43 @@
   "skip_raw_ip_streams": true,
   "only_matching_external_languages": true,
   "epg_urls": [
+    "https://dearbulut.github.io/iptv/epg/in.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
   ],
   "external_m3u_sources": [
+    {
+      "name": "dearbulut Verified Telugu",
+      "url": "https://dearbulut.github.io/iptv/playlists/language/tel.m3u",
+      "telugu_only": true,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": "Telugu"
+    },
+    {
+      "name": "iptv-org Telugu",
+      "url": "https://iptv-org.github.io/iptv/languages/tel.m3u",
+      "telugu_only": true,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": "Telugu"
+    },
+    {
+      "name": "dearbulut Verified India",
+      "url": "https://dearbulut.github.io/iptv/playlists/country/in.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "iptv-org India",
+      "url": "https://iptv-org.github.io/iptv/countries/in.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "default_country": "India",
+      "default_language": ""
+    },
     {
       "name": "APSATTV LG Channels India",
       "url": "https://www.apsattv.com/inlg.m3u",
@@ -38,54 +70,6 @@
       "default_language": ""
     },
     {
-      "name": "YT2M3U Regional Live",
-      "url": "https://raw.githubusercontent.com/vijay6672/YT2M3U/main/youtube.m3u",
-      "telugu_only": false,
-      "always_keep": true,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "ashik4u 15-Min Verified Bot",
-      "url": "https://raw.githubusercontent.com/ashik4u/iptv-m3u-bot/refs/heads/main/output/all.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "dearbulut Verified Telugu",
-      "url": "https://dearbulut.github.io/iptv/playlists/language/tel.m3u",
-      "telugu_only": true,
-      "always_keep": true,
-      "default_country": "India",
-      "default_language": "Telugu"
-    },
-    {
-      "name": "dearbulut Verified India",
-      "url": "https://dearbulut.github.io/iptv/playlists/country/in.m3u",
-      "telugu_only": false,
-      "always_keep": true,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "iptv-org Telugu",
-      "url": "https://iptv-org.github.io/iptv/languages/tel.m3u",
-      "telugu_only": true,
-      "always_keep": true,
-      "default_country": "India",
-      "default_language": "Telugu"
-    },
-    {
-      "name": "iptv-org India",
-      "url": "https://iptv-org.github.io/iptv/countries/in.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
       "name": "RunnTV India",
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/runntv.m3u",
       "telugu_only": false,
@@ -104,6 +88,14 @@
     {
       "name": "Ashoka Digital India",
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ashokadigital.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "FastVJP India",
+      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/fastvjp.m3u",
       "telugu_only": false,
       "always_keep": true,
       "default_country": "India",
@@ -134,18 +126,26 @@
       "default_language": ""
     },
     {
-      "name": "sportlive18 SonyLIV Auto-Update",
-      "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/main/sony.m3u",
+      "name": "JTV South Asia",
+      "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
       "telugu_only": false,
       "always_keep": true,
       "default_country": "India",
       "default_language": ""
     },
     {
-      "name": "sportlive18 Combined Auto-Update",
-      "url": "https://raw.githubusercontent.com/sportlive18/sportlink-update/main/Combined.m3u",
+      "name": "ashik4u 15-Min Verified Bot",
+      "url": "https://raw.githubusercontent.com/ashik4u/iptv-m3u-bot/refs/heads/main/output/all.m3u",
       "telugu_only": false,
       "always_keep": false,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "sportlive18 SonyLIV Auto-Update",
+      "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/main/sony.m3u",
+      "telugu_only": false,
+      "always_keep": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -158,25 +158,18 @@
       "default_language": ""
     }
   ],
-  "youtube_live_channels": [],
   "countries": ["in", "us", "uk", "ca", "au"],
   "languages": ["English", "Hindi", "Telugu", "Tamil", "Spanish"],
   "categories": ["News", "Sports", "Movie", "Entertainment", "Documentary", "Music"],
   "telugu_hub_searches": [
     "telugu", "etv", "gemini", "maa", "zee telugu", "zee cinemalu",
-    "tv9", "ntv", "tv5", "sakshi", "abn", "v6", "10tv", "hmtv",
-    "t news", "mahaa", "raj news", "raj musix", "vissa", "vanitha",
-    "studio n", "prime9", "99tv", "6tv", "cvr", "svbc", "bhakti",
-    "subhagruha", "calvary", "aradana", "kushi", "bal bharat",
-    "teluguone", "sitara", "mango", "dd yadagiri", "dd saptagiri"
-  ],
-  "multi_audio_indian_keywords": [
-    "bal bharat", "sony yay", "discovery", "animal planet", "tlc",
-    "history tv", "nat geo", "national geographic", "nick", "sonic",
-    "cartoon network", "pogo", "hungama", "disney", "dd sports", "epic",
-    "sony sports", "star sports"
+    "tv9 telugu", "ntv telugu", "tv5 telugu", "sakshi", "abn andhra",
+    "v6 news", "10tv", "hmtv", "t news", "mahaa", "raj news telugu",
+    "raj musix telugu", "vissa", "vanitha", "prime9", "99tv", "6tv",
+    "cvr", "svbc", "bhakti", "subhagruha", "calvary", "aradana",
+    "kushi", "teluguone", "dd yadagiri", "dd saptagiri"
   ],
   "custom_searches": [
-    "cricket", "discovery", "national geographic", "history", "cartoon", "sony yay"
+    "cricket", "discovery", "national geographic", "history", "cartoon"
   ]
 }
