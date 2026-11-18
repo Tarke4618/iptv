@@ -4,8 +4,9 @@ from datetime import datetime, timedelta, timezone
 import json
 import os
 import re
+import subprocess
 import time
-from urllib.parse import parse_qs, urljoin, urlparse
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
 from bs4 import BeautifulSoup, NavigableString
 import requests
 from requests.adapters import HTTPAdapter
@@ -57,7 +58,7 @@ GENERIC_URL_PARTS = {
     "hls", "live", "stream", "streams", "index", "playlist",
     "master", "chunklist", "manifest", "tv", "iptv", "out",
     "v1", "v2", "v3", "cdn", "edge", "pub", "app", "smil",
-    "ngrp", "amlst", "disk1", "liveevent", "bpk-tv",
+    "ngrp", "amlst", "disk1", "liveevent", "bpk-tv", "tracks-v1a1",
 }
 
 ALIASES = {
@@ -105,8 +106,11 @@ ALIASES = {
     },
 }
 
+TELUGU_LANG_CODES = {"tel", "te", "telugu", "తెలుగు"}
+RAW_IP_PORT_RE = re.compile(r"^https?://\d{1,3}(?:\.\d{1,3}){3}(?::\d+)?/", re.I)
 
-def build_session(pool_size=32):
+
+def build_session(pool_size=64):
     sess = requests.Session()
     adapter = HTTPAdapter(pool_connections=pool_size, pool_maxsize=pool_size)
     sess.mount("http://", adapter)
@@ -151,7 +155,7 @@ def valid_name(name, noise):
         return False
     if re.fullmatch(r"[a-f0-9]{16,}", low):
         return False
-    if re.match(r"^(channel|stream|live|index|master|playlist)\s*\d*$", low):
+    if re.match(r"^(channel|stream|live|index|master|playlist|tracks)\s*\d*$", low):
         return False
     return True
 
@@ -173,16 +177,52 @@ def name_quality_score(name):
         score += 20
     if any(c.isupper() for c in name) and any(c.islower() for c in name):
         score += 10
-    if re.search(r"\b(HD|News|TV|Music|Musix|Movies|Plus)\b", name):
+    if re.search(r"\b(HD|News|TV|Music|Musix|Movies|Plus|Cinema|Cinemalu)\b", name):
         score += 10
     return score
+
+
+def split_pipe_headers(raw_url):
+    if "|" not in raw_url:
+        return raw_url.strip(), {}
+
+    base_url, pipe_part = raw_url.split("|", 1)
+    hdrs = {}
+    for pair in re.split(r"[&|]", pipe_part):
+        if "=" not in pair:
+            continue
+        k, v = pair.split("=", 1)
+        k_low = k.strip().lower()
+        v_clean = unquote(v.strip()).strip("\"'")
+        if not v_clean:
+            continue
+        if k_low in ("user-agent", "http-user-agent"):
+            hdrs["User-Agent"] = v_clean
+        elif k_low in ("referer", "referrer", "http-referrer", "http-referer"):
+            hdrs["Referer"] = v_clean
+        elif k_low == "origin":
+            hdrs["Origin"] = v_clean
+        elif k_low == "cookie":
+            hdrs["Cookie"] = v_clean
+    return base_url.strip(), hdrs
+
+
+def is_usable_hls_url(url, skip_raw_ip=True):
+    low = url.lower()
+    if not low.startswith(("http://", "https://")):
+        return False
+    if ".mpd" in low.split("?")[0]:
+        return False
+    if skip_raw_ip and RAW_IP_PORT_RE.match(url):
+        return False
+    return True
 
 
 def humanize_url(stream_url):
     parsed = urlparse(stream_url)
     path_parts = [p for p in parsed.path.split("/") if p]
     for part in reversed(path_parts):
-        stem = re.sub(r"\.(m3u8|m3u|mpd|ts|smil)$", "", part, flags=re.I)
+        stem = re.sub(r"\.(m3u8|m3u|mpd|ts|smil|sdp)$", "", part, flags=re.I)
         low_stem = stem.lower()
         if low_stem in GENERIC_URL_PARTS or stem.isdigit() or len(stem) < 2:
             continue
@@ -208,11 +248,29 @@ def humanize_url(stream_url):
     return ""
 
 
+def classify_telugu_group(ch):
+    blob = f" {ch.get('name', '')} {ch.get('category', '')} ".lower()
+    audio_langs = [a.lower() for a in ch.get("audio_langs", [])]
+    if ch.get("has_telugu_audio") or (len(audio_langs) > 1 and not ch.get("is_telugu")):
+        return "Telugu - Multi-Audio & Kids"
+    if any(k in blob for k in ("news", "tv9", "ntv", "tv5", "sakshi", "abn", "v6", "10tv", "hmtv", "t news", "mahaa", "prime9", "99tv", "6tv", "studio n", "raj news", "big tv", "brk", "q news")):
+        return "Telugu - News"
+    if any(k in blob for k in ("movie", "cinema", "cinemalu", "gold", "sitara")):
+        return "Telugu - Movies"
+    if any(k in blob for k in ("music", "musix", "beats", "raj musix")):
+        return "Telugu - Music"
+    if any(k in blob for k in ("svbc", "bhakti", "subhagruha", "calvary", "aradana", "devotional", "hindu", "christian")):
+        return "Telugu - Devotional"
+    if any(k in blob for k in ("kushi", "bal bharat", "yay", "nick", "cartoon", "pogo", "hungama", "discovery", "nat geo", "history", "kids")):
+        return "Telugu - Kids & Infotainment"
+    return "Telugu - Entertainment"
+
+
 def discover_filters():
     opts = {"country": {}, "language": {}, "category": {}}
     noise = set(NOISE)
     try:
-        resp = SESSION.get(BASE_URL, headers=PAGE_HEADERS, timeout=20)
+        resp = SESSION.get(BASE_URL, headers=PAGE_HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "html.parser")
         for a in soup.find_all("a", href=True):
             qs = parse_qs(urlparse(urljoin(BASE_URL, a["href"])).query)
@@ -370,8 +428,10 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "language": c_langs,
                 "category": default_category,
                 "extra_headers": {},
+                "source_name": "eja.tv",
                 "is_external": False,
                 "is_telugu": False,
+                "is_multi_audio_candidate": False,
             }
 
     for sc in soup.find_all("script"):
@@ -402,8 +462,10 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "language": "",
                 "category": default_category,
                 "extra_headers": {},
+                "source_name": "eja.tv",
                 "is_external": False,
                 "is_telugu": False,
+                "is_multi_audio_candidate": False,
             }
 
     for a in soup.find_all("a", href=True):
@@ -424,8 +486,10 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "language": c_langs,
                 "category": default_category,
                 "extra_headers": {},
+                "source_name": "eja.tv",
                 "is_external": False,
                 "is_telugu": False,
+                "is_multi_audio_candidate": False,
             }
 
     offsets = sorted({
@@ -465,7 +529,7 @@ def crawl_pages(noise, max_pages=25, country="", language="", category="", searc
             params["offset"] = offset
 
         try:
-            resp = SESSION.get(BASE_URL, params=params, headers=PAGE_HEADERS, timeout=20)
+            resp = SESSION.get(BASE_URL, params=params, headers=PAGE_HEADERS, timeout=15)
             resp.raise_for_status()
         except Exception:
             break
@@ -495,21 +559,86 @@ def crawl_pages(noise, max_pages=25, country="", language="", category="", searc
     return list(items.values())
 
 
-def is_telugu_channel(name, lang, group, telugu_keywords):
-    blob = f" {name} {lang} {group} ".lower()
-    if "telugu" in blob or "tel" in re.split(r"[^a-z]+", lang.lower()):
-        return True
-    for kw in telugu_keywords:
+def matches_keywords(text_blob, keywords):
+    low = f" {text_blob} ".lower()
+    for kw in keywords:
         kw_clean = kw.strip().lower()
-        if len(kw_clean) >= 3 and re.search(rf"\b{re.escape(kw_clean)}\b", blob):
+        if len(kw_clean) >= 3 and re.search(rf"\b{re.escape(kw_clean)}\b", low):
             return True
     return False
 
 
-def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_langs, noise):
+def is_telugu_channel(name, lang, group, stream_url, telugu_keywords):
+    blob = f" {name} {lang} {group} {stream_url} ".lower()
+    if "telugu" in blob or "tel" in re.split(r"[^a-z]+", lang.lower()):
+        return True
+    return matches_keywords(blob, telugu_keywords)
+
+
+def resolve_youtube_live_channels(yt_list):
+    """
+    Resolves official 24/7 YouTube live channels into direct HLS .m3u8 URLs
+    using yt-dlp (if installed) or direct HTML manifest extraction.
+    """
+    resolved_yt = []
+    for item in yt_list:
+        name = item.get("name", "YouTube Live")
+        yt_url = item.get("url", "").strip()
+        lang = item.get("language", "Telugu")
+        cat = item.get("category", "News")
+        if not yt_url:
+            continue
+
+        m3u8_url = ""
+        # Method 1: Try yt-dlp CLI if available in environment
+        try:
+            proc = subprocess.run(
+                ["yt-dlp", "-g", "-f", "best", "--no-warnings", yt_url],
+                capture_output=True,
+                text=True,
+                timeout=12,
+            )
+            if proc.returncode == 0 and proc.stdout.strip():
+                first_line = proc.stdout.strip().splitlines()[0].strip()
+                if ".m3u8" in first_line:
+                    m3u8_url = first_line
+        except Exception:
+            pass
+
+        # Method 2: Fallback direct page scrape for hlsManifestUrl
+        if not m3u8_url:
+            try:
+                r = SESSION.get(yt_url, headers=PAGE_HEADERS, timeout=10)
+                m = re.search(r'"hlsManifestUrl"\s*:\s*"([^"]+\.m3u8[^"]*)"', r.text)
+                if m:
+                    m3u8_url = m.group(1).replace("\\/", "/").encode("utf-8").decode("unicode_escape")
+            except Exception:
+                pass
+
+        if m3u8_url:
+            resolved_yt.append({
+                "key": m3u8_url,
+                "name": name,
+                "stream_url": m3u8_url,
+                "watch_url": "",
+                "logo": "",
+                "country": "India",
+                "language": lang,
+                "category": cat,
+                "extra_headers": {},
+                "source_name": "YouTube Live",
+                "is_external": True,
+                "is_telugu": lang.lower() == "telugu",
+                "is_multi_audio_candidate": False,
+            })
+    return resolved_yt
+
+
+def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, multi_audio_keywords, only_matching_langs, skip_raw_ip, noise):
     src_name = src_cfg.get("name", "External")
     src_url = src_cfg.get("url", "").strip()
     telugu_only = src_cfg.get("telugu_only", False)
+    always_keep = src_cfg.get("always_keep", False)
     def_country = src_cfg.get("default_country", "")
     def_lang = src_cfg.get("default_language", "")
 
@@ -517,7 +646,7 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_la
         return []
 
     try:
-        resp = SESSION.get(src_url, headers=STREAM_HEADERS, timeout=25)
+        resp = SESSION.get(src_url, headers=STREAM_HEADERS, timeout=20)
         resp.raise_for_status()
     except Exception as e:
         print(f"[WARN] Failed external M3U '{src_name}': {e}")
@@ -538,6 +667,13 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_la
             lang_m = re.search(r'tvg-language="([^"]*)"', line, re.I)
             cntry_m = re.search(r'tvg-country="([^"]*)"', line, re.I)
             grp_m = re.search(r'group-title="([^"]*)"', line, re.I)
+            ua_m = re.search(r'user-agent="([^"]*)"', line, re.I)
+            ref_m = re.search(r'referer="([^"]*)"', line, re.I)
+
+            if ua_m and ua_m.group(1).strip():
+                cur_headers["User-Agent"] = ua_m.group(1).strip()
+            if ref_m and ref_m.group(1).strip():
+                cur_headers["Referer"] = ref_m.group(1).strip()
 
             title_part = line.rsplit(",", 1)[-1] if "," in line else ""
             clean_title = re.sub(r"\s*[\[(][^\])]*[\])]", "", title_part).strip()
@@ -554,35 +690,58 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_la
             opt = line.split(":", 1)[1].strip()
             if opt.lower().startswith("http-user-agent="):
                 cur_headers["User-Agent"] = opt.split("=", 1)[1].strip()
-            elif opt.lower().startswith("http-referrer="):
+            elif opt.lower().startswith(("http-referrer=", "http-referer=")):
                 cur_headers["Referer"] = opt.split("=", 1)[1].strip()
+        elif line.startswith("#EXTHTTP:") and cur_meta is not None:
+            try:
+                http_json = json.loads(line.split(":", 1)[1].strip())
+                for hk, hv in http_json.items():
+                    if hk.lower() == "user-agent":
+                        cur_headers["User-Agent"] = str(hv)
+                    elif hk.lower() in ("referer", "referrer"):
+                        cur_headers["Referer"] = str(hv)
+            except Exception:
+                pass
         elif not line.startswith("#") and cur_meta is not None:
-            stream_url = line
-            if stream_url.startswith(("http://", "https://")):
-                ch_name = cur_meta["name"] or humanize_url(stream_url)
+            clean_url, pipe_hdrs = split_pipe_headers(line)
+            merged_hdrs = dict(cur_headers)
+            merged_hdrs.update(pipe_hdrs)
+
+            if is_usable_hls_url(clean_url, skip_raw_ip=skip_raw_ip):
+                ch_name = cur_meta["name"] or humanize_url(clean_url)
                 if valid_name(ch_name, noise):
                     tel_flag = telugu_only or is_telugu_channel(
-                        ch_name, cur_meta["language"], cur_meta["category"], telugu_keywords
+                        ch_name, cur_meta["language"], cur_meta["category"], clean_url, telugu_keywords
+                    )
+                    multi_cand = matches_keywords(
+                        f"{ch_name} {cur_meta['category']}", multi_audio_keywords
                     )
                     if tel_flag and not cur_meta["language"]:
                         cur_meta["language"] = "Telugu"
 
                     lang_blob = f"{cur_meta['language']} {cur_meta['category']} {ch_name}".lower()
-                    lang_ok = tel_flag or any(lg in lang_blob for lg in allowed_langs)
+                    lang_ok = (
+                        always_keep
+                        or tel_flag
+                        or multi_cand
+                        or any(lg in lang_blob for lg in allowed_langs)
+                    )
 
                     if not only_matching_langs or lang_ok:
                         results.append({
-                            "key": stream_url,
+                            "key": clean_url,
                             "name": ch_name,
-                            "stream_url": stream_url,
+                            "stream_url": clean_url,
                             "watch_url": "",
                             "logo": cur_meta["logo"],
                             "country": cur_meta["country"],
                             "language": cur_meta["language"],
                             "category": cur_meta["category"],
-                            "extra_headers": dict(cur_headers),
+                            "extra_headers": merged_hdrs,
+                            "source_name": src_name,
                             "is_external": True,
                             "is_telugu": tel_flag,
+                            "is_multi_audio_candidate": multi_cand,
                         })
             cur_meta = None
             cur_headers = {}
@@ -592,88 +751,112 @@ def parse_external_m3u(src_cfg, allowed_langs, telugu_keywords, only_matching_la
 
 def probe_audio_tracks(master_text, base_url, req_headers):
     verified_langs = []
+    has_telugu_audio = False
+
     for line in master_text.splitlines():
         line = line.strip()
         if not line.startswith("#EXT-X-MEDIA:") or "TYPE=AUDIO" not in line:
             continue
-        lang_m = re.search(r'LANGUAGE="([^"]+)"', line)
-        name_m = re.search(r'NAME="([^"]+)"', line)
-        uri_m = re.search(r'URI="([^"]+)"', line)
+        lang_m = re.search(r'LANGUAGE="([^"]+)"', line, re.I)
+        name_m = re.search(r'NAME="([^"]+)"', line, re.I)
+        uri_m = re.search(r'URI="([^"]+)"', line, re.I)
 
-        label = (lang_m.group(1) if lang_m else (name_m.group(1) if name_m else "")).strip().upper()
+        raw_lang = (lang_m.group(1) if lang_m else "").strip()
+        raw_name = (name_m.group(1) if name_m else "").strip()
+        label = (raw_lang or raw_name).upper()
         if not label:
             continue
 
         if uri_m:
             aud_url = urljoin(base_url, uri_m.group(1))
             try:
-                ar = SESSION.get(aud_url, headers=req_headers, timeout=5, allow_redirects=True)
+                ar = SESSION.get(aud_url, headers=req_headers, timeout=(3, 5), allow_redirects=True)
                 if ar.status_code != 200 or "#EXTM3U" not in ar.text[:200]:
                     continue
             except Exception:
                 continue
 
+        if raw_lang.lower() in TELUGU_LANG_CODES or raw_name.lower() in TELUGU_LANG_CODES or "telugu" in raw_name.lower():
+            has_telugu_audio = True
+            label = "TEL"
+
         if label not in verified_langs:
             verified_langs.append(label)
-    return verified_langs
+
+    return verified_langs, has_telugu_audio
 
 
-def inspect_and_verify_hls(url, extra_headers=None):
+def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
     req_headers = dict(STREAM_HEADERS)
     if extra_headers:
         req_headers.update(extra_headers)
 
     t0 = time.monotonic()
     try:
-        r = SESSION.get(url, headers=req_headers, timeout=8, allow_redirects=True)
-        if r.status_code != 200 or "#EXTM3U" not in r.text[:300]:
-            return None
-
-        final_m3u8 = r.url
-        text = r.text
-        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-
+        current_url = url
         max_height = 0
         is_hevc = False
-        best_variant_url = ""
-        best_bw = -1
         audio_langs = []
+        has_telugu_audio = False
+        export_m3u8 = url
 
-        if any(ln.startswith("#EXT-X-STREAM-INF") for ln in lines):
-            audio_langs = probe_audio_tracks(text, final_m3u8, req_headers)
-            for idx, ln in enumerate(lines):
-                if not ln.startswith("#EXT-X-STREAM-INF"):
-                    continue
-                res_m = re.search(r"RESOLUTION=\d+x(\d+)", ln)
-                if res_m:
-                    h = int(res_m.group(1))
-                    if h > max_height:
-                        max_height = h
-                if re.search(r'CODECS="[^"]*(?:hev1|hvc1)', ln, re.I):
-                    is_hevc = True
-                bw_m = re.search(r"BANDWIDTH=(\d+)", ln)
-                bw = int(bw_m.group(1)) if bw_m else 0
-                if idx + 1 < len(lines) and not lines[idx + 1].startswith("#"):
-                    if bw >= best_bw:
-                        best_bw = bw
-                        best_variant_url = urljoin(final_m3u8, lines[idx + 1])
+        lines = []
+        playlist_base = current_url
+        for hop in range(3):
+            if not is_usable_hls_url(current_url, skip_raw_ip=skip_raw_ip):
+                return None
+            r = SESSION.get(current_url, headers=req_headers, timeout=(4, 6), allow_redirects=True)
+            if r.status_code != 200 or "#EXTM3U" not in r.text[:300]:
+                return None
 
-            if not best_variant_url:
-                return None
-            vr = SESSION.get(best_variant_url, headers=req_headers, timeout=8, allow_redirects=True)
-            if vr.status_code != 200 or "#EXTM3U" not in vr.text[:300]:
-                return None
-            lines = [ln.strip() for ln in vr.text.splitlines() if ln.strip()]
-            playlist_base = vr.url
-        else:
-            playlist_base = final_m3u8
+            playlist_base = r.url
+            if hop == 0:
+                export_m3u8 = r.url
+            elif "raw.githubusercontent.com" in export_m3u8.lower():
+                export_m3u8 = r.url
+
+            text = r.text
+            lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+
+            if any(ln.startswith("#EXT-X-STREAM-INF") for ln in lines):
+                hop_langs, hop_tel = probe_audio_tracks(text, playlist_base, req_headers)
+                for lg in hop_langs:
+                    if lg not in audio_langs:
+                        audio_langs.append(lg)
+                if hop_tel:
+                    has_telugu_audio = True
+
+                best_variant_url = ""
+                best_bw = -1
+                for idx, ln in enumerate(lines):
+                    if not ln.startswith("#EXT-X-STREAM-INF"):
+                        continue
+                    res_m = re.search(r"RESOLUTION=\d+x(\d+)", ln)
+                    if res_m:
+                        h = int(res_m.group(1))
+                        if h > max_height:
+                            max_height = h
+                    if re.search(r'CODECS="[^"]*(?:hev1|hvc1)', ln, re.I):
+                        is_hevc = True
+                    bw_m = re.search(r"BANDWIDTH=(\d+)", ln)
+                    bw = int(bw_m.group(1)) if bw_m else 0
+                    if idx + 1 < len(lines) and not lines[idx + 1].startswith("#"):
+                        if bw >= best_bw:
+                            best_bw = bw
+                            best_variant_url = urljoin(playlist_base, lines[idx + 1])
+
+                if not best_variant_url:
+                    return None
+                current_url = best_variant_url
+            else:
+                break
 
         seg_rel = next((ln for ln in lines if not ln.startswith("#")), "")
         if not seg_rel:
             return None
 
         seg_url = urljoin(playlist_base, seg_rel)
-        sr = SESSION.get(seg_url, headers=req_headers, timeout=6, allow_redirects=True, stream=True)
+        sr = SESSION.get(seg_url, headers=req_headers, timeout=(4, 5), allow_redirects=True, stream=True)
         chunk = next(sr.iter_content(chunk_size=256), b"")
         sr.close()
 
@@ -681,11 +864,12 @@ def inspect_and_verify_hls(url, extra_headers=None):
             latency_ms = int((time.monotonic() - t0) * 1000)
             q_tag = f"{max_height}p" if max_height >= 480 else ""
             return {
-                "stream_url": final_m3u8,
+                "stream_url": export_m3u8,
                 "height": max_height,
                 "quality_tag": q_tag,
                 "is_hevc": is_hevc,
                 "audio_langs": audio_langs,
+                "has_telugu_audio": has_telugu_audio,
                 "latency_ms": latency_ms,
             }
     except Exception:
@@ -693,13 +877,15 @@ def inspect_and_verify_hls(url, extra_headers=None):
     return None
 
 
-def resolve_item(item, noise, verify=True):
+def resolve_item(item, noise, verify=True, skip_raw_ip=True):
     name = item["name"]
     extra_headers = item.get("extra_headers", {})
 
     if item["stream_url"]:
         if verify:
-            info = inspect_and_verify_hls(item["stream_url"], extra_headers=extra_headers)
+            info = inspect_and_verify_hls(
+                item["stream_url"], extra_headers=extra_headers, skip_raw_ip=skip_raw_ip
+            )
             if not info:
                 return None
         else:
@@ -709,6 +895,7 @@ def resolve_item(item, noise, verify=True):
                 "quality_tag": "",
                 "is_hevc": False,
                 "audio_langs": [],
+                "has_telugu_audio": False,
                 "latency_ms": 999,
             }
         final_name = name if valid_name(name, noise) else humanize_url(info["stream_url"])
@@ -718,7 +905,7 @@ def resolve_item(item, noise, verify=True):
         return info
 
     try:
-        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=10, allow_redirects=True)
+        r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(4, 8), allow_redirects=True)
         if r.status_code != 200:
             return None
         soup = BeautifulSoup(r.text, "html.parser")
@@ -731,12 +918,15 @@ def resolve_item(item, noise, verify=True):
                         name = cand
                         break
         for s_url in extract_m3u8_from_text(r.text):
-            info = inspect_and_verify_hls(s_url, extra_headers=extra_headers) if verify else {
+            info = inspect_and_verify_hls(
+                s_url, extra_headers=extra_headers, skip_raw_ip=skip_raw_ip
+            ) if verify else {
                 "stream_url": s_url,
                 "height": 0,
                 "quality_tag": "",
                 "is_hevc": False,
                 "audio_langs": [],
+                "has_telugu_audio": False,
                 "latency_ms": 999,
             }
             if info:
@@ -752,6 +942,7 @@ def resolve_item(item, noise, verify=True):
 
 def mirror_rank_key(ch):
     return (
+        1 if ch.get("has_telugu_audio") else 0,
         len(ch.get("audio_langs", [])),
         ch.get("height", 0),
         1 if ch["stream_url"].startswith("https://") else 0,
@@ -782,15 +973,14 @@ def deduplicate_channels(channels, max_mirrors=1):
         if max_mirrors <= 1:
             output.append(mirrors[0])
         else:
-            seen_hosts = set()
+            seen_urls = set()
             kept = 0
             for m in mirrors:
-                host = urlparse(m["stream_url"]).netloc
-                if kept > 0 and host in seen_hosts:
+                if m["stream_url"] in seen_urls:
                     continue
-                seen_hosts.add(host)
+                seen_urls.add(m["stream_url"])
                 copy_m = dict(m)
-                copy_m["name"] = best_title if kept == 0 else f"{best_title} [Backup {kept}]"
+                copy_m["name"] = best_title if kept == 0 else f"{best_title} [Mirror {kept + 1}]"
                 output.append(copy_m)
                 kept += 1
                 if kept >= max_mirrors:
@@ -806,14 +996,17 @@ def format_display_name(ch, tag_info=True):
     tags = []
     if ch.get("quality_tag"):
         tags.append(ch["quality_tag"])
-    if len(ch.get("audio_langs", [])) > 1:
+    if ch.get("has_telugu_audio"):
+        other_langs = [a for a in ch.get("audio_langs", []) if a != "TEL"][:3]
+        tags.append("Audio: TEL+" + "/".join(other_langs) if other_langs else "Audio: TEL")
+    elif len(ch.get("audio_langs", [])) > 1:
         tags.append("Audio: " + "/".join(ch["audio_langs"][:4]))
     if ch.get("is_hevc"):
         tags.append("HEVC-MPV")
     return f"{base} [{' | '.join(tags)}]" if tags else base
 
 
-def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, tag_info=True):
+def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, tag_info=True, subgroup_telugu=False):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     clean_list = deduplicate_channels(channels, max_mirrors=max_mirrors) if deduplicate else channels
 
@@ -833,7 +1026,7 @@ def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, ta
         raw_name = ch["name"]
         disp_name = format_display_name(ch, tag_info=tag_info)
         tvg_id = re.sub(r"[^a-zA-Z0-9]+", ".", raw_name.lower()).strip(".")
-        group = ch.get("category") or ch.get("country") or "General"
+        group = classify_telugu_group(ch) if subgroup_telugu else (ch.get("category") or ch.get("country") or "General")
         verified_audio = ", ".join(ch.get("audio_langs", []))
         lang_field = verified_audio or ch.get("language", "")
 
@@ -862,11 +1055,13 @@ def main():
     verify = cfg.get("verify_streams", True)
     dedup = cfg.get("deduplicate_channels", True)
     tag_info = cfg.get("tag_stream_info", True)
+    skip_raw_ip = cfg.get("skip_raw_ip_streams", True)
     only_match_ext = cfg.get("only_matching_external_languages", True)
     epg_urls = cfg.get("epg_urls", [])
     telugu_keywords = cfg.get("telugu_hub_searches", ["telugu"])
+    multi_audio_keywords = cfg.get("multi_audio_indian_keywords", [])
     allowed_langs = {lg.strip().lower() for lg in cfg.get("languages", [])}
-    allowed_langs.add("telugu")
+    allowed_langs.update(["telugu", "hindi", "tamil", "english"])
 
     discovered, noise = discover_filters()
 
@@ -902,9 +1097,8 @@ def main():
     }
 
     for bucket, lbl, kwargs in tasks:
-        print(f"Crawling [{bucket}] -> {lbl}...")
+        print(f"Crawling eja.tv [{bucket}] -> {lbl}...")
         found = crawl_pages(noise, **kwargs)
-        print(f"  Found {len(found)} candidates.")
         for item in found:
             k = item["key"]
             if k not in registry:
@@ -925,11 +1119,16 @@ def main():
             if bucket in membership:
                 membership[bucket].setdefault(lbl, set()).add(k)
 
+    source_candidate_counts = {}
     for src in cfg.get("external_m3u_sources", []):
         src_name = src.get("name", "External")
         print(f"Importing external M3U -> {src_name}...")
-        ext_items = parse_external_m3u(src, allowed_langs, telugu_keywords, only_match_ext, noise)
-        print(f"  Loaded {len(ext_items)} matching candidates from {src_name}.")
+        ext_items = parse_external_m3u(
+            src, allowed_langs, telugu_keywords, multi_audio_keywords,
+            only_match_ext, skip_raw_ip, noise,
+        )
+        source_candidate_counts[src_name] = len(ext_items)
+        print(f"  Loaded {len(ext_items)} usable HLS candidates from {src_name}.")
         for item in ext_items:
             k = item["key"]
             if k not in registry:
@@ -942,6 +1141,8 @@ def main():
                     registry[k]["extra_headers"] = item["extra_headers"]
                 if item.get("is_telugu"):
                     registry[k]["is_telugu"] = True
+                if item.get("is_multi_audio_candidate"):
+                    registry[k]["is_multi_audio_candidate"] = True
 
             membership["external"].setdefault(src_name, set()).add(k)
             if item.get("is_telugu"):
@@ -950,10 +1151,28 @@ def main():
             if item.get("country") == "India":
                 membership["countries"].setdefault("India", set()).add(k)
 
-    print(f"Deep-inspecting & verifying {len(registry)} total unique streams...")
+    yt_channels = cfg.get("youtube_live_channels", [])
+    if yt_channels:
+        print(f"Resolving {len(yt_channels)} official YouTube Live channels...")
+        yt_items = resolve_youtube_live_channels(yt_channels)
+        source_candidate_counts["YouTube Live"] = len(yt_items)
+        print(f"  Extracted {len(yt_items)} live YouTube HLS manifests.")
+        for item in yt_items:
+            k = item["key"]
+            registry[k] = item
+            membership["external"].setdefault("YouTube Live", set()).add(k)
+            if item.get("is_telugu"):
+                membership["languages"].setdefault("Telugu", set()).add(k)
+                membership["telugu_hub"].setdefault("YouTube Live", set()).add(k)
+            membership["countries"].setdefault("India", set()).add(k)
+
+    print(f"Deep-inspecting & verifying {len(registry)} unique streams across 48 threads...")
     resolved = {}
-    with ThreadPoolExecutor(max_workers=24) as pool:
-        fmap = {pool.submit(resolve_item, data, noise, verify): k for k, data in registry.items()}
+    with ThreadPoolExecutor(max_workers=48) as pool:
+        fmap = {
+            pool.submit(resolve_item, data, noise, verify, skip_raw_ip): k
+            for k, data in registry.items()
+        }
         for fut in as_completed(fmap):
             k = fmap[fut]
             info = fut.result()
@@ -964,112 +1183,49 @@ def main():
 
     all_working = list(resolved.values())
 
+    print("\n--- Per-Source Live Verification Report ---")
+    for src_name, keys in membership["external"].items():
+        alive = sum(1 for k in keys if k in resolved)
+        total_cand = source_candidate_counts.get(src_name, len(keys))
+        print(f"  {src_name}: {alive} working / {total_cand} tested")
+    print("-------------------------------------------\n")
+
     total_all = write_m3u(
         "playlists/all.m3u", all_working,
         epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
     )
     total_backups = write_m3u(
         "playlists/special/with_backups.m3u", all_working,
-        epg_urls=epg_urls, deduplicate=True, max_mirrors=3, tag_info=tag_info,
+        epg_urls=epg_urls, deduplicate=True, max_mirrors=4, tag_info=tag_info,
     )
 
     telugu_keys = set(membership["languages"].get("Telugu", set()))
     for sub_keys in membership["telugu_hub"].values():
         telugu_keys.update(sub_keys)
+
+    telugu_multi_audio_list = []
     for k, ch in resolved.items():
-        if ch.get("is_telugu") or is_telugu_channel(
-            ch["name"], ch.get("language", ""), ch.get("category", ""), telugu_keywords
-        ):
+        has_tel_audio = ch.get("has_telugu_audio", False)
+        is_tel_meta = ch.get("is_telugu") or is_telugu_channel(
+            ch["name"], ch.get("language", ""), ch.get("category", ""), ch["stream_url"], telugu_keywords
+        )
+        is_pan_india_multi = ch.get("is_multi_audio_candidate") and len(ch.get("audio_langs", [])) > 1
+
+        if has_tel_audio or is_tel_meta or is_pan_india_multi:
             telugu_keys.add(k)
+        if has_tel_audio or is_pan_india_multi or (is_tel_meta and len(ch.get("audio_langs", [])) > 1):
+            telugu_multi_audio_list.append(ch)
 
     telugu_channels = [resolved[k] for k in telugu_keys if k in resolved]
+
     total_telugu_hub = write_m3u(
         "playlists/special/telugu_hub.m3u", telugu_channels,
-        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info, subgroup_telugu=True,
     )
     total_telugu_backups = write_m3u(
         "playlists/special/telugu_hub_backups.m3u", telugu_channels,
-        epg_urls=epg_urls, deduplicate=True, max_mirrors=3, tag_info=tag_info,
+        epg_urls=epg_urls, deduplicate=True, max_mirrors=4, tag_info=tag_info, subgroup_telugu=True,
     )
-
-    ext_channels = [c for c in all_working if c.get("is_external")]
-    total_external = write_m3u(
-        "playlists/special/external_verified.m3u", ext_channels,
-        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
-    )
-
-    multi_audio_channels = [c for c in all_working if len(c.get("audio_langs", [])) > 1]
-    total_multi_audio = write_m3u(
-        "playlists/special/multi_audio.m3u", multi_audio_channels,
-        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
-    )
-
-    hd_channels = [c for c in all_working if c.get("height", 0) >= 720]
-    total_hd = write_m3u(
-        "playlists/special/hd_1080p.m3u", hd_channels,
-        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
-    )
-
-    summary = {"Country": [], "Language": [], "Category": [], "Custom Search": []}
-    lmap = {
-        "countries": "Country",
-        "languages": "Language",
-        "categories": "Category",
-        "searches": "Custom Search",
-    }
-    for bucket, ldict in membership.items():
-        if bucket not in lmap:
-            continue
-        for lbl, keys in ldict.items():
-            if bucket == "languages" and lbl == "Telugu":
-                clist = telugu_channels
-            else:
-                clist = [resolved[k] for k in keys if k in resolved]
-            fname = f"playlists/{bucket}/{safe_filename(lbl)}.m3u"
-            written_count = write_m3u(
-                fname, clist,
-                epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
-            )
-            summary[lmap[bucket]].append((lbl, fname, written_count))
-
-    ist = timezone(timedelta(hours=5, minutes=30))
-    now_ist = datetime.now(ist).strftime("%d %b %Y, %I:%M %p IST")
-    repo = os.environ.get("GITHUB_REPOSITORY", "Tarke4618/iptv")
-    raw_base = f"https://raw.githubusercontent.com/{repo}/main"
-
-    md = [
-        "# Auto-Updating Multi-Source IPTV Playlists (.m3u)",
-        "",
-        f"**Last Synced:** `{now_ist}` (Auto-refreshes every **12 hours** from `eja.tv`, `iptv-org`, `YuppTV FAST`, `DistroTV`, `JTV`, and `SLIV`)",
-        "",
-        "### Featured & Smart Playlists (IPTVnator Ready)",
-        "| Playlist | Channels | Raw M3U URL |",
-        "| :--- | :---: | :--- |",
-        f"| **Telugu Hub (Best Mirror per Channel)** | {total_telugu_hub} | `{raw_base}/playlists/special/telugu_hub.m3u` |",
-        f"| **Telugu Hub + Backup Mirrors (Up to 3x)** | {total_telugu_backups} | `{raw_base}/playlists/special/telugu_hub_backups.m3u` |",
-        f"| **All Verified Channels (Best Mirror)** | {total_all} | `{raw_base}/playlists/all.m3u` |",
-        f"| **All Channels + Backup Mirrors** | {total_backups} | `{raw_base}/playlists/special/with_backups.m3u` |",
-        f"| **External South Asian / FAST Verified** | {total_external} | `{raw_base}/playlists/special/external_verified.m3u` |",
-        f"| **Verified Multi-Audio Channels** | {total_multi_audio} | `{raw_base}/playlists/special/multi_audio.m3u` |",
-        f"| **HD 720p / 1080p Streams** | {total_hd} | `{raw_base}/playlists/special/hd_1080p.m3u` |",
-        "",
-    ]
-
-    for sec, rows in summary.items():
-        if rows:
-            md.append(f"### By {sec}")
-            md.append("| Filter | Channels | Raw M3U URL |")
-            md.append("| :--- | :---: | :--- |")
-            for lbl, rel, cnt in sorted(rows, key=lambda x: x[0].lower()):
-                md.append(f"| **{lbl}** | {cnt} | `{raw_base}/{rel}` |")
-            md.append("")
-
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write("\n".join(md))
-    print(f"Done! TeluguHub={total_telugu_hub}, TeluguBackups={total_telugu_backups}, All={total_all}, External={total_external}")
-
-
-if __name__ == "__main__":
-    main()
-
-# === END OF FILE ===
+    total_telugu_multi = write_m3u(
+        "playlists/special/telugu_multi_audio.m3u", telugu_multi_audio_list,
+        epg_urls=epg_urls, deduplicate=dedup, max_
