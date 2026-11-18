@@ -1,8 +1,10 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Cricket Gold [1080p]
 https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
 #EXTINF:-1 tvg-id="dg.tv" tvg-name="DG:TV" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",DG:TV
 https://mdn.dg.church/673ac57a073a4-1/index.m3u8#9fb3457b10076367c72c037249f92cee00dfb27d34722167e35c72e95d887d25
+#EXTINF:-1 tvg-id="folk.klub" tvg-name="Folk Klub" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="Macedonian" group-title="Music",Folk Klub [720p]
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a8df1eca018108f02cacdae5056626cec38
 #EXTINF:-1 tvg-id="fox.sports.news" tvg-name="Fox Sports News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",Fox Sports News
 https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8#9c67a87ef5a95b80a8779b3e9fe412c8f0b0ba7f31b0693db0b61bc082694fe8
 #EXTINF:-1 tvg-id="news24" tvg-name="News24" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",News24 [1080p]
@@ -13,7 +15,7 @@ https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/liv
 https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8#3e4f86d4df08db21cd1416f65b55d432f05ab0c12d5a854d17144565e34897f6
 #EXTINF:-1 tvg-id="sky.news.extra.1" tvg-name="Sky News Extra 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="News",Sky News Extra 1 [576p]
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8#bd085c5ab294caf5e9dbdd72becc0b06f760ddf6c3eb308566f1cb0d495df4eb
-#EXTINF:-1 tvg-id="sky.news.extra.3" tvg-name="Sky News Extra 3" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="News",Sky News Extra 3 [576p]
+#EXTINF:-1 tvg-id="sky.news.extra.3" tvg-name="Sky News Extra 3" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",Sky News Extra 3 [576p]
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8#7698436f83fb2170bff324fdc2d1b2343ee1866f53d9dd5147ad25d6f5340583
 #EXTINF:-1 tvg-id="sky.racing.1" tvg-name="Sky Racing 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Sky Racing 1 [720p]
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f

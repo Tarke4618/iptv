@@ -1,128 +1,92 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="13.realities" tvg-name="13 Realities" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="Entertainment",13 Realities [1080p]
-https://dai.google.com/linear/hls/pa/event/g7_JOM0ORki9SR5RKHe-Kw/stream/af7c2deb-5001-4e31-8c51-4a293411dc50:DLS/master.m3u8#82b28cebfb98e38bdbe1be96242cc6d51eaea79fe625d9857f66c702c6572e5d
-#EXTINF:-1 tvg-id="2.2" tvg-name="2х2" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Entertainment",2х2
-https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8#44a1530d96012e022c9ed7a1f05e1dc28cdddc44499a62305cfe7997b5772788
+#EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+#EXTINF:-1 tvg-id="247.box.tv" tvg-name="247 Box TV" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Entertainment",247 Box TV
+https://hls.247box.live/hls/stream.m3u8#4e889d31cdfcfbb59c01d7b4ee9479e7fa4abb47347bb103ee994eed4da098ea
 #EXTINF:-1 tvg-id="4ever.theater" tvg-name="4ever Theater" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="Entertainment",4ever Theater [1080p]
 http://stream.mcquack.net/259/index.m3u8#91bcdf376a91e3ecd2fdabd933cea8eebd3259a6199e3d009044ab6ce1659d77
 #EXTINF:-1 tvg-id="am.rica.tev" tvg-name="América TeVé" tvg-logo="" tvg-country="🇵🇷 Puerto Rico" tvg-language="Spanish" group-title="Entertainment",América TeVé [1080p]
 https://live.gideo.video/americateve2/master.m3u8#9eb02bec4757797a63dab992ff6fafc98951a8eb1cc8d52a7aadd87e55d70a5d
-#EXTINF:-1 tvg-id="anjan.tv" tvg-name="Anjan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="Entertainment",Anjan TV [1080p]
-https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8#5f3a47740a13a3ad39f0043aa4ccb40e0555a8df6895f81d01d90fb35cd45a88
 #EXTINF:-1 tvg-id="asianet.hd" tvg-name="Asianet HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Malayalam" group-title="Entertainment",Asianet HD [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/AsianetHD.m3u8#d5373f2c45732660580b91a473fc0062419c20c986d356db263f1643ce7a5b73
+#EXTINF:-1 tvg-id="bialogardzka.telewizja.kablowa" tvg-name="Bialogardzka Telewizja Kablowa" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Polish" group-title="Entertainment",Bialogardzka Telewizja Kablowa
+https://bsmbialogard.pl/live/index.m3u8#e84fe15ca24762803cd10001a3c72f796546e420a13e299f6385fe213bdd5b31
 #EXTINF:-1 tvg-id="bonce.tv" tvg-name="Bonce TV" tvg-logo="" tvg-country="🇨🇼 Curacao" tvg-language="Dutch, Papiamento" group-title="Entertainment",Bonce TV [480p]
 https://seswa.bonce.tv/hls/bonceswa.m3u8#809d7e78d6cd575beaf094159a2b961fa8e8463503bab5c71dd78b298a0305c5
 #EXTINF:-1 tvg-id="bonches.latinos.tv" tvg-name="Bonches Latinos TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Entertainment",Bonches Latinos TV [1080p]
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8#4ed7fe99579abef209fd70b16a22e40d0ec2affacca021b9a3d58f2db0df71b5
 #EXTINF:-1 tvg-id="canal.pulpo.tv" tvg-name="Canal Pulpo TV" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Entertainment",Canal Pulpo TV
-https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8?token=473zwNKVyNbvhrosnlMOcVCc5i492vKSP2vtwAwtN%2Fk%3D#6bfa446c4d8189e79c1d7a400fa2c6ef552c34ae266467fe2b6c8dab8770e67a
-#EXTINF:-1 tvg-id="canal" tvg-name="Canal+" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Entertainment",Canal+
-http://51.255.167.118/live/testlivestream/testlivestream/41.m3u8#05d7902de41d5c52b6e1cb26e367b7f540f3bdeef7a42025e0a7269dc8f16c55
+https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8?token=C%2FiiE32z%2FCfJbarfk1OKLyDpXk7sE6BHnQbFheaFpLI%3D#6bfa446c4d8189e79c1d7a400fa2c6ef552c34ae266467fe2b6c8dab8770e67a
 #EXTINF:-1 tvg-id="carac.1" tvg-name="Carac 1" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="French" group-title="Entertainment",Carac 1 [1080p]
 https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8#1c291fc856e8b46b18b206b5760146947194f89d4b226fc6e4ef788b1a3885bc
-#EXTINF:-1 tvg-id="carac.2" tvg-name="Carac 2" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="French" group-title="Entertainment",Carac 2 [1080p]
-https://edge17.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8#f8603afd8170b030a3bab6b19aad9cb9417762116e2dd432dda6df391f99256a
-#EXTINF:-1 tvg-id="carac.3" tvg-name="Carac 3" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="French" group-title="Entertainment",Carac 3 [1080p]
-https://edge17.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8#8d851ebba60e3f7abdff57afcededa7fabc3eaafc1b60eae6b949e63787d62d9
 #EXTINF:-1 tvg-id="carac.4" tvg-name="Carac 4" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="French" group-title="Entertainment",Carac 4 [1080p]
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8#61d8a8862dfac13dc03b9035b498f6102b6779aff0451c449b9c1e2640c35e99
 #EXTINF:-1 tvg-id="carac.5" tvg-name="Carac 5" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="French" group-title="Entertainment",Carac 5 [1080p]
-https://edge16.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8#6bfbc2b5146b9fe19ef235e6a52cbbbab387189605b09b6cf47687c7c3e247e9
+https://edge13.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8#6bfbc2b5146b9fe19ef235e6a52cbbbab387189605b09b6cf47687c7c3e247e9
 #EXTINF:-1 tvg-id="cg.entertainment" tvg-name="CG Entertainment" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Entertainment",CG Entertainment [720p]
 https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8#3189ce034bfadc722833f6e7cc29693eba19d818fcbf5b853c5525d257203f02
 #EXTINF:-1 tvg-id="chroma.tv" tvg-name="Chroma TV" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="Entertainment",Chroma TV [480p]
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8#ff6f64e379cc9d1c50099bf0053f1ac887f4d1b11cb5f753b8c94f47bfe36c14
 #EXTINF:-1 tvg-id="colors.mena.hd" tvg-name="Colors MENA HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="Entertainment",Colors MENA HD [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
-#EXTINF:-1 tvg-id="colors.tamil.hd" tvg-name="Colors Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Entertainment",Colors Tamil HD [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8#ccca3d0dab7838bde0dce515d0597ffa19e1d78984d6b76a2433797fd8d9f77d
 #EXTINF:-1 tvg-id="comet" tvg-name="Comet" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",Comet [1080p]
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
-#EXTINF:-1 tvg-id="discovery.channel" tvg-name="Discovery Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="ITA" group-title="Entertainment",Discovery Channel [1080p]
-https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8#41f1732829e187969d81b43faabeb4122cbfcc91ada0b183ddf028c85f473397
 #EXTINF:-1 tvg-id="dream.tv" tvg-name="Dream TV" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Entertainment",Dream TV [720p]
 https://cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8#ea5a45a6e797c912a529be47d655b304e2cc4554ff49e48494b954e93c58de50
 #EXTINF:-1 tvg-id="education" tvg-name="Education" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Entertainment",Education [720p]
 https://cdn4.skygo.mn/live/disk1/Education/HLSv3-FTA/Education.m3u8#b35c959e89b6747515710a13c75ebb09e360b5f7d7e49996e86774cbb823df2b
 #EXTINF:-1 tvg-id="eldo.tv" tvg-name="eldo.TV" tvg-logo="" tvg-country="🇱🇺 Luxembourg" tvg-language="Luxembourgish" group-title="Entertainment",eldo.TV
 https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8#cfcc26d7dc609781841dd326edda28367fed42c657d44beba33f2b19b2bc503e
-#EXTINF:-1 tvg-id="elemental.channel" tvg-name="Elemental Channel" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="Entertainment",Elemental Channel
-https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8#bbf9aa8fc9d6a3c24c0f3abf284ec461f1a82c950f0ba77f951b37044679c183
+#EXTINF:-1 tvg-id="ent.family" tvg-name="ENT Family" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Family [1080p]
+https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
 #EXTINF:-1 tvg-id="entertainment.tonight" tvg-name="Entertainment Tonight" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",Entertainment Tonight [1080p]
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8#425fbac567050bd0c4569e363c34d5271fcedd41d393b48d8d95d0e89c1f7783
 #EXTINF:-1 tvg-id="estrella.games" tvg-name="Estrella Games" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Entertainment",Estrella Games [1080p]
 https://amg00567-estrellamedia-estrellagames-distrotv-6okbz.amagi.tv/playlist/amg00567-estrellamedia-estrellagames-distrotv/playlist.m3u8#3ad574b248469d7b2aed192f20edaeeeb9283c151ad9940bf28f86210cd9894c
 #EXTINF:-1 tvg-id="etv.telugu.usa" tvg-name="ETV Telugu USA" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",ETV Telugu USA [720p]
 https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
-#EXTINF:-1 tvg-id="etv" tvg-name="ETV+" tvg-logo="" tvg-country="🇪🇪 Estonia" tvg-language="Russian, Estonian" group-title="Entertainment",ETV+
-https://sb.err.ee/live/etvpluss.m3u8#0538f54b33ca9c4883a11c39a52c7e2745a6f0ae3747b660955e162a5aaa625f
-#EXTINF:-1 tvg-id="fox" tvg-name="Fox" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Entertainment",Fox [1080p]
-http://stream.mcquack.net/182/index.m3u8#0192951aa5481444214c3d2d1588c8ca38e12116220e164845f8f7b85e44b94f
 #EXTINF:-1 tvg-id="fx.tv.1" tvg-name="FX TV 1" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Entertainment",FX TV 1
 https://fxtvhls.wns.live/hls/stream.m3u8#9dd1e89a06b31230ddceaf2f040b61692b12b61852bed2ee9f6e1c73c0c3d802
 #EXTINF:-1 tvg-id="fx.tv.2" tvg-name="FX TV 2" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Entertainment",FX TV 2
 https://toonixhls.wns.live/hls/stream.m3u8#56afa399417f2d92fdde32d4c3c7bdfe684b5460959e3fa38edcd3672307105f
-#EXTINF:-1 tvg-id="hollywire" tvg-name="HollyWire" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",HollyWire [720p]
-https://bozztv.com/hwotta/playlist/playlist.m3u8#32f0879be5c0e8bd65de629a55490ae0b749df347756babda352ad89155270f3
+#EXTINF:-1 tvg-id="gi.television" tvg-name="Gi Television" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Entertainment",Gi Television
+https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8#5d5434e93d806d5a26bf911abc1c4d484799cca2de0d9417441b2f212204f677
+#EXTINF:-1 tvg-id="girasol.tv" tvg-name="Girasol TV" tvg-logo="" tvg-country="🇭🇳 Honduras" tvg-language="Spanish" group-title="Entertainment",Girasol TV [1080p]
+https://s.emisoras.tv:8081/girasoltv/index.m3u8#d56e3bf77a157ae8b9cbd7d11e6a712c266b7f3ba104c8c6cca0c031dcb66712
+#EXTINF:-1 tvg-id="hiru.tv" tvg-name="Hiru TV" tvg-logo="" tvg-country="🇱🇰 Sri Lanka" tvg-language="Sinhala" group-title="Entertainment",Hiru TV
+https://tv.hiruhost.com:1936/8012/8012/playlist.m3u8#477c95cd7d8608d692cca52f76d503c2ff71b15496e804336910599e97e609ee
+#EXTINF:-1 tvg-id="impacto.televisi.n" tvg-name="Impacto Televisión" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="Entertainment",Impacto Televisión [480p]
+https://cloudvideo.servers10.com:8081/impactotv/index.m3u8#c9934af4a5d4674b3fe9a680d853c783cce939cb2de998eff9e3053dadf5bf24
 #EXTINF:-1 tvg-id="italia.2" tvg-name="Italia 2" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Entertainment",Italia 2 [720p]
 https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8#8f37048a7892ea7da5b498bccdfceacb97e45e1dc3d2b95bebbb69e8829d6da4
-#EXTINF:-1 tvg-id="kabel.eins" tvg-name="kabel eins" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="Entertainment",kabel eins
-https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8#62dd9e649ba382aafd4119f268690a5063ea113ae474a26025429d02ebead78f
-#EXTINF:-1 tvg-id="kanal.7.avrupa" tvg-name="Kanal 7 Avrupa" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Turkish" group-title="Entertainment",Kanal 7 Avrupa [1080p]
-https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8#dc35895a11fd92fd7e8642d9fa017cf460ee527ae53aea521c1a828beb33e318
-#EXTINF:-1 tvg-id="kc2" tvg-name="KC2" tvg-logo="" tvg-country="🇷🇼 Rwanda" tvg-language="English, Kinyarwanda, French" group-title="Entertainment",KC2 [480p]
-https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8#a438d5c43f38f852f6a273b9db9350e94126db9e2bcca7fd2ddaea9d4d6d2c83
 #EXTINF:-1 tvg-id="kix" tvg-name="KIX" tvg-logo="" tvg-country="🇭🇰 Hong Kong" tvg-language="Malay, Indonesian, English, Chinese" group-title="Entertainment",KIX [1080p]
-https://ec05-pop1-hlc.tv360.vn:443/bpk-token/y7fzozydtgfwosx5cuh4ns4xm7d4xf3h/bpk-tv/166/output/index.m3u8?bkm-query&auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJleHAiOjE3OTQ5OTc3MzEsCiAgImlzcyI6ImJrbSIsCiAgInZlciI6IjEuMCIsCiAgImlhdCI6MTc5NDk3NjAxMiwKICAic3IiOnsKICAgICAidmVyIjoiMi4wIiwKICAgICAic25hIjoiMTY2X0hMUyIsCiAgICAgInBuYSI6IlZpZXR0ZWwiLAogICAgICJybmEiOiIiLAogICAgICJwbiI6IlBPUC1ITi1QT1AxIiwKICAgICAiZW4iOiJFREdFLUhOLVBPUDEiLAogICAgICJjYyI6IlVTIiwKICAgICAicmMiOiJBWiIsCiAgICAgImFjbiI6IkNPUkUtSE4tUE9QMSIsCiAgICAgImlzcCI6Ik1pY3Jvc29mdCBBenVyZSIsCiAgICAgImFzbiI6IjgwNzUiLAogICAgICJ2cyI6IkJLUzQwMC1QT1AxLTA1XzE3Mi4yNC4xNy44OjIwMDAwIiwKICAgICAibnQiOiJPVFQiLAogICAgICJ0dHAiOjAsCiAgICAgInBsaWQiOiIiLAogICAgICJwdWlkIjoiIiwKICAgICAidGVpZCI6IiIKICB9LAogICJvdCI6ewogICAgICJ0cyI6MTc5NDk3NjAxMiwKICAgICAidXJsIjoiL2Jway10di8xNjYvb3V0cHV0L2luZGV4Lm0zdTg_bWlucmF0ZT0wJm1heHJhdGU9MTIwMDAwMDAiLAogICAgICJ0b2siOiJ5N2Z6b3p5ZHRnZndvc3g1Y3VoNG5zNHhtN2Q0eGYzaCIsCiAgICAgImV4dCI6IiIsCiAgICAgImNpcCI6IjIwLjE2My42LjgwIiwKICAgICAiY2hrIjogZmFsc2UsCiAgICAgInN0dCI6Ik5PIiwKICAgICAiZHNjcCI6MCwKICAgICAic3YiOnsKICAgICAgICAiaWQiOiIxNjZfSExTIiwKICAgICAgICAidHlwIjoiTElWRSIKICAgICB9LAogICAgICJ0byI6ewogICAgICAgIAogICAgICAgICAKICAgICAgICAic3UiOjAsCiAgICAgICAgInJjIjoxNTAKICAgICB9LAogICAgICJsYXkiOiB7CiAgICAgICJsc3QiOltdLAogICAgICAibWF4IjoxMjAwMDAwMCwKICAgICAgIm1pbiI6MAogICAgIH0sCiAgICAgInJzaCI6MCwKICAgICAicnNocCI6MTAwLAogICAgICJvYmYiOmZhbHNlLAogICAgICJ0YWdzIjp7fQogIH0KfQ.FJs_CfNdS_ZqCvgXNfCkxOhA0IVv_kcnCs1tUGw1pQY#b9f72d6ba674074c93cd135f1024da17b960618dfa655653740e818206c9d013
+https://ec05-pop1-hlc.tv360.vn:443/bpk-token/g32iyfhuu2ibj3zydr6dp5emcq3pjdau/bpk-tv/166/output/index.m3u8?bkm-query&auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJleHAiOjE3OTUwMDQwMTIsCiAgImlzcyI6ImJrbSIsCiAgInZlciI6IjEuMCIsCiAgImlhdCI6MTc5NDk4MjI5MywKICAic3IiOnsKICAgICAidmVyIjoiMi4wIiwKICAgICAic25hIjoiMTY2X0hMUyIsCiAgICAgInBuYSI6IlZpZXR0ZWwiLAogICAgICJybmEiOiIiLAogICAgICJwbiI6IlBPUC1ITi1QT1AxIiwKICAgICAiZW4iOiJFREdFLUhOLVBPUDEiLAogICAgICJjYyI6IlVTIiwKICAgICAicmMiOiJJQSIsCiAgICAgImFjbiI6IkNPUkUtSE4tUE9QMSIsCiAgICAgImlzcCI6Ik1pY3Jvc29mdCBBenVyZSIsCiAgICAgImFzbiI6IjgwNzUiLAogICAgICJ2cyI6IkJLUzQwMC1QT1AxLTA1XzE3Mi4yNC4xNy44OjIwMDAwIiwKICAgICAibnQiOiJPVFQiLAogICAgICJ0dHAiOjAsCiAgICAgInBsaWQiOiIiLAogICAgICJwdWlkIjoiIiwKICAgICAidGVpZCI6IiIKICB9LAogICJvdCI6ewogICAgICJ0cyI6MTc5NDk4MjI5MywKICAgICAidXJsIjoiL2Jway10di8xNjYvb3V0cHV0L2luZGV4Lm0zdTg_bWlucmF0ZT0wJm1heHJhdGU9MTIwMDAwMDAiLAogICAgICJ0b2siOiJnMzJpeWZodXUyaWJqM3p5ZHI2ZHA1ZW1jcTNwamRhdSIsCiAgICAgImV4dCI6IiIsCiAgICAgImNpcCI6IjIwLjg0LjE1MC4yMTMiLAogICAgICJjaGsiOiBmYWxzZSwKICAgICAic3R0IjoiTk8iLAogICAgICJkc2NwIjowLAogICAgICJzdiI6ewogICAgICAgICJpZCI6IjE2Nl9ITFMiLAogICAgICAgICJ0eXAiOiJMSVZFIgogICAgIH0sCiAgICAgInRvIjp7CiAgICAgICAgCiAgICAgICAgIAogICAgICAgICJzdSI6MCwKICAgICAgICAicmMiOjE1MAogICAgIH0sCiAgICAgImxheSI6IHsKICAgICAgImxzdCI6W10sCiAgICAgICJtYXgiOjEyMDAwMDAwLAogICAgICAibWluIjowCiAgICAgfSwKICAgICAicnNoIjowLAogICAgICJyc2hwIjoxMDAsCiAgICAgIm9iZiI6ZmFsc2UsCiAgICAgInRhZ3MiOnt9CiAgfQp9.gAUwydSIuiQ45OtqZHClNoJqNdZc85MQ_7hCb_QFBHM#b9f72d6ba674074c93cd135f1024da17b960618dfa655653740e818206c9d013
 #EXTINF:-1 tvg-id="kvartal.tv.international" tvg-name="Kvartal TV International" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Russian, Ukrainian" group-title="Entertainment",Kvartal TV International
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8#2799cce6bedca57ed6f5fc6b0ff14de6bf2d3ae45d6d48eb49f3d1a8a034f441
-#EXTINF:-1 tvg-id="liv" tvg-name="Liv" tvg-logo="" tvg-country="🇫🇮 Finland" tvg-language="Finnish" group-title="Entertainment",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?hd=true#757412507b4d7ecfa613caa8778264d23a4be73731a28d025283957ae33c8b5e
-#EXTINF:-1 tvg-id="ltv7" tvg-name="LTV7" tvg-logo="" tvg-country="🇱🇻 Latvia" tvg-language="Latvian" group-title="Entertainment",LTV7 [1080p]
-http://stream.mcquack.net/371/index.m3u8#e6e3b7662adef034693e3a0e6b43145a932b4e42e2b909565ae81a60b4d38ade
-#EXTINF:-1 tvg-id="maxivisi.n.tv" tvg-name="Maxivisión TV" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="Entertainment",Maxivisión TV
-https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8#157a7614cefce5ea245b701b1b8738df6f4bae5e07dbfa1295eacadfce30de1d
 #EXTINF:-1 tvg-id="mbc.america" tvg-name="MBC America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean, English" group-title="Entertainment",MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
 #EXTINF:-1 tvg-id="mbc.persia" tvg-name="MBC Persia" tvg-logo="" tvg-country="🇦🇪 United Arab Emirates" tvg-language="Persian" group-title="Entertainment",MBC Persia
 https://hls.mbcpersia.live/hls/stream.m3u8#05fb070a9a3eefb969d888408f97f4bc07e632c364b5be2feb421a92535c3b2a
 #EXTINF:-1 tvg-id="mc.tv" tvg-name="MC TV" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Turkish, German" group-title="Entertainment",MC TV [720p]
-https://n1.cdn.jetstre.am/session/a6a52d43958f7b0804d2d88101f7a922/sz/mceutv/wowza4/live/mc2/playlist.m3u8?token=KiuIgi0tcwsIS7RgdWwwnA&time=1794976294#f50313e6800d0e86b52297de33b7419013f27316132baa2dc84e3e80bf478f4d
-#EXTINF:-1 tvg-id="metro.tv" tvg-name="Metro TV" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Entertainment",Metro TV
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8#ffdff264784d29a3af10c807144391368e6f7c70386344c1686b5a518a51d2ba
-#EXTINF:-1 tvg-id="m.s.talk" tvg-name="Más Talk" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Entertainment",Más Talk [1080p]
-https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8#d57728e0ce15572ba6a4ea5ce61f210cde6f5390260ad3bb577cf63e57b56c04
-#EXTINF:-1 tvg-id="popu.tv" tvg-name="Popu TV" tvg-logo="" tvg-country="🇵🇾 Paraguay" tvg-language="Spanish" group-title="Entertainment",Popu TV
-https://sesion.desdeparaguay.net/hls/playlist.m3u8#b4bcf85691943886f0a29794588df24ef19d830cc35f6e170b2eff191a6e1b55
+https://n1.cdn.jetstre.am/session/76be6c2b7e8e56fc7e867f8af27508d0/sz/mceutv/wowza4/live/mc2/playlist.m3u8?token=96DBSWdmSQgsnxx4Tg0Rtw&time=1794982599#f50313e6800d0e86b52297de33b7419013f27316132baa2dc84e3e80bf478f4d
 #EXTINF:-1 tvg-id="remonty.tv" tvg-name="Remonty TV" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Polish" group-title="Entertainment",Remonty TV [1080p]
 https://prx-y5cf8.4vod.tv/playout/repl-abr67/index.m3u8#64d5787e798d390972325e44d79fc78f4b5b052765eb89ea98b9c9403283d929
 #EXTINF:-1 tvg-id="roar" tvg-name="Roar" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",Roar [1080p]
 https://fast-channels.sinclairstoryline.com/TBD/index.m3u8#f053390704063dce3ff5fb5c2a3658132de3b9c28fd5187485c93dde5f68d505
 #EXTINF:-1 tvg-id="rotv.valencia" tvg-name="ROTV Valencia" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Romanian" group-title="Entertainment",ROTV Valencia
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8#e1ef76018c9b0005bd7c2a5f04c88f4fc26258d5da9cff37a475248ffbe36398
+#EXTINF:-1 tvg-id="soltv" tvg-name="SolTV" tvg-logo="" tvg-country="🇬🇶 Equatorial Guinea" tvg-language="Spanish" group-title="Entertainment",SolTV
+https://stream.solmediaeg.com/soltv/soltv.m3u8#9aec539f0e35cdc21ba9a5c937faf1744cf3a9d093cf94ceac0293c3e1e0e655
+#EXTINF:-1 tvg-id="star.international" tvg-name="STAR International" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Entertainment",STAR International [1080p]
+https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8#b1297f8c0749aee7fb78ca50a575ccdc3663654e5e7b64c81bd6f323a19f691f
 #EXTINF:-1 tvg-id="star.maa.hd" tvg-name="Star Maa HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Star Maa HD
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
 #EXTINF:-1 tvg-id="star.vijay" tvg-name="Star Vijay" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English" group-title="Entertainment",Star Vijay [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
-#EXTINF:-1 tvg-id="tarang.tv" tvg-name="Tarang TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Oriya" group-title="Entertainment",Tarang TV [720p]
-https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8#eb5b8dde2a95b8c079e993134b8fd969eefd419e0e8cbc53f6d01afaf6ec2e49
 #EXTINF:-1 tvg-id="telemas" tvg-name="TeleMas" tvg-logo="" tvg-country="🇨🇷 Costa Rica" tvg-language="Spanish" group-title="Entertainment",TeleMas
 https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8#807a5e980c91976f183c249b6658794cdf5fefd2360edec6baa97c6bf817b7f2
-#EXTINF:-1 tvg-id="this.is.bulgaria.hd" tvg-name="This is Bulgaria HD" tvg-logo="" tvg-country="🇧🇬 Bulgaria" tvg-language="Bulgarian" group-title="Entertainment",This is Bulgaria HD [1080p]
-https://streamer103.neterra.tv/thisisbulgaria/live.m3u8#6862ae209aa7398e9a0e1697a9fcaa9314fce699f95d9195f7f1571a614b1acc
 #EXTINF:-1 tvg-id="time.line" tvg-name="Time Line" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",Time Line [720p]
 https://timeline-samsung-uk.amagi.tv/playlist.m3u8#7f089c9fd8c45f903dabd8ca475d04637938b1d44f640b36b2053319f4d99136
-#EXTINF:-1 tvg-id="tin.tv" tvg-name="Tin TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Persian" group-title="Entertainment",Tin TV [720p]
-https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8#3b907861c119bc1f7c3ce8e0963efad04a7540a2c3719b34b3010fa0f80ba901
-#EXTINF:-1 tvg-id="tv.curu.a" tvg-name="TV Curuça" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="Entertainment",TV Curuça
-https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8#6c042c9797a962fcd1e44fc464bac8328b510bf691246a921ce0925c7b544c5b
 #EXTINF:-1 tvg-id="tv.nova" tvg-name="TV Nova" tvg-logo="" tvg-country="🇭🇷 Croatia" tvg-language="Croatian" group-title="Entertainment",TV Nova
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8#3dea0caaaf960dcfd2f2265fbbdb8a120fdf5d01249c8dcd48c4e4260a0312a5
-#EXTINF:-1 tvg-id="tvi.reality" tvg-name="TVI Reality" tvg-logo="" tvg-country="🇵🇹 Portugal" tvg-language="Portuguese" group-title="Entertainment",TVI Reality [720p]
-https://video-auth7.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMTcvMjAyNiAxMToyNTo1MiBQTSZoYXNoX3ZhbHVlPU94Z2xpMzdIZFFZMkQvaVp6M0lsVWc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD00NTMyMjdjYi03ZDA4LTRhZDQtOTVhYy1mMzg5NjYzMDg5OTI=
-#EXTINF:-1 tvg-id="univers.tv" tvg-name="Univers TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Entertainment",Univers TV [720p]
-https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8#f23e13888104575ce9f27137c20f2929344d99722bf1335e5fbd0e9dcfdf6428
 #EXTINF:-1 tvg-id="vb.media.tv" tvg-name="VB Media TV" tvg-logo="" tvg-country="🇲🇽 Mexico" tvg-language="Spanish" group-title="Entertainment",VB Media TV [576p]
 https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8#b00c7431b2243bf25da5c58b9de7f68474735366b8b5b33be2ca7a96bc7817f7
 #EXTINF:-1 tvg-id="vergina.tv" tvg-name="Vergina TV" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="News",Vergina TV
@@ -137,9 +101,11 @@ https://cloudvideo.servers10.com:8081/8130/index.m3u8#e5c93a0d56fbfe1213192f650c
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8#fe2f01b23be11c15eb3a524758d5904eee1f8b9ad24c1f44d4a3c5eac811033f
 #EXTINF:-1 tvg-id="yourtime.tv" tvg-name="YourTime TV" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Entertainment",YourTime TV
 https://live.yourtime.tv/hls/stream.m3u8#179c2e407aa62a64a1c3ff00ae7190a489be568123949cb707553f9b63b2a363
-#EXTINF:-1 tvg-id="yta.tv" tvg-name="YTA TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",YTA TV [720p]
-https://yta.unitedteleports.tv/hls/YTA.m3u8#e8917337a270d56bf8a1b4b44bc6b9cf3b49030097364194c75cae227af6d2ec
+#EXTINF:-1 tvg-id="zee.one" tvg-name="Zee One" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="French, German, English" group-title="Entertainment",Zee One [1080p]
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
 #EXTINF:-1 tvg-id="zee.tamil.hd" tvg-name="Zee Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="Entertainment",Zee Tamil HD [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
 #EXTINF:-1 tvg-id="zee.telugu.hd" tvg-name="Zee Telugu HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Telugu" group-title="Entertainment",Zee Telugu HD [720p]
-https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeetelugu.smil/chunklist_b2628000.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
+#EXTINF:-1 tvg-id="tv" tvg-name="Ланет.TV" tvg-logo="" tvg-country="🇺🇦 Ukraine" tvg-language="Ukrainian" group-title="Entertainment",Ланет.TV
+https://kiev1-cdn.lanet.tv/live/1008.m3u8#2d0765e08582406c65153abeb9edf6a4121462104a9fe8721f77372f74c7b6ad

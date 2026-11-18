@@ -1,38 +1,24 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTINF:-1 tvg-id="9x.jalwa" tvg-name="9X Jalwa" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",9X Jalwa [1080p]
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8#619370077adbf3e87005acd3591534154c7adac5faa34149425c52c79c115422
 #EXTINF:-1 tvg-id="9xm" tvg-name="9XM" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",9XM [1080p]
 https://wiselp.wiseplayout.com/9XM/master.m3u8#d0fe652259faae3665179e362958ecdc5a39f505b3ee84a58c8b208706c6635a
-#EXTINF:-1 tvg-id="aaj.tak" tvg-name="Aaj Tak" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Aaj Tak [720p]
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-791258/master.m3u8#07e7b346e5476fabe6b6aee123ae377db7b628f8ab3f563431a7d1d52e3a221f
-#EXTINF:-1 tvg-id="abn.tv.india" tvg-name="ABN TV India" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Hindi" group-title="🇺🇸 United States",ABN TV India
-https://mediaserver.abnvideos.com/streams/abntvindia.m3u8#4e73b64e368228d0d0453f574c71df2f31059601e3ff63f69519c8848d8bbec5
-#EXTINF:-1 tvg-id="abp.news" tvg-name="ABP News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English" group-title="News",ABP News [1080p]
-https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8#d097653bffc1eeafc28d4c32bf05451cce01aaf34307cc8445b736f9d86947d9
+#EXTINF:-1 tvg-id="aaj.tak.hd" tvg-name="Aaj Tak HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Aaj Tak HD [1080p]
+https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8#b6fdd9f4ad2ba09853196befc2f15515a1fd6585550af0a1404adc3bf748c131
 #EXTINF:-1 tvg-id="all.time.movies" tvg-name="All Time Movies" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",All Time Movies
 https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8#bddb418ba66ffe9dd8bce0cc4b13436340ac9ef230ff582cc5782114c3bd07e7
-#EXTINF:-1 tvg-id="anb.news" tvg-name="ANB News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",ANB News [720p]
-https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8#50940d188eff401a783e1d35dc6b189ea176a4a281c8441941ea6778891ad2ec
-#EXTINF:-1 tvg-id="anjan.tv" tvg-name="Anjan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="Entertainment",Anjan TV [1080p]
-https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8#5f3a47740a13a3ad39f0043aa4ccb40e0555a8df6895f81d01d90fb35cd45a88
-#EXTINF:-1 tvg-id="atn.samachar" tvg-name="ATN Samachar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",ATN Samachar [1080p]
-https://newsliveindia.com:4433/atn/index.m3u8#28da1b97a41b8af5531c73a0f9f2ebfef3b938727d2ef16e444388b3ef4df071
+#EXTINF:-1 tvg-id="awaaz.india.tv" tvg-name="Awaaz India TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Awaaz India TV
+https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8#504bb5a084ba67cca549f44e25191daff3696fafbe3a379ab073abdb92639337
 #EXTINF:-1 tvg-id="b4u.kadak" tvg-name="B4U Kadak" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",B4U Kadak [720p]
 https://streams.tangotv.in/B4UKADAK/ORIGIN/index.m3u8#d80747b1cadf024178183ad5e3f27758511f218a45ca09ae67f1b4b068f947eb
 #EXTINF:-1 tvg-id="b4u.music" tvg-name="B4U Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",B4U Music [720p]
 https://streams.tangotv.in/B4UMUSIC/ORIGIN/index.m3u8#1f058f51abb8be659e5a8661ec81da513458737b15792659556423403dc6c835
-#EXTINF:-1 tvg-id="bharat.samachar" tvg-name="Bharat Samachar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Bharat Samachar
-https://d1msejlow1t3l4.cloudfront.net/fta/bharatsamachar/playlist.m3u8#674900e71307980e580f3f4ac888be1f73ad5d655460afda0d2a33f6142bc793
 #EXTINF:-1 tvg-id="bollywood.classic.romania" tvg-name="Bollywood Classic Romania" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian, Hindi, Russian" group-title="🇷🇴 Romania",Bollywood Classic Romania
 https://hls02ns.antenaplay.ro/hls/bollywood-sd/index.m3u8#6873df5da26888c2556b501aad7cccf94df6319e661f686322fdf8fc765c534f
 #EXTINF:-1 tvg-id="bollywood.hd.russia" tvg-name="Bollywood HD Russia" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Hindi, English, Romanian, Russian" group-title="🇷🇴 Romania",Bollywood HD Russia [1080p]
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8#8d55bba503a79e7a8d970629c9eb7526bdf855b65e53b5740decc873ffdb2985
-#EXTINF:-1 tvg-id="channel.y" tvg-name="Channel Y" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Channel Y [1080p]
-http://cdn19.live247stream.com/channely/tv/playlist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
-#EXTINF:-1 tvg-id="cnews.bharat" tvg-name="Cnews Bharat" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="UNDEFINED A1" group-title="🇮🇳 India",Cnews Bharat [720p]
-https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8#2b5be13739b550d5baf08f1a3d2b856a49f8dee7a111c9942abb01149612f7ea
 #EXTINF:-1 tvg-id="colors" tvg-name="Colors" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Colors
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsaudev.smil/chunklist_b1928000.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ColorsAPAC.m3u8#93750b042aee5426120ffd1a0499bb82fed37ad421ee68453c5c7049a633c4a6
 #EXTINF:-1 tvg-id="colors.mena.hd" tvg-name="Colors MENA HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="Entertainment",Colors MENA HD [720p]
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
 #EXTINF:-1 tvg-id="colors.rishtey.americas" tvg-name="Colors Rishtey Americas" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Colors Rishtey Americas
@@ -43,7 +29,7 @@ https://streams.tangotv.in/DANGAL2/ORIGIN/index.m3u8#014c891234661f10c782729ae18
 https://streams.tangotv.in/DDNATIONALHD/ORIGIN/index.m3u8#1e56a459ebf1b73613310c65d3d94ecc7d369d0875e245dd42c337e479b9146d
 #EXTINF:-1 tvg-id="dd.news" tvg-name="DD News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",DD News [720p]
 https://streams.tangotv.in/DDNEWS/ORIGIN/index.m3u8#9c969eee7f9845ee6ebeb4bf2cbc79c0b72c93cd6875c6fcb05a56eb8ce244b8
-#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG" group-title="🇮🇳 India",DD Sports HD [1080p]
+#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Bhojpuri, Sign Languages, Telugu, Hindi, English, Kannada, Bengali" group-title="🇮🇳 India",DD Sports HD [1080p]
 https://cdn.pishow.tv/ott/live/1161/master.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
 #EXTINF:-1 tvg-id="dheeran.tv" tvg-name="Dheeran TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Dheeran TV [576p]
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8#cd204338ca966287fef09ee6ea5250007f4d0171d5a237dfbdbe77c6180d464a
@@ -55,38 +41,26 @@ https://streams.tangotv.in/EPICMUSIC/ORIGIN/index.m3u8#270f905bc79265298aa5d8c94
 https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8#50dc3e89dbbebffb3f76d164dfb72cc89dfc3351d7c1a99428ad1ef647142031
 #EXTINF:-1 tvg-id="gursikh.sabha.tv" tvg-name="GurSikh Sabha TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",GurSikh Sabha TV
 http://cdn12.henico.net:8080/live/gsctv/index.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
-#EXTINF:-1 tvg-id="hindi.khabar" tvg-name="Hindi Khabar" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Hindi Khabar
-https://d1msejlow1t3l4.cloudfront.net/fta/hindikhabar/playlist.m3u8#9e8755ac489135513471d83c384399df395ef1980305c397c0213b1e87532b42
-#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="ENG, HIN" group-title="Documentary",History TV18 HD [1080p | Audio: ENG/HIN]
-https://n18syndication.akamaized.net/bpk-tv/History_HD_NW18_MOB/output01/History_HD_NW18_MOB-video=2293600.m3u8
+#EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Telugu" group-title="Documentary",History TV18 HD [1080p]
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
 #EXTINF:-1 tvg-id="hyder.tv" tvg-name="Hyder TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Hyder TV [720p]
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8#4098c39a5f541cd86565e03fead0428ad152d07ccba7c3763db0cc82ac3d1532
-#EXTINF:-1 tvg-id="inh.24x7" tvg-name="INH 24x7" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Chhattisgarhi" group-title="News",INH 24x7
-https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
 #EXTINF:-1 tvg-id="kabaddi.24x7" tvg-name="Kabaddi 24x7" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Kabaddi 24x7 [720p]
 https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8#6cce23d3881cf69340e5473c3bae32db66386cdf80ead705c7d85a2bc4e14cb6
 #EXTINF:-1 tvg-id="kanshi.tv" tvg-name="Kanshi TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",Kanshi TV [720p]
 https://live.kanshitv.co.uk/mobile/kanshitvkey.m3u8#71af15c656f3d276c352fccb3603074e6b109ee70087937a1b8fe2be020207f8
-#EXTINF:-1 tvg-id="khabrain.abhi.tak" tvg-name="Khabrain Abhi Tak" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",Khabrain Abhi Tak
-https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8#22a5cec85e415b97257554c7b31618d5abcf50cebec3138fefbdfa11cf196c3b
 #EXTINF:-1 tvg-id="lighting.lives.blessing.nations.tv.south.asia.llbn" tvg-name="Lighting Lives Blessing Nations TV South Asia (LLBN)" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Hindi" group-title="🇺🇸 United States",Lighting Lives Blessing Nations TV South Asia (LLBN) [480p]
 https://brightstar-southasia-pull-secure.akamaized.net/brightstarsouthasia/stream.m3u8#55ab467604873d00aa92fb98cde32c97f858803386bc284eab7725faa90577da
 #EXTINF:-1 tvg-id="mango" tvg-name="Mango" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Mango
 https://stmv6.voxtvhd.com.br/cinehindi/cinehindi/playlist.m3u8#957d0a3406bbcf5dd2d5faab6b5286e81c2c0fcc18ecae27e2b268e2df4fa483
-#EXTINF:-1 tvg-id="mbc.bollywood" tvg-name="MBC Bollywood" tvg-logo="" tvg-country="🇦🇪 United Arab Emirates" tvg-language="AR" group-title="🇦🇪 United Arab Emirates",MBC Bollywood [1080p]
+#EXTINF:-1 tvg-id="mbc.bollywood" tvg-name="MBC Bollywood" tvg-logo="" tvg-country="🇦🇪 United Arab Emirates" tvg-language="English, Hindi, Arabic" group-title="🇦🇪 United Arab Emirates",MBC Bollywood [1080p]
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8#98cd587e0d8f7bcf01f6db7fd1eb731923a9fe06525b4a1528a5fd4e82dba34c
 #EXTINF:-1 tvg-id="music.india" tvg-name="Music India" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Music India [720p]
 https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8#0c8026431e1f9935451d77f27461a6054a5ea911e01b49e92f4a8af192d1cc15
-#EXTINF:-1 tvg-id="ndtv.good.times" tvg-name="NDTV Good Times" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English, Hindi" group-title="🇮🇳 India",NDTV Good Times
-https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d
 #EXTINF:-1 tvg-id="ndtv.madhya.pradesh.chhattisgarh" tvg-name="NDTV Madhya Pradesh Chhattisgarh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",NDTV Madhya Pradesh Chhattisgarh [1080p]
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8#b573c75e8c0b079294be77bd7e23d970bc75e31d6ddbce85912c233e50392b55
 #EXTINF:-1 tvg-id="ndtv.rajasthan" tvg-name="NDTV Rajasthan" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",NDTV Rajasthan [1080p]
 https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8#c2f15f6d9169aeea9d46c8200cbade5e273d82b260f7662c539e489e3b07fa70
-#EXTINF:-1 tvg-id="news.1.india" tvg-name="News 1 India" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="News",News 1 India
-https://d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8#07de4ba7697cb0d08a16ce2f8dc9d64303db591438f04e387f78e3f191e2bc8d
-#EXTINF:-1 tvg-id="news.11" tvg-name="News 11" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News 11
-https://d1msejlow1t3l4.cloudfront.net/fta/news11bharat/playlist.m3u8#ae973a28ed44fda59b91f1bbba0774c1d8386a6a62bf37bb10c6e6f379d3d5ef
 #EXTINF:-1 tvg-id="news18.bangla" tvg-name="News18 Bangla" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News18 Bangla [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8#263f91b7d13fd8ee2aecce4c487de52856282f3d57ad36c37f454f9228837307
 #EXTINF:-1 tvg-id="news18.india" tvg-name="News18 India" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News18 India [1080p]
@@ -101,40 +75,26 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/ou
 https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8#088f331b0ed8c8a66bee3f918521bc92aba72f058ec7600000490e221a05015d
 #EXTINF:-1 tvg-id="news18.uttar.pradesh.uttarakhand" tvg-name="News18 Uttar Pradesh Uttarakhand" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",News18 Uttar Pradesh Uttarakhand [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8#64069b6be14f7344d749e0d004b8e14899ad489bc9b699d3ef147db6b8a15501
+#EXTINF:-1 tvg-id="rt.documentary.russian" tvg-name="RT Documentary Russian" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="English, Hindi, Russian" group-title="Documentary",RT Documentary Russian [720p]
+https://streaming.thestream.cyou/live/554.m3u8#c4f73e674200b71372a9517d134207b127831733fb2f1a2035a0ca521c8d8719
 #EXTINF:-1 tvg-id="sadhna" tvg-name="Sadhna" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Sadhna
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8#9919e2570f2cc49e423af005b54400cbee53df825140f4717bd124184a139008
-#EXTINF:-1 tvg-id="sansad.tv.1" tvg-name="Sansad TV 1" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English" group-title="🇮🇳 India",Sansad TV 1 [720p]
-https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8#99a327adcc479193f310fbc59f6ccbb65d28d6826c8c2a0d51a07eb7485c50e1
-#EXTINF:-1 tvg-id="sansad.tv.2" tvg-name="Sansad TV 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi" group-title="🇮🇳 India",Sansad TV 2 [1080p]
-https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8#f81fdb9b90f7d98c36bdc1d53d5328335fbb415b83f236a8153d3a1f5e2c0bbf
-#EXTINF:-1 tvg-id="shemaroo.josh" tvg-name="Shemaroo Josh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Shemaroo Josh [720p]
-https://mumt04.tangotv.in/m18aqlK4SHEMAROOJOSH/index.m3u8#ba4598e2204788cf3fb2f6f612f4d6abaecc3afb95440e19123665f2725360c1
 #EXTINF:-1 tvg-id="shubhsandesh.tv" tvg-name="Shubhsandesh TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Shubhsandesh TV
 https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8#0dad60d796120ca9de2af9362ece7ae10f34170a241cec58cf9edde3109a45ef
 #EXTINF:-1 tvg-id="south.station" tvg-name="South Station" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",South Station [1080p]
 https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8#9be97852e19a76380fe422263b8b235f0dda2868c961ca515e14afeff9e52d3b
-#EXTINF:-1 tvg-id="sudarshan.news" tvg-name="Sudarshan News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Sudarshan News
-https://d1msejlow1t3l4.cloudfront.net/fta/sudarshan/playlist.m3u8#ab6a4a06b45f367b7f0c8ea95dd8256ec98845a3b44c61dc5ebc293fd9f89fe0
-#EXTINF:-1 tvg-id="svbc.4" tvg-name="SVBC 4" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",SVBC 4 [1080p]
-https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8#9f8d86b5297d18e0f36265ae9558ff8cd573b53f59ef4034ecc0ad8479d7370d
 #EXTINF:-1 tvg-id="taaza.tv" tvg-name="Taaza TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Taaza TV [1080p]
 https://live.we2live.in/taazatv/live/playlist.m3u8#f1cf77d24f71b7cda6fc74e02292a2df095d1118d7fa64d95656fb9d2ab7e2d5
 #EXTINF:-1 tvg-id="tbn.tv" tvg-name="TBN TV" tvg-logo="" tvg-country="🇸🇷 Suriname" tvg-language="Hindi, English, Dutch" group-title="🇸🇷 Suriname",TBN TV [720p]
 https://live.suricloud.com/hls/tbntv/index.m3u8#5832ef5c5e7009a9eba09c9bd3096e79f3b1cb03f00d77ce14c4f1779d426ab1
 #EXTINF:-1 tvg-id="the.jungle.book" tvg-name="The Jungle Book" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",The Jungle Book [1080p]
 https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8#6388f8ca7c58b172e7ed23d6343502861b37a4b5c05212105e9eb1afdcfc96b3
-#EXTINF:-1 tvg-id="times.now.navbharat" tvg-name="Times Now Navbharat" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Times Now Navbharat [1080p]
-https://d1rc86nwwc9fag.cloudfront.net/v1/vglive-sk-717514/timesnow_navbharat_3500k.m3u8
 #EXTINF:-1 tvg-id="tnp.news" tvg-name="TNP News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",TNP News [720p]
 https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8#b5ef56d17cd93d5b2726feb61d527ffefdaeaa9f971d6f10195699640c6f5d86
-#EXTINF:-1 tvg-id="total.tv.haryana" tvg-name="Total TV Haryana" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Total TV Haryana
-https://d1msejlow1t3l4.cloudfront.net/fta/totaltv/playlist.m3u8#02648b69e10d279ae8c0fbf09ea59a227cf68067c60dc29aa68dbd16db8fb5ca
 #EXTINF:-1 tvg-id="travelxp.hd" tvg-name="Travelxp HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Bengali, Tamil" group-title="🇮🇳 India",Travelxp HD [1080p]
 http://stream.mcquack.net/451/index.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
 #EXTINF:-1 tvg-id="unique.tv" tvg-name="Unique TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Unique TV [720p]
 https://mumt05.tangotv.in/87NeALx2UNIQUETV/index.m3u8#72a60e64b01d1571e9a13ed3b8784cfbc8eaf0cb52f8e6d1c4ef4be1e88887ad
-#EXTINF:-1 tvg-id="utsav.plus" tvg-name="Utsav Plus" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",Utsav Plus [720p]
-https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 tvg-id="weatherspy" tvg-name="Weatherspy" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Weatherspy [720p]
 https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8#dd239e1d95f6b03c0e34bf3ae8c39fc9b63a52d977c9253230b03416fe25914a
 #EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz [720p]
@@ -142,6 +102,10 @@ https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil [720p]
 https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
 #EXTINF:-1 tvg-id="zee.cinema.apac" tvg-name="Zee Cinema APAC" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Zee Cinema APAC [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeecinemaapachd.smil/chunklist_b2628000.m3u8
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8#8fb3fcbfa28ab082b522ab712072cd6418e4eca7691df746b9c601a178ac288e
+#EXTINF:-1 tvg-id="zee.delhi.ncr.haryana" tvg-name="Zee Delhi NCR Haryana" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Zee Delhi NCR Haryana [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8#0c8a1ce5782cb5730b7719ce3b7dd33fa833292b86f6ebd1a006548d9eac296e
+#EXTINF:-1 tvg-id="zee.madhya.pradesh.chhattisgarh" tvg-name="Zee Madhya Pradesh Chhattisgarh" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Zee Madhya Pradesh Chhattisgarh [720p]
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8#efed2929493811a5d6e47381241192799a23aba268131f7a9676a3c082b06ce0
 #EXTINF:-1 tvg-id="zee.news" tvg-name="Zee News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi" group-title="🇮🇳 India",Zee News [1080p]
 https://dt3lrqnyx3dks.cloudfront.net/index.m3u8#30003ac6744701a604d9523ccbc42d1524dab8d2f4e3d0bd4ee5e66bda723ff8
