@@ -4,7 +4,7 @@ https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8#759a3dd4
 #EXTINF:-1 tvg-id="30a.tv.classic.movies" tvg-name="30A TV Classic Movies" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",30A TV Classic Movies [720p]
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7ab81c013a1d839e74ae12ba8db5151b
 #EXTINF:-1 tvg-id="48.hours" tvg-name="48 Hours" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",48 Hours [1080p]
-https://dai.google.com/linear/hls/pa/event/JUr94WL2QAiVpGNHY5n5dA/stream/7861bfa0-738c-4649-a9c3-a46f986e0cb2:MRN2/master.m3u8#653916db2506f37d62a4cdc40a2fcb98ecca9fb0266d100c37810322ca290ba0
+https://dai.google.com/linear/hls/pa/event/JUr94WL2QAiVpGNHY5n5dA/stream/0b8ac396-f6d3-47ba-826f-70a4226b5fc3:ATL/master.m3u8#653916db2506f37d62a4cdc40a2fcb98ecca9fb0266d100c37810322ca290ba0
 #EXTINF:-1 tvg-id="artflix.movie.classics" tvg-name="Artflix Movie Classics" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Artflix Movie Classics [720p]
 https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8#c627897c73ad5469b09e54740f64797477733d062567cd5f136721bb23bc11de
 #EXTINF:-1 tvg-id="avang.tv" tvg-name="Avang TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Persian" group-title="Music",Avang TV
@@ -16,7 +16,7 @@ https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8#44d8843a78187045e86ef4
 #EXTINF:-1 tvg-id="bein.sports.xtra.en.espanol" tvg-name="BeIN Sports XTRA en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Sports",BeIN Sports XTRA en Espanol [1080p]
 https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
 #EXTINF:-1 tvg-id="bloomberg.originals" tvg-name="Bloomberg Originals" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Bloomberg Originals [1080p]
-https://dai.google.com/linear/hls/pa/event/jKwfd4apQcuxQtyRI9Q6-Q/stream/db02e8c2-71c8-43e1-bad4-e648e97d53a6:CHS/master.m3u8#058eef50a4ecfe07b1553f00bce25eab332a0eb995518599fe51a6869ff10aa5
+https://dai.google.com/linear/hls/pa/event/jKwfd4apQcuxQtyRI9Q6-Q/stream/c4a4f590-957b-489b-9387-7cf7fd763551:TUL/master.m3u8#058eef50a4ecfe07b1553f00bce25eab332a0eb995518599fe51a6869ff10aa5
 #EXTINF:-1 tvg-id="bloomberg.tv.europe" tvg-name="Bloomberg TV Europe" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Bloomberg TV Europe [720p]
 https://www.bloomberg.com/media-manifest/streams/eu.m3u8#3a9e6f8954fb89d54dee351751f769949921f588ca1b5ffb40bb6d4f453b90b0
 #EXTINF:-1 tvg-id="brat.tv" tvg-name="Brat TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Brat TV [1080p]
@@ -32,9 +32,7 @@ https://gsn-cinevault-westerns-2-us.roku.wurl.tv/playlist.m3u8#c42474ae87391ee2e
 #EXTINF:-1 tvg-id="classic.cinema" tvg-name="Classic Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Classic Cinema
 https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8#9061b37a347e0e55bb8c6483aca5e86d4571bbfb1f12990f6759dcdfacc1bcce
 #EXTINF:-1 tvg-id="cnn" tvg-name="CNN" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",CNN [1080p]
-https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
-#EXTINF:-1 tvg-id="comedy.central" tvg-name="Comedy Central" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Comedy Central
-https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8#08acd2c3ca02310b8ffe77d62af7c5fbe8f2d064d97396bc13d263b7d7f86037
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8?route_version=v2#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
 #EXTINF:-1 tvg-id="comet" tvg-name="Comet" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Entertainment",Comet [1080p]
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
 #EXTINF:-1 tvg-id="cornerstone.tv" tvg-name="Cornerstone TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Cornerstone TV [720p]
@@ -42,7 +40,7 @@ https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8#2823b153f5
 #EXTINF:-1 tvg-id="dark.matter.tv" tvg-name="Dark Matter TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Dark Matter TV [1080p]
 https://tricoast-tv-dark-matter-01-us.ono.wurl.tv/playlist.m3u8#8ec920659e5ff45e771f5689ba4ca2554f139b10907e20e2778ffb4856b8530d
 #EXTINF:-1 tvg-id="daystar.tv" tvg-name="Daystar TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Daystar TV [1080p]
-https://hls-live-media-gc.cdn01.net/mpegts/232076_2222904/dJOlp47WOPzu9hXxgqnG7A/1798848000/master_mpegts.m3u8?via=direct&source=smarttv#7dc62aa51ed7a4963d9c3a9e3ea71970f4eeedda88f31200c935f72921caee28
+https://hls-live-media-gc.cdn01.net/mpegts/232076_2222904/dJOlp47WOPzu9hXxgqnG7A/1798848000/master_mpegts.m3u8?via=direct&source=smarttv#7a141c36349fc2cc3bb0e325f8164877dad62dfbb8b0ee5b7737417ceee0e8eb
 #EXTINF:-1 tvg-id="ebs.cinema" tvg-name="EBS Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Amharic" group-title="Movie",EBS Cinema [720p]
 https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8#98f7c577d8cbe0e93055d85c2e20eac3134bc0b2b94b0c4451f007cda95f7ebd
 #EXTINF:-1 tvg-id="filmrise.anime" tvg-name="FilmRise Anime" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",FilmRise Anime [720p]
@@ -66,8 +64,8 @@ https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3
 #EXTINF:-1 tvg-id="lighting.lives.blessing.nations.tv.korean.llbn" tvg-name="Lighting Lives Blessing Nations TV Korean (LLBN)" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean" group-title="🇺🇸 United States",Lighting Lives Blessing Nations TV Korean (LLBN) [480p]
 https://brightstar-korean-pull-secure.akamaized.net/brightstarkorean/stream.m3u8#25446d14564d2e966b4b0404b313cc6e38d2a09526df1f0a1f373a9851990b6c
 #EXTINF:-1 tvg-id="livenow.from.fox" tvg-name="LiveNOW from FOX" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",LiveNOW from FOX [720p]
-https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8?route_version=v2#a1315feaaea593f6499ac717137d096c20e70075e75e2d601c44875982824ec0
-#EXTINF:-1 tvg-id="mbc.america" tvg-name="MBC America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean, English" group-title="Entertainment",MBC America
+https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8#a1315feaaea593f6499ac717137d096c20e70075e75e2d601c44875982824ec0
+#EXTINF:-1 tvg-id="mbc.america" tvg-name="MBC America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean, English" group-title="Music",MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
 #EXTINF:-1 tvg-id="moviesphere" tvg-name="MovieSphere" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",MovieSphere [1080p]
 https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8#d6a7a84f19480a7145eb4621ca4ef5650bacf0ce1e1839644c607e1d3c33742e
@@ -107,7 +105,7 @@ https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8#929f1a7d7781da937ec8e123658f5cfdbc007c08542e891015c421e25bc91ea2
 #EXTINF:-1 tvg-id="vtn.victory.television.network" tvg-name="VTN Victory Television Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",VTN Victory Television Network [720p]
 https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/playlist.m3u8#62d4c72dc0c83c6e3d93b5157ba3c04df082baa86a368a9c56165942a759d0c8
-#EXTINF:-1 tvg-id="whiplash.cinema" tvg-name="Whiplash Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Whiplash Cinema [720p]
-https://cdn.whiplash.cc/whiplash-cinema/index.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish, French, German, Italian" group-title="Sports",World Poker Tour [1080p]
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
 #EXTINF:-1 tvg-id="yu.gi.oh" tvg-name="Yu-Gi-Oh!" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Yu-Gi-Oh! [1080p]
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8#b628c28f7b9f7d5ef309c4f2b65255d353b63e15de42b09023dc5196b0f83c04

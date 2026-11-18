@@ -21,5 +21,3 @@ https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
 #EXTINF:-1 tvg-id="sky.racing.2" tvg-name="Sky Racing 2" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Sky Racing 2 [720p]
 https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
-#EXTINF:-1 tvg-id="ticker.news" tvg-name="ticker News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ticker News [1080p]
-https://live-hls-7agy.livepush.io/live_abr_cdn/nsitWAl1pTZtwca/emnmZbKZcO8RfwJR/index.m3u8#dd17f98965f37ea45d34fe7b05d66e7a12a39b3da3543cf0e288865225ff998a

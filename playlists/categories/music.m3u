@@ -11,6 +11,8 @@ https://cdn.streamlane.tv/hls/aghanitv/index.m3u8#98c49489663e7a2c0f1af48a3b50d6
 https://hls.avang.live/hls/stream.m3u8#edf426412ff83c4860f6bc133c681812a010e1b2cb581edb474c043b688a57cd
 #EXTINF:-1 tvg-id="city.tv" tvg-name="City TV" tvg-logo="" tvg-country="🇧🇬 Bulgaria" tvg-language="Bulgarian" group-title="Music",City TV [1080p]
 https://tv.city.bg/play/tshls/citytv/index.m3u8#64d2afe3ab69634ea5489d87fa8045e91eecad018e8d78f065be7c044968b482
+#EXTINF:-1 tvg-id="cmc.tv" tvg-name="CMC TV" tvg-logo="" tvg-country="🇭🇷 Croatia" tvg-language="Croatian" group-title="Music",CMC TV
+https://stream.cmctv.hr:49998/cmc/live.m3u8#8b268cb089b25c6b5147670963e593d9ff027d6540adf0f72369f49473795464
 #EXTINF:-1 tvg-id="company.tv" tvg-name="Company TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",Company TV [720p]
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8#578f0f0c7f4feb9a4fcdaf1393807be4d59dd70d7dcc0b6476381cfd16609b15
 #EXTINF:-1 tvg-id="cumbia.mix" tvg-name="Cumbia Mix" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Music",Cumbia Mix [720p]
@@ -19,18 +21,16 @@ https://cloud.tvomix.com/CUMBIAMIX/index.m3u8#9f7e935f084b94b6e3e284374b12505d4f
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8#d8636fe8874155df0d440abcfb92ab3bc6d36c3fc8cd4858594b12e14b5bd697
 #EXTINF:-1 tvg-id="dmf" tvg-name="DMF" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="Music",DMF [1080p]
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8#c2d1fd101c38f0fab1b7a1681677fcc3ba6293b98ec6aa4aab07020c58857cfe
-#EXTINF:-1 tvg-id="el.radio.9090.fm" tvg-name="El Radio 9090 FM" tvg-logo="" tvg-country="🇪🇬 Egypt" tvg-language="Arabic" group-title="Music",El Radio 9090 FM [480p]
-https://9090video.mobtada.com/hls/stream.m3u8#22391dfcf1f9f2e1c190e24e7e44709566b00f0a0d53f3ac9cf039e446678a40
 #EXTINF:-1 tvg-id="extra.tv" tvg-name="Extra TV" tvg-logo="" tvg-country="🇭🇷 Croatia" tvg-language="Croatian" group-title="Music",Extra TV
-https://streaming.social3.hr:443/auth/8NkU-BbnEuoGrMIzpfnjU5YYVp4Mg-Cglj6IDDQxvV7NSzyzv4Kk6dYkZSrLQLedaLbuJEPHpgBU84apxHoZXZAW9xtkQDgX5RR4_UHrdSq-3wseFtkqOpnpR0GBqyWznyGhnP2SL5JAuGgWONlZk1RQwkA4omjEKw_30ZQYm6YjoR26kB0KUYYlsyXCwCkwFoiNlGwpQNSBfrn3Bxoa0b96Gx5l0xLEpwh2PFvKGQvM6JaBTa1hcARWDLywKHGHbqfvhmfqx_s8AyrN3zReJ6ihssNB6l3C9FBpQRu9EdyGoCQCzpJ_DvnsQNvc6RAsuOrQ7SRw23LMAJXjWOoJkSJK3lbVmJdErStpfHzjDv4Xom0HAhfZnA-B-CuNrVoTr1-q_nlsIQwoRIYilUfDLHbrD2MXwNAeArqNR5ocye4dd9nL4JCLk44RTHRpx7ibxAEmD1BRx668T8VgJEfnLEq6_ZZEmNyAStzU3rfTQLUUJLplZO8ilkt30JxTNThTcFxFDKDQAYaZXvAVcxZtZnG9jSkszN9XepkF-XFqEqe-Oz3MBDbq4K9kAIfRDnsGnJPlMuh66S0FbYuqjFyAq5mgyXs8i0aBhqbu2F_fXEApE3nUgdbxVhKdiYrsQeMOnpVP8YIb_8rwVS8286WBkA#43ac52b8f3ec269d5c87509c90c797cc9fec89c30433f3acf6bbc3ba874dda49
+https://streaming.social3.hr:443/auth/8NkU-BbnEuoGrMIzpfnjU5YYVp4Mg-Cglj6IDDQxvV7NSzyzv4Kk6dYkZSrLQLedaLbuJEPHpgBU84apxHoZXZAW9xtkQDgX5RR4_UHrdSrgty44C2H_ocBxWnnc97hhH88H14WUpPVrkLMDIis5gepJZdp4vim8QNNRzImEWG_3x8ouvk7AHmXyJQ3OicRjZy8NCOTneXhBK0eXboxcgpZ8bdyoCDXJWzQmfHJg1bFouLFopjNpNulM5RVljXxyNXsxyCSKZTqkhAkyA02XZ1a05ia6JDVjHYhPcv2g0HMNqPLsdVWd95zVmDVVbxE75qvQcrwIxGprO9osNavLOTrrEPDcnCcbqJ8V34y05iti_x5bAzYztccciTD7e7IeRhQDg_6bflAPtwL5fzj6KPDO06E9julU481FLGBgwepsXxFM49ZfYVHJ4q1UmQUuxFAP4qWv52Bf873sRuSoAtAKx6S5tu-HMJ_nnMtAasEJ4DIc-xJyJUFNq1N3Da_cvA2f6NPCweyG-kw4FTZ_xJUXKkD-JaA3RXpebXZ9XFQEHEsFzSTZ1HQ7hyIh-YosWAuZHGjrIpyBl7VHJD77PdNHzeywH1vOcupB8bK4TCSuhi4jkOs_msdU1cTJJElf#43ac52b8f3ec269d5c87509c90c797cc9fec89c30433f3acf6bbc3ba874dda49
 #EXTINF:-1 tvg-id="folk.klub" tvg-name="Folk Klub" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="Macedonian" group-title="Music",Folk Klub [720p]
 http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a8df1eca018108f02cacdae5056626cec38
 #EXTINF:-1 tvg-id="fomixtv" tvg-name="FomixTV" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="Music",FomixTV [1080p]
 https://stream.fomixmedia.nl/FomixTV/video.m3u8#0965cb2266a0191540485499eee96474b5b12d1a21920efa8a93f651a997bd06
-#EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇺🇿 Uzbekistan" tvg-language="Uzbek" group-title="Music",FTV [1080p]
-https://stream8.cinerama.uz/1018/playlist.m3u8#a1cad0c403cee01c2139d31eec9f61dbfca6df5300f8c74683648790a62090ed
 #EXTINF:-1 tvg-id="gigant.fm" tvg-name="Gigant FM" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="Music",Gigant FM
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8#a76ed86d02cea5856ae15e012712dfb43721a92979c1554fb9c2a668494b72b9
+#EXTINF:-1 tvg-id="hitradio.o3" tvg-name="Hitradio O3" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="German" group-title="Music",Hitradio O3 [720p]
+https://studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/master.m3u8#fcc396095c82bd483840eef3c97857f7af77c631949d552dcaee3c87af6c0f31
 #EXTINF:-1 tvg-id="impact.tv.dance" tvg-name="Impact TV Dance" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="Music",Impact TV Dance
 https://online.tvimpact.live/hls/dancetv.m3u8#2076040bf2660570aa0b897c2afa3a7a6c05648a760b677f1203a5ac0ecb64e2
 #EXTINF:-1 tvg-id="impact.tv.manele" tvg-name="Impact TV Manele" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="Music",Impact TV Manele
@@ -39,11 +39,13 @@ https://online.tvimpact.live/hls/impact_tv.m3u8#c0f884c2d05d76ced1f6704f33f4c419
 https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8#4963f834009bfab072fd09ab61b9e20959646cbaf14f7d4460cd1ea69e978f64
 #EXTINF:-1 tvg-id="kiss.kiss.tv" tvg-name="Kiss Kiss TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",Kiss Kiss TV [720p]
 https://58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8#1a0519187f386138c1e2cc846577bbd03839781b8ba0956a50c32d8b9c64c8f6
+#EXTINF:-1 tvg-id="klape.i.tambure.tv" tvg-name="Klape i Tambure TV" tvg-logo="" tvg-country="🇭🇷 Croatia" tvg-language="Croatian" group-title="Music",Klape i Tambure TV
+https://stream.cmctv.hr:49998/kit/live.m3u8#d31e1953527e8d03105af26933b8ee6e4cc4d9a6b8ecccb86fbebd832b653d2a
 #EXTINF:-1 tvg-id="kronehit" tvg-name="Kronehit" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="German" group-title="Music",Kronehit [1080p]
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8#0234b6a217149b9d2c4ff19070f20b3ad061db897882a021a8f265ac2f1bd358
 #EXTINF:-1 tvg-id="m2o.tv" tvg-name="m2o TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",m2o TV [1080p]
-https://StreamCdnG3-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8#824ecd48a187c878d751c3de1b8a6bfe6f5a3747a13980ee88cbbe24f79a9609
-#EXTINF:-1 tvg-id="mbc.america" tvg-name="MBC America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean, English" group-title="Entertainment",MBC America
+https://StreamCdnE2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8#824ecd48a187c878d751c3de1b8a6bfe6f5a3747a13980ee88cbbe24f79a9609
+#EXTINF:-1 tvg-id="mbc.america" tvg-name="MBC America" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Korean, English" group-title="Music",MBC America
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
 #EXTINF:-1 tvg-id="muzangala.tv" tvg-name="Muzangala TV" tvg-logo="" tvg-country="🇦🇴 Angola" tvg-language="Portuguese" group-title="Music",Muzangala TV [1080p]
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8#7442e6db48ca7adae91a9412fd4dc14def3dee71a48105364fb1b7064e5d96d4
@@ -69,34 +71,34 @@ https://noshls.persiana.live/hls/stream.m3u8#ffe5d956c48a21241c4a2825eafcb6e766b
 https://pmchls.wns.live/hls/stream.m3u8#a462cba6816961fae972a96b59c334920c49e357a9d8cc41aa0704ea2312f661
 #EXTINF:-1 tvg-id="qmusic" tvg-name="Qmusic" tvg-logo="" tvg-country="🇳🇱 Netherlands" tvg-language="Dutch" group-title="Music",Qmusic [720p]
 https://live-streaming.dpgmedia.net/qmusic-nl-srt-y1xf5lha3ebd4eaq0tcup2rm6umy7/index.m3u8#f2aa97385eca47798aedda775898156af3ba1a1eca022e71f2a8ca916a16dba8
-#EXTINF:-1 tvg-id="qwest.tv" tvg-name="Qwest TV" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English" group-title="Music",Qwest TV [1080p]
-https://rakutenaa-qwestjazz-rakuten-7enhv.amagi.tv/playlist/rakutenAA-qwestjazz-rakuten/playlist.m3u8#2256aacf0c62928c1417a613362a80628b9b16ffdbd9db06617f06db30c59492
+#EXTINF:-1 tvg-id="radio.freccia.tv" tvg-name="Radio Freccia TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",Radio Freccia TV [1080p]
+https://streamcdnb1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8#8c7fe7e02e3fa963edfbd609aa659738f3a9c8f1dab2a354d011e618b17f2a06
 #EXTINF:-1 tvg-id="radio.javan.tv" tvg-name="Radio Javan TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Persian" group-title="Music",Radio Javan TV
 https://rjtvhls.wns.live/hls/stream.m3u8#5ea5f5b28477857a3f89de93d827d5c85707d488aea240ccee97deee63746985
 #EXTINF:-1 tvg-id="radio.piter.pan.tv" tvg-name="Radio Piter Pan TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",Radio Piter Pan TV [720p]
 https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8#c979c48e3061ec0955aa9851790a4acb4deb6835d89c50b0ca5cba2881925792
+#EXTINF:-1 tvg-id="retro.music.television" tvg-name="Retro Music Television" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Music",Retro Music Television [576p]
+https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8#40a48260f4d5c860235017e3372d449acf5e8b87fb8e9ea6d09051ba5a7e8e7b
 #EXTINF:-1 tvg-id="rock.tv" tvg-name="Rock TV" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="Music",Rock TV [720p]
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8#e5d07178bd371a4190f38fc0e054bddef1895bb3082cf41673d2ae6aa1e3d588
 #EXTINF:-1 tvg-id="rtl.102.5.best" tvg-name="RTL 102.5 Best" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",RTL 102.5 Best [1080p]
-https://StreamCdnG7-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8#12fe07433cfbfd0cae669a2ef26202e93b787361746d1ddcee4ecca6d935e99c
+https://StreamCdnE1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8#12fe07433cfbfd0cae669a2ef26202e93b787361746d1ddcee4ecca6d935e99c
 #EXTINF:-1 tvg-id="rtl.102.5.caliente" tvg-name="RTL 102.5 Caliente" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",RTL 102.5 Caliente [1080p]
-https://StreamCdnG4-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8#4e5eaf5caf5b7cbf2d290e0741314f0149860eaf56e4bbe6d612d11e91ce4030
+https://StreamCdnE1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8#4e5eaf5caf5b7cbf2d290e0741314f0149860eaf56e4bbe6d612d11e91ce4030
 #EXTINF:-1 tvg-id="rtl.102.5.disco" tvg-name="RTL 102.5 Disco" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",RTL 102.5 Disco [1080p]
-https://StreamCdnB4-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8#286b778c4b00790af1294e1dbd31ba2402ad6fe5c8b6b9adab1b1dff13167ece
+https://StreamCdnE1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8#286b778c4b00790af1294e1dbd31ba2402ad6fe5c8b6b9adab1b1dff13167ece
 #EXTINF:-1 tvg-id="rtl.102.5.tv" tvg-name="RTL 102.5 TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Music",RTL 102.5 TV [1080p]
-https://StreamCdnB4-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8#4d283b7aa8ddb15b30303ff6aed3df8f97af5b4af9ce7253b6c0ceb4768fe380
+https://StreamCdnE1-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8#4d283b7aa8ddb15b30303ff6aed3df8f97af5b4af9ce7253b6c0ceb4768fe380
 #EXTINF:-1 tvg-id="rtl.gold" tvg-name="RTL Gold" tvg-logo="" tvg-country="🇱🇺 Luxembourg" tvg-language="Luxembourgish" group-title="Music",RTL Gold [1080p]
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8#3376ca05f35c8e5e5e426260a38cc0d6741487050ae904d172c66b4c08fc5424
 #EXTINF:-1 tvg-id="slager.original" tvg-name="Slager Original" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Music",Slager Original
 https://stream-13.mazana.tv/slagroriginal.m3u8s#33ec55ce6da4e1a183fef35b77ed4e08abef9cb5ee981eda663f5483cfc53341
 #EXTINF:-1 tvg-id="stingray.cmusic" tvg-name="Stingray CMusic" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="Music",Stingray CMusic [1080p]
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8#feaa5c6bf512d9e460c8cdf558b227e82f38ed9da5333ac7a79b064edc9aea44
-#EXTINF:-1 tvg-id="t2.tv" tvg-name="T2 TV" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Music",T2 TV
-https://t2hls.wns.live/hls/stream.m3u8#e8eb5f76f52288c28151da5624e2b44116d1b5dc73e00084f72dd63e1606b7db
+#EXTINF:-1 tvg-id="superm.sica.tv" tvg-name="Supermúsica TV" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Music",Supermúsica TV
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8#99e263aa2dcfa473a478e855587c2e0f90a5141c04c0fb12b2e795db4b4cd110
 #EXTINF:-1 tvg-id="tele7music" tvg-name="Tele7music" tvg-logo="" tvg-country="🇷🇴 Romania" tvg-language="Romanian" group-title="Music",Tele7music
 https://live.tele7music.ro/hls/stream/index.m3u8#f97238d3af4d5bf01692b2d4508400c5447e8f67fd0c1405753bc2fca706e0cc
-#EXTINF:-1 tvg-id="topestrada.tv" tvg-name="TopEstrada TV" tvg-logo="" tvg-country="🇲🇰 North Macedonia" tvg-language="Albanian" group-title="Music",TopEstrada TV [720p]
-http://live.topestrada.com/live/topestrada/playlist.m3u8#004f1259e71aa5fb9ceebbdcd2f6138f643553fc6d8cecaf5e5eb1a8add5d034
 #EXTINF:-1 tvg-id="trace.latina" tvg-name="Trace Latina" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Music",Trace Latina [720p]
 https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8#41e25b758829d1f06d8e24d2c8fae4243500fd2a8e1acb18e64dbda91762bc27
 #EXTINF:-1 tvg-id="trace.urban" tvg-name="Trace Urban" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Portuguese, French, English" group-title="Music",Trace Urban [1080p]
@@ -109,8 +111,6 @@ https://cdn-non-eu.lulzy.eu/vmusic_stream/main_stream.m3u8#19b7b571a5f4f0bd22c13
 https://cloudvideo.servers10.com:8081/8016/index.m3u8#69daa19e466e5a7d0286bf567e393c524f7246ef260e7fa0d739200c61ffc904
 #EXTINF:-1 tvg-id="volksmusik.tv" tvg-name="Volksmusik TV" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="Music",Volksmusik TV [1080p]
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8#27599430b3733985ae617818c0f859ffd82b5d9b641d858794d6e879d7485a3b
-#EXTINF:-1 tvg-id="x.level.media" tvg-name="X Level Media" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Music",X Level Media
-https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8#0c5e760e7df3fb87372451987bc44fb218f0cb33fe8894611bd4d7996bec4853
 #EXTINF:-1 tvg-id="ko.expres" tvg-name="Óčko Expres" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Music",Óčko Expres [540p]
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8#e17fc20f00617c8b1315d7f8dc4b78506e3062fb63826b18fe5cf3348a4853e5
 #EXTINF:-1 tvg-id="ko.gold" tvg-name="Óčko Gold" tvg-logo="" tvg-country="🇨🇿 Czech Republic" tvg-language="Czech" group-title="Music",Óčko Gold [540p]

@@ -5,8 +5,6 @@ http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8#4d1a8e7b0e5677051
 https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8#8514684c8264b756d6580665575f415661ed07c8a9eef44490d0ad6424b6c59d
 #EXTINF:-1 tvg-id="c.malayalam.tv" tvg-name="C Malayalam TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Malayalam" group-title="🇨🇦 Canada",C Malayalam TV [720p]
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8#12100ff3a447dfc7356b20371d0a03cc668be64018e992ea9ea8e6168dba9643
-#EXTINF:-1 tvg-id="canada.one" tvg-name="Canada One" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Canada One [720p]
-http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8#889b3c4ab08e7f1f8cef33a00b85bdf8ef1a43fd5951d0c544959974245d84a5
 #EXTINF:-1 tvg-id="canal.savoir" tvg-name="Canal Savoir" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="French" group-title="🇨🇦 Canada",Canal Savoir
 https://hls.savoir.media/live/stream.m3u8#757bf8a2f75447cd05b17561c1e6d3836b65c74b9d716b80c20d60a03c09c6e4
 #EXTINF:-1 tvg-id="cowboy.channel" tvg-name="Cowboy Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Cowboy Channel [1080p]

@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTINF:-1 tvg-id="as3.sport.tv" tvg-name="AS3 Sport TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Sports",AS3 Sport TV
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
+#EXTINF:-1 tvg-id="bahrain.sports.1" tvg-name="Bahrain Sports 1" tvg-logo="" tvg-country="🇧🇭 Bahrain" tvg-language="Arabic" group-title="Sports",Bahrain Sports 1 [720p]
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
 #EXTINF:-1 tvg-id="bahrain.sports.2" tvg-name="Bahrain Sports 2" tvg-logo="" tvg-country="🇧🇭 Bahrain" tvg-language="Arabic" group-title="Sports",Bahrain Sports 2 [720p]
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
 #EXTINF:-1 tvg-id="bein.sports.xtra" tvg-name="BeIN Sports XTRA" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",BeIN Sports XTRA [1080p]
@@ -9,8 +11,6 @@ https://bein-beinxtrasports-firetv.amagi.tv/playlist.m3u8#44d8843a78187045e86ef4
 https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
 #EXTINF:-1 tvg-id="belarus.5" tvg-name="Belarus-5" tvg-logo="" tvg-country="🇧🇾 Belarus" tvg-language="Russian" group-title="Sports",Belarus-5 [576p]
 https://streaming.thestream.cyou/live/7001.m3u8#19b897343cf49e2a6edae731db77c1447b2ad292c603d4d7607962f411cd9b6f
-#EXTINF:-1 tvg-id="canal.sport" tvg-name="Canal+ Sport" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Sports",Canal+ Sport
-http://51.255.167.118/live/testlivestream/testlivestream/31.m3u8#4c7138894083af509775f0cbd0cd881a7822b1e85a22b34f5302aadf900f79d4
 #EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Cricket Gold [1080p]
 https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
 #EXTINF:-1 tvg-id="fb.tv" tvg-name="FB TV" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Turkish, English" group-title="Sports",FB TV [720p]
@@ -45,8 +45,6 @@ https://pac12-samsungus.amagi.tv/playlist.m3u8#e14c5d03218aa3516f9174d486f2fd37a
 https://fighthls.persiana.live/hls/stream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
 #EXTINF:-1 tvg-id="racer.international" tvg-name="RACER International" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="Sports",RACER International [1080p]
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
-#EXTINF:-1 tvg-id="rally.tv" tvg-name="Rally TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",Rally TV [1080p]
-https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8#802c4741907cc0608ab56c5ad4eb13afa5a1521751f65af84a9cd08aaf4f6c7c
 #EXTINF:-1 tvg-id="real.madrid.tv" tvg-name="Real Madrid TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Sports",Real Madrid TV [720p]
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
 #EXTINF:-1 tvg-id="real.madrid.tv.english" tvg-name="Real Madrid TV English" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish, English" group-title="Sports",Real Madrid TV English
@@ -93,3 +91,5 @@ https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8#1c2cabab8bbd0979c62b19051ec6887d
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8#20ec4a4ef1f189091a9be01a95fe3253c8c7947f866f9821e8eea1ba2f8cda30
 #EXTINF:-1 tvg-id="usa.network" tvg-name="USA Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",USA Network
 https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081ccbe953515cd7986b2d3c1dc0d5c416
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish, French, German, Italian" group-title="Sports",World Poker Tour [1080p]
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e

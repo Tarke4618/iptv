@@ -69,12 +69,8 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/
 https://galaxyott.live/live/ntv/index.m3u8#7c29862b3d5d319dfe15ad43afddc80f2dd1da594e4326baf95034a1d23600fc
 #EXTINF:-1 tvg-id="oli.tv" tvg-name="Oli TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Oli TV [1080p]
 https://live.olidigital.in/olitv/olitv/index.m3u8#b5bb4d832a018d2a4dacacff4cbaf7f0e2c4e054e7d1b8bf0ffcce1e62cf0fae
-#EXTINF:-1 tvg-id="om.tv" tvg-name="OM TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",OM TV [720p]
-https://samitaorigin.tangotv.in/OMTV/SAMITAORIGIN/index.m3u8#3f6e2895ff34a8de9ee5420c2acd0d7a5fe33e2a200708b84a30eeb513586707
 #EXTINF:-1 tvg-id="peppers.tv" tvg-name="Peppers TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Peppers TV [720p]
 https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8#164d6c3997dbea62c347b340e8ee629295f68482962ae424696abe74d4c24577
-#EXTINF:-1 tvg-id="polimer.news" tvg-name="Polimer News" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer News [720p]
-https://streams.tangotv.in/POLIMERNEWS/ORIGIN/index.m3u8#94a48c865e6aec2a3c0b8a9eeadccea2958a5fe5dc4dff9ecbddabc060f65a0b
 #EXTINF:-1 tvg-id="polimer.tv" tvg-name="Polimer TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer TV [720p]
 https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8#6fd612eb48f7f04a2851ac75909aa76dde9890ae043fe611ce9bec5a7c471614
 #EXTINF:-1 tvg-id="roja.movies" tvg-name="Roja Movies" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Roja Movies [1080p]
@@ -101,8 +97,6 @@ https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8#999c82aa6e771b143cdc80e68
 http://stream.mcquack.net/451/index.m3u8#0dad59f3e857418e43fd5d82f0875394cab9c4e2283e26824a4fe6e5875b3e85
 #EXTINF:-1 tvg-id="vasanth.tv" tvg-name="Vasanth TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Vasanth TV [720p]
 https://mumt04.tangotv.in/m18aqlK4VASANTHTV/index.m3u8#9d08d26d49a7f7530841398860677bfc0c0a408049dfc3737455bdf2abb5f28e
-#EXTINF:-1 tvg-id="village.tv" tvg-name="Village TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Village TV [576p]
-https://villagetv.applelive.in/villagetv/villagetv/index.m3u8#c4279bde511b9245069df32ecc622f93e228ce75db328ec3c20dbd8c2f1efeba
 #EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz [720p]
 https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
 #EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil [720p]

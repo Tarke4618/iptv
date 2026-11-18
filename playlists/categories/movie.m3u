@@ -13,8 +13,6 @@ https://afrafhls.wns.live/hls/stream.m3u8#7a14bd3281a71731590a521b8a8cbd8a77be90
 https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8#c627897c73ad5469b09e54740f64797477733d062567cd5f136721bb23bc11de
 #EXTINF:-1 tvg-id="boreal" tvg-name="Boreal" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Boreal
 https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8#772f76c25668c5b73cd3b55599fd3a10a35eae54d493a81f4c5de77b44e0f40c
-#EXTINF:-1 tvg-id="cindie.tv" tvg-name="CINDIE TV" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="English, Portuguese, Spanish" group-title="Movie",CINDIE TV [1080p]
-https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8#d42157c2d954f7013433dc00a655e55cd2367ac9aff506643d8127bac9cce6b5
 #EXTINF:-1 tvg-id="cinema" tvg-name="Cinema" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Movie",Cinema [720p]
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8#d193726e6627fdb4799393d2dcc3bd0def4d54de98c7f7bd69c9a91f79efdec8
 #EXTINF:-1 tvg-id="cinevault.80s" tvg-name="Cinevault 80s" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Cinevault 80s [540p]
@@ -101,8 +99,6 @@ https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081
 http://stream.mcquack.net/200/index.m3u8#0c43bfe18b87efb66a61ceb0fd0564709f0610a7a319d5c0a659c248e1aa1039
 #EXTINF:-1 tvg-id="viju.premiere.hd" tvg-name="viju+ Premiere HD" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",viju+ Premiere HD [1080p]
 http://stream.mcquack.net/202/index.m3u8#d62422c908ef24f879efebad3ada86aeba09bd04565203696b0a0f570c6070e7
-#EXTINF:-1 tvg-id="whiplash.cinema" tvg-name="Whiplash Cinema" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",Whiplash Cinema [720p]
-https://cdn.whiplash.cc/whiplash-cinema/index.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
 #EXTINF:-1 tvg-id="xtrema.accion" tvg-name="Xtrema Accion" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="Movie",Xtrema Accion
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8#0049e1c3dded1f07df48603c659c7936134dfc459cafba0fa97b675dbcfcc700
 #EXTINF:-1 tvg-id="yes.movies.action" tvg-name="Yes Movies Action" tvg-logo="" tvg-country="🇮🇱 Israel" tvg-language="Hebrew" group-title="Movie",Yes Movies Action [1080p]
