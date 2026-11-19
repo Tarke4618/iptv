@@ -41,17 +41,21 @@ https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8#b616d79a3dfe36598d0a847df1
 https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8#5f9257723cc46d7897f5af35cd2b029165c23ceeab2e98a70d7ed8b814f296f4
 #EXTINF:-1 tvg-id="filmbox.love.crime.adria" tvg-name="FILMBOX+ Love & Crime Adria" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English, Bulgarian, Czech, Hungarian" group-title="Movie",FILMBOX+ Love & Crime Adria [720p]
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8#fd444e5f976f99422bb9269defad1fa6c7de4712de0024219ce39b6a7d680acb
-#EXTINF:-1 tvg-id="filmbox.love.crime.romania" tvg-name="FILMBOX+ Love & Crime Romania" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English, Bulgarian, Czech, Hungarian" group-title="Movie",FILMBOX+ Love & Crime Romania
-https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8#d795f6b08ed3a13387c6f64db671a50ff9dc741639575288e1cfe2f7982d4865
 #EXTINF:-1 tvg-id="filmbox.one.romania" tvg-name="FILMBOX+ One Romania" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="Polish, Romanian, English, Russian, Bulgarian, Czech, Hungarian" group-title="Movie",FILMBOX+ One Romania
 https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8#b1ce5b07089689bc7180a85a1a4417850c129bf6914edaf37927726957781685
+#EXTINF:-1 tvg-id="filmrise.westerns" tvg-name="FilmRise Westerns" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",FilmRise Westerns [720p]
+https://dz05z8iljgvbe.cloudfront.net/master.m3u8#de2f1f8f2bdbcfe7fb089c4758d44ce180ee43a1cd2a72e9d6fb5cd5d21838bd
 #EXTINF:-1 tvg-id="gold.star" tvg-name="Gold Star" tvg-logo="" tvg-country="🇮🇷 Iran" tvg-language="Persian" group-title="Movie",Gold Star
 https://moviethls.wns.live/hls/stream.m3u8#c992c65af21469bb7369371b9ee5f0e01b584177952a3e2a129db7c7ae05991b
 #EXTINF:-1 tvg-id="grand.cinema" tvg-name="Grand Cinema" tvg-logo="" tvg-country="🇹🇷 Turkiye" tvg-language="Persian" group-title="Movie",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8#1f807216f86660c98d11b7bc483d9054beb0d00d495c29b29de5583938345ed2
+#EXTINF:-1 tvg-id="great.movies" tvg-name="Great! Movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Movies [1080p]
+https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
+#EXTINF:-1 tvg-id="great.romance" tvg-name="Great! Romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Romance [1080p]
+https://amg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv/playlist/amg01753-narrativeentert-greatchristmas-samsunguk/playlist.m3u8#77e3bcb99c90b7a7ca30884eb4529b2bbfe0e5af25c1053096223789b6585d29
 #EXTINF:-1 tvg-id="grjngo.western.movies" tvg-name="Grjngo Western Movies" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="English, German" group-title="Movie",Grjngo Western Movies [720p]
 https://amogonetworx-grjngo-3-no.samsung.wurl.tv/playlist.m3u8#91baf8bd0623f15b7f784511135222a758137f2b5c4d2d9d30f917eda0fcdbc9
-#EXTINF:-1 tvg-id="groovy.tv" tvg-name="Groovy TV" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Movie",Groovy TV
+#EXTINF:-1 tvg-id="groovy.tv" tvg-name="Groovy TV" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="Movie",Groovy TV [534p]
 http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8#2b26717999dd712b95b3217c2c7e1d978877becd044ca3afb7373789ae37d354
 #EXTINF:-1 tvg-id="kinopremyera" tvg-name="Kinopremyera" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Kinopremyera
 https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8#9f2425ef3f4799c99912f7dbe7dd31572256f812ad77c3a671b594b9e700c431
@@ -76,7 +80,7 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8#22ed3bcf160c2f386757d0a8d4ca5ce
 #EXTINF:-1 tvg-id="moviebox" tvg-name="MovieBox" tvg-logo="" tvg-country="🇲🇳 Mongolia" tvg-language="Mongolian" group-title="Movie",MovieBox [720p]
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8#3c1a58f1b57065985c510ee217fe52ae2c76518313b889c3be4e4dbb7e9fe707
 #EXTINF:-1 tvg-id="moviesphere" tvg-name="MovieSphere" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Movie",MovieSphere [1080p]
-https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8#625d6d7466fcfe1f3fa1d14062f148f3f9526406219c19ee3143c277257d82e7
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8#d6a7a84f19480a7145eb4621ca4ef5650bacf0ce1e1839644c607e1d3c33742e
 #EXTINF:-1 tvg-id="mytime.movie.network.brazil" tvg-name="MyTime Movie Network Brazil" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="Movie",MyTime Movie Network Brazil [720p]
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8#6f009b88ae70f618aeb8d94606ef25499559302135d60c4a547db72e6fd3383f
 #EXTINF:-1 tvg-id="mytime.movie.network.spain" tvg-name="MyTime movie network Spain" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Movie",MyTime movie network Spain [1080p]
@@ -117,7 +121,5 @@ https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8#6ea4e0ac592c18aefd3de2692350b67122a77bd7af18c36c1c6e6c2fe52bda8d
 #EXTINF:-1 tvg-id="zylo.screamin" tvg-name="Zylo ScreamIN" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="Movie",Zylo ScreamIN [1080p]
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8#930b860f78dde16383de43af25ebb4358ef899417d9289b4936fe2d4bdd9bf1b
-#EXTINF:-1 tvg-id="" tvg-name="Дом Кино" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Дом Кино [576p]
-https://streaming.thestream.cyou/live/44.m3u8#573ccc7c97ca1446c72a566077ca457139245774622019abd6b89e7097c99824
 #EXTINF:-1 tvg-id="1.international" tvg-name="Кино 1 International" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Movie",Кино 1 International
 https://kino-1.catcast.tv/content/38617/index.m3u8#3eca8bb683b58640e8f7495a53109843a6196622119954128e87d5a9ebf2b3b8

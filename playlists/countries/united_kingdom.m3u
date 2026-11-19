@@ -13,8 +13,6 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
 #EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News Europe
 https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
-#EXTINF:-1 tvg-id="bbc.news.north.america" tvg-name="BBC News North America" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="🇬🇧 United Kingdom",BBC News North America
-https://tvsen1.aynaott.com/shn6jGTk/index.m3u8#7dab14a955688af2cdf293b047d580691b2ba2e076b977f9d0868462f26589d0
 #EXTINF:-1 tvg-id="bbc.news.pashto" tvg-name="BBC News Pashto" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Dari (Parsi), Turkmen, Pushto" group-title="🇬🇧 United Kingdom",BBC News Pashto
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_afghan_tv/t=3840/v=pv14/b=5070016/main.m3u8#25ab4288a358111eb4a6fbb5213fcb3113fde78930811c1036a5b8406c29b2d3
 #EXTINF:-1 tvg-id="bbc.persian" tvg-name="BBC Persian" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="News",BBC Persian [720p]
@@ -27,28 +25,28 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8#ecd341275cec5537053e4f4075e683ee5f93b6e555ceb914642c6cbb78f1c50e
 #EXTINF:-1 tvg-id="ent.channel" tvg-name="ENT Channel" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Channel [1080p]
 https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
-#EXTINF:-1 tvg-id="ent.family" tvg-name="ENT Family" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",ENT Family [1080p]
+#EXTINF:-1 tvg-id="ent.family" tvg-name="ENT Family" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Family [1080p]
 https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8#7e9ae72fa359a6d4c4a172f3e174a4561ac13d9b57a0c947127a0c9d0a2e2f80
 #EXTINF:-1 tvg-id="faith.world.tv" tvg-name="Faith World TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Faith World TV [1080p]
 https://faithworldtv.abs.tv/1826926230/index.m3u8#b7c2c99161bf4a702a105e6eb453f1bd7349c02ff43e7f122d3a1cabdfee8245
+#EXTINF:-1 tvg-id="frecuencia.musical.tv" tvg-name="Frecuencia Musical TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",Frecuencia Musical TV
+https://s2.tvdatta.com:3307/hybrid/play.m3u8#685b1ae13e27e6d802626f4dc283fb5e937ffa73ad91e290b96f8a9d5344731c
 #EXTINF:-1 tvg-id="gb.news" tvg-name="GB News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GB News [1080p]
-https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8#a87d36bc59a7fdaca5225ab541be1264d489163bd409dcda430d1a747e5fc78b
+https://amg01076-lightningintern-gbnewsse-samsungse-q7qjc.amagi.tv/playlist/amg01076-lightningintern-gbnewsse-samsungse/playlist.m3u8#59b1ea40668a8acdad6100c54a5b9167094ad46c1ca7ef562acaab0c04e49698
 #EXTINF:-1 tvg-id="gems.tv" tvg-name="Gems TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Gems TV [720p]
 https://lo3.gemporia.com/abrgemporiaukgfx/smil:livestream.smil/playlist.m3u8#3cdda4a8cbe655df2e290388178447f15bbb77035b1e31637f9a9587d977e0a9
-#EXTINF:-1 tvg-id="great.movies" tvg-name="GREAT! movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GREAT! movies [1080p]
-https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8#a22b7bc8c3a27e0dae41ee8c50351984513b41b2df75311a0732082c2ded14af
-#EXTINF:-1 tvg-id="great.romance" tvg-name="GREAT! romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",GREAT! romance [1080p]
+#EXTINF:-1 tvg-id="great.movies" tvg-name="Great! Movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Movies [1080p]
+https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
+#EXTINF:-1 tvg-id="great.romance" tvg-name="GREAT! romance" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",GREAT! romance [1080p]
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8#14b6b6a5927c642983ff3016746fa9ce81d372338b79af1eb9f2735315807a31
 #EXTINF:-1 tvg-id="horse.country.tv" tvg-name="Horse & Country TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Horse & Country TV [1080p]
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8#aee319d76d6c6d776ea6c7569bc0f5c51a8d2225f2f8fa4f346b0e4c0ad54c46
 #EXTINF:-1 tvg-id="horse.and.country" tvg-name="Horse and Country" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Horse and Country [720p]
 https://hncfree-samsung-uk.amagi.tv/playlist.m3u8#733c2c99cddc4054ba633d2feea6955b335f4c6a2290441a83ef32fbc6e1e53c
 #EXTINF:-1 tvg-id="iran.international" tvg-name="Iran International" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="News",Iran International [720p]
-https://live.playstop.me/LS-63503-4/index.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8#1f72eff4eef6eabebf88af006f2bdb0627d91bbfe2c2d7878d85c9a566fc6a6b
 #EXTINF:-1 tvg-id="jimjam.europe" tvg-name="JimJam Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Portuguese, Czech, Slovak, Hebrew" group-title="🇬🇧 United Kingdom",JimJam Europe [576p]
 http://stream.mcquack.net/150/index.m3u8#ec9d10323df1ac5af59e9c9cd6d6b9d8320a86513fc170d39bd19900bc348103
-#EXTINF:-1 tvg-id="kanal.jadid" tvg-name="Kanal Jadid" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="🇬🇧 United Kingdom",Kanal Jadid
-https://kjhls.wns.live/hls/stream.m3u8#ad5f1a0db3290557689e5a2738092125ebfa40fda903b38d909c6867826b83a2
 #EXTINF:-1 tvg-id="moonbug.kids" tvg-name="Moonbug Kids" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Moonbug Kids
 https://tvsen6.aynaott.com/MoonbugKids/index.m3u8#66294a1247a8bb47a446f517fd4ee6d74a926a30943f527c14de5a52f4dae511
 #EXTINF:-1 tvg-id="mr.bean.live.action" tvg-name="Mr Bean Live Action" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Mr Bean Live Action [1080p]
@@ -64,19 +62,23 @@ https://amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-id="now.rock" tvg-name="NOW Rock" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",NOW Rock [1080p]
 https://rakutenaa-lightning-now90s-rakuten-2968n.amagi.tv/playlist/rakutenAA-lightning-now90s-rakuten/playlist.m3u8#9842a46d87f7327e06f575b49843371c3cf80f799eb19c9095dd2788e0d70cdc
 #EXTINF:-1 tvg-id="pop" tvg-name="Pop" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Pop [1080p]
-https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8#181ccf177fc8383feed57416111b3d8ea1af408cb2de0a20e3234d9c5865a335
+https://amg01753-narrativeentert-popkids-samsunguk-yjjil.amagi.tv/playlist/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8#38dbe225e40c038428dff749e0c40256c428ac32217df9676fb5aa3aaab45143
 #EXTINF:-1 tvg-id="qvc.uk.style" tvg-name="QVC UK Style" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",QVC UK Style [540p]
 https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8#978d2fb08bc1502ed0843224a5cdbf5a779d5dff440a15c7ad480ff308ff2fa1
 #EXTINF:-1 tvg-id="setareh.tv" tvg-name="Setareh TV" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="🇬🇧 United Kingdom",Setareh TV
 https://setarehhls.wns.live/hls/stream.m3u8#cd244e1b11ff865ea61b403ceb824592b713bdeaff1bb18858deb8a1ec62d679
+#EXTINF:-1 tvg-id="sky.nature" tvg-name="Sky Nature" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Documentary",Sky Nature
+https://tvsen6.aynaott.com/skynature/index.m3u8#828e99e3e465b67442ede9b5e0fbfcb902750dcf68f02e2ac28ca2b63814d587
 #EXTINF:-1 tvg-id="sky.news.weather" tvg-name="Sky News Weather" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Sky News Weather [720p]
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8#d47223ac8c26f7b453271cbd491654816620184e91a8b7d601248328069db990
-#EXTINF:-1 tvg-id="starplus" tvg-name="StarPlus" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Hindi" group-title="🇬🇧 United Kingdom",StarPlus [720p]
-https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8#61b1ef2373a15fc7945d1d35a1e3b73b4c5ddd3b0565f35d9b05cf0d4f9fb4e9
+#EXTINF:-1 tvg-id="space.live" tvg-name="Space Live" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Space Live [1080p]
+https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8#46e7de352cca644c7b21f1da0da9bdbf9cb218b241c45adb78c781075c7114e8
 #EXTINF:-1 tvg-id="talksport" tvg-name="talkSPORT" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",talkSPORT [540p]
 https://tvsen6.aynaott.com/talkSPORT/index.m3u8#794a20b01e692fbd08d15d61cd5d11035ea77b7a91e00e0bdc03011ced2dc6c0
-#EXTINF:-1 tvg-id="tjc" tvg-name="TJC" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",TJC [1080p]
-https://cdn-shop-lc-01.vos360.video/Content/HLS_HLS/Live/channel%28HDTJCcustomGFX%29/master.m3u8#198b10a1d9c10d47243d1be743dea52d97e0abcf8111499bc646b6bf10a069ba
+#EXTINF:-1 tvg-id="teletubbies" tvg-name="Teletubbies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Teletubbies [720p]
+https://dy9gbyiaxw0rb.cloudfront.net/master.m3u8#66fec254590748d6d86da77c9a3028586952b754541ab7fea183259942a5988e
+#EXTINF:-1 tvg-id="tiny.pop" tvg-name="Tiny POP" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Tiny POP [1080p]
+https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8#b7ea93066eb58b28f6e11e49cd9a3b3a5f03614f0b4f5cc3af295fba2e67095a
 #EXTINF:-1 tvg-id="totalmusic" tvg-name="Totalmusic" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="🇬🇧 United Kingdom",Totalmusic [1080p]
 https://cdn.40mediagroup.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8#d530a3c7b9b0c0d48303a016be8c9114f58608bfc52ed5cf64014a75dab279bd
 #EXTINF:-1 tvg-id="totalmusic.2000s" tvg-name="Totalmusic 2000s" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Music",Totalmusic 2000s [1080p]
@@ -89,7 +91,3 @@ https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/mast
 https://cdn.40mediagroup.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8#ee80b09c7b649746f0d5fb6cf8bffcec13165560e80371545dd8366cb15252fd
 #EXTINF:-1 tvg-id="v2beat" tvg-name="V2BEAT" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",V2BEAT [720p]
 https://abr.de1se01.v2beat.live/playlist.m3u8#05c1d0532990bc322f52f4c1a63ac2cc8273570f79f7dc590423ceed0c3faf43
-#EXTINF:-1 tvg-id="wonder" tvg-name="Wonder" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="🇬🇧 United Kingdom",Wonder [720p]
-https://amg00426-littledotstudio-wondernz-samsungnz-k10dq.amagi.tv/ts-ap-s1-n1/playlist/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8#d3dbdd44bebbe818d512e17add495f81a34d3848bbe649c5a9a517182a9d10b8
-#EXTINF:-1 tvg-id="zee.one" tvg-name="Zee One" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="French, German, English" group-title="Entertainment",Zee One [1080p]
-https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe

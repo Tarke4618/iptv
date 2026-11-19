@@ -1,6 +1,10 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-#EXTINF:-1 tvg-id="7s.music" tvg-name="7S Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",7S Music [576p]
-https://cdn.pishow.tv/ott/live/1257/master.m3u8#6416cd97745b07993428a06226fbd96d4de2177420165af853ef7fdcd4cbb0b8
+#EXTINF:-1 tvg-id="7s.music" tvg-name="7S Music" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",7S Music [720p]
+https://mumbai-edge.smartplaytv.in/7SMusic/index.m3u8#13cb07dd072a8f1a707a3aa505026ef4eba3a835d9796434085cd297c82cb556
+#EXTINF:-1 tvg-id="aaryaa.tv" tvg-name="Aaryaa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aaryaa TV [1080p]
+https://stream.ottlive.co.in/aryatvtamil/index.m3u8#1b75e22045ea4754d0221845d3bede26caf7fc9f45c786b4a5f97465c2844700
+#EXTINF:-1 tvg-id="aaseervatham.tv" tvg-name="Aaseervatham TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aaseervatham TV [720p]
+https://mumt04.tangotv.in/m18aqlK4AASEERVATHAMTV/index.m3u8#95173e698a86ad435ac0dbbc8320048430a8adef0f541623a1307e582ce2cb7f
 #EXTINF:-1 tvg-id="aastha.tamil" tvg-name="Aastha Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Aastha Tamil
 https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8#36c74a1afa9e139d81b279ea9404558eee914aad5e4447c531a2c5d2c729ad28
 #EXTINF:-1 tvg-id="angel.tv" tvg-name="Angel TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Portuguese, Russian, Spanish, English, Tamil, Chinese, Hebrew, Indonesian" group-title="🇮🇳 India",Angel TV [1080p]
@@ -35,22 +39,22 @@ https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all
 https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8#8fc37ef4d7ac01f96f75f4ed42110bc431b2cf8cd71b52d6d1418135f0021d32
 #EXTINF:-1 tvg-id="arputhar.yesu.tv" tvg-name="Arputhar Yesu TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Arputhar Yesu TV
 https://account33.livebox.co.in/jesushelpshls/live.m3u8#35c4c869af1ea7abc748cd0895f6056983be22542136f582eb91da5c91fbaf90
+#EXTINF:-1 tvg-id="bhagyam.tv" tvg-name="Bhagyam TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Bhagyam TV [1080p]
+https://ott.bhagyam.net/hls/bhagyamweb/index-1409148900-now.m3u8#cb18fc172dee67329ba1565905dbb325d4c56dc1328c91bacc5d4edc463cbf76
 #EXTINF:-1 tvg-id="chithiram" tvg-name="Chithiram" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Chithiram [576p]
 https://cdn.pishow.tv/ott/live/1243/master.m3u8#f78382c20391ce9eadb35c2550bc4cdbb9a5e0561b0221d7ac547bc7b2ac777d
-#EXTINF:-1 tvg-id="colors.tamil.hd" tvg-name="Colors Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Colors Tamil HD [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorstamilhd11.smil/playlist.m3u8#ccca3d0dab7838bde0dce515d0597ffa19e1d78984d6b76a2433797fd8d9f77d
-#EXTINF:-1 tvg-id="dd.sports.hd" tvg-name="DD Sports HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Bhojpuri, Sign Languages, Telugu, Hindi, English, Kannada, Bengali" group-title="🇮🇳 India",DD Sports HD [1080p]
-https://cdn.pishow.tv/ott/live/1161/master.m3u8#9cae771b7084b47a1d4a9ea7fd7306c8e6fe08a55c4df6159e6809bf10ed11fd
+#EXTINF:-1 tvg-id="dd.sports" tvg-name="DD Sports" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada, Bengali, Bhojpuri, Sign Languages, Telugu, Hindi, English" group-title="🇮🇳 India",DD Sports [576p]
+https://cdn.pishow.tv/ott/live/13/master.m3u8#943fdb7b78a81755c5a6be465cb01709778b43cc4d784640919a9a67b871f75a
 #EXTINF:-1 tvg-id="dd.tamil.hd" tvg-name="DD Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",DD Tamil HD [1080p]
 https://cdn.pishow.tv/ott/live/1737/master.m3u8#5bf3caeac45b69cbdbd5832b79c2c28cb4f0dcc32eb07fb20215f894765dcb1a
-#EXTINF:-1 tvg-id="epic.kids.digital" tvg-name="Epic Kids Digital" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, English, Tamil, Telugu" group-title="🇮🇳 India",Epic Kids Digital [1080p]
-https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8#dfd72650304a942bc7b98b3ecd40d7f21ee9c910cc8307654057c552f640adf1
+#EXTINF:-1 tvg-id="dharsan.tv" tvg-name="Dharsan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Dharsan TV [720p]
+https://galaxyott.live/live/dharshantv/index.m3u8#26a030c334e22177fa5ecedffa368ec1b43fad5194581b08ad74b636f8760955
 #EXTINF:-1 tvg-id="history.tv18.hd" tvg-name="History TV18 HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Tamil, Telugu" group-title="Documentary",History TV18 HD [1080p]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8#ad3631b5615a51ec05acc50e710e8473897c0eea60d3235ccd5295d254f4f7ad
 #EXTINF:-1 tvg-id="kalaignar.murasu" tvg-name="Kalaignar Murasu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Kalaignar Murasu
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8#1d263505b3e2ee628e18aa7b826711822be4f9d037782132cf76a6b5d9c0661f
 #EXTINF:-1 tvg-id="makkal.tv" tvg-name="Makkal TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Makkal TV
-https://mumbai-edge.smartplaytv.in/MakkalTV/index.m3u8#6bec72d277c2eccfcbee2050e8eb0ebaa2218e32f5453ad38e1b05467869dde0
+https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8#37a551d2e883eccb2639a2bab4f16ea12a37640a162f32f14c9bb83be368a261
 #EXTINF:-1 tvg-id="mei.alai.tv" tvg-name="Mei Alai TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Mei Alai TV [576p]
 https://meialai.iptelevishion.com/meialai/2/index.m3u8#84b367e6c528c6ad586ad9b790da43ff028d28ffaa74604c00d5e8e2631604d9
 #EXTINF:-1 tvg-id="mk.six" tvg-name="MK Six" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",MK Six [720p]
@@ -59,32 +63,28 @@ https://mumt06.tangotv.in/qYyB8fXVMKSIX/index.m3u8#ef69344b269f60871954b9ed4f182
 https://mntv.livebox.co.in/mntvhls/live.m3u8#f4fe09b765d96ebaa8adf4475f3363e2947c9b8379c832651a9d89e1e10d6aae
 #EXTINF:-1 tvg-id="ndtv.good.times" tvg-name="NDTV Good Times" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English, Hindi" group-title="🇮🇳 India",NDTV Good Times
 https://d2gvyg6lvauoko.cloudfront.net/230226/ndtvgoodtimes/chunks.m3u8#c081404f7752acdc0e79d4f15ee20710a03d21aaa1067094cc2ce1e66bfab41d
-#EXTINF:-1 tvg-id="news.7.tamil" tvg-name="News 7 Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News 7 Tamil [720p]
-https://streams.tangotv.in/NEWS7TAMIL/ORIGIN/index.m3u8#b5cac6b69c8ff10ce26eb6b17fe1184c3827018f679aeaa31d824cd9094bf447
 #EXTINF:-1 tvg-id="news.tamil.24x7" tvg-name="News Tamil 24x7" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News Tamil 24x7 [576p]
 https://cdn.pishow.tv/ott/live/1433/master.m3u8#dd035052c551471c1c5e18eb923417d207b9ca470b612e0510d401fbdaeca7ce
 #EXTINF:-1 tvg-id="news18.tamil.nadu" tvg-name="News18 Tamil Nadu" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",News18 Tamil Nadu [1080p]
 https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8#ba94c7060e7bd3690d9f13b6b8f4b8be2d7201fe64af508bf03bb226e7ae6afb
-#EXTINF:-1 tvg-id="oli.tv" tvg-name="Oli TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Oli TV [1080p]
-https://live.olidigital.in/olitv/olitv/index.m3u8#b5bb4d832a018d2a4dacacff4cbaf7f0e2c4e054e7d1b8bf0ffcce1e62cf0fae
-#EXTINF:-1 tvg-id="peppers.tv" tvg-name="Peppers TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Peppers TV [720p]
-https://mumt07.tangotv.in/zHjX9OFlPEPPERS/index.m3u8#164d6c3997dbea62c347b340e8ee629295f68482962ae424696abe74d4c24577
-#EXTINF:-1 tvg-id="polimer.tv" tvg-name="Polimer TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer TV [720p]
-https://mumt04.tangotv.in/m18aqlK4POLIMERTV/index.m3u8#6fd612eb48f7f04a2851ac75909aa76dde9890ae043fe611ce9bec5a7c471614
-#EXTINF:-1 tvg-id="roja.movies" tvg-name="Roja Movies" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Roja Movies [1080p]
-https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8#47edb55dbaec7a0d9eab8c70bcf41b1e71f32a07b51b0cdb911a01b6b7947477
+#EXTINF:-1 tvg-id="polimer.tv" tvg-name="Polimer TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Polimer TV [576p]
+https://cdn.pishow.tv/ott/live/1241/master.m3u8#af9ecccb0db81e931ad140f3ed13d6fdf4b8444ccf9ab86dfda3105de9c6e1b4
 #EXTINF:-1 tvg-id="roja.tv" tvg-name="Roja TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Roja TV [1080p]
 https://live.rojatv.cloud/rojatv/rojatv/index.m3u8#1f09e3e09a0c91d7d84bde08c467f68c0c3d6606cbde80593163e5944b26734d
 #EXTINF:-1 tvg-id="sana.plus" tvg-name="Sana Plus" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sana Plus [1080p]
 https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8#20acaf4f0e5a2d303fa9a8b6160a5cae49f4c8413e9d64c0dafff5b6b8deb931
+#EXTINF:-1 tvg-id="sana.tv" tvg-name="Sana TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Sana TV [1080p]
+https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8#bb61fffc00feba1757a322ffc21531f48d22081e239d8d733f801c18826f6fef
 #EXTINF:-1 tvg-id="sivan.tv" tvg-name="Sivan TV" tvg-logo="" tvg-country="🇨🇭 Switzerland" tvg-language="Tamil" group-title="🇨🇭 Switzerland",Sivan TV
 http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8#dbae7e62d5789af69658f2724ad39a0be5ab32f0b9459cb81e3a15a56378e994
-#EXTINF:-1 tvg-id="star.vijay" tvg-name="Star Vijay" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, English" group-title="🇮🇳 India",Star Vijay [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starvijayuk.smil/playlist.m3u8#1f0ce2572d81af7d4e2e275b8bf7b4d7ae53e5706af62ac00d916be01926f1a8
-#EXTINF:-1 tvg-id="subin.tv" tvg-name="Subin TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Subin TV [1080p]
-https://stream.galaxyott.live/live/subintv/index.m3u8#45243847eb41e4a18fa1f98d0d2bdb852044207f009abcc76390e6e254ef51fa
+#EXTINF:-1 tvg-id="suriya.tv" tvg-name="Suriya TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Suriya TV [1080p]
+https://stream.ottlive.co.in/suryatvtamil/index.m3u8#7d988b3f8a5965878df0d04c0e23e26af80e7b8df2af1a1cb671644d931f2e22
+#EXTINF:-1 tvg-id="svbc.2" tvg-name="SVBC 2" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil, Kannada" group-title="🇮🇳 India",SVBC 2 [1080p]
+https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8#ca9e47bcaa66c8446053be500b773fb151ed156eae77ccb0de5e925672b46f24
 #EXTINF:-1 tvg-id="tamilan.tv" tvg-name="Tamilan TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Tamilan TV [1080p]
 https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8#f6c1eeb407ee92c74e002bb5df6c9f6d6375ad5fb4224f1dc10c1c22303adc2a
+#EXTINF:-1 tvg-id="tamilvision.tv" tvg-name="TamilVision-TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Tamil" group-title="🇨🇦 Canada",TamilVision-TV [1080p]
+https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a794569447360ac39b5515bf40
 #EXTINF:-1 tvg-id="thalaa.tv" tvg-name="Thalaa TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Thalaa TV [1080p]
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8#9f7f19bf212ca90b36af0d6aa32d7e6acbb8ab8e278ecaf16f40f6c819f4743d
 #EXTINF:-1 tvg-id="travelxp.hd" tvg-name="Travelxp HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="English, Hindi, Bengali, Tamil" group-title="🇮🇳 India",Travelxp HD [1080p]
@@ -95,9 +95,9 @@ https://stream.d6-pro.com/tunes6music/live/video.m3u8#9959aea679ede99bee6292c1a9
 https://stream.ottlive.co.in/utvtamil/index.m3u8#8a807fb81e242c3b2e0cfa2dcc0e58fd09918d95fb69b3c61dc3fcf40f6507d4
 #EXTINF:-1 tvg-id="vaanavil.tv" tvg-name="Vaanavil TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Vaanavil TV [720p]
 https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8#8ac811d1ca1d7a4bdbe51ba08b90340c5c3ebf678d2f35f42624b2485fcc7d26
+#EXTINF:-1 tvg-id="verbum.tv" tvg-name="Verbum TV" tvg-logo="" tvg-country="🇱🇰 Sri Lanka" tvg-language="Tamil" group-title="🇱🇰 Sri Lanka",Verbum TV
+https://video-eu1.streamerr.co/hls/scb80244b91/live.m3u8#f36805c0dbba6875cad1684aabe11513ddc0ff982e917a4c6b0791b9971f6203
+#EXTINF:-1 tvg-id="village.tv" tvg-name="Village TV" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Village TV [576p]
+https://villagetv.applelive.in/villagetv/villagetv/index.m3u8#c4279bde511b9245069df32ecc622f93e228ce75db328ec3c20dbd8c2f1efeba
 #EXTINF:-1 tvg-id="wow.kidz" tvg-name="WOW Kidz" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz [720p]
-https://yuppparoriglin.akamaized.net/181224/smil:wowkidztelgu.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#1ed9629583fd9d68cae926c1488ffaf7e5bee40121ce648e18b71453051e253a
-#EXTINF:-1 tvg-id="wow.kidz.tamil" tvg-name="WOW Kidz Tamil" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Hindi, Tamil, Telugu" group-title="🇮🇳 India",WOW Kidz Tamil [720p]
-https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#21c4da80ad66d9748c8a44a88d708434b944981a35d09adc8492794a3ec869b8
-#EXTINF:-1 tvg-id="zee.tamil.hd" tvg-name="Zee Tamil HD" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Tamil" group-title="🇮🇳 India",Zee Tamil HD [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#a8c0e5004a2b7669331cd22d90f9cccb70f898d6a4fc35f23263a3ea777f2ac9
