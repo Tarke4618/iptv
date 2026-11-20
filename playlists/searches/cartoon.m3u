@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTINF:-1 tvg-id="cartoon.classics" tvg-name="Cartoon Classics" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Cartoon Classics [1080p]
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8#15881c894d3d307e9ef16f9ad837a9c7b97d84216796a2ba9f64be77bcad7928
-#EXTINF:-1 tvg-id="cartoon.network" tvg-name="Cartoon Network" tvg-logo="" tvg-country="🇵🇰 Pakistan" tvg-language="English, Urdu" group-title="🇵🇰 Pakistan",Cartoon Network [720p]
+#EXTINF:-1 tvg-id="cartoon.network" tvg-name="Cartoon Network" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Cartoon Network [720p]
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8#e421df3569b412ad7b5b62bb8c87487c05510c51246a74f3ea82450d61ca52ac
 #EXTINF:-1 tvg-id="cartoonito.720p" tvg-name="Cartoonito 720p" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Cartoonito 720p [720p]
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8#28364aaa001a26c9da30b5228164331b75a7a19ac9faa35a9249a3081be70ddd
@@ -9,8 +9,6 @@ https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8#28364aaa001a
 https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8#50346545926f8dfbfd3cd84a0f16e1580f340316e5e25d28b26e1ae11690f4f1
 #EXTINF:-1 tvg-id="gospel.cartoon" tvg-name="Gospel Cartoon" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="🇧🇷 Brazil",Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8#12817064bb9bd5b35661bad8603b16f72651888c6039538deef5ec590fa76213
-#EXTINF:-1 tvg-id="retro.cartoon" tvg-name="Retro Cartoon" tvg-logo="" tvg-country="🇧🇷 Brazil" tvg-language="Portuguese" group-title="🇧🇷 Brazil",Retro Cartoon
-https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8#6945c28f8a5b5a7a564f1be73b6a327537471cf871bdd058d0c2937eba83ffcc
 #EXTINF:-1 tvg-id="xtrema.cartoons" tvg-name="Xtrema Cartoons" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish" group-title="🇦🇷 Argentina",Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8#a77637b3ea8c26653f494c24728ceadbb95a8deb0e75abc56b0ad71361052f33
 #EXTINF:-1 tvg-id="zb.cartoon" tvg-name="ZB Cartoon" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Bengali" group-title="🇮🇳 India",ZB Cartoon [1080p]

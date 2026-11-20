@@ -7,8 +7,6 @@ https://streamtv.mediasector.es/hls/activatv/index.m3u8#6e1537edd398e8a13c8caea6
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8#b65435df6c89b3d1cc26f99e71d5fd586ca833955896d27e83ac26b20682f33d
 #EXTINF:-1 tvg-id="as3.sport.tv" tvg-name="AS3 Sport TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Sports",AS3 Sport TV
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
-#EXTINF:-1 tvg-id="aurora.media.films" tvg-name="Aurora Media Films" tvg-logo="" tvg-country="🇬🇹 Guatemala" tvg-language="Spanish" group-title="Movie",Aurora Media Films
-https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8#1c2124b29ccafb0b78efb33e9576d0202431eff7ea674b29ca86cbb746d6680b
 #EXTINF:-1 tvg-id="bbc.news" tvg-name="BBC News" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News [720p]
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
 #EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News Europe
@@ -36,15 +34,15 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8#f7
 #EXTINF:-1 tvg-id="dw.russian" tvg-name="DW Russian" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Spanish, Russian, Arabic, German, English" group-title="News",DW Russian [1080p]
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8#be42fb472a5afede209c8c06e14b6b1967cd31ec84c610bd1bd71d4753057456
 #EXTINF:-1 tvg-id="ecuavisa.guayaquil" tvg-name="Ecuavisa Guayaquil" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Ecuavisa Guayaquil [1080p]
-https://dai.google.com/linear/hls/pa/event/GyPkTVDZSXGhpOvxPK7m2g/stream/668ed61d-0ea2-4391-badf-e7d3a6b7eafd:CHS/master.m3u8#5732be090d8a8db4427ed25d36567be51afb3fe8bfd8babb4927f072bccea48c
+https://dai.google.com/linear/hls/pa/event/GyPkTVDZSXGhpOvxPK7m2g/stream/1d914078-0855-4e7e-9faf-dd550a6a762a:DLS/master.m3u8#5732be090d8a8db4427ed25d36567be51afb3fe8bfd8babb4927f072bccea48c
 #EXTINF:-1 tvg-id="ecuavisa.quito" tvg-name="Ecuavisa Quito" tvg-logo="" tvg-country="🇪🇨 Ecuador" tvg-language="Spanish" group-title="🇪🇨 Ecuador",Ecuavisa Quito [1080p]
-https://jireh-3-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8?dpssid=ce6c8c2d3b211aeb67c67cd0&sid=c5402608b98d8890765924da&ndvc=1#d08930c8b8fb3786343d6be5cbd5aabe07697d4b6282d3e7fa2689245f847243
+https://jireh-5-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8?dpssid=5160a37e9a584cbccb17a145&sid=fa2d90cb4cca17c5b02dba04&ndvc=1#d08930c8b8fb3786343d6be5cbd5aabe07697d4b6282d3e7fa2689245f847243
 #EXTINF:-1 tvg-id="ent.channel" tvg-name="ENT Channel" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Spanish" group-title="Entertainment",ENT Channel [1080p]
 https://cdn.40mediagroup.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8#6dcc475fa471b8e8f60d643788da2a6a3a6361fdd9f6a3b15216432f11967dc7
 #EXTINF:-1 tvg-id="f10.hd" tvg-name="F10 HD" tvg-logo="" tvg-country="🇧🇴 Bolivia" tvg-language="Spanish" group-title="🇧🇴 Bolivia",F10 HD [720p]
 https://tv2.bitstreaming.net:3235/multi_live/play.m3u8#83f9f90ca359de8941d356fa2e09498aec49dda80d954e125e30acfc524a36f8
 #EXTINF:-1 tvg-id="fox.sports.en.espanol" tvg-name="Fox Sports en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Sports",Fox Sports en Espanol [720p]
-https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTUzMjk0OTksImlzcyI6ImFlZ2lzIn0.eZuBhTihb0u_2duE2YyVNZMNJy-Nts1R3dMarcixfZYQP4P5kpVksyFJRxcLJEkXdQlFGDUHd8VNfu6JkE1MKA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU0MTUxNjMsImlzcyI6ImFlZ2lzIn0.kNewc7EKjtHCv_bMslClvEfUgfLPXW4P4LnJ4jrYLMOW9gP4I6qxK6CL71VMlsE3Y2CdjdDVVh1wl-63yLHdKA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
 #EXTINF:-1 tvg-id="france.24" tvg-name="France 24" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Spanish, Arabic, English, French" group-title="News",France 24 [720p]
 https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8#1e0492f4cecefef8d05770b8dd934f129e52f9ee5abdbb7d273047f0d7256fb8
 #EXTINF:-1 tvg-id="france.24.arabic" tvg-name="France 24 Arabic" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Arabic, English, French, Spanish" group-title="News",France 24 Arabic
@@ -66,7 +64,7 @@ https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8#8bf87763fd
 #EXTINF:-1 tvg-id="kpop.mix" tvg-name="Kpop Mix" tvg-logo="" tvg-country="🇦🇷 Argentina" tvg-language="Spanish, English" group-title="🇦🇷 Argentina",Kpop Mix [720p]
 https://cloud.tvomix.com/KPOPMIX/index.m3u8#dce1454903beed4f2e131304e8f65388c5fabd0be270745fc6b38b5966d25da4
 #EXTINF:-1 tvg-id="latina.tv" tvg-name="Latina TV" tvg-logo="" tvg-country="🇵🇪 Peru" tvg-language="Spanish" group-title="🇵🇪 Peru",Latina TV [1080p]
-https://jireh-9-hls-video-us-isp.dps.live/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8?dpssid=38f581e4ececf083f85f8f07&sid=633a5395263c72609567f126&ndvc=1#d1361e1c7cfc9aacd623d2c722d339202fc77305e0443ee23fdc306804fecf31
+https://jireh-4-hls-video-us-isp.dps.live/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8?dpssid=28ff94c9437f8cc7e6c0ee86&sid=ae3c35a8ede4682136702d05&ndvc=1#d1361e1c7cfc9aacd623d2c722d339202fc77305e0443ee23fdc306804fecf31
 #EXTINF:-1 tvg-id="love.nature.4k" tvg-name="Love Nature 4K" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English, Chinese, Turkish, Bulgarian, Czech, Russian, Spanish, Hungarian" group-title="🇨🇦 Canada",Love Nature 4K [2160p]
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
 #EXTINF:-1 tvg-id="mega.cine.tv" tvg-name="Mega Cine TV" tvg-logo="" tvg-country="🇩🇴 Dominican Republic" tvg-language="Spanish" group-title="Movie",Mega Cine TV [1080p]
@@ -83,8 +81,8 @@ https://cloudvideo.servers10.com:8081/8116/index.m3u8#7cd01c0c02b27b396ca7c0a7e3
 https://vcp.myplaytv.com/promar/promar/playlist.m3u8#9f40bb74905f070a6e606bc8803267e3f7ccc997030476f515cf7b262c5479dc
 #EXTINF:-1 tvg-id="rcn.mas" tvg-name="RCN Mas" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Entertainment",RCN Mas [1080p]
 https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8#a5dfe7cd3b2b63bf7b4e470f6de6e9fee440ada4bcf6eabad5b479fd1cffd85a
-#EXTINF:-1 tvg-id="real.madrid.tv" tvg-name="Real Madrid TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Sports",Real Madrid TV [720p]
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
+#EXTINF:-1 tvg-id="superm.sica.tv" tvg-name="Supermúsica TV" tvg-logo="" tvg-country="🇨🇴 Colombia" tvg-language="Spanish" group-title="Music",Supermúsica TV
+https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8#99e263aa2dcfa473a478e855587c2e0f90a5141c04c0fb12b2e795db4b4cd110
 #EXTINF:-1 tvg-id="telemundo.corpus.christi" tvg-name="Telemundo Corpus Christi" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Entertainment",Telemundo Corpus Christi [720p]
 https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8#6a1b54459d5e2f36fafb7fd858b3788bbd0f3e13bf4283bebc7d4775350fc70c
 #EXTINF:-1 tvg-id="telesur.hd" tvg-name="Telesur HD" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="English, Spanish" group-title="News",Telesur HD [1080p]
@@ -107,3 +105,5 @@ https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-
 https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8#723ded00a59ef182451013e97a33cf9b1618ab0b08b7d80a845505b6eebe1761
 #EXTINF:-1 tvg-id="wkaq.dt1.telemundo.pr" tvg-name="WKAQ-DT1 (Telemundo PR)" tvg-logo="" tvg-country="🇵🇷 Puerto Rico" tvg-language="Spanish" group-title="🇵🇷 Puerto Rico",WKAQ-DT1 (Telemundo PR) [1080p]
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8#7e760bac1d01e9fb96874716b6872b2479f7a92e19637dfab1981f765d1d11cb
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish, French, German, Italian" group-title="Sports",World Poker Tour [1080p]
+https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
