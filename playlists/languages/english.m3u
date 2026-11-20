@@ -9,6 +9,8 @@ https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7
 https://30a-tv.com/feeds/vidaa/cars.m3u8#6aa7a202803104ffa072ea98aa5e87ec90f9bcf8d3b50570b12cba7204df9a80
 #EXTINF:-1 tvg-id="a2i.tv" tvg-name="A2i TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="English, French" group-title="🇮🇹 Italy",A2i TV [1080p]
 https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8#9d323c372862e0c4dfe46423c428884e7fb6ba9fc2c58222853e3d6c82e0f7fa
+#EXTINF:-1 tvg-id="abc.13.las.vegas.nv.ktnv" tvg-name="ABC 13 Las Vegas NV (KTNV)" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",ABC 13 Las Vegas NV (KTNV) [720p]
+https://content.uplynk.com/channel/39919d3f7a074eefa8bf579214e952f9.m3u8#235094e277b5ebf932bb0ba268b55db313d0fcd6d651ce68463a9ea55d84bf1a
 #EXTINF:-1 tvg-id="abc.news" tvg-name="ABC News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="News",ABC News [720p]
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8#6250248a9386318e205bd783d428838e45f85904c157041c13a6fc4e0682a40b
 #EXTINF:-1 tvg-id="al.jazeera" tvg-name="Al Jazeera" tvg-logo="" tvg-country="🇶🇦 Qatar" tvg-language="Arabic, English" group-title="News",Al Jazeera
@@ -23,6 +25,8 @@ https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEar
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
 #EXTINF:-1 tvg-id="bbc.news.europe" tvg-name="BBC News Europe" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English, Japanese, Spanish" group-title="News",BBC News Europe
 https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
+#EXTINF:-1 tvg-id="bloomberg.tv.europe" tvg-name="Bloomberg TV Europe" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Bloomberg TV Europe [720p]
+https://www.bloomberg.com/media-manifest/streams/eu.m3u8#3a9e6f8954fb89d54dee351751f769949921f588ca1b5ffb40bb6d4f453b90b0
 #EXTINF:-1 tvg-id="blues.tv" tvg-name="Blues TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Blues TV [720p]
 https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8#27b8a194d499d88c8cf9afb4ec68eabbd5eb9254cf850ddfb53a087b28fe0cff
 #EXTINF:-1 tvg-id="cbs.news.24.7" tvg-name="CBS News 24/7" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",CBS News 24/7 [720p]
@@ -41,8 +45,6 @@ https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m
 https://2-fss-1.themediacdn.com/pl_122/206280-3059514-1/playlist.m3u8#2823b153f517492b8aa9b8b2bdb84e97c71cce02f5e6d87626b799ad3b3f3f0d
 #EXTINF:-1 tvg-id="daystar.tv" tvg-name="Daystar TV" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Daystar TV [1080p]
 https://hls-live-media-gc.cdn01.net/mpegts/232076_2222904/3rJU288TBQFb_PFIty9C9A/1799020800/master_mpegts.m3u8?via=direct&source=smarttv#7dc62aa51ed7a4963d9c3a9e3ea71970f4eeedda88f31200c935f72921caee28
-#EXTINF:-1 tvg-id="dw.espanol" tvg-name="DW Espanol" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Arabic, German, English, Spanish, Russian" group-title="News",DW Espanol [1080p]
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8#f7ce8c2eb97c9dc4845439d515ec793efb94fe69658f0146660331566f6b7839
 #EXTINF:-1 tvg-id="fashion.finds" tvg-name="Fashion Finds" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Fashion Finds [720p]
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8#3f5342ec47ca914a5ebbeff78ff0773c7a15fbc547cf927f371909e8925e1e99
 #EXTINF:-1 tvg-id="fashiontv.secrets" tvg-name="FashionTV Secrets" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English" group-title="🇫🇷 France",FashionTV Secrets [1080p]
@@ -64,7 +66,7 @@ http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8#aff4910
 #EXTINF:-1 tvg-id="fox.news.radio" tvg-name="Fox News Radio" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",Fox News Radio [720p]
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8#ea4565e124e07cc2b5bc1a2f038c68903ecd18d48d050b8c157ebb26032dbdd7
 #EXTINF:-1 tvg-id="fox.sports.en.espanol" tvg-name="Fox Sports en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Sports",Fox Sports en Espanol [720p]
-https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU0MTUxNjMsImlzcyI6ImFlZ2lzIn0.kNewc7EKjtHCv_bMslClvEfUgfLPXW4P4LnJ4jrYLMOW9gP4I6qxK6CL71VMlsE3Y2CdjdDVVh1wl-63yLHdKA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU0NjMyMzIsImlzcyI6ImFlZ2lzIn0.RMZoq6mlEUnC4Xk8ZBemRhNO3RPBYJdp0ZLGACbj_pp2AI2DJY6zw6dwRQIHY5RdZrHAp4CEfySjz7R1f_VKBA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
 #EXTINF:-1 tvg-id="global.fashion.channel" tvg-name="Global Fashion Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",Global Fashion Channel [1080p]
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8#27ec051e5c40bb88c00a2aeff194128528c1af82ba60376600d7b0681e73abd9
 #EXTINF:-1 tvg-id="great.movies" tvg-name="Great! Movies" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="English" group-title="Movie",Great! Movies [1080p]
@@ -108,7 +110,7 @@ https://a-cdn.klowdtv.com/live3/tbn_720p/playlist.m3u8#97266b4c27f9fbb7c681e9df9
 #EXTINF:-1 tvg-id="telesur.hd" tvg-name="Telesur HD" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="English, Spanish" group-title="News",Telesur HD [1080p]
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8#b5bcf91552bf31a965558079e3ce2a143a34791bee9a440f5285ceb4d0762962
 #EXTINF:-1 tvg-id="tennis.channel" tvg-name="Tennis Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",Tennis Channel [1080p]
-https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
 #EXTINF:-1 tvg-id="the.word.network" tvg-name="The Word Network" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="🇺🇸 United States",The Word Network [1080p]
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8#78796fc4cf0d2c9feb34f100e4ab6e098d0357fc90214c064558206b24ef91f1
 #EXTINF:-1 tvg-id="trace.urban" tvg-name="Trace Urban" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French, English, Portuguese" group-title="Music",Trace Urban [1080p]

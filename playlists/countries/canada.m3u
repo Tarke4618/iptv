@@ -1,14 +1,10 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-#EXTINF:-1 tvg-id="az.star.tv" tvg-name="Az Star TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Azerbaijani" group-title="🇨🇦 Canada",Az Star TV [1080p]
-http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8#4d1a8e7b0e5677051d06affe6c5d42a3837c188c68079cb1fd362268814e29a6
 #EXTINF:-1 tvg-id="c.malayalam.tv" tvg-name="C Malayalam TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Malayalam" group-title="🇨🇦 Canada",C Malayalam TV [720p]
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8#12100ff3a447dfc7356b20371d0a03cc668be64018e992ea9ea8e6168dba9643
 #EXTINF:-1 tvg-id="canada.one" tvg-name="Canada One" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Canada One [720p]
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8#889b3c4ab08e7f1f8cef33a00b85bdf8ef1a43fd5951d0c544959974245d84a5
 #EXTINF:-1 tvg-id="canal.savoir" tvg-name="Canal Savoir" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="French" group-title="🇨🇦 Canada",Canal Savoir
 https://hls.savoir.media/live/stream.m3u8#757bf8a2f75447cd05b17561c1e6d3836b65c74b9d716b80c20d60a03c09c6e4
-#EXTINF:-1 tvg-id="channel.y" tvg-name="Channel Y" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",Channel Y [1080p]
-http://cdn19.live247stream.com/channely/tv/playlist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
 #EXTINF:-1 tvg-id="citynews.calgary" tvg-name="CityNews Calgary" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Calgary [720p]
 https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8#93526593644adfd43c0050d560342f8be546791505e075cb88148c9674610e43
 #EXTINF:-1 tvg-id="citynews.edmonton" tvg-name="CityNews Edmonton" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Edmonton
@@ -18,7 +14,7 @@ https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m
 #EXTINF:-1 tvg-id="citynews.vancouver" tvg-name="CityNews Vancouver" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CityNews Vancouver [720p]
 https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8#f5d0a2d6d8ab2e99a9223360b427a73d6d572c0995ab6a4b6dfffb220e8fc9ed
 #EXTINF:-1 tvg-id="cowboy.channel" tvg-name="Cowboy Channel" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Cowboy Channel [1080p]
-https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8#0efdc41be09de4f7d879943c42ec64fc6f2f71ff3b098f344496ed5326aa71ad
+https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8?ads.vf=6g9ilXeXVD8#80c5a866f1aab227a7774871d6090725f8e873b9ca14b7669bc628ff253daf50
 #EXTINF:-1 tvg-id="cp24" tvg-name="CP24" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",CP24
 https://tvsen6.aynaott.com/cp24/index.m3u8#68ffc26d8380a3ca82405c2926c452b94a03f490174b576180d6166292ee6f6c
 #EXTINF:-1 tvg-id="deshi.tv" tvg-name="Deshi TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Bengali" group-title="🇨🇦 Canada",Deshi TV
@@ -31,8 +27,6 @@ https://d3c1w351ahk83d.cloudfront.net/scheduler/scheduleMaster/416.m3u8#f34dcb20
 https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
 #EXTINF:-1 tvg-id="gaunda.punjab.tv" tvg-name="Gaunda Punjab TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Panjabi" group-title="🇨🇦 Canada",Gaunda Punjab TV [720p]
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8#16ea2239ee233aa2e9427790b9e01de0bd04ccc564aff069dd7b857fe3fbb581
-#EXTINF:-1 tvg-id="gursikh.sabha.tv" tvg-name="GurSikh Sabha TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Hindi" group-title="🇨🇦 Canada",GurSikh Sabha TV
-http://cdn12.henico.net:8080/live/gsctv/index.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
 #EXTINF:-1 tvg-id="gusto.tv" tvg-name="Gusto TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Gusto TV [1080p]
 https://amg01077-gustoworldwidem-gustotvnz-samsungnz-3fu5q.amagi.tv/playlist/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8#ea20d829426c4f3c63e2691421da5e400678659194736fa374872b40ccb9f21b
 #EXTINF:-1 tvg-id="ici.montreal" tvg-name="ICI Montreal" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",ICI Montreal [720p]
@@ -79,6 +73,8 @@ https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.
 https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8#658b595ae0d814aea4e6d77021a88d49b9f87811fef63fc6a9599fb518d32901
 #EXTINF:-1 tvg-id="stingray.easy.listening" tvg-name="Stingray Easy Listening" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Easy Listening [1080p]
 https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8#a9c0194a775b87afe84e34ec1863948b319cf9438a7a20de5f7ed6e368049d93
+#EXTINF:-1 tvg-id="stingray.euro.hits" tvg-name="Stingray Euro Hits" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Euro Hits [1080p]
+https://lotus.stingray.com/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8#7cfa3630b4e61ae504fbc21a6c3cdbd193cf5f87481e66492b3bf77a2fdb8c58
 #EXTINF:-1 tvg-id="stingray.flashback.70s" tvg-name="Stingray Flashback 70s" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Flashback 70s [1080p]
 https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8#df1abf25886407219f966e90a9be9f05c8c44ec248faa46caca84aac252ea5e4
 #EXTINF:-1 tvg-id="stingray.hit.list" tvg-name="Stingray Hit List" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Stingray Hit List [1080p]
@@ -123,5 +119,9 @@ https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a
 https://tscamd.akamaized.net/hls/live/503340/TSCLive/master.m3u8#90adfbb917007c512d03f0b9265498b89e8e5e32cb4322c39acd7da01441167e
 #EXTINF:-1 tvg-id="toronto.360.tv" tvg-name="Toronto 360 TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Toronto 360 TV [720p]
 http://cdn3.toronto360.tv:8081/toronto360/hd/playlist.m3u8#9b791ef95be96e5450bca9c6e254b3ee3a5b31849f17736013ea2cf5b6bdf590
+#EXTINF:-1 tvg-id="tvokids" tvg-name="TVOKids" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",TVOKids [720p]
+https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8#bc9489b7c61a24c143c656598da2f9e375f581be7a71a77e3d0e8e8b61469991
+#EXTINF:-1 tvg-id="watan.e.maa.tv" tvg-name="Watan-e-Maa TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="Dari (Parsi)" group-title="🇨🇦 Canada",Watan-e-Maa TV [720p]
+https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8#c62845bfbfb1389722d56dfdc5903d9c11bebeb9a4ea8887c5928389205c1591
 #EXTINF:-1 tvg-id="wild.tv" tvg-name="Wild TV" tvg-logo="" tvg-country="🇨🇦 Canada" tvg-language="English" group-title="🇨🇦 Canada",Wild TV [1080p]
 https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8#bfe223f646afdbb717a38c229a2ca216803885b0607496b9bff687ce218d1ff2

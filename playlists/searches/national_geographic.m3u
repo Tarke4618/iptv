@@ -1,1 +1,3 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+#EXTINF:-1 tvg-id="national.geographic" tvg-name="National Geographic" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Documentary",National Geographic
+https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8#367128503e41d46025d7820035a19f53bff91cca8c161b136aed13ffcdfafa8c

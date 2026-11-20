@@ -10,7 +10,7 @@ https://content.uplynk.com/channel/c66d1d2d9e2c46cea1cf22a33f6ca488.m3u8#d008684
 #EXTINF:-1 tvg-id="abp.majha" tvg-name="ABP Majha" tvg-logo="" tvg-country="🇮🇳 India" tvg-language="Marathi" group-title="News",ABP Majha [1080p]
 https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8#2acfc4e2fa07afb1a28dca2ab145b21acb1350ec44119524db45b29e96b3193d
 #EXTINF:-1 tvg-id="africa.24.sport" tvg-name="Africa 24 Sport" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="News",Africa 24 Sport [1080p]
-https://edge20.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
+https://edge11.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
 #EXTINF:-1 tvg-id="al.jazeera" tvg-name="Al Jazeera" tvg-logo="" tvg-country="🇶🇦 Qatar" tvg-language="Arabic, English" group-title="News",Al Jazeera
 https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8#ad47bb3d3802af8057fc58a6ae07311914ac36428cd9dd808f32a848e9c29073
 #EXTINF:-1 tvg-id="al.jazeera.english" tvg-name="Al Jazeera English" tvg-logo="" tvg-country="🇶🇦 Qatar" tvg-language="Arabic, English" group-title="News",Al Jazeera English
@@ -30,7 +30,7 @@ https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647b
 #EXTINF:-1 tvg-id="bbc.persian" tvg-name="BBC Persian" tvg-logo="" tvg-country="🇬🇧 United Kingdom" tvg-language="Persian" group-title="News",BBC Persian [720p]
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8#7b1c9579832b2d33c2bdb5f253a9cdc232c513f0df56db9f193d82e64c9ad880
 #EXTINF:-1 tvg-id="bfm.tv" tvg-name="BFM TV" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="News",BFM TV [540p]
-https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8?bpkio_sessionid=10f0e139f82-c50a768c-6a61-4dd4-affc-34b5d2b054dc&bpkio_serviceid=7de32147a4f1055b7ea82c2886420955&category=all#89bc69ee9853e787e6a0494b6ff3af4196f4c626cd98ae168b8131f8cba77029
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8?bpkio_sessionid=10e0a192c18-61b7a5bf-4df1-4a5a-a098-a865a65a1276&bpkio_serviceid=7de32147a4f1055b7ea82c2886420955&category=all#89bc69ee9853e787e6a0494b6ff3af4196f4c626cd98ae168b8131f8cba77029
 #EXTINF:-1 tvg-id="canal.24.horas" tvg-name="Canal 24 Horas" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="News",Canal 24 Horas [720p]
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8?idasset=1694255#09fd798b80b7ed4f74d65cfd3ee125a9ab54ce64f6eb99bbc43782cdc45c10c7
 #EXTINF:-1 tvg-id="cbs.news.24.7" tvg-name="CBS News 24/7" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",CBS News 24/7 [720p]
@@ -48,17 +48,15 @@ https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m
 #EXTINF:-1 tvg-id="cna" tvg-name="CNA" tvg-logo="" tvg-country="🇸🇬 Singapore" tvg-language="English" group-title="News",CNA [1080p]
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8#63f07e56279b6ed9ebdc5c0ff85347a9e3f38efa6bd5361e30d560e68aeff779
 #EXTINF:-1 tvg-id="cnn" tvg-name="CNN" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",CNN [1080p]
-https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8?route_version=v2#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
-#EXTINF:-1 tvg-id="dw.espanol" tvg-name="DW Espanol" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Arabic, German, English, Spanish, Russian" group-title="News",DW Espanol [1080p]
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8#f7ce8c2eb97c9dc4845439d515ec793efb94fe69658f0146660331566f6b7839
-#EXTINF:-1 tvg-id="dw.russian" tvg-name="DW Russian" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="Spanish, Russian, Arabic, German, English" group-title="News",DW Russian [1080p]
-https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8#be42fb472a5afede209c8c06e14b6b1967cd31ec84c610bd1bd71d4753057456
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
 #EXTINF:-1 tvg-id="entertainment.tonight" tvg-name="Entertainment Tonight" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",Entertainment Tonight [1080p]
-https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/d24f5394-0fa4-4167-9ed8-acb613c90949:ATL/master.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/dbf0a8e0-11b1-4ff9-b80c-589259c8c57d:TUL/master.m3u8#f8adade8f1201047a365ace6c256f2055a1393cd353d44292c6f19b735198692
 #EXTINF:-1 tvg-id="ert.news.hd" tvg-name="ERT News HD" tvg-logo="" tvg-country="🇬🇷 Greece" tvg-language="Greek" group-title="News",ERT News HD [1080p]
 https://702e2e484b144c71ba38bca0d41f37cd.msvdn.net/bpk-tv/ERTNews/default/index.m3u8#78f679c95d30803d1ea9483b03a898460f4d1589c41e86b7a3c13a0cf543a493
 #EXTINF:-1 tvg-id="etna.espresso.channel" tvg-name="Etna Espresso Channel" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="News",Etna Espresso Channel [1080p]
 https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8#5455ff0c5a0b3e5e47b3889c2363fbe4ea752e09419d98f884c36987b63d1a62
+#EXTINF:-1 tvg-id="expressen.tv" tvg-name="Expressen TV" tvg-logo="" tvg-country="🇸🇪 Sweden" tvg-language="Swedish" group-title="News",Expressen TV [1080p]
+https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8#1c6c2517c2a0a5486a739b0d18bd8aef1ebfbfdc8e73fdeec3fd583132381325
 #EXTINF:-1 tvg-id="fox.news.channel" tvg-name="Fox News Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",Fox News Channel
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8#aff4910625f3c37754a9458e994288ca573bb273b1887c2eb489644337d9e7a3
 #EXTINF:-1 tvg-id="fox.news.radio" tvg-name="Fox News Radio" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",Fox News Radio [720p]
@@ -80,7 +78,7 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-livestream/lj9-pxm-o53-rp0/tracks
 #EXTINF:-1 tvg-id="ktv.news" tvg-name="KTV News" tvg-logo="" tvg-country="🇰🇼 Kuwait" tvg-language="Arabic" group-title="News",KTV News [1080p]
 https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8#f262e8807fdeb4d12b3f9187bc73fb58bafb04e3501b3e2cd57fb726fb6e8201
 #EXTINF:-1 tvg-id="lac.news.24" tvg-name="LaC News 24" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="News",LaC News 24 [720p]
-https://StreamCdnB1-f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8#54569da4982356e5fc1291c192efd3fbe4b7de162585a191d10fb7fa646e5de5
+https://StreamCdnG4-f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8#54569da4982356e5fc1291c192efd3fbe4b7de162585a191d10fb7fa646e5de5
 #EXTINF:-1 tvg-id="lira.tv" tvg-name="Lira TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="News",Lira TV [1080p]
 https://StreamCdnP3-a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8#bcfe457b35c7e7c8c95ac26af62e06872b0b46ef925b7bd59951c233211c5178
 #EXTINF:-1 tvg-id="livenow.from.fox" tvg-name="LiveNOW from FOX" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",LiveNOW from FOX [720p]
@@ -91,8 +89,6 @@ https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8#2d6bce
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8#088d520b022255dc0fcc1c7c27f8700802f8cff2e810fbda1b6f397255af5368
 #EXTINF:-1 tvg-id="oan.encore" tvg-name="OAN Encore" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",OAN Encore [1080p]
 https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8#6bd429ce748ac8d86d697c170e9d238baff88debb7ff7f08b193f19512e9b626
-#EXTINF:-1 tvg-id="onda.valencia" tvg-name="Onda Valencia" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="News",Onda Valencia [720p]
-https://cloudvideo.servers10.com:8081/8116/index.m3u8#7cd01c0c02b27b396ca7c0a7e3612758ab3a189962c818cbd1d2cd8076d8e714
 #EXTINF:-1 tvg-id="reuters" tvg-name="Reuters" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="News",Reuters [1080p]
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8#c08cdde3c497556b8ee2f21b8efc4b447f8f6d64c8971f2f65408bad448ac14f
 #EXTINF:-1 tvg-id="rt.arabic" tvg-name="RT Arabic" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Arabic" group-title="News",RT Arabic [1080p]

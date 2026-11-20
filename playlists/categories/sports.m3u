@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 #EXTINF:-1 tvg-id="africa.24.sport" tvg-name="Africa 24 Sport" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French" group-title="News",Africa 24 Sport [1080p]
-https://edge20.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
+https://edge11.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8#ee5ad5f8cb3d9e192e7aa53538619997f730f18454bf67e364c1dad69aba2e41
 #EXTINF:-1 tvg-id="as3.sport.tv" tvg-name="AS3 Sport TV" tvg-logo="" tvg-country="🇻🇪 Venezuela" tvg-language="Spanish" group-title="Sports",AS3 Sport TV
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8#3d1aa68ba8538245ae4d279c2a2260ffcb8bb3e1757a5c39f72fb4cb70d5cf31
 #EXTINF:-1 tvg-id="atg.live" tvg-name="ATG Live" tvg-logo="" tvg-country="🇸🇪 Sweden" tvg-language="Swedish" group-title="Sports",ATG Live [1080p]
@@ -9,6 +9,8 @@ https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
 #EXTINF:-1 tvg-id="bahrain.sports.2" tvg-name="Bahrain Sports 2" tvg-logo="" tvg-country="🇧🇭 Bahrain" tvg-language="Arabic" group-title="Sports",Bahrain Sports 2 [720p]
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8#2c634ea2e6e0c1b92e53ac880b55234b3e2fac77ad204535f71a113078b37663
+#EXTINF:-1 tvg-id="bein.sports.xtra" tvg-name="BeIN Sports XTRA" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",BeIN Sports XTRA [1080p]
+https://bein-xtra-xumo.amagi.tv/playlist.m3u8#57c5d75de0462897ac9f2a6de241d11499ff2cc7487ac27a4279957d312d45f6
 #EXTINF:-1 tvg-id="bein.sports.xtra.en.espanol" tvg-name="BeIN Sports XTRA en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish" group-title="Sports",BeIN Sports XTRA en Espanol [1080p]
 https://bein-esp-xumo.amagi.tv/playlist.m3u8#7c79d6813c727b2298c3f02ad18e9d54452d7f39c3a12db1aad325df4f6bb5e5
 #EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Cricket Gold [1080p]
@@ -20,13 +22,13 @@ https://webtvstream.bhtelecom.ba/fightbox.m3u8#a9315891bbd400cc750dbc448035ca935
 #EXTINF:-1 tvg-id="fite.24.7" tvg-name="FITE 24/7" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",FITE 24/7 [1080p]
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8#88d9e4fe8d2c138e89a5d76f3db187a236c3b6c46abccfa2999bf89ccc764f60
 #EXTINF:-1 tvg-id="fox.sports.en.espanol" tvg-name="Fox Sports en Espanol" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="Spanish, English" group-title="Sports",Fox Sports en Espanol [720p]
-https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU0MTUxNjMsImlzcyI6ImFlZ2lzIn0.kNewc7EKjtHCv_bMslClvEfUgfLPXW4P4LnJ4jrYLMOW9gP4I6qxK6CL71VMlsE3Y2CdjdDVVh1wl-63yLHdKA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU0NjMyMzIsImlzcyI6ImFlZ2lzIn0.RMZoq6mlEUnC4Xk8ZBemRhNO3RPBYJdp0ZLGACbj_pp2AI2DJY6zw6dwRQIHY5RdZrHAp4CEfySjz7R1f_VKBA#2981861f30e70d82e147eb5ab1873ac56f6cf0e263c0b038c7ba689b63e9ac57
 #EXTINF:-1 tvg-id="ftf.sports" tvg-name="FTF Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",FTF Sports [720p]
 https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4e9ea90309b12cc3c13cccd8a44f03fa9513cb
 #EXTINF:-1 tvg-id="ftv" tvg-name="FTV" tvg-logo="" tvg-country="🇧🇴 Bolivia" tvg-language="Spanish" group-title="Sports",FTV [720p]
 https://master.tucableip.com/ftvhd/index.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
 #EXTINF:-1 tvg-id="fuel.tv" tvg-name="Fuel TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="English" group-title="Sports",Fuel TV [1080p]
-https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8#2b30d5b1be35679e87489584c2e429565b349a0c7884e36606fcece82ab062e9
+https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8#72a14a9eafb4c85935b4ff259b92eb58b7ad6557fbfc459ee2578d0529305fde
 #EXTINF:-1 tvg-id="horse.tv" tvg-name="Horse TV" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Sports",Horse TV [720p]
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8#1707be173e849dcd9e3adae8984436f168ac2c64e2e181f13208acf2dd89c6f9
 #EXTINF:-1 tvg-id="kozoom.tv" tvg-name="Kozoom TV" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="French, English" group-title="Sports",Kozoom TV [1080p]
@@ -51,10 +53,12 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 https://pac12-samsungus.amagi.tv/playlist.m3u8#e14c5d03218aa3516f9174d486f2fd37af8e35038d1431ddc0f0fc08615eb28e
 #EXTINF:-1 tvg-id="persiana.fight" tvg-name="Persiana Fight" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="Persian" group-title="Sports",Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8#a0b9a94ef726c0e46ebd8e77a04ec089cc42e18a76465682a7b68e3de5ed7c67
-#EXTINF:-1 tvg-id="qazsport" tvg-name="QazSport" tvg-logo="" tvg-country="🇰🇿 Kazakhstan" tvg-language="Kazakh" group-title="Sports",QazSport [1080p]
-https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
+#EXTINF:-1 tvg-id="qazsport" tvg-name="QazSport" tvg-logo="" tvg-country="🇰🇿 Kazakhstan" tvg-language="Kazakh" group-title="Sports",QazSport
+https://block.qazcdn.com/block/geoblock.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
 #EXTINF:-1 tvg-id="racer.international" tvg-name="RACER International" tvg-logo="" tvg-country="🇵🇱 Poland" tvg-language="English" group-title="Sports",RACER International [1080p]
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8#fde542a1f43c2cee43b4a7e20292522c10ff1448cdd18ceaa205ab2b2e45f8b0
+#EXTINF:-1 tvg-id="real.madrid.tv" tvg-name="Real Madrid TV" tvg-logo="" tvg-country="🇪🇸 Spain" tvg-language="Spanish" group-title="Sports",Real Madrid TV [720p]
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
 #EXTINF:-1 tvg-id="red.bull.tv" tvg-name="Red Bull TV" tvg-logo="" tvg-country="🇦🇹 Austria" tvg-language="German, English" group-title="Sports",Red Bull TV [1080p]
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
 #EXTINF:-1 tvg-id="sky.racing.1" tvg-name="Sky Racing 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Sky Racing 1 [720p]
@@ -74,12 +78,14 @@ https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8#c2640e7396e30553
 #EXTINF:-1 tvg-id="teletrak" tvg-name="Teletrak" tvg-logo="" tvg-country="🇨🇱 Chile" tvg-language="Spanish" group-title="Sports",Teletrak [720p]
 https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8#920b5babfdb1aca599824b3cd51c53ced9796dff0a94a651a62f3857a94e19d9
 #EXTINF:-1 tvg-id="tennis.channel" tvg-name="Tennis Channel" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",Tennis Channel [1080p]
-https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8#9424f66fc295ef804e79e77fb4705ff94caa7eb87f69b9f29075bf7247bbeea7
+https://amg01444-tennischannelth-tennischannelnl-samsungnl-x3dq1.amagi.tv/playlist/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8#40b8157ff0b07891cb35437ebd893cc69ce87610beb2355825600b1ea6c71941
 #EXTINF:-1 tvg-id="tennis.channel.2" tvg-name="Tennis Channel 2" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",Tennis Channel 2 [1080p]
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
 #EXTINF:-1 tvg-id="tr.sport" tvg-name="TR Sport" tvg-logo="" tvg-country="🇮🇹 Italy" tvg-language="Italian" group-title="Sports",TR Sport [480p]
 https://livetr.teleromagna.it/mia/live/playlist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
-#EXTINF:-1 tvg-id="tvs.sports" tvg-name="TVS Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",TVS Sports [960p]
+#EXTINF:-1 tvg-id="trace.sports.stars" tvg-name="Trace Sports Stars" tvg-logo="" tvg-country="🇫🇷 France" tvg-language="English, French" group-title="Sports",Trace Sports Stars [1080p]
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8#c5f4adab172b8b034e72a2baeadba0639e77858b21b7c6e7d7745046a9b82069
+#EXTINF:-1 tvg-id="tvs.sports" tvg-name="TVS Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",TVS Sports [480p]
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
 #EXTINF:-1 tvg-id="tvs.women.sports" tvg-name="TVS Women Sports" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English" group-title="Sports",TVS Women Sports [720p]
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
@@ -89,8 +95,8 @@ https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-
 https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081ccbe953515cd7986b2d3c1dc0d5c416
 #EXTINF:-1 tvg-id="world.of.freesports" tvg-name="World of Freesports" tvg-logo="" tvg-country="🇩🇪 Germany" tvg-language="German" group-title="Sports",World of Freesports [1080p]
 https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8#8ab9ab9ddc1246ecc268ae539e0fb72299a5ec7e34dc0f78bbe6088425f7171a
-#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="English, Spanish, French, German, Italian" group-title="Sports",World Poker Tour [1080p]
-https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8#d1be0ea6514416b44f11fdd3251af09876cb088b9484698fa576e6c22a77359e
+#EXTINF:-1 tvg-id="world.poker.tour" tvg-name="World Poker Tour" tvg-logo="" tvg-country="🇺🇸 United States" tvg-language="French, German, Italian, English, Spanish" group-title="Sports",World Poker Tour [1080p]
+https://amg00218-wptenterprisesi-worldpokertour-klowdtv-5619e.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-klowdtv/playlist.m3u8#4b1627fa16d28741e25739bb43df7c85e4a032b3073b7856a783df0de8018e8b
 #EXTINF:-1 tvg-id="ru.sport" tvg-name="Астрахань.Ru Sport" tvg-logo="" tvg-country="🇷🇺 Russia" tvg-language="Russian" group-title="Sports",Астрахань.Ru Sport [1080p]
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8#7be5faf38433a25ebb455aeaa4e0c6825771a9284cae4b257cb8a40427698cab
 #EXTINF:-1 tvg-id="5" tvg-name="Беларусь 5" tvg-logo="" tvg-country="🇧🇾 Belarus" tvg-language="Russian" group-title="Sports",Беларусь 5 [1080p]
