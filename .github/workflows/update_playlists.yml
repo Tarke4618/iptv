@@ -1,9 +1,14 @@
-name: Refresh eja.tv M3U Playlists
+name: Refresh IPTV M3U Playlists
 
 on:
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Test run without committing changes'
+        type: boolean
+        default: false
   push:
     branches:
       - main
@@ -23,38 +28,72 @@ permissions:
 jobs:
   build-playlists:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up uv and Python 3.12
+        uses: astral-sh/setup-uv@v10
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: '3.12'
+          enable-cache: true
 
-      - name: Install dependencies
+      - name: Create venv and install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          uv venv
+          uv pip install -r requirements.txt
+
+      - name: Pre-flight syntax and JSON check
+        run: |
+          .venv/bin/python -m py_compile scraper.py
+          .venv/bin/python -m json.tool config.json > /dev/null
+          echo "Pre-flight checks passed."
 
       - name: Scrape sources and build M3U playlists
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONUNBUFFERED: "1"
-        run: python -u scraper.py
+        run: .venv/bin/python -u scraper.py
+
+      - name: Validate playlists and generate Job Summary
+        run: |
+          ALL_COUNT=$(grep -c '^#EXTINF:' playlists/all.m3u 2>/dev/null || echo 0)
+          TEL_COUNT=$(grep -c '^#EXTINF:' playlists/special/telugu_hub.m3u 2>/dev/null || echo 0)
+          IND_COUNT=$(grep -c '^#EXTINF:' playlists/special/india_all.m3u 2>/dev/null || echo 0)
+          FAST_COUNT=$(grep -c '^#EXTINF:' playlists/special/fast_movies_tv.m3u 2>/dev/null || echo 0)
+          HD_COUNT=$(grep -c '^#EXTINF:' playlists/special/hd_1080p.m3u 2>/dev/null || echo 0)
+
+          {
+            echo "## IPTV Pro v3 Build Summary"
+            echo "| Playlist | Verified Live Channels |"
+            echo "| :--- | :---: |"
+            echo "| **Telugu Master Hub** | ${TEL_COUNT} |"
+            echo "| **All India Verified** | ${IND_COUNT} |"
+            echo "| **FAST Free Movies & TV** | ${FAST_COUNT} |"
+            echo "| **HD 720p / 1080p** | ${HD_COUNT} |"
+            echo "| **All Verified Channels** | ${ALL_COUNT} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$ALL_COUNT" -lt 10 ]; then
+            echo "::error::Fewer than 10 live channels found ($ALL_COUNT). Aborting commit to protect existing playlists."
+            exit 1
+          fi
 
       - name: Commit and push updated playlists
+        if: ${{ inputs.dry_run != true }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add playlists/ README.md
+          git add playlists/ README.md cache/
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "Auto-update verified M3U playlists"
-            git pull --rebase origin main
-            git push
+            git commit -m "Auto-update verified M3U playlists (Pro v3)"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push conflict, retrying ($i/3)..."
+              sleep 3
+            done
           else
             echo "No playlist changes detected."
           fi
