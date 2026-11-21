@@ -24,7 +24,7 @@ https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-
 #EXTINF:-1 tvg-id="borb.at" tvg-name="Borb At" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Borb At [1080p]
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8#2db6d4ec5d18090a8387605da4a4e0f1a0fd9a8524b617caf9d8265cb82d2cb2
 #EXTINF:-1 tvg-id="d906efca.1302.4e29.b0d9.9a1d7a305d69" tvg-name="D906efca 1302 4e29 B0d9 9a1d7a305d69" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Sports",D906efca 1302 4e29 B0d9 9a1d7a305d69 [720p]
-https://aegis.production-public.tubi.io/cdn/db55104b-0a4b-4ef7-b787-f2dfb5c2ce34/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJkYjU1MTA0Yi0wYTRiLTRlZjctYjc4Ny1mMmRmYjVjMmNlMzQiLCJleHAiOjE3OTU0ODEzMjUsImlzcyI6ImFlZ2lzIn0.LQ_qz55yHDxX-u2fGC-aGQanXHaDB5Gtn8uidF1QMb9rSPnkCdiF-_ymFGJo8xh82IaqJW3ulujBpmBm-bHDTQ
+https://aegis.production-public.tubi.io/cdn/37a69117-3702-4a67-a59c-76e191807e4b/playlist.m3u8?token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiIzN2E2OTExNy0zNzAyLTRhNjctYTU5Yy03NmUxOTE4MDdlNGIiLCJleHAiOjE3OTU1MDEwMDgsImlzcyI6ImFlZ2lzIn0.bIMvJLT-WhBlytzLT_DdV633HCvQuW7SlRBZAyvZ5ojlI8TXuiLewFJIfMXqRR3eOojJf5x8UVj_w_3ylJBx-Q
 #EXTINF:-1 tvg-id="dbbcy6ng" tvg-name="Dbbcy6ng" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Dbbcy6ng
 https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8#6b4f4dc7af547cbaf949139396c2fd081ccbe953515cd7986b2d3c1dc0d5c416
 #EXTINF:-1 tvg-id="dmchannel" tvg-name="Dmchannel" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Dmchannel [1080p]
@@ -43,12 +43,12 @@ https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8#320de1e17d5c8653d93558ec6a4
 https://master.tucableip.com/ftvhd/index.m3u8#35add3c24d4fbd52c52be871c5721edbb01232cb989e30ceb3793f4326157921
 #EXTINF:-1 tvg-id="gusa.tvssports" tvg-name="Gusa Tvssports" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Gusa Tvssports [720p]
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8#1340eb48b7aab82e3d0a2d58d0e4954799fab7afbe2dc627b63daea0a10c3707
-#EXTINF:-1 tvg-id="gusa.tvswsn" tvg-name="Gusa Tvswsn" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Gusa Tvswsn [720p]
+#EXTINF:-1 tvg-id="gusa.tvswsn" tvg-name="Gusa Tvswsn" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Sports",Gusa Tvswsn
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8#ebbb7b74fbc6c947392469bf3f4fe612f8bfa71248070c908506a399e8c184aa
 #EXTINF:-1 tvg-id="horsetv.720p" tvg-name="Horsetv 720p" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Horsetv 720p [720p]
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8#1707be173e849dcd9e3adae8984436f168ac2c64e2e181f13208acf2dd89c6f9
 #EXTINF:-1 tvg-id="ik.africa24sport" tvg-name="Ik:africa24sport" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Ik:africa24sport [1080p]
-https://edge15.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+https://edge14.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="MIATV.co" tvg-name="MIA" tvg-logo="https://i.imgur.com/RisPE8S.jpeg" tvg-country="" tvg-language="" group-title="Sports",MIA [480p]
 https://livetr.teleromagna.it/mia/live/playlist.m3u8#17dc0c11e481f1c0eef55662cc34371b3d2df4003807153653a1df76c3203ae0
 #EXTINF:-1 tvg-id="mnb.sport.stream" tvg-name="Mnb Sport.stream" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Mnb Sport.stream
@@ -65,6 +65,10 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8#21a7974f76800aa9294b5f14002d263c4812fd873c76601a13861fbea3de9042
 #EXTINF:-1 tvg-id="qazsporttv" tvg-name="Qazsporttv" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Qazsporttv [1080p]
 https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8#030420ff0008ee83c1151473c0ee32a46cc7665db82fe1bd4439428e36ff828b
+#EXTINF:-1 tvg-id="racingstream1" tvg-name="Racingstream1" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Racingstream1 [720p]
+https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
+#EXTINF:-1 tvg-id="racingstream2" tvg-name="Racingstream2" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Sports",Racingstream2 [720p]
+https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
 #EXTINF:-1 tvg-id="rmtv.es.web" tvg-name="Rmtv Es Web" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Sports",Rmtv Es Web [720p]
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8#fb98b6bfbf1ce918044b8d0750b4a5c4ee0e72e593cae7b98698838a5761ef5e
 #EXTINF:-1 tvg-id="sisolocalcio.abr" tvg-name="Sisolocalcio Abr" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Sisolocalcio Abr [1080p]
@@ -83,8 +87,6 @@ https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8#920b5bab
 http://media1.skifnet.by/sporttv/index.m3u8#dc215ff0af35afc4f9db07cf0310b23210bec8120d5ae289a30aa11a27bd6d8a
 #EXTINF:-1 tvg-id="TennisChannel2.us" tvg-name="Tennis2" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" tvg-country="United States" tvg-language="" group-title="Sports",Tennis2 [1080p]
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8#cf0227c9f4ae4afb880e02c418a7cc86898e1ff5dd3c40e6cb977bcd787f654a
-#EXTINF:-1 tvg-id="tjktv" tvg-name="Tjktv" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Tjktv [1080p]
-https://tjktv-live.tjk.org/tjktv.m3u8#a546ba7abdbae0b9aea822e4ab2170850da1fd9b01d618bfa8dbf1c59682ddaa
 #EXTINF:-1 tvg-id="vglive.sk.231198" tvg-name="Vglive Sk 231198" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Vglive Sk 231198 [720p]
 https://streams2.sofast.tv/vglive-sk-231198/index.m3u8#eb8074c6b1d9d59cef728507dde4abc1f5fd3cc7952d04869cefc658c2460afd
 #EXTINF:-1 tvg-id="vglive.sk.462904" tvg-name="Vglive Sk 462904" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Vglive Sk 462904 [1080p]

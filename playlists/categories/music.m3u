@@ -45,25 +45,25 @@ http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8#ef51c02fcdff8db1f99c2f52bc05732980860f29852a16f3a2d657dea621eb8f
 #EXTINF:-1 tvg-id="ImpactChannel.cr" tvg-name="Impact Tv" tvg-logo="https://i.imgur.com/YRRID7W.png" tvg-country="" tvg-language="" group-title="Music",Impact Tv
 https://online.tvimpact.live/hls/impact_tv.m3u8#c0f884c2d05d76ced1f6704f33f4c419303c0f513919fddfd2941e403a0115f2
+#EXTINF:-1 tvg-id="kandelamedioslive" tvg-name="Kandelamedioslive" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Music",Kandelamedioslive
+https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8#8bf87763fde562aa0f4895b164390299a8bfa5ec727f9294665cc3b30476e195
 #EXTINF:-1 tvg-id="kisskisstv.stream" tvg-name="Kisskisstv.stream" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Kisskisstv.stream
 https://59253971be783.streamlock.net/KissKissTV/KissKissTV.stream/playlist.m3u8#8dc3d06eb1525f6df011ea5e0da175b30cd3511c587da5aeb993781b3a2beefe
-#EXTINF:-1 tvg-id="livestream" tvg-name="Livestream" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Livestream [720p]
-https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8#4963f834009bfab072fd09ab61b9e20959646cbaf14f7d4460cd1ea69e978f64
+#EXTINF:-1 tvg-id="livestream" tvg-name="Livestream" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Livestream [1080p]
+https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8#4e43e591b4939810c4b020647737c92ec4790c6b0b1f7b13982c064e85ce5abd
 #EXTINF:-1 tvg-id="magictv" tvg-name="Magictv" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Magictv [720p]
 https://bss1.neterra.tv/magictv/magictv.m3u8#fd2851cc8338f3fd2d1b8c553a404ffabd466ba0053f34e417d318d67bf904a5
-#EXTINF:-1 tvg-id="nexthd" tvg-name="Nexthd" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Music",Nexthd [1080p]
+#EXTINF:-1 tvg-id="nexthd" tvg-name="Nexthd" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",Nexthd [1080p]
 https://edge.enhdtv.com/nexthd/index.m3u8
 #EXTINF:-1 tvg-id="Ocko.cz" tvg-name="OCKO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/960px-%C3%93%C4%8Dko_logo_2012.png" tvg-country="" tvg-language="" group-title="Music",OCKO [540p]
 https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8#b0e4789cd2b146e8b178dc245df8f078eb35b7248ae6a332cfc9244f28e04b4a
 #EXTINF:-1 tvg-id="playlist.video" tvg-name="Playlist Video" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Playlist Video [1080p]
-https://StreamCdnP7-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
+https://StreamCdnG20-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 #EXTINF:-1 tvg-id="sa.live.hls.enc" tvg-name="Sa Live Hls Enc" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Music",Sa Live Hls Enc [1080p]
 https://cdn.40mediagroup.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="samsungtvplus" tvg-name="Samsungtvplus" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Music",Samsungtvplus [1080p]
-https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8#4904525bca9c30b1d8f2b64d952b223676decab4118625c03049dfca6adb30f2
 #EXTINF:-1 tvg-id="smil.companytv" tvg-name="Smil:companytv" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Smil:companytv [720p]
 https://5929b138b139d.streamlock.net/CompanyTV/smil:CompanyTV.smil/master.m3u8#578f0f0c7f4feb9a4fcdaf1393807be4d59dd70d7dcc0b6476381cfd16609b15
-#EXTINF:-1 tvg-id="source" tvg-name="Source" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="Entertainment",Source
+#EXTINF:-1 tvg-id="source" tvg-name="Source" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="Music",Source
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
 #EXTINF:-1 tvg-id="SupermusicaTV.co" tvg-name="Supermusica" tvg-logo="https://i.imgur.com/MiVs42N.jpeg" tvg-country="" tvg-language="Spanish" group-title="Music",Supermusica
 https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8#99e263aa2dcfa473a478e855587c2e0f90a5141c04c0fb12b2e795db4b4cd110
@@ -74,6 +74,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTINF:-1 tvg-id="uhdwblkc1aoo" tvg-name="Uhdwblkc1aoo" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Uhdwblkc1aoo [1080p]
 https://StreamCdnP2-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
 #EXTINF:-1 tvg-id="uuankwqpxd" tvg-name="Uuankwqpxd" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Uuankwqpxd
-https://streaming.social3.hr:443/auth/8NkU-BbnEuoGrMIzpfnjU5YYVp4Mg-Cglj6IDDQxvV7NSzyzv4Kk6dYkZSrLQLedaLbuJEPHpgBU84apxHoZXZAW9xtkQDgX5RR4_UHrdSrsb2OdU68D61cqwHd1wznzphLk-gLdbX7NZF0q7ujjxRBAuBmJBSe30VPbelS1tHhFQmD923yHswiVYrSPeJZ0k5j4t9Yv5V3_rSEytZqmzlqaea6l_bDlc-M-42td5udXcnJp9MggceQOPWkvRbFWmH0hoaL-Okc6EXQgkMxIALMQytvTnpUkXRhM4WGl8IRNY8F-yq3XkaXwbDL8HwE1hEcZfAFs1WcnzzoEOITvxf5BM79D_lEfk3n6GnsbAIuUTr7yySlQ33yaLWdgLtFbU-rVHgC6U07pHKShskIm_SfofeWOTgFt1mbxViCfQ-q9xZo1g4q6SlpGcg_Cu0BcNB3dIkUVUqMAOEoUwEMZ01sNvjyPoPgM9O8f5wP_Xaame1ObCgns7QRk--m8oFUu11USDWgrNwjWoUczu2o7En_06Iw0Pvf02GHfwMzJpuCWvbewMusgQMzqyiPZ4OwVhK3Z0aYbYPJ3V8rpMllrkyGo6Tn0bR3TuvsvPfnWt8OpcHpWE27_103HNYXJEj6cILl4l2Pd7qE6W2MjytpuBQ
+https://streaming.social3.hr:443/auth/8NkU-BbnEuoGrMIzpfnjU5YYVp4Mg-Cglj6IDDQxvV7NSzyzv4Kk6dYkZSrLQLedaLbuJEPHpgBU84apxHoZXZAW9xtkQDgX5RR4_UHrdSqxrHAqJIge2ALH8U9PbAbDgZ52AGk_n4idPFuztmclNlKdSlBCUMHQcfw5efY7lkm9XXuWpzX-f4EFO_SiEXKjJYdzb0Fct5A07DyZxPz9upBUSIwrJK2pHgK01D37dy4WPcaUH-RRou-Gh3LQh6JhJlvJF9ndJ1jI5XChHarQgsB0qlZlnDUQlogd7Qjw8YVHZev0CnD05byvZd88Dn5RSldnAdp6GnmSUx9J9UOyJv-jAV0QvpoNmz3bNbX8pUmtoHE_55aIcbgHV2rMXUFlBAAfVqQf6anIbTA7Lxg-sNtLqHH4rAQRjnHprowj1r_DA4oQasJ25riXHawUI6ZHo6qdqQMDAajejGmzBE-EvyiGq_rc4fQ7_K-w1THeZUaaAjDn1Qw3Yf0j6sivsDmsQQOyW_cBFA5Xz081KDMZnnISNVUMorKPssxIlYcHZoDrD7qNg9AENr6_6qjpNgarFYTeAz02oLKHsTdikD-FVrV7Y7-eJIHxVJjZ4aXYJ9QaHRWOftGhUkI2JgmAC3MLiEnevJZ777oH5zfyMB4f1Q
 #EXTINF:-1 tvg-id="vmtv1" tvg-name="Vmtv1" tvg-logo="" tvg-country="" tvg-language="" group-title="Music",Vmtv1 [1080p]
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8#27599430b3733985ae617818c0f859ffd82b5d9b641d858794d6e879d7485a3b

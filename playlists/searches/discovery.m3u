@@ -1,7 +1,5 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 #EXTINF:-1 tvg-id="cmaf" tvg-name="CMAF" tvg-logo="" tvg-country="" tvg-language="" group-title="General",CMAF [1080p]
-https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8#e6077b7e2518e710b8593fd6eb64785bb8555c1a5872baba28b84550ecd6c1b6
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8#41f1732829e187969d81b43faabeb4122cbfcc91ada0b183ddf028c85f473397
 #EXTINF:-1 tvg-id="DiscoveryFamily.us" tvg-name="Discoveryfamily" tvg-logo="https://i.ibb.co/CK3VrYmc/IMG-2812.png" tvg-country="" tvg-language="" group-title="Family",Discoveryfamily
 https://tvsen5.aynaott.com/discoveryfamily/index.m3u8#3c84d1843f89992172c2151b6c903a14e06d817c5e7077d9ab4d9fa5de70b77d
-#EXTINF:-1 tvg-id="playlist.dvr" tvg-name="Playlist Dvr" tvg-logo="" tvg-country="" tvg-language="" group-title="Documentary",Playlist Dvr [1080p]
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8#b634c0121dc47e899f81d32a8ba4ce7bbb8c9bed7250e5ad0af919cab026cf3e

@@ -1,11 +1,11 @@
 {
-  "elapsed_seconds": 34,
+  "elapsed_seconds": 38,
   "engine": "Go 1.27 Native Concurrent Aggregator (Pro v4)",
-  "last_synced_ist": "21 Nov 2026, 06:18 AM IST",
+  "last_synced_ist": "21 Nov 2026, 11:46 AM IST",
   "sources": [
     {
       "source": "Ashoka Digital India",
-      "alive": 122,
+      "alive": 135,
       "imported": 208
     },
     {
@@ -30,37 +30,37 @@
     },
     {
       "source": "Jayam OTT South India",
-      "alive": 17,
-      "imported": 55
+      "alive": 18,
+      "imported": 53
     },
     {
       "source": "Joshua OTT South India",
-      "alive": 41,
+      "alive": 42,
       "imported": 78
     },
     {
       "source": "Madurai IPTV South India",
-      "alive": 184,
+      "alive": 188,
       "imported": 295
     },
     {
       "source": "Matt Huisman Kodi All TV",
-      "alive": 53,
-      "imported": 268
+      "alive": 46,
+      "imported": 269
     },
     {
       "source": "Nellai IPTV South India",
-      "alive": 161,
+      "alive": 166,
       "imported": 342
     },
     {
       "source": "NeoTV India",
-      "alive": 157,
+      "alive": 156,
       "imported": 173
     },
     {
       "source": "PiShow South India",
-      "alive": 244,
+      "alive": 230,
       "imported": 257
     },
     {
@@ -70,83 +70,83 @@
     },
     {
       "source": "Samsung TV Plus India",
-      "alive": 192,
+      "alive": 197,
       "imported": 206
     },
     {
       "source": "Samsung TV Plus US",
-      "alive": 592,
+      "alive": 546,
       "imported": 592
     },
     {
       "source": "The Roku Channel",
-      "alive": 257,
+      "alive": 239,
       "imported": 258
     },
     {
       "source": "Tubi Live TV",
-      "alive": 175,
+      "alive": 179,
       "imported": 183
     },
     {
       "source": "YuppTV FAST",
-      "alive": 177,
+      "alive": 175,
       "imported": 256
     },
     {
       "source": "dearbulut Verified India",
-      "alive": 657,
+      "alive": 664,
       "imported": 745
     },
     {
       "source": "dearbulut Verified Telugu",
-      "alive": 61,
+      "alive": 64,
       "imported": 68
     },
     {
       "source": "iptv-org Documentary",
-      "alive": 136,
+      "alive": 132,
       "imported": 180
     },
     {
       "source": "iptv-org Global Movies",
-      "alive": 408,
+      "alive": 405,
       "imported": 564
     },
     {
       "source": "iptv-org Hindi",
-      "alive": 273,
+      "alive": 274,
       "imported": 327
     },
     {
       "source": "iptv-org India",
-      "alive": 67,
+      "alive": 69,
       "imported": 81
     },
     {
       "source": "iptv-org Kids",
-      "alive": 222,
+      "alive": 219,
       "imported": 306
     },
     {
       "source": "iptv-org Tamil",
-      "alive": 86,
+      "alive": 81,
       "imported": 108
     },
     {
       "source": "iptv-org Telugu",
-      "alive": 59,
+      "alive": 60,
       "imported": 69
     }
   ],
   "totals": {
-    "all": 3482,
+    "all": 3437,
     "epg_match_percent": 86,
-    "fast_movies_tv": 1726,
-    "hd_1080p": 2386,
-    "india_all": 1557,
+    "fast_movies_tv": 1670,
+    "hd_1080p": 2346,
+    "india_all": 1563,
     "sports_live": 195,
-    "telugu_backups": 172,
-    "telugu_hub": 119
+    "telugu_backups": 182,
+    "telugu_hub": 125
   }
 }

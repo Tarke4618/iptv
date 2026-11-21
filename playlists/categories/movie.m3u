@@ -37,7 +37,7 @@ https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8#8d3fd4d4a23da14d897ad7a009cc
 https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8#b616d79a3dfe36598d0a847df172c3d50ebf691db62f596cf2c01e11bda9b7fd
 #EXTINF:-1 tvg-id="filmbox.stars" tvg-name="Filmbox Stars" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Filmbox Stars [720p]
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8#fd444e5f976f99422bb9269defad1fa6c7de4712de0024219ce39b6a7d680acb
-#EXTINF:-1 tvg-id="groovytv" tvg-name="Groovytv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Groovytv
+#EXTINF:-1 tvg-id="groovytv" tvg-name="Groovytv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Groovytv [528p]
 http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8#2b26717999dd712b95b3217c2c7e1d978877becd044ca3afb7373789ae37d354
 #EXTINF:-1 tvg-id="l3vslw4i" tvg-name="L3vslw4i" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",L3vslw4i [720p]
 https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8#f1aa0b57bfe1c452f019cba8ee9606430d9523632789058bd61c663b8b87cd39
@@ -47,11 +47,11 @@ https://video.ejeserver.com/live/mcitelevision.m3u8#f66c4bdc0eaf2b29725aef39e346
 https://cnn.hostlagarto.com/megacinetv/playlist.m3u8#8caf8885be83cbf7ff9a2077d0a8fdbcf4408f3956b72f498a18dd4afda36286
 #EXTINF:-1 tvg-id="mixtv" tvg-name="Mixtv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Mixtv [720p]
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8#22ed3bcf160c2f386757d0a8d4ca5cedfbdbe25d2b5b9e48df7aabf22dcd4683
-#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",MONO
-https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8#a20de26728c714392c500bed41096a114c16e78a9c9e083bfcd2ca4b43f0acce
+#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",MONO
+https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8#772f76c25668c5b73cd3b55599fd3a10a35eae54d493a81f4c5de77b44e0f40c
 #EXTINF:-1 tvg-id="MovieBox.mn" tvg-name="Moviebox" tvg-logo="https://i.imgur.com/xeO1Zb4.png" tvg-country="" tvg-language="" group-title="Movie",Moviebox [720p]
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8#3c1a58f1b57065985c510ee217fe52ae2c76518313b889c3be4e4dbb7e9fe707
-#EXTINF:-1 tvg-id="nexthd" tvg-name="Nexthd" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Music",Nexthd [1080p]
+#EXTINF:-1 tvg-id="nexthd" tvg-name="Nexthd" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",Nexthd [1080p]
 https://edge.enhdtv.com/nexthd/index.m3u8
 #EXTINF:-1 tvg-id="RaiMovie.it" tvg-name="Raimovie" tvg-logo="https://i.imgur.com/0FjxXU9.png" tvg-country="" tvg-language="" group-title="Movie",Raimovie [720p]
 http://team-tv.co:81/raimovie/index.m3u8#9696c4957bfcc6c3a0aafd1002a762cdf7409e050382192d73e49703326b3add
