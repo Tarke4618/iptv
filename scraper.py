@@ -11,12 +11,15 @@ import requests
 from requests.adapters import HTTPAdapter
 
 BASE_URL = "https://eja.tv/"
+IPTV_ORG_CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
+IPTV_ORG_LOGOS_API = "https://iptv-org.github.io/api/logos.json"
+HEALTH_CACHE_PATH = "cache/health_cache.json"
 
 PAGE_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/126.0.0.0 Safari/537.36"
+        "Chrome/128.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
@@ -25,10 +28,16 @@ STREAM_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/126.0.0.0 Safari/537.36"
+        "Chrome/128.0.0.0 Safari/537.36"
     ),
     "Accept": "*/*",
 }
+
+try:
+    BeautifulSoup("<html></html>", "lxml")
+    BS_PARSER = "lxml"
+except Exception:
+    BS_PARSER = "html.parser"
 
 FILTER_KEYS = {
     "country", "language", "category", "search",
@@ -107,7 +116,6 @@ ALIASES = {
 
 RAW_IP_PORT_RE = re.compile(r"^https?://\d{1,3}(?:\.\d{1,3}){3}(?::\d+)?/", re.I)
 
-# Strict Telugu positive matchers (avoids false positives like "ABN Son of God" or "IRIB TV5")
 STRICT_TELUGU_RE = re.compile(
     r"(?i)(?:"
     r"\btelugu\b|తెలుగు|"
@@ -128,7 +136,6 @@ STRICT_TELUGU_RE = re.compile(
     r")"
 )
 
-# Explicit non-Telugu blocker so Malayalam, Bangla, Tamil, Hindi, Arabic, Persian never leak in
 NON_TELUGU_EXCLUDE_RE = re.compile(
     r"(?i)\b(?:"
     r"malayalam|bangla|bengali|tamil|kannada|marathi|gujarati|punjabi|odia|oriya|assamese|bhojpuri|urdu|"
@@ -142,7 +149,7 @@ NON_TELUGU_EXCLUDE_RE = re.compile(
 )
 
 
-def build_session(pool_size=128):
+def build_session(pool_size=160):
     sess = requests.Session()
     adapter = HTTPAdapter(pool_connections=pool_size, pool_maxsize=pool_size)
     sess.mount("http://", adapter)
@@ -193,7 +200,6 @@ def valid_name(name, noise):
 
 
 def normalize_channel_key(name):
-    """Preserves 'News', 'Cinema', 'Music', 'Bhakti' so 'Zee Telugu' and 'Zee Telugu News' stay separate."""
     low = (name or "").lower()
     low = re.sub(r"\[[^\]]*\]", "", low)
     low = re.sub(r"\([^\)]*\)", "", low)
@@ -215,29 +221,137 @@ def name_quality_score(name):
     return score
 
 
+class HealthCache:
+    """Cross-run failure cache: cools down dead URLs for 72h after 3 consecutive failures."""
+
+    def __init__(self, path=HEALTH_CACHE_PATH):
+        self.path = path
+        self.data = {}
+        self.now = int(time.time())
+        self._load()
+
+    def _load(self):
+        if not os.path.exists(self.path):
+            return
+        try:
+            with open(self.path, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            cutoff = self.now - (14 * 86400)
+            self.data = {
+                k: v for k, v in raw.items()
+                if isinstance(v, dict) and v.get("ts", 0) >= cutoff
+            }
+        except Exception:
+            self.data = {}
+
+    def should_skip(self, url):
+        rec = self.data.get(url)
+        if not rec:
+            return False
+        return rec.get("fails", 0) >= 3 and (self.now - rec.get("ts", 0)) < (72 * 3600)
+
+    def mark_alive(self, url):
+        self.data.pop(url, None)
+
+    def mark_dead(self, url):
+        rec = self.data.get(url, {"fails": 0, "ts": self.now})
+        rec["fails"] = min(rec.get("fails", 0) + 1, 10)
+        rec["ts"] = self.now
+        self.data[url] = rec
+
+    def save(self):
+        os.makedirs(os.path.dirname(self.path), exist_ok=True)
+        with open(self.path, "w", encoding="utf-8") as f:
+            json.dump(self.data, f, separators=(",", ":"))
+
+
+def load_iptv_org_catalog():
+    """Loads official iptv-org channel IDs & logos for accurate EPG matching in IPTVnator."""
+    catalog = {}
+    try:
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            f_ch = pool.submit(SESSION.get, IPTV_ORG_CHANNELS_API, headers=STREAM_HEADERS, timeout=(5, 15))
+            f_lg = pool.submit(SESSION.get, IPTV_ORG_LOGOS_API, headers=STREAM_HEADERS, timeout=(5, 15))
+            r_ch = f_ch.result()
+            r_lg = f_lg.result()
+
+        logo_map = {}
+        if r_lg.status_code == 200:
+            for lg in r_lg.json():
+                cid = lg.get("channel")
+                url = lg.get("url")
+                if not cid or not url:
+                    continue
+                fmt = (lg.get("format") or "").upper()
+                # Prefer PNG/WebP/JPEG over SVG for maximum IPTV player compatibility
+                if cid not in logo_map or (fmt in ("PNG", "WEBP", "JPEG") and logo_map[cid].endswith(".svg")):
+                    logo_map[cid] = url
+
+        if r_ch.status_code == 200:
+            for ch in r_ch.json():
+                cid = ch.get("id")
+                cname = ch.get("name")
+                if not cid or not cname or ch.get("closed"):
+                    continue
+                country_code = (ch.get("country") or "").upper()
+                cats = ch.get("categories") or []
+                entry = {
+                    "id": cid,
+                    "name": cname,
+                    "logo": logo_map.get(cid, ""),
+                    "country_code": country_code,
+                    "category": cats[0].title() if cats else "",
+                }
+                names_to_index = [cname] + (ch.get("alt_names") or [])
+                for nm in names_to_index:
+                    k = normalize_channel_key(nm)
+                    if not k:
+                        continue
+                    # Prioritize Indian channels on key collisions
+                    if k not in catalog or (country_code == "IN" and catalog[k]["country_code"] != "IN"):
+                        catalog[k] = entry
+    except Exception as e:
+        print(f"[WARN] iptv-org API catalog load skipped: {e}", flush=True)
+    return catalog
+
+
+def enrich_channel(ch, catalog):
+    if not catalog:
+        return
+    k = normalize_channel_key(ch["name"])
+    meta = catalog.get(k)
+    if not meta:
+        return
+    if not ch.get("tvg_id"):
+        ch["tvg_id"] = meta["id"]
+    if not ch.get("logo") and meta.get("logo"):
+        ch["logo"] = meta["logo"]
+    if not ch.get("category") and meta.get("category"):
+        ch["category"] = meta["category"]
+
+
 def is_strictly_telugu(name, lang="", group="", country="", explicit_telugu_source=False):
-    """Strictly verifies a channel is genuinely Telugu and blocks foreign/other Indian regional channels."""
     full_blob = f"{name} | {lang} | {group} | {country}"
     name_and_group = f"{name} | {group}"
 
-    # Block obvious non-Telugu broadcasters even if mislabeled in a directory
     if NON_TELUGU_EXCLUDE_RE.search(name_and_group):
         return False
 
     lang_tokens = {tok for tok in re.split(r"[^a-z]+", (lang or "").lower()) if tok}
-    other_indian_langs = {"malayalam", "mal", "bengali", "ben", "bangla", "tamil", "tam", "hindi", "hin", "kannada", "kan", "marathi", "mar", "punjabi", "pan", "gujarati", "guj", "urdu", "urd", "odia", "ori"}
+    other_indian_langs = {
+        "malayalam", "mal", "bengali", "ben", "bangla", "tamil", "tam",
+        "hindi", "hin", "kannada", "kan", "marathi", "mar", "punjabi",
+        "pan", "gujarati", "guj", "urdu", "urd", "odia", "ori",
+    }
     if lang_tokens & other_indian_langs and not (lang_tokens & {"telugu", "tel"}):
         return False
 
-    # Trust dedicated Telugu playlists (dearbulut/iptv-org tel.m3u) unless excluded above
     if explicit_telugu_source:
         return True
 
-    # Explicit Telugu language metadata
     if lang_tokens & {"telugu", "tel"}:
         return True
 
-    # Strong Telugu broadcaster name match (and not from a non-Indian foreign country)
     c_low = (country or "").strip().lower()
     if c_low and c_low not in ("india", "in", ""):
         return False
@@ -275,6 +389,8 @@ def is_usable_hls_url(url, skip_raw_ip=True):
     if not low.startswith(("http://", "https://")):
         return False
     if ".mpd" in low.split("?")[0]:
+        return False
+    if any(dom in low for dom in ("youtube.com/", "youtu.be/", "twitch.tv/", "dailymotion.com/")):
         return False
     if skip_raw_ip and RAW_IP_PORT_RE.match(url):
         return False
@@ -331,7 +447,7 @@ def discover_filters():
     noise = set(NOISE)
     try:
         resp = SESSION.get(BASE_URL, headers=PAGE_HEADERS, timeout=(5, 10))
-        soup = BeautifulSoup(resp.text, "html.parser")
+        soup = BeautifulSoup(resp.text, BS_PARSER)
         for a in soup.find_all("a", href=True):
             qs = parse_qs(urlparse(urljoin(BASE_URL, a["href"])).query)
             lbl = clean_text(a.get_text(" ", strip=True))
@@ -459,7 +575,7 @@ def extract_dom_card_metadata(el, page_url, noise):
 
 
 def parse_listing_page(html_text, page_url, noise, default_category=""):
-    soup = BeautifulSoup(html_text, "html.parser")
+    soup = BeautifulSoup(html_text, BS_PARSER)
     items = {}
 
     for tag in soup.find_all(True):
@@ -481,6 +597,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
             items[s_url] = {
                 "key": s_url,
                 "name": name or humanize_url(s_url),
+                "tvg_id": "",
                 "stream_url": s_url,
                 "watch_url": "",
                 "logo": logo,
@@ -490,6 +607,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "extra_headers": {},
                 "source_name": "eja.tv",
                 "is_external": False,
+                "is_fast": False,
                 "explicit_telugu": False,
             }
 
@@ -514,6 +632,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
             items[s_url] = {
                 "key": s_url,
                 "name": guessed or humanize_url(s_url),
+                "tvg_id": "",
                 "stream_url": s_url,
                 "watch_url": "",
                 "logo": "",
@@ -523,6 +642,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "extra_headers": {},
                 "source_name": "eja.tv",
                 "is_external": False,
+                "is_fast": False,
                 "explicit_telugu": False,
             }
 
@@ -537,6 +657,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
             items[full] = {
                 "key": full,
                 "name": name,
+                "tvg_id": "",
                 "stream_url": "",
                 "watch_url": full,
                 "logo": logo,
@@ -546,6 +667,7 @@ def parse_listing_page(html_text, page_url, noise, default_category=""):
                 "extra_headers": {},
                 "source_name": "eja.tv",
                 "is_external": False,
+                "is_fast": False,
                 "explicit_telugu": False,
             }
 
@@ -621,6 +743,7 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
     src_url = src_cfg.get("url", "").strip()
     telugu_only = src_cfg.get("telugu_only", False)
     always_keep = src_cfg.get("always_keep", False)
+    is_fast = src_cfg.get("is_fast", False)
     def_country = src_cfg.get("default_country", "")
     def_lang = src_cfg.get("default_language", "")
 
@@ -645,6 +768,7 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
 
         if line.startswith("#EXTINF:"):
             cur_headers = {}
+            id_m = re.search(r'tvg-id="([^"]*)"', line, re.I)
             logo_m = re.search(r'tvg-logo="([^"]*)"', line, re.I)
             lang_m = re.search(r'tvg-language="([^"]*)"', line, re.I)
             cntry_m = re.search(r'tvg-country="([^"]*)"', line, re.I)
@@ -663,6 +787,7 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
 
             cur_meta = {
                 "name": clean_title,
+                "tvg_id": id_m.group(1).strip() if id_m else "",
                 "logo": logo_m.group(1).strip() if logo_m else "",
                 "language": (lang_m.group(1).strip() if lang_m else "") or def_lang,
                 "country": (cntry_m.group(1).strip() if cntry_m else "") or def_country,
@@ -713,6 +838,7 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
                         results.append({
                             "key": clean_url,
                             "name": ch_name,
+                            "tvg_id": cur_meta["tvg_id"],
                             "stream_url": clean_url,
                             "watch_url": "",
                             "logo": cur_meta["logo"],
@@ -722,6 +848,7 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
                             "extra_headers": merged_hdrs,
                             "source_name": src_name,
                             "is_external": True,
+                            "is_fast": is_fast,
                             "explicit_telugu": telugu_only,
                         })
             cur_meta = None
@@ -731,10 +858,6 @@ def parse_external_m3u(src_cfg, allowed_langs, only_matching_langs, skip_raw_ip,
 
 
 def inspect_and_verify_hls(url, extra_headers=None, skip_raw_ip=True):
-    """
-    Verifies live HLS video segment delivery while preserving the original master .m3u8 URL
-    so demuxed audio streams (like History TV18) keep their audio intact.
-    """
     req_headers = dict(STREAM_HEADERS)
     if extra_headers:
         req_headers.update(extra_headers)
@@ -836,7 +959,7 @@ def resolve_item(item, noise, verify=True, skip_raw_ip=True):
         r = SESSION.get(item["watch_url"], headers=PAGE_HEADERS, timeout=(2.5, 5.0), allow_redirects=True)
         if r.status_code != 200:
             return None
-        soup = BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(r.text, BS_PARSER)
         if not valid_name(name, noise):
             for tag in ("h1", "h2", "h3", "title"):
                 el = soup.find(tag)
@@ -869,6 +992,7 @@ def mirror_rank_key(ch):
     return (
         ch.get("height", 0),
         1 if ch["stream_url"].startswith("https://") else 0,
+        1 if ch.get("tvg_id") else 0,
         name_quality_score(ch["name"]),
         -ch.get("latency_ms", 9999),
     )
@@ -885,7 +1009,7 @@ def deduplicate_channels(channels, max_mirrors=1):
         mirrors.sort(key=mirror_rank_key, reverse=True)
         best_title = max(mirrors, key=lambda x: name_quality_score(x["name"]))["name"]
 
-        for fld in ("logo", "country", "language", "category"):
+        for fld in ("tvg_id", "logo", "country", "language", "category"):
             if not mirrors[0].get(fld):
                 for m in mirrors[1:]:
                     if m.get(fld):
@@ -939,7 +1063,7 @@ def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, ta
 
         raw_name = ch["name"]
         disp_name = format_display_name(ch, tag_info=tag_info)
-        tvg_id = re.sub(r"[^a-zA-Z0-9]+", ".", raw_name.lower()).strip(".")
+        tvg_id = ch.get("tvg_id") or re.sub(r"[^a-zA-Z0-9]+", ".", raw_name.lower()).strip(".")
         group = classify_telugu_group(ch) if subgroup_telugu else (ch.get("category") or ch.get("country") or "General")
         lang_field = ch.get("language", "")
 
@@ -960,18 +1084,36 @@ def write_m3u(path, channels, epg_urls=None, deduplicate=True, max_mirrors=1, ta
     return len(seen_urls)
 
 
-def cap_candidate_mirrors(registry, max_per_channel=5):
+def verification_priority(item):
+    """Ensures Telugu -> India -> FAST -> Global verification order."""
+    if item.get("explicit_telugu") or is_strictly_telugu(
+        item.get("name", ""), item.get("language", ""), item.get("category", ""), item.get("country", "")
+    ):
+        return 0
+    if (item.get("country") or "").lower() in ("india", "in"):
+        return 1
+    if item.get("is_fast"):
+        return 2
+    return 3
+
+
+def prepare_verification_queue(registry, health_cache, max_per_channel=5):
     buckets = {}
+    skipped_cached = 0
     for k, item in registry.items():
+        if health_cache.should_skip(k):
+            skipped_cached += 1
+            continue
         norm = normalize_channel_key(item["name"]) or k
         buckets.setdefault(norm, []).append(k)
 
-    kept_keys = set()
+    kept_keys = []
     for norm, keys in buckets.items():
         keys.sort(key=lambda x: (0 if registry[x]["is_external"] else 1, -name_quality_score(registry[x]["name"])))
-        kept_keys.update(keys[:max_per_channel])
+        kept_keys.extend(keys[:max_per_channel])
 
-    return {k: registry[k] for k in kept_keys}
+    kept_keys.sort(key=lambda x: (verification_priority(registry[x]), -name_quality_score(registry[x]["name"])))
+    return [(k, registry[k]) for k in kept_keys], skipped_cached
 
 
 def main():
@@ -980,7 +1122,8 @@ def main():
         cfg = json.load(f)
 
     max_pages = min(cfg.get("max_pages_per_query", 12), 15)
-    max_verify_sec = cfg.get("max_verify_seconds", 240)
+    max_verify_sec = cfg.get("max_verify_seconds", 420)
+    max_workers = cfg.get("max_workers", 120)
     verify = cfg.get("verify_streams", True)
     dedup = cfg.get("deduplicate_channels", True)
     tag_info = cfg.get("tag_stream_info", True)
@@ -991,8 +1134,14 @@ def main():
     allowed_langs = {lg.strip().lower() for lg in cfg.get("languages", [])}
     allowed_langs.update(["telugu", "hindi", "tamil", "english"])
 
-    print("Step 1/4: Discovering eja.tv filters...", flush=True)
-    discovered, noise = discover_filters()
+    print(f"Step 1/5: Loading iptv-org metadata catalog & eja.tv filters (parser={BS_PARSER})...", flush=True)
+    health_cache = HealthCache()
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        f_cat = pool.submit(load_iptv_org_catalog)
+        f_flt = pool.submit(discover_filters)
+        catalog = f_cat.result()
+        discovered, noise = f_flt.result()
+    print(f"  Catalog indexed {len(catalog)} official channel signatures for EPG & logo enrichment.", flush=True)
 
     tasks = [("general", "Global Feed", {"max_pages": max_pages})]
     if cfg.get("scrape_all_filters", False):
@@ -1025,8 +1174,8 @@ def main():
         "searches": {}, "external": {},
     }
 
-    print(f"Step 2/4: Crawling {len(tasks)} eja.tv queries in parallel...", flush=True)
-    with ThreadPoolExecutor(max_workers=12) as pool:
+    print(f"Step 2/5: Crawling {len(tasks)} eja.tv queries in parallel...", flush=True)
+    with ThreadPoolExecutor(max_workers=14) as pool:
         fmap = {
             pool.submit(crawl_pages, noise, **kwargs): (bucket, lbl)
             for bucket, lbl, kwargs in tasks
@@ -1052,10 +1201,10 @@ def main():
 
     print(f"  eja.tv crawl finished ({len(registry)} unique items in {int(time.monotonic() - start_time)}s).", flush=True)
 
-    print("Step 3/4: Importing verified external M3U playlists...", flush=True)
+    print("Step 3/5: Importing 28 external public M3U repositories...", flush=True)
     source_candidate_counts = {}
     ext_sources = cfg.get("external_m3u_sources", [])
-    with ThreadPoolExecutor(max_workers=10) as pool:
+    with ThreadPoolExecutor(max_workers=14) as pool:
         fmap = {
             pool.submit(
                 parse_external_m3u,
@@ -1073,56 +1222,73 @@ def main():
                 if k not in registry:
                     registry[k] = item
                 else:
-                    for fld in ("name", "logo", "country", "language", "category"):
-                        if not registry[k][fld] and item[fld]:
+                    for fld in ("name", "tvg_id", "logo", "country", "language", "category"):
+                        if not registry[k].get(fld) and item.get(fld):
                             registry[k][fld] = item[fld]
                     if item.get("extra_headers") and not registry[k].get("extra_headers"):
                         registry[k]["extra_headers"] = item["extra_headers"]
                     if item.get("explicit_telugu"):
                         registry[k]["explicit_telugu"] = True
+                    if item.get("is_fast"):
+                        registry[k]["is_fast"] = True
 
                 membership["external"].setdefault(src_name, set()).add(k)
-                if item.get("country") == "India":
+                if (item.get("country") or "").lower() in ("india", "in"):
                     membership["countries"].setdefault("India", set()).add(k)
 
-    trimmed_registry = cap_candidate_mirrors(registry, max_per_channel=5)
-    total_to_check = len(trimmed_registry)
-    print(f"Step 4/4: Deep-verifying {total_to_check} streams across 100 threads (max {max_verify_sec}s)...", flush=True)
+    queue, skipped_cached = prepare_verification_queue(registry, health_cache, max_per_channel=5)
+    total_to_check = len(queue)
+    print(
+        f"Step 4/5: Priority-verifying {total_to_check} streams "
+        f"(skipped {skipped_cached} cached dead URLs) across {max_workers} threads (max {max_verify_sec}s)...",
+        flush=True,
+    )
 
     resolved = {}
     checked = 0
-    pool = ThreadPoolExecutor(max_workers=100)
+    pool = ThreadPoolExecutor(max_workers=max_workers)
     fmap = {
-        pool.submit(resolve_item, data, noise, verify, skip_raw_ip): k
-        for k, data in trimmed_registry.items()
+        pool.submit(resolve_item, data, noise, verify, skip_raw_ip): (k, data)
+        for k, data in queue
     }
     try:
         for fut in as_completed(fmap, timeout=max_verify_sec):
             checked += 1
-            k = fmap[fut]
+            k, data = fmap[fut]
             try:
                 info = fut.result(timeout=1)
             except Exception:
                 info = None
             if info:
-                entry = dict(trimmed_registry[k])
+                entry = dict(data)
                 entry.update(info)
+                enrich_channel(entry, catalog)
                 resolved[k] = entry
-            if checked % 150 == 0 or checked == total_to_check:
+                health_cache.mark_alive(k)
+            else:
+                health_cache.mark_dead(k)
+
+            if checked % 200 == 0 or checked == total_to_check:
                 print(f"  Progress: {checked}/{total_to_check} checked ({len(resolved)} live)...", flush=True)
     except TimeoutError:
-        print(f"  [INFO] Reached {max_verify_sec}s budget at {checked}/{total_to_check} — saving {len(resolved)} live streams!", flush=True)
+        print(
+            f"  [INFO] Reached {max_verify_sec}s budget at {checked}/{total_to_check} — "
+            f"saving {len(resolved)} verified live streams!",
+            flush=True,
+        )
     finally:
         pool.shutdown(wait=False, cancel_futures=True)
 
+    health_cache.save()
     all_working = list(resolved.values())
 
-    print("\n--- Per-Source Live Verification Report ---", flush=True)
-    for src_name, keys in membership["external"].items():
+    print("Step 5/5: Writing EPG-enriched M3U playlists & health reports...", flush=True)
+    source_stats = []
+    for src_name, keys in sorted(membership["external"].items()):
         alive = sum(1 for k in keys if k in resolved)
         total_cand = source_candidate_counts.get(src_name, len(keys))
+        source_stats.append({"source": src_name, "alive": alive, "imported": total_cand})
         print(f"  {src_name}: {alive} working / {total_cand} imported", flush=True)
-    print("-------------------------------------------\n", flush=True)
 
     total_all = write_m3u(
         "playlists/all.m3u", all_working,
@@ -1130,12 +1296,11 @@ def main():
     )
     total_backups = write_m3u(
         "playlists/special/with_backups.m3u", all_working,
-        epg_urls=epg_urls, deduplicate=True, max_mirrors=4, tag_info=tag_info,
+        epg_urls=epg_urls, deduplicate=True, max_mirrors=3, tag_info=tag_info,
     )
 
-    # Strictly filter Telugu channels (zero Malayalam, Bangla, Persian, Arabic, or random English feeds)
     telugu_channels = []
-    for k, ch in resolved.items():
+    for ch in all_working:
         if is_strictly_telugu(
             ch["name"],
             ch.get("language", ""),
@@ -1156,9 +1321,15 @@ def main():
         epg_urls=epg_urls, deduplicate=True, max_mirrors=4, tag_info=tag_info, subgroup_telugu=True,
     )
 
-    ext_channels = [c for c in all_working if c.get("is_external")]
-    total_external = write_m3u(
-        "playlists/special/external_verified.m3u", ext_channels,
+    india_channels = [c for c in all_working if (c.get("country") or "").lower() in ("india", "in")]
+    total_india = write_m3u(
+        "playlists/special/india_all.m3u", india_channels,
+        epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
+    )
+
+    fast_channels = [c for c in all_working if c.get("is_fast")]
+    total_fast = write_m3u(
+        "playlists/special/fast_movies_tv.m3u", fast_channels,
         epg_urls=epg_urls, deduplicate=dedup, max_mirrors=1, tag_info=tag_info,
     )
 
@@ -1194,44 +1365,74 @@ def main():
 
     ist = timezone(timedelta(hours=5, minutes=30))
     now_ist = datetime.now(ist).strftime("%d %b %Y, %I:%M %p IST")
+    epg_matched = sum(1 for c in all_working if c.get("tvg_id"))
+    epg_pct = int((epg_matched / len(all_working)) * 100) if all_working else 0
+    elapsed = int(time.monotonic() - start_time)
+
+    os.makedirs("playlists", exist_ok=True)
+    with open("playlists/health.json", "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "last_synced_ist": now_ist,
+                "elapsed_seconds": elapsed,
+                "totals": {
+                    "all": total_all,
+                    "telugu_hub": total_telugu_hub,
+                    "telugu_backups": total_telugu_backups,
+                    "india_all": total_india,
+                    "fast_movies_tv": total_fast,
+                    "hd_1080p": total_hd,
+                    "epg_match_percent": epg_pct,
+                },
+                "sources": source_stats,
+            },
+            f,
+            indent=2,
+        )
+
     repo = os.environ.get("GITHUB_REPOSITORY", "Tarke4618/iptv")
     raw_base = f"https://raw.githubusercontent.com/{repo}/main"
 
     md = [
         "# Verified Multi-Source IPTV Playlists (.m3u)",
         "",
-        f"**Last Synced:** {now_ist} (Refreshes every 12 hours — dead links, DRM links, and raw IP:port links stripped automatically)",
+        f"**Last Synced:** `{now_ist}` | **Build Time:** `{elapsed}s` | **EPG & Logo Match:** `{epg_pct}%`",
         "",
-        "### Dedicated Telugu Playlists (Strict Language Filter — IPTVnator Ready)",
-        "| Playlist | Verified Working Channels | Raw M3U URL |",
+        "### Dedicated Telugu & India Playlists (Strict Filter — IPTVnator Ready)",
+        "| Playlist | Verified Channels | Raw M3U URL |",
         "| :--- | :---: | :--- |",
-        f"| **Telugu Master Hub (Clean Best Mirror)** | {total_telugu_hub} | {raw_base}/playlists/special/telugu_hub.m3u |",
-        f"| **Telugu Master Hub + Backup Mirrors (Up to 4x)** | {total_telugu_backups} | {raw_base}/playlists/special/telugu_hub_backups.m3u |",
-        f"| **Telugu Language Standard List** | {total_telugu_hub} | {raw_base}/playlists/languages/telugu.m3u |",
+        f"| **Telugu Master Hub (Clean Best Mirror)** | {total_telugu_hub} | `{raw_base}/playlists/special/telugu_hub.m3u` |",
+        f"| **Telugu Master Hub + Backup Mirrors (Up to 4x)** | {total_telugu_backups} | `{raw_base}/playlists/special/telugu_hub_backups.m3u` |",
+        f"| **All India Verified Channels** | {total_india} | `{raw_base}/playlists/special/india_all.m3u` |",
+        f"| **Telugu Language Standard List** | {total_telugu_hub} | `{raw_base}/playlists/languages/telugu.m3u` |",
         "",
-        "### Global & Smart Playlists",
-        "| Playlist | Verified Working Channels | Raw M3U URL |",
+        "### FAST Movies, Global & HD Smart Playlists",
+        "| Playlist | Verified Channels | Raw M3U URL |",
         "| :--- | :---: | :--- |",
-        f"| **All Verified Channels (Best Mirror)** | {total_all} | {raw_base}/playlists/all.m3u |",
-        f"| **All Channels + Backup Mirrors (Up to 4x)** | {total_backups} | {raw_base}/playlists/special/with_backups.m3u |",
-        f"| **HD 720p / 1080p Verified Streams** | {total_hd} | {raw_base}/playlists/special/hd_1080p.m3u |",
-        f"| **External GitHub Sources Verified** | {total_external} | {raw_base}/playlists/special/external_verified.m3u |",
+        f"| **FAST Free Movies & Live TV (LG, Samsung, Roku, Tubi, DistroTV, Fire TV)** | {total_fast} | `{raw_base}/playlists/special/fast_movies_tv.m3u` |",
+        f"| **All Verified Channels (Best Mirror)** | {total_all} | `{raw_base}/playlists/all.m3u` |",
+        f"| **All Channels + Backup Mirrors (Up to 3x)** | {total_backups} | `{raw_base}/playlists/special/with_backups.m3u` |",
+        f"| **HD 720p / 1080p Verified Streams** | {total_hd} | `{raw_base}/playlists/special/hd_1080p.m3u` |",
         "",
     ]
 
     for sec, rows in summary.items():
         if rows:
             md.append(f"### By {sec}")
-            md.append("| Filter | Verified Working Channels | Raw M3U URL |")
+            md.append("| Filter | Verified Channels | Raw M3U URL |")
             md.append("| :--- | :---: | :--- |")
             for lbl, rel, cnt in sorted(rows, key=lambda x: x[0].lower()):
-                md.append(f"| **{lbl}** | {cnt} | {raw_base}/{rel} |")
+                md.append(f"| **{lbl}** | {cnt} | `{raw_base}/{rel}` |")
             md.append("")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write("\n".join(md))
-    elapsed = int(time.monotonic() - start_time)
-    print(f"Done in {elapsed}s! TeluguHub={total_telugu_hub}, TeluguBackups={total_telugu_backups}, All={total_all}", flush=True)
+
+    print(
+        f"Done in {elapsed}s! Telugu={total_telugu_hub}, India={total_india}, "
+        f"FAST={total_fast}, HD={total_hd}, All={total_all}, EPG={epg_pct}%",
+        flush=True,
+    )
 
 
 if __name__ == "__main__":
