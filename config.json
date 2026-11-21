@@ -1,6 +1,7 @@
 {
   "max_pages_per_query": 12,
-  "max_verify_seconds": 240,
+  "max_verify_seconds": 420,
+  "max_workers": 120,
   "verify_streams": true,
   "deduplicate_channels": true,
   "scrape_all_filters": false,
@@ -9,8 +10,11 @@
   "only_matching_external_languages": true,
   "epg_urls": [
     "https://dearbulut.github.io/iptv/epg/in.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+    "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
   ],
   "external_m3u_sources": [
     {
@@ -18,6 +22,7 @@
       "url": "https://dearbulut.github.io/iptv/playlists/language/tel.m3u",
       "telugu_only": true,
       "always_keep": true,
+      "is_fast": false,
       "default_country": "India",
       "default_language": "Telugu"
     },
@@ -26,6 +31,7 @@
       "url": "https://iptv-org.github.io/iptv/languages/tel.m3u",
       "telugu_only": true,
       "always_keep": true,
+      "is_fast": false,
       "default_country": "India",
       "default_language": "Telugu"
     },
@@ -34,6 +40,7 @@
       "url": "https://dearbulut.github.io/iptv/playlists/country/in.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": false,
       "default_country": "India",
       "default_language": ""
     },
@@ -42,22 +49,43 @@
       "url": "https://iptv-org.github.io/iptv/countries/in.m3u",
       "telugu_only": false,
       "always_keep": false,
+      "is_fast": false,
       "default_country": "India",
       "default_language": ""
+    },
+    {
+      "name": "Free-TV Verified India",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_india.m3u8",
+      "telugu_only": false,
+      "always_keep": true,
+      "is_fast": false,
+      "default_country": "India",
+      "default_language": ""
+    },
+    {
+      "name": "iptv-org Hindi",
+      "url": "https://iptv-org.github.io/iptv/languages/hin.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": false,
+      "default_country": "India",
+      "default_language": "Hindi"
+    },
+    {
+      "name": "iptv-org Tamil",
+      "url": "https://iptv-org.github.io/iptv/languages/tam.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": false,
+      "default_country": "India",
+      "default_language": "Tamil"
     },
     {
       "name": "APSATTV LG Channels India",
       "url": "https://www.apsattv.com/inlg.m3u",
       "telugu_only": false,
       "always_keep": true,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "APSATTV DistroTV",
-      "url": "https://www.apsattv.com/distro.m3u",
-      "telugu_only": false,
-      "always_keep": false,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -66,6 +94,7 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_in.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -74,6 +103,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/runntv.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -82,6 +112,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/neotv.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -90,6 +121,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/ashokadigital.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -98,6 +130,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/fastvjp.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -106,6 +139,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/yupptvfast.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -114,6 +148,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/pishow.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
     },
@@ -122,6 +157,7 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/dishd2h.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": false,
       "default_country": "India",
       "default_language": ""
     },
@@ -130,30 +166,106 @@
       "url": "https://raw.githubusercontent.com/amazeyourself/m3u/main/jtv.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": false,
       "default_country": "India",
       "default_language": ""
     },
     {
-      "name": "ashik4u 15-Min Verified Bot",
-      "url": "https://raw.githubusercontent.com/ashik4u/iptv-m3u-bot/refs/heads/main/output/all.m3u",
-      "telugu_only": false,
-      "always_keep": false,
-      "default_country": "India",
-      "default_language": ""
-    },
-    {
-      "name": "sportlive18 SonyLIV Auto-Update",
-      "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/main/sony.m3u",
+      "name": "APSATTV DistroTV",
+      "url": "https://www.apsattv.com/distro.m3u",
       "telugu_only": false,
       "always_keep": true,
+      "is_fast": true,
       "default_country": "India",
       "default_language": ""
+    },
+    {
+      "name": "APSATTV Fire TV",
+      "url": "https://www.apsattv.com/firetv.m3u",
+      "telugu_only": false,
+      "always_keep": true,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
+    },
+    {
+      "name": "APSATTV LG Channels US",
+      "url": "https://www.apsattv.com/uslg.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
+    },
+    {
+      "name": "APSATTV LG Channels UK",
+      "url": "https://www.apsattv.com/gblg.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United Kingdom",
+      "default_language": "English"
+    },
+    {
+      "name": "APSATTV Rakuten UK",
+      "url": "https://www.apsattv.com/rakuten_uk.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United Kingdom",
+      "default_language": "English"
+    },
+    {
+      "name": "APSATTV Veely",
+      "url": "https://www.apsattv.com/veely.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
+    },
+    {
+      "name": "Samsung TV Plus US",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
+    },
+    {
+      "name": "Plex TV UK",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_gb.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United Kingdom",
+      "default_language": "English"
+    },
+    {
+      "name": "The Roku Channel",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
+    },
+    {
+      "name": "Tubi Live TV",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u",
+      "telugu_only": false,
+      "always_keep": false,
+      "is_fast": true,
+      "default_country": "United States",
+      "default_language": "English"
     },
     {
       "name": "Free-TV Verified Global HD",
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "telugu_only": false,
       "always_keep": false,
+      "is_fast": false,
       "default_country": "",
       "default_language": ""
     }
