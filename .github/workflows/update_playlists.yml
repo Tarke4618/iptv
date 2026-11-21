@@ -10,6 +10,7 @@ on:
     paths:
       - 'scraper.py'
       - 'config.json'
+      - 'requirements.txt'
       - '.github/workflows/update_playlists.yml'
 
 concurrency:
@@ -32,11 +33,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --upgrade requests beautifulsoup4 yt-dlp
+          pip install -r requirements.txt
 
       - name: Scrape sources and build M3U playlists
         env:
