@@ -1,68 +1,76 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
 #EXTINF:-1 tvg-id="24h.main.dvr" tvg-name="24h Main Dvr" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",24h Main Dvr [720p]
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8?idasset=1694255
+#EXTINF:-1 tvg-id="2dw.zuf.1c9.pxu" tvg-name="2dw Zuf 1c9 Pxu" tvg-logo="" tvg-country="" tvg-language="" group-title="News",2dw Zuf 1c9 Pxu [720p]
+https://gjirafa-video-live.gjirafa.net/gjvideo-live/2dw-zuf-1c9-pxu/index.m3u8#bad96d5be3a08c6fee0a3cf035ffdbab7ff0494ac041306ea52f9a67bfcdd7ed
 #EXTINF:-1 tvg-id="8ktbwibnteja" tvg-name="8ktbwibnteja" tvg-logo="" tvg-country="" tvg-language="" group-title="News",8ktbwibnteja [1080p]
-https://StreamCdnB2-a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8
-#EXTINF:-1 tvg-id="amg00453.reuters.reuters.rakutenuk" tvg-name="Amg00453 Reuters Reuters Rakutenuk" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Amg00453 Reuters Reuters Rakutenuk [1080p]
+https://StreamCdnP3-a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8
+#EXTINF:-1 tvg-id="921cca59.daee.4f89.8c38.7ffe8de44f4c" tvg-name="921cca59 Daee 4f89 8c38 7ffe8de44f4c" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",921cca59 Daee 4f89 8c38 7ffe8de44f4c [1080p]
+https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8#c6a5034ea61f4f924ab7f9dc65b2a7ad1aae19dc847c7cf06e391af868fb04fb
+#EXTINF:-1 tvg-id="AlArabyTV2.qa" tvg-name="Alaraby2" tvg-logo="https://i.imgur.com/Gp5mNea.png" tvg-country="" tvg-language="" group-title="News",Alaraby2 [1080p]
+https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8#7d41303f2c6bc40b0cf280b92c9659b4a495d1cb8ad1ea90d33ae0bde901dade
+#EXTINF:-1 tvg-id="AlHadath.sa" tvg-name="Alhadath" tvg-logo="https://i.imgur.com/De4SEWE.png" tvg-country="" tvg-language="" group-title="News",Alhadath [1080p]
+https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8#b8220e2ff85aaf71c2cecea679b808f50600b732d70f10f14a841e52472b1813
+#EXTINF:-1 tvg-id="amg00453.reuters.reuters.rakutenuk" tvg-name="Amg00453 Reuters Reuters Rakutenuk" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Amg00453 Reuters Reuters Rakutenuk [1080p]
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8#c08cdde3c497556b8ee2f21b8efc4b447f8f6d64c8971f2f65408bad448ac14f
 #EXTINF:-1 tvg-id="amg00488.foxdigital.livenowbyfox.lgus" tvg-name="Amg00488 Foxdigital Livenowbyfox Lgus" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Amg00488 Foxdigital Livenowbyfox Lgus [720p]
 https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8?route_version=v2
-#EXTINF:-1 tvg-id="amg01918.cnnus.cnnoriginals.vizious" tvg-name="Amg01918 Cnnus Cnnoriginals Vizious" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Amg01918 Cnnus Cnnoriginals Vizious [1080p]
-https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8?route_version=v2
-#EXTINF:-1 tvg-id="applehttp" tvg-name="Applehttp" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Applehttp [1080p]
-https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8#76d8ed8f7cb03df9581ffda8770e5f63b8559bfe40d2681f8201a0ec7bece24b
-#EXTINF:-1 tvg-id="canal324.hls" tvg-name="Canal324 Hls" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Canal324 Hls [1080p]
-https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8#5a75dc06710d7ae155bd1011f486ad7426a5aec2143bb9d8348db2bb491f9981
+#EXTINF:-1 tvg-id="amg01918.cnnus.cnnoriginals.vizious" tvg-name="Amg01918 Cnnus Cnnoriginals Vizious" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Amg01918 Cnnus Cnnoriginals Vizious [1080p]
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8#34edf85257dc55223dcf5906f4b102526785bfad9e89f4cd1ee73de0972e8a8d
+#EXTINF:-1 tvg-id="bej8zmqiq9ug" tvg-name="Bej8zmqiq9ug" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Bej8zmqiq9ug [720p]
+https://StreamCdnG7-52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/playlist.m3u8
+#EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" tvg-country="United States" tvg-language="" group-title="News",CNN [720p]
+https://tvsen6.aynaott.com/cnn/index.m3u8#14a420b93de74cd15200182ca4adbfe43f9de88c225c5c23ec24deac3d615397
+#EXTINF:-1 tvg-id="ct24.avc.25p" tvg-name="Ct24 Avc 25p" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Ct24 Avc 25p
+https://dash2.antik.sk/live/ct24_avc_25p/playlist.m3u8#3131c342cee8a8a8079154d56015b471a0811e99c1addece832c454b42803de7
 #EXTINF:-1 tvg-id="default" tvg-name="Default" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Default [1080p]
 https://702e2e484b144c71ba38bca0d41f37cd.msvdn.net/bpk-tv/ERTNews/default/index.m3u8
+#EXTINF:-1 tvg-id="dwstream103" tvg-name="Dwstream103" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Dwstream103 [1080p]
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8#26f26dd7d09596729d1c08257983e7009c027ca2acb1cae4171396295f8ce411
 #EXTINF:-1 tvg-id="dwstream104" tvg-name="Dwstream104" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Dwstream104 [1080p]
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8#f7ce8c2eb97c9dc4845439d515ec793efb94fe69658f0146660331566f6b7839
 #EXTINF:-1 tvg-id="dwstream110" tvg-name="Dwstream110" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Dwstream110 [1080p]
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8#be42fb472a5afede209c8c06e14b6b1967cd31ec84c610bd1bd71d4753057456
-#EXTINF:-1 tvg-id="encgtn" tvg-name="Encgtn" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Encgtn [1080p]
-https://english-livebkali.cgtn.com/live/encgtn.m3u8#fb854ea86546f47c344ab008caab3e2af1be1a6e730eacf12e471abfb3cb492b
-#EXTINF:-1 tvg-id="etnachannelponte" tvg-name="Etnachannelponte" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Etnachannelponte [1080p]
-https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8#5455ff0c5a0b3e5e47b3889c2363fbe4ea752e09419d98f884c36987b63d1a62
-#EXTINF:-1 tvg-id="france24.720p" tvg-name="France24 720p" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",France24 720p [720p]
-https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8#1e0492f4cecefef8d05770b8dd934f129e52f9ee5abdbb7d273047f0d7256fb8
-#EXTINF:-1 tvg-id="gh" tvg-name="GH" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",GH [720p]
-https://30a-tv.com/gh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
-#EXTINF:-1 tvg-id="hvvpmzy" tvg-name="Hvvpmzy" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Hvvpmzy [720p]
-https://StreamCdnP2-f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
+#EXTINF:-1 tvg-id="hornbilltv" tvg-name="Hornbilltv" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",Hornbilltv
+https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8#5b20232530ec7aed7024663de16b9d194105c983abab48193637f91ab4e7748f
 #EXTINF:-1 tvg-id="igi.tcode" tvg-name="Igi Tcode" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Igi Tcode [1080p]
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8#579f8ccdad5aa2b56a0d9bf15b3cb0b3acd53e2737b8eb9488cda5deeed2e4c0
-#EXTINF:-1 tvg-id="ik.africa24sport" tvg-name="Ik:africa24sport" tvg-logo="" tvg-country="" tvg-language="" group-title="Sports",Ik:africa24sport [1080p]
-https://edge14.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="livestream" tvg-name="Livestream" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Livestream [720p]
-https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8#843500dd6a9dc01441395c4d08000fc84e340210ae3b7c8736386818036f9163
+#EXTINF:-1 tvg-id="ik.espacetv" tvg-name="Ik:espacetv" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Ik:espacetv [576p]
+https://edge11.vedge.infomaniak.com/livecast/ik:espacetv/manifest.m3u8#d20a9f5ff7ae37c0a129e9587b1ccb35dd070d5b208188a1a1d9a4d116a597ad
+#EXTINF:-1 tvg-id="INH24x7.in" tvg-name="Inh24x7" tvg-logo="https://i.imgur.com/Es3QiVx.png" tvg-country="India" tvg-language="Hindi" group-title="News",Inh24x7
+https://d1msejlow1t3l4.cloudfront.net/fta/inh24x7/playlist.m3u8#11f315ab5c0d8de32f1d55954868ca243b2ba578b0f59781d8b4f75b3d748db3
+#EXTINF:-1 tvg-id="khabreinabhitak" tvg-name="Khabreinabhitak" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="News",Khabreinabhitak
+https://d1msejlow1t3l4.cloudfront.net/fta/khabreinabhitak/playlist.m3u8#22a5cec85e415b97257554c7b31618d5abcf50cebec3138fefbdfa11cf196c3b
+#EXTINF:-1 tvg-id="klive.h.stream" tvg-name="Klive H.stream" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Klive H.stream [1080p]
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8#171ddf3d35c5e7098d520a0bc9bdc4f1403056985bfd30f8061c86c5319b0772
+#EXTINF:-1 tvg-id="liveabr" tvg-name="Liveabr" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",Liveabr [720p]
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8#f6d3784f7f2a9e69b55414f278b78d10a0fc9d726aac028a5c1b1e6ed6697721
+#EXTINF:-1 tvg-id="livestream" tvg-name="Livestream" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Livestream [1080p]
+http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8#91387879a78474b30717dcccee195fa4b7c82dc43d32fae3a8ed0a5f206ae483
 #EXTINF:-1 tvg-id="ls.63503.4" tvg-name="Ls 63503 4" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Ls 63503 4 [720p]
 https://live.playstop.me/LS-63503-4/index.m3u8#7027c1978dff0fc1c245dd0f6c7e128c60b3ec2ec07080e3b932840961c64a06
-#EXTINF:-1 tvg-id="majha" tvg-name="Majha" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",Majha [1080p]
-https://yupprestreamliveus.akamaized.net/vglive-sk-355289/majha/master.m3u8#2acfc4e2fa07afb1a28dca2ab145b21acb1350ec44119524db45b29e96b3193d
 #EXTINF:-1 tvg-id="mir24.2500" tvg-name="Mir24 2500" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Mir24 2500 [1080p]
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8#8910c446a871359d8b7fe30178c2f51c816d5272a65bf48521d8daa3b782e257
 #EXTINF:-1 tvg-id="mobile.wifi.main.hd.abr.v2" tvg-name="Mobile Wifi Main Hd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Mobile Wifi Main Hd Abr V2 [720p]
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8#4314bd291bcdb36a6065cfd9b5b5d4b136fc4c5115530acbef05b3f7ecddbc7c
-#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="" tvg-language="" group-title="News",MONO
-https://gjirafa-video-live.gjirafa.net/gjvideo-livestream/lj9-pxm-o53-rp0/tracks-v4a1/mono.m3u8#8d0d1abd5a606cb5aafa15822bb1f1f3d3d6a01468f8bffa0a168798850aad90
 #EXTINF:-1 tvg-id="nbc.redis" tvg-name="Nbc Redis" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Nbc Redis [1080p]
 https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8#2d6bce73a45fa38fb096c3ec99e3ef6bbc1e6cbc2259b600ec1de42a2a9a2b59
-#EXTINF:-1 tvg-id="oane" tvg-name="OANE" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",OANE [1080p]
-https://a-cdn.herringnetwork.com/affiliate/oane/playlist.m3u8#6bd429ce748ac8d86d697c170e9d238baff88debb7ff7f08b193f19512e9b626
+#EXTINF:-1 tvg-id="ngrp.mystream.all" tvg-name="Ngrp:mystream All" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Ngrp:mystream All [1080p]
+http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8#52f3b4c667850fcdba7efb750dd857725fa8ff27613421072a505b021924eb15
 #EXTINF:-1 tvg-id="pc.hd.abr.v2" tvg-name="Pc Hd Abr V2" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="News",Pc Hd Abr V2 [540p]
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8#36476898bb966c82e40a8eeef223129e0e0e203cdb5e3f1095820f2f67f52537
 #EXTINF:-1 tvg-id="primary" tvg-name="Primary" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Primary
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8#aff4910625f3c37754a9458e994288ca573bb273b1887c2eb489644337d9e7a3
 #EXTINF:-1 tvg-id="radiovid" tvg-name="Radiovid" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",Radiovid [720p]
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8#ea4565e124e07cc2b5bc1a2f038c68903ecd18d48d050b8c157ebb26032dbdd7
-#EXTINF:-1 tvg-id="regional.live.7" tvg-name="Regional Live 7" tvg-logo="" tvg-country="Canada" tvg-language="English" group-title="News",Regional Live 7 [720p]
-https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8#2fb074d7300ed2b9402b00f5906eb765ff965561081dda69a7d9339da74978a2
 #EXTINF:-1 tvg-id="rtarab" tvg-name="Rtarab" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Rtarab [1080p]
 https://rt-arb.rttv.com/live/rtarab/playlist.m3u8#87e600d8d1e11c26547fa33dcce65f3dcf9fcf392217062c1ee23a35e326bc9b
-#EXTINF:-1 tvg-id="smil.arirang.1ch" tvg-name="Smil:arirang 1ch" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Smil:arirang 1ch [1080p]
-https://amdlive-ch02-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8#43df2dfe6f48b022ca0c74c7ff4afcd0ff4d74bb6613b32cdde604d72e59624f
-#EXTINF:-1 tvg-id="smil.channel1" tvg-name="Smil:channel1" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Smil:channel1 [600p]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8#1ef1a9402f5b3ed863fd79cea0e92584cb265d09f7809af03d2fbd46f2fe89ef
+#EXTINF:-1 tvg-id="RudawTV.iq" tvg-name="Rudaw Tv" tvg-logo="https://i.imgur.com/Zo3IWOn.png" tvg-country="" tvg-language="" group-title="News",Rudaw Tv [1080p]
+https://live.rudaw.net/hls/rudaw-tv/master.m3u8#0bf23efc069e056adf0edea5a550b4c9b07d34f01b4d67c0c4a240d564aee4a8
+#EXTINF:-1 tvg-id="skynewsau.extra1" tvg-name="Skynewsau Extra1" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="News",Skynewsau Extra1 [576p]
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8#bd085c5ab294caf5e9dbdd72becc0b06f760ddf6c3eb308566f1cb0d495df4eb
+#EXTINF:-1 tvg-id="smil.03837.tx2" tvg-name="Smil:03837 Tx2" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Smil:03837 Tx2 [1080p]
+https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8#1c6c2517c2a0a5486a739b0d18bd8aef1ebfbfdc8e73fdeec3fd583132381325
 #EXTINF:-1 tvg-id="smil.channel2" tvg-name="Smil:channel2" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Smil:channel2 [600p]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8#739d063ea58da2cb4a1974382209d55a95b8ef22035dc33067fda92bd648ee61
 #EXTINF:-1 tvg-id="smil.kb.stream" tvg-name="Smil:kb.stream" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Smil:kb.stream [1080p]
@@ -75,23 +83,17 @@ https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8#ad47bb3d3802af8057fc58a
 https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8#90a7e7ac4b2115668d54ddbdcf0d528c79803897325a83ab8745584f8a8c0bfb
 #EXTINF:-1 tvg-id="test.bbc.world" tvg-name="Test Bbc World" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="News",Test Bbc World
 https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8#e24b88b7506965bb9f7647bb60e2a38016f8099c3a32458b60f618f6e1b08523
-#EXTINF:-1 tvg-id="test.cgtn" tvg-name="Test Cgtn" tvg-logo="" tvg-country="" tvg-language="English" group-title="News",Test Cgtn
-https://dash4.antik.sk/live/test_cgtn/playlist.m3u8#f21a518a45ed45c240c832d9bd390f6bd5639214c3d37e895c53f6b5f8711279
 #EXTINF:-1 tvg-id="test.cgtn.esp.tizen" tvg-name="Test Cgtn Esp Tizen" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Test Cgtn Esp Tizen
 https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8#f54c4af2c2298645f08135e1e831adf26ffcb82538b50521b11a0299847eaf61
 #EXTINF:-1 tvg-id="test.cgtn.rus.tizen" tvg-name="Test Cgtn Rus Tizen" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Test Cgtn Rus Tizen
 https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8#f4fada64bde052c4d5cf6288c9cb46a0c5d3710f63270f5660837a4473e318ff
-#EXTINF:-1 tvg-id="test.tvp.world" tvg-name="Test Tvp World" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Test Tvp World
-https://dash2.antik.sk/live/test_tvp_world/playlist.m3u8#9d2f3f86f4c995db7209d3ceaa54c5c4c0543335d1aa64dfa6a8b81a5a8112f8
 #EXTINF:-1 tvg-id="tvmc07" tvg-name="Tvmc07" tvg-logo="" tvg-country="United States" tvg-language="" group-title="News",Tvmc07 [1080p]
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8#929f1a7d7781da937ec8e123658f5cfdbc007c08542e891015c421e25bc91ea2
 #EXTINF:-1 tvg-id="variant" tvg-name="Variant" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Variant
 https://zabava-block-htvod.cdn.ngenix.net/rtk_block.m3u8
-#EXTINF:-1 tvg-id="vglive.sk.917600" tvg-name="Vglive Sk 917600" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",Vglive Sk 917600 [1080p]
-https://asianetnews.vgcdn.net/vglive-sk-917600/playlist.m3u8#5014364d60690a595cf423402cc8c4bb1db08c0f107d8bb3a43d428f82172226
-#EXTINF:-1 tvg-id="videomexiquense2" tvg-name="Videomexiquense2" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="News",Videomexiquense2 [720p]
-https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8#b65435df6c89b3d1cc26f99e71d5fd586ca833955896d27e83ac26b20682f33d
-#EXTINF:-1 tvg-id="xrvrjytmtfitfxbqfezbyq" tvg-name="Xrvrjytmtfitfxbqfezbyq" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Xrvrjytmtfitfxbqfezbyq [1080p]
-https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/768b2d39-9539-4a37-87db-affabcd85739:DLS/master.m3u8
-#EXTINF:-1 tvg-id="zhjx9oflnhkworld" tvg-name="Zhjx9oflnhkworld" tvg-logo="" tvg-country="" tvg-language="" group-title="News",Zhjx9oflnhkworld [720p]
+#EXTINF:-1 tvg-id="Visir.is" tvg-name="Visir" tvg-logo="https://i.imgur.com/07Vlt6i.jpg" tvg-country="" tvg-language="" group-title="News",Visir [1080p]
+https://live.visir.is/hls-live/visir.smil/playlist.m3u8#3d3576d8c9ec7919b32c5d6002e237961271088ad321afaeb65733d52350b122
+#EXTINF:-1 tvg-id="zhjx9oflnhkworld" tvg-name="Zhjx9oflnhkworld" tvg-logo="" tvg-country="" tvg-language="English" group-title="News",Zhjx9oflnhkworld [720p]
 https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8#3378ed81dfa8d9454057f53cd08f7d74cf9b4622f25d1a624d19c5b20e10b1ac
+#EXTINF:-1 tvg-id="zhjx9ofltwentyfournews" tvg-name="Zhjx9ofltwentyfournews" tvg-logo="" tvg-country="India" tvg-language="" group-title="News",Zhjx9ofltwentyfournews [720p]
+https://mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8#920dad2ae7e13795a72c4919bfca58f5109d819eea701ba70e67d9a52ecf7435

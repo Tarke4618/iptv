@@ -9,8 +9,6 @@ https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8#6
 https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8#12d6531931e1d700b9163c5a8578f1f64a5a12e1ded3a27a2a69172496170c49
 #EXTINF:-1 tvg-id="d5543c06.5122.49a7.9662.32187f48aa2c" tvg-name="D5543c06 5122 49a7 9662 32187f48aa2c" tvg-logo="" tvg-country="" tvg-language="" group-title="General",D5543c06 5122 49a7 9662 32187f48aa2c [1080p]
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8#15881c894d3d307e9ef16f9ad837a9c7b97d84216796a2ba9f64be77bcad7928
-#EXTINF:-1 tvg-id="GospelCartoon.br" tvg-name="Gospelcartoon" tvg-logo="https://i.imgur.com/yxjPno5.png" tvg-country="" tvg-language="" group-title="Religious",Gospelcartoon
-https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8#12817064bb9bd5b35661bad8603b16f72651888c6039538deef5ec590fa76213
 #EXTINF:-1 tvg-id="playlist.hls" tvg-name="Playlist Hls" tvg-logo="" tvg-country="" tvg-language="" group-title="General",Playlist Hls [720p]
 https://boing.akamaized.net/6380673432112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDY3MzQzMjExMiJ9.WACYETOZxZYmZHRpxwRrATxVZQBdSoeaWdfhtLKx1kI/playlist-hls.m3u8#50346545926f8dfbfd3cd84a0f16e1580f340316e5e25d28b26e1ae11690f4f1
 #EXTINF:-1 tvg-id="XtremaCartoons.ar" tvg-name="Xtremacartoons" tvg-logo="https://i.imgur.com/X2d8y4e.png" tvg-country="" tvg-language="" group-title="Animation",Xtremacartoons

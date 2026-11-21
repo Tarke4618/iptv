@@ -1,8 +1,10 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="201748.1431018.1" tvg-name="201748 1431018 1" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",201748 1431018 1 [480p]
+#EXTINF:-1 tvg-id="201748.1431018.1" tvg-name="201748 1431018 1" tvg-logo="" tvg-country="Canada" tvg-language="English" group-title="Canada",201748 1431018 1 [480p]
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/playlist.m3u8#685507481a3e64f4d7a560918262f80565e727f7600b2f8f8de24a7939d4fd7e
 #EXTINF:-1 tvg-id="206508.3261972.1" tvg-name="206508 3261972 1" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",206508 3261972 1 [720p]
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8#12100ff3a447dfc7356b20371d0a03cc668be64018e992ea9ea8e6168dba9643
+#EXTINF:-1 tvg-id="3abn" tvg-name="3ABN" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",3ABN [1080p]
+https://3abn.bozztv.com/3abncanada/3ABN/master.m3u8#bd47bbe7bac52f2e944640e771949f0f02b9537674f27276d8b4fb51b1c2874d
 #EXTINF:-1 tvg-id="amg01077.gustoworldwidem.gustotvnz.samsungnz" tvg-name="Amg01077 Gustoworldwidem Gustotvnz Samsungnz" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Amg01077 Gustoworldwidem Gustotvnz Samsungnz [1080p]
 https://amg01077-gustoworldwidem-gustotvnz-samsungnz-3fu5q.amagi.tv/playlist/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="amg01576.blueskyeenterta.lovepetsemea.samsunguk" tvg-name="Amg01576 Blueskyeenterta Lovepetsemea Samsunguk" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Documentary",Amg01576 Blueskyeenterta Lovepetsemea Samsunguk [1080p]
@@ -11,34 +13,34 @@ https://amg01576-blueskyeenterta-lovepetsemea-samsunguk-32fso.amagi.tv/playlist/
 https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8?ads.vf=6g9ilXeXVD8#80c5a866f1aab227a7774871d6090725f8e873b9ca14b7669bc628ff253daf50
 #EXTINF:-1 tvg-id="CanadaOne.ca" tvg-name="Canadaone" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Canadaone [720p]
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8#889b3c4ab08e7f1f8cef33a00b85bdf8ef1a43fd5951d0c544959974245d84a5
-#EXTINF:-1 tvg-id="channely" tvg-name="Channely" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Channely [1080p]
+#EXTINF:-1 tvg-id="channely" tvg-name="Channely" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Channely [1080p]
 http://cdn19.live247stream.com/channely/tv/playlist.m3u8#ce5677761e141c8589ea8358061340e665d14c6a2f84b556ea1e49ada0cb440c
 #EXTINF:-1 tvg-id="chunks" tvg-name="Chunks" tvg-logo="" tvg-country="Canada" tvg-language="Tamil" group-title="Canada",Chunks [1080p]
 https://live.cmr24.fm/TVI/HD/chunks.m3u8#db7ee24c3bfe6d98ff87bb6ff785f1acf7c1d2a794569447360ac39b5515bf40
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name="CP24" tvg-logo="https://i.imgur.com/YzjZUEl.png" tvg-country="Canada" tvg-language="" group-title="News",CP24
 https://tvsen6.aynaott.com/cp24/index.m3u8#68ffc26d8380a3ca82405c2926c452b94a03f490174b576180d6166292ee6f6c
-#EXTINF:-1 tvg-id="fight.720p" tvg-name="Fight 720p" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Fight 720p [720p]
-https://a-cdn.klowdtv.com/live2/fight_720p/playlist.m3u8#1b93323ed9f2493048a802b1b812d4392fdbf9a7a1324bc52865b4f333fffb2e
 #EXTINF:-1 tvg-id="fntsy.720p" tvg-name="Fntsy 720p" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Sports",Fntsy 720p [720p]
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8#bc0e5374a2acc7f4e3f0e6419dfacc3599a500b772dbe74f4da5c10e21df7ea3
 #EXTINF:-1 tvg-id="GaundaPunjabTV.ca" tvg-name="Gaundapunjab" tvg-logo="https://i.imgur.com/ArRZRM3.png" tvg-country="Canada" tvg-language="" group-title="General",Gaundapunjab [720p]
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8#16ea2239ee233aa2e9427790b9e01de0bd04ccc564aff069dd7b857fe3fbb581
-#EXTINF:-1 tvg-id="gsctv" tvg-name="Gsctv" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Gsctv
+#EXTINF:-1 tvg-id="gsctv" tvg-name="Gsctv" tvg-logo="" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",Gsctv
 http://cdn12.henico.net:8080/live/gsctv/index.m3u8#9b6764c3bac2b2ebca352a09ee8d000e207433bae87bbe85dc36a8c289139ee4
 #EXTINF:-1 tvg-id="house.fr" tvg-name="House Fr" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",House Fr [720p]
 https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8#333441806e183b3cd1550031627b72a29aa42a6f65a24f2d96bd8bc2fb73850c
 #EXTINF:-1 tvg-id="ici.live.stream" tvg-name="Ici Live Stream" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Ici Live Stream [720p]
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8#439753193c1fa67e6f6222423d047b1e626c3f0d758a336f4480d815ca7ceec9
+#EXTINF:-1 tvg-id="iipctv" tvg-name="Iipctv" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Iipctv [720p]
+https://rpn.bozztv.com/dvrfl03/iipctv/index.m3u8#4e0d5b21ea47428a9730bf6f2172426013b1b4518093e2758cb678ff7432ddb3
 #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="Love Nature 4k" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" tvg-country="Canada" tvg-language="Spanish" group-title="Outdoor",Love Nature 4k [2160p]
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8#807fe9db71f34d298a396d73b024e2facb65924ae19c8b6e4fbb812013aa9dc8
+#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",MONO
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8#65d0d53ea218bfd544e31e9fc22a207c7f15bc84be351a920b514126c1924b12
 #EXTINF:-1 tvg-id="mystream" tvg-name="Mystream" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Mystream
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8#90e6735a4f9d1bc13a69639b926ee4d1306d9c0bdea2d4e7e5af66f5024a8b52
 #EXTINF:-1 tvg-id="playlist.hls" tvg-name="Playlist Hls" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Playlist Hls [720p]
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8#bc9489b7c61a24c143c656598da2f9e375f581be7a71a77e3d0e8e8b61469991
 #EXTINF:-1 tvg-id="qvtv.web" tvg-name="Qvtv Web" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Qvtv Web [720p]
 https://tgn.bozztv.com/qvtv/qvtv-web/playlist.m3u8#f1a334e0ba6f572fa34dc3c52e3543154c1748e0bf63d3893640318f191a0031
-#EXTINF:-1 tvg-id="regional.live.7" tvg-name="Regional Live 7" tvg-logo="" tvg-country="Canada" tvg-language="English" group-title="News",Regional Live 7 [720p]
-https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8#2fb074d7300ed2b9402b00f5906eb765ff965561081dda69a7d9339da74978a2
 #EXTINF:-1 tvg-id="regional.live.8" tvg-name="Regional Live 8" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Regional Live 8 [720p]
 https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8#93526593644adfd43c0050d560342f8be546791505e075cb88148c9674610e43
 #EXTINF:-1 tvg-id="regional.live.9" tvg-name="Regional Live 9" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Regional Live 9 [720p]
@@ -46,9 +48,11 @@ https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m
 #EXTINF:-1 tvg-id="samsung" tvg-name="Samsung" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Samsung [1080p]
 http://primeasia.selfip.net/Samsung/index.m3u8#1f07ebe8b64c83c0470b5293b635e2a07865e845197f1538153467e0948a1850
 #EXTINF:-1 tvg-id="samsungtvplus" tvg-name="Samsungtvplus" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Samsungtvplus [1080p]
-https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8#bdc305afefcc4563e7ab066f9c3f1dacaf58654159d642bd23a6374c0f4c2fa3
+https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8#223b5048fc077037002a79f1f764862287b354461bcf4c0c272e66b77535d130
 #EXTINF:-1 tvg-id="smil.azstar" tvg-name="Smil:azstar" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Smil:azstar [1080p]
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8#4d1a8e7b0e5677051d06affe6c5d42a3837c188c68079cb1fd362268814e29a6
+#EXTINF:-1 tvg-id="SohailTV.ca" tvg-name="Sohail" tvg-logo="https://i.ibb.co/dtzjKfT/Sohail-TV.png" tvg-country="Canada" tvg-language="" group-title="General",Sohail [1080p]
+https://iptv.sohailtv.com/sohailtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TAGTV.ca" tvg-name="TAG" tvg-logo="https://i.imgur.com/4PA2adF.png" tvg-country="Canada" tvg-language="Hindi" group-title="Canada",TAG [720p]
 http://cdn11.live247stream.com/tag/tv/playlist.m3u8#a8f6d92511a1b5101b0962d3b0b78da03586dfbacc4bf88a092639d5cd0e06c0
 #EXTINF:-1 tvg-id="tsclive" tvg-name="Tsclive" tvg-logo="" tvg-country="Canada" tvg-language="" group-title="Canada",Tsclive [720p]

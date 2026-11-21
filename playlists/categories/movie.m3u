@@ -1,8 +1,4 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="30atvmovies" tvg-name="30atvmovies" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="Movie",30atvmovies [720p]
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8#3ec05cbd39a5c0b30b3b4d0b3c925dbd7ab81c013a1d839e74ae12ba8db5151b
-#EXTINF:-1 tvg-id="ABNBibleMoviesChannel.us" tvg-name="Abnbiblemovies" tvg-logo="https://i.imgur.com/NCqZdaL.png" tvg-country="United States" tvg-language="" group-title="Movie",Abnbiblemovies
-https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8#c7571e93071d3da123de0b681425226a3ba6eaeb6cf2f04de1f20bf74b40a75c
 #EXTINF:-1 tvg-id="actiontv" tvg-name="Actiontv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Actiontv [1080p]
 http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8#d51239b5f0bffa2bf15662561d082a85bbc69282b1345e4db66aaa70cca69f82
 #EXTINF:-1 tvg-id="amg00711.zylofast.cinewestern.rakutenuk" tvg-name="Amg00711 Zylofast Cinewestern Rakutenuk" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Amg00711 Zylofast Cinewestern Rakutenuk [1080p]
@@ -13,21 +9,23 @@ https://amg01753-narrativeentert-greatchristmas-samsunguk-8atls.amagi.tv/playlis
 https://amg01753-narrativeentert-greatmovies-samsunguk-7z6eh.amagi.tv/playlist/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8#e3e839f2b48a4aeb915f55bc42f4114f1103cb4bbb041cf75a63e2771780d3b5
 #EXTINF:-1 tvg-id="B4UBhojpuri.in" tvg-name="B4u Bhojpuri" tvg-logo="https://i.imgur.com/NwOQUDp.png" tvg-country="India" tvg-language="" group-title="Movie",B4u Bhojpuri [1080p]
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8#9b2b715b8cbe9e4aab9fdfe52bfa5e79d9668c9ffb1292f7555633ae9029b1a4
-#EXTINF:-1 tvg-id="Charge.us" tvg-name="Charge" tvg-logo="https://i.imgur.com/1rxmu2u.png" tvg-country="United States" tvg-language="" group-title="Movie",Charge [1080p]
-https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8#97229f79ba2162fa342fd339d72ce813b2428171d1ee44b526ac2a6326fcdaea
-#EXTINF:-1 tvg-id="cine.720p" tvg-name="Cine 720p" tvg-logo="" tvg-country="United States" tvg-language="Spanish" group-title="Movie",Cine 720p [720p]
-https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8#fa0a84e600c094ecb045ef7c548907b2ec319905cbb7b29d7a0fedd4492da318
+#EXTINF:-1 tvg-id="ch064" tvg-name="Ch064" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Ch064 [576p]
+https://iptv.prosto.tv/ch064/index.m3u8#fd9f5192da43780855f4bfba6bc598b6112f75446f06593d532020fda041678e
+#EXTINF:-1 tvg-id="cineaccion" tvg-name="Cineaccion" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",Cineaccion
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8#0049e1c3dded1f07df48603c659c7936134dfc459cafba0fa97b675dbcfcc700
 #EXTINF:-1 tvg-id="cinematv" tvg-name="Cinematv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Cinematv [720p]
 https://cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8#d193726e6627fdb4799393d2dcc3bd0def4d54de98c7f7bd69c9a91f79efdec8
+#EXTINF:-1 tvg-id="EBSCinema.us" tvg-name="Ebscinema" tvg-logo="https://i.imgur.com/fewPTFE.png" tvg-country="" tvg-language="" group-title="Movie",Ebscinema [720p]
+https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8#98f7c577d8cbe0e93055d85c2e20eac3134bc0b2b94b0c4451f007cda95f7ebd
 #EXTINF:-1 tvg-id="fb.comedy.hd" tvg-name="Fb Comedy Hd" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Fb Comedy Hd
 https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8#90d94ca2434b544abefd6e23dd9cd41f6e9cd4589624130313b4e2c21dc53ea7
-#EXTINF:-1 tvg-id="fb.festival.hd" tvg-name="Fb Festival Hd" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Fb Festival Hd
+#EXTINF:-1 tvg-id="fb.festival.hd" tvg-name="Fb Festival Hd" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Fb Festival Hd
 https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8#a61d2f452ddd27447cee3c7d76bca0df2986886467330a557eb366fb62177786
 #EXTINF:-1 tvg-id="fb.hits.sd" tvg-name="Fb Hits Sd" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Fb Hits Sd
 https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8#5f9257723cc46d7897f5af35cd2b029165c23ceeab2e98a70d7ed8b814f296f4
-#EXTINF:-1 tvg-id="fb.love.and.crime.sd" tvg-name="Fb Love And Crime Sd" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Fb Love And Crime Sd
+#EXTINF:-1 tvg-id="fb.love.and.crime.sd" tvg-name="Fb Love And Crime Sd" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Fb Love And Crime Sd
 https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8#d795f6b08ed3a13387c6f64db671a50ff9dc741639575288e1cfe2f7982d4865
-#EXTINF:-1 tvg-id="fb.one.sd" tvg-name="Fb One Sd" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Fb One Sd
+#EXTINF:-1 tvg-id="fb.one.sd" tvg-name="Fb One Sd" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Fb One Sd
 https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8#b1ce5b07089689bc7180a85a1a4417850c129bf6914edaf37927726957781685
 #EXTINF:-1 tvg-id="filmbox.arthouse" tvg-name="Filmbox Arthouse" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Filmbox Arthouse [720p]
 https://webtvstream.bhtelecom.ba/filmbox_arthouse.m3u8#e26fc69ae7a35a61388c716794fab8366389663993792aede1395a56f515a899
@@ -37,18 +35,16 @@ https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8#8d3fd4d4a23da14d897ad7a009cc
 https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8#b616d79a3dfe36598d0a847df172c3d50ebf691db62f596cf2c01e11bda9b7fd
 #EXTINF:-1 tvg-id="filmbox.stars" tvg-name="Filmbox Stars" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Filmbox Stars [720p]
 https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8#fd444e5f976f99422bb9269defad1fa6c7de4712de0024219ce39b6a7d680acb
-#EXTINF:-1 tvg-id="groovytv" tvg-name="Groovytv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Groovytv [528p]
+#EXTINF:-1 tvg-id="groovytv" tvg-name="Groovytv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Groovytv [694p]
 http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8#2b26717999dd712b95b3217c2c7e1d978877becd044ca3afb7373789ae37d354
-#EXTINF:-1 tvg-id="l3vslw4i" tvg-name="L3vslw4i" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",L3vslw4i [720p]
-https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8#f1aa0b57bfe1c452f019cba8ee9606430d9523632789058bd61c663b8b87cd39
-#EXTINF:-1 tvg-id="MCITelevision.co" tvg-name="Mcitelevision" tvg-logo="https://pbs.twimg.com/profile_images/1836009952420274177/FfYonU6r_400x400.jpg" tvg-country="" tvg-language="" group-title="Movie",Mcitelevision
+#EXTINF:-1 tvg-id="MCITelevision.co" tvg-name="Mcitelevision" tvg-logo="https://pbs.twimg.com/profile_images/1836009952420274177/FfYonU6r_400x400.jpg" tvg-country="" tvg-language="Spanish" group-title="Movie",Mcitelevision
 https://video.ejeserver.com/live/mcitelevision.m3u8#f66c4bdc0eaf2b29725aef39e346bd85dd9523305b03246e8fbc0fe13dedcff9
 #EXTINF:-1 tvg-id="megacinetv" tvg-name="Megacinetv" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",Megacinetv [1080p]
 https://cnn.hostlagarto.com/megacinetv/playlist.m3u8#8caf8885be83cbf7ff9a2077d0a8fdbcf4408f3956b72f498a18dd4afda36286
 #EXTINF:-1 tvg-id="mixtv" tvg-name="Mixtv" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Mixtv [720p]
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8#22ed3bcf160c2f386757d0a8d4ca5cedfbdbe25d2b5b9e48df7aabf22dcd4683
-#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",MONO
-https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8#772f76c25668c5b73cd3b55599fd3a10a35eae54d493a81f4c5de77b44e0f40c
+#EXTINF:-1 tvg-id="mono" tvg-name="MONO" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",MONO
+https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8#a20de26728c714392c500bed41096a114c16e78a9c9e083bfcd2ca4b43f0acce
 #EXTINF:-1 tvg-id="MovieBox.mn" tvg-name="Moviebox" tvg-logo="https://i.imgur.com/xeO1Zb4.png" tvg-country="" tvg-language="" group-title="Movie",Moviebox [720p]
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8#3c1a58f1b57065985c510ee217fe52ae2c76518313b889c3be4e4dbb7e9fe707
 #EXTINF:-1 tvg-id="nexthd" tvg-name="Nexthd" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Movie",Nexthd [1080p]
@@ -59,9 +55,7 @@ http://team-tv.co:81/raimovie/index.m3u8#9696c4957bfcc6c3a0aafd1002a762cdf7409e0
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8#6ea4e0ac592c18aefd3de2692350b67122a77bd7af18c36c1c6e6c2fe52bda8d
 #EXTINF:-1 tvg-id="rakutenaa.zylo.screamin.rakuten" tvg-name="Rakutenaa Zylo Screamin Rakuten" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Rakutenaa Zylo Screamin Rakuten [1080p]
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8#930b860f78dde16383de43af25ebb4358ef899417d9289b4936fe2d4bdd9bf1b
-#EXTINF:-1 tvg-id="smil.kcine" tvg-name="Smil:kcine" tvg-logo="" tvg-country="" tvg-language="" group-title="Movie",Smil:kcine [1080p]
-https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8#6e89f32da3365050bf0423e6f34986a89e3603eb22e0975a21ff9d7ef04c0ece
 #EXTINF:-1 tvg-id="test.filmbox.arthouse.atk.1200" tvg-name="Test Filmbox Arthouse Atk 1200" tvg-logo="" tvg-country="" tvg-language="English" group-title="Movie",Test Filmbox Arthouse Atk 1200
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8#4a94ee567dde4d3eba72da0bbc028ac952a85a09e9b9f38302100fc1ffd13120
-#EXTINF:-1 tvg-id="WhiplashCinema.us" tvg-name="Whiplash Cinema" tvg-logo="https://whiplash.cc/assets/img/channels/whiplashcinema.png" tvg-country="" tvg-language="" group-title="Movie",Whiplash Cinema [720p]
+#EXTINF:-1 tvg-id="WhiplashCinema.us" tvg-name="Whiplash Cinema" tvg-logo="https://whiplash.cc/assets/img/channels/whiplashcinema.png" tvg-country="United States" tvg-language="" group-title="Movie",Whiplash Cinema [720p]
 https://cdn.whiplash.cc/whiplash-cinema/index.m3u8#2e93f662638ccf8d259e6370bb8a43effa95bc1c4f6d5bd509b9cf980032f1e7
