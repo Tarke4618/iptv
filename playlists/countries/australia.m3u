@@ -1,55 +1,45 @@
-#EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-#EXTINF:-1 tvg-id="10.bold.adelaide" tvg-name="10 Bold Adelaide" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",10 Bold Adelaide [480p]
+#EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+#EXTINF:-1 tvg-id="673ac57a073a4.1" tvg-name="673ac57a073a4 1" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",673ac57a073a4 1
+https://mdn.dg.church/673ac57a073a4-1/index.m3u8#9fb3457b10076367c72c037249f92cee00dfb27d34722167e35c72e95d887d25
+#EXTINF:-1 tvg-id="abc.act" tvg-name="Abc Act" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Act [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/e54bf1897e004fb59b82e0303f25ada3/index.m3u8?hdnea=st=1795221498~exp=1795222398~acl=/*~hmac=2471b4e312c359cbf885e9966bbdbd9bf47dcb2bab4c1289c146f172bd1e89d6
+#EXTINF:-1 tvg-id="ABCKids.au" tvg-name="Abc Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" tvg-country="Australia" tvg-language="" group-title="Kids",Abc Kids [720p]
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/537787e477cb491b8cfd57eb8cc37da4/index.m3u8?hdnea=st=1795221875~exp=1795222775~acl=/*~hmac=42b84f920a81977ba5e9c62370dc00109b06dae123f925dc87ce17b0fb0a0b2b
+#EXTINF:-1 tvg-id="ABCEntertains.au" tvg-name="Abc Me" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png" tvg-country="Australia" tvg-language="" group-title="Education",Abc Me [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/33225e24c0e543af922929ede7b6941f/index.m3u8?hdnea=st=1795221456~exp=1795222356~acl=/*~hmac=2f7cfaf6f5cd65f87d96df4b4a78413d993df2269f28c886509cbfd5b6e0de79
+#EXTINF:-1 tvg-id="ABCNews.in" tvg-name="Abc News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABC_News.png" tvg-country="Australia" tvg-language="" group-title="News",Abc News [720p]
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/7c7a6abe4d604faca4d6b91f6567558f/index.m3u8?hdnea=st=1795221453~exp=1795222353~acl=/*~hmac=94bad840ccf6a27b22a9826239d76007c6439cd1e5cf2353f803d4021d9d4345
+#EXTINF:-1 tvg-id="abc.nsw" tvg-name="Abc Nsw" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Nsw [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/543fd7638aa340c5917e0b9865cf8e6b/index.m3u8?hdnea=st=1795221627~exp=1795222527~acl=/*~hmac=10e2a4d3b29de8d6508a9a7b17d8eb6d81a8ccae15a91c3a4f0100df3735cb6e
+#EXTINF:-1 tvg-id="abc.nt" tvg-name="Abc Nt" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Nt [720p]
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/8ee5da452cdc491085b97e17c85dbb4b/index.m3u8?hdnea=st=1795221573~exp=1795222473~acl=/*~hmac=60c37b02c830c130dfd6f006f67273d4102270322b277bb7d1f73a5925875717
+#EXTINF:-1 tvg-id="abc.qld" tvg-name="Abc Qld" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Qld [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/23fd2612d8804b2690b026f92cead114/index.m3u8?hdnea=st=1795221930~exp=1795222830~acl=/*~hmac=0b9f810f5ab53a12a43b05447a951cfd40f12759864ec7f219dbbc32479dff12
+#EXTINF:-1 tvg-id="abc.sa" tvg-name="Abc Sa" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Sa [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/fc2edf6e905e4fbbabb0df82faf306c3/index.m3u8?hdnea=st=1795221275~exp=1795222175~acl=/*~hmac=8ec7932d2380d58a6536b418a561dfe0c8617fa0577bc77278b407c01e8d1b7f
+#EXTINF:-1 tvg-id="abc.tas" tvg-name="Abc Tas" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Tas [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/42c4e613595341498e3a4bba500ddd0e/index.m3u8?hdnea=st=1795221948~exp=1795222848~acl=/*~hmac=898ce58de486a721a62169b0978b323879f8d2e2a2053aa100b75462c2d2b343
+#EXTINF:-1 tvg-id="ABCTVPlus.au" tvg-name="Abc Tv Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/500px-ABC_TV_Plus_logo_2021.svg.png" tvg-country="Australia" tvg-language="" group-title="Entertainment",Abc Tv Plus [720p]
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/c392d1efb61f48af830ade77d9073b6c/index.m3u8?hdnea=st=1795221328~exp=1795222228~acl=/*~hmac=2a03dfef142db314ebbe8367a451783e806d2d7bf0c194c7a626c0a2da998e83
+#EXTINF:-1 tvg-id="abc.vic" tvg-name="Abc Vic" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Vic [720p]
+https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/3198d7aadc42410abd6a68b1ac2f4e36/index.m3u8?hdnea=st=1795221887~exp=1795222787~acl=/*~hmac=f0398e32d48109c307afb1af483e7e77a569308ab6eba2b60122dc365481380c
+#EXTINF:-1 tvg-id="abc.wa" tvg-name="Abc Wa" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Abc Wa [720p]
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/15fc7f5e0e344b368ecf677f8d687c5c/index.m3u8?hdnea=st=1795221858~exp=1795222758~acl=/*~hmac=0e8916bf1492f613719e523a4425de1c44f0b66cc6c742344638499f5d7ac7eb
+#EXTINF:-1 tvg-id="b2048bb8.1686.4432.aa50.647245383e0c" tvg-name="B2048bb8 1686 4432 Aa50 647245383e0c" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",B2048bb8 1686 4432 Aa50 647245383e0c [1080p]
+https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8#7dec9f03d6c17f34b8f29ca2b5f4eb56411b969ad566052692a95365a04f6cb6
+#EXTINF:-1 tvg-id="cmaf.hls" tvg-name="Cmaf Hls" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Cmaf Hls [480p]
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8#3abb5a9b35973ed3ddf6f49b8b56e01d982deecc1d9ab380ea4ad53105de8500
-#EXTINF:-1 tvg-id="abc.entertains" tvg-name="ABC Entertains" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC Entertains [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/33225e24c0e543af922929ede7b6941f/index.m3u8?hdnea=st=1795203839~exp=1795204739~acl=/*~hmac=93262032b35fab47635d980138cd446a897b06706e41f6a601ed9b991c5e7dfa#9c371292eb14cc8086b825ffca5fc52ff7be4daa420c72ddae23e0556df1d7dd
-#EXTINF:-1 tvg-id="abc.kids" tvg-name="ABC Kids" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC Kids [720p]
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/537787e477cb491b8cfd57eb8cc37da4/index.m3u8?hdnea=st=1795203446~exp=1795204346~acl=/*~hmac=de91238d5b93f3f6df76ead2d3eb26fe1cc712d81460854fa9aa4e1a2a7cc9e7#ff6a5e33464b5c607f73f119e01f6be57e3dddf028bec2190c9ed08bdaccccbd
-#EXTINF:-1 tvg-id="abc.news" tvg-name="ABC News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="News",ABC News [720p]
-https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8#6250248a9386318e205bd783d428838e45f85904c157041c13a6fc4e0682a40b
-#EXTINF:-1 tvg-id="abc.tv.act" tvg-name="ABC TV ACT" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV ACT [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/e54bf1897e004fb59b82e0303f25ada3/index.m3u8?hdnea=st=1795203780~exp=1795204680~acl=/*~hmac=b58ec028d8fd274bf186ecbdd661da6191e093c2fc94af528a18cfc74fe6a32a#b2b4a46a5147ce09e12df1017511760c1253d319ee2133a84d696085aa09f633
-#EXTINF:-1 tvg-id="abc.tv.nsw" tvg-name="ABC TV NSW" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV NSW [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/543fd7638aa340c5917e0b9865cf8e6b/index.m3u8?hdnea=st=1795203970~exp=1795204870~acl=/*~hmac=6992a7202590efd04c949f19422c25c11bcbb250970ee8ee9487b48c5adef2b6#1ed4ec0e65c43d0aa16631116ba53da9e0f767c4feb9d70684f671ba4e946c70
-#EXTINF:-1 tvg-id="abc.tv.nt" tvg-name="ABC TV NT" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV NT [720p]
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/8ee5da452cdc491085b97e17c85dbb4b/index.m3u8?hdnea=st=1795203835~exp=1795204735~acl=/*~hmac=de8ee52aef71ebef86185731805f21b49d1a1d31b1b25870544e37837cce283f#c5c8aae6aa0df486e866436b37530eaafe17d37c5e1977e68b36f0296d11bdc3
-#EXTINF:-1 tvg-id="abc.tv.plus" tvg-name="ABC TV Plus" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV Plus [720p]
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/c392d1efb61f48af830ade77d9073b6c/index.m3u8?hdnea=st=1795203695~exp=1795204595~acl=/*~hmac=69c137b6a660efba407c7a038207dee8ea00f5bb6d0e90f29bde3fc59f62d6bd#4512ea8715d74cc2385602d1ccf459b6c0fdc7f0d3211351b3023ff6e9b9712f
-#EXTINF:-1 tvg-id="abc.tv.qld" tvg-name="ABC TV QLD" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV QLD [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/23fd2612d8804b2690b026f92cead114/index.m3u8?hdnea=st=1795203427~exp=1795204327~acl=/*~hmac=22d137fe4537cbbab67a415a39a785749a42e6dac41a9bec85a62271728f58f9#c878d4b16c5eadea9282b4ffaa4d4c99388e8f3b9358395a56945f75af82d4e7
-#EXTINF:-1 tvg-id="abc.tv.sa" tvg-name="ABC TV SA" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV SA [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/fc2edf6e905e4fbbabb0df82faf306c3/index.m3u8?hdnea=st=1795203612~exp=1795204512~acl=/*~hmac=36dc3786a1e9be5698bc688e5330ae9a42b92765ab5ee8031d09d1ae6e0eaf49#3e8fa81445e5ad19ffcd68c18d12417c555d0a64589d995403b275f6ccf129b8
-#EXTINF:-1 tvg-id="abc.tv.tas" tvg-name="ABC TV TAS" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV TAS [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/42c4e613595341498e3a4bba500ddd0e/index.m3u8?hdnea=st=1795203449~exp=1795204349~acl=/*~hmac=3f51b188e717ec912a0c7f87c6f315dbab0bae68106034f1a78bb63be42fd49f#87770557727653d43293c22713ae399d92f227b2d7e6e45369c912d6fb9970a7
-#EXTINF:-1 tvg-id="abc.tv.vic" tvg-name="ABC TV VIC" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV VIC [720p]
-https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/3198d7aadc42410abd6a68b1ac2f4e36/index.m3u8?hdnea=st=1795203451~exp=1795204351~acl=/*~hmac=7804e4de6a47f6454e8fac91c0f920a617f419483b5bd74024a60df705a63ba1#a8056709b659951adcd269bd13e81c96346bb7b0d5995fd2c9e039952cc8191c
-#EXTINF:-1 tvg-id="abc.tv.wa" tvg-name="ABC TV WA" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ABC TV WA [720p]
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/15fc7f5e0e344b368ecf677f8d687c5c/index.m3u8?hdnea=st=1795203370~exp=1795204270~acl=/*~hmac=f2e22a8e162b5ef07aea2fd8ac15278ab5185e712eed1c031f15518b0d3eecee#71deec4d3ee71b6451353c12c8798ad441283c482fa767861b4d6486c04e5549
-#EXTINF:-1 tvg-id="cricket.gold" tvg-name="Cricket Gold" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Cricket Gold [1080p]
-https://streams2.sofast.tv/scheduler/scheduleMaster/418.m3u8#7600ea123c24e423a411b0f304e0955d3c981b471344da1642d79aa103712ce1
-#EXTINF:-1 tvg-id="folk.klub" tvg-name="Folk Klub" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="Macedonian" group-title="Music",Folk Klub [720p]
-http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a8df1eca018108f02cacdae5056626cec38
-#EXTINF:-1 tvg-id="fox.sports.news" tvg-name="Fox Sports News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",Fox Sports News
-https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8#9c67a87ef5a95b80a8779b3e9fe412c8f0b0ba7f31b0693db0b61bc082694fe8
-#EXTINF:-1 tvg-id="intv.australia" tvg-name="INTV Australia" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="Macedonian" group-title="🇦🇺 Australia",INTV Australia [720p]
-http://tv1.intv.mk:1935/live/intv/index.m3u8#bf07cdd27fff7389bf405ac82e4afeca477b2dbf7a060cecbccc9eca3107ae8d
-#EXTINF:-1 tvg-id="news24" tvg-name="News24" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",News24 [1080p]
-https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8#139112192e1cfefcfcb66f8c10850952e0b58fb283dbd069cbcd5cef2564af1a
-#EXTINF:-1 tvg-id="news24.weather" tvg-name="News24 Weather" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",News24 Weather
-https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8#f31e23d3dfe1c6ec5fb97cd5bb6ee4b5e1ca99eab372e9047f6a1885451b8872
-#EXTINF:-1 tvg-id="news24.world" tvg-name="News24 World" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",News24 World
-https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8#3e4f86d4df08db21cd1416f65b55d432f05ab0c12d5a854d17144565e34897f6
-#EXTINF:-1 tvg-id="sky.news.extra.1" tvg-name="Sky News Extra 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="News",Sky News Extra 1 [576p]
-https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8#bd085c5ab294caf5e9dbdd72becc0b06f760ddf6c3eb308566f1cb0d495df4eb
-#EXTINF:-1 tvg-id="sky.news.extra.2" tvg-name="Sky News Extra 2" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",Sky News Extra 2 [576p]
-https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8#86cc45927d9656d6fb9fd76cf73b74d239ff3b92b2810e6c6994e9e9e3965d73
-#EXTINF:-1 tvg-id="sky.news.extra.3" tvg-name="Sky News Extra 3" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",Sky News Extra 3 [576p]
-https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8#7698436f83fb2170bff324fdc2d1b2343ee1866f53d9dd5147ad25d6f5340583
-#EXTINF:-1 tvg-id="sky.racing.1" tvg-name="Sky Racing 1" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Sky Racing 1 [720p]
-https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8#c5a971f317aac487c3d6c2bc2fbe88ede94851b87081009a162c5fb2d3e0ff7f
-#EXTINF:-1 tvg-id="sky.racing.2" tvg-name="Sky Racing 2" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="Sports",Sky Racing 2 [720p]
-https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8#3b768e859af1cc52e30c7c7984a5ea6320a4daf4c6c7d369da005be3d9861823
-#EXTINF:-1 tvg-id="ticker.news" tvg-name="ticker News" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",ticker News [1080p]
+#EXTINF:-1 tvg-id="emnmzbkzco8rfwjr" tvg-name="Emnmzbkzco8rfwjr" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Emnmzbkzco8rfwjr [1080p]
 https://live-hls-7agy.livepush.io/live_abr_cdn/nsitWAl1pTZtwca/emnmZbKZcO8RfwJR/index.m3u8#dd17f98965f37ea45d34fe7b05d66e7a12a39b3da3543cf0e288865225ff998a
-#EXTINF:-1 tvg-id="weatherspy" tvg-name="WeatherSpy" tvg-logo="" tvg-country="🇦🇺 Australia" tvg-language="English" group-title="🇦🇺 Australia",WeatherSpy [720p]
-https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8#19e21a49d296d700a68f1a54e72127d5389b5cae2f93d01403c5426f2383843b
+#EXTINF:-1 tvg-id="FolkKlubTV.au" tvg-name="Folkklub" tvg-logo="https://i.imgur.com/Seq7Od7.png" tvg-country="Australia" tvg-language="" group-title="Music",Folkklub [720p]
+http://tv1.intv.mk:1935/live2/folkklub/index.m3u8#78fdeb591f17dae25ee0f332d42d2a8df1eca018108f02cacdae5056626cec38
+#EXTINF:-1 tvg-id="INTV.ua" tvg-name="INTV" tvg-logo="https://i.imgur.com/HLEdQiO.png" tvg-country="Australia" tvg-language="" group-title="General",INTV [720p]
+http://tv1.intv.mk:1935/live/intv/index.m3u8#bf07cdd27fff7389bf405ac82e4afeca477b2dbf7a060cecbccc9eca3107ae8d
+#EXTINF:-1 tvg-id="SkyNews.ie" tvg-name="Skynews" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" tvg-country="Australia" tvg-language="" group-title="News",Skynews [1080p]
+https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8#139112192e1cfefcfcb66f8c10850952e0b58fb283dbd069cbcd5cef2564af1a
+#EXTINF:-1 tvg-id="skynewsau.extra1" tvg-name="Skynewsau Extra1" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="News",Skynewsau Extra1 [576p]
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8#bd085c5ab294caf5e9dbdd72becc0b06f760ddf6c3eb308566f1cb0d495df4eb
+#EXTINF:-1 tvg-id="skynewsau.extra2" tvg-name="Skynewsau Extra2" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Skynewsau Extra2 [576p]
+https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8#86cc45927d9656d6fb9fd76cf73b74d239ff3b92b2810e6c6994e9e9e3965d73
+#EXTINF:-1 tvg-id="skynewsau.extra3" tvg-name="Skynewsau Extra3" tvg-logo="" tvg-country="Australia" tvg-language="" group-title="Australia",Skynewsau Extra3 [576p]
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8#7698436f83fb2170bff324fdc2d1b2343ee1866f53d9dd5147ad25d6f5340583
