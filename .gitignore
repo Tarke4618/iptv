@@ -1,0 +1,21 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo lock file (optional, but useful for CI)
+Cargo.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Incremental compilation
+**/*.rs.bk
+*.pdb
