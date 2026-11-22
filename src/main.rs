@@ -1,12 +1,3 @@
-use std::collections::HashMap;
-use std::path::PathBuf;
-use std::sync::Arc;
-use std::time::{Duration, Instant};
-
-use anyhow::Result;
-use clap::Parser;
-use tracing::info;
-
 mod config;
 mod deduplicator;
 mod eja_tv;
@@ -30,6 +21,17 @@ use m3u_parser::M3UParser;
 use models::{Channel, SourceStat};
 use playlist_writer::PlaylistWriter;
 use stream_verifier::StreamVerifier;
+
+#[global_allocator]
+static GLOBAL: mimalloc::MiMalloc = mimalloc::MiMalloc;
+
+use anyhow::Result;
+use clap::Parser;
+use std::collections::HashMap;
+use std::path::PathBuf;
+use std::sync::Arc;
+use std::time::{Duration, Instant};
+use tracing::{error, info};
 
 #[derive(Parser, Debug)]
 #[command(
