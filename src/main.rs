@@ -125,7 +125,7 @@ async fn main() -> Result<()> {
     // STEP 1: Crawl EJA.tv for streams
     // =====================================================================
     info!("Step 1/6: Crawling EJA.tv queries...");
-    let eja_channels = eja_crawler.crawl_all(&lang_classifier).await?;
+    let eja_channels = eja_crawler.crawl_all().await?;
     info!(
         "EJA.tv crawl completed: {} unique streams found",
         eja_channels.len()

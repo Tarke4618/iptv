@@ -18,7 +18,6 @@ const DEFAULT_UA: &str = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 pub struct EjaTvCrawler {
     config: Config,
     client: Client,
-    #[allow(dead_code)]
     lang_classifier: Arc<LanguageClassifier>,
 }
 
@@ -37,7 +36,7 @@ impl EjaTvCrawler {
         }
     }
 
-    pub async fn crawl_all(&self, lang_classifier: &LanguageClassifier) -> Result<Vec<Channel>> {
+    pub async fn crawl_all(&self) -> Result<Vec<Channel>> {
         let mut all_channels: HashMap<String, Channel> = HashMap::new();
         let noise = self.build_noise_set();
 
@@ -132,7 +131,7 @@ impl EjaTvCrawler {
             let sem = semaphore.clone();
             let client = self.client.clone();
             let noise = noise.clone();
-            let lang_classifier = lang_classifier.clone();
+            let lang_classifier = self.lang_classifier.clone();
 
             let handle = tokio::spawn(async move {
                 let _permit = sem.acquire().await.unwrap();
@@ -549,11 +548,11 @@ fn extract_m3u8_from_text(text: &str) -> Vec<String> {
     for caps in re_atob.captures_iter(text) {
         if let Some(m) = caps.get(1)
             && let Ok(decoded) = base64::engine::general_purpose::STANDARD.decode(m.as_str())
+            && let s = String::from_utf8_lossy(&decoded)
+            && s.starts_with("http")
+            && s.to_lowercase().contains(".m3u8")
         {
-            let s = String::from_utf8_lossy(&decoded);
-            if s.starts_with("http") && s.to_lowercase().contains(".m3u8") {
-                add(s.trim());
-            }
+            add(s.trim());
         }
     }
 
@@ -604,7 +603,6 @@ fn clean_text(text: &str) -> String {
     let re_eja = regex::Regex::new(r"(?i)^eja\.tv\s*[-|:–—]+\s*|\s*[-|:–—]+\s*eja\.tv$").unwrap();
 
     let mut t = re_html.replace_all(text, " ").to_string();
-    t = t.replace(&['<', '>', ','][..], " ");
     t = re_multi.replace_all(&t, " ").to_string();
     t = re_eja.replace_all(&t, "").to_string();
     t.trim()
@@ -612,6 +610,7 @@ fn clean_text(text: &str) -> String {
         .to_string()
 }
 
+#[allow(clippy::regex_creation_in_loops)]
 fn valid_name(name: &str, noise: &HashSet<String>) -> bool {
     if name.is_empty() {
         return false;
@@ -673,6 +672,7 @@ fn humanize_url(url: &str) -> String {
         "tracks-v1a1",
     ];
 
+    #[allow(clippy::regex_creation_in_loops)]
     let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
 
     for part in parts.iter().rev() {
