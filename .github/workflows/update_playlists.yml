@@ -1,4 +1,4 @@
-name: Refresh IPTV M3U Playlists (Go 1.27)
+name: Refresh IPTV M3U Playlists (Rust v5.0.0)
 
 on:
   schedule:
@@ -9,14 +9,6 @@ on:
         description: 'Test run without committing changes'
         type: boolean
         default: false
-  push:
-    branches:
-      - main
-    paths:
-      - 'main.go'
-      - 'go.mod'
-      - 'config.json'
-      - '.github/workflows/update_playlists.yml'
 
 concurrency:
   group: iptv-playlist-builder
@@ -28,65 +20,75 @@ permissions:
 jobs:
   build-playlists:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Set up Go 1.27
-        uses: actions/setup-go@v7
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
         with:
-          go-version: '1.27'
-          cache: false
+          toolchain: stable
+          components: rustfmt, clippy
 
-      - name: Pre-flight Go vet, JSON check & compile
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          key: "iptv-rust-v5"
+
+      - name: Pre-flight checks
         run: |
           jq empty config.json
-          go vet ./...
-          go build -ldflags="-s -w" -o iptv-engine main.go
-          echo "Compiled native binary successfully."
+          cargo fmt --check
+          cargo clippy -- -D warnings
+          cargo build --release
+          echo "Build successful"
 
-      - name: Run Go 1.27 IPTV aggregator
+      - name: Run Rust IPTV Aggregator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./iptv-engine
+        run: |
+          cargo run --release -- --config config.json
 
       - name: Validate playlists and generate Job Summary
         run: |
           ALL_COUNT=$(grep -c '^#EXTINF:' playlists/all.m3u 2>/dev/null || echo 0)
-          TEL_COUNT=$(grep -c '^#EXTINF:' playlists/special/telugu_hub.m3u 2>/dev/null || echo 0)
-          IND_COUNT=$(grep -c '^#EXTINF:' playlists/special/india_all.m3u 2>/dev/null || echo 0)
-          SPT_COUNT=$(grep -c '^#EXTINF:' playlists/special/sports_live.m3u 2>/dev/null || echo 0)
-          FAST_COUNT=$(grep -c '^#EXTINF:' playlists/special/fast_movies_tv.m3u 2>/dev/null || echo 0)
-          HD_COUNT=$(grep -c '^#EXTINF:' playlists/special/hd_1080p.m3u 2>/dev/null || echo 0)
+          TOTAL_LANGS=$(ls playlists/languages/*.m3u 2>/dev/null | grep -v _backups | wc -l)
 
           {
-            echo "## IPTV Go 1.27 Pro v4 Build Summary"
-            echo "| Playlist | Verified Live Channels |"
+            echo "## IPTV Rust v5.0.0 Build Summary"
+            echo "| Metric | Value |"
             echo "| :--- | :---: |"
-            echo "| **Telugu Master Hub** | ${TEL_COUNT} |"
-            echo "| **All India Verified** | ${IND_COUNT} |"
-            echo "| **Live Sports Hub** | ${SPT_COUNT} |"
-            echo "| **FAST Free Movies & TV** | ${FAST_COUNT} |"
-            echo "| **HD 720p / 1080p** | ${HD_COUNT} |"
-            echo "| **All Verified Channels** | ${ALL_COUNT} |"
+            echo "| **Total Verified Channels** | ${ALL_COUNT} |"
+            echo "| **Language Playlists** | ${TOTAL_LANGS} |"
           } >> "$GITHUB_STEP_SUMMARY"
 
-          if [ "$ALL_COUNT" -lt 10 ]; then
-            echo "::error::Fewer than 10 live channels found ($ALL_COUNT). Aborting commit."
+          # Show per-language counts
+          for f in playlists/languages/*.m3u; do
+            if [[ "$f" != *"_backups"* ]]; then
+              LANG=$(basename "$f" .m3u)
+              COUNT=$(grep -c '^#EXTINF:' "$f" 2>/dev/null || echo 0)
+              if [ "$COUNT" -gt 0 ]; then
+                echo "| **$LANG** | $COUNT |" >> "$GITHUB_STEP_SUMMARY"
+              fi
+            fi
+          done
+
+          # Minimum channel check
+          if [ "$ALL_COUNT" -lt 50 ]; then
+            echo "::error::Fewer than 50 live channels found ($ALL_COUNT). Aborting commit."
             exit 1
           fi
 
       - name: Commit and push updated playlists
         if: ${{ inputs.dry_run != true }}
         run: |
-          rm -f iptv-engine
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add playlists/ README.md cache/
+          git add playlists/ README.md cache/ playlists/index.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "Auto-update verified M3U playlists (Go 1.27 Pro v4)"
+            git commit -m "Auto-update verified M3U playlists (Rust v5.0.0)"
             for i in 1 2 3; do
               git pull --rebase origin main && git push && break
               echo "Push conflict, retrying ($i/3)..."
