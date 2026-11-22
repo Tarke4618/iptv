@@ -1,34 +1,42 @@
 #EXTM3U url-tvg="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz" x-tvg-url="https://dearbulut.github.io/iptv/epg/in.xml.gz,https://i.mjh.nz/all/epg.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
-#EXTINF:-1 tvg-id="plextv" tvg-name="@plextv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",@plextv [720p]
-http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8#0ed6a0cc16abd6cc93ebc511e25db7ff5059cd8413deecdf7e51dc6748cfb5e4
-#EXTINF:-1 tvg-id="amg00567.estrellamedia.estrellagames.distrotv" tvg-name="Amg00567 Estrellamedia Estrellagames Distrotv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Amg00567 Estrellamedia Estrellagames Distrotv [1080p]
-https://amg00567-estrellamedia-estrellagames-distrotv-6okbz.amagi.tv/playlist/amg00567-estrellamedia-estrellagames-distrotv/playlist.m3u8
-#EXTINF:-1 tvg-id="amg00627.banijaygroup.wipeoutxtranz.samsungnz" tvg-name="Amg00627 Banijaygroup Wipeoutxtranz Samsungnz" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Amg00627 Banijaygroup Wipeoutxtranz Samsungnz [1080p]
-https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8#a88a2f91d6af0b155dcd4851922efbe4106efdf5eb624e1f99faad8cf0c73f9e
+#EXTINF:-1 tvg-id="1bffdaaf.isml" tvg-name="1bffdaaf.isml" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",1bffdaaf.isml [720p]
+https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8#e6930d8b143482aba69a2e23d309e29ba0ff821ff253b833b6b47de89d276cc9
+#EXTINF:-1 tvg-id="89290956.94ab.4950.accb.a54bbd7e176f" tvg-name="89290956 94ab 4950 Accb A54bbd7e176f" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",89290956 94ab 4950 Accb A54bbd7e176f [1080p]
+https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8#d57728e0ce15572ba6a4ea5ce61f210cde6f5390260ad3bb577cf63e57b56c04
+#EXTINF:-1 tvg-id="alegretvlive" tvg-name="Alegretvlive" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Alegretvlive
+https://streamunoapp.com:3149/live/alegretvlive.m3u8#d8193c56bf7f992f6d87786cfe148fb8a3d46f0a101c7d2a6e0f0577d55a62ac
+#EXTINF:-1 tvg-id="americateve2" tvg-name="Americateve2" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Americateve2 [1080p]
+https://live.gideo.video/americateve2/master.m3u8#9eb02bec4757797a63dab992ff6fafc98951a8eb1cc8d52a7aadd87e55d70a5d
 #EXTINF:-1 tvg-id="amg01076.lightningintern.petclub.samsungnz" tvg-name="Amg01076 Lightningintern Petclub Samsungnz" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Amg01076 Lightningintern Petclub Samsungnz [1080p]
 https://amg01076-lightningintern-petclub-samsungnz-g6424.amagi.tv/playlist/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="amg01438.ewscrippscompan.bouncexl.tablo" tvg-name="Amg01438 Ewscrippscompan Bouncexl Tablo" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Amg01438 Ewscrippscompan Bouncexl Tablo [1080p]
+https://amg01438-ewscrippscompan-bouncexl-tablo-6s9me.amagi.tv/playlist/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="amg01602.themahqfrance.vivekanald.samsungspain" tvg-name="Amg01602 Themahqfrance Vivekanald Samsungspain" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Amg01602 Themahqfrance Vivekanald Samsungspain [1080p]
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 #EXTINF:-1 tvg-id="amg17931.asiatvusaltdfast.zeeworld.samsungau" tvg-name="Amg17931 Asiatvusaltdfast Zeeworld Samsungau" tvg-logo="" tvg-country="United Kingdom" tvg-language="" group-title="Entertainment",Amg17931 Asiatvusaltdfast Zeeworld Samsungau [1080p]
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8#7666ec7ebc4178eccc9141bbd1c23112063fe843dcd369dfcdcda9132ee93bfe
-#EXTINF:-1 tvg-id="channel.redmashdweb" tvg-name="Channel(redmashdweb)" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Channel(redmashdweb) [1080p]
-https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel%28REDMASHDWEB%29/master.m3u8#de4c6706daff5d3ae41784ba105acded94839e05244dcc588d4c96b226ac9245
-#EXTINF:-1 tvg-id="chunklist.b1928000" tvg-name="Chunklist B1928000" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Chunklist B1928000
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starasianet.smil/chunklist_b1928000.m3u8#020ec398585387669ab5d6e67f466649f6f51bffaa27f7e5ad98a355317a35d2
 #EXTINF:-1 tvg-id="chunklist.b2628000" tvg-name="Chunklist B2628000" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Chunklist B2628000
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8#da392cc4718c1b127782456457b06ac27579c2495010aff8f42fbb3851decfc0
+#EXTINF:-1 tvg-id="Comet.us" tvg-name="Comet" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc6hGmj4N40DjDiiDJZpq30HWu-4NrgcQok8XOS6g_o1YI798ogZyxIxM9k4NvdUFU_98&usqp=CAU" tvg-country="" tvg-language="" group-title="Entertainment",Comet [1080p]
+https://fast-channels.sinclairstoryline.com/COMET/index.m3u8#cc7443f14573061aa7b68da9ca3cd3bf27936bb3e786b422041821fb01d1a70d
 #EXTINF:-1 tvg-id="EducationChannel.mm" tvg-name="Education" tvg-logo="https://i.imgur.com/p5TGUjo.png" tvg-country="" tvg-language="" group-title="Entertainment",Education [720p]
 https://cdn4.skygo.mn/live/disk1/Education/HLSv3-FTA/Education.m3u8#b35c959e89b6747515710a13c75ebb09e360b5f7d7e49996e86774cbb823df2b
 #EXTINF:-1 tvg-id="etvhd.2500" tvg-name="Etvhd 2500" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Etvhd 2500 [720p]
 https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b#bae19779190d26b92ca697baf928e534316b3a4f1191497252135d567985402e
+#EXTINF:-1 tvg-id="gh" tvg-name="GH" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="News",GH [720p]
+https://30a-tv.com/gh.m3u8#5df43ae89acdeb595221a0b466f872cb9d6970cc428f939fbd3a957281a99626
+#EXTINF:-1 tvg-id="gsn.720p" tvg-name="Gsn 720p" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",Gsn 720p [720p]
+https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8#d93ff3c586e9bccdfced8663cee3a76d2ef08418f36103ac0018e820482faed1
 #EXTINF:-1 tvg-id="ik.carac5" tvg-name="Ik:carac5" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Ik:carac5 [1080p]
-https://edge12.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
+https://edge14.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 #EXTINF:-1 tvg-id="ik.compack.media.1" tvg-name="Ik:compack Media 1" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Ik:compack Media 1 [1080p]
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8#61d8a8862dfac13dc03b9035b498f6102b6779aff0451c449b9c1e2640c35e99
 #EXTINF:-1 tvg-id="ik.event" tvg-name="Ik:event" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Ik:event [1080p]
 https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8#1c291fc856e8b46b18b206b5760146947194f89d4b226fc6e4ef788b1a3885bc
 #EXTINF:-1 tvg-id="ik.onefmhd" tvg-name="Ik:onefmhd" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Ik:onefmhd [1080p]
-https://edge20.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8
+https://edge13.vedge.infomaniak.com/livecast/ik:onefmhd/manifest.m3u8
 #EXTINF:-1 tvg-id="ik.onefmmd" tvg-name="Ik:onefmmd" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Ik:onefmmd [1080p]
-https://edge17.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8
+https://edge18.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8
 #EXTINF:-1 tvg-id="impactotv" tvg-name="Impactotv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Impactotv [480p]
 https://cloudvideo.servers10.com:8081/impactotv/index.m3u8#c9934af4a5d4674b3fe9a680d853c783cce939cb2de998eff9e3053dadf5bf24
 #EXTINF:-1 tvg-id="Italia2.it" tvg-name="Italia2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png" tvg-country="" tvg-language="" group-title="Entertainment",Italia2 [720p]
@@ -36,30 +44,20 @@ https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8#8f37048a7892e
 #EXTINF:-1 tvg-id="kvartal.tv" tvg-name="Kvartal Tv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Kvartal Tv
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8#2799cce6bedca57ed6f5fc6b0ff14de6bf2d3ae45d6d48eb49f3d1a8a034f441
 #EXTINF:-1 tvg-id="lfmhd" tvg-name="Lfmhd" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Lfmhd [1080p]
-https://edge18.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
-#EXTINF:-1 tvg-id="MakroDigitalTelevision.ec" tvg-name="Makrodigitaltelevision" tvg-logo="https://makrodigitaltelevision.com/logo.jpg" tvg-country="" tvg-language="" group-title="Entertainment",Makrodigitaltelevision [480p]
-https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8#1ca619c9e69ea6bbb8b63dc7de0be6d9ca879344c410322d58c44b38c5b82206
-#EXTINF:-1 tvg-id="maxivisiontv" tvg-name="Maxivisiontv" tvg-logo="" tvg-country="" tvg-language="Spanish" group-title="Entertainment",Maxivisiontv [720p]
+https://edge14.vedge.infomaniak.com/livecast/lfmhd/playlist.m3u8
+#EXTINF:-1 tvg-id="loadingtv" tvg-name="Loadingtv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Loadingtv
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8#8928f13f6e491817683ddd05e7485da10b7cb150cec4d177699641269d579ece
+#EXTINF:-1 tvg-id="maxivisiontv" tvg-name="Maxivisiontv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Maxivisiontv [1080p]
 https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8#157a7614cefce5ea245b701b1b8738df6f4bae5e07dbfa1295eacadfce30de1d
 #EXTINF:-1 tvg-id="netmaxtv" tvg-name="Netmaxtv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Netmaxtv [720p]
 https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8#bb6f737ffe04f77e4bf75fa588062619d9db241e59f40639414a3873520329ca
-#EXTINF:-1 tvg-id="output" tvg-name="Output" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Output [1080p]
-https://ec05-pop1-hlc.tv360.vn:443/bpk-token/mxhp2kdaglzsrccl5gvwjtx5fbs457ji/bpk-tv/166/output/index.m3u8?bkm-query&auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJleHAiOjE3OTUzMDg5MTUsCiAgImlzcyI6ImJrbSIsCiAgInZlciI6IjEuMCIsCiAgImlhdCI6MTc5NTI4NzE5NiwKICAic3IiOnsKICAgICAidmVyIjoiMi4wIiwKICAgICAic25hIjoiMTY2X0hMUyIsCiAgICAgInBuYSI6IlZpZXR0ZWwiLAogICAgICJybmEiOiIiLAogICAgICJwbiI6IlBPUC1ITi1QT1AxIiwKICAgICAiZW4iOiJFREdFLUhOLVBPUDEiLAogICAgICJjYyI6IlVTIiwKICAgICAicmMiOiJWQSIsCiAgICAgImFjbiI6IkNPUkUtSE4tUE9QMSIsCiAgICAgImlzcCI6Ik1pY3Jvc29mdCBBenVyZSIsCiAgICAgImFzbiI6IjgwNzUiLAogICAgICJ2cyI6IkJLUzQwMC1QT1AxLTA1XzE3Mi4yNC4xNy44OjIwMDAwIiwKICAgICAibnQiOiJPVFQiLAogICAgICJ0dHAiOjAsCiAgICAgInBsaWQiOiIiLAogICAgICJwdWlkIjoiIiwKICAgICAidGVpZCI6IiIKICB9LAogICJvdCI6ewogICAgICJ0cyI6MTc5NTI4NzE5NiwKICAgICAidXJsIjoiL2Jway10di8xNjYvb3V0cHV0L2luZGV4Lm0zdTg_bWlucmF0ZT0wJm1heHJhdGU9MTIwMDAwMDAiLAogICAgICJ0b2siOiJteGhwMmtkYWdsenNyY2NsNWd2d2p0eDVmYnM0NTdqaSIsCiAgICAgImV4dCI6IiIsCiAgICAgImNpcCI6IjE3Mi4xOTAuMTE5LjEwNCIsCiAgICAgImNoayI6IGZhbHNlLAogICAgICJzdHQiOiJOTyIsCiAgICAgImRzY3AiOjAsCiAgICAgInN2Ijp7CiAgICAgICAgImlkIjoiMTY2X0hMUyIsCiAgICAgICAgInR5cCI6IkxJVkUiCiAgICAgfSwKICAgICAidG8iOnsKICAgICAgICAKICAgICAgICAKICAgICAgICAic3UiOjAsCiAgICAgICAgInJjIjoxNTAKICAgICB9LAogICAgICJsYXkiOiB7CiAgICAgICJsc3QiOltdLAogICAgICAibWF4IjoxMjAwMDAwMCwKICAgICAgIm1pbiI6MAogICAgIH0sCiAgICAgInJzaCI6MCwKICAgICAicnNocCI6MTAwLAogICAgICJvYmYiOmZhbHNlLAogICAgICJ0YWdzIjp7fQogIH0KfQ.ZI3jB1Y3gW6eqi_Vqcz50iAAIRfOLSgSCRzDbx-AGhY
 #EXTINF:-1 tvg-id="repl.abr67" tvg-name="Repl Abr67" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Repl Abr67 [1080p]
 https://prx-y5cf8.4vod.tv/playout/repl-abr67/index.m3u8#64d5787e798d390972325e44d79fc78f4b5b052765eb89ea98b9c9403283d929
-#EXTINF:-1 tvg-id="rotvlive" tvg-name="Rotvlive" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Rotvlive
-https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8#e1ef76018c9b0005bd7c2a5f04c88f4fc26258d5da9cff37a475248ffbe36398
-#EXTINF:-1 tvg-id="sa.live.hls.enc" tvg-name="Sa Live Hls Enc" tvg-logo="" tvg-country="United Kingdom" tvg-language="Spanish" group-title="Entertainment",Sa Live Hls Enc [1080p]
-https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="smil.colorsme" tvg-name="Smil:colorsme" tvg-logo="" tvg-country="India" tvg-language="Hindi" group-title="Entertainment",Smil:colorsme [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/playlist.m3u8#4f179ac7bd7cd9c48a42d925ea944dc91dcec04998943f45a8e1f93163583dd3
 #EXTINF:-1 tvg-id="smil.lfmmd" tvg-name="Smil:lfmmd" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Smil:lfmmd [1080p]
-https://edge12.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8
-#EXTINF:-1 tvg-id="smil.zeetamil1" tvg-name="Smil:zeetamil1" tvg-logo="" tvg-country="India" tvg-language="Tamil" group-title="Entertainment",Smil:zeetamil1 [720p]
-https://da86m1sqpm3o0.cloudfront.net/28072023/smil:zeetamil1.smil/playlist.m3u8#8d041139fe26f9e20d4024505f6c3b2393b2d8c04033dfa7aa02aea373ed0a04
+https://edge14.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8
 #EXTINF:-1 tvg-id="SolTV.gq" tvg-name="Soltv" tvg-logo="https://i.imgur.com/TJHk6Va.png" tvg-country="" tvg-language="" group-title="Entertainment",Soltv
 https://stream.solmediaeg.com/soltv/soltv.m3u8#9aec539f0e35cdc21ba9a5c937faf1744cf3a9d093cf94ceac0293c3e1e0e655
-#EXTINF:-1 tvg-id="source" tvg-name="Source" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="Entertainment",Source
+#EXTINF:-1 tvg-id="source" tvg-name="Source" tvg-logo="" tvg-country="United States" tvg-language="English" group-title="Music",Source
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8#90ff23fa435d4f1da315dce75ed933314c3f0ee22c8c1ce32b71b1bee1171c75
 #EXTINF:-1 tvg-id="star.int" tvg-name="Star Int" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Star Int [1080p]
 https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8#b1297f8c0749aee7fb78ca50a575ccdc3663654e5e7b64c81bd6f323a19f691f
@@ -73,15 +71,21 @@ https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8#c4911372dd0ec28729c6
 https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8#62dd9e649ba382aafd4119f268690a5063ea113ae474a26025429d02ebead78f
 #EXTINF:-1 tvg-id="ThisisBulgariaHD.bg" tvg-name="Thisisbulgaria" tvg-logo="https://i.imgur.com/062jkXw.png" tvg-country="" tvg-language="" group-title="Entertainment",Thisisbulgaria [1080p]
 https://streamer103.neterra.tv/thisisbulgaria/live.m3u8#6862ae209aa7398e9a0e1697a9fcaa9314fce699f95d9195f7f1571a614b1acc
+#EXTINF:-1 tvg-id="tvnovalive" tvg-name="Tvnovalive" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Tvnovalive
+https://stream.agatin.hr:3727/live/tvnovalive.m3u8#3dea0caaaf960dcfd2f2265fbbdb8a120fdf5d01249c8dcd48c4e4260a0312a5
 #EXTINF:-1 tvg-id="tvoetv" tvg-name="Tvoetv" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Tvoetv [1080p]
 http://tvoetv.space:8080/tvoetv/index.m3u8#e0eccad424c07294d5e57485493e79c11ce5435de21bd19a4f3c1df44cd21b71
 #EXTINF:-1 tvg-id="use1" tvg-name="USE1" tvg-logo="" tvg-country="United States" tvg-language="" group-title="Entertainment",USE1 [1080p]
 https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8#cb4c562e325d1d8f5229b3f5481ad1a84fd4ffd3bf96ddf978853f021c60529c
+#EXTINF:-1 tvg-id="vglive.sk.254807" tvg-name="Vglive Sk 254807" tvg-logo="" tvg-country="India" tvg-language="" group-title="Entertainment",Vglive Sk 254807 [1080p]
+https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8#1d24a3efbcbb06f49da36c6db15f9980c9490c6b67316d416d21144a44a5d23e
+#EXTINF:-1 tvg-id="video.pr4.stream" tvg-name="Video Pr4.stream" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Video Pr4.stream [1080p]
+https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8#30f47b0c481f3c123e1791b8b64a91e2682aa365ec7b7c11e06aaf7c5aad8a74
 #EXTINF:-1 tvg-id="wdr.msl4.fs247" tvg-name="Wdr Msl4 Fs247" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Wdr Msl4 Fs247 [720p]
 https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
 #EXTINF:-1 tvg-id="wdr.msl4.fs247ww" tvg-name="Wdr Msl4 Fs247ww" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Wdr Msl4 Fs247ww [720p]
 https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8#df8bb3af95a77212e6cb4a15aa0a9aaecac97b8a73f02437198c7b4b44e538de
-#EXTINF:-1 tvg-id="XPTV2.es" tvg-name="Xptv2" tvg-logo="https://i.imgur.com/74Z8ATB.png" tvg-country="" tvg-language="" group-title="Entertainment",Xptv2 [720p]
-https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8#fe2f01b23be11c15eb3a524758d5904eee1f8b9ad24c1f44d4a3c5eac811033f
+#EXTINF:-1 tvg-id="xrvrjytmtfitfxbqfezbyq" tvg-name="Xrvrjytmtfitfxbqfezbyq" tvg-logo="" tvg-country="" tvg-language="" group-title="Entertainment",Xrvrjytmtfitfxbqfezbyq [1080p]
+https://dai.google.com/linear/hls/pa/event/xrVrJYTmTfitfXBQfeZByQ/stream/61117167-ed39-489a-b6c8-2c206114bdb3:DLS/master.m3u8
 #EXTINF:-1 tvg-id="zeeteluguhd" tvg-name="Zeeteluguhd" tvg-logo="" tvg-country="India" tvg-language="Telugu" group-title="Entertainment",Zeeteluguhd [720p]
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeTeluguHD.m3u8#0a027a373ef5f0bb5141cdde16da59e0892aa83ca23564d45bd911bbdd21164a
