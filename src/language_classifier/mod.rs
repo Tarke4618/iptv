@@ -698,34 +698,48 @@ impl LanguageClassifier {
     }
 
     fn country_matches_language(&self, country: &str, lang: &str) -> bool {
-        match (country, lang) {
+        matches!(
+            (country, lang),
             ("in", "hindi")
-            | ("in", "telugu")
-            | ("in", "tamil")
-            | ("in", "malayalam")
-            | ("in", "kannada")
-            | ("in", "bengali")
-            | ("in", "marathi")
-            | ("in", "gujarati")
-            | ("in", "punjabi")
-            | ("in", "urdu")
-            | ("in", "odia")
-            | ("in", "assamese") => true,
-            ("us", "english")
-            | ("gb", "english")
-            | ("uk", "english")
-            | ("ca", "english")
-            | ("au", "english") => true,
-            ("es", "spanish") | ("mx", "spanish") | ("ar", "spanish") | ("co", "spanish") => true,
-            ("fr", "french") | ("be", "french") | ("ch", "french") => true,
-            ("de", "german") | ("at", "german") | ("ch", "german") => true,
-            ("sa", "arabic") | ("ae", "arabic") | ("eg", "arabic") | ("ma", "arabic") => true,
-            ("ru", "russian") | ("by", "russian") | ("kz", "russian") => true,
-            ("jp", "japanese") => true,
-            ("kr", "korean") => true,
-            ("cn", "chinese") | ("tw", "chinese") | ("hk", "chinese") => true,
-            _ => false,
-        }
+                | ("in", "telugu")
+                | ("in", "tamil")
+                | ("in", "malayalam")
+                | ("in", "kannada")
+                | ("in", "bengali")
+                | ("in", "marathi")
+                | ("in", "gujarati")
+                | ("in", "punjabi")
+                | ("in", "urdu")
+                | ("in", "odia")
+                | ("in", "assamese")
+                | ("us", "english")
+                | ("gb", "english")
+                | ("uk", "english")
+                | ("ca", "english")
+                | ("au", "english")
+                | ("es", "spanish")
+                | ("mx", "spanish")
+                | ("ar", "spanish")
+                | ("co", "spanish")
+                | ("fr", "french")
+                | ("be", "french")
+                | ("ch", "french")
+                | ("de", "german")
+                | ("at", "german")
+                | ("ch", "german")
+                | ("sa", "arabic")
+                | ("ae", "arabic")
+                | ("eg", "arabic")
+                | ("ma", "arabic")
+                | ("ru", "russian")
+                | ("by", "russian")
+                | ("kz", "russian")
+                | ("jp", "japanese")
+                | ("kr", "korean")
+                | ("cn", "chinese")
+                | ("tw", "chinese")
+                | ("hk", "chinese")
+        )
     }
 
     fn infer_country(&self, name: &str, category: &str, lang: &str) -> String {
@@ -794,6 +808,7 @@ impl LanguageClassifier {
         langs
     }
 
+    #[allow(dead_code)]
     pub fn get_iso_code(&self, language: &str) -> String {
         self.iso_codes
             .get(&language.to_lowercase())

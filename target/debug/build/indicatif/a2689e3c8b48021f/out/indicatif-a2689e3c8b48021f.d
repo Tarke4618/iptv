@@ -1,0 +1,13 @@
+/home/s/Projects/iptv/target/debug/build/indicatif/a2689e3c8b48021f/out/indicatif-a2689e3c8b48021f.d: /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/lib.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/draw_target.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/format.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/iter.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/multi.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/progress_bar.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/state.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/style.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/term_like.rs
+
+/home/s/Projects/iptv/target/debug/build/indicatif/a2689e3c8b48021f/out/libindicatif-a2689e3c8b48021f.rmeta: /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/lib.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/draw_target.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/format.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/iter.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/multi.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/progress_bar.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/state.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/style.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/term_like.rs
+
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/lib.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/draw_target.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/format.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/iter.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/multi.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/progress_bar.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/state.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/style.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indicatif-0.17.11/src/term_like.rs:

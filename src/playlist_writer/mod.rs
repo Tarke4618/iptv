@@ -8,6 +8,7 @@ use crate::language_classifier::LanguageClassifier;
 use crate::models::{Channel, SourceStat};
 
 pub struct PlaylistWriter {
+    #[allow(dead_code)]
     config: Config,
 }
 
@@ -235,8 +236,8 @@ impl PlaylistWriter {
         }
 
         // Sort by name
-        let mut sorted: Vec<_> = channels.iter().cloned().collect();
-        sorted.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
+        let mut sorted: Vec<_> = channels.to_vec();
+        sorted.sort_by_key(|a| a.name.to_lowercase());
 
         // Deduplicate by stream URL
         let mut seen = HashSet::new();
@@ -498,7 +499,7 @@ fn safe_filename(name: &str) -> String {
 }
 
 fn escape_m3u(s: &str) -> String {
-    s.replace(',', "\\,").replace('\n', " ").replace('\r', " ")
+    s.replace(',', "\\,").replace(['\n', '\r'], " ")
 }
 
 fn generate_tvg_id(name: &str) -> String {

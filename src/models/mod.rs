@@ -32,6 +32,7 @@ pub struct AudioTrack {
 }
 
 impl Channel {
+    #[allow(dead_code)]
     pub fn new(stream_url: String, name: String, source_name: String) -> Self {
         Self {
             stream_url,
@@ -91,6 +92,7 @@ impl Channel {
         }
     }
 
+    #[allow(dead_code)]
     pub fn dedup_key(&self) -> String {
         normalize_channel_key(&self.name)
     }

@@ -107,8 +107,10 @@ impl StreamVerifier {
         let live_count = Arc::new(std::sync::atomic::AtomicUsize::new(0));
 
         let semaphore = Arc::new(Semaphore::new(self.max_workers));
-        let _ctx = tokio::sync::watch::channel(false).0; // For cancellation
-        let cancel_flag = Arc::new(tokio::sync::watch::Sender::new(false));
+
+        // Cancellation channel (sender broadcasts stop, receiver checks in tasks)
+        let (cancel_sender, cancel_receiver) = tokio::sync::watch::channel(false);
+        let cancel_sender = Arc::new(cancel_sender);
 
         // Timeout context
         let verify_ctx =
@@ -125,17 +127,17 @@ impl StreamVerifier {
                     let host_permit = host_sem.clone().acquire_owned().await.unwrap();
 
                     let client = self.client.clone();
-                    let health_cache = Arc::new(health_cache.clone());
-                    let geo_manager = Arc::new(geo_manager.clone());
+                    let health_cache = health_cache.clone();
+                    let geo_manager = geo_manager.clone();
                     let verified = verified.clone();
                     let checked = checked.clone();
                     let live_count = live_count.clone();
                     let pb = pb.clone();
-                    let cancel_flag = cancel_flag.clone();
+                    let cancel_receiver = cancel_receiver.clone();
 
                     let handle = tokio::spawn(async move {
                         // Check for cancellation
-                        if *cancel_flag.borrow() {
+                        if *cancel_receiver.borrow() {
                             drop(host_permit);
                             drop(permit);
                             return;
@@ -152,7 +154,7 @@ impl StreamVerifier {
                             verified.lock().await.push(v);
                         }
 
-                        if c % 50 == 0 || c == total {
+                        if c.is_multiple_of(50) || c == total {
                             pb.set_position(c as u64);
                             pb.set_message(format!(
                                 "{} live",
@@ -180,11 +182,11 @@ impl StreamVerifier {
                 "Verification timed out after {} seconds",
                 self.max_verify_seconds
             );
-            cancel_flag.send(true).ok();
+            cancel_sender.send(true).ok();
         }
 
         let mut result = verified.lock().await.drain(..).collect::<Vec<_>>();
-        result.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
+        result.sort_by_key(|a| a.name.to_lowercase());
         Ok(result)
     }
 }
@@ -204,7 +206,7 @@ async fn verify_channel(
     let mut max_height = 0;
     let mut audio_tracks = Vec::new();
 
-    for hop in 0..3 {
+    for _hop in 0..3 {
         // Get per-host semaphore (acquired in verify_all)
         let _host = extract_host(&current_url).unwrap_or_else(|| "unknown".to_string());
 
@@ -260,9 +262,8 @@ async fn verify_channel(
             return Ok(None);
         }
 
-        if hop == 0 {
-            export_url = final_url.to_string();
-        }
+        // Update export_url to the final resolved URL after first hop
+        export_url = final_url.to_string();
 
         // Parse playlist for variants and audio tracks
         let (has_variant, best_variant, height, audio) = parse_master_playlist(&text, &final_url)?;
@@ -272,13 +273,17 @@ async fn verify_channel(
         }
 
         if has_variant {
-            current_url = best_variant;
+            // This is a master playlist, switch to the best variant
+            let variant_url = best_variant.clone();
+            current_url = variant_url;
+            export_url = best_variant; // Update export_url to variant URL
         } else {
+            // This is a variant playlist (segment playlist)
             break;
         }
     }
 
-    // Verify first segment
+    // Verify first segment from the resolved playlist URL
     let seg_url = extract_first_segment(&export_url).await?;
     if seg_url.is_empty() {
         return Ok(None);
@@ -305,7 +310,9 @@ async fn verify_channel(
     }
     .to_string();
 
-    channel.stream_url = export_url; // Keep master URL
+    // Keep the original URL as stream_url for proper HLS playback
+    // The export_url is the resolved playlist URL (master or variant)
+    channel.stream_url = original_url.clone();
     channel.height = max_height;
     channel.quality_tag = quality_tag;
     channel.latency_ms = latency_ms;
@@ -386,10 +393,10 @@ fn parse_master_playlist(
             continue;
         }
 
-        if let Some(caps) = re_resolution.captures(line) {
-            if let Ok(h) = caps[1].parse::<u32>() {
-                max_height = max_height.max(h);
-            }
+        if let Some(caps) = re_resolution.captures(line)
+            && let Ok(h) = caps[1].parse::<u32>()
+        {
+            max_height = max_height.max(h);
         }
 
         let mut bw = 0;
@@ -419,11 +426,46 @@ fn parse_master_playlist(
     ))
 }
 
-async fn extract_first_segment(_master_url: &str) -> Result<String> {
-    // This is a simplified version - in practice we'd fetch the variant playlist
-    // For now, return empty to indicate we need to fetch the variant
-    // The actual segment extraction happens in verify_channel by parsing the variant
-    Ok(String::new())
+async fn extract_first_segment(playlist_url: &str) -> Result<String> {
+    // Fetch the variant playlist to get the first segment URL
+    let client = reqwest::Client::builder()
+        .user_agent(DEFAULT_UA)
+        .timeout(Duration::from_secs(10))
+        .build()?;
+
+    let resp = client.get(playlist_url).send().await?;
+    if !resp.status().is_success() {
+        debug!(
+            "Failed to fetch playlist for segment extraction: {}",
+            resp.status()
+        );
+        return Ok(String::new());
+    }
+
+    let base_url = resp.url().clone();
+    let body = resp.text().await?;
+    let first_ts = body
+        .lines()
+        .find(|line| line.ends_with(".ts") && !line.starts_with('#'))
+        .map(|s| s.trim().to_string());
+
+    match first_ts {
+        Some(ts_url) => {
+            // Resolve relative URL to absolute
+            if ts_url.starts_with("http://") || ts_url.starts_with("https://") {
+                Ok(ts_url)
+            } else {
+                match base_url.join(&ts_url) {
+                    Ok(u) => Ok(u.to_string()),
+                    Err(e) => {
+                        debug!("Failed to resolve segment URL: {}", e);
+                        Ok(String::new())
+                    }
+                }
+            }
+        }
+        None => Ok(String::new()),
+    }
 }
 
 fn valid_name(name: &str) -> bool {
@@ -447,10 +489,7 @@ fn valid_name(name: &str) -> bool {
     let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
     let re_generic =
         regex::Regex::new(r"^(channel|stream|live|index|master|playlist|tracks)\s*\d*$").unwrap();
-    if re_hex.is_match(low) || re_generic.is_match(low) {
-        return false;
-    }
-    true
+    !(re_hex.is_match(low) || re_generic.is_match(low))
 }
 
 fn humanize_url(url: &str) -> String {
@@ -488,6 +527,8 @@ fn humanize_url(url: &str) -> String {
         "tracks-v1a1",
     ];
 
+    let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
+
     for part in parts.iter().rev() {
         if part.is_empty() {
             continue;
@@ -500,12 +541,7 @@ fn humanize_url(url: &str) -> String {
             }
         }
         let low = stem.to_lowercase();
-        if generic_parts.contains(&low.as_str())
-            || stem.len() < 2
-            || regex::Regex::new(r"^[a-f0-9]{12,}$")
-                .unwrap()
-                .is_match(&low)
-        {
+        if generic_parts.contains(&low.as_str()) || stem.len() < 2 || re_hex.is_match(&low) {
             continue;
         }
         let word = stem.replace(['_', '-'], " ").trim().to_string();

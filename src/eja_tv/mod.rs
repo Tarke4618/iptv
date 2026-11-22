@@ -18,6 +18,7 @@ const DEFAULT_UA: &str = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 pub struct EjaTvCrawler {
     config: Config,
     client: Client,
+    #[allow(dead_code)]
     lang_classifier: Arc<LanguageClassifier>,
 }
 
@@ -409,20 +410,18 @@ async fn crawl_task(
                 .query_pairs()
                 .find(|(k, _)| k == "offset")
                 .and_then(|(_, v)| v.parse().ok())
+                && off > offset
             {
-                if off > offset {
-                    offset = off;
-                }
+                offset = off;
             }
             if let Some(pg) = parsed
                 .query_pairs()
                 .find(|(k, _)| k == "page")
                 .and_then(|(_, v)| v.parse().ok())
+                && pg > page
             {
-                if pg > page {
-                    page = pg;
-                    use_page = true;
-                }
+                page = pg;
+                use_page = true;
             }
 
             // Only follow eja.tv links that aren't filter URLs
@@ -548,12 +547,12 @@ fn extract_m3u8_from_text(text: &str) -> Vec<String> {
     // Base64 encoded (atob)
     let re_atob = regex::Regex::new(r#"atob\(\s*["']([A-Za-z0-9+/=]{16,})["']\s*\)"#).unwrap();
     for caps in re_atob.captures_iter(text) {
-        if let Some(m) = caps.get(1) {
-            if let Ok(decoded) = base64::engine::general_purpose::STANDARD.decode(m.as_str()) {
-                let s = String::from_utf8_lossy(&decoded);
-                if s.starts_with("http") && s.to_lowercase().contains(".m3u8") {
-                    add(s.trim());
-                }
+        if let Some(m) = caps.get(1)
+            && let Ok(decoded) = base64::engine::general_purpose::STANDARD.decode(m.as_str())
+        {
+            let s = String::from_utf8_lossy(&decoded);
+            if s.starts_with("http") && s.to_lowercase().contains(".m3u8") {
+                add(s.trim());
             }
         }
     }
@@ -605,11 +604,7 @@ fn clean_text(text: &str) -> String {
     let re_eja = regex::Regex::new(r"(?i)^eja\.tv\s*[-|:–—]+\s*|\s*[-|:–—]+\s*eja\.tv$").unwrap();
 
     let mut t = re_html.replace_all(text, " ").to_string();
-    t = t
-        .replace(&['<', '>', ','][..], " ")
-        .replace("&", "&")
-        .replace("'", "'")
-        .replace('"', "\"");
+    t = t.replace(&['<', '>', ','][..], " ");
     t = re_multi.replace_all(&t, " ").to_string();
     t = re_eja.replace_all(&t, "").to_string();
     t.trim()
@@ -640,10 +635,7 @@ fn valid_name(name: &str, noise: &HashSet<String>) -> bool {
     let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
     let re_generic =
         regex::Regex::new(r"^(channel|stream|live|index|master|playlist|tracks)\s*\d*$").unwrap();
-    if re_hex.is_match(&low) || re_generic.is_match(&low) {
-        return false;
-    }
-    true
+    !(re_hex.is_match(&low) || re_generic.is_match(&low))
 }
 
 fn humanize_url(url: &str) -> String {
@@ -681,6 +673,8 @@ fn humanize_url(url: &str) -> String {
         "tracks-v1a1",
     ];
 
+    let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
+
     for part in parts.iter().rev() {
         if part.is_empty() {
             continue;
@@ -693,12 +687,7 @@ fn humanize_url(url: &str) -> String {
             }
         }
         let low = stem.to_lowercase();
-        if generic_parts.contains(&low.as_str())
-            || stem.len() < 2
-            || regex::Regex::new(r"^[a-f0-9]{12,}$")
-                .unwrap()
-                .is_match(&low)
-        {
+        if generic_parts.contains(&low.as_str()) || stem.len() < 2 || re_hex.is_match(&low) {
             continue;
         }
         let word = stem.replace(['_', '-'], " ").trim().to_string();

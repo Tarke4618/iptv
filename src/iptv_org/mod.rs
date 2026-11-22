@@ -103,6 +103,7 @@ impl IPTVOrgCatalog {
         })
     }
 
+    #[allow(dead_code)]
     pub fn enrich_channel(&self, channel: &mut crate::models::Channel) {
         let key = crate::models::normalize_channel_key(&channel.name);
         if let Some(entry) = self.channels.get(&key) {

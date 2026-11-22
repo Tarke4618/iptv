@@ -1,0 +1,10 @@
+/home/s/Projects/iptv/target/debug/build/alloc-no-stdlib/d9caad56ab728307/out/alloc_no_stdlib-d9caad56ab728307.d: /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/lib.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/mod.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/index_macro.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/stack_allocator.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_stack_memory.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/init.rs
+
+/home/s/Projects/iptv/target/debug/build/alloc-no-stdlib/d9caad56ab728307/out/liballoc_no_stdlib-d9caad56ab728307.rmeta: /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/lib.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/mod.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/index_macro.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/stack_allocator.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_stack_memory.rs /home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/init.rs
+
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/lib.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/mod.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_memory/index_macro.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/stack_allocator.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/allocated_stack_memory.rs:
+/home/s/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/alloc-no-stdlib-3.0.0/src/init.rs:

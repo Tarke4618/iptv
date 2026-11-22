@@ -31,13 +31,13 @@ impl HealthCache {
         let now = SystemTime::now().duration_since(UNIX_EPOCH)?.as_secs();
 
         // Load existing cache
-        if let Ok(content) = fs::read_to_string(&path).await {
-            if let Ok(cache_data) = serde_json::from_str::<HealthCacheData>(&content) {
-                let cutoff = now.saturating_sub(14 * 86400); // 14 days
-                for (url, record) in cache_data.data {
-                    if record.ts >= cutoff {
-                        data.insert(url, record);
-                    }
+        if let Ok(content) = fs::read_to_string(&path).await
+            && let Ok(cache_data) = serde_json::from_str::<HealthCacheData>(&content)
+        {
+            let cutoff = now.saturating_sub(14 * 86400); // 14 days
+            for (url, record) in cache_data.data {
+                if record.ts >= cutoff {
+                    data.insert(url, record);
                 }
             }
         }
@@ -57,6 +57,7 @@ impl HealthCache {
         self.data.remove(url);
     }
 
+    #[allow(dead_code)]
     pub fn mark_dead(&self, url: &str) {
         self.data
             .entry(url.to_string())

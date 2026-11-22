@@ -31,7 +31,7 @@ use std::collections::HashMap;
 use std::path::PathBuf;
 use std::sync::Arc;
 use std::time::{Duration, Instant};
-use tracing::{error, info};
+use tracing::info;
 
 #[derive(Parser, Debug)]
 #[command(
@@ -239,7 +239,7 @@ async fn main() -> Result<()> {
                 &deduplicated,
                 &source_stats,
                 &lang_classifier,
-                &*geo_manager,
+                &geo_manager,
                 &config,
             )
             .await?;
@@ -289,7 +289,7 @@ fn print_summary(
         *countries.entry(ch.country.clone()).or_insert(0) += 1;
     }
     let mut sorted_countries: Vec<_> = countries.into_iter().collect();
-    sorted_countries.sort_by(|a, b| b.1.cmp(&a.1));
+    sorted_countries.sort_by_key(|a| std::cmp::Reverse(a.1));
     for (country, count) in sorted_countries.iter().take(20) {
         println!("  {}: {}", country, count);
     }

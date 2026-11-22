@@ -301,10 +301,7 @@ fn valid_name(name: &str) -> bool {
     let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
     let re_generic =
         regex::Regex::new(r"^(channel|stream|live|index|master|playlist|tracks)\s*\d*$").unwrap();
-    if re_hex.is_match(low) || re_generic.is_match(low) {
-        return false;
-    }
-    true
+    !re_hex.is_match(low) && !re_generic.is_match(low)
 }
 
 fn humanize_url(url: &str) -> String {
@@ -342,6 +339,8 @@ fn humanize_url(url: &str) -> String {
         "tracks-v1a1",
     ];
 
+    let re_hex = regex::Regex::new(r"^[a-f0-9]{12,}$").unwrap();
+
     for part in parts.iter().rev() {
         if part.is_empty() {
             continue;
@@ -354,12 +353,7 @@ fn humanize_url(url: &str) -> String {
             }
         }
         let low = stem.to_lowercase();
-        if generic_parts.contains(&low.as_str())
-            || stem.len() < 2
-            || regex::Regex::new(r"^[a-f0-9]{12,}$")
-                .unwrap()
-                .is_match(&low)
-        {
+        if generic_parts.contains(&low.as_str()) || stem.len() < 2 || re_hex.is_match(&low) {
             continue;
         }
         let word = stem.replace(['_', '-'], " ").trim().to_string();
