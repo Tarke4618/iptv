@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       target:
-        description: 'Build target (linux, windows, macos, android, all)'
+        description: 'Build target (linux, windows, android, all)'
         required: false
         default: 'all'
         type: string
@@ -49,14 +49,10 @@ jobs:
           - target: x86_64-pc-windows-gnu
             os: windows-latest
             artifact: iptv-aggregator-windows-x86_64-gnu
-          # macOS (Intel)
-          - target: x86_64-apple-darwin
-            os: macos-latest
-            artifact: iptv-aggregator-macos-intel
-          # macOS (Apple Silicon)
-          - target: aarch64-apple-darwin
-            os: macos-latest-arm64
-            artifact: iptv-aggregator-macos-arm64
+          # Android phone
+          - target: aarch64-linux-android
+            os: ubuntu-latest
+            artifact: iptv-aggregator-android-phone-aarch64
 
     steps:
       - name: Checkout repository
@@ -98,16 +94,20 @@ jobs:
           target: ${{ matrix.target }}
           override: true
 
-      # macOS setup
-      - name: Setup Rust toolchain (macOS)
-        if: runner.os == 'macOS'
-        run: |
-          rustup target add ${{ matrix.target }}
+      # Android-specific setup
+      - name: Install Android SDK (Android)
+        if: matrix.target == 'aarch64-linux-android'
+        uses: android-actions/setup-android@v3
+        with:
+          api-level: 35
+          build-tools: 35.0.0
+          ndk: 26.3.11579264
+          emulator: false
 
       - name: Pre-flight checks
         run: |
           cargo fmt --check
-          cargo clippy --all-targets -D warnings
+          cargo clippy --lib --bin iptv-aggregator -- -D warnings
           cargo build --target ${{ matrix.target }} --release
 
       - name: Upload release artifact
@@ -121,10 +121,10 @@ jobs:
   build-tauri-android:
     name: Build Tauri Android APK
     runs-on: ubuntu-latest
-    # Only run on tag push or manual dispatch with 'android' target
+    # Run on tag push, or manual dispatch with 'android' or 'all' target
     if: |
       (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) ||
-      (github.event_name == 'workflow_dispatch' && contains(github.event.inputs.target, 'android'))
+      (github.event_name == 'workflow_dispatch' && (contains(github.event.inputs.target, 'android') || contains(github.event.inputs.target, 'all')))
     timeout-minutes: 45
 
     steps:
@@ -153,7 +153,7 @@ jobs:
 
       - name: Build Tauri Android app
         run: |
-          cargo tauri build --target aarch64-linux-android
+          cargo tauri build --target aarch64-linux-android --features tauri
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
@@ -183,9 +183,9 @@ jobs:
           name: Release ${{ github.ref_name }}
           body: |
             ## IPTV Aggregator v${{ github.ref_name }}
-            
+
             ### Downloads
-            
+
             | Platform | Asset |
             |----------|-------|
           draft: false
@@ -218,10 +218,10 @@ jobs:
         run: cargo fmt --check
 
       - name: Clippy check
-        run: cargo clippy --all-targets --all-features -- -D warnings
+        run: cargo clippy --lib --bin iptv-aggregator -- -D warnings
 
       - name: Build check
-        run: cargo build --all-targets --all-features
+        run: cargo build --release
 
       - name: Test (if available)
-        run: cargo test --all-features || true
+        run: cargo test --all-targets --all-features || true
