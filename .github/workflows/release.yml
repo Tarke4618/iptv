@@ -153,6 +153,25 @@ jobs:
         with:
           path: artifacts
 
+      # Each matrix job uploads a file named iptv-aggregator(.exe);
+      # rename them to unique platform names so GitHub Release keeps all 5.
+      - name: Rename artifacts to unique names
+        shell: bash
+        run: |
+          cd artifacts
+          for d in */; do
+            name="${d%/}"
+            f=$(find "$d" -type f | head -n 1)
+            echo "Renaming $f -> $name"
+            if [[ "$f" == *.exe ]]; then
+              mv "$f" "${name}.exe"
+            else
+              mv "$f" "$name"
+            fi
+          done
+          echo "Files to upload:"
+          ls -la
+
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
