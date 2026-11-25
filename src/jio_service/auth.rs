@@ -2,9 +2,9 @@
 //!
 //! Handles OTP-based authentication and token management
 
-use anyhow::{anyhow, Result};
-use reqwest::{Client, Response};
+use anyhow::{Result, anyhow};
 use reqwest::header::{HeaderMap, HeaderName, HeaderValue};
+use reqwest::{Client, Response};
 use std::collections::HashMap;
 use std::sync::Arc;
 use std::time::Duration;
@@ -117,12 +117,7 @@ impl JioAuth {
     }
 
     /// Verify OTP
-    pub async fn verify_otp(
-        &self,
-        client: &Client,
-        session_id: &str,
-        otp: &str,
-    ) -> Result<()> {
+    pub async fn verify_otp(&self, client: &Client, session_id: &str, otp: &str) -> Result<()> {
         let resp: Response = client
             .post(format!("{}/v2/mnp/otp/verify", JIO_AUTH_URL))
             .json(&serde_json::json!({
@@ -139,7 +134,10 @@ impl JioAuth {
             return Err(anyhow!("OTP verification failed: HTTP {}", status));
         }
 
-        let cookies: Vec<String> = resp.cookies().map(|c| format!("{}={}", c.name(), c.value())).collect();
+        let cookies: Vec<String> = resp
+            .cookies()
+            .map(|c| format!("{}={}", c.name(), c.value()))
+            .collect();
         if !cookies.is_empty() {
             // Store session state
             let mut state = self.client_state.lock().await;
@@ -150,12 +148,7 @@ impl JioAuth {
     }
 
     /// Full OTP authentication flow
-    pub async fn authenticate_otp(
-        &self,
-        client: &Client,
-        mobile: &str,
-        otp: &str,
-    ) -> Result<()> {
+    pub async fn authenticate_otp(&self, client: &Client, mobile: &str, otp: &str) -> Result<()> {
         let session_id = self.send_otp(client, mobile).await?;
         self.verify_otp(client, &session_id, otp).await?;
 
@@ -195,7 +188,10 @@ impl JioAuth {
             headers.insert("Cookie", c);
         }
 
-        headers.insert("User-Agent", "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36");
+        headers.insert(
+            "User-Agent",
+            "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36",
+        );
         headers
     }
 

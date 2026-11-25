@@ -118,10 +118,14 @@ impl Channel {
         if other.height > self.height {
             self.height = other.height;
         }
-        if let Some(ref other_logo) = other.logo_url && self.logo_url.is_none() {
+        if let Some(ref other_logo) = other.logo_url
+            && self.logo_url.is_none()
+        {
             self.logo_url = Some(other_logo.clone());
         }
-        if let Some(ref other_group) = other.group && self.group.is_none() {
+        if let Some(ref other_group) = other.group
+            && self.group.is_none()
+        {
             self.group = Some(other_group.clone());
         }
         if self.is_drm.is_none() {
@@ -133,7 +137,13 @@ impl Channel {
         if self.epg_id.is_none() {
             self.epg_id = other.epg_id.clone();
         }
-        if self.categories.is_none() && other.categories.as_ref().map(|c| !c.is_empty()).unwrap_or(false) {
+        if self.categories.is_none()
+            && other
+                .categories
+                .as_ref()
+                .map(|c| !c.is_empty())
+                .unwrap_or(false)
+        {
             self.categories = other.categories.clone();
         }
         if self.quality.is_none() {

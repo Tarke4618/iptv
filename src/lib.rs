@@ -27,9 +27,11 @@ pub use health_cache::HealthCache;
 pub use iptv_org::IPTVOrgCatalog;
 pub use language_classifier::LanguageClassifier;
 pub use m3u_parser::M3UParser;
-pub use models::{Channel, AudioTrack, SourceStat};
+pub use models::{AudioTrack, Channel, SourceStat};
 pub use playlist_writer::PlaylistWriter;
-pub use sources::{GithubSource, HttpSource, SourceRegistry, SourceCategory, SourceQuery, ChannelSource};
+pub use sources::{
+    ChannelSource, GithubSource, HttpSource, SourceCategory, SourceQuery, SourceRegistry,
+};
 pub use stream_verifier::StreamVerifier;
 
 use anyhow::Result;
@@ -60,14 +62,18 @@ pub async fn build_playlist(
     info!("Loading IPTV-org catalog...");
     let catalog = match IPTVOrgCatalog::fetch().await {
         Ok(c) => {
-            info!("Catalog loaded: {} channels, {} logos", c.channels.len(), c.logos.len());
+            info!(
+                "Catalog loaded: {} channels, {} logos",
+                c.channels.len(),
+                c.logos.len()
+            );
             c
         }
         Err(e) => {
             tracing::warn!("Failed to load IPTV-org catalog: {}", e);
-            IPTVOrgCatalog { 
-                channels: HashMap::new(), 
-                logos: HashMap::new() 
+            IPTVOrgCatalog {
+                channels: HashMap::new(),
+                logos: HashMap::new(),
             }
         }
     };
@@ -134,7 +140,11 @@ pub async fn build_playlist(
         }
         filtered_channels.push(ch.clone());
     }
-    info!("Filtered {} channels ({} skipped from health cache)", filtered_channels.len(), skipped_cached);
+    info!(
+        "Filtered {} channels ({} skipped from health cache)",
+        filtered_channels.len(),
+        skipped_cached
+    );
 
     // Step 4: Verify streams if requested
     let verified_channels = if verify_streams {
@@ -145,7 +155,10 @@ pub async fn build_playlist(
     } else {
         filtered_channels
     };
-    info!("Verification complete: {} live channels", verified_channels.len());
+    info!(
+        "Verification complete: {} live channels",
+        verified_channels.len()
+    );
 
     // Update stats
     for ch in &verified_channels {

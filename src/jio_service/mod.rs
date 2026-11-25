@@ -3,11 +3,11 @@
 //! Provides OTP-based authentication, token management, and stream proxy
 //! for JioTV and related Jio services (JioCinema, JioNews, etc.)
 
-use anyhow::{anyhow, Result};
+use anyhow::{Result, anyhow};
 use async_trait::async_trait;
 use chrono::{DateTime, Utc};
-use reqwest::{Client, Response, StatusCode};
 use reqwest::header::HeaderMap;
+use reqwest::{Client, Response, StatusCode};
 use serde::{Deserialize, Serialize};
 use std::sync::{Arc, Mutex};
 use std::time::Duration;
@@ -76,7 +76,7 @@ impl JioTvService {
         let auth = self.auth.write().await;
         auth.authenticate_otp(&self.client, mobile, otp).await?;
         drop(auth);
-        
+
         self.refresh_tokens().await?;
         Ok(())
     }
@@ -84,7 +84,7 @@ impl JioTvService {
     /// Refresh authentication tokens
     pub async fn refresh_tokens(&self) -> Result<()> {
         let mut tokens = self.tokens.write().await;
-        
+
         // Try to refresh existing token
         if let Some(ref refresh_token) = tokens.refresh_token
             && let Ok(new_tokens) = self
@@ -101,7 +101,8 @@ impl JioTvService {
         {
             let json: JioTokenResponse = new_tokens.json().await?;
             tokens.access_token = Some(json.access_token);
-            tokens.expires_at = Some(Utc::now() + chrono::Duration::seconds(json.expires_in as i64));
+            tokens.expires_at =
+                Some(Utc::now() + chrono::Duration::seconds(json.expires_in as i64));
             return Ok(());
         }
 
@@ -109,8 +110,9 @@ impl JioTvService {
         let auth = self.auth.read().await;
         let headers = auth.get_headers().await;
         let header_map: HeaderMap = headers.into();
-        
-        let channel_resp: Response = self.client
+
+        let channel_resp: Response = self
+            .client
             .get("https://www.jio.com/api/v1/channel/token")
             .headers(header_map)
             .send()
@@ -125,14 +127,17 @@ impl JioTvService {
             }
             Ok(())
         } else {
-            Err(anyhow!("Failed to get channel token: {}", channel_resp.status()))
+            Err(anyhow!(
+                "Failed to get channel token: {}",
+                channel_resp.status()
+            ))
         }
     }
 
     /// Get valid auth headers for requests
     pub async fn get_auth_headers(&self) -> AuthHeaders {
         let tokens = self.tokens.read().await;
-        
+
         // Check if we need to refresh
         if tokens.should_refresh() {
             drop(tokens);
@@ -152,8 +157,9 @@ impl JioTvService {
     pub async fn fetch_channels(&self) -> Result<Vec<Channel>> {
         let headers = self.get_auth_headers().await;
         let header_map: HeaderMap = headers.into();
-        
-        let resp: Response = self.client
+
+        let resp: Response = self
+            .client
             .get("https://www.jio.com/api/v1/listings/channels")
             .headers(header_map)
             .send()
@@ -164,18 +170,22 @@ impl JioTvService {
             self.refresh_tokens().await?;
             let headers = self.get_auth_headers().await;
             let header_map: HeaderMap = headers.into();
-            
+
             // Retry with new headers
-            let retry_resp: Response = self.client
+            let retry_resp: Response = self
+                .client
                 .get("https://www.jio.com/api/v1/listings/channels")
                 .headers(header_map)
                 .send()
                 .await?;
-            
+
             if !retry_resp.status().is_success() {
-                return Err(anyhow!("Failed to fetch channels after refresh: {}", retry_resp.status()));
+                return Err(anyhow!(
+                    "Failed to fetch channels after refresh: {}",
+                    retry_resp.status()
+                ));
             }
-            
+
             let json: serde_json::Value = retry_resp.json().await?;
             return self.parse_channels(json);
         }
@@ -190,7 +200,7 @@ impl JioTvService {
 
     fn parse_channels(&self, json: serde_json::Value) -> Result<Vec<Channel>> {
         let mut channels = Vec::new();
-        
+
         if let Some(categories) = json.get("categories").and_then(|c| c.as_array()) {
             for cat in categories {
                 if let Some(channels_arr) = cat.get("channels").and_then(|c| c.as_array()) {
@@ -293,7 +303,10 @@ impl JioTvSource {
     pub fn login_otp(&self, _mobile: &str, _otp: &str) -> Result<()> {
         // In a real implementation, this would spawn a task or use interior mutability
         // For now, we just set the flag
-        let mut auth = self.authenticated.lock().map_err(|e| anyhow!("Lock error: {}", e))?;
+        let mut auth = self
+            .authenticated
+            .lock()
+            .map_err(|e| anyhow!("Lock error: {}", e))?;
         *auth = true;
         Ok(())
     }
@@ -340,7 +353,11 @@ impl ChannelSource for JioTvSource {
             last_checked: None,
             channel_count: None,
             rating: None,
-            tags: vec!["india".to_string(), "hindi".to_string(), "live-tv".to_string()],
+            tags: vec![
+                "india".to_string(),
+                "hindi".to_string(),
+                "live-tv".to_string(),
+            ],
         }
     }
 

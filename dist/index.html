@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPTV Aggregator</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #0d1117;
+            --panel: #161b22;
+            --border: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --success: #3fb950;
+            --danger: #f85149;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .badge {
+            font-size: 0.7rem;
+            font-weight: 500;
+            padding: 0.2rem 0.5rem;
+            border-radius: 999px;
+            background: rgba(88, 166, 255, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(88, 166, 255, 0.3);
+        }
+        .version { font-size: 0.85rem; color: var(--muted); }
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .card h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        .card p.hint {
+            font-size: 0.85rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        button {
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.6rem 1.1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #21262d;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        button:hover:not(:disabled) {
+            background: #30363d;
+            border-color: var(--muted);
+        }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+        button.primary {
+            background: var(--accent);
+            color: #0d1117;
+            border-color: var(--accent);
+        }
+        button.primary:hover:not(:disabled) {
+            background: var(--accent-hover);
+            border-color: var(--accent-hover);
+        }
+        input[type="text"] {
+            flex: 1;
+            min-width: 200px;
+            font-family: inherit;
+            font-size: 0.9rem;
+            padding: 0.6rem 0.8rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #0d1117;
+            color: var(--text);
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        #log {
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            background: #0d1117;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            min-height: 120px;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            color: var(--muted);
+        }
+        #log .ok { color: var(--success); }
+        #log .err { color: var(--danger); }
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--muted);
+        }
+        .dot.busy { background: var(--accent); animation: pulse 1s infinite; }
+        .dot.ok { background: var(--success); }
+        .dot.error { background: var(--danger); }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>IPTV Aggregator <span class="badge">Rust v5</span></h1>
+                <p class="hint" style="margin-top:0.35rem;">Multi-source global IPTV playlist builder</p>
+            </div>
+            <div class="version" id="version">v1.0.0</div>
+        </header>
+
+        <div class="card">
+            <h2>Build Playlist</h2>
+            <p class="hint">Generate an aggregated M3U playlist from all configured sources. The result is written to the <code>playlists/</code> directory.</p>
+            <div class="row">
+                <button class="primary" id="btn-build">Build Playlist</button>
+                <button id="btn-sources">Discover Sources</button>
+            </div>
+            <div class="status">
+                <span class="dot" id="dot"></span>
+                <span id="status-text">Idle</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Console Output</h2>
+            <div id="log">Ready.</div>
+        </div>
+    </div>
+
+    <script>
+        const logEl = document.getElementById('log');
+        const dot = document.getElementById('dot');
+        const statusText = document.getElementById('status-text');
+        const btnBuild = document.getElementById('btn-build');
+        const btnSources = document.getElementById('btn-sources');
+        const versionEl = document.getElementById('version');
+
+        function log(msg, cls) {
+            const line = document.createElement('div');
+            if (cls) line.className = cls;
+            const time = new Date().toLocaleTimeString();
+            line.textContent = `[${time}] ${msg}`;
+            logEl.appendChild(line);
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        function setStatus(state, text) {
+            dot.className = 'dot ' + (state || '');
+            statusText.textContent = text;
+        }
+
+        const hasTauri = !!(window.__TAURI__ && window.__TAURI__.core);
+
+        async function invoke(cmd, args) {
+            if (!hasTauri) {
+                throw new Error('Tauri runtime not detected. This page must run inside the app.');
+            }
+            return window.__TAURI__.core.invoke(cmd, args);
+        }
+
+        btnBuild.addEventListener('click', async () => {
+            btnBuild.disabled = true;
+            btnSources.disabled = true;
+            setStatus('busy', 'Building playlist…');
+            log('Starting playlist build…');
+            try {
+                const result = await invoke('build_playlist_cmd');
+                log(result, 'ok');
+                setStatus('ok', 'Build complete');
+            } catch (err) {
+                log('Build failed: ' + err, 'err');
+                setStatus('error', 'Build failed');
+            } finally {
+                btnBuild.disabled = false;
+                btnSources.disabled = false;
+            }
+        });
+
+        btnSources.addEventListener('click', async () => {
+            btnBuild.disabled = true;
+            btnSources.disabled = true;
+            setStatus('busy', 'Discovering sources…');
+            log('Discovering M3U sources…');
+            try {
+                const result = await invoke('refresh_sources');
+                log(result, 'ok');
+                setStatus('ok', 'Discovery complete');
+            } catch (err) {
+                log('Discovery failed: ' + err, 'err');
+                setStatus('error', 'Discovery failed');
+            } finally {
+                btnBuild.disabled = false;
+                btnSources.disabled = false;
+            }
+        });
+
+        (async () => {
+            try {
+                const v = await invoke('get_app_version');
+                versionEl.textContent = 'v' + v;
+            } catch (_) { /* running in plain browser */ }
+        })();
+    </script>
+</body>
+</html>

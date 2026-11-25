@@ -3,9 +3,8 @@
 //! Automated Multi-Source Global IPTV Aggregator for IPTVnator, VLC, MPV, Kodi
 
 use iptv_aggregator::{
-    Config, HealthCache, StreamVerifier, Channel, SourceStat,
-    Deduplicator, EjaTvCrawler, GeoBlockedManager, IPTVOrgCatalog, LanguageClassifier,
-    M3UParser, PlaylistWriter,
+    Channel, Config, Deduplicator, EjaTvCrawler, GeoBlockedManager, HealthCache, IPTVOrgCatalog,
+    LanguageClassifier, M3UParser, PlaylistWriter, SourceStat, StreamVerifier,
 };
 
 #[global_allocator]

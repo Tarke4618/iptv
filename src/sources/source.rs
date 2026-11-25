@@ -160,26 +160,28 @@ impl SourceRegistry {
             .filter(|m| {
                 // Check region
                 if let Some(ref region) = filters.region
-                    && m.region.as_ref().map(|r| r != region).unwrap_or(true) {
+                    && m.region.as_ref().map(|r| r != region).unwrap_or(true)
+                {
                     return false;
                 }
                 // Check language
                 if let Some(ref language) = filters.language
-                    && m.language.as_ref().map(|l| l != language).unwrap_or(true) {
+                    && m.language.as_ref().map(|l| l != language).unwrap_or(true)
+                {
                     return false;
                 }
                 // Check categories
-                if !filters.categories.is_empty()
-                    && !filters.categories.contains(&m.category) {
+                if !filters.categories.is_empty() && !filters.categories.contains(&m.category) {
                     return false;
                 }
                 // Check min channels
                 if let Some(min) = filters.min_channels
-                    && m.channel_count.unwrap_or(0) < min {
+                    && m.channel_count.unwrap_or(0) < min
+                {
                     return false;
                 }
                 // Check exclude tags - exclude if any matching tag is found
-                !(filters.exclude_tags.is_empty() 
+                !(filters.exclude_tags.is_empty()
                     || !filters.exclude_tags.iter().any(|t| m.tags.contains(t)))
             })
             .cloned()
@@ -189,7 +191,7 @@ impl SourceRegistry {
     #[allow(clippy::await_holding_lock)]
     pub async fn fetch_all_channels(&self, _filters: Option<SourceQuery>) -> Result<Vec<Channel>> {
         let mut all_channels = Vec::new();
-        
+
         let sources = self.sources.lock().unwrap();
         for (id, source) in sources.iter() {
             debug!("Fetching from source: {}", id);
@@ -211,7 +213,7 @@ impl SourceRegistry {
     #[allow(clippy::await_holding_lock)]
     pub async fn refresh_health(&self) -> Result<()> {
         let sources = self.sources.lock().unwrap();
-        
+
         for (id, source) in sources.iter() {
             let alive = source.is_alive().await;
             debug!("Source {} is {}", id, if alive { "alive" } else { "dead" });

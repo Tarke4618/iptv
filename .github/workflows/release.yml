@@ -39,20 +39,25 @@ jobs:
           - target: x86_64-unknown-linux-gnu
             os: ubuntu-latest
             artifact: iptv-aggregator-linux-x86_64
+            ext: ''
           - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
             artifact: iptv-aggregator-linux-x86_64-musl
+            ext: ''
           # Windows
           - target: x86_64-pc-windows-msvc
             os: windows-latest
             artifact: iptv-aggregator-windows-x86_64
+            ext: '.exe'
           - target: x86_64-pc-windows-gnu
             os: windows-latest
             artifact: iptv-aggregator-windows-x86_64-gnu
-          # Android phone
+            ext: '.exe'
+          # Android phone (ARM64)
           - target: aarch64-linux-android
             os: ubuntu-latest
             artifact: iptv-aggregator-android-phone-aarch64
+            ext: ''
 
     steps:
       - name: Checkout repository
@@ -99,9 +104,13 @@ jobs:
         if: matrix.target == 'aarch64-linux-android'
         uses: android-actions/setup-android@v3
         with:
-          api-level: 35
-          build-tools: 35.0.0
-          ndk: 26.3.11579264
+          api-level: 34
+          build-tools: 34.0.0
+          packages: |
+            platform-tools
+            platforms;android-34
+            build-tools;34.0.0
+            cmdline-tools;latest
           emulator: false
 
       - name: Pre-flight checks
@@ -114,7 +123,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.artifact }}
-          path: target/${{ matrix.target }}/release/iptv-aggregator
+          path: target/${{ matrix.target }}/release/iptv-aggregator${{ matrix.ext }}
           if-no-files-found: error
           retention-days: 7
 
@@ -140,9 +149,13 @@ jobs:
       - name: Install Android SDK
         uses: android-actions/setup-android@v3
         with:
-          api-level: 35
-          build-tools: 35.0.0
-          ndk: 26.3.11579264
+          api-level: 34
+          build-tools: 34.0.0
+          packages: |
+            platform-tools
+            platforms;android-34
+            build-tools;34.0.0
+            cmdline-tools;latest
           emulator: false
 
       - name: Install Tauri dependencies

@@ -3,28 +3,28 @@
 //! Cross-platform IPTV Aggregator App for Android, iOS, Windows, macOS, Linux
 
 #![cfg_attr(
-  all(not(debug_assertions), target_os = "windows"),
-  windows_subsystem = "windows"
+    all(not(debug_assertions), target_os = "windows"),
+    windows_subsystem = "windows"
 )]
 
-use iptv_aggregator::{build_playlist, Config};
-use tauri::Manager;
+use iptv_aggregator::{Config, build_playlist};
 use std::time::Duration;
+use tauri::Manager;
 
 #[tauri::command]
 async fn build_playlist_cmd(config_path: Option<String>) -> Result<String, String> {
     let config = match config_path {
-        Some(path) => Config::load(std::path::Path::new(&path)).await.map_err(|e| e.to_string())?,
-        None => Config::load(std::path::Path::new("config.json")).await.map_err(|e| e.to_string())?,
+        Some(path) => Config::load(std::path::Path::new(&path))
+            .await
+            .map_err(|e| e.to_string())?,
+        None => Config::load(std::path::Path::new("config.json"))
+            .await
+            .map_err(|e| e.to_string())?,
     };
 
-    let result = build_playlist(
-        config,
-        None,
-        true,
-        4,
-        Duration::from_secs(30),
-    ).await.map_err(|e| e.to_string())?;
+    let result = build_playlist(config, None, true, 4, Duration::from_secs(30))
+        .await
+        .map_err(|e| e.to_string())?;
 
     Ok(format!(
         "Build complete: {} channels in {:?}",

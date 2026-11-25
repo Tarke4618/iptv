@@ -3,8 +3,8 @@
 //! Handles stream proxying with per-request authentication headers
 
 use anyhow::Result;
-use reqwest::{Client, Response};
 use reqwest::header::HeaderMap;
+use reqwest::{Client, Response};
 use std::time::Duration;
 
 const STREAM_TIMEOUT: Duration = Duration::from_secs(10);
@@ -21,7 +21,8 @@ impl JioStreamProxy {
 
     /// Fetch stream with authentication headers
     pub async fn fetch_stream(&self, url: &str, headers: HeaderMap) -> Result<Vec<u8>> {
-        let bytes = self.client
+        let bytes = self
+            .client
             .get(url)
             .headers(headers)
             .timeout(STREAM_TIMEOUT)
@@ -29,19 +30,20 @@ impl JioStreamProxy {
             .await?
             .bytes()
             .await?;
-        
+
         Ok(bytes.to_vec())
     }
 
     /// Get stream response with authentication headers
     pub async fn stream_response(&self, url: &str, headers: HeaderMap) -> Result<Response> {
-        let resp = self.client
+        let resp = self
+            .client
             .get(url)
             .headers(headers)
             .timeout(STREAM_TIMEOUT)
             .send()
             .await?;
-        
+
         Ok(resp)
     }
 

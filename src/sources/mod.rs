@@ -1,5 +1,5 @@
 //! Dynamic Source Discovery Module
-//! 
+//!
 //! Provides auto-discovery, filtering and fetching of IPTV sources from
 //! multiple categories including public M3U lists, GitHub repositories,
 //! community collections, and authenticated geo-blocked channels.

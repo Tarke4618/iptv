@@ -1,11 +1,11 @@
 //! GitHub-sourced M3U Discovery
 
-use anyhow::{anyhow, Result};
+use anyhow::{Result, anyhow};
 use async_trait::async_trait;
 use regex::Regex;
 use tracing::{debug, info};
 
-use super::source::{ChannelSource, SourceMeta, SourceCategory};
+use super::source::{ChannelSource, SourceCategory, SourceMeta};
 use crate::models::Channel;
 
 /// GitHub-sourced IPTV list
@@ -19,8 +19,11 @@ pub struct GithubSource {
 impl GithubSource {
     pub fn new(owner: &str, repo: &str, path: &str, description: &str) -> Self {
         let id = format!("github-{}-{}", owner, repo);
-        let url = format!("https://raw.githubusercontent.com/{}/{}/{}", owner, repo, path);
-        
+        let url = format!(
+            "https://raw.githubusercontent.com/{}/{}/{}",
+            owner, repo, path
+        );
+
         let meta = SourceMeta {
             id: id.clone(),
             name: format!("{} - {}", owner, repo),
@@ -93,13 +96,17 @@ impl ChannelSource for GithubSource {
     async fn fetch_channels(&self) -> Result<Vec<Channel>> {
         // Fetch the raw content
         let resp = self.client.get(&self.meta.url).send().await?;
-        
+
         if !resp.status().is_success() {
-            return Err(anyhow!("GitHub {} returned HTTP {}", self.meta.url, resp.status()));
+            return Err(anyhow!(
+                "GitHub {} returned HTTP {}",
+                self.meta.url,
+                resp.status()
+            ));
         }
 
         let content = resp.text().await?;
-        
+
         if !Self::is_m3u(&content) {
             debug!("Skipping non-M3U file: {}", self.meta.url);
             return Ok(Vec::new());
@@ -107,7 +114,7 @@ impl ChannelSource for GithubSource {
 
         // Parse M3U content
         let channels = self.parse_m3u(&content)?;
-        
+
         info!("Fetched {} channels from {}", channels.len(), self.meta.url);
 
         Ok(channels)
@@ -129,23 +136,30 @@ impl GithubSource {
     /// Parse M3U playlist content
     fn parse_m3u(&self, content: &str) -> Result<Vec<Channel>> {
         let mut channels = Vec::new();
-        
+
         // Match #EXTINF lines and capture attributes
         let re = Regex::new(r"#EXTINF:([^,]+),([^#\n]+)([^#\r\n]*)#\s*(.+)$").unwrap();
         // Pre-compile attribute regex outside the loop
         let attr_re = Regex::new(r#"tvg-logo="([^"]+)"|group-title="([^"]+)""#).unwrap();
-        
+
         for line in content.lines() {
             let line = line.trim();
             if line.starts_with("#EXTINF:") {
                 if let Some(caps) = re.captures(line) {
-                    let _duration: f64 = caps.get(1).and_then(|m| m.as_str().parse().ok()).unwrap_or(0.0);
-                    let name = caps.get(2).map(|m| m.as_str().trim()).unwrap_or("Unknown").to_string();
-                    
+                    let _duration: f64 = caps
+                        .get(1)
+                        .and_then(|m| m.as_str().parse().ok())
+                        .unwrap_or(0.0);
+                    let name = caps
+                        .get(2)
+                        .map(|m| m.as_str().trim())
+                        .unwrap_or("Unknown")
+                        .to_string();
+
                     // Look for tvg-logo and group in the rest of the attributes
                     let mut logo_url = String::new();
                     let mut group = "Unknown".to_string();
-                    
+
                     for attr_match in attr_re.captures_iter(line) {
                         if let Some(logo) = attr_match.get(1) {
                             logo_url = logo.as_str().to_string();
@@ -247,13 +261,13 @@ impl ChannelSource for HttpSource {
 
     async fn fetch_channels(&self) -> Result<Vec<Channel>> {
         let resp = self.client.get(&self.meta.url).send().await?;
-        
+
         if !resp.status().is_success() {
             return Err(anyhow!("HTTP {} returned {}", self.meta.url, resp.status()));
         }
 
         let content = resp.text().await?;
-        
+
         // Parse based on content type
         if content.contains("#EXTM3U") || content.contains("#EXTINF") {
             self.parse_m3u(&content)
@@ -276,7 +290,7 @@ impl HttpSource {
         // Simplified M3U parsing
         let lines: Vec<&str> = content.lines().collect();
         let mut channels: Vec<Channel> = Vec::new();
-        
+
         for line in lines {
             if line.starts_with("#EXTINF:") {
                 // Extract channel info
