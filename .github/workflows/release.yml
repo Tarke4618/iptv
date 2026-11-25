@@ -133,6 +133,21 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Create tag for manual dispatch
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          TAG_NAME="v$(date +%Y%m%d-%H%M%S)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag "$TAG_NAME"
+          git push origin "$TAG_NAME"
+          echo "RELEASE_TAG=$TAG_NAME" >> $GITHUB_ENV
+
       - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
@@ -141,9 +156,10 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
-          name: Release ${{ github.ref_name }}
+          name: Release ${{ env.RELEASE_TAG || github.ref_name }}
+          tag_name: ${{ env.RELEASE_TAG || github.ref_name }}
           body: |
-            ## IPTV Aggregator v${{ github.ref_name }}
+            ## IPTV Aggregator v${{ env.RELEASE_TAG || github.ref_name }}
 
             ### Downloads
 
