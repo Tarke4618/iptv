@@ -127,8 +127,8 @@ jobs:
     name: Create GitHub Release
     needs: [build]
     runs-on: ubuntu-latest
-    # Only run on tag push
-    if: startsWith(github.ref, 'refs/tags/v')
+    # Run on tag push or manual dispatch
+    if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
 
@@ -160,8 +160,8 @@ jobs:
   verify-build:
     name: Verify Build Quality
     runs-on: ubuntu-latest
-    # Only run on PR
-    if: github.event_name == 'pull_request'
+    # Run on PR and manual dispatch
+    if: github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout repository
