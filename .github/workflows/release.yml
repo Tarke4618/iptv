@@ -88,13 +88,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libgtk-3-dev libayatana-appindicator3-dev libssl-dev pkg-config
 
-      # Musl-specific setup for Linux musl target
-      - name: Install musl tools (Linux musl)
-        if: matrix.target == 'x86_64-unknown-linux-musl'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y musl-tools musl-dev
-
       # Windows-specific setup
       - name: Setup Rust toolchain (Windows)
         if: runner.os == 'Windows'
@@ -129,54 +122,9 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
-  build-tauri-android:
-    name: Build Tauri Android APK
-    runs-on: ubuntu-latest
-    # Run on tag push, or manual dispatch with 'android' or 'all' target
-    if: |
-      (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) ||
-      (github.event_name == 'workflow_dispatch' && (contains(github.event.inputs.target, 'android') || contains(github.event.inputs.target, 'all')))
-    timeout-minutes: 45
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
-      - name: Set up Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
-        with:
-          toolchain: stable
-          targets: aarch64-linux-android
-
-      - name: Install Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          packages: |
-            platform-tools
-            platforms;android-34
-            build-tools;34.0.0
-            cmdline-tools;latest
-
-      - name: Install Tauri dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libgtk-3-dev libayatana-appindicator3-dev
-          cargo install tauri-cli
-
-      - name: Build Tauri Android app
-        run: |
-          cargo tauri build --target aarch64-linux-android --features tauri
-
-      - name: Upload APK artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: tauri-android-apk
-          path: src-tauri/target/*/release/bundle/*.apk
-          if-no-files-found: error
-
   release:
     name: Create GitHub Release
-    needs: [build, build-tauri-android]
+    needs: [build]
     runs-on: ubuntu-latest
     # Only run on tag push
     if: startsWith(github.ref, 'refs/tags/v')
