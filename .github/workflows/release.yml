@@ -58,11 +58,6 @@ jobs:
             os: macos-latest-arm64
             artifact: iptv-aggregator-macos-arm64
 
-    # Run on push (tag), PR, or schedule
-    if: |
-      github.event_name != 'workflow_dispatch' ||
-      contains(github.event.inputs.target, matrix.target.split('-')[0])
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -126,6 +121,7 @@ jobs:
   build-tauri-android:
     name: Build Tauri Android APK
     runs-on: ubuntu-latest
+    # Only run on tag push or manual dispatch with 'android' target
     if: |
       (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) ||
       (github.event_name == 'workflow_dispatch' && contains(github.event.inputs.target, 'android'))
@@ -170,6 +166,7 @@ jobs:
     name: Create GitHub Release
     needs: [build, build-tauri-android]
     runs-on: ubuntu-latest
+    # Only run on tag push
     if: startsWith(github.ref, 'refs/tags/v')
     permissions:
       contents: write
@@ -202,9 +199,8 @@ jobs:
   verify-build:
     name: Verify Build Quality
     runs-on: ubuntu-latest
-    if: |
-      github.event_name == 'pull_request' ||
-      (github.event_name == 'workflow_dispatch' && contains(github.event.inputs.target, 'linux'))
+    # Only run on PR
+    if: github.event_name == 'pull_request'
 
     steps:
       - name: Checkout repository
