@@ -81,9 +81,6 @@ jobs:
         with:
           key: "tauri-${{ matrix.target }}-${{ hashFiles('**/Cargo.lock') }}"
 
-      # Android-specific setup (CLI binary only - no SDK needed)
-      - name: Pre-flight checks
-
       # Linux-specific setup
       - name: Install build dependencies (Linux)
         if: runner.os == 'Linux'
