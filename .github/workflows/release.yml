@@ -97,17 +97,6 @@ jobs:
           target: ${{ matrix.target }}
           override: true
 
-      # Android-specific setup
-      - name: Install Android SDK (Android)
-        if: matrix.target == 'aarch64-linux-android'
-        uses: android-actions/setup-android@v3
-        with:
-          packages: |
-            platform-tools
-            platforms;android-34
-            build-tools;34.0.0
-            cmdline-tools;latest
-
       - name: Pre-flight checks
         run: |
           cargo fmt --check
