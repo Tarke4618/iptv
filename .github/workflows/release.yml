@@ -100,7 +100,9 @@ jobs:
       # Android setup: install cargo-ndk for automatic NDK toolchain configuration
       - name: Install cargo-ndk
         if: matrix.target == 'aarch64-linux-android'
-        uses: taiki-e/install-action@cargo-ndk
+        uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-ndk
 
       - name: Pre-flight checks
         run: |
