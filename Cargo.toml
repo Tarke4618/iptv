@@ -32,3 +32,10 @@ codegen-units = 1
 panic = "abort"
 strip = true
 opt-level = 3
+
+# Optimized profile for CI builds (faster compile time)
+[profile.dist]
+inherits = "release"
+lto = false
+codegen-units = 16
+opt-level = "z"

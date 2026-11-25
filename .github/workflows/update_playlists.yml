@@ -20,11 +20,13 @@ permissions:
 jobs:
   build-playlists:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Rust toolchain
         uses: dtolnay/rust-toolchain@stable
@@ -35,21 +37,33 @@ jobs:
       - name: Cache Rust dependencies
         uses: Swatinem/rust-cache@v2
         with:
-          key: "iptv-rust-v5"
+          key: "iptv-rust-v5-${{ hashFiles('**/Cargo.lock') }}"
+          restore-keys: |
+            iptv-rust-v5-
 
       - name: Pre-flight checks
         run: |
           jq empty config.json
           cargo fmt --check
           cargo clippy --all-targets --all-features -- -D warnings
-          cargo build --release
+          cargo build --profile dist
           echo "Build successful"
 
+      - name: Build release binary
+        run: |
+          cargo build --release
+          ls -la target/release/iptv-aggregator
+
       - name: Run Rust IPTV Aggregator
+        timeout-minutes: 45
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cargo run --release -- --config config.json
+          echo "Starting IPTV aggregator at $(date)"
+          set -x
+          ./target/release/iptv-aggregator --config config.json
+          set +x
+          echo "Aggregator completed at $(date)"
 
       - name: Validate playlists and generate Job Summary
         run: |
@@ -87,13 +101,23 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add playlists/ README.md cache/ playlists/index.json
-          if ! git diff --quiet || ! git diff --staged --quiet; then
-            git commit -m "Auto-update verified M3U playlists (Rust v5.0.0)"
-            for i in 1 2 3; do
-              git pull --rebase origin main && git push && break
-              echo "Push conflict, retrying ($i/3)..."
-              sleep 3
-            done
-          else
+          if git diff --quiet --staged; then
             echo "No playlist changes detected."
+          else
+            git commit -m "Auto-update verified M3U playlists (Rust v5.0.0)"
+            # Try push with retries
+            for i in 1 2 3 4 5; do
+              echo "Attempt $i to push..."
+              git fetch origin
+              if ! git diff --quiet HEAD~1..origin/main -- playlists/ README.md cache/ playlists/index.json 2>/dev/null; then
+                echo "Remote has different changes, pulling..."
+                git pull --rebase origin main
+              fi
+              if git push; then
+                echo "Push successful!"
+                break
+              fi
+              echo "Push failed, waiting ${i}0 seconds..."
+              sleep $((i * 10))
+            done
           fi
