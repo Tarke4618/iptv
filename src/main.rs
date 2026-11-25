@@ -1,26 +1,12 @@
-mod config;
-mod deduplicator;
-mod eja_tv;
-mod geo_blocked;
-mod health_cache;
-mod iptv_org;
-mod language_classifier;
-mod m3u_parser;
-mod models;
-mod playlist_writer;
-mod stream_verifier;
+//! IPTV Aggregator CLI Binary
+//!
+//! Automated Multi-Source Global IPTV Aggregator for IPTVnator, VLC, MPV, Kodi
 
-use config::Config;
-use deduplicator::Deduplicator;
-use eja_tv::EjaTvCrawler;
-use geo_blocked::GeoBlockedManager;
-use health_cache::HealthCache;
-use iptv_org::IPTVOrgCatalog;
-use language_classifier::LanguageClassifier;
-use m3u_parser::M3UParser;
-use models::{Channel, SourceStat};
-use playlist_writer::PlaylistWriter;
-use stream_verifier::StreamVerifier;
+use iptv_aggregator::{
+    Config, HealthCache, StreamVerifier, Channel, SourceStat,
+    Deduplicator, EjaTvCrawler, GeoBlockedManager, IPTVOrgCatalog, LanguageClassifier,
+    M3UParser, PlaylistWriter,
+};
 
 #[global_allocator]
 static GLOBAL: mimalloc::MiMalloc = mimalloc::MiMalloc;
@@ -74,7 +60,7 @@ async fn main() -> Result<()> {
     tracing_subscriber::fmt().with_env_filter(filter).init();
 
     let start_time = Instant::now();
-    info!("Starting IPTV Aggregator v5.0.0 (Rust Edition)");
+    info!("Starting IPTV Aggregator v1.0.0 (Rust Edition)");
 
     // Load configuration
     let config = Config::load(&args.config).await?;
@@ -88,12 +74,23 @@ async fn main() -> Result<()> {
 
     // Load IPTV-org catalog for EPG/logo enrichment
     info!("Loading IPTV-org catalog (channels + logos)...");
-    let catalog = IPTVOrgCatalog::fetch().await?;
-    info!(
-        "IPTV-org catalog loaded: {} channels, {} logos",
-        catalog.channels.len(),
-        catalog.logos.len()
-    );
+    let catalog = match IPTVOrgCatalog::fetch().await {
+        Ok(c) => {
+            info!(
+                "IPTV-org catalog loaded: {} channels, {} logos",
+                c.channels.len(),
+                c.logos.len()
+            );
+            c
+        }
+        Err(e) => {
+            tracing::warn!("Failed to load IPTV-org catalog: {}", e);
+            IPTVOrgCatalog {
+                channels: HashMap::new(),
+                logos: HashMap::new(),
+            }
+        }
+    };
 
     // Initialize language classifier
     let lang_classifier = LanguageClassifier::new(&catalog);
@@ -106,19 +103,11 @@ async fn main() -> Result<()> {
     let geo_manager = Arc::new(GeoBlockedManager::new("playlists/geoblocked").await?);
     info!("Geo-blocked manager initialized");
 
-    // Initialize EJA.tv crawler
+    // Initialize crawlers
     let eja_crawler = EjaTvCrawler::new(config.clone(), Arc::new(lang_classifier.clone()));
-
-    // Initialize M3U parser
     let m3u_parser = M3UParser::new(config.clone());
-
-    // Initialize stream verifier
     let verifier = StreamVerifier::new(max_workers, max_verify_seconds).await?;
-
-    // Initialize deduplicator
     let deduplicator = Deduplicator::new(config.deduplicate_channels);
-
-    // Initialize playlist writer
     let playlist_writer = PlaylistWriter::new(config.clone());
 
     // =====================================================================
@@ -269,7 +258,7 @@ fn print_summary(
     geo_manager: &GeoBlockedManager,
     elapsed: Duration,
 ) {
-    println!("\n=== IPTV Aggregator v5.0.0 Build Summary ===");
+    println!("\n=== IPTV Aggregator v1.0.0 Build Summary ===");
     println!("Build time: {:.2}s", elapsed.as_secs_f64());
     println!("Total unique live channels: {}", channels.len());
     println!();

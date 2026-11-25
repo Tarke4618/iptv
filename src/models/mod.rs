@@ -21,6 +21,27 @@ pub struct Channel {
     pub watch_url: String,
     pub is_master_m3u8: bool,
     pub audio_tracks: Vec<AudioTrack>,
+    // Additional metadata fields for extended functionality
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub logo_url: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub group: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub is_drm: Option<bool>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub channel_number: Option<u32>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub epg_id: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub categories: Option<Vec<String>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub quality: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub last_updated: Option<chrono::DateTime<chrono::Utc>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub verified_at: Option<chrono::DateTime<chrono::Utc>>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub verification_error: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -53,6 +74,16 @@ impl Channel {
             watch_url: String::new(),
             is_master_m3u8: true,
             audio_tracks: Vec::new(),
+            logo_url: None,
+            group: None,
+            is_drm: None,
+            channel_number: None,
+            epg_id: None,
+            categories: None,
+            quality: None,
+            last_updated: Some(chrono::Utc::now()),
+            verified_at: None,
+            verification_error: None,
         }
     }
 
@@ -86,6 +117,27 @@ impl Channel {
         }
         if other.height > self.height {
             self.height = other.height;
+        }
+        if let Some(ref other_logo) = other.logo_url && self.logo_url.is_none() {
+            self.logo_url = Some(other_logo.clone());
+        }
+        if let Some(ref other_group) = other.group && self.group.is_none() {
+            self.group = Some(other_group.clone());
+        }
+        if self.is_drm.is_none() {
+            self.is_drm = other.is_drm;
+        }
+        if self.channel_number.is_none() {
+            self.channel_number = other.channel_number;
+        }
+        if self.epg_id.is_none() {
+            self.epg_id = other.epg_id.clone();
+        }
+        if self.categories.is_none() && other.categories.as_ref().map(|c| !c.is_empty()).unwrap_or(false) {
+            self.categories = other.categories.clone();
+        }
+        if self.quality.is_none() {
+            self.quality = other.quality.clone();
         }
         if !other.audio_tracks.is_empty() {
             self.audio_tracks = other.audio_tracks.clone();
@@ -161,6 +213,7 @@ pub fn normalize_channel_key(name: &str) -> String {
 pub fn name_quality_score(name: &str) -> i32 {
     let mut score = 0;
     let lower = name.to_lowercase();
+    let low = lower.trim();
 
     // Prefer names with distinguishing tokens (News, Movies, HD, etc.)
     for token in [
@@ -189,13 +242,13 @@ pub fn name_quality_score(name: &str) -> i32 {
         "india",
         "bharat",
     ] {
-        if lower.contains(token) {
+        if low.contains(token) {
             score += 10;
         }
     }
 
     // Penalize generic names
-    if lower.contains("channel") || lower.contains("tv live") {
+    if low.contains("channel") || low.contains("tv live") {
         score -= 5;
     }
 

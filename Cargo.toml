@@ -1,6 +1,6 @@
 [package]
 name = "iptv-aggregator"
-version = "5.0.0"
+version = "1.0.0"
 edition = "2024"
 description = "Automated Multi-Source Global IPTV Aggregator for IPTVnator, VLC, MPV, Kodi"
 license = "MIT"
@@ -8,7 +8,7 @@ repository = "https://github.com/Tarke4618/iptv"
 
 [dependencies]
 tokio = { version = "1.42", features = ["full"] }
-reqwest = { version = "0.13", features = ["json", "gzip", "brotli", "rustls", "stream", "cookies"] }
+reqwest = { version = "0.13", features = ["json", "gzip", "brotli", "rustls", "stream", "cookies", "form"] }
 scraper = "0.27"
 regex = "1.10"
 serde = { version = "1.0", features = ["derive"] }
@@ -25,6 +25,28 @@ url = "2.5"
 base64 = "0.23"
 urlencoding = "2.1"
 mimalloc = "0.1"
+async-trait = "0.1"
+
+# Tauri dependencies for cross-platform app (optional feature)
+tauri = { version = "2.0.0-beta.7", optional = true }
+
+[features]
+default = []
+tauri = ["dep:tauri"]
+
+[lib]
+name = "iptv_aggregator"
+path = "src/lib.rs"
+
+[[bin]]
+name = "iptv-aggregator"
+path = "src/main.rs"
+required-features = []
+
+[[bin]]
+name = "iptv-app"
+path = "src-tauri/src/main.rs"
+required-features = ["tauri"]
 
 [profile.release]
 lto = true

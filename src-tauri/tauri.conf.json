@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tauri.app/schema/tauri.conf.json/2.0.0",
+  "package": {
+    "productName": "IPTV Aggregator",
+    "version": "1.0.0",
+    "description": "Automated Multi-Source Global IPTV Aggregator for IPTVnator, VLC, MPV, Kodi",
+    "authors": ["IPTV Aggregator Contributors"]
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "macOS": {
+      "entitlements": null,
+      "exceptionDomain": "localhost"
+    },
+    "windows": {
+      "compatibility": "6.1PT"
+    },
+    "linux": {
+      "distributor": "debian",
+      "frozen_attributes": true
+    },
+    "android": {
+      "allowlist": {
+        "all": true
+      },
+      "packaging": {
+        "activityConfig": {
+          "android:exported": true
+        }
+      }
+    }
+  },
+  "build": {
+    "distDir": "../dist",
+    "devPath": "http://localhost:5173"
+  }
+}

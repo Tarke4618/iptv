@@ -386,6 +386,16 @@ async fn crawl_task(
                     watch_url: String::new(),
                     is_master_m3u8: true,
                     audio_tracks: Vec::new(),
+                    logo_url: None,
+                    group: None,
+                    is_drm: None,
+                    channel_number: None,
+                    epg_id: None,
+                    categories: None,
+                    quality: None,
+                    last_updated: None,
+                    verified_at: None,
+                    verification_error: None,
                 },
             );
         }
@@ -489,6 +499,16 @@ async fn crawl_task(
                     watch_url: full_url.to_string(),
                     is_master_m3u8: true,
                     audio_tracks: Vec::new(),
+                    logo_url: None,
+                    group: None,
+                    is_drm: None,
+                    channel_number: None,
+                    epg_id: None,
+                    categories: None,
+                    quality: None,
+                    last_updated: None,
+                    verified_at: None,
+                    verification_error: None,
                 },
             );
             added += 1;

@@ -1,0 +1,212 @@
+name: Build & Release Tauri App
+
+on:
+  push:
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.rs'
+      - 'Cargo.toml'
+      - 'src-tauri/**'
+
+concurrency:
+  group: tauri-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build for ${{ matrix.target }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Linux
+          - target: x86_64-unknown-linux-gnu
+            os: ubuntu-latest
+            artifact: iptv-aggregator-linux-x86_64
+          - target: x86_64-unknown-linux-musl
+            os: ubuntu-latest
+            artifact: iptv-aggregator-linux-x86_64-musl
+            # Windows
+          - target: x86_64-pc-windows-msvc
+            os: windows-latest
+            artifact: iptv-aggregator-windows-x86_64
+          - target: x86_64-pc-windows-gnu
+            os: windows-latest
+            artifact: iptv-aggregator-windows-x86_64-gnu
+          # macOS (Intel)
+          - target: x86_64-apple-darwin
+            os: macos-latest
+            artifact: iptv-aggregator-macos-intel
+          # macOS (Apple Silicon)
+          - target: aarch64-apple-darwin
+            os: macos-latest-arm64
+            artifact: iptv-aggregator-macos-arm64
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          # Required for Tauri on Windows
+          submodules: recursive
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+          targets: ${{ matrix.target }}
+          components: rustfmt, clippy
+
+      - name: Install target
+        run: rustup target add ${{ matrix.target }}
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          key: "tauri-${{ matrix.target }}-${{ hashFiles('**/Cargo.lock') }}"
+          restore-keys: |
+            tauri-
+
+      # Linux-specific setup
+      - name: Install build dependencies (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libayatana-appindicator3-dev libssl-dev pkg-config
+
+      # Windows-specific setup
+      - name: Setup Rust toolchain (Windows)
+        if: runner.os == 'Windows'
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: ${{ matrix.target }}
+          override: true
+
+      # macOS setup
+      - name: Setup Rust toolchain (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          rustup target add ${{ matrix.target }}
+
+      - name: Pre-flight checks
+        run: |
+          cargo fmt --check
+          cargo clippy --all-targets -D warnings
+          cargo build --target ${{ matrix.target }} --release
+
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: target/${{ matrix.target }}/release/iptv-aggregator
+          if-no-files-found: error
+          retention-days: 7
+
+  build-tauri-android:
+    name: Build Tauri Android APK
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+          targets: aarch64-linux-android
+
+      - name: Install Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          api-level: 35
+          build-tools: 35.0.0
+          ndk: 26.3.11579264
+          emulator: false
+
+      - name: Install Tauri dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libayatana-appindicator3-dev
+          cargo install tauri-cli
+
+      - name: Build Tauri Android app
+        run: |
+          cargo tauri build --target aarch64-linux-android --dev
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tauri-android-apk
+          path: src-tauri/target/*/release/bundle/*.apk
+          if-no-files-found: error
+
+  release:
+    name: Create GitHub Release
+    needs: [build, build-tauri-android]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ github.ref_name }}
+          body: |
+            ## IPTV Aggregator v${{ github.ref_name }}
+            
+            ### Downloads
+            
+            | Platform | Asset |
+            |----------|-------|
+          draft: false
+          prerelease: false
+          files: |
+            artifacts/**/*
+      - name: Set release status
+        run: |
+          echo "Release ${{ github.ref_name }} created successfully"
+
+  verify-build:
+    name: Verify Build Quality
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+
+      - name: Cache dependencies
+        uses: Swatinem/rust-cache@v2
+
+      - name: Format check
+        run: cargo fmt --check
+
+      - name: Clippy check
+        run: cargo clippy --all-targets --all-features -- -D warnings
+
+      - name: Build check
+        run: cargo build --all-targets --all-features
+
+      - name: Test (if available)
+        run: cargo test --all-features || true

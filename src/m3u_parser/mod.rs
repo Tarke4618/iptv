@@ -149,6 +149,16 @@ impl M3UParser {
                     watch_url: String::new(),
                     is_master_m3u8: true,
                     audio_tracks: Vec::new(),
+                    logo_url: None,
+                    group: None,
+                    is_drm: None,
+                    channel_number: None,
+                    epg_id: None,
+                    categories: None,
+                    quality: None,
+                    last_updated: None,
+                    verified_at: None,
+                    verification_error: None,
                 });
             } else if line.starts_with("#EXTVLCOPT:") && current.is_some() {
                 let opt = line.strip_prefix("#EXTVLCOPT:").unwrap().trim();

@@ -1,3 +1,5 @@
+//! Geo-Blocked Channel Service
+
 use anyhow::Result;
 use dashmap::DashMap;
 use std::collections::HashMap;
