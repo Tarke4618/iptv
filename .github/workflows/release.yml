@@ -1,6 +1,19 @@
 name: Build & Release Tauri App
 
 on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Build target'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - linux
+          - windows
+          - macos
+          - android
   push:
     tags:
       - 'v*'
@@ -31,7 +44,7 @@ jobs:
           - target: x86_64-unknown-linux-musl
             os: ubuntu-latest
             artifact: iptv-aggregator-linux-x86_64-musl
-            # Windows
+          # Windows
           - target: x86_64-pc-windows-msvc
             os: windows-latest
             artifact: iptv-aggregator-windows-x86_64
@@ -46,6 +59,13 @@ jobs:
           - target: aarch64-apple-darwin
             os: macos-latest-arm64
             artifact: iptv-aggregator-macos-arm64
+
+    # Filter based on workflow_dispatch input
+    if: |
+      github.event_name != 'workflow_dispatch' ||
+      matrix.target != 'x86_64-pc-windows-msvc' ||
+      contains(fromJSON('["all", "linux", "windows"]'), github.event.inputs.target) ||
+      github.event.inputs.target == 'all'
 
     steps:
       - name: Checkout repository
@@ -104,14 +124,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.artifact }}
-          path: target/${{ matrix.target }}/release/iptv-aggregator
+          path: target/${{ matrix.target }}/release/iptv-aggregator*
           if-no-files-found: error
           retention-days: 7
 
   build-tauri-android:
     name: Build Tauri Android APK
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    if: |
+      (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) ||
+      (github.event_name == 'workflow_dispatch' && fromJSON('["all", "android"]').contains(github.event.inputs.target))
     timeout-minutes: 45
 
     steps:
@@ -185,7 +207,9 @@ jobs:
   verify-build:
     name: Verify Build Quality
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
+    if: |
+      github.event_name == 'pull_request' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'linux')
 
     steps:
       - name: Checkout repository
