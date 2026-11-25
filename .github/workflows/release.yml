@@ -161,13 +161,20 @@ jobs:
           cd artifacts
           for d in */; do
             name="${d%/}"
-            f=$(find "$d" -type f | head -n 1)
-            echo "Renaming $f -> $name"
-            if [[ "$f" == *.exe ]]; then
-              mv "$f" "${name}.exe"
+            # Find the binary file inside the artifact directory
+            file=$(find "$d" -maxdepth 1 -type f)
+            echo "Found: $file in $d"
+            # Determine extension based on filename
+            if [[ "$file" == *.exe ]]; then
+              newname="${name}.exe"
             else
-              mv "$f" "$name"
+              newname="$name"
             fi
+            # Move file from inside directory to parent, renaming in place
+            # Then remove the empty directory
+            mv "$file" "$d/../$newname"
+            rmdir "$d"
+            echo "Renamed to: $newname"
           done
           echo "Files to upload:"
           ls -la
