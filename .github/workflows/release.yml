@@ -161,7 +161,6 @@ jobs:
           cd artifacts
           for d in */; do
             name="${d%/}"
-            # Find the binary file inside the artifact directory
             file=$(find "$d" -maxdepth 1 -type f)
             echo "Found: $file in $d"
             # Determine extension based on filename
@@ -170,10 +169,11 @@ jobs:
             else
               newname="$name"
             fi
-            # Move file from inside directory to parent, renaming in place
-            # Then remove the empty directory
-            mv "$file" "$d/../$newname"
+            # Move file to temp, remove empty directory, move back
+            tmp="/tmp/$(basename "$file")_$$"
+            mv "$file" "$tmp"
             rmdir "$d"
+            mv "$tmp" "$newname"
             echo "Renamed to: $newname"
           done
           echo "Files to upload:"
