@@ -24,14 +24,16 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 url = "2.5"
 base64 = "0.23"
 urlencoding = "2.1"
-mimalloc = "0.1"
+# mimalloc is optional because it requires a C compiler (not available for Android cross-compilation)
+mimalloc = { version = "0.1", optional = true }
 async-trait = "0.1"
 
 # Tauri dependencies for cross-platform app (optional feature)
 tauri = { version = "2.0.0-beta.7", optional = true }
 
 [features]
-default = []
+default = ["mimalloc"]
+mimalloc = ["dep:mimalloc"]
 tauri = ["dep:tauri"]
 
 [lib]

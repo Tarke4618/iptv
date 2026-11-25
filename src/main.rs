@@ -7,6 +7,7 @@ use iptv_aggregator::{
     LanguageClassifier, M3UParser, PlaylistWriter, SourceStat, StreamVerifier,
 };
 
+#[cfg(feature = "mimalloc")]
 #[global_allocator]
 static GLOBAL: mimalloc::MiMalloc = mimalloc::MiMalloc;
 

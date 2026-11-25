@@ -81,34 +81,8 @@ jobs:
         with:
           key: "tauri-${{ matrix.target }}-${{ hashFiles('**/Cargo.lock') }}"
 
-      # Android-specific setup (NDK for cross-compilation)
-      - name: Install Android NDK (Android)
-        if: matrix.target == 'aarch64-linux-android'
-        run: |
-          set -euxo pipefail
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq unzip wget
-          NDK_VERSION="r26b"
-          NDK_DIR="$HOME/android-ndk-${NDK_VERSION}"
-          echo "Downloading Android NDK ${NDK_VERSION}..."
-          wget "https://dl.google.com/android/repository/android-ndk-${NDK_VERSION}-linux.zip" -O /tmp/ndk.zip
-          echo "Extracting NDK to $HOME..."
-          unzip -q /tmp/ndk.zip -d $HOME
-          rm -f /tmp/ndk.zip
-          # Verify the clang linker exists before proceeding
-          LINKER="${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android34-clang"
-          echo "Verifying linker: $LINKER"
-          ls -la "$LINKER"
-          # Configure Cargo linker for Android cross-compilation
-          echo "ANDROID_NDK_HOME=${NDK_DIR}" >> $GITHUB_ENV
-          echo "ANDROID_HOME=${NDK_DIR}" >> $GITHUB_ENV
-          mkdir -p .cargo
-          cat > .cargo/config.toml << EOF
-          [target.aarch64-linux-android]
-          linker = "${LINKER}"
-          ar = "${NDK_DIR}/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
-          EOF
-          echo "Android NDK configured successfully"
+      # Android-specific setup (CLI binary only - no SDK needed)
+      - name: Pre-flight checks
 
       # Linux-specific setup
       - name: Install build dependencies (Linux)
