@@ -97,11 +97,20 @@ jobs:
           target: ${{ matrix.target }}
           override: true
 
+      # Android setup: install cargo-ndk for automatic NDK toolchain configuration
+      - name: Install cargo-ndk
+        if: matrix.target == 'aarch64-linux-android'
+        uses: taiki-e/install-action@cargo-ndk
+
       - name: Pre-flight checks
         run: |
           cargo fmt --check
           cargo clippy --lib --bin iptv-aggregator -- -D warnings
-          cargo build --target ${{ matrix.target }} --release
+          if [ "${{ matrix.target }}" = "aarch64-linux-android" ]; then
+            cargo ndk -t arm64-v8a build --release
+          else
+            cargo build --target ${{ matrix.target }} --release
+          fi
 
       - name: Upload release artifact
         uses: actions/upload-artifact@v4
