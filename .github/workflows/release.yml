@@ -105,6 +105,7 @@ jobs:
           tool: cargo-ndk
 
       - name: Pre-flight checks
+        shell: bash
         run: |
           cargo fmt --check
           cargo clippy --lib --bin iptv-aggregator -- -D warnings
